@@ -2,7 +2,7 @@
 
 # Folder structure:
 # /atmosphere
-#   /contents/0100000011D90000
+#   /contents/0100A6301214E000
 #     /exefs
 #       subsdk1
 #     /romfs
@@ -13,8 +13,8 @@
 release_target(
         atmosphere
         "/atmosphere/exefs_patches/${CMAKE_PROJECT_NAME}/"
-        /atmosphere/contents/0100000011D90000/exefs/
-        /atmosphere/contents/0100000011D90000/romfs/
+        /atmosphere/contents/0100A6301214E000/exefs/
+        /atmosphere/contents/0100A6301214E000/romfs/
 )
 zip_target(atmosphere)
 ftp_target(atmosphere)

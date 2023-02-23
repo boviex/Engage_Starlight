@@ -1,7 +1,7 @@
 # Target: Ryujinx
 
 # Folder structure:
-# /mods/contents/0100000011D90000/${CMAKE_PROJECT_NAME}
+# /mods/contents/0100A6301214E000/${CMAKE_PROJECT_NAME}
 #   /exefs
 #     subsdk1
 #     *.ips
@@ -10,8 +10,8 @@
 
 release_target(
         ryujinx
-        "/mods/contents/0100000011D90000/${CMAKE_PROJECT_NAME}/exefs/"
-        "/mods/contents/0100000011D90000/${CMAKE_PROJECT_NAME}/exefs/"
-        "/mods/contents/0100000011D90000/${CMAKE_PROJECT_NAME}/romfs/"
+        "/mods/contents/0100A6301214E000/${CMAKE_PROJECT_NAME}/exefs/"
+        "/mods/contents/0100A6301214E000/${CMAKE_PROJECT_NAME}/exefs/"
+        "/mods/contents/0100A6301214E000/${CMAKE_PROJECT_NAME}/romfs/"
 )
 zip_target(ryujinx)
