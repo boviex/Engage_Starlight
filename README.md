@@ -1,7 +1,9 @@
-# Starlight - BDSP 
+# Starlight - FE Engage 
 
 This repository contains a fork of [Starlight](https://github.com/shadowninja108/Starlight), a switch modding template,
-based on [Dialga](https://github.com/CraftyBoss/Dialga). 
+based on [BDSP](https://github.com/Martmists-GH/BDSP). 
+
+---
 
 It has been modified to use CMake and supports importing in CLion.
 Additionally, it has tasks to easily integrate with [SimpleModManager](https://github.com/nadrino/SimpleModManager),
