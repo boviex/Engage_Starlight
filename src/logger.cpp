@@ -1,7 +1,7 @@
 #include "logger.hpp"
 
 #define	MSG_DONTWAIT	 0x00000080
-
+ 
 // ---------------------------- Socket Setup
 
 enum SocketLogState
@@ -89,5 +89,5 @@ void socket_log_initialize() {
 
 int tryInitSocket() {
     socket_log_initialize();
-    return 0;
+    return 1;
 }
