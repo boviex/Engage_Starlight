@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_RijndaelManaged___ctor (System_Security_Cryptography_RijndaelManaged_o* __this, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_RijndaelManaged__CreateEncryptor (System_Security_Cryptography_RijndaelManaged_o* __this, System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_RijndaelManaged__CreateDecryptor (System_Security_Cryptography_RijndaelManaged_o* __this, System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);
+void System_Security_Cryptography_RijndaelManaged__GenerateKey (System_Security_Cryptography_RijndaelManaged_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_RijndaelManaged__GenerateIV (System_Security_Cryptography_RijndaelManaged_o* __this, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_RijndaelManaged__NewEncryptor (System_Security_Cryptography_RijndaelManaged_o* __this, System_Byte_array* rgbKey, int32_t mode, System_Byte_array* rgbIV, int32_t feedbackSize, int32_t encryptMode, const MethodInfo* method);

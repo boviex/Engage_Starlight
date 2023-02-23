@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_DynamicExpression___ctor (MoonSharp_Interpreter_DynamicExpression_o* __this, MoonSharp_Interpreter_Script_o* S, System_String_o* strExpr, MoonSharp_Interpreter_Tree_Expressions_DynamicExprExpression_o* expr, const MethodInfo* method);
+void MoonSharp_Interpreter_DynamicExpression___ctor (MoonSharp_Interpreter_DynamicExpression_o* __this, MoonSharp_Interpreter_Script_o* S, System_String_o* strExpr, MoonSharp_Interpreter_DynValue_o* constant, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_DynamicExpression__Evaluate (MoonSharp_Interpreter_DynamicExpression_o* __this, MoonSharp_Interpreter_ScriptExecutionContext_o* context, const MethodInfo* method);
+MoonSharp_Interpreter_SymbolRef_o* MoonSharp_Interpreter_DynamicExpression__FindSymbol (MoonSharp_Interpreter_DynamicExpression_o* __this, MoonSharp_Interpreter_ScriptExecutionContext_o* context, const MethodInfo* method);
+MoonSharp_Interpreter_Script_o* MoonSharp_Interpreter_DynamicExpression__get_OwnerScript (MoonSharp_Interpreter_DynamicExpression_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_DynamicExpression__set_OwnerScript (MoonSharp_Interpreter_DynamicExpression_o* __this, MoonSharp_Interpreter_Script_o* value, const MethodInfo* method);
+bool MoonSharp_Interpreter_DynamicExpression__IsConstant (MoonSharp_Interpreter_DynamicExpression_o* __this, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_DynamicExpression__GetHashCode (MoonSharp_Interpreter_DynamicExpression_o* __this, const MethodInfo* method);
+bool MoonSharp_Interpreter_DynamicExpression__Equals (MoonSharp_Interpreter_DynamicExpression_o* __this, Il2CppObject* obj, const MethodInfo* method);

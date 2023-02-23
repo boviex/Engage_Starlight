@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_HubCookingSequence__PanCamera_d__58___ctor (App_HubCookingSequence__PanCamera_d__58_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_HubCookingSequence__PanCamera_d__58__System_IDisposable_Dispose (App_HubCookingSequence__PanCamera_d__58_o* __this, const MethodInfo* method);
+bool App_HubCookingSequence__PanCamera_d__58__MoveNext (App_HubCookingSequence__PanCamera_d__58_o* __this, const MethodInfo* method);
+Il2CppObject* App_HubCookingSequence__PanCamera_d__58__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_HubCookingSequence__PanCamera_d__58_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__PanCamera_d__58__System_Collections_IEnumerator_Reset (App_HubCookingSequence__PanCamera_d__58_o* __this, const MethodInfo* method);
+Il2CppObject* App_HubCookingSequence__PanCamera_d__58__System_Collections_IEnumerator_get_Current (App_HubCookingSequence__PanCamera_d__58_o* __this, const MethodInfo* method);

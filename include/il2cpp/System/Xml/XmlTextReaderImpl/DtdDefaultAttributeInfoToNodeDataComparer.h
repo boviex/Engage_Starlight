@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IComparer_object__o* System_Xml_XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer__get_Instance (const MethodInfo* method);
+int32_t System_Xml_XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer__Compare (System_Xml_XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer_o* __this, Il2CppObject* x, Il2CppObject* y, const MethodInfo* method);
+void System_Xml_XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer___ctor (System_Xml_XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer_o* __this, const MethodInfo* method);
+void System_Xml_XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer___cctor (const MethodInfo* method);

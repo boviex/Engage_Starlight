@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Chara_CharacterViewer__StartCharaView_d__115___ctor (Chara_CharacterViewer__StartCharaView_d__115_o* __this, int32_t __1__state, const MethodInfo* method);
+void Chara_CharacterViewer__StartCharaView_d__115__System_IDisposable_Dispose (Chara_CharacterViewer__StartCharaView_d__115_o* __this, const MethodInfo* method);
+bool Chara_CharacterViewer__StartCharaView_d__115__MoveNext (Chara_CharacterViewer__StartCharaView_d__115_o* __this, const MethodInfo* method);
+Il2CppObject* Chara_CharacterViewer__StartCharaView_d__115__System_Collections_Generic_IEnumerator_System_Object__get_Current (Chara_CharacterViewer__StartCharaView_d__115_o* __this, const MethodInfo* method);
+void Chara_CharacterViewer__StartCharaView_d__115__System_Collections_IEnumerator_Reset (Chara_CharacterViewer__StartCharaView_d__115_o* __this, const MethodInfo* method);
+Il2CppObject* Chara_CharacterViewer__StartCharaView_d__115__System_Collections_IEnumerator_get_Current (Chara_CharacterViewer__StartCharaView_d__115_o* __this, const MethodInfo* method);

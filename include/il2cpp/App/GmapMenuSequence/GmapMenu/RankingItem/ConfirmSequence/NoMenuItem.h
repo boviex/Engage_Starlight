@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_GmapMenuSequence_GmapMenu_RankingItem_ConfirmSequence_NoMenuItem__GetName (App_GmapMenuSequence_GmapMenu_RankingItem_ConfirmSequence_NoMenuItem_o* __this, const MethodInfo* method);
+void App_GmapMenuSequence_GmapMenu_RankingItem_ConfirmSequence_NoMenuItem___ctor (App_GmapMenuSequence_GmapMenu_RankingItem_ConfirmSequence_NoMenuItem_o* __this, const MethodInfo* method);

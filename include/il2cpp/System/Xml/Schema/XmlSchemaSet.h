@@ -1,0 +1,50 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Il2CppObject* System_Xml_Schema_XmlSchemaSet__get_InternalSyncObject (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet___ctor (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet___ctor (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_XmlNameTable_o* nameTable, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__add_ValidationEventHandler (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_ValidationEventHandler_o* value, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__remove_ValidationEventHandler (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_ValidationEventHandler_o* value, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaSet__get_IsCompiled (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__set_XmlResolver (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_XmlResolver_o* value, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaCompilationSettings_o* System_Xml_Schema_XmlSchemaSet__get_CompilationSettings (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__set_CompilationSettings (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchemaCompilationSettings_o* value, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaSet__get_GlobalElements (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaSet__get_GlobalAttributes (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaSet__get_GlobalTypes (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaSet__get_SubstitutionGroups (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Collections_Hashtable_o* System_Xml_Schema_XmlSchemaSet__get_SchemaLocations (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaSet__get_TypeExtensions (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__Add (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchemaSet_o* schemas, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaSet__Add (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o* schema, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaSet__RemoveRecursive (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o* schemaToRemove, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__Compile (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Collections_ICollection_o* System_Xml_Schema_XmlSchemaSet__Schemas (System_Xml_Schema_XmlSchemaSet_o* __this, System_String_o* targetNamespace, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaSet__Add (System_Xml_Schema_XmlSchemaSet_o* __this, System_String_o* targetNamespace, System_Xml_Schema_XmlSchema_o* schema, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__Add (System_Xml_Schema_XmlSchemaSet_o* __this, System_String_o* targetNamespace, System_Xml_XmlReader_o* reader, System_Collections_Hashtable_o* validatedNamespaces, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaSet__FindSchemaByNSAndUrl (System_Xml_Schema_XmlSchemaSet_o* __this, System_Uri_o* schemaUri, System_String_o* ns, System_Collections_DictionaryEntry_array* locationsTable, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__AddSchemaToSet (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o* schema, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__ProcessNewSubstitutionGroups (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchemaObjectTable_o* substitutionGroupsTable, bool resolve, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__ResolveSubstitutionGroup (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchemaSubstitutionGroup_o* substitutionGroup, System_Xml_Schema_XmlSchemaObjectTable_o* substTable, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaSet__Remove (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o* schema, bool forceCompile, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__ClearTables (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaSet__PreprocessSchema (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o** schema, System_String_o* targetNamespace, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaSet__ParseSchema (System_Xml_Schema_XmlSchemaSet_o* __this, System_String_o* targetNamespace, System_Xml_XmlReader_o* reader, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__CopyFromCompiledSet (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchemaSet_o* otherSet, const MethodInfo* method);
+System_Xml_Schema_SchemaInfo_o* System_Xml_Schema_XmlSchemaSet__get_CompiledInfo (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_XmlReaderSettings_o* System_Xml_Schema_XmlSchemaSet__get_ReaderSettings (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_XmlResolver_o* System_Xml_Schema_XmlSchemaSet__GetResolver (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_Schema_ValidationEventHandler_o* System_Xml_Schema_XmlSchemaSet__GetEventHandler (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+System_Xml_Schema_SchemaNames_o* System_Xml_Schema_XmlSchemaSet__GetSchemaNames (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_XmlNameTable_o* nt, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaSet__IsSchemaLoaded (System_Xml_Schema_XmlSchemaSet_o* __this, System_Uri_o* schemaUri, System_String_o* targetNamespace, System_Xml_Schema_XmlSchema_o** schema, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaSet__GetSchemaByUri (System_Xml_Schema_XmlSchemaSet_o* __this, System_Uri_o* schemaUri, System_Xml_Schema_XmlSchema_o** schema, const MethodInfo* method);
+System_String_o* System_Xml_Schema_XmlSchemaSet__GetTargetNamespace (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o* schema, const MethodInfo* method);
+System_Collections_SortedList_o* System_Xml_Schema_XmlSchemaSet__get_SortedSchemas (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__RemoveSchemaFromCaches (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o* schema, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__RemoveSchemaFromGlobalTables (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchema_o* schema, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaSet__AddToTable (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchemaObjectTable_o* table, System_Xml_XmlQualifiedName_o* qname, System_Xml_Schema_XmlSchemaObject_o* item, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__VerifyTables (System_Xml_Schema_XmlSchemaSet_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__InternalValidationCallback (System_Xml_Schema_XmlSchemaSet_o* __this, Il2CppObject* sender, System_Xml_Schema_ValidationEventArgs_o* e, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSet__SendValidationEvent (System_Xml_Schema_XmlSchemaSet_o* __this, System_Xml_Schema_XmlSchemaException_o* e, int32_t severity, const MethodInfo* method);

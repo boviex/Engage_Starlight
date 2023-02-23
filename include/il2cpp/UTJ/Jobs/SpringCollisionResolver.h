@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UTJ_Jobs_SpringCollisionResolver__ResolveCapsule (UTJ_Jobs_SpringColliderProperties_o capsule, UTJ_Jobs_SpringColliderComponents_o transform, Unity_Mathematics_float3_o moverHeadPosition, Unity_Mathematics_float3_o* moverPosition, Unity_Mathematics_float3_o* hitNormal, float moverRadius, const MethodInfo* method);
+bool UTJ_Jobs_SpringCollisionResolver__ResolvePanel (UTJ_Jobs_SpringColliderProperties_o panel, UTJ_Jobs_SpringColliderComponents_o transform, Unity_Mathematics_float3_o headPosition, Unity_Mathematics_float3_o* tailPosition, Unity_Mathematics_float3_o* hitNormal, float length, float tailRadius, const MethodInfo* method);
+bool UTJ_Jobs_SpringCollisionResolver__ResolvePanelOnAxis (Unity_Mathematics_float3_o localHeadPosition, Unity_Mathematics_float3_o* localTailPosition, float localLength, float localTailRadius, int32_t upAxis, const MethodInfo* method);
+bool UTJ_Jobs_SpringCollisionResolver__ResolveSphere (UTJ_Jobs_SpringColliderProperties_o sphere, UTJ_Jobs_SpringColliderComponents_o transform, Unity_Mathematics_float3_o headPosition, Unity_Mathematics_float3_o* tailPosition, Unity_Mathematics_float3_o* hitNormal, float tailRadius, const MethodInfo* method);
+bool UTJ_Jobs_SpringCollisionResolver__ComputeIntersection_Sphere (Unity_Mathematics_float3_o originA, float radiusA, Unity_Mathematics_float3_o originB, float radiusB, UTJ_Jobs_Intersection_o* intersection, const MethodInfo* method);
+Unity_Mathematics_float3_o UTJ_Jobs_SpringCollisionResolver__ComputeNewTailPosition_Sphere (UTJ_Jobs_Intersection_o intersection, Unity_Mathematics_float3_o tailPosition, const MethodInfo* method);

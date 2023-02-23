@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishAllMenuContent__LoadPrefabAsync (const MethodInfo* method);
+bool App_CookingMenu_DishAllMenuContent__IsLoadingPrefab (const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent__UnloadPrefab (const MethodInfo* method);
+App_CookingMenu_DishAllMenuContent_o* App_CookingMenu_DishAllMenuContent__Create (const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent__Destroy (App_CookingMenu_DishAllMenuContent_o* content, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent__Awake (App_CookingMenu_DishAllMenuContent_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent__SetMessages (App_CookingMenu_DishAllMenuContent_o* __this, const MethodInfo* method);
+App_CookingMenu_UnitSelectMenuContent_o* App_CookingMenu_DishAllMenuContent__GetAndEnableUnitSelect (App_CookingMenu_DishAllMenuContent_o* __this, const MethodInfo* method);
+App_CookingMenu_DishSelectMenuContent_o* App_CookingMenu_DishAllMenuContent__GetAndEnableDishSelect (App_CookingMenu_DishAllMenuContent_o* __this, System_Collections_Generic_List_Unit__o* selectedUnitList, const MethodInfo* method);
+App_CookingMenu_FoodstuffMenuContent_o* App_CookingMenu_DishAllMenuContent__GetAndEnableFoodstuffSelect (App_CookingMenu_DishAllMenuContent_o* __this, App_FoodData_o* food, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent__DisableMenuAll (App_CookingMenu_DishAllMenuContent_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent__OnOpenConfirmDialog (App_CookingMenu_DishAllMenuContent_o* __this, System_Collections_Generic_List_FoodstuffData__o* foodstuffs, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent__Close (App_CookingMenu_DishAllMenuContent_o* __this, const MethodInfo* method);
+bool App_CookingMenu_DishAllMenuContent__IsClosed (App_CookingMenu_DishAllMenuContent_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent___ctor (App_CookingMenu_DishAllMenuContent_o* __this, const MethodInfo* method);

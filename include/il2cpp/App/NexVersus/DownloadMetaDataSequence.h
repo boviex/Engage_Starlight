@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_NexVersus_DownloadMetaDataSequence_object____ctor (App_NexVersus_DownloadMetaDataSequence_T__o* __this, uint64_t principalID, int32_t mode, App_NexVersus_DownloadMetaDataSequence_EndCallback_T__o* endCallback, const MethodInfo_25FEC30* method);
+void App_NexVersus_DownloadMetaDataSequence_object___Postlogin (App_NexVersus_DownloadMetaDataSequence_T__o* __this, const MethodInfo_25FED20* method);
+uint16_t App_NexVersus_DownloadMetaDataSequence_object___GetSlot (App_NexVersus_DownloadMetaDataSequence_T__o* __this, const MethodInfo_25FED30* method);
+void App_NexVersus_DownloadMetaDataSequence_object___GetMeta (App_NexVersus_DownloadMetaDataSequence_T__o* __this, const MethodInfo_25FED50* method);
+void App_NexVersus_DownloadMetaDataSequence_object___GetMetaCallback (App_NexVersus_DownloadMetaDataSequence_T__o* __this, NexPlugin_AsyncResult_o* asyncResult, NexPlugin_DataStoreMetaInfo_o* info, const MethodInfo_25FEE90* method);
+bool App_NexVersus_DownloadMetaDataSequence_object___IsValidDataType (App_NexVersus_DownloadMetaDataSequence_T__o* __this, uint16_t dataType, const MethodInfo_25FF0E0* method);
+void App_NexVersus_DownloadMetaDataSequence_object___InvokeEndCallback (App_NexVersus_DownloadMetaDataSequence_T__o* __this, const MethodInfo_25FF120* method);
+void App_NexVersus_DownloadMetaDataSequence_object___CreateBind (App_ProcInst_o* super, uint64_t principalID, int32_t mode, App_NexVersus_DownloadMetaDataSequence_EndCallback_T__o* endCallback, const MethodInfo_25FF1E0* method);
+void App_NexVersus_DownloadMetaDataSequence_VersusServerCasualMetaData___CreateBind (App_ProcInst_o* super, uint64_t principalID, int32_t mode, App_NexVersus_DownloadMetaDataSequence_EndCallback_T__o* endCallback, const MethodInfo_25FF1E0* method);
+void App_NexVersus_DownloadMetaDataSequence_VersusServerRankedMetaData___CreateBind (App_ProcInst_o* super, uint64_t principalID, int32_t mode, App_NexVersus_DownloadMetaDataSequence_EndCallback_T__o* endCallback, const MethodInfo_25FF1E0* method);

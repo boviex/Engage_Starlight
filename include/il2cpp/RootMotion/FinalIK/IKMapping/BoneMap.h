@@ -1,0 +1,30 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_IKMapping_BoneMap__Initiate (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, UnityEngine_Transform_o* transform, RootMotion_FinalIK_IKSolverFullBody_o* solver, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_IKMapping_BoneMap__get_swingDirection (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__StoreDefaultLocalState (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__FixTransform (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, bool position, const MethodInfo* method);
+bool RootMotion_FinalIK_IKMapping_BoneMap__get_isNodeBone (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__SetLength (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKMapping_BoneMap_o* nextBone, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__SetLocalSwingAxis (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKMapping_BoneMap_o* swingTarget, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__SetLocalSwingAxis (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKMapping_BoneMap_o* bone1, RootMotion_FinalIK_IKMapping_BoneMap_o* bone2, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__SetLocalTwistAxis (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, UnityEngine_Vector3_o twistDirection, UnityEngine_Vector3_o normalDirection, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__SetPlane (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, UnityEngine_Transform_o* planeBone1, UnityEngine_Transform_o* planeBone2, UnityEngine_Transform_o* planeBone3, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__UpdatePlane (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, bool rotation, bool position, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__SetIKPosition (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__MaintainRotation (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__SetToIKPosition (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__FixToNode (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, float weight, RootMotion_FinalIK_IKSolver_Node_o* fixNode, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_IKMapping_BoneMap__GetPlanePosition (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__PositionToPlane (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__RotateToPlane (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__Swing (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, UnityEngine_Vector3_o swingTarget, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__Swing (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, UnityEngine_Vector3_o pos1, UnityEngine_Vector3_o pos2, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__Twist (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, UnityEngine_Vector3_o twistDirection, UnityEngine_Vector3_o normalDirection, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__RotateToMaintain (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap__RotateToEffector (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, float weight, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_IKMapping_BoneMap__GetTargetRotation (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_IKMapping_BoneMap__get_lastAnimatedTargetRotation (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKMapping_BoneMap___ctor (RootMotion_FinalIK_IKMapping_BoneMap_o* __this, const MethodInfo* method);

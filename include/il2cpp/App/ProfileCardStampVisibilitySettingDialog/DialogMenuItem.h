@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ProfileCardStampVisibilitySettingDialog_DialogMenuItem___ctor (App_ProfileCardStampVisibilitySettingDialog_DialogMenuItem_o* __this, System_String_o* message, App_ProfileCardStampVisibilitySettingDialog_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+int32_t App_ProfileCardStampVisibilitySettingDialog_DialogMenuItem__ACall (App_ProfileCardStampVisibilitySettingDialog_DialogMenuItem_o* __this, const MethodInfo* method);

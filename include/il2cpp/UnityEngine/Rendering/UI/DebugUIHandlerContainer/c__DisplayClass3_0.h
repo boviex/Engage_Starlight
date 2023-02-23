@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerContainer___c__DisplayClass3_0___ctor (UnityEngine_Rendering_UI_DebugUIHandlerContainer___c__DisplayClass3_0_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerContainer___c__DisplayClass3_0___IsDirectChild_b__0 (UnityEngine_Rendering_UI_DebugUIHandlerContainer___c__DisplayClass3_0_o* __this, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* x, const MethodInfo* method);

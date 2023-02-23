@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_Universal_Custom_DrawObjectCategoryInfo__GetNoOverrideStateIndexBegin (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_DrawObjectCategoryInfo__Initialize (const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_Custom_DrawObjectCategoryInfo__IsVisible (int32_t category, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_DrawObjectCategoryInfo__SetVisibility (int32_t category, bool visibility, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_DrawObjectCategoryInfo___ctor (UnityEngine_Rendering_Universal_Custom_DrawObjectCategoryInfo_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_REPL_ReplHistoryInterpreter___ctor (MoonSharp_Interpreter_REPL_ReplHistoryInterpreter_o* __this, MoonSharp_Interpreter_Script_o* script, int32_t historySize, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_REPL_ReplHistoryInterpreter__Evaluate (MoonSharp_Interpreter_REPL_ReplHistoryInterpreter_o* __this, System_String_o* input, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_REPL_ReplHistoryInterpreter__HistoryPrev (MoonSharp_Interpreter_REPL_ReplHistoryInterpreter_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_REPL_ReplHistoryInterpreter__HistoryNext (MoonSharp_Interpreter_REPL_ReplHistoryInterpreter_o* __this, const MethodInfo* method);

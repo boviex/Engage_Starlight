@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem___ctor (App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem_o* __this, int32_t growMode, const MethodInfo* method);
+int32_t App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem__BuildAttribute (App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem_o* __this, const MethodInfo* method);
+int32_t App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem__ACall (App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem_o* __this, const MethodInfo* method);
+int32_t App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem__BCall (App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_MenuItem_o* __this, const MethodInfo* method);

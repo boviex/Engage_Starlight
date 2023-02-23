@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_FSMBuilderStandard___c__DisplayClass18_0___ctor (Combat_FSMBuilderStandard___c__DisplayClass18_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderStandard___c__DisplayClass18_0___BuildChainFSM_b__0 (Combat_FSMBuilderStandard___c__DisplayClass18_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderStandard___c__DisplayClass18_0___BuildChainFSM_b__1 (Combat_FSMBuilderStandard___c__DisplayClass18_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderStandard___c__DisplayClass18_0___BuildChainFSM_b__3 (Combat_FSMBuilderStandard___c__DisplayClass18_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderStandard___c__DisplayClass18_0___BuildChainFSM_b__5 (Combat_FSMBuilderStandard___c__DisplayClass18_0_o* __this, UniRx_Unit_o __, const MethodInfo* method);

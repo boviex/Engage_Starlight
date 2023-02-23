@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_Async_UniTask_UnitWhenAnyPromise_object___get_IsCompleted (UniRx_Async_UniTask_UnitWhenAnyPromise_T0__o* __this, const MethodInfo_2DE69B0* method);
+void UniRx_Async_UniTask_UnitWhenAnyPromise_object____ctor (UniRx_Async_UniTask_UnitWhenAnyPromise_T0__o* __this, UniRx_Async_UniTask_T0__o task0, UniRx_Async_UniTask_o task1, const MethodInfo_2DE69F0* method);
+void UniRx_Async_UniTask_UnitWhenAnyPromise_object___TryCallContinuation (UniRx_Async_UniTask_UnitWhenAnyPromise_T0__o* __this, const MethodInfo_2DE6AC0* method);
+UniRx_Async_UniTaskVoid_o UniRx_Async_UniTask_UnitWhenAnyPromise_object___RunTask0 (UniRx_Async_UniTask_UnitWhenAnyPromise_T0__o* __this, UniRx_Async_UniTask_T0__o task, const MethodInfo_2DE6AF0* method);
+UniRx_Async_UniTaskVoid_o UniRx_Async_UniTask_UnitWhenAnyPromise_object___RunTask1 (UniRx_Async_UniTask_UnitWhenAnyPromise_T0__o* __this, UniRx_Async_UniTask_o task, const MethodInfo_2DE6BC0* method);
+UniRx_Async_UniTask_UnitWhenAnyPromise_Awaiter_T0__o UniRx_Async_UniTask_UnitWhenAnyPromise_object___GetAwaiter (UniRx_Async_UniTask_UnitWhenAnyPromise_T0__o* __this, const MethodInfo_2DE6C80* method);

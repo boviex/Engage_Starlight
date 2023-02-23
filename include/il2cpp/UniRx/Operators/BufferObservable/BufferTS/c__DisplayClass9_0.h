@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_BufferObservable_BufferTS___c__DisplayClass9_0_object____ctor (UniRx_Operators_BufferObservable_BufferTS___c__DisplayClass9_0_T__o* __this, const MethodInfo_2B87210* method);
+void UniRx_Operators_BufferObservable_BufferTS___c__DisplayClass9_0_object____CreateTimer_b__0 (UniRx_Operators_BufferObservable_BufferTS___c__DisplayClass9_0_T__o* __this, const MethodInfo_2B87220* method);

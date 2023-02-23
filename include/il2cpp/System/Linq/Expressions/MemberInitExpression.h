@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Linq_Expressions_NewExpression_o* System_Linq_Expressions_MemberInitExpression__get_NewExpression (System_Linq_Expressions_MemberInitExpression_o* __this, const MethodInfo* method);
+System_Collections_ObjectModel_ReadOnlyCollection_MemberBinding__o* System_Linq_Expressions_MemberInitExpression__get_Bindings (System_Linq_Expressions_MemberInitExpression_o* __this, const MethodInfo* method);

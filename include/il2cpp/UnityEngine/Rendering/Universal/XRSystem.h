@@ -1,0 +1,23 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_XRSystem___ctor (UnityEngine_Rendering_Universal_XRSystem_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__InitializeXRSystemData (UnityEngine_Rendering_Universal_XRSystem_o* __this, UnityEngine_Rendering_Universal_XRSystemData_o* data, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__GetDisplaySubsystem (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__XRSystemInit (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__UpdateMSAALevel (int32_t level, const MethodInfo* method);
+int32_t UnityEngine_Rendering_Universal_XRSystem__GetMSAALevel (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__UpdateRenderScale (float renderScale, const MethodInfo* method);
+int32_t UnityEngine_Rendering_Universal_XRSystem__GetMaxViews (UnityEngine_Rendering_Universal_XRSystem_o* __this, const MethodInfo* method);
+System_Collections_Generic_List_XRPass__o* UnityEngine_Rendering_Universal_XRSystem__SetupFrame (UnityEngine_Rendering_Universal_XRSystem_o* __this, UnityEngine_Rendering_Universal_CameraData_o cameraData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__ReleaseFrame (UnityEngine_Rendering_Universal_XRSystem_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_XRSystem__RefreshXrSdk (UnityEngine_Rendering_Universal_XRSystem_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__UpdateCameraData (UnityEngine_Rendering_Universal_XRSystem_o* __this, UnityEngine_Rendering_Universal_CameraData_o* baseCameraData, UnityEngine_Rendering_Universal_XRPass_o** xr, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__UpdateFromCamera (UnityEngine_Rendering_Universal_XRSystem_o* __this, UnityEngine_Rendering_Universal_XRPass_o** xrPass, UnityEngine_Rendering_Universal_CameraData_o cameraData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__CreateLayoutFromXrSdk (UnityEngine_Rendering_Universal_XRSystem_o* __this, UnityEngine_Camera_o* camera, bool singlePassAllowed, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__Dispose (UnityEngine_Rendering_Universal_XRSystem_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__AddPassToFrame (UnityEngine_Rendering_Universal_XRSystem_o* __this, UnityEngine_Rendering_Universal_XRPass_o* xrPass, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem__RenderMirrorView (UnityEngine_Rendering_Universal_XRSystem_o* __this, UnityEngine_Rendering_CommandBuffer_o* cmd, UnityEngine_Camera_o* camera, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRSystem___cctor (const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_XRSystem___CreateLayoutFromXrSdk_g__CanUseSinglePass_24_0 (UnityEngine_XR_XRDisplaySubsystem_XRRenderPass_o renderPass, UnityEngine_Rendering_Universal_XRSystem___c__DisplayClass24_0_o* , const MethodInfo* method);

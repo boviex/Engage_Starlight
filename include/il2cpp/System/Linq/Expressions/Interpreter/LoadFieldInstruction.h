@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LoadFieldInstruction___ctor (System_Linq_Expressions_Interpreter_LoadFieldInstruction_o* __this, System_Reflection_FieldInfo_o* field, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_LoadFieldInstruction__get_InstructionName (System_Linq_Expressions_Interpreter_LoadFieldInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_LoadFieldInstruction__get_ConsumedStack (System_Linq_Expressions_Interpreter_LoadFieldInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_LoadFieldInstruction__get_ProducedStack (System_Linq_Expressions_Interpreter_LoadFieldInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_LoadFieldInstruction__Run (System_Linq_Expressions_Interpreter_LoadFieldInstruction_o* __this, System_Linq_Expressions_Interpreter_InterpretedFrame_o* frame, const MethodInfo* method);

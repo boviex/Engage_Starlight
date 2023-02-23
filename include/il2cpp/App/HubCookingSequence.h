@@ -1,0 +1,57 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_FoodData_o* App_HubCookingSequence__get_SelectedFood (const MethodInfo* method);
+void App_HubCookingSequence__set_SelectedFood (App_FoodData_o* value, const MethodInfo* method);
+void App_HubCookingSequence___ctor (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence___ctor (App_HubCookingSequence_o* __this, bool isSkip, const MethodInfo* method);
+void App_HubCookingSequence__LoadResources (App_HubCookingSequence_o* __this, const MethodInfo* method);
+bool App_HubCookingSequence__IsLoadingResources (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__Init (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__CheckThrowAwayBento (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__OpenStartMenu (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__ExecuteCooking (App_HubCookingSequence_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_HubCookingSequence__FightVoice (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__BindCook (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__UnbindCook (App_HubCookingSequence_o* __this, const MethodInfo* method);
+Combat_Character_o* App_HubCookingSequence__GetCookCharacter (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SetupModel (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__EnableCharaLight (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SetLook (App_HubCookingSequence_o* __this, int32_t no, int32_t lookTarget, const MethodInfo* method);
+bool App_HubCookingSequence__IsLoadingPlayResources (App_HubCookingSequence_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_HubCookingSequence__DoCooking (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SetConversation (App_HubCookingSequence_o* __this, const MethodInfo* method);
+App_HubAccess_o* App_HubCookingSequence__SetupSelectUnit (App_HubCookingSequence_o* __this, System_String_o* locatorName, System_String_o* pid, const MethodInfo* method);
+void App_HubCookingSequence__ResetSelectUnit (App_HubCookingSequence_o* __this, System_String_o* locatorName, const MethodInfo* method);
+void App_HubCookingSequence__ResultVoice (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__RelianceUp (App_HubCookingSequence_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_HubCookingSequence__RelianceUpWait (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SetConversationCamera (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__Conversation1 (App_HubCookingSequence_o* __this, const MethodInfo* method);
+bool App_HubCookingSequence__IsPlayingTelop (App_HubCookingSequence_o* __this, const MethodInfo* method);
+System_String_o* App_HubCookingSequence__GetConversationLabel (App_HubCookingSequence_o* __this, App_Unit_o* unit, int32_t order, App_Unit_o* toUnit, const MethodInfo* method);
+System_String_o* App_HubCookingSequence__GetConversationLabelAboutDelicious (App_HubCookingSequence_o* __this, App_Unit_o* unit, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_HubCookingSequence__PanCamera (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__Conversation2 (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__PopUpReliance (App_HubCookingSequence_o* __this, App_Unit_o* unitA, App_Unit_o* unitB, int32_t tryResult, int32_t value, const MethodInfo* method);
+void App_HubCookingSequence__FinalConversation (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__ShowResult (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SoundResult (App_HubCookingSequence_o* __this, const MethodInfo* method);
+bool App_HubCookingSequence__IsAvailableBento (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__GiveBento (App_HubCookingSequence_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_HubCookingSequence__ShowBentoResult (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__AddAchieveCount (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__ExitSound (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__OpenTitleBar (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__CloseTitleBar (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__Exit (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__UnloadResources (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SetRenderParamsEat (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SetEatsShadowPreset (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__SetRenderParamsHub (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+App_Unit_o* App_HubCookingSequence__GetCurrentCookUnit (App_HubCookingSequence_o* __this, const MethodInfo* method);
+void App_HubCookingSequence___cctor (const MethodInfo* method);
+void App_HubCookingSequence___OpenStartMenu_b__32_0 (App_HubCookingSequence_o* __this, System_Collections_Generic_List_Unit__o* units, App_FoodData_o* food, System_Collections_Generic_List_FoodstuffData__o* foodstuffs, System_Action_o* action, const MethodInfo* method);
+void App_HubCookingSequence___ExecuteCooking_b__33_0 (App_HubCookingSequence_o* __this, App_Unit_o* unit, const MethodInfo* method);

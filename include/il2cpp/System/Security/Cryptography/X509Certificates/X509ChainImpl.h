@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_X509Certificates_X509ChainImpl__ThrowIfContextInvalid (System_Security_Cryptography_X509Certificates_X509ChainImpl_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_X509Certificates_X509ChainImpl__Dispose (System_Security_Cryptography_X509Certificates_X509ChainImpl_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_X509Certificates_X509ChainImpl__Dispose (System_Security_Cryptography_X509Certificates_X509ChainImpl_o* __this, bool disposing, const MethodInfo* method);
+void System_Security_Cryptography_X509Certificates_X509ChainImpl__Finalize (System_Security_Cryptography_X509Certificates_X509ChainImpl_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_X509Certificates_X509ChainImpl___ctor (System_Security_Cryptography_X509Certificates_X509ChainImpl_o* __this, const MethodInfo* method);

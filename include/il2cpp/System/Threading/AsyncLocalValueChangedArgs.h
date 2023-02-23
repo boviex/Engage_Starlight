@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Threading_AsyncLocalValueChangedArgs_object___set_PreviousValue (System_Threading_AsyncLocalValueChangedArgs_object__o __this, Il2CppObject* value, const MethodInfo_32E7430* method);
+System_Globalization_CultureInfo_o* System_Threading_AsyncLocalValueChangedArgs_CultureInfo___get_CurrentValue (System_Threading_AsyncLocalValueChangedArgs_CultureInfo__o __this, const MethodInfo_32E7440* method);
+Il2CppObject* System_Threading_AsyncLocalValueChangedArgs_object___get_CurrentValue (System_Threading_AsyncLocalValueChangedArgs_object__o __this, const MethodInfo_32E7440* method);
+void System_Threading_AsyncLocalValueChangedArgs_object___set_CurrentValue (System_Threading_AsyncLocalValueChangedArgs_object__o __this, Il2CppObject* value, const MethodInfo_32E7450* method);
+void System_Threading_AsyncLocalValueChangedArgs_object___set_ThreadContextChanged (System_Threading_AsyncLocalValueChangedArgs_object__o __this, bool value, const MethodInfo_32E7460* method);
+void System_Threading_AsyncLocalValueChangedArgs_object____ctor (System_Threading_AsyncLocalValueChangedArgs_object__o __this, Il2CppObject* previousValue, Il2CppObject* currentValue, bool contextChanged, const MethodInfo_32E7470* method);

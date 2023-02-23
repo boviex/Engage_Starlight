@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaRedefine___ctor (System_Xml_Schema_XmlSchemaRedefine_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectCollection_o* System_Xml_Schema_XmlSchemaRedefine__get_Items (System_Xml_Schema_XmlSchemaRedefine_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaRedefine__get_AttributeGroups (System_Xml_Schema_XmlSchemaRedefine_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaRedefine__get_SchemaTypes (System_Xml_Schema_XmlSchemaRedefine_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObjectTable_o* System_Xml_Schema_XmlSchemaRedefine__get_Groups (System_Xml_Schema_XmlSchemaRedefine_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaRedefine__AddAnnotation (System_Xml_Schema_XmlSchemaRedefine_o* __this, System_Xml_Schema_XmlSchemaAnnotation_o* annotation, const MethodInfo* method);

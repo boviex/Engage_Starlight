@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_UserDataRegistries_TypeDescriptorRegistry___c__DisplayClass11_0___ctor (MoonSharp_Interpreter_Interop_UserDataRegistries_TypeDescriptorRegistry___c__DisplayClass11_0_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_UserDataRegistries_TypeDescriptorRegistry___c__DisplayClass11_0___RegisterType_Impl_b__1 (MoonSharp_Interpreter_Interop_UserDataRegistries_TypeDescriptorRegistry___c__DisplayClass11_0_o* __this, Il2CppObject* o, const MethodInfo* method);

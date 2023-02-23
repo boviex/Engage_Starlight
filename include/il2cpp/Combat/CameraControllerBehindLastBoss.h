@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_ValueTuple_Vector3__Vector3__o Combat_CameraControllerBehindLastBoss__GetPositionInfo (Combat_CameraControllerBehindLastBoss_o* __this, const MethodInfo* method);
+System_ValueTuple_Vector3__Vector3__o Combat_CameraControllerBehindLastBoss__GetPositionInfoRangeAttack (Combat_CameraControllerBehindLastBoss_o* __this, const MethodInfo* method);
+System_ValueTuple_Vector3__Vector3__o Combat_CameraControllerBehindLastBoss__GetPositionInfoBattle (Combat_CameraControllerBehindLastBoss_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o Combat_CameraControllerBehindLastBoss__GetCombatVector (Combat_CameraControllerBehindLastBoss_o* __this, UnityEngine_Vector3_o vec, const MethodInfo* method);
+System_Int32_array* Combat_CameraControllerBehindLastBoss__GetCameraTargets (Combat_CameraControllerBehindLastBoss_o* __this, const MethodInfo* method);
+void Combat_CameraControllerBehindLastBoss___ctor (Combat_CameraControllerBehindLastBoss_o* __this, const MethodInfo* method);

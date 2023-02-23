@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Execution_VM_ByteCode_SourceCodeStackGuard___ctor (MoonSharp_Interpreter_Execution_VM_ByteCode_SourceCodeStackGuard_o* __this, MoonSharp_Interpreter_Debugging_SourceRef_o* sref, MoonSharp_Interpreter_Execution_VM_ByteCode_o* bc, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_VM_ByteCode_SourceCodeStackGuard__Dispose (MoonSharp_Interpreter_Execution_VM_ByteCode_SourceCodeStackGuard_o* __this, const MethodInfo* method);

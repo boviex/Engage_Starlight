@@ -1,0 +1,55 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CommonBattleSequence_MapSequenceBattle____ctor (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30F9940* method);
+void App_CommonBattleSequence_MapSequenceContract____ctor (App_CommonBattleSequence_MapSequenceContract__o* __this, const MethodInfo_30F9940* method);
+void App_CommonBattleSequence_MapSequenceDance____ctor (App_CommonBattleSequence_MapSequenceDance__o* __this, const MethodInfo_30F9940* method);
+void App_CommonBattleSequence_object____ctor (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9940* method);
+bool App_CommonBattleSequence_MapSequenceContract___get_CanWaitSkip (App_CommonBattleSequence_MapSequenceContract__o* __this, const MethodInfo_30F9B20* method);
+bool App_CommonBattleSequence_MapSequenceDance___get_CanWaitSkip (App_CommonBattleSequence_MapSequenceDance__o* __this, const MethodInfo_30F9B20* method);
+bool App_CommonBattleSequence_object___get_CanWaitSkip (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9B20* method);
+void App_CommonBattleSequence_MapSequenceBattle___OnCreate (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30F9B30* method);
+void App_CommonBattleSequence_MapSequenceContract___OnCreate (App_CommonBattleSequence_MapSequenceContract__o* __this, const MethodInfo_30F9B30* method);
+void App_CommonBattleSequence_MapSequenceDance___OnCreate (App_CommonBattleSequence_MapSequenceDance__o* __this, const MethodInfo_30F9B30* method);
+void App_CommonBattleSequence_object___OnCreate (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9B30* method);
+void App_CommonBattleSequence_MapSequenceBattle___OnDispose (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30F9CB0* method);
+void App_CommonBattleSequence_MapSequenceContract___OnDispose (App_CommonBattleSequence_MapSequenceContract__o* __this, const MethodInfo_30F9CB0* method);
+void App_CommonBattleSequence_MapSequenceDance___OnDispose (App_CommonBattleSequence_MapSequenceDance__o* __this, const MethodInfo_30F9CB0* method);
+void App_CommonBattleSequence_object___OnDispose (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9CB0* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_MapSequenceBattle___GetSide (App_CommonBattleSequence_MapSequenceBattle__o* __this, int32_t side, const MethodInfo_30F9E30* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_MapSequenceDance___GetSide (App_CommonBattleSequence_MapSequenceDance__o* __this, int32_t side, const MethodInfo_30F9E30* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_object___GetSide (App_CommonBattleSequence_T__o* __this, int32_t side, const MethodInfo_30F9E30* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_MapSequenceBattle___GetOffenseSide (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30F9E90* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_object___GetOffenseSide (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9E90* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_MapSequenceBattle___GetDefenseSide (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30F9EB0* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_object___GetDefenseSide (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9EB0* method);
+App_Unit_o* App_CommonBattleSequence_MapSequenceBattle___GetUnit (App_CommonBattleSequence_MapSequenceBattle__o* __this, int32_t side, const MethodInfo_30F9ED0* method);
+App_Unit_o* App_CommonBattleSequence_object___GetUnit (App_CommonBattleSequence_T__o* __this, int32_t side, const MethodInfo_30F9ED0* method);
+App_Unit_o* App_CommonBattleSequence_MapSequenceBattle___GetOffenseUnit (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30F9F40* method);
+App_Unit_o* App_CommonBattleSequence_object___GetOffenseUnit (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9F40* method);
+App_Unit_o* App_CommonBattleSequence_MapSequenceBattle___GetDefenseUnit (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30F9F70* method);
+App_Unit_o* App_CommonBattleSequence_object___GetDefenseUnit (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9F70* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_object___GetWinSide (App_CommonBattleSequence_T__o* __this, const MethodInfo_30F9FA0* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_MapSequenceBattle___GetDeadSide (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30FA0E0* method);
+App_BattleInfoSide_o* App_CommonBattleSequence_object___GetDeadSide (App_CommonBattleSequence_T__o* __this, const MethodInfo_30FA0E0* method);
+bool App_CommonBattleSequence_MapSequenceBattle___IsEvent (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30FA140* method);
+bool App_CommonBattleSequence_object___IsEvent (App_CommonBattleSequence_T__o* __this, const MethodInfo_30FA140* method);
+bool App_CommonBattleSequence_object___IsSkip (App_CommonBattleSequence_T__o* __this, const MethodInfo_30FA150* method);
+bool App_CommonBattleSequence_MapSequenceBattle___IsDead (App_CommonBattleSequence_MapSequenceBattle__o* __this, App_Unit_o* unit, const MethodInfo_30FA160* method);
+bool App_CommonBattleSequence_object___IsDead (App_CommonBattleSequence_T__o* __this, App_Unit_o* unit, const MethodInfo_30FA160* method);
+bool App_CommonBattleSequence_object___CanGainReliance (App_CommonBattleSequence_T__o* __this, App_Unit_o* unit, const MethodInfo_30FA1D0* method);
+void App_CommonBattleSequence_MapSequenceBattle___GainReliance (App_CommonBattleSequence_MapSequenceBattle__o* __this, const MethodInfo_30FA290* method);
+void App_CommonBattleSequence_MapSequenceContract___GainReliance (App_CommonBattleSequence_MapSequenceContract__o* __this, const MethodInfo_30FA290* method);
+void App_CommonBattleSequence_MapSequenceDance___GainReliance (App_CommonBattleSequence_MapSequenceDance__o* __this, const MethodInfo_30FA290* method);
+void App_CommonBattleSequence_object___GainReliance (App_CommonBattleSequence_T__o* __this, const MethodInfo_30FA290* method);
+void App_CommonBattleSequence_MapSequenceBattle___AddBattleReliance (App_CommonBattleSequence_MapSequenceBattle__o* __this, App_Unit_o* unit, const MethodInfo_30FA550* method);
+void App_CommonBattleSequence_object___AddBattleReliance (App_CommonBattleSequence_T__o* __this, App_Unit_o* unit, const MethodInfo_30FA550* method);
+void App_CommonBattleSequence_MapSequenceBattle___AddRodReliance (App_CommonBattleSequence_MapSequenceBattle__o* __this, App_Unit_o* unit, App_Unit_o* target, const MethodInfo_30FA900* method);
+void App_CommonBattleSequence_object___AddRodReliance (App_CommonBattleSequence_T__o* __this, App_Unit_o* unit, App_Unit_o* target, const MethodInfo_30FA900* method);
+void App_CommonBattleSequence_MapSequenceContract___AddDanceReliance (App_CommonBattleSequence_MapSequenceContract__o* __this, App_Unit_o* unit, App_Unit_o* target, const MethodInfo_30FA9D0* method);
+void App_CommonBattleSequence_MapSequenceDance___AddDanceReliance (App_CommonBattleSequence_MapSequenceDance__o* __this, App_Unit_o* unit, App_Unit_o* target, const MethodInfo_30FA9D0* method);
+void App_CommonBattleSequence_object___AddDanceReliance (App_CommonBattleSequence_T__o* __this, App_Unit_o* unit, App_Unit_o* target, const MethodInfo_30FA9D0* method);
+bool App_CommonBattleSequence_MapSequenceContract___CanGainSituation (App_CommonBattleSequence_MapSequenceContract__o* __this, const MethodInfo_30FAAA0* method);
+bool App_CommonBattleSequence_MapSequenceDance___CanGainSituation (App_CommonBattleSequence_MapSequenceDance__o* __this, const MethodInfo_30FAAA0* method);
+bool App_CommonBattleSequence_object___CanGainSituation (App_CommonBattleSequence_T__o* __this, const MethodInfo_30FAAA0* method);

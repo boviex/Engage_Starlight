@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry___c___cctor (const MethodInfo* method);
+void UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry___c___ctor (UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry___c_o* __this, const MethodInfo* method);
+System_String_o* UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry___c___GetAssetFromAssetName_b__15_1 (UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry___c_o* __this, UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry_AssetPathString_o s, const MethodInfo* method);

@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* System_Linq_Expressions_Interpreter_GotoInstruction__get_InstructionName (System_Linq_Expressions_Interpreter_GotoInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_GotoInstruction__get_ConsumedStack (System_Linq_Expressions_Interpreter_GotoInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_GotoInstruction__get_ProducedStack (System_Linq_Expressions_Interpreter_GotoInstruction_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_GotoInstruction___ctor (System_Linq_Expressions_Interpreter_GotoInstruction_o* __this, int32_t targetIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue, const MethodInfo* method);
+System_Linq_Expressions_Interpreter_GotoInstruction_o* System_Linq_Expressions_Interpreter_GotoInstruction__Create (int32_t labelIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_GotoInstruction__Run (System_Linq_Expressions_Interpreter_GotoInstruction_o* __this, System_Linq_Expressions_Interpreter_InterpretedFrame_o* frame, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_GotoInstruction___cctor (const MethodInfo* method);

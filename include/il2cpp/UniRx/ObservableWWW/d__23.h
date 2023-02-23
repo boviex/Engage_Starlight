@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_ObservableWWW__FetchAssetBundle_d__23___ctor (UniRx_ObservableWWW__FetchAssetBundle_d__23_o* __this, int32_t __1__state, const MethodInfo* method);
+void UniRx_ObservableWWW__FetchAssetBundle_d__23__System_IDisposable_Dispose (UniRx_ObservableWWW__FetchAssetBundle_d__23_o* __this, const MethodInfo* method);
+bool UniRx_ObservableWWW__FetchAssetBundle_d__23__MoveNext (UniRx_ObservableWWW__FetchAssetBundle_d__23_o* __this, const MethodInfo* method);
+void UniRx_ObservableWWW__FetchAssetBundle_d__23____m__Finally1 (UniRx_ObservableWWW__FetchAssetBundle_d__23_o* __this, const MethodInfo* method);
+Il2CppObject* UniRx_ObservableWWW__FetchAssetBundle_d__23__System_Collections_Generic_IEnumerator_System_Object__get_Current (UniRx_ObservableWWW__FetchAssetBundle_d__23_o* __this, const MethodInfo* method);
+void UniRx_ObservableWWW__FetchAssetBundle_d__23__System_Collections_IEnumerator_Reset (UniRx_ObservableWWW__FetchAssetBundle_d__23_o* __this, const MethodInfo* method);
+Il2CppObject* UniRx_ObservableWWW__FetchAssetBundle_d__23__System_Collections_IEnumerator_get_Current (UniRx_ObservableWWW__FetchAssetBundle_d__23_o* __this, const MethodInfo* method);

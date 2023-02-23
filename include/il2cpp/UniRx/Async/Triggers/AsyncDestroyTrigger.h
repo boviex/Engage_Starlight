@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Threading_CancellationToken_o UniRx_Async_Triggers_AsyncDestroyTrigger__get_CancellationToken (UniRx_Async_Triggers_AsyncDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncDestroyTrigger__OnDestroy (UniRx_Async_Triggers_AsyncDestroyTrigger_o* __this, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncDestroyTrigger__OnDestroyAsync (UniRx_Async_Triggers_AsyncDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncDestroyTrigger__AddCancellationTriggerOnDestory (UniRx_Async_Triggers_AsyncDestroyTrigger_o* __this, System_Threading_CancellationTokenSource_o* cts, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncDestroyTrigger___ctor (UniRx_Async_Triggers_AsyncDestroyTrigger_o* __this, const MethodInfo* method);

@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_StringQueueExtensions_ObjectBuilder___c___cctor (const MethodInfo* method);
+void UTJ_StringQueueExtensions_ObjectBuilder___c___ctor (UTJ_StringQueueExtensions_ObjectBuilder___c_o* __this, const MethodInfo* method);
+bool UTJ_StringQueueExtensions_ObjectBuilder___c___ParsePrimitiveType_b__12_0 (UTJ_StringQueueExtensions_ObjectBuilder___c_o* __this, System_Reflection_MethodInfo_o* method, const MethodInfo* method);
+UnityEngine_Component_o* UTJ_StringQueueExtensions_ObjectBuilder___c___FindComponent_b__16_0 (UTJ_StringQueueExtensions_ObjectBuilder___c_o* __this, UnityEngine_Object_o* item, const MethodInfo* method);
+bool UTJ_StringQueueExtensions_ObjectBuilder___c___FindComponent_b__16_1 (UTJ_StringQueueExtensions_ObjectBuilder___c_o* __this, UnityEngine_Component_o* item, const MethodInfo* method);

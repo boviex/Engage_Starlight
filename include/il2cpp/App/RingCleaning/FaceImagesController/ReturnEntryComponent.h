@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RingCleaning_FaceImagesController_ReturnEntryComponent__SetCharacter (App_RingCleaning_FaceImagesController_ReturnEntryComponent_o* __this, Combat_Character_o* chara, System_String_o* nowAnimName, System_String_o* changeAnimName, const MethodInfo* method);
+void App_RingCleaning_FaceImagesController_ReturnEntryComponent__Update (App_RingCleaning_FaceImagesController_ReturnEntryComponent_o* __this, const MethodInfo* method);
+void App_RingCleaning_FaceImagesController_ReturnEntryComponent___ctor (App_RingCleaning_FaceImagesController_ReturnEntryComponent_o* __this, const MethodInfo* method);

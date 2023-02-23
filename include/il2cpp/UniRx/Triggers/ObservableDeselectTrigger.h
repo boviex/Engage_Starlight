@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableDeselectTrigger__UnityEngine_EventSystems_IDeselectHandler_OnDeselect (UniRx_Triggers_ObservableDeselectTrigger_o* __this, UnityEngine_EventSystems_BaseEventData_o* eventData, const MethodInfo* method);
+System_IObservable_BaseEventData__o* UniRx_Triggers_ObservableDeselectTrigger__OnDeselectAsObservable (UniRx_Triggers_ObservableDeselectTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDeselectTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableDeselectTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDeselectTrigger___ctor (UniRx_Triggers_ObservableDeselectTrigger_o* __this, const MethodInfo* method);

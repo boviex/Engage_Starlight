@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Attribute_array* __f__AnonymousType9_Attribute____Type___get_Attributes (__f__AnonymousType9_Attribute____Type__o* __this, const MethodInfo_2B89A60* method);
+Il2CppObject* __f__AnonymousType9_object__object___get_Attributes (__f__AnonymousType9__Attributes_j__TPar___DataType_j__TPar__o* __this, const MethodInfo_2B89A60* method);
+System_Type_o* __f__AnonymousType9_Attribute____Type___get_DataType (__f__AnonymousType9_Attribute____Type__o* __this, const MethodInfo_2B89A70* method);
+Il2CppObject* __f__AnonymousType9_object__object___get_DataType (__f__AnonymousType9__Attributes_j__TPar___DataType_j__TPar__o* __this, const MethodInfo_2B89A70* method);
+void __f__AnonymousType9_Attribute____Type____ctor (__f__AnonymousType9_Attribute____Type__o* __this, System_Attribute_array* Attributes, System_Type_o* DataType, const MethodInfo_2B89A80* method);
+void __f__AnonymousType9_object__object____ctor (__f__AnonymousType9__Attributes_j__TPar___DataType_j__TPar__o* __this, Il2CppObject* Attributes, Il2CppObject* DataType, const MethodInfo_2B89A80* method);
+bool __f__AnonymousType9_object__object___Equals (__f__AnonymousType9__Attributes_j__TPar___DataType_j__TPar__o* __this, Il2CppObject* value, const MethodInfo_2B89AD0* method);
+int32_t __f__AnonymousType9_object__object___GetHashCode (__f__AnonymousType9__Attributes_j__TPar___DataType_j__TPar__o* __this, const MethodInfo_2B89B90* method);
+System_String_o* __f__AnonymousType9_object__object___ToString (__f__AnonymousType9__Attributes_j__TPar___DataType_j__TPar__o* __this, const MethodInfo_2B89C20* method);

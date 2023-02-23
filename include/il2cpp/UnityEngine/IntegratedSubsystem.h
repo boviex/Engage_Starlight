@@ -2,5 +2,12 @@
 
 #include "il2cpp.h"
 
-void UnityEngine_IntegratedSubsystem__SetHandle (UnityEngine_IntegratedSubsystem_o* __this, UnityEngine_IntegratedSubsystem_o* inst, const MethodInfo* method_info);
-void UnityEngine_IntegratedSubsystem___ctor (UnityEngine_IntegratedSubsystem_o* __this, const MethodInfo* method_info);
+void UnityEngine_IntegratedSubsystem__SetHandle (UnityEngine_IntegratedSubsystem_o* __this, UnityEngine_IntegratedSubsystem_o* subsystem, const MethodInfo* method);
+bool UnityEngine_IntegratedSubsystem__get_running (UnityEngine_IntegratedSubsystem_o* __this, const MethodInfo* method);
+bool UnityEngine_IntegratedSubsystem__get_valid (UnityEngine_IntegratedSubsystem_o* __this, const MethodInfo* method);
+bool UnityEngine_IntegratedSubsystem__IsRunning (UnityEngine_IntegratedSubsystem_o* __this, const MethodInfo* method);
+void UnityEngine_IntegratedSubsystem___ctor (UnityEngine_IntegratedSubsystem_o* __this, const MethodInfo* method);
+void UnityEngine_IntegratedSubsystem_object____ctor (UnityEngine_IntegratedSubsystem_TSubsystemDescriptor__o* __this, const MethodInfo_1F69890* method);
+void UnityEngine_IntegratedSubsystem_XRDisplaySubsystemDescriptor____ctor (UnityEngine_IntegratedSubsystem_XRDisplaySubsystemDescriptor__o* __this, const MethodInfo_1F69890* method);
+void UnityEngine_IntegratedSubsystem_XRInputSubsystemDescriptor____ctor (UnityEngine_IntegratedSubsystem_XRInputSubsystemDescriptor__o* __this, const MethodInfo_1F69890* method);
+void UnityEngine_IntegratedSubsystem_XRMeshSubsystemDescriptor____ctor (UnityEngine_IntegratedSubsystem_XRMeshSubsystemDescriptor__o* __this, const MethodInfo_1F69890* method);

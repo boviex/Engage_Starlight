@@ -2,5 +2,6 @@
 
 #include "il2cpp.h"
 
-void UnityEngine_ParticleSystem_MinMaxGradient___ctor (UnityEngine_ParticleSystem_MinMaxGradient_o __this, UnityEngine_Color_o color, const MethodInfo* method_info);
-void UnityEngine_ParticleSystem_MinMaxGradient___ctor (UnityEngine_ParticleSystem_MinMaxGradient_o __this, UnityEngine_Color_o min, UnityEngine_Color_o max, const MethodInfo* method_info);
+void UnityEngine_ParticleSystem_MinMaxGradient___ctor (UnityEngine_ParticleSystem_MinMaxGradient_o __this, UnityEngine_Color_o color, const MethodInfo* method);
+UnityEngine_Color_o UnityEngine_ParticleSystem_MinMaxGradient__get_color (UnityEngine_ParticleSystem_MinMaxGradient_o __this, const MethodInfo* method);
+UnityEngine_ParticleSystem_MinMaxGradient_o UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit (UnityEngine_Color_o color, const MethodInfo* method);

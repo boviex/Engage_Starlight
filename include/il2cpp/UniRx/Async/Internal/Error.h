@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_Internal_Error__ThrowArgumentNullException_AsyncOperation_ (UnityEngine_AsyncOperation_o* value, System_String_o* paramName, const MethodInfo_22D8CE0* method);
+void UniRx_Async_Internal_Error__ThrowArgumentNullException_object_ (Il2CppObject* value, System_String_o* paramName, const MethodInfo_22D8CE0* method);
+void UniRx_Async_Internal_Error__ThrowArgumentNullException_ResourceRequest_ (UnityEngine_ResourceRequest_o* value, System_String_o* paramName, const MethodInfo_22D8CE0* method);
+void UniRx_Async_Internal_Error__ThrowArgumentNullException_SynchronizationContext_ (System_Threading_SynchronizationContext_o* value, System_String_o* paramName, const MethodInfo_22D8CE0* method);
+void UniRx_Async_Internal_Error__ThrowArgumentNullException_UnityWebRequestAsyncOperation_ (UnityEngine_Networking_UnityWebRequestAsyncOperation_o* value, System_String_o* paramName, const MethodInfo_22D8CE0* method);
+void UniRx_Async_Internal_Error__ThrowArgumentNullException_WWW_ (UnityEngine_WWW_o* value, System_String_o* paramName, const MethodInfo_22D8CE0* method);
+void UniRx_Async_Internal_Error__ThrowArgumentNullExceptionCore (System_String_o* paramName, const MethodInfo* method);
+void UniRx_Async_Internal_Error__ThrowArgumentException_object_ (System_String_o* message, const MethodInfo_22D8C90* method);
+void UniRx_Async_Internal_Error__ThrowNotYetCompleted (const MethodInfo* method);
+Il2CppObject* UniRx_Async_Internal_Error__ThrowNotYetCompleted_object_ (const MethodInfo_22D8D00* method);
+UnityEngine_Object_o* UniRx_Async_Internal_Error__ThrowNotYetCompleted_Object_ (const MethodInfo_22D8D00* method);
+UnityEngine_Networking_UnityWebRequest_o* UniRx_Async_Internal_Error__ThrowNotYetCompleted_UnityWebRequest_ (const MethodInfo_22D8D00* method);
+void UniRx_Async_Internal_Error__ThrowWhenContinuationIsAlreadyRegistered_Action_AsyncOperation__ (System_Action_AsyncOperation__o* continuationField, const MethodInfo_22D8D60* method);
+void UniRx_Async_Internal_Error__ThrowWhenContinuationIsAlreadyRegistered_Action_ (System_Action_o* continuationField, const MethodInfo_22D8D60* method);
+void UniRx_Async_Internal_Error__ThrowWhenContinuationIsAlreadyRegistered_object_ (Il2CppObject* continuationField, const MethodInfo_22D8D60* method);
+void UniRx_Async_Internal_Error__ThrowInvalidOperationExceptionCore (System_String_o* message, const MethodInfo* method);
+void UniRx_Async_Internal_Error__ThrowOperationCanceledException (const MethodInfo* method);

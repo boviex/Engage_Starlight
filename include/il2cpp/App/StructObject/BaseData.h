@@ -1,0 +1,24 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_StructObject_BaseData_object__object__object___Load (System_String_o* path, const MethodInfo_1E23A50* method);
+void App_StructObject_BaseData_object__object__object___Unload (const MethodInfo_1E23A60* method);
+void App_StructObject_BaseData_object__object__object___Setup (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, const MethodInfo_1E23E30* method);
+void App_StructObject_BaseData_object__object__object___Cleanup (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, const MethodInfo_1E24000* method);
+void App_StructObject_BaseData_object__object__object___AddItem (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, Il2CppObject* item, const MethodInfo_1E241D0* method);
+void App_StructObject_BaseData_object__object__object___SetMaxItem (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, Il2CppObject* piece, const MethodInfo_1E24280* method);
+void App_StructObject_BaseData_object__object__object___SetMinItem (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, Il2CppObject* piece, const MethodInfo_1E24290* method);
+void App_StructObject_BaseData_object__object__object___SetChgItem (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, Il2CppObject* piece, const MethodInfo_1E242A0* method);
+void App_StructObject_BaseData_object__object__object___CreateDictionary (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, const MethodInfo_1E242B0* method);
+void App_StructObject_BaseData_object__object__object___Clear (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, const MethodInfo_1E24380* method);
+int32_t App_StructObject_BaseData_object__object__object___GetIndex (System_String_o* name, const MethodInfo_1E243F0* method);
+System_String_o* App_StructObject_BaseData_object__object__object___GetKey (int32_t index, const MethodInfo_1E246D0* method);
+Il2CppObject* App_StructObject_BaseData_object__object__object___Get (int32_t index, const MethodInfo_1E249F0* method);
+Il2CppObject* App_StructObject_BaseData_object__object__object___Get (System_String_o* name, const MethodInfo_1E24D10* method);
+Il2CppObject* App_StructObject_BaseData_object__object__object___TryGet (int32_t index, const MethodInfo_1E25080* method);
+Il2CppObject* App_StructObject_BaseData_object__object__object___TryGet (System_String_o* name, const MethodInfo_1E253A0* method);
+int32_t App_StructObject_BaseData_object__object__object___GetItemCount (const MethodInfo_1E257C0* method);
+System_Collections_Generic_List_T_Item__o* App_StructObject_BaseData_object__object__object___GetItemList (const MethodInfo_1E25AE0* method);
+void App_StructObject_BaseData_object__object__object____ctor (App_StructObject_BaseData_T_Data__T_Item__T_Piece__o* __this, const MethodInfo_1E25D90* method);
+void App_StructObject_BaseData_object__object__object____cctor (const MethodInfo_1E25E80* method);

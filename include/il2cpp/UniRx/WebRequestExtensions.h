@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_IObservable_TResult__o* UniRx_WebRequestExtensions__AbortableDeferredAsyncRequest_HttpWebResponse_ (System_Func_AsyncCallback__object__IAsyncResult__o* begin, System_Func_IAsyncResult__TResult__o* end, System_Net_WebRequest_o* request, const MethodInfo_386CFB0* method);
+System_IObservable_TResult__o* UniRx_WebRequestExtensions__AbortableDeferredAsyncRequest_object_ (System_Func_AsyncCallback__object__IAsyncResult__o* begin, System_Func_IAsyncResult__TResult__o* end, System_Net_WebRequest_o* request, const MethodInfo_386CFB0* method);
+System_IObservable_TResult__o* UniRx_WebRequestExtensions__AbortableDeferredAsyncRequest_Stream_ (System_Func_AsyncCallback__object__IAsyncResult__o* begin, System_Func_IAsyncResult__TResult__o* end, System_Net_WebRequest_o* request, const MethodInfo_386CFB0* method);
+System_IObservable_TResult__o* UniRx_WebRequestExtensions__AbortableDeferredAsyncRequest_WebResponse_ (System_Func_AsyncCallback__object__IAsyncResult__o* begin, System_Func_IAsyncResult__TResult__o* end, System_Net_WebRequest_o* request, const MethodInfo_386CFB0* method);
+System_IObservable_WebResponse__o* UniRx_WebRequestExtensions__GetResponseAsObservable (System_Net_WebRequest_o* request, const MethodInfo* method);
+System_IObservable_HttpWebResponse__o* UniRx_WebRequestExtensions__GetResponseAsObservable (System_Net_HttpWebRequest_o* request, const MethodInfo* method);
+System_IObservable_Stream__o* UniRx_WebRequestExtensions__GetRequestStreamAsObservable (System_Net_WebRequest_o* request, const MethodInfo* method);

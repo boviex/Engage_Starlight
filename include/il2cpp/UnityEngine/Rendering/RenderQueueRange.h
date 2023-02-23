@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Rendering_RenderQueueRange_o UnityEngine_Rendering_RenderQueueRange__get_all (const MethodInfo* method);
+UnityEngine_Rendering_RenderQueueRange_o UnityEngine_Rendering_RenderQueueRange__get_opaque (const MethodInfo* method);
+UnityEngine_Rendering_RenderQueueRange_o UnityEngine_Rendering_RenderQueueRange__get_transparent (const MethodInfo* method);
+void UnityEngine_Rendering_RenderQueueRange__set_lowerBound (UnityEngine_Rendering_RenderQueueRange_o __this, int32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_RenderQueueRange__set_upperBound (UnityEngine_Rendering_RenderQueueRange_o __this, int32_t value, const MethodInfo* method);
+bool UnityEngine_Rendering_RenderQueueRange__Equals (UnityEngine_Rendering_RenderQueueRange_o __this, UnityEngine_Rendering_RenderQueueRange_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_RenderQueueRange__Equals (UnityEngine_Rendering_RenderQueueRange_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_RenderQueueRange__GetHashCode (UnityEngine_Rendering_RenderQueueRange_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_RenderQueueRange___cctor (const MethodInfo* method);

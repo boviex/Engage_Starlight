@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Dynamic_Utils_CacheDict_MethodBase__ParameterInfo______ctor (System_Dynamic_Utils_CacheDict_MethodBase__ParameterInfo____o* __this, int32_t size, const MethodInfo_30DAD00* method);
+void System_Dynamic_Utils_CacheDict_object__object____ctor (System_Dynamic_Utils_CacheDict_TKey__TValue__o* __this, int32_t size, const MethodInfo_30DAD00* method);
+void System_Dynamic_Utils_CacheDict_Type__MethodInfo____ctor (System_Dynamic_Utils_CacheDict_Type__MethodInfo__o* __this, int32_t size, const MethodInfo_30DAD00* method);
+int32_t System_Dynamic_Utils_CacheDict_object__object___AlignSize (int32_t size, const MethodInfo_30DAD90* method);
+bool System_Dynamic_Utils_CacheDict_MethodBase__ParameterInfo_____TryGetValue (System_Dynamic_Utils_CacheDict_MethodBase__ParameterInfo____o* __this, System_Reflection_MethodBase_o* key, System_Reflection_ParameterInfo_array** value, const MethodInfo_30DADB0* method);
+bool System_Dynamic_Utils_CacheDict_object__object___TryGetValue (System_Dynamic_Utils_CacheDict_TKey__TValue__o* __this, Il2CppObject* key, Il2CppObject** value, const MethodInfo_30DADB0* method);
+bool System_Dynamic_Utils_CacheDict_Type__MethodInfo___TryGetValue (System_Dynamic_Utils_CacheDict_Type__MethodInfo__o* __this, System_Type_o* key, System_Reflection_MethodInfo_o** value, const MethodInfo_30DADB0* method);
+void System_Dynamic_Utils_CacheDict_object__object___Add (System_Dynamic_Utils_CacheDict_TKey__TValue__o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo_30DAE80* method);
+void System_Dynamic_Utils_CacheDict_MethodBase__ParameterInfo_____set_Item (System_Dynamic_Utils_CacheDict_MethodBase__ParameterInfo____o* __this, System_Reflection_MethodBase_o* key, System_Reflection_ParameterInfo_array* value, const MethodInfo_30DAFC0* method);
+void System_Dynamic_Utils_CacheDict_object__object___set_Item (System_Dynamic_Utils_CacheDict_TKey__TValue__o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo_30DAFC0* method);
+void System_Dynamic_Utils_CacheDict_Type__MethodInfo___set_Item (System_Dynamic_Utils_CacheDict_Type__MethodInfo__o* __this, System_Type_o* key, System_Reflection_MethodInfo_o* value, const MethodInfo_30DAFC0* method);

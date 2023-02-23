@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_RingListSequence_PageData_o* App_RingListSequence_GodAndRingListWindow_Menu__get_SelectedPageData (App_RingListSequence_GodAndRingListWindow_Menu_o* __this, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_Menu__set_SelectedPageData (App_RingListSequence_GodAndRingListWindow_Menu_o* __this, App_RingListSequence_PageData_o* value, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_Menu___ctor (App_RingListSequence_GodAndRingListWindow_Menu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicMenuContent_o* menuContent, const MethodInfo* method);
+App_RingListSequence_GodAndRingListWindow_Menu_o* App_RingListSequence_GodAndRingListWindow_Menu__CreateMenuBind (System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_RingListSequence_PageData_o* currentPageData, App_ProcInst_o* super, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_Menu__OnCreate (App_RingListSequence_GodAndRingListWindow_Menu_o* __this, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_Menu__OnDispose (App_RingListSequence_GodAndRingListWindow_Menu_o* __this, const MethodInfo* method);

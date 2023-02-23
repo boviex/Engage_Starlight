@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_UnitCalculator_RelianceAroundTotalCommand___c__DisplayClass2_0___ctor (App_UnitCalculator_RelianceAroundTotalCommand___c__DisplayClass2_0_o* __this, const MethodInfo* method);
+void App_UnitCalculator_RelianceAroundTotalCommand___c__DisplayClass2_0___GetImpl_b__0 (App_UnitCalculator_RelianceAroundTotalCommand___c__DisplayClass2_0_o* __this, App_Unit_o* target, const MethodInfo* method);

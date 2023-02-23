@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_MergeObservable_MergeOuterObserver_object____ctor (UniRx_Operators_MergeObservable_MergeOuterObserver_T__o* __this, UniRx_Operators_MergeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_2963780* method);
+System_IDisposable_o* UniRx_Operators_MergeObservable_MergeOuterObserver_object___Run (UniRx_Operators_MergeObservable_MergeOuterObserver_T__o* __this, const MethodInfo_2963840* method);
+void UniRx_Operators_MergeObservable_MergeOuterObserver_object___OnNext (UniRx_Operators_MergeObservable_MergeOuterObserver_T__o* __this, System_IObservable_T__o* value, const MethodInfo_29639B0* method);
+void UniRx_Operators_MergeObservable_MergeOuterObserver_object___OnError (UniRx_Operators_MergeObservable_MergeOuterObserver_T__o* __this, System_Exception_o* error, const MethodInfo_2963B00* method);
+void UniRx_Operators_MergeObservable_MergeOuterObserver_object___OnCompleted (UniRx_Operators_MergeObservable_MergeOuterObserver_T__o* __this, const MethodInfo_2963CE0* method);

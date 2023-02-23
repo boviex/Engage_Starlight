@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GmapTeleportMenu_GmapTeleportMenuItem___c__DisplayClass7_0___ctor (App_GmapTeleportMenu_GmapTeleportMenuItem___c__DisplayClass7_0_o* __this, const MethodInfo* method);
+void App_GmapTeleportMenu_GmapTeleportMenuItem___c__DisplayClass7_0___ACall_b__0 (App_GmapTeleportMenu_GmapTeleportMenuItem___c__DisplayClass7_0_o* __this, const MethodInfo* method);

@@ -1,0 +1,57 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Net_Nex_DataStore_Impl___ctor (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+NexPlugin_DataStoreSearchParam_o* Net_Nex_DataStore_Impl__GetSearchParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__SearchAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreSearchParam_o* param, NexPlugin_DataStore_SearchObjectCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__SearchLightAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreSearchParam_o* param, NexPlugin_DataStore_SearchObjectCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__SearchAsyncCommon (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreSearchParam_o* param, NexPlugin_DataStore_SearchObjectCB_o* callback, bool isLight, const MethodInfo* method);
+NexPlugin_DataStorePrepareGetParam_o* Net_Nex_DataStore_Impl__GetGetParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePrepareGetParam_o* param, uint64_t bufferSize, NexPlugin_DataStore_GetObjectCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetAsyncImpl (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePrepareGetParam_o* param, uint64_t bufferSize, NexPlugin_DataStore_GetObjectCB_o* callback, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForGet (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePrepareGetParam_o* param, const MethodInfo* method);
+System_Collections_Generic_List_DataStoreGetMetaParam__o* Net_Nex_DataStore_Impl__GetGetMetaParamList (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+NexPlugin_DataStoreGetMetaParam_o* Net_Nex_DataStore_Impl__GetGetMetaParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetMetaAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreGetMetaParam_o* param, NexPlugin_DataStore_GetMetaCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetMetaAsync (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_ulong__o* dataIds, NexPlugin_DataStoreGetMetaParam_o* param, NexPlugin_DataStore_GetMetaListCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetMetaAsync (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreGetMetaParam__o* param, NexPlugin_DataStore_GetMetaListCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetMetaAsyncImpl (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreGetMetaParam_o* param, NexPlugin_DataStore_GetMetaCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetMetaAsyncImpl (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_ulong__o* dataIds, NexPlugin_DataStoreGetMetaParam_o* param, NexPlugin_DataStore_GetMetaListCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetMetaAsyncImpl (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreGetMetaParam__o* param, NexPlugin_DataStore_GetMetaListCB_o* callback, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForGetMeta (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreGetMetaParam_o* param, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForGetMeta (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreGetMetaParam__o* paramList, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__GetPersistenceInfoAsync (Net_Nex_DataStore_Impl_o* __this, uint64_t principalId, uint16_t slot, NexPlugin_DataStore_GetPersistenceInfoCB_o* callback, const MethodInfo* method);
+NexPlugin_DataStorePreparePostParam_o* Net_Nex_DataStore_Impl__GetPostParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__PostAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePreparePostParam_o* param, System_Byte_array* buffer, NexPlugin_DataStore_PostCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__PostAsyncImpl (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePreparePostParam_o* param, System_Byte_array* buffer, NexPlugin_DataStore_PostCB_o* callback, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForPost (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePreparePostParam_o* param, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__PostMetaAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePreparePostParam_o* param, NexPlugin_DataStore_PostCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__PostMetaAsyncImpl (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePreparePostParam_o* param, NexPlugin_DataStore_PostCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__CompleteSuspendedPostAsync (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_ulong__o* dataIds, NexPlugin_AsyncResultCB_o* callback, const MethodInfo* method);
+NexPlugin_DataStorePrepareUpdateParam_o* Net_Nex_DataStore_Impl__GetUpdateParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__UpdateAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePrepareUpdateParam_o* param, System_Byte_array* buffer, NexPlugin_AsyncResultCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__UpdateAsyncImpl (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePrepareUpdateParam_o* param, System_Byte_array* buffer, NexPlugin_AsyncResultCB_o* callback, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForUpdate (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStorePrepareUpdateParam_o* param, const MethodInfo* method);
+NexPlugin_DataStoreChangeMetaParam_o* Net_Nex_DataStore_Impl__GetChangeMetaParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__ChangeMetaAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreChangeMetaParam_o* param, NexPlugin_AsyncResultCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__ChangeMetaAsync (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_ulong__o* dataIds, NexPlugin_DataStoreChangeMetaParam_o* param, bool isTransactional, NexPlugin_DataStore_ResultListCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__ChangeMetaAsyncImpl (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreChangeMetaParam_o* param, NexPlugin_AsyncResultCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__ChangeMetaAsyncImpl (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_ulong__o* dataIds, NexPlugin_DataStoreChangeMetaParam_o* param, bool isTransactional, NexPlugin_DataStore_ResultListCB_o* callback, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForChangeMeta (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreChangeMetaParam_o* param, const MethodInfo* method);
+NexPlugin_DataStoreRatingInitParam_o* Net_Nex_DataStore_Impl__GetRatingInitParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+System_Collections_Generic_List_DataStoreRatingTarget__o* Net_Nex_DataStore_Impl__GetRatingTargetList (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+NexPlugin_DataStoreRatingTarget_o* Net_Nex_DataStore_Impl__GetRatingTarget (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+NexPlugin_DataStoreRateObjectParam_o* Net_Nex_DataStore_Impl__GetRateObjectParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__RateAsync (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreRatingTarget_o* target, NexPlugin_DataStoreRateObjectParam_o* rateParam, NexPlugin_DataStore_RatingInfoCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__RateAsyncImpl (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreRatingTarget_o* target, NexPlugin_DataStoreRateObjectParam_o* rateParam, NexPlugin_DataStore_RatingInfoCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__RateWithPostingAsync (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreRatingTarget__o* targets, NexPlugin_DataStoreRateObjectParam_o* rateParam, NexPlugin_DataStorePreparePostParam_o* postParam, NexPlugin_DataStore_RatingInfoListCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__RateWithPostingAsyncImpl (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreRatingTarget__o* targets, NexPlugin_DataStoreRateObjectParam_o* rateParam, NexPlugin_DataStorePreparePostParam_o* postParam, NexPlugin_DataStore_RatingInfoListCB_o* callback, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForRate (Net_Nex_DataStore_Impl_o* __this, NexPlugin_DataStoreRatingTarget_o* target, NexPlugin_DataStoreRateObjectParam_o* rateParam, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForRateWithPosting (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreRatingTarget__o* targets, NexPlugin_DataStoreRateObjectParam_o* rateParam, NexPlugin_DataStorePreparePostParam_o* postParam, const MethodInfo* method);
+System_Collections_Generic_List_DataStoreDeleteParam__o* Net_Nex_DataStore_Impl__GetDeleteParamList (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+NexPlugin_DataStoreDeleteParam_o* Net_Nex_DataStore_Impl__GetDeleteParam (Net_Nex_DataStore_Impl_o* __this, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__DeleteAsync (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreDeleteParam__o* param, NexPlugin_DataStore_ResultListCB_o* callback, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__DeleteAsyncImpl (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreDeleteParam__o* param, NexPlugin_DataStore_ResultListCB_o* callback, const MethodInfo* method);
+void Net_Nex_DataStore_Impl__UnmarkParamsForDelete (Net_Nex_DataStore_Impl_o* __this, System_Collections_Generic_List_DataStoreDeleteParam__o* param, const MethodInfo* method);
+int32_t Net_Nex_DataStore_Impl__UnperpetuateAsync (Net_Nex_DataStore_Impl_o* __this, uint16_t persistenceSlotId, bool deleteLastObject, NexPlugin_AsyncResultCB_o* callback, const MethodInfo* method);

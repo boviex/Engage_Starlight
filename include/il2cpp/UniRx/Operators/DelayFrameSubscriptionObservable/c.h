@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_DelayFrameSubscriptionObservable___c_object____cctor (const MethodInfo_2B779D0* method);
+void UniRx_Operators_DelayFrameSubscriptionObservable___c_object____ctor (UniRx_Operators_DelayFrameSubscriptionObservable___c_T__o* __this, const MethodInfo_2B77AB0* method);
+void UniRx_Operators_DelayFrameSubscriptionObservable___c_object____SubscribeCore_b__4_0 (UniRx_Operators_DelayFrameSubscriptionObservable___c_T__o* __this, int64_t __, System_IObserver_T__o* o, UniRx_MultipleAssignmentDisposable_o* disp, System_IObservable_T__o* s, const MethodInfo_2B77AC0* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_DoOnCancelObservable_DoOnCancel_object____ctor (UniRx_Operators_DoOnCancelObservable_DoOnCancel_T__o* __this, UniRx_Operators_DoOnCancelObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_25FC9D0* method);
+System_IDisposable_o* UniRx_Operators_DoOnCancelObservable_DoOnCancel_object___Run (UniRx_Operators_DoOnCancelObservable_DoOnCancel_T__o* __this, const MethodInfo_25FCA20* method);
+void UniRx_Operators_DoOnCancelObservable_DoOnCancel_object___OnNext (UniRx_Operators_DoOnCancelObservable_DoOnCancel_T__o* __this, Il2CppObject* value, const MethodInfo_25FCB70* method);
+void UniRx_Operators_DoOnCancelObservable_DoOnCancel_object___OnError (UniRx_Operators_DoOnCancelObservable_DoOnCancel_T__o* __this, System_Exception_o* error, const MethodInfo_25FCC20* method);
+void UniRx_Operators_DoOnCancelObservable_DoOnCancel_object___OnCompleted (UniRx_Operators_DoOnCancelObservable_DoOnCancel_T__o* __this, const MethodInfo_25FCD60* method);
+void UniRx_Operators_DoOnCancelObservable_DoOnCancel_object____Run_b__3_0 (UniRx_Operators_DoOnCancelObservable_DoOnCancel_T__o* __this, const MethodInfo_25FCEA0* method);

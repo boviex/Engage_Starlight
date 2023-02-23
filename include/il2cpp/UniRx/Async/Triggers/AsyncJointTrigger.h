@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IEnumerable_ICancelablePromise__o* UniRx_Async_Triggers_AsyncJointTrigger__GetPromises (UniRx_Async_Triggers_AsyncJointTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncJointTrigger__OnJointBreak (UniRx_Async_Triggers_AsyncJointTrigger_o* __this, float breakForce, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncJointTrigger__OnJointBreakAsync (UniRx_Async_Triggers_AsyncJointTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncJointTrigger__OnJointBreak2D (UniRx_Async_Triggers_AsyncJointTrigger_o* __this, UnityEngine_Joint2D_o* brokenJoint, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncJointTrigger__OnJointBreak2DAsync (UniRx_Async_Triggers_AsyncJointTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncJointTrigger___ctor (UniRx_Async_Triggers_AsyncJointTrigger_o* __this, const MethodInfo* method);

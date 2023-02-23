@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_Rendering_Universal_ScriptableRendererFeature__get_isActive (UnityEngine_Rendering_Universal_ScriptableRendererFeature_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScriptableRendererFeature__OnEnable (UnityEngine_Rendering_Universal_ScriptableRendererFeature_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScriptableRendererFeature__OnValidate (UnityEngine_Rendering_Universal_ScriptableRendererFeature_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScriptableRendererFeature__SetActive (UnityEngine_Rendering_Universal_ScriptableRendererFeature_o* __this, bool active, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScriptableRendererFeature__Dispose (UnityEngine_Rendering_Universal_ScriptableRendererFeature_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScriptableRendererFeature__Dispose (UnityEngine_Rendering_Universal_ScriptableRendererFeature_o* __this, bool disposing, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScriptableRendererFeature___ctor (UnityEngine_Rendering_Universal_ScriptableRendererFeature_o* __this, const MethodInfo* method);

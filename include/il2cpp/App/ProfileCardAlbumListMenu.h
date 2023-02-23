@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ProfileCardAlbumListMenu_o* App_ProfileCardAlbumListMenu__CreateBind (App_ProcInst_o* super, App_ProfileCardAlbumListMenuContent_o* menuContent, App_ProfileCardRoot_o* profiledCardRoot, int32_t initialIndex, App_ProfileCardAlbumListMenu_DecideEventHandler_o* decideEventHandler, App_ProfileCardAlbumListMenu_DeleteEventHandler_o* deleteEventHandler, App_ProfileCardAlbumListMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_ProfileCardAlbumListMenu__CreateMenuItem (App_ProfileCardAlbumListMenu_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+void App_ProfileCardAlbumListMenu___ctor (App_ProfileCardAlbumListMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicMenuContent_o* menuContent, App_ProfileCardRoot_o* profileCardRoot, int32_t initialIndex, App_ProfileCardAlbumListMenu_DecideEventHandler_o* decideEventHandler, App_ProfileCardAlbumListMenu_DeleteEventHandler_o* deleteEventHandler, App_ProfileCardAlbumListMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+void App_ProfileCardAlbumListMenu__OnBuild (App_ProfileCardAlbumListMenu_o* __this, bool isFirstBuild, const MethodInfo* method);
+void App_ProfileCardAlbumListMenu__RebuildMenu (App_ProfileCardAlbumListMenu_o* __this, const MethodInfo* method);
+System_String_o* App_ProfileCardAlbumListMenu__GetName (App_ProfileCardAlbumListMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardAlbumListMenu__RemoveProfileCard (App_ProfileCardAlbumListMenu_o* __this, int32_t index, const MethodInfo* method);
+void App_ProfileCardAlbumListMenu__UpdateCardRoot (App_ProfileCardAlbumListMenu_o* __this, App_ProfileCard_o* profileCard, const MethodInfo* method);
+int32_t App_ProfileCardAlbumListMenu__BCall (App_ProfileCardAlbumListMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardAlbumListMenu__OnDispose (App_ProfileCardAlbumListMenu_o* __this, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_DifficultySelectMenuSequence_Menu_NormalMenuItem___ctor (App_MainMenuSequence_DifficultySelectMenuSequence_Menu_NormalMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_DifficultySelectMenuSequence_Menu_NormalMenuItem__GetName (App_MainMenuSequence_DifficultySelectMenuSequence_Menu_NormalMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_DifficultySelectMenuSequence_Menu_NormalMenuItem__GetHelp (App_MainMenuSequence_DifficultySelectMenuSequence_Menu_NormalMenuItem_o* __this, const MethodInfo* method);

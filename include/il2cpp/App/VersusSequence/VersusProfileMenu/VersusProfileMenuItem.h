@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem___ctor (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem_o* __this, int32_t index, App_ProfileCard_o* profile, bool isEnable, const MethodInfo* method);
+int32_t App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem__ACall (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem__BuildAttribute (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem__OnBuildMenuItemContent (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem__OpenDialog (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem___OpenDialog_b__9_0 (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem_o* __this, const MethodInfo* method);

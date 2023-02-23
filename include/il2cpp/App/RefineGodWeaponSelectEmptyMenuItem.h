@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RefineGodWeaponSelectEmptyMenuItem___ctor (App_RefineGodWeaponSelectEmptyMenuItem_o* __this, App_RefineGodWeaponSelectMenu_SelectEventHandler_o* selectEventHandler, App_RefineGodWeaponSelectMenu_RequestCloseEventHandler_o* requestCloseEventHandler, const MethodInfo* method);
+int32_t App_RefineGodWeaponSelectEmptyMenuItem__BuildAttribute (App_RefineGodWeaponSelectEmptyMenuItem_o* __this, const MethodInfo* method);
+void App_RefineGodWeaponSelectEmptyMenuItem__OnSelect (App_RefineGodWeaponSelectEmptyMenuItem_o* __this, const MethodInfo* method);
+int32_t App_RefineGodWeaponSelectEmptyMenuItem__ACall (App_RefineGodWeaponSelectEmptyMenuItem_o* __this, const MethodInfo* method);

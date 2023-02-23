@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_DayMenuItemContent__SetupByMenuItem (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_DayMenuItemContent_o* __this, App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_MenuItem_o* menuItem, const MethodInfo* method);
+void App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_DayMenuItemContent___ctor (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_DayMenuItemContent_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_MainMenuSequence_OptionMenuSequence_Menu_MenuItem__BCall (App_MainMenuSequence_OptionMenuSequence_Menu_MenuItem_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_OptionMenuSequence_Menu_MenuItem___ctor (App_MainMenuSequence_OptionMenuSequence_Menu_MenuItem_o* __this, const MethodInfo* method);

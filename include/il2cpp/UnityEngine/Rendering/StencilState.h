@@ -1,0 +1,34 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Rendering_StencilState_o UnityEngine_Rendering_StencilState__get_defaultValue (const MethodInfo* method);
+void UnityEngine_Rendering_StencilState___ctor (UnityEngine_Rendering_StencilState_o __this, bool enabled, uint8_t readMask, uint8_t writeMask, int32_t compareFunction, int32_t passOperation, int32_t failOperation, int32_t zFailOperation, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState___ctor (UnityEngine_Rendering_StencilState_o __this, bool enabled, uint8_t readMask, uint8_t writeMask, int32_t compareFunctionFront, int32_t passOperationFront, int32_t failOperationFront, int32_t zFailOperationFront, int32_t compareFunctionBack, int32_t passOperationBack, int32_t failOperationBack, int32_t zFailOperationBack, const MethodInfo* method);
+bool UnityEngine_Rendering_StencilState__get_enabled (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_enabled (UnityEngine_Rendering_StencilState_o __this, bool value, const MethodInfo* method);
+uint8_t UnityEngine_Rendering_StencilState__get_readMask (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+uint8_t UnityEngine_Rendering_StencilState__get_writeMask (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__SetCompareFunction (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__SetPassOperation (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__SetFailOperation (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__SetZFailOperation (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_compareFunctionFront (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_compareFunctionFront (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_passOperationFront (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_passOperationFront (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_failOperationFront (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_failOperationFront (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_zFailOperationFront (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_zFailOperationFront (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_compareFunctionBack (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_compareFunctionBack (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_passOperationBack (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_passOperationBack (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_failOperationBack (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_failOperationBack (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__get_zFailOperationBack (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_StencilState__set_zFailOperationBack (UnityEngine_Rendering_StencilState_o __this, int32_t value, const MethodInfo* method);
+bool UnityEngine_Rendering_StencilState__Equals (UnityEngine_Rendering_StencilState_o __this, UnityEngine_Rendering_StencilState_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_StencilState__Equals (UnityEngine_Rendering_StencilState_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_StencilState__GetHashCode (UnityEngine_Rendering_StencilState_o __this, const MethodInfo* method);

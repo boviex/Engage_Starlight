@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem___c___cctor (const MethodInfo* method);
+void App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem___c___ctor (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem___c_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem___c___OpenDialog_b__9_1 (App_VersusSequence_VersusProfileMenu_VersusProfileMenuItem___c_o* __this, const MethodInfo* method);

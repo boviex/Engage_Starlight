@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MapSystemMenu_SubFriendMenu_NotebookItem__get_FlagID (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubFriendMenu_NotebookItem__GetName (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubFriendMenu_NotebookItem__GetHelpText (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_NotebookItem__GetMapAttribute (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_NotebookItem__BuildAttribute (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_NotebookItem__ACall (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_NotebookItem__BCall (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);
+void App_MapSystemMenu_SubFriendMenu_NotebookItem___ctor (App_MapSystemMenu_SubFriendMenu_NotebookItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_EventSequence_o* App_StackProcInst_EventSequence___get_Instance (const MethodInfo_36CFE20* method);
+Il2CppObject* App_StackProcInst_object___get_Instance (const MethodInfo_36CFE20* method);
+void App_StackProcInst_EventSequence___OnSingletonCreate (App_StackProcInst_EventSequence__o* __this, const MethodInfo_36CFF50* method);
+void App_StackProcInst_object___OnSingletonCreate (App_StackProcInst_T__o* __this, const MethodInfo_36CFF50* method);
+void App_StackProcInst_MyRoomMovieMenuItem_MyRoomMovieCallSequence___OnSingletonCreate (App_StackProcInst_MyRoomMovieMenuItem_MyRoomMovieCallSequence__o* __this, const MethodInfo_36CFF50* method);
+void App_StackProcInst_MyRoomRelianceSubSelect_MyRoomRelianceCallSequence___OnSingletonCreate (App_StackProcInst_MyRoomRelianceSubSelect_MyRoomRelianceCallSequence__o* __this, const MethodInfo_36CFF50* method);
+void App_StackProcInst_EventSequence___OnSingletonDispose (App_StackProcInst_EventSequence__o* __this, const MethodInfo_36D00E0* method);
+void App_StackProcInst_object___OnSingletonDispose (App_StackProcInst_T__o* __this, const MethodInfo_36D00E0* method);
+void App_StackProcInst_MyRoomMovieMenuItem_MyRoomMovieCallSequence___OnSingletonDispose (App_StackProcInst_MyRoomMovieMenuItem_MyRoomMovieCallSequence__o* __this, const MethodInfo_36D00E0* method);
+void App_StackProcInst_MyRoomRelianceSubSelect_MyRoomRelianceCallSequence___OnSingletonDispose (App_StackProcInst_MyRoomRelianceSubSelect_MyRoomRelianceCallSequence__o* __this, const MethodInfo_36D00E0* method);
+bool App_StackProcInst_EventSequence___op_Implicit (App_StackProcInst_T__o* exists, const MethodInfo_36D01D0* method);
+bool App_StackProcInst_object___op_Implicit (App_StackProcInst_T__o* exists, const MethodInfo_36D01D0* method);
+void App_StackProcInst_EventSequence____ctor (App_StackProcInst_EventSequence__o* __this, const MethodInfo_36D01E0* method);
+void App_StackProcInst_object____ctor (App_StackProcInst_T__o* __this, const MethodInfo_36D01E0* method);
+void App_StackProcInst_MyRoomMovieMenuItem_MyRoomMovieCallSequence____ctor (App_StackProcInst_MyRoomMovieMenuItem_MyRoomMovieCallSequence__o* __this, const MethodInfo_36D01E0* method);
+void App_StackProcInst_MyRoomRelianceSubSelect_MyRoomRelianceCallSequence____ctor (App_StackProcInst_MyRoomRelianceSubSelect_MyRoomRelianceCallSequence__o* __this, const MethodInfo_36D01E0* method);
+void App_StackProcInst_object____cctor (const MethodInfo_36D01F0* method);

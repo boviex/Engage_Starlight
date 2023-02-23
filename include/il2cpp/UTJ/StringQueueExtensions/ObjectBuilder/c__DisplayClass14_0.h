@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass14_0___ctor (UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass14_0_o* __this, const MethodInfo* method);
+bool UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass14_0___GetValueByType_b__0 (UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass14_0_o* __this, UTJ_TypedStringToValueMap_o* map, const MethodInfo* method);

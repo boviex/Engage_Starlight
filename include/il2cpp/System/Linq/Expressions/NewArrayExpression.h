@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_NewArrayExpression___ctor (System_Linq_Expressions_NewArrayExpression_o* __this, System_Type_o* type, System_Collections_ObjectModel_ReadOnlyCollection_Expression__o* expressions, const MethodInfo* method);
+System_Linq_Expressions_NewArrayExpression_o* System_Linq_Expressions_NewArrayExpression__Make (int32_t nodeType, System_Type_o* type, System_Collections_ObjectModel_ReadOnlyCollection_Expression__o* expressions, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_NewArrayExpression__get_Type (System_Linq_Expressions_NewArrayExpression_o* __this, const MethodInfo* method);
+System_Collections_ObjectModel_ReadOnlyCollection_Expression__o* System_Linq_Expressions_NewArrayExpression__get_Expressions (System_Linq_Expressions_NewArrayExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_NewArrayExpression__Accept (System_Linq_Expressions_NewArrayExpression_o* __this, System_Linq_Expressions_ExpressionVisitor_o* visitor, const MethodInfo* method);
+System_Linq_Expressions_NewArrayExpression_o* System_Linq_Expressions_NewArrayExpression__Update (System_Linq_Expressions_NewArrayExpression_o* __this, System_Collections_Generic_IEnumerable_Expression__o* expressions, const MethodInfo* method);

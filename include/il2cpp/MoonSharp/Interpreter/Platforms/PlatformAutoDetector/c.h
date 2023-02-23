@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector___c___cctor (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector___c___ctor (MoonSharp_Interpreter_Platforms_PlatformAutoDetector___c_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_Type__o* MoonSharp_Interpreter_Platforms_PlatformAutoDetector___c___AutoDetectPlatformFlags_b__27_0 (MoonSharp_Interpreter_Platforms_PlatformAutoDetector___c_o* __this, System_Reflection_Assembly_o* a, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector___c___AutoDetectPlatformFlags_b__27_1 (MoonSharp_Interpreter_Platforms_PlatformAutoDetector___c_o* __this, System_Type_o* t, const MethodInfo* method);

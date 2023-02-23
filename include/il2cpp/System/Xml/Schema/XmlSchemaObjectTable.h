@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaObjectTable___ctor (System_Xml_Schema_XmlSchemaObjectTable_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaObjectTable__Add (System_Xml_Schema_XmlSchemaObjectTable_o* __this, System_Xml_XmlQualifiedName_o* name, System_Xml_Schema_XmlSchemaObject_o* value, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaObjectTable__Insert (System_Xml_Schema_XmlSchemaObjectTable_o* __this, System_Xml_XmlQualifiedName_o* name, System_Xml_Schema_XmlSchemaObject_o* value, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaObjectTable__Replace (System_Xml_Schema_XmlSchemaObjectTable_o* __this, System_Xml_XmlQualifiedName_o* name, System_Xml_Schema_XmlSchemaObject_o* value, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaObjectTable__Clear (System_Xml_Schema_XmlSchemaObjectTable_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaObjectTable__Remove (System_Xml_Schema_XmlSchemaObjectTable_o* __this, System_Xml_XmlQualifiedName_o* name, const MethodInfo* method);
+int32_t System_Xml_Schema_XmlSchemaObjectTable__FindIndexByValue (System_Xml_Schema_XmlSchemaObjectTable_o* __this, System_Xml_Schema_XmlSchemaObject_o* xso, const MethodInfo* method);
+int32_t System_Xml_Schema_XmlSchemaObjectTable__get_Count (System_Xml_Schema_XmlSchemaObjectTable_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaObjectTable__Contains (System_Xml_Schema_XmlSchemaObjectTable_o* __this, System_Xml_XmlQualifiedName_o* name, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObject_o* System_Xml_Schema_XmlSchemaObjectTable__get_Item (System_Xml_Schema_XmlSchemaObjectTable_o* __this, System_Xml_XmlQualifiedName_o* name, const MethodInfo* method);
+System_Collections_ICollection_o* System_Xml_Schema_XmlSchemaObjectTable__get_Values (System_Xml_Schema_XmlSchemaObjectTable_o* __this, const MethodInfo* method);
+System_Collections_IDictionaryEnumerator_o* System_Xml_Schema_XmlSchemaObjectTable__GetEnumerator (System_Xml_Schema_XmlSchemaObjectTable_o* __this, const MethodInfo* method);

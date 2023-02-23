@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6__MoveNext (UniRx_Async_UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6_o __this, const MethodInfo* method);
+void UniRx_Async_UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6__SetStateMachine (UniRx_Async_UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

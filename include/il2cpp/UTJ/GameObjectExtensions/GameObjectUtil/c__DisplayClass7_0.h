@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_GameObjectExtensions_GameObjectUtil___c__DisplayClass7_0_object____ctor (UTJ_GameObjectExtensions_GameObjectUtil___c__DisplayClass7_0_T__o* __this, const MethodInfo_2B84E00* method);
+bool UTJ_GameObjectExtensions_GameObjectUtil___c__DisplayClass7_0_object____FindChildComponentsByName_b__0 (UTJ_GameObjectExtensions_GameObjectUtil___c__DisplayClass7_0_T__o* __this, System_String_o* searchName, const MethodInfo_2B84E10* method);
+bool UTJ_GameObjectExtensions_GameObjectUtil___c__DisplayClass7_0_object____FindChildComponentsByName_b__1 (UTJ_GameObjectExtensions_GameObjectUtil___c__DisplayClass7_0_T__o* __this, System_String_o* searchName, const MethodInfo_2B84E50* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TimeoutObservable_Timeout___c__DisplayClass8_0_object____ctor (UniRx_Operators_TimeoutObservable_Timeout___c__DisplayClass8_0_T__o* __this, const MethodInfo_2B86C20* method);
+void UniRx_Operators_TimeoutObservable_Timeout___c__DisplayClass8_0_object____RunTimer_b__0 (UniRx_Operators_TimeoutObservable_Timeout___c__DisplayClass8_0_T__o* __this, const MethodInfo_2B86C30* method);

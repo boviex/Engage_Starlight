@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_Specialized_HybridDictionary___ctor (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_Specialized_HybridDictionary__get_Item (System_Collections_Specialized_HybridDictionary_o* __this, Il2CppObject* key, const MethodInfo* method);
+void System_Collections_Specialized_HybridDictionary__set_Item (System_Collections_Specialized_HybridDictionary_o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo* method);
+System_Collections_Specialized_ListDictionary_o* System_Collections_Specialized_HybridDictionary__get_List (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+void System_Collections_Specialized_HybridDictionary__ChangeOver (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+int32_t System_Collections_Specialized_HybridDictionary__get_Count (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+System_Collections_ICollection_o* System_Collections_Specialized_HybridDictionary__get_Keys (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+bool System_Collections_Specialized_HybridDictionary__get_IsReadOnly (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+bool System_Collections_Specialized_HybridDictionary__get_IsFixedSize (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+bool System_Collections_Specialized_HybridDictionary__get_IsSynchronized (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_Specialized_HybridDictionary__get_SyncRoot (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+System_Collections_ICollection_o* System_Collections_Specialized_HybridDictionary__get_Values (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+void System_Collections_Specialized_HybridDictionary__Add (System_Collections_Specialized_HybridDictionary_o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo* method);
+bool System_Collections_Specialized_HybridDictionary__Contains (System_Collections_Specialized_HybridDictionary_o* __this, Il2CppObject* key, const MethodInfo* method);
+void System_Collections_Specialized_HybridDictionary__CopyTo (System_Collections_Specialized_HybridDictionary_o* __this, System_Array_o* array, int32_t index, const MethodInfo* method);
+System_Collections_IDictionaryEnumerator_o* System_Collections_Specialized_HybridDictionary__GetEnumerator (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* System_Collections_Specialized_HybridDictionary__System_Collections_IEnumerable_GetEnumerator (System_Collections_Specialized_HybridDictionary_o* __this, const MethodInfo* method);
+void System_Collections_Specialized_HybridDictionary__Remove (System_Collections_Specialized_HybridDictionary_o* __this, Il2CppObject* key, const MethodInfo* method);

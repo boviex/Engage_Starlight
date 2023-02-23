@@ -1,0 +1,51 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookData__Load (const MethodInfo* method);
+System_String_o* App_CookData__get_Pid (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_Pid (App_CookData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_CookData__get_Taste1 (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_Taste1 (App_CookData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_CookData__get_Taste2 (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_Taste2 (App_CookData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_CookData__get_Taste3 (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_Taste3 (App_CookData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_array* App_CookData__get_VeryGoodFood (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_VeryGoodFood (App_CookData_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_array* App_CookData__get_GoodFood (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_GoodFood (App_CookData_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_array* App_CookData__get_HaveCookedFood (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_HaveCookedFood (App_CookData_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_array* App_CookData__get_ChallengingFood (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_ChallengingFood (App_CookData_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_array* App_CookData__get_LikeFood (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_LikeFood (App_CookData_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_array* App_CookData__get_DislikeFood (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_DislikeFood (App_CookData_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_o* App_CookData__get_BentoIid (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_BentoIid (App_CookData_o* __this, System_String_o* value, const MethodInfo* method);
+uint8_t App_CookData__get_MaskColor100R (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_MaskColor100R (App_CookData_o* __this, uint8_t value, const MethodInfo* method);
+uint8_t App_CookData__get_MaskColor100G (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_MaskColor100G (App_CookData_o* __this, uint8_t value, const MethodInfo* method);
+uint8_t App_CookData__get_MaskColor100B (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_MaskColor100B (App_CookData_o* __this, uint8_t value, const MethodInfo* method);
+uint8_t App_CookData__get_MaskColor075R (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_MaskColor075R (App_CookData_o* __this, uint8_t value, const MethodInfo* method);
+uint8_t App_CookData__get_MaskColor075G (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_MaskColor075G (App_CookData_o* __this, uint8_t value, const MethodInfo* method);
+uint8_t App_CookData__get_MaskColor075B (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_MaskColor075B (App_CookData_o* __this, uint8_t value, const MethodInfo* method);
+System_String_o* App_CookData__get_SeEvent (App_CookData_o* __this, const MethodInfo* method);
+void App_CookData__set_SeEvent (App_CookData_o* __this, System_String_o* value, const MethodInfo* method);
+void App_CookData__OnBuild (App_CookData_o* __this, const MethodInfo* method);
+System_String_o* App_CookData__GetDifficultyName (int32_t difficulty, const MethodInfo* method);
+System_String_o* App_CookData__GetDebugName (App_CookData_o* __this, const MethodInfo* method);
+int32_t App_CookData__GetDifficulty (App_CookData_o* __this, System_String_o* fid, const MethodInfo* method);
+bool App_CookData__IsLike (App_CookData_o* __this, App_FoodData_o* food, const MethodInfo* method);
+bool App_CookData__IsLike (App_CookData_o* __this, System_String_o* fid, const MethodInfo* method);
+bool App_CookData__IsDislike (App_CookData_o* __this, App_FoodData_o* food, const MethodInfo* method);
+int32_t App_CookData__GetLike (App_CookData_o* __this, App_FoodData_o* food, const MethodInfo* method);
+System_String_o* App_CookData__GetLikeString (App_CookData_o* __this, App_FoodData_o* food, const MethodInfo* method);
+void App_CookData___ctor (App_CookData_o* __this, const MethodInfo* method);

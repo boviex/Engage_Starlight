@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader___ctor (MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader_o* __this, System_Reflection_Assembly_o* resourceAssembly, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader__FileNameToResource (MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader_o* __this, System_String_o* file, const MethodInfo* method);
+bool MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader__ScriptFileExists (MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader_o* __this, System_String_o* name, const MethodInfo* method);
+Il2CppObject* MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader__LoadFile (MoonSharp_Interpreter_Loaders_EmbeddedResourcesScriptLoader_o* __this, System_String_o* file, MoonSharp_Interpreter_Table_o* globalContext, const MethodInfo* method);

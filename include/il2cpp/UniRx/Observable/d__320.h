@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observable__TimerFrameCore_d__320___ctor (UniRx_Observable__TimerFrameCore_d__320_o* __this, int32_t __1__state, const MethodInfo* method);
+void UniRx_Observable__TimerFrameCore_d__320__System_IDisposable_Dispose (UniRx_Observable__TimerFrameCore_d__320_o* __this, const MethodInfo* method);
+bool UniRx_Observable__TimerFrameCore_d__320__MoveNext (UniRx_Observable__TimerFrameCore_d__320_o* __this, const MethodInfo* method);
+Il2CppObject* UniRx_Observable__TimerFrameCore_d__320__System_Collections_Generic_IEnumerator_System_Object__get_Current (UniRx_Observable__TimerFrameCore_d__320_o* __this, const MethodInfo* method);
+void UniRx_Observable__TimerFrameCore_d__320__System_Collections_IEnumerator_Reset (UniRx_Observable__TimerFrameCore_d__320_o* __this, const MethodInfo* method);
+Il2CppObject* UniRx_Observable__TimerFrameCore_d__320__System_Collections_IEnumerator_get_Current (UniRx_Observable__TimerFrameCore_d__320_o* __this, const MethodInfo* method);

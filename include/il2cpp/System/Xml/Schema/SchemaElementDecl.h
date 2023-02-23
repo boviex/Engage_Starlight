@@ -1,0 +1,41 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_SchemaElementDecl___ctor (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl___ctor (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_Schema_XmlSchemaDatatype_o* dtype, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl___ctor (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_XmlQualifiedName_o* name, System_String_o* prefix, const MethodInfo* method);
+System_Xml_Schema_SchemaElementDecl_o* System_Xml_Schema_SchemaElementDecl__CreateAnyTypeElementDecl (const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__System_Xml_IDtdAttributeListInfo_get_HasNonCDataAttributes (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+System_Xml_IDtdAttributeInfo_o* System_Xml_Schema_SchemaElementDecl__System_Xml_IDtdAttributeListInfo_LookupAttribute (System_Xml_Schema_SchemaElementDecl_o* __this, System_String_o* prefix, System_String_o* localName, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_IDtdDefaultAttributeInfo__o* System_Xml_Schema_SchemaElementDecl__System_Xml_IDtdAttributeListInfo_LookupDefaultAttributes (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__get_IsIdDeclared (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_IsIdDeclared (System_Xml_Schema_SchemaElementDecl_o* __this, bool value, const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__get_HasNonCDataAttribute (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_HasNonCDataAttribute (System_Xml_Schema_SchemaElementDecl_o* __this, bool value, const MethodInfo* method);
+System_Xml_Schema_SchemaElementDecl_o* System_Xml_Schema_SchemaElementDecl__Clone (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__get_IsAbstract (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_IsAbstract (System_Xml_Schema_SchemaElementDecl_o* __this, bool value, const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__get_IsNillable (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_IsNillable (System_Xml_Schema_SchemaElementDecl_o* __this, bool value, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaElementDecl__get_Block (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_Block (System_Xml_Schema_SchemaElementDecl_o* __this, int32_t value, const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__get_IsNotationDeclared (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_IsNotationDeclared (System_Xml_Schema_SchemaElementDecl_o* __this, bool value, const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__get_HasDefaultAttribute (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaElementDecl__get_HasRequiredAttribute (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+System_Xml_Schema_ContentValidator_o* System_Xml_Schema_SchemaElementDecl__get_ContentValidator (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_ContentValidator (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_Schema_ContentValidator_o* value, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaAnyAttribute_o* System_Xml_Schema_SchemaElementDecl__get_AnyAttribute (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_AnyAttribute (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_Schema_XmlSchemaAnyAttribute_o* value, const MethodInfo* method);
+System_Xml_Schema_CompiledIdentityConstraint_array* System_Xml_Schema_SchemaElementDecl__get_Constraints (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_Constraints (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_Schema_CompiledIdentityConstraint_array* value, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaElement_o* System_Xml_Schema_SchemaElementDecl__get_SchemaElement (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__set_SchemaElement (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_Schema_XmlSchemaElement_o* value, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__AddAttDef (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_Schema_SchemaAttDef_o* attdef, const MethodInfo* method);
+System_Xml_Schema_SchemaAttDef_o* System_Xml_Schema_SchemaElementDecl__GetAttDef (System_Xml_Schema_SchemaElementDecl_o* __this, System_Xml_XmlQualifiedName_o* qname, const MethodInfo* method);
+System_Collections_Generic_IList_IDtdDefaultAttributeInfo__o* System_Xml_Schema_SchemaElementDecl__get_DefaultAttDefs (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__SchemaAttDef__o* System_Xml_Schema_SchemaElementDecl__get_AttDefs (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__XmlQualifiedName__o* System_Xml_Schema_SchemaElementDecl__get_ProhibitedAttributes (System_Xml_Schema_SchemaElementDecl_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl__CheckAttributes (System_Xml_Schema_SchemaElementDecl_o* __this, System_Collections_Hashtable_o* presence, bool standalone, const MethodInfo* method);
+void System_Xml_Schema_SchemaElementDecl___cctor (const MethodInfo* method);

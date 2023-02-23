@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Unity_Jobs_LowLevel_Unsafe_JobsUtility__GetJobRange (Unity_Jobs_LowLevel_Unsafe_JobRanges_o* ranges, int32_t jobIndex, int32_t* beginIndex, int32_t* endIndex, const MethodInfo* method);
+bool Unity_Jobs_LowLevel_Unsafe_JobsUtility__GetWorkStealingRange (Unity_Jobs_LowLevel_Unsafe_JobRanges_o* ranges, int32_t jobIndex, int32_t* beginIndex, int32_t* endIndex, const MethodInfo* method);
+Unity_Jobs_JobHandle_o Unity_Jobs_LowLevel_Unsafe_JobsUtility__Schedule (Unity_Jobs_LowLevel_Unsafe_JobsUtility_JobScheduleParameters_o* parameters, const MethodInfo* method);
+Unity_Jobs_JobHandle_o Unity_Jobs_LowLevel_Unsafe_JobsUtility__ScheduleParallelFor (Unity_Jobs_LowLevel_Unsafe_JobsUtility_JobScheduleParameters_o* parameters, int32_t arrayLength, int32_t innerloopBatchCount, const MethodInfo* method);
+Unity_Jobs_JobHandle_o Unity_Jobs_LowLevel_Unsafe_JobsUtility__ScheduleParallelForTransform (Unity_Jobs_LowLevel_Unsafe_JobsUtility_JobScheduleParameters_o* parameters, intptr_t transfromAccesssArray, const MethodInfo* method);
+intptr_t Unity_Jobs_LowLevel_Unsafe_JobsUtility__CreateJobReflectionData (System_Type_o* wrapperJobType, System_Type_o* userJobType, Il2CppObject* managedJobFunction0, Il2CppObject* managedJobFunction1, Il2CppObject* managedJobFunction2, const MethodInfo* method);
+intptr_t Unity_Jobs_LowLevel_Unsafe_JobsUtility__CreateJobReflectionData (System_Type_o* type, Il2CppObject* managedJobFunction0, Il2CppObject* managedJobFunction1, Il2CppObject* managedJobFunction2, const MethodInfo* method);
+void Unity_Jobs_LowLevel_Unsafe_JobsUtility__Schedule_Injected (Unity_Jobs_LowLevel_Unsafe_JobsUtility_JobScheduleParameters_o* parameters, Unity_Jobs_JobHandle_o* ret, const MethodInfo* method);
+void Unity_Jobs_LowLevel_Unsafe_JobsUtility__ScheduleParallelFor_Injected (Unity_Jobs_LowLevel_Unsafe_JobsUtility_JobScheduleParameters_o* parameters, int32_t arrayLength, int32_t innerloopBatchCount, Unity_Jobs_JobHandle_o* ret, const MethodInfo* method);
+void Unity_Jobs_LowLevel_Unsafe_JobsUtility__ScheduleParallelForTransform_Injected (Unity_Jobs_LowLevel_Unsafe_JobsUtility_JobScheduleParameters_o* parameters, intptr_t transfromAccesssArray, Unity_Jobs_JobHandle_o* ret, const MethodInfo* method);

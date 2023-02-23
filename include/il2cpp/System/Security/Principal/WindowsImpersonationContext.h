@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Principal_WindowsImpersonationContext___ctor (System_Security_Principal_WindowsImpersonationContext_o* __this, intptr_t token, const MethodInfo* method);
+void System_Security_Principal_WindowsImpersonationContext__Dispose (System_Security_Principal_WindowsImpersonationContext_o* __this, const MethodInfo* method);
+void System_Security_Principal_WindowsImpersonationContext__Undo (System_Security_Principal_WindowsImpersonationContext_o* __this, const MethodInfo* method);
+bool System_Security_Principal_WindowsImpersonationContext__CloseToken (intptr_t token, const MethodInfo* method);
+intptr_t System_Security_Principal_WindowsImpersonationContext__DuplicateToken (intptr_t token, const MethodInfo* method);
+bool System_Security_Principal_WindowsImpersonationContext__SetCurrentToken (intptr_t token, const MethodInfo* method);
+bool System_Security_Principal_WindowsImpersonationContext__RevertToSelf (const MethodInfo* method);

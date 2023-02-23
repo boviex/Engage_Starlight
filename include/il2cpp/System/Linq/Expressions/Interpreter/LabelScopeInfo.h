@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LabelScopeInfo___ctor (System_Linq_Expressions_Interpreter_LabelScopeInfo_o* __this, System_Linq_Expressions_Interpreter_LabelScopeInfo_o* parent, int32_t kind, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_LabelScopeInfo__get_CanJumpInto (System_Linq_Expressions_Interpreter_LabelScopeInfo_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_LabelScopeInfo__ContainsTarget (System_Linq_Expressions_Interpreter_LabelScopeInfo_o* __this, System_Linq_Expressions_LabelTarget_o* target, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_LabelScopeInfo__TryGetLabelInfo (System_Linq_Expressions_Interpreter_LabelScopeInfo_o* __this, System_Linq_Expressions_LabelTarget_o* target, System_Linq_Expressions_Interpreter_LabelInfo_o** info, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LabelScopeInfo__AddLabelInfo (System_Linq_Expressions_Interpreter_LabelScopeInfo_o* __this, System_Linq_Expressions_LabelTarget_o* target, System_Linq_Expressions_Interpreter_LabelInfo_o* info, const MethodInfo* method);

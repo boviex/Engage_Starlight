@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Linq_Expressions_Interpreter_DebugInfo_o* System_Linq_Expressions_Interpreter_DebugInfo__GetMatchingDebugInfo (System_Linq_Expressions_Interpreter_DebugInfo_array* debugInfos, int32_t index, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_DebugInfo__ToString (System_Linq_Expressions_Interpreter_DebugInfo_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_DebugInfo___ctor (System_Linq_Expressions_Interpreter_DebugInfo_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_DebugInfo___cctor (const MethodInfo* method);

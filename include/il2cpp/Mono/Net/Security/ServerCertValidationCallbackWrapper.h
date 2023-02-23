@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Net_Security_ServerCertValidationCallbackWrapper___ctor (Mono_Net_Security_ServerCertValidationCallbackWrapper_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+bool Mono_Net_Security_ServerCertValidationCallbackWrapper__Invoke (Mono_Net_Security_ServerCertValidationCallbackWrapper_o* __this, System_Net_ServerCertValidationCallback_o* callback, System_Security_Cryptography_X509Certificates_X509Certificate_o* certificate, System_Security_Cryptography_X509Certificates_X509Chain_o* chain, int32_t sslPolicyErrors, const MethodInfo* method);
+System_IAsyncResult_o* Mono_Net_Security_ServerCertValidationCallbackWrapper__BeginInvoke (Mono_Net_Security_ServerCertValidationCallbackWrapper_o* __this, System_Net_ServerCertValidationCallback_o* callback, System_Security_Cryptography_X509Certificates_X509Certificate_o* certificate, System_Security_Cryptography_X509Certificates_X509Chain_o* chain, int32_t sslPolicyErrors, System_AsyncCallback_o* __callback, Il2CppObject* object, const MethodInfo* method);
+bool Mono_Net_Security_ServerCertValidationCallbackWrapper__EndInvoke (Mono_Net_Security_ServerCertValidationCallbackWrapper_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

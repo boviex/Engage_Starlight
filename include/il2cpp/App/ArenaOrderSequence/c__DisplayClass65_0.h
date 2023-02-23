@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ArenaOrderSequence___c__DisplayClass65_0___ctor (App_ArenaOrderSequence___c__DisplayClass65_0_o* __this, const MethodInfo* method);
+void App_ArenaOrderSequence___c__DisplayClass65_0___CreateBind_b__0 (App_ArenaOrderSequence___c__DisplayClass65_0_o* __this, const MethodInfo* method);
+void App_ArenaOrderSequence___c__DisplayClass65_0___CreateBind_b__1 (App_ArenaOrderSequence___c__DisplayClass65_0_o* __this, const MethodInfo* method);
+void App_ArenaOrderSequence___c__DisplayClass65_0___CreateBind_b__2 (App_ArenaOrderSequence___c__DisplayClass65_0_o* __this, const MethodInfo* method);
+void App_ArenaOrderSequence___c__DisplayClass65_0___CreateBind_b__3 (App_ArenaOrderSequence___c__DisplayClass65_0_o* __this, const MethodInfo* method);
+void App_ArenaOrderSequence___c__DisplayClass65_0___CreateBind_b__4 (App_ArenaOrderSequence___c__DisplayClass65_0_o* __this, const MethodInfo* method);

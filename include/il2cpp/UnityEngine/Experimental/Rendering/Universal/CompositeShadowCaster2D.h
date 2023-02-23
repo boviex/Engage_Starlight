@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_CompositeShadowCaster2D__OnEnable (UnityEngine_Experimental_Rendering_Universal_CompositeShadowCaster2D_o* __this, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_CompositeShadowCaster2D__OnDisable (UnityEngine_Experimental_Rendering_Universal_CompositeShadowCaster2D_o* __this, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_CompositeShadowCaster2D___ctor (UnityEngine_Experimental_Rendering_Universal_CompositeShadowCaster2D_o* __this, const MethodInfo* method);

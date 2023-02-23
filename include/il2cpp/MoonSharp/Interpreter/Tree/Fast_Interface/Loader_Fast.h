@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_Tree_Expressions_DynamicExprExpression_o* MoonSharp_Interpreter_Tree_Fast_Interface_Loader_Fast__LoadDynamicExpr (MoonSharp_Interpreter_Script_o* script, MoonSharp_Interpreter_Debugging_SourceCode_o* source, const MethodInfo* method);
+MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* MoonSharp_Interpreter_Tree_Fast_Interface_Loader_Fast__CreateLoadingContext (MoonSharp_Interpreter_Script_o* script, MoonSharp_Interpreter_Debugging_SourceCode_o* source, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Tree_Fast_Interface_Loader_Fast__LoadChunk (MoonSharp_Interpreter_Script_o* script, MoonSharp_Interpreter_Debugging_SourceCode_o* source, MoonSharp_Interpreter_Execution_VM_ByteCode_o* bytecode, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Tree_Fast_Interface_Loader_Fast__LoadFunction (MoonSharp_Interpreter_Script_o* script, MoonSharp_Interpreter_Debugging_SourceCode_o* source, MoonSharp_Interpreter_Execution_VM_ByteCode_o* bytecode, bool usesGlobalEnv, const MethodInfo* method);

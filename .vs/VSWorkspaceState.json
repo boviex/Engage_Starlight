@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\data",
-    "\\linkerscripts",
-    "\\patches",
-    "\\patches\\maps",
-    "\\patches\\maps\\120",
-    "\\scripts",
-    "\\src",
-    "\\src\\toggles"
+    ""
   ],
-  "SelectedNode": "\\scripts\\gen_headers.py",
+  "SelectedNode": "\\C:\\Users\\bovie\\Documents\\GitHub\\Engage_Starlight\\CMakeLists.txt\\release_ryujinx",
   "PreviewInSolutionExplorer": false
 }

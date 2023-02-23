@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_UnitSelectAllUnitMenu_ConfirmSequence__CreateBind (App_ProcInst_o* super, App_UnitSelectAllUnitMenu_ConfirmSequence_DecideEventHandler_o* decide, App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler_o* check, App_UnitSelectAllUnitMenu_ConfirmSequence_FailureEventHandler_o* failure, App_UnitSelectAllUnitMenu_ConfirmSequence_EndEventHandler_o* end, const MethodInfo* method);
+void App_UnitSelectAllUnitMenu_ConfirmSequence___ctor (App_UnitSelectAllUnitMenu_ConfirmSequence_o* __this, const MethodInfo* method);

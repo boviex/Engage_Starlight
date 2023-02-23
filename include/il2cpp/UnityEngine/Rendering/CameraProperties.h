@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Plane_o UnityEngine_Rendering_CameraProperties__GetShadowCullingPlane (UnityEngine_Rendering_CameraProperties_o __this, int32_t index, const MethodInfo* method);
+UnityEngine_Plane_o UnityEngine_Rendering_CameraProperties__GetCameraCullingPlane (UnityEngine_Rendering_CameraProperties_o __this, int32_t index, const MethodInfo* method);
+bool UnityEngine_Rendering_CameraProperties__Equals (UnityEngine_Rendering_CameraProperties_o __this, UnityEngine_Rendering_CameraProperties_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_CameraProperties__Equals (UnityEngine_Rendering_CameraProperties_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_CameraProperties__GetHashCode (UnityEngine_Rendering_CameraProperties_o __this, const MethodInfo* method);

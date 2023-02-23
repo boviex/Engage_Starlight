@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_BatchFrameObservable_BatchFrame_object____ctor (UniRx_Operators_BatchFrameObservable_BatchFrame_T__o* __this, UniRx_Operators_BatchFrameObservable_T__o* parent, System_IObserver_IList_T___o* observer, System_IDisposable_o* cancel, const MethodInfo_1E27000* method);
+System_IDisposable_o* UniRx_Operators_BatchFrameObservable_BatchFrame_object___Run (UniRx_Operators_BatchFrameObservable_BatchFrame_T__o* __this, const MethodInfo_1E27150* method);
+void UniRx_Operators_BatchFrameObservable_BatchFrame_object___OnNext (UniRx_Operators_BatchFrameObservable_BatchFrame_T__o* __this, Il2CppObject* value, const MethodInfo_1E27250* method);
+void UniRx_Operators_BatchFrameObservable_BatchFrame_object___OnError (UniRx_Operators_BatchFrameObservable_BatchFrame_T__o* __this, System_Exception_o* error, const MethodInfo_1E274B0* method);
+void UniRx_Operators_BatchFrameObservable_BatchFrame_object___OnCompleted (UniRx_Operators_BatchFrameObservable_BatchFrame_T__o* __this, const MethodInfo_1E275F0* method);
+void UniRx_Operators_BatchFrameObservable_BatchFrame___ctor (UniRx_Operators_BatchFrameObservable_BatchFrame_o* __this, UniRx_Operators_BatchFrameObservable_o* parent, System_IObserver_Unit__o* observer, System_IDisposable_o* cancel, const MethodInfo* method);
+System_IDisposable_o* UniRx_Operators_BatchFrameObservable_BatchFrame__Run (UniRx_Operators_BatchFrameObservable_BatchFrame_o* __this, const MethodInfo* method);
+void UniRx_Operators_BatchFrameObservable_BatchFrame__OnNext (UniRx_Operators_BatchFrameObservable_BatchFrame_o* __this, UniRx_Unit_o value, const MethodInfo* method);
+void UniRx_Operators_BatchFrameObservable_BatchFrame__OnError (UniRx_Operators_BatchFrameObservable_BatchFrame_o* __this, System_Exception_o* error, const MethodInfo* method);
+void UniRx_Operators_BatchFrameObservable_BatchFrame__OnCompleted (UniRx_Operators_BatchFrameObservable_BatchFrame_o* __this, const MethodInfo* method);

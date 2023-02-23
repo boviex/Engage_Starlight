@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_object____ctor (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, System_Object_array* array, int32_t length, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_30087E0* method);
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_UniTask____ctor (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, UniRx_Async_UniTask_array* array, int32_t length, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_30089A0* method);
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_object___Dispose (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, const MethodInfo_3008830* method);
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_UniTask___Dispose (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, const MethodInfo_30089F0* method);
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_object___DisposeManually (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, bool clearArray, const MethodInfo_30088D0* method);
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_UniTask___DisposeManually (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, bool clearArray, const MethodInfo_3008A90* method);

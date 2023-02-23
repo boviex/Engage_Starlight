@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_FullConditionalExpression___ctor (System_Linq_Expressions_FullConditionalExpression_o* __this, System_Linq_Expressions_Expression_o* test, System_Linq_Expressions_Expression_o* ifTrue, System_Linq_Expressions_Expression_o* ifFalse, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_FullConditionalExpression__GetFalse (System_Linq_Expressions_FullConditionalExpression_o* __this, const MethodInfo* method);

@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool RootMotion_FinalIK_IKSolverHeuristic__SetChain (RootMotion_FinalIK_IKSolverHeuristic_o* __this, UnityEngine_Transform_array* hierarchy, UnityEngine_Transform_o* root, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverHeuristic__AddBone (RootMotion_FinalIK_IKSolverHeuristic_o* __this, UnityEngine_Transform_o* bone, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverHeuristic__StoreDefaultLocalState (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverHeuristic__FixTransforms (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_IKSolverHeuristic__IsValid (RootMotion_FinalIK_IKSolverHeuristic_o* __this, System_String_o** message, const MethodInfo* method);
+RootMotion_FinalIK_IKSolver_Point_array* RootMotion_FinalIK_IKSolverHeuristic__GetPoints (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+RootMotion_FinalIK_IKSolver_Point_o* RootMotion_FinalIK_IKSolverHeuristic__GetPoint (RootMotion_FinalIK_IKSolverHeuristic_o* __this, UnityEngine_Transform_o* transform, const MethodInfo* method);
+int32_t RootMotion_FinalIK_IKSolverHeuristic__get_minBones (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_IKSolverHeuristic__get_boneLengthCanBeZero (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_IKSolverHeuristic__get_allowCommonParent (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverHeuristic__OnInitiate (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverHeuristic__OnUpdate (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverHeuristic__InitiateBones (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_IKSolverHeuristic__get_localDirection (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+float RootMotion_FinalIK_IKSolverHeuristic__get_positionOffset (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_IKSolverHeuristic__GetSingularityOffset (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_IKSolverHeuristic__SingularityDetected (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverHeuristic___ctor (RootMotion_FinalIK_IKSolverHeuristic_o* __this, const MethodInfo* method);

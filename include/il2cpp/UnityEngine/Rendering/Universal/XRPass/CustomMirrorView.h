@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_XRPass_CustomMirrorView___ctor (UnityEngine_Rendering_Universal_XRPass_CustomMirrorView_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRPass_CustomMirrorView__Invoke (UnityEngine_Rendering_Universal_XRPass_CustomMirrorView_o* __this, UnityEngine_Rendering_Universal_XRPass_o* pass, UnityEngine_Rendering_CommandBuffer_o* cmd, UnityEngine_RenderTexture_o* rt, UnityEngine_Rect_o viewport, const MethodInfo* method);
+System_IAsyncResult_o* UnityEngine_Rendering_Universal_XRPass_CustomMirrorView__BeginInvoke (UnityEngine_Rendering_Universal_XRPass_CustomMirrorView_o* __this, UnityEngine_Rendering_Universal_XRPass_o* pass, UnityEngine_Rendering_CommandBuffer_o* cmd, UnityEngine_RenderTexture_o* rt, UnityEngine_Rect_o viewport, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_XRPass_CustomMirrorView__EndInvoke (UnityEngine_Rendering_Universal_XRPass_CustomMirrorView_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

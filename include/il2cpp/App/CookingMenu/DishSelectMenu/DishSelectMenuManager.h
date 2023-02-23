@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishSelectMenu_DishSelectMenuManager__OnCreate (App_CookingMenu_DishSelectMenu_DishSelectMenuManager_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenu_DishSelectMenuManager__Save (App_CookingMenu_DishSelectMenu_DishSelectMenuManager_o* __this, App_CookingMenu_DishSelectMenu_o* menu, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenu_DishSelectMenuManager__Restore (App_CookingMenu_DishSelectMenu_DishSelectMenuManager_o* __this, App_CookingMenu_DishSelectMenu_o* menu, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenu_DishSelectMenuManager___ctor (App_CookingMenu_DishSelectMenu_DishSelectMenuManager_o* __this, const MethodInfo* method);

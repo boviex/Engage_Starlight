@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_FSMBuilderCannon__Rotate_d__2___ctor (Combat_FSMBuilderCannon__Rotate_d__2_o* __this, int32_t __1__state, const MethodInfo* method);
+void Combat_FSMBuilderCannon__Rotate_d__2__System_IDisposable_Dispose (Combat_FSMBuilderCannon__Rotate_d__2_o* __this, const MethodInfo* method);
+bool Combat_FSMBuilderCannon__Rotate_d__2__MoveNext (Combat_FSMBuilderCannon__Rotate_d__2_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_FSMBuilderCannon__Rotate_d__2__System_Collections_Generic_IEnumerator_System_Object__get_Current (Combat_FSMBuilderCannon__Rotate_d__2_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderCannon__Rotate_d__2__System_Collections_IEnumerator_Reset (Combat_FSMBuilderCannon__Rotate_d__2_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_FSMBuilderCannon__Rotate_d__2__System_Collections_IEnumerator_get_Current (Combat_FSMBuilderCannon__Rotate_d__2_o* __this, const MethodInfo* method);

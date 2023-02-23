@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_X509Certificates_X509ChainPolicy___ctor (System_Security_Cryptography_X509Certificates_X509ChainPolicy_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_X509Certificates_X509ChainPolicy___ctor (System_Security_Cryptography_X509Certificates_X509ChainPolicy_o* __this, System_Security_Cryptography_X509Certificates_X509CertificateCollection_o* store, const MethodInfo* method);
+void System_Security_Cryptography_X509Certificates_X509ChainPolicy__Reset (System_Security_Cryptography_X509Certificates_X509ChainPolicy_o* __this, const MethodInfo* method);

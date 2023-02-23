@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_NexVersus_ReplaySlotMetaResultData___ctor (App_NexVersus_ReplaySlotMetaResultData_o* __this, const MethodInfo* method);
+void App_NexVersus_ReplaySlotMetaResultData__Clear (App_NexVersus_ReplaySlotMetaResultData_o* __this, const MethodInfo* method);
+void App_NexVersus_ReplaySlotMetaResultData__Add (App_NexVersus_ReplaySlotMetaResultData_o* __this, App_VersusServerReplayMetaData_o* metaData, const MethodInfo* method);
+App_VersusServerReplayMetaData_o* App_NexVersus_ReplaySlotMetaResultData__TryGetPlayableMetaData (App_NexVersus_ReplaySlotMetaResultData_o* __this, const MethodInfo* method);
+App_VersusServerReplayMetaData_o* App_NexVersus_ReplaySlotMetaResultData__GetUploadTargetMetaData (App_NexVersus_ReplaySlotMetaResultData_o* __this, const MethodInfo* method);
+bool App_NexVersus_ReplaySlotMetaResultData__TryRemove (App_NexVersus_ReplaySlotMetaResultData_o* __this, App_VersusServerReplayMetaData_o* metaData, const MethodInfo* method);
+System_Collections_Generic_List_VersusServerReplayMetaData__o* App_NexVersus_ReplaySlotMetaResultData__GetMetaDataList (App_NexVersus_ReplaySlotMetaResultData_o* __this, const MethodInfo* method);
+int32_t App_NexVersus_ReplaySlotMetaResultData__get_Count (App_NexVersus_ReplaySlotMetaResultData_o* __this, const MethodInfo* method);

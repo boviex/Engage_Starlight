@@ -1,0 +1,23 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_AesManaged___ctor (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+int32_t System_Security_Cryptography_AesManaged__get_FeedbackSize (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+System_Byte_array* System_Security_Cryptography_AesManaged__get_IV (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__set_IV (System_Security_Cryptography_AesManaged_o* __this, System_Byte_array* value, const MethodInfo* method);
+System_Byte_array* System_Security_Cryptography_AesManaged__get_Key (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__set_Key (System_Security_Cryptography_AesManaged_o* __this, System_Byte_array* value, const MethodInfo* method);
+int32_t System_Security_Cryptography_AesManaged__get_KeySize (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__set_KeySize (System_Security_Cryptography_AesManaged_o* __this, int32_t value, const MethodInfo* method);
+int32_t System_Security_Cryptography_AesManaged__get_Mode (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__set_Mode (System_Security_Cryptography_AesManaged_o* __this, int32_t value, const MethodInfo* method);
+int32_t System_Security_Cryptography_AesManaged__get_Padding (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__set_Padding (System_Security_Cryptography_AesManaged_o* __this, int32_t value, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_AesManaged__CreateDecryptor (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_AesManaged__CreateDecryptor (System_Security_Cryptography_AesManaged_o* __this, System_Byte_array* key, System_Byte_array* iv, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_AesManaged__CreateEncryptor (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_AesManaged__CreateEncryptor (System_Security_Cryptography_AesManaged_o* __this, System_Byte_array* key, System_Byte_array* iv, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__Dispose (System_Security_Cryptography_AesManaged_o* __this, bool disposing, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__GenerateIV (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_AesManaged__GenerateKey (System_Security_Cryptography_AesManaged_o* __this, const MethodInfo* method);

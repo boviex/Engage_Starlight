@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Net_Security_MobileAuthenticatedStream___c__DisplayClass66_0___ctor (Mono_Net_Security_MobileAuthenticatedStream___c__DisplayClass66_0_o* __this, const MethodInfo* method);
+int32_t Mono_Net_Security_MobileAuthenticatedStream___c__DisplayClass66_0___InnerRead_b__0 (Mono_Net_Security_MobileAuthenticatedStream___c__DisplayClass66_0_o* __this, const MethodInfo* method);

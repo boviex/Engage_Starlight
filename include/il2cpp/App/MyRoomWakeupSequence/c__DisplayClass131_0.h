@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MyRoomWakeupSequence___c__DisplayClass131_0___ctor (App_MyRoomWakeupSequence___c__DisplayClass131_0_o* __this, const MethodInfo* method);
+void App_MyRoomWakeupSequence___c__DisplayClass131_0___LoadResources_b__0 (App_MyRoomWakeupSequence___c__DisplayClass131_0_o* __this, const MethodInfo* method);
+void App_MyRoomWakeupSequence___c__DisplayClass131_0___LoadResources_b__1 (App_MyRoomWakeupSequence___c__DisplayClass131_0_o* __this, UnityEngine_AnimatorOverrideController_o* aoc, const MethodInfo* method);
+void App_MyRoomWakeupSequence___c__DisplayClass131_0___LoadResources_b__2 (App_MyRoomWakeupSequence___c__DisplayClass131_0_o* __this, UnityEngine_AnimatorOverrideController_o* aoc, const MethodInfo* method);
+void App_MyRoomWakeupSequence___c__DisplayClass131_0___LoadResources_b__3 (App_MyRoomWakeupSequence___c__DisplayClass131_0_o* __this, UnityEngine_AnimatorOverrideController_o* aoc, const MethodInfo* method);
+void App_MyRoomWakeupSequence___c__DisplayClass131_0___LoadResources_b__4 (App_MyRoomWakeupSequence___c__DisplayClass131_0_o* __this, UnityEngine_AnimatorOverrideController_o* aoc, const MethodInfo* method);
+void App_MyRoomWakeupSequence___c__DisplayClass131_0___LoadResources_b__5 (App_MyRoomWakeupSequence___c__DisplayClass131_0_o* __this, System_String_o* path, const MethodInfo* method);

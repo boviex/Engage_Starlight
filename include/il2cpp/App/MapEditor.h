@@ -1,0 +1,57 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapEditor__Start (App_MapEditor_o* __this, const MethodInfo* method);
+int32_t App_MapEditor__CalcKey (System_String_o* name, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__FindObject (App_MapEditor_o* __this, System_String_o* name, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__FindObject (App_MapEditor_o* __this, int32_t key, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__FindObject (App_MapEditor_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+App_TerrainData_o* App_MapEditor__GetTerrain (App_MapEditor_o* __this, System_String_o* name, const MethodInfo* method);
+App_TerrainData_o* App_MapEditor__GetTerrain (App_MapEditor_o* __this, int32_t key, const MethodInfo* method);
+void App_MapEditor__ForEachObject (App_MapEditor_o* __this, System_Action_GameObject__o* func, const MethodInfo* method);
+int32_t App_MapEditor__get_SizeX (App_MapEditor_o* __this, const MethodInfo* method);
+int32_t App_MapEditor__get_SizeZ (App_MapEditor_o* __this, const MethodInfo* method);
+int32_t App_MapEditor__GetEditObjectCount (App_MapEditor_o* __this, int32_t key, const MethodInfo* method);
+int32_t App_MapEditor__GetEditObjectCount (App_MapEditor_o* __this, System_String_o* name, const MethodInfo* method);
+int32_t App_MapEditor__GetCategoryCount (App_MapEditor_o* __this, App_MapEditorCategoryData_o* category, const MethodInfo* method);
+bool App_MapEditor__ContainsSettableArea (App_MapEditor_o* __this, int32_t x, int32_t z, bool isOpponent, const MethodInfo* method);
+bool App_MapEditor__IsOpponentArea (App_MapEditor_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+bool App_MapEditor__CanCreateObject (App_MapEditor_o* __this, App_MapEditorCategoryData_o* category, const MethodInfo* method);
+void App_MapEditor__ShowGrid (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__HideGrid (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__UpdateGrid (App_MapEditor_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o App_MapEditor__GetMapPosition (int32_t cx, int32_t cz, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__TryCreateObject (App_MapEditor_o* __this, int32_t x, int32_t z, App_MapEditorObjectData_o* obj, bool isUpdate, bool isRecord, bool isPlaySound, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__TryCreateObject (App_MapEditor_o* __this, int32_t x, int32_t z, int32_t key, bool isUpdate, bool isRecord, bool isPlaySound, const MethodInfo* method);
+bool App_MapEditor__TryDeleteObject (App_MapEditor_o* __this, int32_t x, int32_t z, bool isUpdate, bool isRecord, bool isPlaySound, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__TryReplaceObject (App_MapEditor_o* __this, int32_t x, int32_t z, App_MapEditorObjectData_o* objData, const MethodInfo* method);
+bool App_MapEditor__CanReplace (App_MapEditor_o* __this, UnityEngine_GameObject_o* deleteObj, App_MapEditorObjectData_o* createObj, const MethodInfo* method);
+void App_MapEditor__ClearObjectAll (App_MapEditor_o* __this, bool isUpdate, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__InstantiateObject (App_MapEditor_o* __this, UnityEngine_GameObject_o* putObject, int32_t x, int32_t z, const MethodInfo* method);
+void App_MapEditor__DeleteObject (App_MapEditor_o* __this, App_MapObject_o* putObject, const MethodInfo* method);
+void App_MapEditor__DeleteObject (App_MapEditor_o* __this, UnityEngine_GameObject_o* putObject, const MethodInfo* method);
+bool App_MapEditor__TryRotateObject (App_MapEditor_o* __this, int32_t x, int32_t z, bool isReverse, const MethodInfo* method);
+void App_MapEditor__AddRotateObjectCommand (App_MapEditor_o* __this, int32_t x, int32_t z, int32_t prevRotate, int32_t nextRotate, const MethodInfo* method);
+int32_t App_MapEditor__GetRotate (App_MapEditor_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+int32_t App_MapEditor__GetRotate (App_MapEditor_o* __this, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+void App_MapEditor__SetRotate (App_MapEditor_o* __this, int32_t x, int32_t z, int32_t rotate, const MethodInfo* method);
+void App_MapEditor__SetRotate (App_MapEditor_o* __this, UnityEngine_GameObject_o* gameObject, int32_t rotate, const MethodInfo* method);
+void App_MapEditor__UpdateTerrain (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__UpdateTerrain (App_MapEditor_o* __this, int32_t posX, int32_t posZ, const MethodInfo* method);
+void App_MapEditor__UpdateTerrainImpl (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__PlayPutSound (System_String_o* objectName, const MethodInfo* method);
+void App_MapEditor__PlayDestroySound (const MethodInfo* method);
+void App_MapEditor__SetPlaySound (bool value, const MethodInfo* method);
+void App_MapEditor__Dump (App_MapEditor_o* __this, const MethodInfo* method);
+UnityEngine_GameObject_o* App_MapEditor__TryCreateVersusObject (App_MapEditor_o* __this, int32_t x, int32_t z, int32_t key, bool isOpponent, bool isUpdate, const MethodInfo* method);
+void App_MapEditor__ClearObjectOnSortie (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__SaveObjects (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__LoadObjects (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__LoadRotateAfterLoadObjects (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor__Serialize (App_Stream_o* stream, const MethodInfo* method);
+void App_MapEditor__Deserialize (App_Stream_o* stream, const MethodInfo* method);
+void App_MapEditor__SaveCasual (App_MapEditor_o* __this, int32_t stage, const MethodInfo* method);
+void App_MapEditor__LoadCasual (App_MapEditor_o* __this, int32_t stage, const MethodInfo* method);
+void App_MapEditor___ctor (App_MapEditor_o* __this, const MethodInfo* method);
+void App_MapEditor___cctor (const MethodInfo* method);

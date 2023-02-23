@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MapSystemMenu_SubSystemMenu_RestartItem__get_FlagID (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, const MethodInfo* method);
+void App_MapSystemMenu_SubSystemMenu_RestartItem___ctor (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, int32_t target, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubSystemMenu_RestartItem__GetName (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubSystemMenu_RestartItem__GetHelpText (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_RestartItem__GetMapAttribute (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_RestartItem__BuildAttribute (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_RestartItem__ACall (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_RestartItem__BCall (App_MapSystemMenu_SubSystemMenu_RestartItem_o* __this, const MethodInfo* method);

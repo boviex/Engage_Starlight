@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UniRx_Async_Internal_WeakDictionary_Entry_object__object___ToString (UniRx_Async_Internal_WeakDictionary_Entry_TKey__TValue__o* __this, const MethodInfo_1D2AF50* method);
+int32_t UniRx_Async_Internal_WeakDictionary_Entry_object__object___Count (UniRx_Async_Internal_WeakDictionary_Entry_TKey__TValue__o* __this, const MethodInfo_1D2B060* method);
+void UniRx_Async_Internal_WeakDictionary_Entry_object__object____ctor (UniRx_Async_Internal_WeakDictionary_Entry_TKey__TValue__o* __this, const MethodInfo_1D2B080* method);

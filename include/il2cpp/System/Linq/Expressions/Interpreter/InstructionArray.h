@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_InstructionArray___ctor (System_Linq_Expressions_Interpreter_InstructionArray_o __this, int32_t maxStackDepth, int32_t maxContinuationDepth, System_Linq_Expressions_Interpreter_Instruction_array* instructions, System_Object_array* objects, System_Linq_Expressions_Interpreter_RuntimeLabel_array* labels, System_Collections_Generic_List_KeyValuePair_int__object___o* debugCookies, const MethodInfo* method);

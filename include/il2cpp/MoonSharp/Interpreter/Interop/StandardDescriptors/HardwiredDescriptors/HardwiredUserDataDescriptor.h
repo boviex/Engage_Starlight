@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_StandardDescriptors_HardwiredDescriptors_HardwiredUserDataDescriptor___ctor (MoonSharp_Interpreter_Interop_StandardDescriptors_HardwiredDescriptors_HardwiredUserDataDescriptor_o* __this, System_Type_o* T, const MethodInfo* method);

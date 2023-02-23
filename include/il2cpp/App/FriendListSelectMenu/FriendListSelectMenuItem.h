@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_FriendListSelectMenu_FriendListSelectMenuItem___ctor (App_FriendListSelectMenu_FriendListSelectMenuItem_o* __this, System_String_o* pid, App_FriendListSelectMenu_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+int32_t App_FriendListSelectMenu_FriendListSelectMenuItem__ACall (App_FriendListSelectMenu_FriendListSelectMenuItem_o* __this, const MethodInfo* method);
+int32_t App_FriendListSelectMenu_FriendListSelectMenuItem__BCall (App_FriendListSelectMenu_FriendListSelectMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_FriendListSelectMenu_FriendListSelectMenuItem__GetPID (App_FriendListSelectMenu_FriendListSelectMenuItem_o* __this, const MethodInfo* method);

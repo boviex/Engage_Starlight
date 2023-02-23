@@ -1,0 +1,24 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Subject_Subscription_CollectionAddEvent_object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C1870* method);
+void UniRx_Subject_Subscription_CollectionMoveEvent_object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C1C00* method);
+void UniRx_Subject_Subscription_CollectionRemoveEvent_object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C1F90* method);
+void UniRx_Subject_Subscription_CollectionReplaceEvent_object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C2320* method);
+void UniRx_Subject_Subscription_DictionaryAddEvent_object__object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C26B0* method);
+void UniRx_Subject_Subscription_DictionaryRemoveEvent_object__object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C2A40* method);
+void UniRx_Subject_Subscription_DictionaryReplaceEvent_object__object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C2DD0* method);
+void UniRx_Subject_Subscription_ValueTuple_object__object_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C3160* method);
+void UniRx_Subject_Subscription_ValueTuple_float__int_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C34F0* method);
+void UniRx_Subject_Subscription_ValueTuple_float__Int32Enum_____ctor (UniRx_Subject_Subscription_T__o* __this, UniRx_Subject_T__o* parent, System_IObserver_T__o* unsubscribeTarget, const MethodInfo_34C3880* method);
+void UniRx_Subject_Subscription_CollectionAddEvent_object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C1920* method);
+void UniRx_Subject_Subscription_CollectionMoveEvent_object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C1CB0* method);
+void UniRx_Subject_Subscription_CollectionRemoveEvent_object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C2040* method);
+void UniRx_Subject_Subscription_CollectionReplaceEvent_object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C23D0* method);
+void UniRx_Subject_Subscription_DictionaryAddEvent_object__object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C2760* method);
+void UniRx_Subject_Subscription_DictionaryRemoveEvent_object__object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C2AF0* method);
+void UniRx_Subject_Subscription_DictionaryReplaceEvent_object__object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C2E80* method);
+void UniRx_Subject_Subscription_ValueTuple_object__object____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C3210* method);
+void UniRx_Subject_Subscription_ValueTuple_float__int____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C35A0* method);
+void UniRx_Subject_Subscription_ValueTuple_float__Int32Enum____Dispose (UniRx_Subject_Subscription_T__o* __this, const MethodInfo_34C3930* method);

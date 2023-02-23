@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_CoroutineAsyncBridge__Run_d__8_object____ctor (UniRx_CoroutineAsyncBridge__Run_d__8_T__o* __this, int32_t __1__state, const MethodInfo_3169540* method);
+void UniRx_CoroutineAsyncBridge__Run_d__8_object___System_IDisposable_Dispose (UniRx_CoroutineAsyncBridge__Run_d__8_T__o* __this, const MethodInfo_3169570* method);
+bool UniRx_CoroutineAsyncBridge__Run_d__8_object___MoveNext (UniRx_CoroutineAsyncBridge__Run_d__8_T__o* __this, const MethodInfo_3169580* method);
+Il2CppObject* UniRx_CoroutineAsyncBridge__Run_d__8_object___System_Collections_Generic_IEnumerator_System_Object__get_Current (UniRx_CoroutineAsyncBridge__Run_d__8_T__o* __this, const MethodInfo_3169610* method);
+void UniRx_CoroutineAsyncBridge__Run_d__8_object___System_Collections_IEnumerator_Reset (UniRx_CoroutineAsyncBridge__Run_d__8_T__o* __this, const MethodInfo_3169620* method);
+Il2CppObject* UniRx_CoroutineAsyncBridge__Run_d__8_object___System_Collections_IEnumerator_get_Current (UniRx_CoroutineAsyncBridge__Run_d__8_T__o* __this, const MethodInfo_3169660* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapSequenceMind__FixedSkill_d__42___ctor (App_MapSequenceMind__FixedSkill_d__42_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_MapSequenceMind__FixedSkill_d__42__System_IDisposable_Dispose (App_MapSequenceMind__FixedSkill_d__42_o* __this, const MethodInfo* method);
+bool App_MapSequenceMind__FixedSkill_d__42__MoveNext (App_MapSequenceMind__FixedSkill_d__42_o* __this, const MethodInfo* method);
+void App_MapSequenceMind__FixedSkill_d__42____m__Finally1 (App_MapSequenceMind__FixedSkill_d__42_o* __this, const MethodInfo* method);
+void App_MapSequenceMind__FixedSkill_d__42____m__Finally2 (App_MapSequenceMind__FixedSkill_d__42_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapSequenceMind__FixedSkill_d__42__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_MapSequenceMind__FixedSkill_d__42_o* __this, const MethodInfo* method);
+void App_MapSequenceMind__FixedSkill_d__42__System_Collections_IEnumerator_Reset (App_MapSequenceMind__FixedSkill_d__42_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapSequenceMind__FixedSkill_d__42__System_Collections_IEnumerator_get_Current (App_MapSequenceMind__FixedSkill_d__42_o* __this, const MethodInfo* method);

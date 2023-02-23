@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Threading_Tasks_Task_bool__o* System_Net_ServicePointScheduler_AsyncManualResetEvent__WaitAsync (System_Net_ServicePointScheduler_AsyncManualResetEvent_o* __this, int32_t millisecondTimeout, const MethodInfo* method);
+void System_Net_ServicePointScheduler_AsyncManualResetEvent__Set (System_Net_ServicePointScheduler_AsyncManualResetEvent_o* __this, const MethodInfo* method);
+void System_Net_ServicePointScheduler_AsyncManualResetEvent__Reset (System_Net_ServicePointScheduler_AsyncManualResetEvent_o* __this, const MethodInfo* method);
+void System_Net_ServicePointScheduler_AsyncManualResetEvent___ctor (System_Net_ServicePointScheduler_AsyncManualResetEvent_o* __this, bool state, const MethodInfo* method);

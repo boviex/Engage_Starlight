@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_CatchObservable_object__object____ctor (UniRx_Operators_CatchObservable_T__TException__o* __this, System_IObservable_T__o* source, System_Func_TException__IObservable_T___o* errorHandler, const MethodInfo_30E8540* method);
+System_IDisposable_o* UniRx_Operators_CatchObservable_object__object___SubscribeCore (UniRx_Operators_CatchObservable_T__TException__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_30E85C0* method);
+void UniRx_Operators_CatchObservable_object____ctor (UniRx_Operators_CatchObservable_T__o* __this, System_Collections_Generic_IEnumerable_IObservable_T___o* sources, const MethodInfo_30E8450* method);
+System_IDisposable_o* UniRx_Operators_CatchObservable_object___SubscribeCore (UniRx_Operators_CatchObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_30E84A0* method);

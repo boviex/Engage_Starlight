@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LightCompiler___c___cctor (const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LightCompiler___c___ctor (System_Linq_Expressions_Interpreter_LightCompiler___c_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_LightCompiler___c___CompileSwitchExpression_b__56_0 (System_Linq_Expressions_Interpreter_LightCompiler___c_o* __this, System_Linq_Expressions_SwitchCase_o* c, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_LightCompiler___c___CompileSwitchExpression_b__56_1 (System_Linq_Expressions_Interpreter_LightCompiler___c_o* __this, System_Linq_Expressions_Expression_o* t, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LightCompiler___c___CompileNoLabelPush_b__101_0 (System_Linq_Expressions_Interpreter_LightCompiler___c_o* __this, System_Linq_Expressions_Interpreter_LightCompiler_o* this, System_Linq_Expressions_Expression_o* e, const MethodInfo* method);

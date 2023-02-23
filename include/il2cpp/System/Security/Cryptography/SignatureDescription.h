@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_SignatureDescription___ctor (System_Security_Cryptography_SignatureDescription_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_SignatureDescription__set_KeyAlgorithm (System_Security_Cryptography_SignatureDescription_o* __this, System_String_o* value, const MethodInfo* method);
+void System_Security_Cryptography_SignatureDescription__set_DigestAlgorithm (System_Security_Cryptography_SignatureDescription_o* __this, System_String_o* value, const MethodInfo* method);
+void System_Security_Cryptography_SignatureDescription__set_FormatterAlgorithm (System_Security_Cryptography_SignatureDescription_o* __this, System_String_o* value, const MethodInfo* method);
+void System_Security_Cryptography_SignatureDescription__set_DeformatterAlgorithm (System_Security_Cryptography_SignatureDescription_o* __this, System_String_o* value, const MethodInfo* method);

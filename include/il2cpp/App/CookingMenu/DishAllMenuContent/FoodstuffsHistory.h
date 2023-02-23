@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishAllMenuContent_FoodstuffsHistory___ctor (App_CookingMenu_DishAllMenuContent_FoodstuffsHistory_o* __this, UnityEngine_GameObject_o* gameObject, System_Collections_Generic_List_GameObject__o* foodstuffItemList, UnityEngine_GameObject_o* foodstuffGroup, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_FoodstuffsHistory__Show (App_CookingMenu_DishAllMenuContent_FoodstuffsHistory_o* __this, System_Collections_Generic_List_FoodstuffData__o* foodstuffs, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_FoodstuffsHistory__SetFoodstuffs (App_CookingMenu_DishAllMenuContent_FoodstuffsHistory_o* __this, System_Collections_Generic_List_FoodstuffData__o* foodstuffs, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_FoodstuffsHistory__SetFoodstuffItem (App_CookingMenu_DishAllMenuContent_FoodstuffsHistory_o* __this, UnityEngine_GameObject_o* contentItem, App_FoodstuffData_o* data, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_FoodstuffsHistory__Hide (App_CookingMenu_DishAllMenuContent_FoodstuffsHistory_o* __this, const MethodInfo* method);

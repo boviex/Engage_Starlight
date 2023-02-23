@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_JobIntroSequence__CheckKeyPush_d__25___ctor (App_JobIntroSequence__CheckKeyPush_d__25_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_JobIntroSequence__CheckKeyPush_d__25__System_IDisposable_Dispose (App_JobIntroSequence__CheckKeyPush_d__25_o* __this, const MethodInfo* method);
+bool App_JobIntroSequence__CheckKeyPush_d__25__MoveNext (App_JobIntroSequence__CheckKeyPush_d__25_o* __this, const MethodInfo* method);
+Il2CppObject* App_JobIntroSequence__CheckKeyPush_d__25__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_JobIntroSequence__CheckKeyPush_d__25_o* __this, const MethodInfo* method);
+void App_JobIntroSequence__CheckKeyPush_d__25__System_Collections_IEnumerator_Reset (App_JobIntroSequence__CheckKeyPush_d__25_o* __this, const MethodInfo* method);
+Il2CppObject* App_JobIntroSequence__CheckKeyPush_d__25__System_Collections_IEnumerator_get_Current (App_JobIntroSequence__CheckKeyPush_d__25_o* __this, const MethodInfo* method);

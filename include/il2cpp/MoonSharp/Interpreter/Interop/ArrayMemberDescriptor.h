@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_ArrayMemberDescriptor___ctor (MoonSharp_Interpreter_Interop_ArrayMemberDescriptor_o* __this, System_String_o* name, bool isSetter, MoonSharp_Interpreter_Interop_BasicDescriptors_ParameterDescriptor_array* indexerParams, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_ArrayMemberDescriptor___ctor (MoonSharp_Interpreter_Interop_ArrayMemberDescriptor_o* __this, System_String_o* name, bool isSetter, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_ArrayMemberDescriptor__PrepareForWiring (MoonSharp_Interpreter_Interop_ArrayMemberDescriptor_o* __this, MoonSharp_Interpreter_Table_o* t, const MethodInfo* method);
+System_Int32_array* MoonSharp_Interpreter_Interop_ArrayMemberDescriptor__BuildArrayIndices (MoonSharp_Interpreter_CallbackArguments_o* args, int32_t count, const MethodInfo* method);
+Il2CppObject* MoonSharp_Interpreter_Interop_ArrayMemberDescriptor__ArrayIndexerSet (Il2CppObject* arrayObj, MoonSharp_Interpreter_ScriptExecutionContext_o* ctx, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+Il2CppObject* MoonSharp_Interpreter_Interop_ArrayMemberDescriptor__ArrayIndexerGet (Il2CppObject* arrayObj, MoonSharp_Interpreter_ScriptExecutionContext_o* ctx, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);

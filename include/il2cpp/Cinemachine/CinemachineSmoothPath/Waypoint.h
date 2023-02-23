@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Vector4_o Cinemachine_CinemachineSmoothPath_Waypoint__get_AsVector4 (Cinemachine_CinemachineSmoothPath_Waypoint_o __this, const MethodInfo* method);
+Cinemachine_CinemachineSmoothPath_Waypoint_o Cinemachine_CinemachineSmoothPath_Waypoint__FromVector4 (UnityEngine_Vector4_o v, const MethodInfo* method);

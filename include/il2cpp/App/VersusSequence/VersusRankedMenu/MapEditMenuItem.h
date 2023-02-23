@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusRankedMenu_MapEditMenuItem___ctor (App_VersusSequence_VersusRankedMenu_MapEditMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusRankedMenu_MapEditMenuItem__ACall (App_VersusSequence_VersusRankedMenu_MapEditMenuItem_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusRankedMenu_MapEditMenuItem__OnSelect (App_VersusSequence_VersusRankedMenu_MapEditMenuItem_o* __this, const MethodInfo* method);

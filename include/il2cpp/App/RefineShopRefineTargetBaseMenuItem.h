@@ -1,0 +1,30 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_UnitItem_o* App_RefineShopRefineTargetBaseMenuItem__get_m_TargetUnitItem (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_TargetUnitItem (App_RefineShopRefineTargetBaseMenuItem_o* __this, App_UnitItem_o* value, const MethodInfo* method);
+int32_t App_RefineShopRefineTargetBaseMenuItem__get_m_NeededIron (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_NeededIron (App_RefineShopRefineTargetBaseMenuItem_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_RefineShopRefineTargetBaseMenuItem__get_m_NeededSteel (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_NeededSteel (App_RefineShopRefineTargetBaseMenuItem_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_RefineShopRefineTargetBaseMenuItem__get_m_NeededSilver (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_NeededSilver (App_RefineShopRefineTargetBaseMenuItem_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_RefineShopRefineTargetBaseMenuItem__get_m_NeededMoney (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_NeededMoney (App_RefineShopRefineTargetBaseMenuItem_o* __this, int32_t value, const MethodInfo* method);
+bool App_RefineShopRefineTargetBaseMenuItem__get_m_IsEnoughIron (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_IsEnoughIron (App_RefineShopRefineTargetBaseMenuItem_o* __this, bool value, const MethodInfo* method);
+bool App_RefineShopRefineTargetBaseMenuItem__get_m_IsEnoughSteel (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_IsEnoughSteel (App_RefineShopRefineTargetBaseMenuItem_o* __this, bool value, const MethodInfo* method);
+bool App_RefineShopRefineTargetBaseMenuItem__get_m_IsEnoughSilver (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_IsEnoughSilver (App_RefineShopRefineTargetBaseMenuItem_o* __this, bool value, const MethodInfo* method);
+bool App_RefineShopRefineTargetBaseMenuItem__get_m_IsEnoughMoney (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_IsEnoughMoney (App_RefineShopRefineTargetBaseMenuItem_o* __this, bool value, const MethodInfo* method);
+bool App_RefineShopRefineTargetBaseMenuItem__get_m_IsNameVisible (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__set_m_IsNameVisible (App_RefineShopRefineTargetBaseMenuItem_o* __this, bool value, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem___ctor (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_RefineShopRefineTargetBaseMenuItem__GetName (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+int32_t App_RefineShopRefineTargetBaseMenuItem__BuildAttribute (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__OnBuild (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__OnBuildMenuItemContent (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetBaseMenuItem__SetInitialColor (App_RefineShopRefineTargetBaseMenuItem_o* __this, const MethodInfo* method);

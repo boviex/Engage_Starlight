@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Il2CppObject* UniRx_DictionaryRemoveEvent_object__object___get_Key (UniRx_DictionaryRemoveEvent_object__object__o __this, const MethodInfo_250AB20* method);
+void UniRx_DictionaryRemoveEvent_object__object___set_Key (UniRx_DictionaryRemoveEvent_object__object__o __this, Il2CppObject* value, const MethodInfo_250AB30* method);
+Il2CppObject* UniRx_DictionaryRemoveEvent_object__object___get_Value (UniRx_DictionaryRemoveEvent_object__object__o __this, const MethodInfo_250AB40* method);
+void UniRx_DictionaryRemoveEvent_object__object___set_Value (UniRx_DictionaryRemoveEvent_object__object__o __this, Il2CppObject* value, const MethodInfo_250AB50* method);
+void UniRx_DictionaryRemoveEvent_object__object____ctor (UniRx_DictionaryRemoveEvent_object__object__o __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo_250AB60* method);
+System_String_o* UniRx_DictionaryRemoveEvent_object__object___ToString (UniRx_DictionaryRemoveEvent_object__object__o __this, const MethodInfo_250ABD0* method);
+int32_t UniRx_DictionaryRemoveEvent_object__object___GetHashCode (UniRx_DictionaryRemoveEvent_object__object__o __this, const MethodInfo_250AC80* method);
+bool UniRx_DictionaryRemoveEvent_object__object___Equals (UniRx_DictionaryRemoveEvent_object__object__o __this, UniRx_DictionaryRemoveEvent_TKey__TValue__o other, const MethodInfo_250AD90* method);

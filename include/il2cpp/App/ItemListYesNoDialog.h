@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_List_ItemListYesNoDialog_ItemParam__o* App_ItemListYesNoDialog__get_m_ItemParamList (App_ItemListYesNoDialog_o* __this, const MethodInfo* method);
+void App_ItemListYesNoDialog__set_m_ItemParamList (App_ItemListYesNoDialog_o* __this, System_Collections_Generic_List_ItemListYesNoDialog_ItemParam__o* value, const MethodInfo* method);
+App_ItemListYesNoDialog_MoneyParam_o* App_ItemListYesNoDialog__get_m_MoneyParam (App_ItemListYesNoDialog_o* __this, const MethodInfo* method);
+void App_ItemListYesNoDialog__set_m_MoneyParam (App_ItemListYesNoDialog_o* __this, App_ItemListYesNoDialog_MoneyParam_o* value, const MethodInfo* method);
+App_ItemListYesNoDialog_o* App_ItemListYesNoDialog__CreateBind (App_ProcInst_o* super, System_String_o* message, System_Collections_Generic_List_ItemListYesNoDialog_ItemParam__o* itemParamList, App_ItemListYesNoDialog_MoneyParam_o* moneyParam, const MethodInfo* method);
+void App_ItemListYesNoDialog___ctor (App_ItemListYesNoDialog_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_ItemListDialogContent_o* menuContent, System_String_o* message, System_Collections_Generic_List_ItemListYesNoDialog_ItemParam__o* itemParamList, App_ItemListYesNoDialog_MoneyParam_o* moneyParam, const MethodInfo* method);

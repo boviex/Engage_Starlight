@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusYesNoDialog_NoItem___c__DisplayClass2_0___ctor (App_VersusSequence_VersusYesNoDialog_NoItem___c__DisplayClass2_0_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusYesNoDialog_NoItem___c__DisplayClass2_0____ctor_b__0 (App_VersusSequence_VersusYesNoDialog_NoItem___c__DisplayClass2_0_o* __this, const MethodInfo* method);

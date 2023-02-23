@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__get_FlagID (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__GetName (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__GetHelpText (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+int32_t App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__BuildAttribute (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+int32_t App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__GetMapAttribute (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+int32_t App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__ACall (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+void App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__OnSelect (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+void App_SortieTopMenuShopSubMenu_WeaponShopMenuItem__OnDeselect (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);
+void App_SortieTopMenuShopSubMenu_WeaponShopMenuItem___ctor (App_SortieTopMenuShopSubMenu_WeaponShopMenuItem_o* __this, const MethodInfo* method);

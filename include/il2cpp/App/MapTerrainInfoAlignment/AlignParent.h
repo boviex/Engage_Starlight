@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_RectTransform_o* App_MapTerrainInfoAlignment_AlignParent__get_rectTransform (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);
+void App_MapTerrainInfoAlignment_AlignParent__set_rectTransform (App_MapTerrainInfoAlignment_AlignParent_o* __this, UnityEngine_RectTransform_o* value, const MethodInfo* method);
+App_MapTerrainInfoAlignmentMember_o* App_MapTerrainInfoAlignment_AlignParent__get_script (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);
+void App_MapTerrainInfoAlignment_AlignParent__set_script (App_MapTerrainInfoAlignment_AlignParent_o* __this, App_MapTerrainInfoAlignmentMember_o* value, const MethodInfo* method);
+void App_MapTerrainInfoAlignment_AlignParent___ctor (App_MapTerrainInfoAlignment_AlignParent_o* __this, UnityEngine_GameObject_o* root, const MethodInfo* method);
+float App_MapTerrainInfoAlignment_AlignParent__GetLeft (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);
+float App_MapTerrainInfoAlignment_AlignParent__GetRight (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);
+float App_MapTerrainInfoAlignment_AlignParent__GetTop (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);
+float App_MapTerrainInfoAlignment_AlignParent__GetBottom (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);
+float App_MapTerrainInfoAlignment_AlignParent__GetSpacing (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);
+void App_MapTerrainInfoAlignment_AlignParent__SetPos (App_MapTerrainInfoAlignment_AlignParent_o* __this, UnityEngine_Vector2_o pos, const MethodInfo* method);
+void App_MapTerrainInfoAlignment_AlignParent__SetSize (App_MapTerrainInfoAlignment_AlignParent_o* __this, UnityEngine_Vector2_o size, const MethodInfo* method);
+UnityEngine_Vector2_o App_MapTerrainInfoAlignment_AlignParent__GetSize (App_MapTerrainInfoAlignment_AlignParent_o* __this, const MethodInfo* method);

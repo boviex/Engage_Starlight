@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_MonthMenuItem___ctor (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_MonthMenuItem_o* __this, App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_DayMenuItem_o* dayMenuItem, const MethodInfo* method);
+int32_t App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_MonthMenuItem__KeyCall (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_Menu_MonthMenuItem_o* __this, const MethodInfo* method);

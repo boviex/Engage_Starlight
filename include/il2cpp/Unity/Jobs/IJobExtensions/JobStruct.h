@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+intptr_t Unity_Jobs_IJobExtensions_JobStruct_DeferredLights_CullLightsJob___Initialize (const MethodInfo_2F7B010* method);
+void Unity_Jobs_IJobExtensions_JobStruct_DeferredLights_CullLightsJob___Execute (UnityEngine_Rendering_Universal_Internal_DeferredLights_CullLightsJob_o* data, intptr_t additionalPtr, intptr_t bufferRangePatchData, Unity_Jobs_LowLevel_Unsafe_JobRanges_o* ranges, int32_t jobIndex, const MethodInfo_2F7B270* method);

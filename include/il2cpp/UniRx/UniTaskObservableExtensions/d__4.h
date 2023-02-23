@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_UniTaskObservableExtensions__Fire_d__4__MoveNext (UniRx_UniTaskObservableExtensions__Fire_d__4_o __this, const MethodInfo* method);
+void UniRx_UniTaskObservableExtensions__Fire_d__4__SetStateMachine (UniRx_UniTaskObservableExtensions__Fire_d__4_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

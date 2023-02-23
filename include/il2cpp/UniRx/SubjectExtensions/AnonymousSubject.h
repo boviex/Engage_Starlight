@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_SubjectExtensions_AnonymousSubject_object__object____ctor (UniRx_SubjectExtensions_AnonymousSubject_T__U__o* __this, System_IObserver_T__o* observer, System_IObservable_U__o* observable, const MethodInfo_203A190* method);
+void UniRx_SubjectExtensions_AnonymousSubject_object__object___OnCompleted (UniRx_SubjectExtensions_AnonymousSubject_T__U__o* __this, const MethodInfo_203A1E0* method);
+void UniRx_SubjectExtensions_AnonymousSubject_object__object___OnError (UniRx_SubjectExtensions_AnonymousSubject_T__U__o* __this, System_Exception_o* error, const MethodInfo_203A270* method);
+void UniRx_SubjectExtensions_AnonymousSubject_object__object___OnNext (UniRx_SubjectExtensions_AnonymousSubject_T__U__o* __this, Il2CppObject* value, const MethodInfo_203A360* method);
+System_IDisposable_o* UniRx_SubjectExtensions_AnonymousSubject_object__object___Subscribe (UniRx_SubjectExtensions_AnonymousSubject_T__U__o* __this, System_IObserver_U__o* observer, const MethodInfo_203A400* method);
+void UniRx_SubjectExtensions_AnonymousSubject_object____ctor (UniRx_SubjectExtensions_AnonymousSubject_T__o* __this, System_IObserver_T__o* observer, System_IObservable_T__o* observable, const MethodInfo_203A170* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ReturnObservable_Return_object____ctor (UniRx_Operators_ReturnObservable_Return_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_300D5C0* method);
+void UniRx_Operators_ReturnObservable_Return_Unit____ctor (UniRx_Operators_ReturnObservable_Return_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_300D9B0* method);
+void UniRx_Operators_ReturnObservable_Return_object___OnNext (UniRx_Operators_ReturnObservable_Return_T__o* __this, Il2CppObject* value, const MethodInfo_300D5E0* method);
+void UniRx_Operators_ReturnObservable_Return_Unit___OnNext (UniRx_Operators_ReturnObservable_Return_T__o* __this, UniRx_Unit_o value, const MethodInfo_300D9D0* method);
+void UniRx_Operators_ReturnObservable_Return_object___OnError (UniRx_Operators_ReturnObservable_Return_T__o* __this, System_Exception_o* error, const MethodInfo_300D740* method);
+void UniRx_Operators_ReturnObservable_Return_Unit___OnError (UniRx_Operators_ReturnObservable_Return_T__o* __this, System_Exception_o* error, const MethodInfo_300DB30* method);
+void UniRx_Operators_ReturnObservable_Return_object___OnCompleted (UniRx_Operators_ReturnObservable_Return_T__o* __this, const MethodInfo_300D880* method);
+void UniRx_Operators_ReturnObservable_Return_Unit___OnCompleted (UniRx_Operators_ReturnObservable_Return_T__o* __this, const MethodInfo_300DC70* method);

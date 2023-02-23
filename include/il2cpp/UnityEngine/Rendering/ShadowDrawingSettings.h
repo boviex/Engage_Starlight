@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Rendering_ShadowSplitData_o UnityEngine_Rendering_ShadowDrawingSettings__get_splitData (UnityEngine_Rendering_ShadowDrawingSettings_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_ShadowDrawingSettings__set_splitData (UnityEngine_Rendering_ShadowDrawingSettings_o __this, UnityEngine_Rendering_ShadowSplitData_o value, const MethodInfo* method);
+void UnityEngine_Rendering_ShadowDrawingSettings___ctor (UnityEngine_Rendering_ShadowDrawingSettings_o __this, UnityEngine_Rendering_CullingResults_o cullingResults, int32_t lightIndex, const MethodInfo* method);
+bool UnityEngine_Rendering_ShadowDrawingSettings__Equals (UnityEngine_Rendering_ShadowDrawingSettings_o __this, UnityEngine_Rendering_ShadowDrawingSettings_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_ShadowDrawingSettings__Equals (UnityEngine_Rendering_ShadowDrawingSettings_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_ShadowDrawingSettings__GetHashCode (UnityEngine_Rendering_ShadowDrawingSettings_o __this, const MethodInfo* method);

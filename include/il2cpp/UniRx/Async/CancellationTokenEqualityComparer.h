@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_Async_CancellationTokenEqualityComparer__Equals (UniRx_Async_CancellationTokenEqualityComparer_o* __this, System_Threading_CancellationToken_o x, System_Threading_CancellationToken_o y, const MethodInfo* method);
+int32_t UniRx_Async_CancellationTokenEqualityComparer__GetHashCode (UniRx_Async_CancellationTokenEqualityComparer_o* __this, System_Threading_CancellationToken_o obj, const MethodInfo* method);
+void UniRx_Async_CancellationTokenEqualityComparer___ctor (UniRx_Async_CancellationTokenEqualityComparer_o* __this, const MethodInfo* method);
+void UniRx_Async_CancellationTokenEqualityComparer___cctor (const MethodInfo* method);

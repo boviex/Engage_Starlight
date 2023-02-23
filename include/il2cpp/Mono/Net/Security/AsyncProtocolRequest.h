@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Mono_Net_Security_MobileAuthenticatedStream_o* Mono_Net_Security_AsyncProtocolRequest__get_Parent (Mono_Net_Security_AsyncProtocolRequest_o* __this, const MethodInfo* method);
+bool Mono_Net_Security_AsyncProtocolRequest__get_RunSynchronously (Mono_Net_Security_AsyncProtocolRequest_o* __this, const MethodInfo* method);
+System_String_o* Mono_Net_Security_AsyncProtocolRequest__get_Name (Mono_Net_Security_AsyncProtocolRequest_o* __this, const MethodInfo* method);
+int32_t Mono_Net_Security_AsyncProtocolRequest__get_UserResult (Mono_Net_Security_AsyncProtocolRequest_o* __this, const MethodInfo* method);
+void Mono_Net_Security_AsyncProtocolRequest__set_UserResult (Mono_Net_Security_AsyncProtocolRequest_o* __this, int32_t value, const MethodInfo* method);
+void Mono_Net_Security_AsyncProtocolRequest___ctor (Mono_Net_Security_AsyncProtocolRequest_o* __this, Mono_Net_Security_MobileAuthenticatedStream_o* parent, bool sync, const MethodInfo* method);
+void Mono_Net_Security_AsyncProtocolRequest__RequestRead (Mono_Net_Security_AsyncProtocolRequest_o* __this, int32_t size, const MethodInfo* method);
+void Mono_Net_Security_AsyncProtocolRequest__RequestWrite (Mono_Net_Security_AsyncProtocolRequest_o* __this, const MethodInfo* method);
+System_Threading_Tasks_Task_AsyncProtocolResult__o* Mono_Net_Security_AsyncProtocolRequest__StartOperation (Mono_Net_Security_AsyncProtocolRequest_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+System_Threading_Tasks_Task_o* Mono_Net_Security_AsyncProtocolRequest__ProcessOperation (Mono_Net_Security_AsyncProtocolRequest_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+System_Threading_Tasks_Task_Nullable_int___o* Mono_Net_Security_AsyncProtocolRequest__InnerRead (Mono_Net_Security_AsyncProtocolRequest_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+System_String_o* Mono_Net_Security_AsyncProtocolRequest__ToString (Mono_Net_Security_AsyncProtocolRequest_o* __this, const MethodInfo* method);

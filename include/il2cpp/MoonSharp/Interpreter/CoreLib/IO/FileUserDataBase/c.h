@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_CoreLib_IO_FileUserDataBase___c___cctor (const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_IO_FileUserDataBase___c___ctor (MoonSharp_Interpreter_CoreLib_IO_FileUserDataBase___c_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_IO_FileUserDataBase___c___lines_b__0_0 (MoonSharp_Interpreter_CoreLib_IO_FileUserDataBase___c_o* __this, MoonSharp_Interpreter_DynValue_o* s, const MethodInfo* method);

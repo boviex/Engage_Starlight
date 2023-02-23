@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_Rendering_Universal_Custom_CustomHeatHaze__IsActive (UnityEngine_Rendering_Universal_Custom_CustomHeatHaze_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_Custom_CustomHeatHaze__IsTileCompatible (UnityEngine_Rendering_Universal_Custom_CustomHeatHaze_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_CustomHeatHaze___ctor (UnityEngine_Rendering_Universal_Custom_CustomHeatHaze_o* __this, const MethodInfo* method);

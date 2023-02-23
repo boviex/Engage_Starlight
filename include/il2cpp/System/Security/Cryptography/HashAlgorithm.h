@@ -2,9 +2,16 @@
 
 #include "il2cpp.h"
 
-void System_Security_Cryptography_HashAlgorithm___ctor (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method_info);
-System_Byte_array* System_Security_Cryptography_HashAlgorithm__ComputeHash (System_Security_Cryptography_HashAlgorithm_o* __this, System_Byte_array* buffer, const MethodInfo* method_info);
-System_Byte_array* System_Security_Cryptography_HashAlgorithm__ComputeHash (System_Security_Cryptography_HashAlgorithm_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, const MethodInfo* method_info);
-System_Byte_array* System_Security_Cryptography_HashAlgorithm__TransformFinalBlock (System_Security_Cryptography_HashAlgorithm_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, const MethodInfo* method_info);
-void System_Security_Cryptography_HashAlgorithm__Dispose (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method_info);
-void System_Security_Cryptography_HashAlgorithm__Dispose (System_Security_Cryptography_HashAlgorithm_o* __this, bool disposing, const MethodInfo* method_info);
+void System_Security_Cryptography_HashAlgorithm___ctor (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+int32_t System_Security_Cryptography_HashAlgorithm__get_HashSize (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+System_Byte_array* System_Security_Cryptography_HashAlgorithm__get_Hash (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+System_Byte_array* System_Security_Cryptography_HashAlgorithm__ComputeHash (System_Security_Cryptography_HashAlgorithm_o* __this, System_Byte_array* buffer, const MethodInfo* method);
+System_Byte_array* System_Security_Cryptography_HashAlgorithm__ComputeHash (System_Security_Cryptography_HashAlgorithm_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, const MethodInfo* method);
+int32_t System_Security_Cryptography_HashAlgorithm__get_InputBlockSize (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+int32_t System_Security_Cryptography_HashAlgorithm__get_OutputBlockSize (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+bool System_Security_Cryptography_HashAlgorithm__get_CanTransformMultipleBlocks (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+int32_t System_Security_Cryptography_HashAlgorithm__TransformBlock (System_Security_Cryptography_HashAlgorithm_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, System_Byte_array* outputBuffer, int32_t outputOffset, const MethodInfo* method);
+System_Byte_array* System_Security_Cryptography_HashAlgorithm__TransformFinalBlock (System_Security_Cryptography_HashAlgorithm_o* __this, System_Byte_array* inputBuffer, int32_t inputOffset, int32_t inputCount, const MethodInfo* method);
+void System_Security_Cryptography_HashAlgorithm__Dispose (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_HashAlgorithm__Clear (System_Security_Cryptography_HashAlgorithm_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_HashAlgorithm__Dispose (System_Security_Cryptography_HashAlgorithm_o* __this, bool disposing, const MethodInfo* method);

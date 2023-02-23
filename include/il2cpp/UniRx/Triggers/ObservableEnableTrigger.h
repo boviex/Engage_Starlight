@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableEnableTrigger__OnEnable (UniRx_Triggers_ObservableEnableTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableEnableTrigger__OnEnableAsObservable (UniRx_Triggers_ObservableEnableTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableEnableTrigger__OnDisable (UniRx_Triggers_ObservableEnableTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableEnableTrigger__OnDisableAsObservable (UniRx_Triggers_ObservableEnableTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableEnableTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableEnableTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableEnableTrigger___ctor (UniRx_Triggers_ObservableEnableTrigger_o* __this, const MethodInfo* method);

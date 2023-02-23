@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MS_Internal_Xml_Cache_XPathNodePageInfo_o* MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_PageInfo (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_LocalName (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_NamespaceUri (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_Prefix (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+MS_Internal_Xml_Cache_XPathNode_array* MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_SiblingPage (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+MS_Internal_Xml_Cache_XPathNode_array* MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_ParentPage (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+System_Xml_XPath_XPathDocument_o* MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_Document (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_LineNumberBase (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathNodeInfoAtom__get_LinePositionBase (MS_Internal_Xml_Cache_XPathNodeInfoAtom_o* __this, const MethodInfo* method);

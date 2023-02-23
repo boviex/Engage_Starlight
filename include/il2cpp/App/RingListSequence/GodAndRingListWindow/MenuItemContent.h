@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+TMPro_TextMeshProUGUI_o* App_RingListSequence_GodAndRingListWindow_MenuItemContent__GetTextMeshProComponent (App_RingListSequence_GodAndRingListWindow_MenuItemContent_o* __this, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_MenuItemContent__Build (App_RingListSequence_GodAndRingListWindow_MenuItemContent_o* __this, App_BasicMenuItem_o* menuItem, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_MenuItemContent__UpdateTextColor (App_RingListSequence_GodAndRingListWindow_MenuItemContent_o* __this, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_MenuItemContent__SetupByMenuItem (App_RingListSequence_GodAndRingListWindow_MenuItemContent_o* __this, App_RingListSequence_GodAndRingListWindow_MenuItem_o* menuItem, const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_MenuItemContent___ctor (App_RingListSequence_GodAndRingListWindow_MenuItemContent_o* __this, const MethodInfo* method);

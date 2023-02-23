@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ProfileCardAlbumListMenuOverLimit_o* App_ProfileCardAlbumListMenuOverLimit__CreateBind (App_ProcInst_o* super, App_ProfileList_o* profileList, App_ProfileCardAlbumListMenuContent_o* menuContent, App_ProfileCardAlbumRoot_o* profiledCardAlbumRoot, App_ProfileCardAlbumListMenuOverLimit_CancelEventHandler_o* cancelEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_ProfileCardAlbumListMenuOverLimit__CreateMenuItem (App_ProfileList_o* profileList, App_ProfileCardAlbumListMenuOverLimit_CancelEventHandler_o* cancelEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_ProfileCardAlbumListMenuOverLimit__CreateMenuItemRebuild (App_ProfileList_o* profileList, System_Collections_Generic_List_BasicMenuItem__o* oldMenuList, App_ProfileCardAlbumListMenuOverLimit_CancelEventHandler_o* cancelEventHandler, const MethodInfo* method);
+void App_ProfileCardAlbumListMenuOverLimit___ctor (App_ProfileCardAlbumListMenuOverLimit_o* __this, App_ProfileList_o* profileList, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicMenuContent_o* menuContent, App_ProfileCardAlbumRoot_o* profileCardAlbumRoot, App_ProfileCardAlbumListMenuOverLimit_CancelEventHandler_o* cancelEventHandler, const MethodInfo* method);
+System_String_o* App_ProfileCardAlbumListMenuOverLimit__GetName (App_ProfileCardAlbumListMenuOverLimit_o* __this, const MethodInfo* method);
+void App_ProfileCardAlbumListMenuOverLimit__UpdateCardRoot (App_ProfileCardAlbumListMenuOverLimit_o* __this, App_ProfileCard_o* profileCard, int32_t selectIndex, const MethodInfo* method);
+void App_ProfileCardAlbumListMenuOverLimit__RebuildMenu (App_ProfileCardAlbumListMenuOverLimit_o* __this, const MethodInfo* method);
+void App_ProfileCardAlbumListMenuOverLimit__RemoveProfileCard (App_ProfileCardAlbumListMenuOverLimit_o* __this, App_ProfileCard_o* profile, const MethodInfo* method);
+void App_ProfileCardAlbumListMenuOverLimit___CreateMenuItem_g__AddMenuItem_6_0 (int32_t i, App_ProfileCardAlbumListMenuOverLimit___c__DisplayClass6_0_o* , const MethodInfo* method);

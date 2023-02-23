@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool MoonSharp_Interpreter_Interop_MoonSharpVisibleAttribute__get_Visible (MoonSharp_Interpreter_Interop_MoonSharpVisibleAttribute_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_MoonSharpVisibleAttribute__set_Visible (MoonSharp_Interpreter_Interop_MoonSharpVisibleAttribute_o* __this, bool value, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_MoonSharpVisibleAttribute___ctor (MoonSharp_Interpreter_Interop_MoonSharpVisibleAttribute_o* __this, bool visible, const MethodInfo* method);

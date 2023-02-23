@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_VsCodeDebugger_SDK_StackFrame_array* MoonSharp_VsCodeDebugger_SDK_StackTraceResponseBody__get_stackFrames (MoonSharp_VsCodeDebugger_SDK_StackTraceResponseBody_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_StackTraceResponseBody__set_stackFrames (MoonSharp_VsCodeDebugger_SDK_StackTraceResponseBody_o* __this, MoonSharp_VsCodeDebugger_SDK_StackFrame_array* value, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_StackTraceResponseBody___ctor (MoonSharp_VsCodeDebugger_SDK_StackTraceResponseBody_o* __this, System_Collections_Generic_List_StackFrame__o* frames, const MethodInfo* method);

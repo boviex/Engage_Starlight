@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Color_o App_RefineShopRefineTargetMenuItemContent__get_m_ColorOfNotEnoughValue (App_RefineShopRefineTargetMenuItemContent_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetMenuItemContent__set_m_ColorOfNotEnoughValue (App_RefineShopRefineTargetMenuItemContent_o* __this, UnityEngine_Color_o value, const MethodInfo* method);
+void App_RefineShopRefineTargetMenuItemContent___ctor (App_RefineShopRefineTargetMenuItemContent_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetMenuItemContent__Start (App_RefineShopRefineTargetMenuItemContent_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetMenuItemContent__BuildText (App_RefineShopRefineTargetMenuItemContent_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetMenuItemContent__UpdateTextColor (App_RefineShopRefineTargetMenuItemContent_o* __this, const MethodInfo* method);

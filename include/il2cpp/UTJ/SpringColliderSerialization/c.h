@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_SpringColliderSerialization___c___cctor (const MethodInfo* method);
+void UTJ_SpringColliderSerialization___c___ctor (UTJ_SpringColliderSerialization___c_o* __this, const MethodInfo* method);
+UTJ_SpringColliderSerialization_SphereColliderSerializer_o* UTJ_SpringColliderSerialization___c___AppendColliders_b__1_0 (UTJ_SpringColliderSerialization___c_o* __this, UTJ_SpringSphereCollider_o* item, const MethodInfo* method);
+UTJ_SpringColliderSerialization_CapsuleColliderSerializer_o* UTJ_SpringColliderSerialization___c___AppendColliders_b__1_1 (UTJ_SpringColliderSerialization___c_o* __this, UTJ_SpringCapsuleCollider_o* item, const MethodInfo* method);
+UTJ_SpringColliderSerialization_PanelColliderSerializer_o* UTJ_SpringColliderSerialization___c___AppendColliders_b__1_2 (UTJ_SpringColliderSerialization___c_o* __this, UTJ_SpringPanelCollider_o* item, const MethodInfo* method);
+UTJ_SpringColliderSerialization_TransformSerializer_o* UTJ_SpringColliderSerialization___c___AppendDynamicsNulls_b__8_0 (UTJ_SpringColliderSerialization___c_o* __this, UTJ_DynamicsNull_o* item, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_UniTaskExtensions__ForgetCore_d__23_object___MoveNext (UniRx_Async_UniTaskExtensions__ForgetCore_d__23_object__o __this, const MethodInfo_3164070* method);
+void UniRx_Async_UniTaskExtensions__ForgetCore_d__23_object___SetStateMachine (UniRx_Async_UniTaskExtensions__ForgetCore_d__23_object__o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo_3164230* method);

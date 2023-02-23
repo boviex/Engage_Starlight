@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_SelectObservable_bool__bool____ctor (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__TR__o* selector, const MethodInfo_3443470* method);
+void UniRx_Operators_SelectObservable_object__bool____ctor (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__TR__o* selector, const MethodInfo_34437E0* method);
+void UniRx_Operators_SelectObservable_object__object____ctor (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__TR__o* selector, const MethodInfo_3443B50* method);
+void UniRx_Operators_SelectObservable_bool__bool____ctor (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__int__TR__o* selector, const MethodInfo_34434F0* method);
+void UniRx_Operators_SelectObservable_object__bool____ctor (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__int__TR__o* selector, const MethodInfo_3443860* method);
+void UniRx_Operators_SelectObservable_object__object____ctor (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__int__TR__o* selector, const MethodInfo_3443BD0* method);
+System_IObservable_TR__o* UniRx_Operators_SelectObservable_bool__bool___CombinePredicate (UniRx_Operators_SelectObservable_T__TR__o* __this, System_Func_TR__bool__o* predicate, const MethodInfo_3443570* method);
+System_IObservable_TR__o* UniRx_Operators_SelectObservable_object__bool___CombinePredicate (UniRx_Operators_SelectObservable_T__TR__o* __this, System_Func_TR__bool__o* predicate, const MethodInfo_34438E0* method);
+System_IObservable_TR__o* UniRx_Operators_SelectObservable_object__object___CombinePredicate (UniRx_Operators_SelectObservable_T__TR__o* __this, System_Func_TR__bool__o* predicate, const MethodInfo_3443C50* method);
+System_IDisposable_o* UniRx_Operators_SelectObservable_bool__bool___SubscribeCore (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_3443650* method);
+System_IDisposable_o* UniRx_Operators_SelectObservable_object__bool___SubscribeCore (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_34439C0* method);
+System_IDisposable_o* UniRx_Operators_SelectObservable_object__object___SubscribeCore (UniRx_Operators_SelectObservable_T__TR__o* __this, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_3443D30* method);

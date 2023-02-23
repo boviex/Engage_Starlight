@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_BufferObservable_BufferTS_object____ctor (UniRx_Operators_BufferObservable_BufferTS_T__o* __this, UniRx_Operators_BufferObservable_T__o* parent, System_IObserver_IList_T___o* observer, System_IDisposable_o* cancel, const MethodInfo_30D4790* method);
+System_IDisposable_o* UniRx_Operators_BufferObservable_BufferTS_object___Run (UniRx_Operators_BufferObservable_BufferTS_T__o* __this, const MethodInfo_30D4850* method);
+void UniRx_Operators_BufferObservable_BufferTS_object___CreateTimer (UniRx_Operators_BufferObservable_BufferTS_T__o* __this, const MethodInfo_30D4A70* method);
+void UniRx_Operators_BufferObservable_BufferTS_object___OnNext (UniRx_Operators_BufferObservable_BufferTS_T__o* __this, Il2CppObject* value, const MethodInfo_30D4D80* method);
+void UniRx_Operators_BufferObservable_BufferTS_object___OnError (UniRx_Operators_BufferObservable_BufferTS_T__o* __this, System_Exception_o* error, const MethodInfo_30D5090* method);
+void UniRx_Operators_BufferObservable_BufferTS_object___OnCompleted (UniRx_Operators_BufferObservable_BufferTS_T__o* __this, const MethodInfo_30D51D0* method);

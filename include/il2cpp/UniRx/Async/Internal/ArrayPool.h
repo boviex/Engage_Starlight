@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration____ctor (UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration__o* __this, const MethodInfo_203B3A0* method);
+void UniRx_Async_Internal_ArrayPool_object____ctor (UniRx_Async_Internal_ArrayPool_T__o* __this, const MethodInfo_203BDA0* method);
+void UniRx_Async_Internal_ArrayPool_UniTask____ctor (UniRx_Async_Internal_ArrayPool_T__o* __this, const MethodInfo_203C7A0* method);
+System_Threading_CancellationTokenRegistration_array* UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration___Rent (UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration__o* __this, int32_t minimumLength, const MethodInfo_203B570* method);
+System_Object_array* UniRx_Async_Internal_ArrayPool_object___Rent (UniRx_Async_Internal_ArrayPool_T__o* __this, int32_t minimumLength, const MethodInfo_203BF70* method);
+UniRx_Async_UniTask_array* UniRx_Async_Internal_ArrayPool_UniTask___Rent (UniRx_Async_Internal_ArrayPool_T__o* __this, int32_t minimumLength, const MethodInfo_203C970* method);
+void UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration___Return (UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration__o* __this, System_Threading_CancellationTokenRegistration_array* array, bool clearArray, const MethodInfo_203B8B0* method);
+void UniRx_Async_Internal_ArrayPool_object___Return (UniRx_Async_Internal_ArrayPool_T__o* __this, System_Object_array* array, bool clearArray, const MethodInfo_203C2B0* method);
+void UniRx_Async_Internal_ArrayPool_UniTask___Return (UniRx_Async_Internal_ArrayPool_T__o* __this, UniRx_Async_UniTask_array* array, bool clearArray, const MethodInfo_203CCB0* method);
+int32_t UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration___CalculateSize (int32_t size, const MethodInfo_203BAE0* method);
+int32_t UniRx_Async_Internal_ArrayPool_object___CalculateSize (int32_t size, const MethodInfo_203C4E0* method);
+int32_t UniRx_Async_Internal_ArrayPool_UniTask___CalculateSize (int32_t size, const MethodInfo_203CEE0* method);
+int32_t UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration___GetQueueIndex (int32_t size, const MethodInfo_203BB10* method);
+int32_t UniRx_Async_Internal_ArrayPool_object___GetQueueIndex (int32_t size, const MethodInfo_203C510* method);
+int32_t UniRx_Async_Internal_ArrayPool_UniTask___GetQueueIndex (int32_t size, const MethodInfo_203CF10* method);
+void UniRx_Async_Internal_ArrayPool_CancellationTokenRegistration____cctor (const MethodInfo_203BC40* method);
+void UniRx_Async_Internal_ArrayPool_object____cctor (const MethodInfo_203C640* method);
+void UniRx_Async_Internal_ArrayPool_UniTask____cctor (const MethodInfo_203D040* method);

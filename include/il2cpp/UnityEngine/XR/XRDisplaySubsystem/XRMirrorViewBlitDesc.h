@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_XR_XRDisplaySubsystem_XRMirrorViewBlitDesc__GetBlitParameter (UnityEngine_XR_XRDisplaySubsystem_XRMirrorViewBlitDesc_o __this, int32_t blitParameterIndex, UnityEngine_XR_XRDisplaySubsystem_XRBlitParams_o* blitParameter, const MethodInfo* method);
+void UnityEngine_XR_XRDisplaySubsystem_XRMirrorViewBlitDesc__GetBlitParameter_Injected (UnityEngine_XR_XRDisplaySubsystem_XRMirrorViewBlitDesc_o* _unity_self, int32_t blitParameterIndex, UnityEngine_XR_XRDisplaySubsystem_XRBlitParams_o* blitParameter, const MethodInfo* method);

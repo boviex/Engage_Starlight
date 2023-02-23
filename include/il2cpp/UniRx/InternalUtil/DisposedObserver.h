@@ -1,0 +1,39 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_InternalUtil_DisposedObserver_bool____ctor (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8030* method);
+void UniRx_InternalUtil_DisposedObserver_int____ctor (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8240* method);
+void UniRx_InternalUtil_DisposedObserver_Int32Enum____ctor (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8450* method);
+void UniRx_InternalUtil_DisposedObserver_LogEntry____ctor (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8660* method);
+void UniRx_InternalUtil_DisposedObserver_object____ctor (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8870* method);
+void UniRx_InternalUtil_DisposedObserver_float____ctor (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8A80* method);
+void UniRx_InternalUtil_DisposedObserver_Unit____ctor (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8C90* method);
+void UniRx_InternalUtil_DisposedObserver_bool___OnCompleted (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8040* method);
+void UniRx_InternalUtil_DisposedObserver_int___OnCompleted (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8250* method);
+void UniRx_InternalUtil_DisposedObserver_Int32Enum___OnCompleted (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8460* method);
+void UniRx_InternalUtil_DisposedObserver_LogEntry___OnCompleted (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8670* method);
+void UniRx_InternalUtil_DisposedObserver_object___OnCompleted (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8880* method);
+void UniRx_InternalUtil_DisposedObserver_float___OnCompleted (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8A90* method);
+void UniRx_InternalUtil_DisposedObserver_Unit___OnCompleted (UniRx_InternalUtil_DisposedObserver_T__o* __this, const MethodInfo_25F8CA0* method);
+void UniRx_InternalUtil_DisposedObserver_bool___OnError (UniRx_InternalUtil_DisposedObserver_T__o* __this, System_Exception_o* error, const MethodInfo_25F80A0* method);
+void UniRx_InternalUtil_DisposedObserver_int___OnError (UniRx_InternalUtil_DisposedObserver_T__o* __this, System_Exception_o* error, const MethodInfo_25F82B0* method);
+void UniRx_InternalUtil_DisposedObserver_Int32Enum___OnError (UniRx_InternalUtil_DisposedObserver_T__o* __this, System_Exception_o* error, const MethodInfo_25F84C0* method);
+void UniRx_InternalUtil_DisposedObserver_LogEntry___OnError (UniRx_InternalUtil_DisposedObserver_T__o* __this, System_Exception_o* error, const MethodInfo_25F86D0* method);
+void UniRx_InternalUtil_DisposedObserver_object___OnError (UniRx_InternalUtil_DisposedObserver_T__o* __this, System_Exception_o* error, const MethodInfo_25F88E0* method);
+void UniRx_InternalUtil_DisposedObserver_float___OnError (UniRx_InternalUtil_DisposedObserver_T__o* __this, System_Exception_o* error, const MethodInfo_25F8AF0* method);
+void UniRx_InternalUtil_DisposedObserver_Unit___OnError (UniRx_InternalUtil_DisposedObserver_T__o* __this, System_Exception_o* error, const MethodInfo_25F8D00* method);
+void UniRx_InternalUtil_DisposedObserver_bool___OnNext (UniRx_InternalUtil_DisposedObserver_T__o* __this, bool value, const MethodInfo_25F8100* method);
+void UniRx_InternalUtil_DisposedObserver_int___OnNext (UniRx_InternalUtil_DisposedObserver_T__o* __this, int32_t value, const MethodInfo_25F8310* method);
+void UniRx_InternalUtil_DisposedObserver_Int32Enum___OnNext (UniRx_InternalUtil_DisposedObserver_T__o* __this, int32_t value, const MethodInfo_25F8520* method);
+void UniRx_InternalUtil_DisposedObserver_LogEntry___OnNext (UniRx_InternalUtil_DisposedObserver_T__o* __this, UniRx_Diagnostics_LogEntry_o value, const MethodInfo_25F8730* method);
+void UniRx_InternalUtil_DisposedObserver_object___OnNext (UniRx_InternalUtil_DisposedObserver_T__o* __this, Il2CppObject* value, const MethodInfo_25F8940* method);
+void UniRx_InternalUtil_DisposedObserver_float___OnNext (UniRx_InternalUtil_DisposedObserver_T__o* __this, float value, const MethodInfo_25F8B50* method);
+void UniRx_InternalUtil_DisposedObserver_Unit___OnNext (UniRx_InternalUtil_DisposedObserver_T__o* __this, UniRx_Unit_o value, const MethodInfo_25F8D60* method);
+void UniRx_InternalUtil_DisposedObserver_bool____cctor (const MethodInfo_25F8160* method);
+void UniRx_InternalUtil_DisposedObserver_int____cctor (const MethodInfo_25F8370* method);
+void UniRx_InternalUtil_DisposedObserver_Int32Enum____cctor (const MethodInfo_25F8580* method);
+void UniRx_InternalUtil_DisposedObserver_LogEntry____cctor (const MethodInfo_25F8790* method);
+void UniRx_InternalUtil_DisposedObserver_object____cctor (const MethodInfo_25F89A0* method);
+void UniRx_InternalUtil_DisposedObserver_float____cctor (const MethodInfo_25F8BB0* method);
+void UniRx_InternalUtil_DisposedObserver_Unit____cctor (const MethodInfo_25F8DC0* method);

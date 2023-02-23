@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Net_HttpWebRequest__RunWithTimeout_d__234_object___MoveNext (System_Net_HttpWebRequest__RunWithTimeout_d__234_object__o __this, const MethodInfo_3179B80* method);
+void System_Net_HttpWebRequest__RunWithTimeout_d__234_object___SetStateMachine (System_Net_HttpWebRequest__RunWithTimeout_d__234_object__o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo_317A570* method);

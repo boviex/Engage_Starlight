@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate___ctor (Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+float Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate__Invoke (Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate_o* __this, Cinemachine_CinemachineOrbitalTransposer_o* orbital, float deltaTime, UnityEngine_Vector3_o up, const MethodInfo* method);
+System_IAsyncResult_o* Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate__BeginInvoke (Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate_o* __this, Cinemachine_CinemachineOrbitalTransposer_o* orbital, float deltaTime, UnityEngine_Vector3_o up, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
+float Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate__EndInvoke (Cinemachine_CinemachineOrbitalTransposer_UpdateHeadingDelegate_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

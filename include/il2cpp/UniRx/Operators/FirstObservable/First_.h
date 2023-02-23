@@ -1,0 +1,24 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__int_____ctor (UniRx_Operators_FirstObservable_First_T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33EBDA0* method);
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__Int32Enum_____ctor (UniRx_Operators_FirstObservable_First_T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33EC520* method);
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__int____OnNext (UniRx_Operators_FirstObservable_First_T__o* __this, System_ValueTuple_float__int__o value, const MethodInfo_33EBE00* method);
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__Int32Enum____OnNext (UniRx_Operators_FirstObservable_First_T__o* __this, System_ValueTuple_float__Int32Enum__o value, const MethodInfo_33EC580* method);
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__int____OnError (UniRx_Operators_FirstObservable_First_T__o* __this, System_Exception_o* error, const MethodInfo_33EBFC0* method);
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__Int32Enum____OnError (UniRx_Operators_FirstObservable_First_T__o* __this, System_Exception_o* error, const MethodInfo_33EC740* method);
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__int____OnCompleted (UniRx_Operators_FirstObservable_First_T__o* __this, const MethodInfo_33EC100* method);
+void UniRx_Operators_FirstObservable_First_ValueTuple_float__Int32Enum____OnCompleted (UniRx_Operators_FirstObservable_First_T__o* __this, const MethodInfo_33EC880* method);
+void UniRx_Operators_FirstObservable_First__long____ctor (UniRx_Operators_FirstObservable_First__T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F0960* method);
+void UniRx_Operators_FirstObservable_First__object____ctor (UniRx_Operators_FirstObservable_First__T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F1280* method);
+void UniRx_Operators_FirstObservable_First__Unit____ctor (UniRx_Operators_FirstObservable_First__T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F1BA0* method);
+void UniRx_Operators_FirstObservable_First__long___OnNext (UniRx_Operators_FirstObservable_First__T__o* __this, int64_t value, const MethodInfo_33F09C0* method);
+void UniRx_Operators_FirstObservable_First__object___OnNext (UniRx_Operators_FirstObservable_First__T__o* __this, Il2CppObject* value, const MethodInfo_33F12E0* method);
+void UniRx_Operators_FirstObservable_First__Unit___OnNext (UniRx_Operators_FirstObservable_First__T__o* __this, UniRx_Unit_o value, const MethodInfo_33F1C00* method);
+void UniRx_Operators_FirstObservable_First__long___OnError (UniRx_Operators_FirstObservable_First__T__o* __this, System_Exception_o* error, const MethodInfo_33F0D20* method);
+void UniRx_Operators_FirstObservable_First__object___OnError (UniRx_Operators_FirstObservable_First__T__o* __this, System_Exception_o* error, const MethodInfo_33F1640* method);
+void UniRx_Operators_FirstObservable_First__Unit___OnError (UniRx_Operators_FirstObservable_First__T__o* __this, System_Exception_o* error, const MethodInfo_33F1F60* method);
+void UniRx_Operators_FirstObservable_First__long___OnCompleted (UniRx_Operators_FirstObservable_First__T__o* __this, const MethodInfo_33F0E60* method);
+void UniRx_Operators_FirstObservable_First__object___OnCompleted (UniRx_Operators_FirstObservable_First__T__o* __this, const MethodInfo_33F1780* method);
+void UniRx_Operators_FirstObservable_First__Unit___OnCompleted (UniRx_Operators_FirstObservable_First__T__o* __this, const MethodInfo_33F20A0* method);

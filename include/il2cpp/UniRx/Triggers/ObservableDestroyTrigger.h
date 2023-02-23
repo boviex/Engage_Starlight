@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_Triggers_ObservableDestroyTrigger__get_IsMonitoredActivate (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDestroyTrigger__set_IsMonitoredActivate (UniRx_Triggers_ObservableDestroyTrigger_o* __this, bool value, const MethodInfo* method);
+bool UniRx_Triggers_ObservableDestroyTrigger__get_IsActivated (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDestroyTrigger__set_IsActivated (UniRx_Triggers_ObservableDestroyTrigger_o* __this, bool value, const MethodInfo* method);
+bool UniRx_Triggers_ObservableDestroyTrigger__get_IsCalledOnDestroy (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDestroyTrigger__Awake (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDestroyTrigger__OnDestroy (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableDestroyTrigger__OnDestroyAsObservable (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDestroyTrigger__ForceRaiseOnDestroy (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableDestroyTrigger__AddDisposableOnDestroy (UniRx_Triggers_ObservableDestroyTrigger_o* __this, System_IDisposable_o* disposable, const MethodInfo* method);
+void UniRx_Triggers_ObservableDestroyTrigger___ctor (UniRx_Triggers_ObservableDestroyTrigger_o* __this, const MethodInfo* method);

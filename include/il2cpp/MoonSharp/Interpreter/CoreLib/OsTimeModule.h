@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_OsTimeModule__GetUnixTime (System_DateTime_o dateTime, System_Nullable_DateTime__o epoch, const MethodInfo* method);
+System_DateTime_o MoonSharp_Interpreter_CoreLib_OsTimeModule__FromUnixTime (double unixtime, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_OsTimeModule__clock (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_OsTimeModule__difftime (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_OsTimeModule__time (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+System_DateTime_o MoonSharp_Interpreter_CoreLib_OsTimeModule__ParseTimeTable (MoonSharp_Interpreter_Table_o* t, const MethodInfo* method);
+System_Nullable_int__o MoonSharp_Interpreter_CoreLib_OsTimeModule__GetTimeTableField (MoonSharp_Interpreter_Table_o* t, System_String_o* key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_OsTimeModule__date (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_CoreLib_OsTimeModule__StrFTime (System_String_o* format, System_DateTime_o d, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_OsTimeModule___ctor (MoonSharp_Interpreter_CoreLib_OsTimeModule_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_OsTimeModule___cctor (const MethodInfo* method);

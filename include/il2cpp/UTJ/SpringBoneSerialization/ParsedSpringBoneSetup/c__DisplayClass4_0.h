@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_SpringBoneSerialization_ParsedSpringBoneSetup___c__DisplayClass4_0___ctor (UTJ_SpringBoneSerialization_ParsedSpringBoneSetup___c__DisplayClass4_0_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_Component__o* UTJ_SpringBoneSerialization_ParsedSpringBoneSetup___c__DisplayClass4_0___ReadSpringBoneSetupFromText_b__2 (UTJ_SpringBoneSerialization_ParsedSpringBoneSetup___c__DisplayClass4_0_o* __this, System_Type_o* type, const MethodInfo* method);

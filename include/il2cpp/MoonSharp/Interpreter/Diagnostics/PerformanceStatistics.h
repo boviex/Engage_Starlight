@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool MoonSharp_Interpreter_Diagnostics_PerformanceStatistics__get_Enabled (MoonSharp_Interpreter_Diagnostics_PerformanceStatistics_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceStatistics__set_Enabled (MoonSharp_Interpreter_Diagnostics_PerformanceStatistics_o* __this, bool value, const MethodInfo* method);
+MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* MoonSharp_Interpreter_Diagnostics_PerformanceStatistics__GetPerformanceCounterResult (MoonSharp_Interpreter_Diagnostics_PerformanceStatistics_o* __this, int32_t pc, const MethodInfo* method);
+System_IDisposable_o* MoonSharp_Interpreter_Diagnostics_PerformanceStatistics__StartStopwatch (MoonSharp_Interpreter_Diagnostics_PerformanceStatistics_o* __this, int32_t pc, const MethodInfo* method);
+System_IDisposable_o* MoonSharp_Interpreter_Diagnostics_PerformanceStatistics__StartGlobalStopwatch (int32_t pc, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Diagnostics_PerformanceStatistics__GetPerformanceLog (MoonSharp_Interpreter_Diagnostics_PerformanceStatistics_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceStatistics___ctor (MoonSharp_Interpreter_Diagnostics_PerformanceStatistics_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceStatistics___cctor (const MethodInfo* method);

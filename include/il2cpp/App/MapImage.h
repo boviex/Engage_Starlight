@@ -1,0 +1,58 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapImage___ctor (App_MapImage_o* __this, const MethodInfo* method);
+App_TerrainData_o* App_MapImage__GetPutTerrain (System_String_o* tid, bool nullable, const MethodInfo* method);
+void App_MapImage__Setup (App_MapImage_o* __this, App_MapTerrain_o* terrain, bool isResume, const MethodInfo* method);
+void App_MapImage__SetSize (App_MapImage_o* __this, int32_t w, int32_t h, const MethodInfo* method);
+bool App_MapImage__IsOutOfMap (App_MapImage_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+bool App_MapImage__IsOutOfPlayArea (App_MapImage_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+bool App_MapImage__CanTarget (App_MapImage_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+bool App_MapImage__CanTarget (App_MapImage_o* __this, int32_t x, int32_t z, App_Unit_o* unit, const MethodInfo* method);
+bool App_MapImage__CanTarget (App_MapImage_o* __this, int32_t x, int32_t z, bool isConsiderNotTarget, const MethodInfo* method);
+int32_t App_MapImage__get_Version (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__OnSerialize (App_MapImage_o* __this, App_Stream_o* stream, const MethodInfo* method);
+void App_MapImage__OnDeserialize (App_MapImage_o* __this, App_Stream_o* stream, int32_t version, const MethodInfo* method);
+int32_t App_MapImage__get_X (App_MapImage_o* __this, const MethodInfo* method);
+int32_t App_MapImage__get_Z (App_MapImage_o* __this, const MethodInfo* method);
+int32_t App_MapImage__get_W (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_W (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_H (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_H (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaX (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaX (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaZ (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaZ (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaW (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaW (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaH (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaH (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_X1 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_X1 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_Z1 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_Z1 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_X2 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_X2 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_Z2 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_Z2 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaX1 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaX1 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaZ1 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaZ1 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaX2 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaX2 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapImage__get_PlayAreaZ2 (App_MapImage_o* __this, const MethodInfo* method);
+void App_MapImage__set_PlayAreaZ2 (App_MapImage_o* __this, int32_t value, const MethodInfo* method);
+App_MapImageUnit_o* App_MapImage__get_Unit (App_MapImage_o* __this, const MethodInfo* method);
+App_MapImageTerrain_o* App_MapImage__get_Terrain (App_MapImage_o* __this, const MethodInfo* method);
+App_MapImageCost_o* App_MapImage__get_Cost (App_MapImage_o* __this, const MethodInfo* method);
+App_MapImageDanger_o* App_MapImage__get_Danger (App_MapImage_o* __this, const MethodInfo* method);
+App_MapImageTalk_o* App_MapImage__get_Talk (App_MapImage_o* __this, const MethodInfo* method);
+App_MapImageRange_o* App_MapImage__get_Range (App_MapImage_o* __this, const MethodInfo* method);
+App_MapImageHistory_o* App_MapImage__get_History (App_MapImage_o* __this, const MethodInfo* method);
+System_String_o* App_MapImage__get_Name (App_MapImage_o* __this, const MethodInfo* method);
+App_Unit_o* App_MapImage__GetTargetUnit (App_MapImage_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+App_Unit_o* App_MapImage__GetTargetUnit (App_MapImage_o* __this, int32_t x, int32_t z, bool allowAsphyxiation, const MethodInfo* method);
+int32_t App_MapImage__ClampX (App_MapImage_o* __this, int32_t x, const MethodInfo* method);
+int32_t App_MapImage__ClampZ (App_MapImage_o* __this, int32_t z, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_MainMenuSequence_PlayerBirthdayInputMenuSequence__GetLayoutType (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_PlayerBirthdayInputMenuSequence__GetLayoutPrefabPath (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_PlayerBirthdayInputMenuSequence__GetTitleBarName (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_PlayerBirthdayInputMenuSequence__GetTitleBarHelp (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_PlayerBirthdayInputMenuSequence__GetTitleBarKeyHelpId (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_PlayerBirthdayInputMenuSequence__CreateMenuBind (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_PlayerBirthdayInputMenuSequence__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_PlayerBirthdayInputMenuSequence___ctor (App_MainMenuSequence_PlayerBirthdayInputMenuSequence_o* __this, const MethodInfo* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Net_IWebProxy_o* System_Net_Configuration_DefaultProxySectionInternal__GetDefaultProxy_UsingOldMonoCode (const MethodInfo* method);
+System_Net_IWebProxy_o* System_Net_Configuration_DefaultProxySectionInternal__GetSystemWebProxy (const MethodInfo* method);
+Il2CppObject* System_Net_Configuration_DefaultProxySectionInternal__get_ClassSyncObject (const MethodInfo* method);
+System_Net_Configuration_DefaultProxySectionInternal_o* System_Net_Configuration_DefaultProxySectionInternal__GetSection (const MethodInfo* method);
+System_Net_IWebProxy_o* System_Net_Configuration_DefaultProxySectionInternal__get_WebProxy (System_Net_Configuration_DefaultProxySectionInternal_o* __this, const MethodInfo* method);
+void System_Net_Configuration_DefaultProxySectionInternal___ctor (System_Net_Configuration_DefaultProxySectionInternal_o* __this, const MethodInfo* method);

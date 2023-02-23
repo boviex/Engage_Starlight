@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_VFX_VisualEffectAsset_o* UnityEngine_VFX_VisualEffect__get_visualEffectAsset (UnityEngine_VFX_VisualEffect_o* __this, const MethodInfo* method);
+UnityEngine_VFX_VFXEventAttribute_o* UnityEngine_VFX_VisualEffect__CreateVFXEventAttribute (UnityEngine_VFX_VisualEffect_o* __this, const MethodInfo* method);
+UnityEngine_VFX_VFXEventAttribute_o* UnityEngine_VFX_VisualEffect__InvokeGetCachedEventAttributeForOutputEvent_Internal (UnityEngine_VFX_VisualEffect_o* source, const MethodInfo* method);
+void UnityEngine_VFX_VisualEffect__InvokeOutputEventReceived_Internal (UnityEngine_VFX_VisualEffect_o* source, int32_t eventNameId, const MethodInfo* method);

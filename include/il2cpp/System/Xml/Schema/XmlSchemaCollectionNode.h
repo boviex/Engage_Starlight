@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaCollectionNode__set_NamespaceURI (System_Xml_Schema_XmlSchemaCollectionNode_o* __this, System_String_o* value, const MethodInfo* method);
+System_Xml_Schema_SchemaInfo_o* System_Xml_Schema_XmlSchemaCollectionNode__get_SchemaInfo (System_Xml_Schema_XmlSchemaCollectionNode_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaCollectionNode__set_SchemaInfo (System_Xml_Schema_XmlSchemaCollectionNode_o* __this, System_Xml_Schema_SchemaInfo_o* value, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaCollectionNode__get_Schema (System_Xml_Schema_XmlSchemaCollectionNode_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaCollectionNode__set_Schema (System_Xml_Schema_XmlSchemaCollectionNode_o* __this, System_Xml_Schema_XmlSchema_o* value, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaCollectionNode___ctor (System_Xml_Schema_XmlSchemaCollectionNode_o* __this, const MethodInfo* method);

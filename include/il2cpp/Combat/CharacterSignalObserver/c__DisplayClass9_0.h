@@ -1,0 +1,18 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___ctor (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__15 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__16 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__17 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__18 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__19 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__20 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__1 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__2 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__9 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__10 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__12 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__13 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);
+void Combat_CharacterSignalObserver___c__DisplayClass9_0___MyStart_b__14 (Combat_CharacterSignalObserver___c__DisplayClass9_0_o* __this, Combat_Character_o* chr, const MethodInfo* method);

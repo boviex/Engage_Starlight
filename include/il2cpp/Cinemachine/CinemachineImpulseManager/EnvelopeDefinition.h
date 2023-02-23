@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Cinemachine_CinemachineImpulseManager_EnvelopeDefinition_o Cinemachine_CinemachineImpulseManager_EnvelopeDefinition__Default (const MethodInfo* method);
+float Cinemachine_CinemachineImpulseManager_EnvelopeDefinition__get_Duration (Cinemachine_CinemachineImpulseManager_EnvelopeDefinition_o __this, const MethodInfo* method);
+float Cinemachine_CinemachineImpulseManager_EnvelopeDefinition__GetValueAt (Cinemachine_CinemachineImpulseManager_EnvelopeDefinition_o __this, float offset, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseManager_EnvelopeDefinition__ChangeStopTime (Cinemachine_CinemachineImpulseManager_EnvelopeDefinition_o __this, float offset, bool forceNoDecay, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseManager_EnvelopeDefinition__Clear (Cinemachine_CinemachineImpulseManager_EnvelopeDefinition_o __this, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseManager_EnvelopeDefinition__Validate (Cinemachine_CinemachineImpulseManager_EnvelopeDefinition_o __this, const MethodInfo* method);

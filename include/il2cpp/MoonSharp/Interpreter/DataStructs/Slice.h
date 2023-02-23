@@ -1,0 +1,25 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_DataStructs_Slice_DynValue____ctor (MoonSharp_Interpreter_DataStructs_Slice_DynValue__o* __this, System_Collections_Generic_IList_T__o* list, int32_t from, int32_t length, bool reversed, const MethodInfo_3459030* method);
+void MoonSharp_Interpreter_DataStructs_Slice_object____ctor (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, System_Collections_Generic_IList_T__o* list, int32_t from, int32_t length, bool reversed, const MethodInfo_3459030* method);
+Il2CppObject* MoonSharp_Interpreter_DataStructs_Slice_object___get_Item (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, int32_t index, const MethodInfo_3459090* method);
+void MoonSharp_Interpreter_DataStructs_Slice_object___set_Item (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, int32_t index, Il2CppObject* value, const MethodInfo_3459150* method);
+int32_t MoonSharp_Interpreter_DataStructs_Slice_object___get_From (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_3459210* method);
+int32_t MoonSharp_Interpreter_DataStructs_Slice_object___get_Count (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_3459220* method);
+bool MoonSharp_Interpreter_DataStructs_Slice_object___get_Reversed (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_3459230* method);
+int32_t MoonSharp_Interpreter_DataStructs_Slice_object___CalcRealIndex (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, int32_t index, const MethodInfo_3459240* method);
+System_Collections_Generic_IEnumerator_T__o* MoonSharp_Interpreter_DataStructs_Slice_object___GetEnumerator (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_34592D0* method);
+System_Collections_IEnumerator_o* MoonSharp_Interpreter_DataStructs_Slice_object___System_Collections_IEnumerable_GetEnumerator (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_3459350* method);
+System_Object_array* MoonSharp_Interpreter_DataStructs_Slice_object___ToArray (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_34593D0* method);
+System_Collections_Generic_List_T__o* MoonSharp_Interpreter_DataStructs_Slice_object___ToList (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_3459520* method);
+int32_t MoonSharp_Interpreter_DataStructs_Slice_object___IndexOf (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, Il2CppObject* item, const MethodInfo_3459680* method);
+void MoonSharp_Interpreter_DataStructs_Slice_object___Insert (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, int32_t index, Il2CppObject* item, const MethodInfo_3459740* method);
+void MoonSharp_Interpreter_DataStructs_Slice_object___RemoveAt (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, int32_t index, const MethodInfo_34597A0* method);
+void MoonSharp_Interpreter_DataStructs_Slice_object___Add (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, Il2CppObject* item, const MethodInfo_3459800* method);
+void MoonSharp_Interpreter_DataStructs_Slice_object___Clear (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_3459860* method);
+bool MoonSharp_Interpreter_DataStructs_Slice_object___Contains (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, Il2CppObject* item, const MethodInfo_34598C0* method);
+void MoonSharp_Interpreter_DataStructs_Slice_object___CopyTo (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, System_Object_array* array, int32_t arrayIndex, const MethodInfo_34598F0* method);
+bool MoonSharp_Interpreter_DataStructs_Slice_object___get_IsReadOnly (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, const MethodInfo_34599D0* method);
+bool MoonSharp_Interpreter_DataStructs_Slice_object___Remove (MoonSharp_Interpreter_DataStructs_Slice_T__o* __this, Il2CppObject* item, const MethodInfo_34599E0* method);

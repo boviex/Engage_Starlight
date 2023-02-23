@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observable_ConnectableObservable_Connection_object____ctor (UniRx_Observable_ConnectableObservable_Connection_T__o* __this, UniRx_Observable_ConnectableObservable_T__o* parent, System_IDisposable_o* subscription, const MethodInfo_24FA000* method);
+void UniRx_Observable_ConnectableObservable_Connection_object___Dispose (UniRx_Observable_ConnectableObservable_Connection_T__o* __this, const MethodInfo_24FA050* method);

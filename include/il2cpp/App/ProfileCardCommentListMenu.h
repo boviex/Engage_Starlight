@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ProfileCardCommentListMenu_o* App_ProfileCardCommentListMenu__CreateBind (App_ProcInst_o* super, App_ProfileCardMessageListMenuContent_o* menuContent, App_ProfileCard_o* myProfileCardTemp, App_ProfileCardCommentData_o* initialCommentData, App_ProfileCardCommentListMenu_SelectEventHandler_o* selectEventHandler, App_ProfileCardCommentListMenu_DecideEventHandler_o* decideEventHandler, App_ProfileCardCommentListMenu_CancelEventHandler_o* cancelEventHandler, App_ProfileCardCommentListMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_ProfileCardCommentListMenu__CreateMenuItem (int32_t category, App_ProfileCardCommentData_o* initialCommentData, bool sorting, App_ProfileCardCommentListMenu_SelectEventHandler_o* selectEventHandler, int32_t* initialDecidedIndex, const MethodInfo* method);
+void App_ProfileCardCommentListMenu___ctor (App_ProfileCardCommentListMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicMenuContent_o* menuContent, App_ProfileCard_o* myProfileCardTemp, int32_t initialCategory, int32_t initialDecidedIndex, App_ProfileCardCommentData_o* initialCommentData, App_ProfileCardCommentListMenu_SelectEventHandler_o* selectEventHandler, App_ProfileCardCommentListMenu_DecideEventHandler_o* decideEventHandler, App_ProfileCardCommentListMenu_CancelEventHandler_o* cancelEventHandler, App_ProfileCardCommentListMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+void App_ProfileCardCommentListMenu__OnBuild (App_ProfileCardCommentListMenu_o* __this, bool isFirstBuild, const MethodInfo* method);
+void App_ProfileCardCommentListMenu__RebuildMenu (App_ProfileCardCommentListMenu_o* __this, const MethodInfo* method);
+System_String_o* App_ProfileCardCommentListMenu__GetName (App_ProfileCardCommentListMenu_o* __this, const MethodInfo* method);
+App_BasicMenuSelect_o* App_ProfileCardCommentListMenu__GetSelect (App_ProfileCardCommentListMenu_o* __this, const MethodInfo* method);
+bool App_ProfileCardCommentListMenu__UpdateDecided (App_ProfileCardCommentListMenu_o* __this, int32_t menuItemIndex, bool initial, const MethodInfo* method);
+void App_ProfileCardCommentListMenu__UpdateContent (App_ProfileCardCommentListMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardCommentListMenu__KeyLeft (App_ProfileCardCommentListMenu_o* __this, bool isTrigger, const MethodInfo* method);
+void App_ProfileCardCommentListMenu__KeyRight (App_ProfileCardCommentListMenu_o* __this, bool isTrigger, const MethodInfo* method);
+int32_t App_ProfileCardCommentListMenu__BCall (App_ProfileCardCommentListMenu_o* __this, const MethodInfo* method);
+int32_t App_ProfileCardCommentListMenu__CustomCall (App_ProfileCardCommentListMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardCommentListMenu__OnDispose (App_ProfileCardCommentListMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardCommentListMenu___cctor (const MethodInfo* method);

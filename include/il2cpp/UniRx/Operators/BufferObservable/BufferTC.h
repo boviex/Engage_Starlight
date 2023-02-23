@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_BufferObservable_BufferTC_object____ctor (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, UniRx_Operators_BufferObservable_T__o* parent, System_IObserver_IList_T___o* observer, System_IDisposable_o* cancel, const MethodInfo_30D36B0* method);
+System_IDisposable_o* UniRx_Operators_BufferObservable_BufferTC_object___Run (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, const MethodInfo_30D3770* method);
+void UniRx_Operators_BufferObservable_BufferTC_object___CreateTimer (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, const MethodInfo_30D38E0* method);
+void UniRx_Operators_BufferObservable_BufferTC_object___OnNextTick (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, int64_t currentTimerId, const MethodInfo_30D3B30* method);
+void UniRx_Operators_BufferObservable_BufferTC_object___OnNextRecursive (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, int64_t currentTimerId, System_Action_TimeSpan__o* self, const MethodInfo_30D3E00* method);
+void UniRx_Operators_BufferObservable_BufferTC_object___OnNext (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, Il2CppObject* value, const MethodInfo_30D4110* method);
+void UniRx_Operators_BufferObservable_BufferTC_object___OnError (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, System_Exception_o* error, const MethodInfo_30D4350* method);
+void UniRx_Operators_BufferObservable_BufferTC_object___OnCompleted (UniRx_Operators_BufferObservable_BufferTC_T__o* __this, const MethodInfo_30D4490* method);
+void UniRx_Operators_BufferObservable_BufferTC_object____cctor (const MethodInfo_30D4700* method);

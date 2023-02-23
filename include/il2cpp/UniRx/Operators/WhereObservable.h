@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_WhereObservable_bool____ctor (UniRx_Operators_WhereObservable_T__o* __this, System_IObservable_T__o* source, System_Func_T__bool__o* predicate, const MethodInfo_39DEA00* method);
+void UniRx_Operators_WhereObservable_object____ctor (UniRx_Operators_WhereObservable_T__o* __this, System_IObservable_T__o* source, System_Func_T__bool__o* predicate, const MethodInfo_39DEDD0* method);
+void UniRx_Operators_WhereObservable_bool____ctor (UniRx_Operators_WhereObservable_T__o* __this, System_IObservable_T__o* source, System_Func_T__int__bool__o* predicateWithIndex, const MethodInfo_39DEA80* method);
+void UniRx_Operators_WhereObservable_object____ctor (UniRx_Operators_WhereObservable_T__o* __this, System_IObservable_T__o* source, System_Func_T__int__bool__o* predicateWithIndex, const MethodInfo_39DEE50* method);
+System_IObservable_T__o* UniRx_Operators_WhereObservable_bool___CombinePredicate (UniRx_Operators_WhereObservable_T__o* __this, System_Func_T__bool__o* combinePredicate, const MethodInfo_39DEB00* method);
+System_IObservable_T__o* UniRx_Operators_WhereObservable_object___CombinePredicate (UniRx_Operators_WhereObservable_T__o* __this, System_Func_T__bool__o* combinePredicate, const MethodInfo_39DEED0* method);
+System_IObservable_TR__o* UniRx_Operators_WhereObservable_object___CombineSelector_bool_ (UniRx_Operators_WhereObservable_T__o* __this, System_Func_T__TR__o* selector, const MethodInfo_2529400* method);
+System_IObservable_TR__o* UniRx_Operators_WhereObservable_object___CombineSelector_object_ (UniRx_Operators_WhereObservable_T__o* __this, System_Func_T__TR__o* selector, const MethodInfo_25294D0* method);
+System_IDisposable_o* UniRx_Operators_WhereObservable_bool___SubscribeCore (UniRx_Operators_WhereObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_39DEC40* method);
+System_IDisposable_o* UniRx_Operators_WhereObservable_object___SubscribeCore (UniRx_Operators_WhereObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_39DF010* method);

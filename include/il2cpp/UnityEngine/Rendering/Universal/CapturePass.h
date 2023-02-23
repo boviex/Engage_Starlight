@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_CapturePass___ctor (UnityEngine_Rendering_Universal_CapturePass_o* __this, int32_t evt, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_CapturePass__Setup (UnityEngine_Rendering_Universal_CapturePass_o* __this, UnityEngine_Rendering_Universal_RenderTargetHandle_o colorHandle, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_CapturePass__Execute (UnityEngine_Rendering_Universal_CapturePass_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_CapturePass___cctor (const MethodInfo* method);

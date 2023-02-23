@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ProfileCardAlbumListMenuOverLimit___c__DisplayClass12_0___ctor (App_ProfileCardAlbumListMenuOverLimit___c__DisplayClass12_0_o* __this, const MethodInfo* method);
+void App_ProfileCardAlbumListMenuOverLimit___c__DisplayClass12_0___RemoveProfileCard_b__0 (App_ProfileCardAlbumListMenuOverLimit___c__DisplayClass12_0_o* __this, const MethodInfo* method);

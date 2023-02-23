@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapSequenceEditor_SaveSequence_UploadOverwriteConfirmDialog___ctor (App_MapSequenceEditor_SaveSequence_UploadOverwriteConfirmDialog_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, System_Action_o* action, const MethodInfo* method);
+void App_MapSequenceEditor_SaveSequence_UploadOverwriteConfirmDialog__CreateBind (App_ProcInst_o* super, System_Action_o* cancelCallback, const MethodInfo* method);
+int32_t App_MapSequenceEditor_SaveSequence_UploadOverwriteConfirmDialog__BCall (App_MapSequenceEditor_SaveSequence_UploadOverwriteConfirmDialog_o* __this, const MethodInfo* method);

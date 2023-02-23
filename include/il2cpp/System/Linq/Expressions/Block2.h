@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Block2___ctor (System_Linq_Expressions_Block2_o* __this, System_Linq_Expressions_Expression_o* arg0, System_Linq_Expressions_Expression_o* arg1, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_Block2__GetExpression (System_Linq_Expressions_Block2_o* __this, int32_t index, const MethodInfo* method);
+int32_t System_Linq_Expressions_Block2__get_ExpressionCount (System_Linq_Expressions_Block2_o* __this, const MethodInfo* method);
+System_Collections_ObjectModel_ReadOnlyCollection_Expression__o* System_Linq_Expressions_Block2__GetOrMakeExpressions (System_Linq_Expressions_Block2_o* __this, const MethodInfo* method);
+System_Linq_Expressions_BlockExpression_o* System_Linq_Expressions_Block2__Rewrite (System_Linq_Expressions_Block2_o* __this, System_Collections_ObjectModel_ReadOnlyCollection_ParameterExpression__o* variables, System_Linq_Expressions_Expression_array* args, const MethodInfo* method);

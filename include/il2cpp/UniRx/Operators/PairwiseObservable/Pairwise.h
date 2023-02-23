@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_PairwiseObservable_Pairwise_object__object____ctor (UniRx_Operators_PairwiseObservable_Pairwise_T__TR__o* __this, UniRx_Operators_PairwiseObservable_T__TR__o* parent, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_2A4DB20* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_object__object___OnNext (UniRx_Operators_PairwiseObservable_Pairwise_T__TR__o* __this, Il2CppObject* value, const MethodInfo_2A4DB80* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_object__object___OnError (UniRx_Operators_PairwiseObservable_Pairwise_T__TR__o* __this, System_Exception_o* error, const MethodInfo_2A4DE20* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_object__object___OnCompleted (UniRx_Operators_PairwiseObservable_Pairwise_T__TR__o* __this, const MethodInfo_2A4DF60* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_int____ctor (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, System_IObserver_Pair_T___o* observer, System_IDisposable_o* cancel, const MethodInfo_2A4D410* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_object____ctor (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, System_IObserver_Pair_T___o* observer, System_IDisposable_o* cancel, const MethodInfo_2A4D770* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_int___OnNext (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, int32_t value, const MethodInfo_2A4D430* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_object___OnNext (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, Il2CppObject* value, const MethodInfo_2A4D790* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_int___OnError (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, System_Exception_o* error, const MethodInfo_2A4D500* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_object___OnError (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, System_Exception_o* error, const MethodInfo_2A4D8B0* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_int___OnCompleted (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, const MethodInfo_2A4D640* method);
+void UniRx_Operators_PairwiseObservable_Pairwise_object___OnCompleted (UniRx_Operators_PairwiseObservable_Pairwise_T__o* __this, const MethodInfo_2A4D9F0* method);

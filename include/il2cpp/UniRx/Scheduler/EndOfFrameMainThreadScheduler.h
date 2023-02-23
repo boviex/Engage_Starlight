@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Scheduler_EndOfFrameMainThreadScheduler___ctor (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__ImmediateAction_object_ (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, Il2CppObject* state, System_Action_T__o* action, UniRx_ICancelable_o* cancellation, const MethodInfo_3887B20* method);
+System_Collections_IEnumerator_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__ImmediateAction_Unit_ (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, UniRx_Unit_o state, System_Action_T__o* action, UniRx_ICancelable_o* cancellation, const MethodInfo_3887BD0* method);
+System_Collections_IEnumerator_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__DelayAction (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, System_TimeSpan_o dueTime, System_Action_o* action, UniRx_ICancelable_o* cancellation, const MethodInfo* method);
+System_Collections_IEnumerator_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__PeriodicAction (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, System_TimeSpan_o period, System_Action_o* action, UniRx_ICancelable_o* cancellation, const MethodInfo* method);
+System_DateTimeOffset_o UniRx_Scheduler_EndOfFrameMainThreadScheduler__get_Now (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, const MethodInfo* method);
+System_IDisposable_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__Schedule (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, System_Action_o* action, const MethodInfo* method);
+System_IDisposable_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__Schedule (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, System_DateTimeOffset_o dueTime, System_Action_o* action, const MethodInfo* method);
+System_IDisposable_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__Schedule (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, System_TimeSpan_o dueTime, System_Action_o* action, const MethodInfo* method);
+System_IDisposable_o* UniRx_Scheduler_EndOfFrameMainThreadScheduler__SchedulePeriodic (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, System_TimeSpan_o period, System_Action_o* action, const MethodInfo* method);
+void UniRx_Scheduler_EndOfFrameMainThreadScheduler__ScheduleQueueing_object_ (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, UniRx_ICancelable_o* cancel, Il2CppObject* state, System_Action_T__o* action, const MethodInfo_3887C70* method);
+void UniRx_Scheduler_EndOfFrameMainThreadScheduler__ScheduleQueueing_Unit_ (UniRx_Scheduler_EndOfFrameMainThreadScheduler_o* __this, UniRx_ICancelable_o* cancel, UniRx_Unit_o state, System_Action_T__o* action, const MethodInfo_3887D20* method);

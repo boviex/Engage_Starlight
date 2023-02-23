@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MS_Internal_Xml_Cache_XPathDocumentNavigator___ctor (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, MS_Internal_Xml_Cache_XPathNode_array* pageCurrent, int32_t idxCurrent, MS_Internal_Xml_Cache_XPathNode_array* pageParent, int32_t idxParent, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathDocumentNavigator__get_Value (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+System_Xml_XPath_XPathNavigator_o* MS_Internal_Xml_Cache_XPathDocumentNavigator__Clone (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathDocumentNavigator__get_NodeType (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathDocumentNavigator__get_LocalName (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathDocumentNavigator__get_NamespaceURI (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathDocumentNavigator__get_Prefix (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+System_Xml_XmlNameTable_o* MS_Internal_Xml_Cache_XPathDocumentNavigator__get_NameTable (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathDocumentNavigator__MoveToFirstNamespace (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, int32_t namespaceScope, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathDocumentNavigator__MoveToNextNamespace (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, int32_t scope, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathDocumentNavigator__MoveToParent (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathDocumentNavigator__IsSamePosition (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, System_Xml_XPath_XPathNavigator_o* other, const MethodInfo* method);
+Il2CppObject* MS_Internal_Xml_Cache_XPathDocumentNavigator__get_UnderlyingObject (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathDocumentNavigator__get_LineNumber (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathDocumentNavigator__get_LinePosition (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathDocumentNavigator__GetPositionHashCode (MS_Internal_Xml_Cache_XPathDocumentNavigator_o* __this, const MethodInfo* method);

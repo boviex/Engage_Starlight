@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Unity_X509ChainImplUnityTls___ctor (Mono_Unity_X509ChainImplUnityTls_o* __this, Mono_Unity_UnityTls_unitytls_x509list_ref_o nativeCertificateChain, const MethodInfo* method);
+bool Mono_Unity_X509ChainImplUnityTls__get_IsValid (Mono_Unity_X509ChainImplUnityTls_o* __this, const MethodInfo* method);
+Mono_Unity_UnityTls_unitytls_x509list_ref_o Mono_Unity_X509ChainImplUnityTls__get_NativeCertificateChain (Mono_Unity_X509ChainImplUnityTls_o* __this, const MethodInfo* method);
+System_Security_Cryptography_X509Certificates_X509ChainElementCollection_o* Mono_Unity_X509ChainImplUnityTls__get_ChainElements (Mono_Unity_X509ChainImplUnityTls_o* __this, const MethodInfo* method);
+void Mono_Unity_X509ChainImplUnityTls__set_ChainPolicy (Mono_Unity_X509ChainImplUnityTls_o* __this, System_Security_Cryptography_X509Certificates_X509ChainPolicy_o* value, const MethodInfo* method);
+void Mono_Unity_X509ChainImplUnityTls__AddStatus (Mono_Unity_X509ChainImplUnityTls_o* __this, int32_t errorCode, const MethodInfo* method);
+void Mono_Unity_X509ChainImplUnityTls__Reset (Mono_Unity_X509ChainImplUnityTls_o* __this, const MethodInfo* method);
+void Mono_Unity_X509ChainImplUnityTls__Dispose (Mono_Unity_X509ChainImplUnityTls_o* __this, bool disposing, const MethodInfo* method);

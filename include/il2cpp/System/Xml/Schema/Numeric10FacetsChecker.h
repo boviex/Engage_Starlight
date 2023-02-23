@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_Numeric10FacetsChecker___ctor (System_Xml_Schema_Numeric10FacetsChecker_o* __this, System_Decimal_o minVal, System_Decimal_o maxVal, const MethodInfo* method);
+System_Exception_o* System_Xml_Schema_Numeric10FacetsChecker__CheckValueFacets (System_Xml_Schema_Numeric10FacetsChecker_o* __this, Il2CppObject* value, System_Xml_Schema_XmlSchemaDatatype_o* datatype, const MethodInfo* method);
+System_Exception_o* System_Xml_Schema_Numeric10FacetsChecker__CheckValueFacets (System_Xml_Schema_Numeric10FacetsChecker_o* __this, System_Decimal_o value, System_Xml_Schema_XmlSchemaDatatype_o* datatype, const MethodInfo* method);
+System_Exception_o* System_Xml_Schema_Numeric10FacetsChecker__CheckValueFacets (System_Xml_Schema_Numeric10FacetsChecker_o* __this, int64_t value, System_Xml_Schema_XmlSchemaDatatype_o* datatype, const MethodInfo* method);
+System_Exception_o* System_Xml_Schema_Numeric10FacetsChecker__CheckValueFacets (System_Xml_Schema_Numeric10FacetsChecker_o* __this, int32_t value, System_Xml_Schema_XmlSchemaDatatype_o* datatype, const MethodInfo* method);
+System_Exception_o* System_Xml_Schema_Numeric10FacetsChecker__CheckValueFacets (System_Xml_Schema_Numeric10FacetsChecker_o* __this, int16_t value, System_Xml_Schema_XmlSchemaDatatype_o* datatype, const MethodInfo* method);
+bool System_Xml_Schema_Numeric10FacetsChecker__MatchEnumeration (System_Xml_Schema_Numeric10FacetsChecker_o* __this, Il2CppObject* value, System_Collections_ArrayList_o* enumeration, System_Xml_Schema_XmlSchemaDatatype_o* datatype, const MethodInfo* method);
+bool System_Xml_Schema_Numeric10FacetsChecker__MatchEnumeration (System_Xml_Schema_Numeric10FacetsChecker_o* __this, System_Decimal_o value, System_Collections_ArrayList_o* enumeration, System_Xml_Schema_XmlValueConverter_o* valueConverter, const MethodInfo* method);
+System_Exception_o* System_Xml_Schema_Numeric10FacetsChecker__CheckTotalAndFractionDigits (System_Xml_Schema_Numeric10FacetsChecker_o* __this, System_Decimal_o value, int32_t totalDigits, int32_t fractionDigits, bool checkTotal, bool checkFraction, const MethodInfo* method);
+void System_Xml_Schema_Numeric10FacetsChecker___cctor (const MethodInfo* method);

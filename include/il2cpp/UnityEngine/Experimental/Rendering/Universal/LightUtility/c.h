@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_LightUtility___c___cctor (const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_LightUtility___c___ctor (UnityEngine_Experimental_Rendering_Universal_LightUtility___c_o* __this, const MethodInfo* method);
+int32_t UnityEngine_Experimental_Rendering_Universal_LightUtility___c___GenerateShapeMesh_b__8_0 (UnityEngine_Experimental_Rendering_Universal_LightUtility___c_o* __this, int32_t i, const MethodInfo* method);
+Unity_Mathematics_float3_o UnityEngine_Experimental_Rendering_Universal_LightUtility___c___GenerateShapeMesh_b__8_1 (UnityEngine_Experimental_Rendering_Universal_LightUtility___c_o* __this, UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_ContourVertex_o v, const MethodInfo* method);

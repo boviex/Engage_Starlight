@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_SpringColliderSerialization_ParsedColliderSetup___c___cctor (const MethodInfo* method);
+void UTJ_SpringColliderSerialization_ParsedColliderSetup___c___ctor (UTJ_SpringColliderSerialization_ParsedColliderSetup___c_o* __this, const MethodInfo* method);
+System_String_o* UTJ_SpringColliderSerialization_ParsedColliderSetup___c___ReadColliderSetupFromText_b__4_0 (UTJ_SpringColliderSerialization_ParsedColliderSetup___c_o* __this, UnityEngine_Transform_o* item, const MethodInfo* method);
+System_String_o* UTJ_SpringColliderSerialization_ParsedColliderSetup___c___ReadColliderSetupFromText_b__4_1 (UTJ_SpringColliderSerialization_ParsedColliderSetup___c_o* __this, UTJ_SpringColliderSerialization_TransformSerializer_o* item, const MethodInfo* method);
+System_String_o* UTJ_SpringColliderSerialization_ParsedColliderSetup___c___GetColliderNames_b__6_0 (UTJ_SpringColliderSerialization_ParsedColliderSetup___c_o* __this, UTJ_SpringColliderSerialization_IColliderSerializer_o* item, const MethodInfo* method);

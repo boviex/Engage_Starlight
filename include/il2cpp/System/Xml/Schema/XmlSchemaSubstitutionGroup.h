@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_ArrayList_o* System_Xml_Schema_XmlSchemaSubstitutionGroup__get_Members (System_Xml_Schema_XmlSchemaSubstitutionGroup_o* __this, const MethodInfo* method);
+System_Xml_XmlQualifiedName_o* System_Xml_Schema_XmlSchemaSubstitutionGroup__get_Examplar (System_Xml_Schema_XmlSchemaSubstitutionGroup_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSubstitutionGroup__set_Examplar (System_Xml_Schema_XmlSchemaSubstitutionGroup_o* __this, System_Xml_XmlQualifiedName_o* value, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSubstitutionGroup___ctor (System_Xml_Schema_XmlSchemaSubstitutionGroup_o* __this, const MethodInfo* method);

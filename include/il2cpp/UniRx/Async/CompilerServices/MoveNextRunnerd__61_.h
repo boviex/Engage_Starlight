@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_CompilerServices_MoveNextRunner_UniTask__WhenAny_d__61_object__object__object__object__object__object____Run (UniRx_Async_CompilerServices_MoveNextRunner_TStateMachine__o* __this, const MethodInfo_296FE50* method);
+void UniRx_Async_CompilerServices_MoveNextRunner_UniTask__WhenAny_d__61_object__object__object__object__object__object_____ctor (UniRx_Async_CompilerServices_MoveNextRunner_TStateMachine__o* __this, const MethodInfo_296FF60* method);

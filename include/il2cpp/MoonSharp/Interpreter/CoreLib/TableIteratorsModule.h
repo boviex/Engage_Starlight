@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_TableIteratorsModule__ipairs (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_TableIteratorsModule__pairs (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_TableIteratorsModule__next (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_TableIteratorsModule____next_i (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_TableIteratorsModule___ctor (MoonSharp_Interpreter_CoreLib_TableIteratorsModule_o* __this, const MethodInfo* method);

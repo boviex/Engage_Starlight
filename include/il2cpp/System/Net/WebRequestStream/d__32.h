@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Net_WebRequestStream__ProcessWrite_d__32__MoveNext (System_Net_WebRequestStream__ProcessWrite_d__32_o __this, const MethodInfo* method);
+void System_Net_WebRequestStream__ProcessWrite_d__32__SetStateMachine (System_Net_WebRequestStream__ProcessWrite_d__32_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

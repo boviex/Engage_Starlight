@@ -1,0 +1,57 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_AccessoryData__Load (const MethodInfo* method);
+System_String_o* App_AccessoryData__get_Aid (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Aid (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_Name (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Name (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_Help (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Help (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_NameM (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_NameM (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_HelpM (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_HelpM (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_NameF (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_NameF (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_HelpF (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_HelpF (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+bool App_AccessoryData__get_First (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_First (App_AccessoryData_o* __this, bool value, const MethodInfo* method);
+bool App_AccessoryData__get_Amiibo (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Amiibo (App_AccessoryData_o* __this, bool value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_CondtionCid (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_CondtionCid (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+int32_t App_AccessoryData__get_CondtionGender (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_CondtionGender (App_AccessoryData_o* __this, int32_t value, const MethodInfo* method);
+System_String_array* App_AccessoryData__get_CondtionSkills (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_CondtionSkills (App_AccessoryData_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_Gid (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Gid (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_AccessoryData__get_Asset (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Asset (App_AccessoryData_o* __this, System_String_o* value, const MethodInfo* method);
+int32_t App_AccessoryData__get_Price (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Price (App_AccessoryData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_AccessoryData__get_Iron (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Iron (App_AccessoryData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_AccessoryData__get_Steel (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Steel (App_AccessoryData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_AccessoryData__get_Silver (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Silver (App_AccessoryData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_AccessoryData__get_Mask (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Mask (App_AccessoryData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_AccessoryData__get_Kind (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_Kind (App_AccessoryData_o* __this, int32_t value, const MethodInfo* method);
+App_GodData_o* App_AccessoryData__get_GodData (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__set_GodData (App_AccessoryData_o* __this, App_GodData_o* value, const MethodInfo* method);
+void App_AccessoryData__OnBuild (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__OnCompleted (App_AccessoryData_o* __this, const MethodInfo* method);
+System_String_o* App_AccessoryData__GetDebugName (App_AccessoryData_o* __this, const MethodInfo* method);
+void App_AccessoryData__RegistGlobalFlags (const MethodInfo* method);
+int32_t App_AccessoryData__GetNum (App_AccessoryData_o* data, const MethodInfo* method);
+void App_AccessoryData__SetNum (App_AccessoryData_o* data, int32_t num, const MethodInfo* method);
+bool App_AccessoryData__CanEquip (App_AccessoryData_o* __this, App_Unit_o* unit, const MethodInfo* method);
+bool App_AccessoryData__IsAmiiboOpen (App_AccessoryData_o* __this, const MethodInfo* method);
+App_AccessoryData_o* App_AccessoryData__TryGetFromGodData (App_GodData_o* godData, const MethodInfo* method);
+void App_AccessoryData___ctor (App_AccessoryData_o* __this, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t Mono_Math_Prime_Generator_PrimeGeneratorBase__get_Confidence (Mono_Math_Prime_Generator_PrimeGeneratorBase_o* __this, const MethodInfo* method);
+Mono_Math_Prime_PrimalityTest_o* Mono_Math_Prime_Generator_PrimeGeneratorBase__get_PrimalityTest (Mono_Math_Prime_Generator_PrimeGeneratorBase_o* __this, const MethodInfo* method);
+int32_t Mono_Math_Prime_Generator_PrimeGeneratorBase__get_TrialDivisionBounds (Mono_Math_Prime_Generator_PrimeGeneratorBase_o* __this, const MethodInfo* method);
+void Mono_Math_Prime_Generator_PrimeGeneratorBase___ctor (Mono_Math_Prime_Generator_PrimeGeneratorBase_o* __this, const MethodInfo* method);
+int32_t Mono_Math_Prime_Generator_PrimeGeneratorBase__get_Confidence (Mono_Math_Prime_Generator_PrimeGeneratorBase_1_o* __this, const MethodInfo* method);
+Mono_Math_Prime_PrimalityTest_1_o* Mono_Math_Prime_Generator_PrimeGeneratorBase__get_PrimalityTest (Mono_Math_Prime_Generator_PrimeGeneratorBase_1_o* __this, const MethodInfo* method);
+int32_t Mono_Math_Prime_Generator_PrimeGeneratorBase__get_TrialDivisionBounds (Mono_Math_Prime_Generator_PrimeGeneratorBase_1_o* __this, const MethodInfo* method);
+void Mono_Math_Prime_Generator_PrimeGeneratorBase___ctor (Mono_Math_Prime_Generator_PrimeGeneratorBase_1_o* __this, const MethodInfo* method);

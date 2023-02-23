@@ -1,0 +1,49 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusSequenceNet__InitImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__FinalImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+bool App_VersusSequence_VersusSequenceNet__IsFailedJumpToTopImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+bool App_VersusSequence_VersusSequenceNet__IsReportedEditMapImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__UploadReportDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__CreateBindUploadEditData (App_ProcInst_o* super, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__CreateBindUploadCasualData (App_ProcInst_o* super, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__GetMyCasualMetaDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__PostGetMyCasualMetaDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__GetEditMetaDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__PostGetEditMetaDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__UpdateRateImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__SetRankedInfoImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__UploadEditDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__PostUploadEditDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__UploadReplayImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__UploadCasualImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__ChangeCasualImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__SearchSameRateImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__SearchRankedFriendImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__ExcludeMySearchRankedData (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__SearchCasualImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__SearchCasualFriendImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__ExcludeMySearchCasualData (App_VersusSequence_VersusSequenceNet_o* __this, System_Collections_Generic_List_VersusServerCasualMetaData__o* dataList, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__DownloadImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__DownloadMyEditImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__DownloadMetaCasualFromDataCodeImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__DownloadMetaRankedFromDataCodeImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__CheckAccessibleProfileImpl (App_VersusSequence_VersusSequenceNet_o* __this, int32_t mode, App_NexVersus_TargetSlotList_o* targetSlotList, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__DownloadMetaProfileImpl (App_VersusSequence_VersusSequenceNet_o* __this, int32_t mode, App_ProfileCard_o* profile, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__DownloadCasualImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__SelectReplayImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__DownloadReplayImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__ChangeReplayMetaImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+bool App_VersusSequence_VersusSequenceNet__GetLastUploadedResultImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+App_VersusServerRankedMetaData_o* App_VersusSequence_VersusSequenceNet__GetDownloadedEditMetaDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__ChangeRankedMetaDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, App_VersusServerRankedMetaData_o* metaData, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__ChangeDataTypeImpl (App_VersusSequence_VersusSequenceNet_o* __this, uint64_t dataId, uint16_t dataType, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__InitEditDataImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__CheckParentalControlImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+bool App_VersusSequence_VersusSequenceNet__IsParentalControlAvailableImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet__EndParentalControlImpl (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet___ctor (App_VersusSequence_VersusSequenceNet_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet___SelectReplayImpl_b__32_0 (App_VersusSequence_VersusSequenceNet_o* __this, int32_t result, App_VersusServerReplayMetaData_o* metaData, const MethodInfo* method);

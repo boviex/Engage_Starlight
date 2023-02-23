@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ParticleSystem_ShapeModule___ctor (UnityEngine_ParticleSystem_ShapeModule_o __this, UnityEngine_ParticleSystem_o* particleSystem, const MethodInfo* method);
+void UnityEngine_ParticleSystem_ShapeModule__set_enabled (UnityEngine_ParticleSystem_ShapeModule_o __this, bool value, const MethodInfo* method);
+void UnityEngine_ParticleSystem_ShapeModule__set_shapeType (UnityEngine_ParticleSystem_ShapeModule_o __this, int32_t value, const MethodInfo* method);
+UnityEngine_SkinnedMeshRenderer_o* UnityEngine_ParticleSystem_ShapeModule__get_skinnedMeshRenderer (UnityEngine_ParticleSystem_ShapeModule_o __this, const MethodInfo* method);
+void UnityEngine_ParticleSystem_ShapeModule__set_skinnedMeshRenderer (UnityEngine_ParticleSystem_ShapeModule_o __this, UnityEngine_SkinnedMeshRenderer_o* value, const MethodInfo* method);
+void UnityEngine_ParticleSystem_ShapeModule__set_enabled_Injected (UnityEngine_ParticleSystem_ShapeModule_o* _unity_self, bool value, const MethodInfo* method);
+void UnityEngine_ParticleSystem_ShapeModule__set_shapeType_Injected (UnityEngine_ParticleSystem_ShapeModule_o* _unity_self, int32_t value, const MethodInfo* method);
+UnityEngine_SkinnedMeshRenderer_o* UnityEngine_ParticleSystem_ShapeModule__get_skinnedMeshRenderer_Injected (UnityEngine_ParticleSystem_ShapeModule_o* _unity_self, const MethodInfo* method);
+void UnityEngine_ParticleSystem_ShapeModule__set_skinnedMeshRenderer_Injected (UnityEngine_ParticleSystem_ShapeModule_o* _unity_self, UnityEngine_SkinnedMeshRenderer_o* value, const MethodInfo* method);

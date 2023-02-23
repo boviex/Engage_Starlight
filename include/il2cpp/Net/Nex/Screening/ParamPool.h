@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Net_Nex_Screening_ParamPool_object____ctor (Net_Nex_Screening_ParamPool_T__o* __this, int32_t max, const MethodInfo_2A4EC20* method);
+void Net_Nex_Screening_ParamPool_ScreeningDataStoreContentParam____ctor (Net_Nex_Screening_ParamPool_ScreeningDataStoreContentParam__o* __this, int32_t max, const MethodInfo_2A4EC20* method);
+void Net_Nex_Screening_ParamPool_ScreeningUgcViolationParam____ctor (Net_Nex_Screening_ParamPool_ScreeningUgcViolationParam__o* __this, int32_t max, const MethodInfo_2A4EC20* method);
+void Net_Nex_Screening_ParamPool_object___Clear (Net_Nex_Screening_ParamPool_T__o* __this, const MethodInfo_2A4ECA0* method);
+Il2CppObject* Net_Nex_Screening_ParamPool_object___Get (Net_Nex_Screening_ParamPool_T__o* __this, const MethodInfo_2A4ED50* method);
+NexPlugin_ScreeningDataStoreContentParam_o* Net_Nex_Screening_ParamPool_ScreeningDataStoreContentParam___Get (Net_Nex_Screening_ParamPool_ScreeningDataStoreContentParam__o* __this, const MethodInfo_2A4ED50* method);
+NexPlugin_ScreeningUgcViolationParam_o* Net_Nex_Screening_ParamPool_ScreeningUgcViolationParam___Get (Net_Nex_Screening_ParamPool_ScreeningUgcViolationParam__o* __this, const MethodInfo_2A4ED50* method);
+void Net_Nex_Screening_ParamPool_object___Mark (Net_Nex_Screening_ParamPool_T__o* __this, Il2CppObject* param, const MethodInfo_2A4EF30* method);
+void Net_Nex_Screening_ParamPool_object___Unmark (Net_Nex_Screening_ParamPool_T__o* __this, Il2CppObject* param, const MethodInfo_2A4EF80* method);
+void Net_Nex_Screening_ParamPool_ScreeningDataStoreContentParam___Unmark (Net_Nex_Screening_ParamPool_ScreeningDataStoreContentParam__o* __this, NexPlugin_ScreeningDataStoreContentParam_o* param, const MethodInfo_2A4EF80* method);
+void Net_Nex_Screening_ParamPool_ScreeningUgcViolationParam___Unmark (Net_Nex_Screening_ParamPool_ScreeningUgcViolationParam__o* __this, NexPlugin_ScreeningUgcViolationParam_o* param, const MethodInfo_2A4EF80* method);
+void Net_Nex_Screening_ParamPool_object___Unmark (Net_Nex_Screening_ParamPool_T__o* __this, System_Collections_Generic_List_T__o* paramList, const MethodInfo_2A4EFD0* method);

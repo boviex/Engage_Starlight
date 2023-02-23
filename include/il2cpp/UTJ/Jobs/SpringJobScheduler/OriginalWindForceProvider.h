@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_Jobs_SpringJobScheduler_OriginalWindForceProvider__Update (UTJ_Jobs_SpringJobScheduler_OriginalWindForceProvider_o* __this, const MethodInfo* method);
+UTJ_Jobs_SpringForceComponent_o UTJ_Jobs_SpringJobScheduler_OriginalWindForceProvider__GetActiveForce (UTJ_Jobs_SpringJobScheduler_OriginalWindForceProvider_o* __this, const MethodInfo* method);
+void UTJ_Jobs_SpringJobScheduler_OriginalWindForceProvider___ctor (UTJ_Jobs_SpringJobScheduler_OriginalWindForceProvider_o* __this, const MethodInfo* method);

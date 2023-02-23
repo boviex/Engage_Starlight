@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TakeWhileObservable_TakeWhile_long____ctor (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, UniRx_Operators_TakeWhileObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D3DD0* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile_object____ctor (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, UniRx_Operators_TakeWhileObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D4480* method);
+System_IDisposable_o* UniRx_Operators_TakeWhileObservable_TakeWhile_long___Run (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, const MethodInfo_34D3E20* method);
+System_IDisposable_o* UniRx_Operators_TakeWhileObservable_TakeWhile_object___Run (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, const MethodInfo_34D44D0* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile_long___OnNext (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, int64_t value, const MethodInfo_34D3EC0* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile_object___OnNext (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, Il2CppObject* value, const MethodInfo_34D4570* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile_long___OnError (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, System_Exception_o* error, const MethodInfo_34D4210* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile_object___OnError (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, System_Exception_o* error, const MethodInfo_34D48C0* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile_long___OnCompleted (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, const MethodInfo_34D4350* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile_object___OnCompleted (UniRx_Operators_TakeWhileObservable_TakeWhile_T__o* __this, const MethodInfo_34D4A00* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_Custom_CustomEnvSet__OnEnable (UnityEngine_Rendering_Universal_Custom_CustomEnvSet_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_CustomEnvSet__OnDisable (UnityEngine_Rendering_Universal_Custom_CustomEnvSet_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_CustomEnvSet___ctor (UnityEngine_Rendering_Universal_Custom_CustomEnvSet_o* __this, const MethodInfo* method);

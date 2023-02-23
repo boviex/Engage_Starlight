@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ScanObservable_object____ctor (UniRx_Operators_ScanObservable_TSource__o* __this, System_IObservable_TSource__o* source, System_Func_TSource__TSource__TSource__o* accumulator, const MethodInfo_3014F40* method);
+System_IDisposable_o* UniRx_Operators_ScanObservable_object___SubscribeCore (UniRx_Operators_ScanObservable_TSource__o* __this, System_IObserver_TSource__o* observer, System_IDisposable_o* cancel, const MethodInfo_3014FC0* method);
+void UniRx_Operators_ScanObservable_object__object____ctor (UniRx_Operators_ScanObservable_TSource__TAccumulate__o* __this, System_IObservable_TSource__o* source, Il2CppObject* seed, System_Func_TAccumulate__TSource__TAccumulate__o* accumulator, const MethodInfo_30150C0* method);
+void UniRx_Operators_ScanObservable_Unit__long____ctor (UniRx_Operators_ScanObservable_TSource__TAccumulate__o* __this, System_IObservable_TSource__o* source, int64_t seed, System_Func_TAccumulate__TSource__TAccumulate__o* accumulator, const MethodInfo_3015260* method);
+System_IDisposable_o* UniRx_Operators_ScanObservable_object__object___SubscribeCore (UniRx_Operators_ScanObservable_TSource__TAccumulate__o* __this, System_IObserver_TAccumulate__o* observer, System_IDisposable_o* cancel, const MethodInfo_3015160* method);
+System_IDisposable_o* UniRx_Operators_ScanObservable_Unit__long___SubscribeCore (UniRx_Operators_ScanObservable_TSource__TAccumulate__o* __this, System_IObserver_TAccumulate__o* observer, System_IDisposable_o* cancel, const MethodInfo_30152F0* method);

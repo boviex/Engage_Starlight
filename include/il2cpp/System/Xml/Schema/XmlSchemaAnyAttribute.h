@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaAnyAttribute__set_Namespace (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, System_String_o* value, const MethodInfo* method);
+int32_t System_Xml_Schema_XmlSchemaAnyAttribute__get_ProcessContents (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaAnyAttribute__set_ProcessContents (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, int32_t value, const MethodInfo* method);
+System_Xml_Schema_NamespaceList_o* System_Xml_Schema_XmlSchemaAnyAttribute__get_NamespaceList (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_XmlSchemaAnyAttribute__get_ProcessContentsCorrect (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaAnyAttribute__BuildNamespaceList (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, System_String_o* targetNamespace, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaAnyAttribute__BuildNamespaceListV1Compat (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, System_String_o* targetNamespace, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaAnyAttribute__Allows (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, System_Xml_XmlQualifiedName_o* qname, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaAnyAttribute__IsSubset (System_Xml_Schema_XmlSchemaAnyAttribute_o* sub, System_Xml_Schema_XmlSchemaAnyAttribute_o* super, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaAnyAttribute_o* System_Xml_Schema_XmlSchemaAnyAttribute__Intersection (System_Xml_Schema_XmlSchemaAnyAttribute_o* o1, System_Xml_Schema_XmlSchemaAnyAttribute_o* o2, bool v1Compat, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaAnyAttribute_o* System_Xml_Schema_XmlSchemaAnyAttribute__Union (System_Xml_Schema_XmlSchemaAnyAttribute_o* o1, System_Xml_Schema_XmlSchemaAnyAttribute_o* o2, bool v1Compat, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaAnyAttribute___ctor (System_Xml_Schema_XmlSchemaAnyAttribute_o* __this, const MethodInfo* method);

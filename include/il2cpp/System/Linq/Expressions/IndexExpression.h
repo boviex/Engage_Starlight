@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_IndexExpression___ctor (System_Linq_Expressions_IndexExpression_o* __this, System_Linq_Expressions_Expression_o* instance, System_Reflection_PropertyInfo_o* indexer, System_Collections_Generic_IReadOnlyList_Expression__o* arguments, const MethodInfo* method);
+int32_t System_Linq_Expressions_IndexExpression__get_NodeType (System_Linq_Expressions_IndexExpression_o* __this, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_IndexExpression__get_Type (System_Linq_Expressions_IndexExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_IndexExpression__get_Object (System_Linq_Expressions_IndexExpression_o* __this, const MethodInfo* method);
+System_Reflection_PropertyInfo_o* System_Linq_Expressions_IndexExpression__get_Indexer (System_Linq_Expressions_IndexExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_IndexExpression__GetArgument (System_Linq_Expressions_IndexExpression_o* __this, int32_t index, const MethodInfo* method);
+int32_t System_Linq_Expressions_IndexExpression__get_ArgumentCount (System_Linq_Expressions_IndexExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_IndexExpression__Accept (System_Linq_Expressions_IndexExpression_o* __this, System_Linq_Expressions_ExpressionVisitor_o* visitor, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_IndexExpression__Rewrite (System_Linq_Expressions_IndexExpression_o* __this, System_Linq_Expressions_Expression_o* instance, System_Linq_Expressions_Expression_array* arguments, const MethodInfo* method);

@@ -1,0 +1,25 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MoonSharp_Interpreter_Coroutine__get_Type (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Coroutine__set_Type (MoonSharp_Interpreter_Coroutine_o* __this, int32_t value, const MethodInfo* method);
+void MoonSharp_Interpreter_Coroutine___ctor (MoonSharp_Interpreter_Coroutine_o* __this, MoonSharp_Interpreter_CallbackFunction_o* function, const MethodInfo* method);
+void MoonSharp_Interpreter_Coroutine___ctor (MoonSharp_Interpreter_Coroutine_o* __this, MoonSharp_Interpreter_Execution_VM_Processor_o* proc, const MethodInfo* method);
+void MoonSharp_Interpreter_Coroutine__MarkClrCallbackAsDead (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_DynValue__o* MoonSharp_Interpreter_Coroutine__AsTypedEnumerable (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_object__o* MoonSharp_Interpreter_Coroutine__AsEnumerable (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_T__o* MoonSharp_Interpreter_Coroutine__AsEnumerable_object_ (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo_22C4000* method);
+System_Collections_IEnumerator_o* MoonSharp_Interpreter_Coroutine__AsUnityCoroutine (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Coroutine__Resume (MoonSharp_Interpreter_Coroutine_o* __this, MoonSharp_Interpreter_DynValue_array* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Coroutine__Resume (MoonSharp_Interpreter_Coroutine_o* __this, MoonSharp_Interpreter_ScriptExecutionContext_o* context, MoonSharp_Interpreter_DynValue_array* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Coroutine__Resume (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Coroutine__Resume (MoonSharp_Interpreter_Coroutine_o* __this, MoonSharp_Interpreter_ScriptExecutionContext_o* context, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Coroutine__Resume (MoonSharp_Interpreter_Coroutine_o* __this, System_Object_array* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Coroutine__Resume (MoonSharp_Interpreter_Coroutine_o* __this, MoonSharp_Interpreter_ScriptExecutionContext_o* context, System_Object_array* args, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Coroutine__get_State (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_Debugging_WatchItem_array* MoonSharp_Interpreter_Coroutine__GetStackTrace (MoonSharp_Interpreter_Coroutine_o* __this, int32_t skip, MoonSharp_Interpreter_Debugging_SourceRef_o* entrySourceRef, const MethodInfo* method);
+MoonSharp_Interpreter_Script_o* MoonSharp_Interpreter_Coroutine__get_OwnerScript (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Coroutine__set_OwnerScript (MoonSharp_Interpreter_Coroutine_o* __this, MoonSharp_Interpreter_Script_o* value, const MethodInfo* method);
+int64_t MoonSharp_Interpreter_Coroutine__get_AutoYieldCounter (MoonSharp_Interpreter_Coroutine_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Coroutine__set_AutoYieldCounter (MoonSharp_Interpreter_Coroutine_o* __this, int64_t value, const MethodInfo* method);

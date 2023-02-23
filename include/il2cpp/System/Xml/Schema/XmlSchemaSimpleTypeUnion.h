@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Xml_Schema_XmlSchemaObjectCollection_o* System_Xml_Schema_XmlSchemaSimpleTypeUnion__get_BaseTypes (System_Xml_Schema_XmlSchemaSimpleTypeUnion_o* __this, const MethodInfo* method);
+System_Xml_XmlQualifiedName_array* System_Xml_Schema_XmlSchemaSimpleTypeUnion__get_MemberTypes (System_Xml_Schema_XmlSchemaSimpleTypeUnion_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSimpleTypeUnion__set_MemberTypes (System_Xml_Schema_XmlSchemaSimpleTypeUnion_o* __this, System_Xml_XmlQualifiedName_array* value, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaSimpleType_array* System_Xml_Schema_XmlSchemaSimpleTypeUnion__get_BaseMemberTypes (System_Xml_Schema_XmlSchemaSimpleTypeUnion_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSimpleTypeUnion__SetBaseMemberTypes (System_Xml_Schema_XmlSchemaSimpleTypeUnion_o* __this, System_Xml_Schema_XmlSchemaSimpleType_array* baseMemberTypes, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaObject_o* System_Xml_Schema_XmlSchemaSimpleTypeUnion__Clone (System_Xml_Schema_XmlSchemaSimpleTypeUnion_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSimpleTypeUnion___ctor (System_Xml_Schema_XmlSchemaSimpleTypeUnion_o* __this, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableTrigger2DTrigger__OnTriggerEnter2D (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, UnityEngine_Collider2D_o* other, const MethodInfo* method);
+System_IObservable_Collider2D__o* UniRx_Triggers_ObservableTrigger2DTrigger__OnTriggerEnter2DAsObservable (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableTrigger2DTrigger__OnTriggerExit2D (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, UnityEngine_Collider2D_o* other, const MethodInfo* method);
+System_IObservable_Collider2D__o* UniRx_Triggers_ObservableTrigger2DTrigger__OnTriggerExit2DAsObservable (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableTrigger2DTrigger__OnTriggerStay2D (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, UnityEngine_Collider2D_o* other, const MethodInfo* method);
+System_IObservable_Collider2D__o* UniRx_Triggers_ObservableTrigger2DTrigger__OnTriggerStay2DAsObservable (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableTrigger2DTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableTrigger2DTrigger___ctor (UniRx_Triggers_ObservableTrigger2DTrigger_o* __this, const MethodInfo* method);

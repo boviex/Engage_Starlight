@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_List_T__o* App_SingletonMonoBehaviourList_object___get_Instance (const MethodInfo_344F330* method);
+System_Collections_Generic_List_T__o* App_SingletonMonoBehaviourList_UnitInfoCharaImageMaskOffset___get_Instance (const MethodInfo_344F330* method);
+void App_SingletonMonoBehaviourList_object___set_Instance (System_Collections_Generic_List_T__o* value, const MethodInfo_344F460* method);
+void App_SingletonMonoBehaviourList_object___Awake (App_SingletonMonoBehaviourList_T__o* __this, const MethodInfo_344F5A0* method);
+void App_SingletonMonoBehaviourList_UnitInfoCharaImageMaskOffset___Awake (App_SingletonMonoBehaviourList_UnitInfoCharaImageMaskOffset__o* __this, const MethodInfo_344F5A0* method);
+void App_SingletonMonoBehaviourList_object___OnDestroy (App_SingletonMonoBehaviourList_T__o* __this, const MethodInfo_344F6C0* method);
+void App_SingletonMonoBehaviourList_object____ctor (App_SingletonMonoBehaviourList_T__o* __this, const MethodInfo_344F7E0* method);
+void App_SingletonMonoBehaviourList_UnitInfoCharaImageMaskOffset____ctor (App_SingletonMonoBehaviourList_UnitInfoCharaImageMaskOffset__o* __this, const MethodInfo_344F7E0* method);
+void App_SingletonMonoBehaviourList_object____cctor (const MethodInfo_344F7F0* method);

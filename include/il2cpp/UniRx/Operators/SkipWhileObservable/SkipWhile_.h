@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_SkipWhileObservable_SkipWhile__object____ctor (UniRx_Operators_SkipWhileObservable_SkipWhile__T__o* __this, UniRx_Operators_SkipWhileObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_3458500* method);
+System_IDisposable_o* UniRx_Operators_SkipWhileObservable_SkipWhile__object___Run (UniRx_Operators_SkipWhileObservable_SkipWhile__T__o* __this, const MethodInfo_3458550* method);
+void UniRx_Operators_SkipWhileObservable_SkipWhile__object___OnNext (UniRx_Operators_SkipWhileObservable_SkipWhile__T__o* __this, Il2CppObject* value, const MethodInfo_34585F0* method);
+void UniRx_Operators_SkipWhileObservable_SkipWhile__object___OnError (UniRx_Operators_SkipWhileObservable_SkipWhile__T__o* __this, System_Exception_o* error, const MethodInfo_3458870* method);
+void UniRx_Operators_SkipWhileObservable_SkipWhile__object___OnCompleted (UniRx_Operators_SkipWhileObservable_SkipWhile__T__o* __this, const MethodInfo_34589B0* method);

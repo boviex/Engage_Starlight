@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_ScopeN___ctor (System_Linq_Expressions_ScopeN_o* __this, System_Collections_Generic_IReadOnlyList_ParameterExpression__o* variables, System_Collections_Generic_IReadOnlyList_Expression__o* body, const MethodInfo* method);
+System_Collections_Generic_IReadOnlyList_Expression__o* System_Linq_Expressions_ScopeN__get_Body (System_Linq_Expressions_ScopeN_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_ScopeN__GetExpression (System_Linq_Expressions_ScopeN_o* __this, int32_t index, const MethodInfo* method);
+int32_t System_Linq_Expressions_ScopeN__get_ExpressionCount (System_Linq_Expressions_ScopeN_o* __this, const MethodInfo* method);
+System_Collections_ObjectModel_ReadOnlyCollection_Expression__o* System_Linq_Expressions_ScopeN__GetOrMakeExpressions (System_Linq_Expressions_ScopeN_o* __this, const MethodInfo* method);
+System_Linq_Expressions_BlockExpression_o* System_Linq_Expressions_ScopeN__Rewrite (System_Linq_Expressions_ScopeN_o* __this, System_Collections_ObjectModel_ReadOnlyCollection_ParameterExpression__o* variables, System_Linq_Expressions_Expression_array* args, const MethodInfo* method);

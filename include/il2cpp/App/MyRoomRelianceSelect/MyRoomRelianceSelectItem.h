@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__get_IsTalk (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+void App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__set_IsTalk (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, bool value, const MethodInfo* method);
+bool App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__get_IsBlank (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+void App_MyRoomRelianceSelect_MyRoomRelianceSelectItem___ctor (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, App_Unit_o* unit, const MethodInfo* method);
+int32_t App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__GetSortOrder (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+int32_t App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__BuildAttribute (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+void App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__OnSelect (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+int32_t App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__ACall (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+int32_t App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__BCall (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+App_Unit_o* App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__GetUnit (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);
+void App_MyRoomRelianceSelect_MyRoomRelianceSelectItem__UpdateTalkState (App_MyRoomRelianceSelect_MyRoomRelianceSelectItem_o* __this, const MethodInfo* method);

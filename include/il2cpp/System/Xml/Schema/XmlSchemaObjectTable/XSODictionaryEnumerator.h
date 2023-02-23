@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator___ctor (System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator_o* __this, System_Collections_Generic_List_XmlSchemaObjectTable_XmlSchemaObjectEntry__o* entries, int32_t size, int32_t enumType, const MethodInfo* method);
+System_Collections_DictionaryEntry_o System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator__get_Entry (System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator_o* __this, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator__get_Key (System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator_o* __this, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator__get_Value (System_Xml_Schema_XmlSchemaObjectTable_XSODictionaryEnumerator_o* __this, const MethodInfo* method);

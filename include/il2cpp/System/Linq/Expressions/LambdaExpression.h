@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_LambdaExpression___ctor (System_Linq_Expressions_LambdaExpression_o* __this, System_Linq_Expressions_Expression_o* body, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_LambdaExpression__get_Type (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_LambdaExpression__get_NodeType (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_LambdaExpression__get_Name (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_LambdaExpression__get_NameCore (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_LambdaExpression__get_Body (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_LambdaExpression__get_ReturnType (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_LambdaExpression__get_TailCall (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_LambdaExpression__get_TailCallCore (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_ParameterExpression_o* System_Linq_Expressions_LambdaExpression__System_Linq_Expressions_IParameterProvider_GetParameter (System_Linq_Expressions_LambdaExpression_o* __this, int32_t index, const MethodInfo* method);
+System_Linq_Expressions_ParameterExpression_o* System_Linq_Expressions_LambdaExpression__GetParameter (System_Linq_Expressions_LambdaExpression_o* __this, int32_t index, const MethodInfo* method);
+int32_t System_Linq_Expressions_LambdaExpression__System_Linq_Expressions_IParameterProvider_get_ParameterCount (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_LambdaExpression__get_ParameterCount (System_Linq_Expressions_LambdaExpression_o* __this, const MethodInfo* method);

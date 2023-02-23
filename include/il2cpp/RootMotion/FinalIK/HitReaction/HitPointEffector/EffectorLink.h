@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLink__Apply (RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLink_o* __this, RootMotion_FinalIK_IKSolverFullBodyBiped_o* solver, UnityEngine_Vector3_o offset, float crossFader, const MethodInfo* method);
+void RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLink__CrossFadeStart (RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLink_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLink___ctor (RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLink_o* __this, const MethodInfo* method);

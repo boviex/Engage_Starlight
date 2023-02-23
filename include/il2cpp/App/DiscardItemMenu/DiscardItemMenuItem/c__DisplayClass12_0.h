@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_DiscardItemMenu_DiscardItemMenuItem___c__DisplayClass12_0___ctor (App_DiscardItemMenu_DiscardItemMenuItem___c__DisplayClass12_0_o* __this, const MethodInfo* method);
+void App_DiscardItemMenu_DiscardItemMenuItem___c__DisplayClass12_0___ACall_b__0 (App_DiscardItemMenu_DiscardItemMenuItem___c__DisplayClass12_0_o* __this, const MethodInfo* method);

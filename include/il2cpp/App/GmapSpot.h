@@ -1,0 +1,54 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_EncountMob_o* App_GmapSpot__get_SpotMob (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__set_SpotMob (App_GmapSpot_o* __this, App_EncountMob_o* value, const MethodInfo* method);
+bool App_GmapSpot__get_ReserveDispos (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__set_ReserveDispos (App_GmapSpot_o* __this, bool value, const MethodInfo* method);
+bool App_GmapSpot__get_ReserveDeleteMob (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__set_ReserveDeleteMob (App_GmapSpot_o* __this, bool value, const MethodInfo* method);
+void App_GmapSpot___ctor (App_GmapSpot_o* __this, App_ChapterData_o* chapter, const MethodInfo* method);
+int32_t App_GmapSpot__get_SpotState (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__set_SpotState (App_GmapSpot_o* __this, int32_t value, const MethodInfo* method);
+void App_GmapSpot__SetupSpotController (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__SetupMapObject (App_GmapSpot_o* __this, UnityEngine_GameObject_o* mapObject, const MethodInfo* method);
+bool App_GmapSpot__SetNextSpot (App_GmapSpot_o* __this, UnityEngine_Vector3_o nextSpotPos, System_String_o* nextSpotId, const MethodInfo* method);
+App_GmapSpot_o* App_GmapSpot__CheckNextSpot (App_GmapSpot_o* __this, int32_t dir, const MethodInfo* method);
+bool App_GmapSpot__ExistsEncountMob (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__ExistsTraining (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__AddChapter (App_GmapSpot_o* __this, App_ChapterData_o* chapter, const MethodInfo* method);
+System_String_o* App_GmapSpot__TryGetRootName (App_GmapSpot_o* __this, App_GmapSpot_o* nextSpot, const MethodInfo* method);
+bool App_GmapSpot__CheckChange (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__CheckAccess (App_GmapSpot_o* __this, UnityEngine_Vector3_o pos, const MethodInfo* method);
+UnityEngine_Vector3_o App_GmapSpot__get_Position (App_GmapSpot_o* __this, const MethodInfo* method);
+System_Collections_Generic_List_GmapSpot__o* App_GmapSpot__NextSpots (App_GmapSpot_o* __this, const MethodInfo* method);
+int32_t App_GmapSpot__GetDirectionToSpot (App_GmapSpot_o* __this, App_GmapSpot_o* spot, const MethodInfo* method);
+void App_GmapSpot__FixChange (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__SetEnable (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__StartAppear (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__FixChangeTick (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__UpdateVisible (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__SetMapObjectEnable (App_GmapSpot_o* __this, bool value, const MethodInfo* method);
+UnityEngine_GameObject_o* App_GmapSpot__get_SpotObject (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__set_SpotObject (App_GmapSpot_o* __this, UnityEngine_GameObject_o* value, const MethodInfo* method);
+App_ChapterData_o* App_GmapSpot__get_Chapter (App_GmapSpot_o* __this, const MethodInfo* method);
+System_String_o* App_GmapSpot__get_GmapSpotID (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__IsEqualCID (App_GmapSpot_o* __this, System_String_o* cid, const MethodInfo* method);
+bool App_GmapSpot__IsCompleted (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__IsCompletedOpenCondSpot (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__Dispos (App_GmapSpot_o* __this, const MethodInfo* method);
+bool App_GmapSpot__IsDispos (App_GmapSpot_o* __this, bool ignoreExistMob, const MethodInfo* method);
+bool App_GmapSpot__TransformDispos (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__DeleteDispos (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__UnloadMobUnit (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__DestroyIcon (App_GmapSpot_o* __this, const MethodInfo* method);
+void App_GmapSpot__CreateMobUnitFromSpotMob (App_GmapSpot_o* __this, const MethodInfo* method);
+System_String_o* App_GmapSpot__GetPlaceName (App_GmapSpot_o* __this, const MethodInfo* method);
+App_JobData_o* App_GmapSpot__GetJob (App_Random_o* random, int32_t level, System_String_o* ejid, const MethodInfo* method);
+App_JobData_o* App_GmapSpot__GetJob (App_Random_o* random, int32_t level, App_EncountJobData_o* encountJob, const MethodInfo* method);
+System_String_o* App_GmapSpot__GetPidPrefix (int32_t type, const MethodInfo* method);
+App_PersonData_o* App_GmapSpot__GetPerson (App_Random_o* random, App_JobData_o* job, System_String_o* pidPrefix, const MethodInfo* method);
+App_PersonData_o* App_GmapSpot__GetRarePerson (App_Random_o* random, App_JobData_o* job, int32_t rareType, const MethodInfo* method);
+App_PersonData_o* App_GmapSpot__GetPerson (App_Random_o* random, App_JobData_o* job, int32_t type, int32_t rareType, const MethodInfo* method);
+int32_t App_GmapSpot__GetGmapDirection (float degree, const MethodInfo* method);

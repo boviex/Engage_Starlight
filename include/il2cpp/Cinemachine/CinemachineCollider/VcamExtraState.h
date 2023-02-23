@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineCollider_VcamExtraState__AddPointToDebugPath (Cinemachine_CinemachineCollider_VcamExtraState_o* __this, UnityEngine_Vector3_o p, const MethodInfo* method);
+float Cinemachine_CinemachineCollider_VcamExtraState__ApplyDistanceSmoothing (Cinemachine_CinemachineCollider_VcamExtraState_o* __this, float distance, float smoothingTime, const MethodInfo* method);
+void Cinemachine_CinemachineCollider_VcamExtraState__UpdateDistanceSmoothing (Cinemachine_CinemachineCollider_VcamExtraState_o* __this, float distance, float smoothingTime, const MethodInfo* method);
+void Cinemachine_CinemachineCollider_VcamExtraState__ResetDistanceSmoothing (Cinemachine_CinemachineCollider_VcamExtraState_o* __this, float smoothingTime, const MethodInfo* method);
+void Cinemachine_CinemachineCollider_VcamExtraState___ctor (Cinemachine_CinemachineCollider_VcamExtraState_o* __this, const MethodInfo* method);

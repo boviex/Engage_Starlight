@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Runtime_CompilerServices_TrueReadOnlyCollection_Expression____ctor (System_Runtime_CompilerServices_TrueReadOnlyCollection_Expression__o* __this, System_Linq_Expressions_Expression_array* list, const MethodInfo_3587910* method);
+void System_Runtime_CompilerServices_TrueReadOnlyCollection_object____ctor (System_Runtime_CompilerServices_TrueReadOnlyCollection_T__o* __this, System_Object_array* list, const MethodInfo_3587910* method);
+void System_Runtime_CompilerServices_TrueReadOnlyCollection_ParameterExpression____ctor (System_Runtime_CompilerServices_TrueReadOnlyCollection_ParameterExpression__o* __this, System_Linq_Expressions_ParameterExpression_array* list, const MethodInfo_3587910* method);

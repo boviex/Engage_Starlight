@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_SampleFrameObservable_SampleFrame_object____ctor (UniRx_Operators_SampleFrameObservable_SampleFrame_T__o* __this, UniRx_Operators_SampleFrameObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_3012940* method);
+System_IDisposable_o* UniRx_Operators_SampleFrameObservable_SampleFrame_object___Run (UniRx_Operators_SampleFrameObservable_SampleFrame_T__o* __this, const MethodInfo_3012A00* method);
+void UniRx_Operators_SampleFrameObservable_SampleFrame_object___OnNextTick (UniRx_Operators_SampleFrameObservable_SampleFrame_T__o* __this, int64_t __, const MethodInfo_3012C20* method);
+void UniRx_Operators_SampleFrameObservable_SampleFrame_object___OnNext (UniRx_Operators_SampleFrameObservable_SampleFrame_T__o* __this, Il2CppObject* value, const MethodInfo_3012EF0* method);
+void UniRx_Operators_SampleFrameObservable_SampleFrame_object___OnError (UniRx_Operators_SampleFrameObservable_SampleFrame_T__o* __this, System_Exception_o* error, const MethodInfo_3012FD0* method);
+void UniRx_Operators_SampleFrameObservable_SampleFrame_object___OnCompleted (UniRx_Operators_SampleFrameObservable_SampleFrame_T__o* __this, const MethodInfo_30131B0* method);

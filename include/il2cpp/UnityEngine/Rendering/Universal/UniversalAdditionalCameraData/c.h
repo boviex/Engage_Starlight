@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_UniversalAdditionalCameraData___c___cctor (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_UniversalAdditionalCameraData___c___ctor (UnityEngine_Rendering_Universal_UniversalAdditionalCameraData___c_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_UniversalAdditionalCameraData___c___UpdateCameraStack_b__38_0 (UnityEngine_Rendering_Universal_UniversalAdditionalCameraData___c_o* __this, UnityEngine_Camera_o* cam, const MethodInfo* method);

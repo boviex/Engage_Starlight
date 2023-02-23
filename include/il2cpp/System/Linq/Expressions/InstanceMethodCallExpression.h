@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_InstanceMethodCallExpression___ctor (System_Linq_Expressions_InstanceMethodCallExpression_o* __this, System_Reflection_MethodInfo_o* method, System_Linq_Expressions_Expression_o* instance, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_InstanceMethodCallExpression__GetInstance (System_Linq_Expressions_InstanceMethodCallExpression_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TimeIntervalObservable_TimeInterval_object____ctor (UniRx_Operators_TimeIntervalObservable_TimeInterval_T__o* __this, UniRx_Operators_TimeIntervalObservable_T__o* parent, System_IObserver_TimeInterval_T___o* observer, System_IDisposable_o* cancel, const MethodInfo_39B1DB0* method);
+void UniRx_Operators_TimeIntervalObservable_TimeInterval_object___OnNext (UniRx_Operators_TimeIntervalObservable_TimeInterval_T__o* __this, Il2CppObject* value, const MethodInfo_39B1EB0* method);
+void UniRx_Operators_TimeIntervalObservable_TimeInterval_object___OnError (UniRx_Operators_TimeIntervalObservable_TimeInterval_T__o* __this, System_Exception_o* error, const MethodInfo_39B2040* method);
+void UniRx_Operators_TimeIntervalObservable_TimeInterval_object___OnCompleted (UniRx_Operators_TimeIntervalObservable_TimeInterval_T__o* __this, const MethodInfo_39B2180* method);

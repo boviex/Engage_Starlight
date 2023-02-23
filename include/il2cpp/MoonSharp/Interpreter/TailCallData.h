@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_TailCallData__get_Function (MoonSharp_Interpreter_TailCallData_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_TailCallData__set_Function (MoonSharp_Interpreter_TailCallData_o* __this, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_array* MoonSharp_Interpreter_TailCallData__get_Args (MoonSharp_Interpreter_TailCallData_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_TailCallData__set_Args (MoonSharp_Interpreter_TailCallData_o* __this, MoonSharp_Interpreter_DynValue_array* value, const MethodInfo* method);
+MoonSharp_Interpreter_CallbackFunction_o* MoonSharp_Interpreter_TailCallData__get_Continuation (MoonSharp_Interpreter_TailCallData_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_TailCallData__set_Continuation (MoonSharp_Interpreter_TailCallData_o* __this, MoonSharp_Interpreter_CallbackFunction_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_CallbackFunction_o* MoonSharp_Interpreter_TailCallData__get_ErrorHandler (MoonSharp_Interpreter_TailCallData_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_TailCallData__set_ErrorHandler (MoonSharp_Interpreter_TailCallData_o* __this, MoonSharp_Interpreter_CallbackFunction_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_TailCallData__get_ErrorHandlerBeforeUnwind (MoonSharp_Interpreter_TailCallData_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_TailCallData__set_ErrorHandlerBeforeUnwind (MoonSharp_Interpreter_TailCallData_o* __this, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_TailCallData___ctor (MoonSharp_Interpreter_TailCallData_o* __this, const MethodInfo* method);

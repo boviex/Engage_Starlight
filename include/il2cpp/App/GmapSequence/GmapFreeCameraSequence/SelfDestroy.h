@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GmapSequence_GmapFreeCameraSequence_SelfDestroy__Start (App_GmapSequence_GmapFreeCameraSequence_SelfDestroy_o* __this, const MethodInfo* method);
+void App_GmapSequence_GmapFreeCameraSequence_SelfDestroy__Update (App_GmapSequence_GmapFreeCameraSequence_SelfDestroy_o* __this, const MethodInfo* method);
+void App_GmapSequence_GmapFreeCameraSequence_SelfDestroy___ctor (App_GmapSequence_GmapFreeCameraSequence_SelfDestroy_o* __this, const MethodInfo* method);

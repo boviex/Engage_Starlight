@@ -1,0 +1,36 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_EventDemoSequence_CharacterWork__get_Pid (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_Pid (App_EventDemoSequence_CharacterWork_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* App_EventDemoSequence_CharacterWork__get_PidForCreate (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_PidForCreate (App_EventDemoSequence_CharacterWork_o* __this, System_String_o* value, const MethodInfo* method);
+Combat_Character_o* App_EventDemoSequence_CharacterWork__get_Character (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_Character (App_EventDemoSequence_CharacterWork_o* __this, Combat_Character_o* value, const MethodInfo* method);
+Combat_CharacterAppearance_o* App_EventDemoSequence_CharacterWork__get_Appearance (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_Appearance (App_EventDemoSequence_CharacterWork_o* __this, Combat_CharacterAppearance_o* value, const MethodInfo* method);
+UnityEngine_GameObject_o* App_EventDemoSequence_CharacterWork__get_PositionLocater (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_PositionLocater (App_EventDemoSequence_CharacterWork_o* __this, UnityEngine_GameObject_o* value, const MethodInfo* method);
+App_EventDemoSequence_RotateFader_o* App_EventDemoSequence_CharacterWork__get_RotateFader (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_RotateFader (App_EventDemoSequence_CharacterWork_o* __this, App_EventDemoSequence_RotateFader_o* value, const MethodInfo* method);
+float App_EventDemoSequence_CharacterWork__get_RotateYTo (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_RotateYTo (App_EventDemoSequence_CharacterWork_o* __this, float value, const MethodInfo* method);
+int32_t App_EventDemoSequence_CharacterWork__get_AnimStatehash (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_AnimStatehash (App_EventDemoSequence_CharacterWork_o* __this, int32_t value, const MethodInfo* method);
+Combat_CharacterAsset_o* App_EventDemoSequence_CharacterWork__get_EquipWeaponAsset (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_EquipWeaponAsset (App_EventDemoSequence_CharacterWork_o* __this, Combat_CharacterAsset_o* value, const MethodInfo* method);
+System_IDisposable_o* App_EventDemoSequence_CharacterWork__get_DoLaterPlayMotion (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_DoLaterPlayMotion (App_EventDemoSequence_CharacterWork_o* __this, System_IDisposable_o* value, const MethodInfo* method);
+System_IDisposable_o* App_EventDemoSequence_CharacterWork__get_DoLaterSetAngle (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_DoLaterSetAngle (App_EventDemoSequence_CharacterWork_o* __this, System_IDisposable_o* value, const MethodInfo* method);
+System_IDisposable_o* App_EventDemoSequence_CharacterWork__get_DoLaterSetRotate (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_DoLaterSetRotate (App_EventDemoSequence_CharacterWork_o* __this, System_IDisposable_o* value, const MethodInfo* method);
+App_ResourceHandle_o* App_EventDemoSequence_CharacterWork__get_AnimatorResourceHandle (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_AnimatorResourceHandle (App_EventDemoSequence_CharacterWork_o* __this, App_ResourceHandle_o* value, const MethodInfo* method);
+App_ResourceHandle_o* App_EventDemoSequence_CharacterWork__get_FishingRodResourceHandle (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_FishingRodResourceHandle (App_EventDemoSequence_CharacterWork_o* __this, App_ResourceHandle_o* value, const MethodInfo* method);
+UnityEngine_GameObject_o* App_EventDemoSequence_CharacterWork__get_FishingRodObject (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__set_FishingRodObject (App_EventDemoSequence_CharacterWork_o* __this, UnityEngine_GameObject_o* value, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork___ctor (App_EventDemoSequence_CharacterWork_o* __this, System_String_o* pid, System_String_o* pidForCreate, Combat_CharacterAppearance_o* appearance, const MethodInfo* method);
+void App_EventDemoSequence_CharacterWork__Tick (App_EventDemoSequence_CharacterWork_o* __this, const MethodInfo* method);

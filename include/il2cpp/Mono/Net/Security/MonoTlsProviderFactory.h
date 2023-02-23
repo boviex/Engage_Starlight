@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Mono_Security_Interface_MonoTlsProvider_o* Mono_Net_Security_MonoTlsProviderFactory__GetProviderInternal (const MethodInfo* method);
+void Mono_Net_Security_MonoTlsProviderFactory__InitializeInternal (const MethodInfo* method);
+Mono_Security_Interface_MonoTlsProvider_o* Mono_Net_Security_MonoTlsProviderFactory__LookupProvider (System_String_o* name, bool throwOnError, const MethodInfo* method);
+void Mono_Net_Security_MonoTlsProviderFactory__InitializeProviderRegistration (const MethodInfo* method);
+Mono_Security_Interface_MonoTlsProvider_o* Mono_Net_Security_MonoTlsProviderFactory__CreateDefaultProviderImpl (const MethodInfo* method);
+Mono_Security_Interface_MonoTlsProvider_o* Mono_Net_Security_MonoTlsProviderFactory__GetProvider (const MethodInfo* method);
+void Mono_Net_Security_MonoTlsProviderFactory___cctor (const MethodInfo* method);

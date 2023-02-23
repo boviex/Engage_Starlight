@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_object___OnNext (UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_T__o* __this, Il2CppObject* value, const MethodInfo_2038C70* method);
+void UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_object___OnError (UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_T__o* __this, System_Exception_o* error, const MethodInfo_2038D10* method);
+void UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_object___OnCompleted (UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_T__o* __this, const MethodInfo_2038F60* method);
+void UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_object____ctor (UniRx_Operators_AmbObservable_AmbOuterObserver_Amb_T__o* __this, const MethodInfo_20391B0* method);

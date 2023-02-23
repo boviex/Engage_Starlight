@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MoonSharp_Interpreter_Execution_RuntimeScopeBlock__get_From (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_RuntimeScopeBlock__set_From (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, int32_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Execution_RuntimeScopeBlock__get_To (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_RuntimeScopeBlock__set_To (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, int32_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Execution_RuntimeScopeBlock__get_ToInclusive (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_RuntimeScopeBlock__set_ToInclusive (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, int32_t value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Execution_RuntimeScopeBlock__ToString (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_RuntimeScopeBlock___ctor (MoonSharp_Interpreter_Execution_RuntimeScopeBlock_o* __this, const MethodInfo* method);

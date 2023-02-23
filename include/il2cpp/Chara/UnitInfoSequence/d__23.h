@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Chara_UnitInfoSequence__LoadCharacterImpl_d__23___ctor (Chara_UnitInfoSequence__LoadCharacterImpl_d__23_o* __this, int32_t __1__state, const MethodInfo* method);
+void Chara_UnitInfoSequence__LoadCharacterImpl_d__23__System_IDisposable_Dispose (Chara_UnitInfoSequence__LoadCharacterImpl_d__23_o* __this, const MethodInfo* method);
+bool Chara_UnitInfoSequence__LoadCharacterImpl_d__23__MoveNext (Chara_UnitInfoSequence__LoadCharacterImpl_d__23_o* __this, const MethodInfo* method);
+Il2CppObject* Chara_UnitInfoSequence__LoadCharacterImpl_d__23__System_Collections_Generic_IEnumerator_System_Object__get_Current (Chara_UnitInfoSequence__LoadCharacterImpl_d__23_o* __this, const MethodInfo* method);
+void Chara_UnitInfoSequence__LoadCharacterImpl_d__23__System_Collections_IEnumerator_Reset (Chara_UnitInfoSequence__LoadCharacterImpl_d__23_o* __this, const MethodInfo* method);
+Il2CppObject* Chara_UnitInfoSequence__LoadCharacterImpl_d__23__System_Collections_IEnumerator_get_Current (Chara_UnitInfoSequence__LoadCharacterImpl_d__23_o* __this, const MethodInfo* method);

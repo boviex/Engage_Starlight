@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UnityEngine_ResourceManagement_Util_SerializedType__get_AssemblyName (UnityEngine_ResourceManagement_Util_SerializedType_o __this, const MethodInfo* method);
+System_String_o* UnityEngine_ResourceManagement_Util_SerializedType__get_ClassName (UnityEngine_ResourceManagement_Util_SerializedType_o __this, const MethodInfo* method);
+System_String_o* UnityEngine_ResourceManagement_Util_SerializedType__ToString (UnityEngine_ResourceManagement_Util_SerializedType_o __this, const MethodInfo* method);
+System_Type_o* UnityEngine_ResourceManagement_Util_SerializedType__get_Value (UnityEngine_ResourceManagement_Util_SerializedType_o __this, const MethodInfo* method);
+void UnityEngine_ResourceManagement_Util_SerializedType__set_Value (UnityEngine_ResourceManagement_Util_SerializedType_o __this, System_Type_o* value, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_SerializedType__get_ValueChanged (UnityEngine_ResourceManagement_Util_SerializedType_o __this, const MethodInfo* method);
+void UnityEngine_ResourceManagement_Util_SerializedType__set_ValueChanged (UnityEngine_ResourceManagement_Util_SerializedType_o __this, bool value, const MethodInfo* method);

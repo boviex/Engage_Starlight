@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void SimpleAnimation_StateEnumerable_StateEnumerator___ctor (SimpleAnimation_StateEnumerable_StateEnumerator_o* __this, SimpleAnimation_o* owner, const MethodInfo* method);
+SimpleAnimation_State_o* SimpleAnimation_StateEnumerable_StateEnumerator__GetCurrent (SimpleAnimation_StateEnumerable_StateEnumerator_o* __this, const MethodInfo* method);
+Il2CppObject* SimpleAnimation_StateEnumerable_StateEnumerator__System_Collections_IEnumerator_get_Current (SimpleAnimation_StateEnumerable_StateEnumerator_o* __this, const MethodInfo* method);
+SimpleAnimation_State_o* SimpleAnimation_StateEnumerable_StateEnumerator__System_Collections_Generic_IEnumerator_SimpleAnimation_State__get_Current (SimpleAnimation_StateEnumerable_StateEnumerator_o* __this, const MethodInfo* method);
+void SimpleAnimation_StateEnumerable_StateEnumerator__Dispose (SimpleAnimation_StateEnumerable_StateEnumerator_o* __this, const MethodInfo* method);
+bool SimpleAnimation_StateEnumerable_StateEnumerator__MoveNext (SimpleAnimation_StateEnumerable_StateEnumerator_o* __this, const MethodInfo* method);
+void SimpleAnimation_StateEnumerable_StateEnumerator__Reset (SimpleAnimation_StateEnumerable_StateEnumerator_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_object____ctor (UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_T__o* __this, UniRx_Operators_FrameTimeIntervalObservable_T__o* parent, System_IObserver_TimeInterval_T___o* observer, System_IDisposable_o* cancel, const MethodInfo_33F3F30* method);
+void UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_object___OnNext (UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_T__o* __this, Il2CppObject* value, const MethodInfo_33F3FB0* method);
+void UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_object___OnError (UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_T__o* __this, System_Exception_o* error, const MethodInfo_33F4110* method);
+void UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_object___OnCompleted (UniRx_Operators_FrameTimeIntervalObservable_FrameTimeInterval_T__o* __this, const MethodInfo_33F4250* method);

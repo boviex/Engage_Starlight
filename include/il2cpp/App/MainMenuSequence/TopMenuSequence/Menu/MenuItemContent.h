@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent__Build (App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent_o* __this, App_BasicMenuItem_o* menuItem, const MethodInfo* method);
+void App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent__BuildText (App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent__SetupByMenuItem (App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent_o* __this, App_MainMenuSequence_TopMenuSequence_Menu_MenuItem_o* menuItem, const MethodInfo* method);
+void App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent___ctor (App_MainMenuSequence_TopMenuSequence_Menu_MenuItemContent_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator___ctor (System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator_o* __this, Il2CppObject* value, const MethodInfo* method);
+Il2CppObject* System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator__get_Current (System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator_o* __this, const MethodInfo* method);
+bool System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator__MoveNext (System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator_o* __this, const MethodInfo* method);
+void System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator__Reset (System_Xml_XmlNamedNodeMap_SmallXmlNodeList_SingleObjectEnumerator_o* __this, const MethodInfo* method);

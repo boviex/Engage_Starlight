@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Net_Security_SystemCertificateValidator___cctor (const MethodInfo* method);
+System_Security_Cryptography_X509Certificates_X509Chain_o* Mono_Net_Security_SystemCertificateValidator__CreateX509Chain (System_Security_Cryptography_X509Certificates_X509CertificateCollection_o* certs, const MethodInfo* method);
+bool Mono_Net_Security_SystemCertificateValidator__NeedsChain (Mono_Security_Interface_MonoTlsSettings_o* settings, const MethodInfo* method);

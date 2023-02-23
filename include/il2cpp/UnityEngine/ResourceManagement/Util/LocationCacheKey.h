@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ResourceManagement_Util_LocationCacheKey___ctor (UnityEngine_ResourceManagement_Util_LocationCacheKey_o* __this, UnityEngine_ResourceManagement_ResourceLocations_IResourceLocation_o* location, System_Type_o* desiredType, const MethodInfo* method);
+int32_t UnityEngine_ResourceManagement_Util_LocationCacheKey__GetHashCode (UnityEngine_ResourceManagement_Util_LocationCacheKey_o* __this, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_LocationCacheKey__Equals (UnityEngine_ResourceManagement_Util_LocationCacheKey_o* __this, Il2CppObject* obj, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_LocationCacheKey__Equals (UnityEngine_ResourceManagement_Util_LocationCacheKey_o* __this, UnityEngine_ResourceManagement_Util_IOperationCacheKey_o* other, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_LocationCacheKey__Equals (UnityEngine_ResourceManagement_Util_LocationCacheKey_o* __this, UnityEngine_ResourceManagement_Util_LocationCacheKey_o* other, const MethodInfo* method);

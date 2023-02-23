@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusFriendMenu_FriendRankedMenuItem___c___cctor (const MethodInfo* method);
+void App_VersusSequence_VersusFriendMenu_FriendRankedMenuItem___c___ctor (App_VersusSequence_VersusFriendMenu_FriendRankedMenuItem___c_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusFriendMenu_FriendRankedMenuItem___c___StartBattleDialog_b__6_1 (App_VersusSequence_VersusFriendMenu_FriendRankedMenuItem___c_o* __this, const MethodInfo* method);

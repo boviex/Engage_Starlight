@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_AddressableAssets_AddressablesImpl___c__DisplayClass60_0___ctor (UnityEngine_AddressableAssets_AddressablesImpl___c__DisplayClass60_0_o* __this, const MethodInfo* method);
+bool UnityEngine_AddressableAssets_AddressablesImpl___c__DisplayClass60_0___RemoveResourceLocator_b__0 (UnityEngine_AddressableAssets_AddressablesImpl___c__DisplayClass60_0_o* __this, UnityEngine_AddressableAssets_AddressablesImpl_ResourceLocatorInfo_o* l, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_ScopeWithType___ctor (System_Linq_Expressions_ScopeWithType_o* __this, System_Collections_Generic_IReadOnlyList_ParameterExpression__o* variables, System_Collections_Generic_IReadOnlyList_Expression__o* expressions, System_Type_o* type, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_ScopeWithType__get_Type (System_Linq_Expressions_ScopeWithType_o* __this, const MethodInfo* method);
+System_Linq_Expressions_BlockExpression_o* System_Linq_Expressions_ScopeWithType__Rewrite (System_Linq_Expressions_ScopeWithType_o* __this, System_Collections_ObjectModel_ReadOnlyCollection_ParameterExpression__o* variables, System_Linq_Expressions_Expression_array* args, const MethodInfo* method);

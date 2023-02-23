@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_OperatorObserverBase_CollectionMoveEvent_object___CollectionMoveEvent_object_____ctor (UniRx_Operators_OperatorObserverBase_TSource__TResult__o* __this, System_IObserver_TResult__o* observer, System_IDisposable_o* cancel, const MethodInfo_372ECA0* method);
+void UniRx_Operators_OperatorObserverBase_CollectionMoveEvent_object___CollectionMoveEvent_object____Dispose (UniRx_Operators_OperatorObserverBase_TSource__TResult__o* __this, const MethodInfo_372ED00* method);

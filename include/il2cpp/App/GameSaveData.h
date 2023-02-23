@@ -1,0 +1,53 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GameSaveData___ctor (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData___ctor (App_GameSaveData_o* __this, int32_t type, int32_t index, const MethodInfo* method);
+void App_GameSaveData__Read (App_GameSaveData_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_GameSaveData__Write (App_GameSaveData_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_GameSaveData__Delete (App_GameSaveData_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_GameSaveData__Copy (App_GameSaveData_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+System_String_o* App_GameSaveData__GetFilePath (App_GameSaveData_o* __this, const MethodInfo* method);
+bool App_GameSaveData__IsWriteWithGlobal (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__Serialize (App_GameSaveData_o* __this, App_Stream_o* stream, const MethodInfo* method);
+bool App_GameSaveData__Deserialize (App_GameSaveData_o* __this, App_Stream_o* stream, const MethodInfo* method);
+int32_t App_GameSaveData__get_Type (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__set_Type (App_GameSaveData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_GameSaveData__get_Index (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__set_Index (App_GameSaveData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_GameSaveData__get_FromType (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__set_FromType (App_GameSaveData_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_GameSaveData__get_FromIndex (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__set_FromIndex (App_GameSaveData_o* __this, int32_t value, const MethodInfo* method);
+App_GameSaveDataHeader_o* App_GameSaveData__get_Header (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__set_Header (App_GameSaveData_o* __this, App_GameSaveDataHeader_o* value, const MethodInfo* method);
+bool App_GameSaveData__get_IsSuccess (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__set_IsSuccess (App_GameSaveData_o* __this, bool value, const MethodInfo* method);
+bool App_GameSaveData__get_IsExcludeHeaderAndTime (App_GameSaveData_o* __this, const MethodInfo* method);
+void App_GameSaveData__set_IsExcludeHeaderAndTime (App_GameSaveData_o* __this, bool value, const MethodInfo* method);
+bool App_GameSaveData__IsValid (const MethodInfo* method);
+System_String_o* App_GameSaveData__GetRootPath (const MethodInfo* method);
+System_String_o* App_GameSaveData__GetFilePath (int32_t type, int32_t index, const MethodInfo* method);
+int32_t App_GameSaveData__GetFileCount (int32_t type, const MethodInfo* method);
+bool App_GameSaveData__IsWriteWithGlobal (int32_t type, const MethodInfo* method);
+int32_t App_GameSaveData__GetHeaderSize (int32_t type, const MethodInfo* method);
+App_GameSaveData_o* App_GameSaveData__get_ReadingTarget (const MethodInfo* method);
+void App_GameSaveData__set_ReadingTarget (App_GameSaveData_o* value, const MethodInfo* method);
+bool App_GameSaveData__get_IsNormalizeContentsOccurred (const MethodInfo* method);
+void App_GameSaveData__set_IsNormalizeContentsOccurred (bool value, const MethodInfo* method);
+void App_GameSaveData__SerializeCommon (App_GameSaveData_o* __this, App_Stream_o* stream, const MethodInfo* method);
+void App_GameSaveData__SerializeData (App_Stream_o* stream, bool isExcludeTime, bool isExcludeRestart, const MethodInfo* method);
+bool App_GameSaveData__DeserializeCommon (App_GameSaveData_o* __this, App_Stream_o* stream, const MethodInfo* method);
+bool App_GameSaveData__DeserializeData (App_Stream_o* stream, const MethodInfo* method);
+void App_GameSaveData__SerializeGlobal (App_GameSaveData_o* __this, App_Stream_o* stream, const MethodInfo* method);
+bool App_GameSaveData__DeserializeGlobal (App_GameSaveData_o* __this, App_Stream_o* stream, const MethodInfo* method);
+void App_GameSaveData__ClearGlobal (const MethodInfo* method);
+bool App_GameSaveData__IsSortieOrMapSequence (const MethodInfo* method);
+bool App_GameSaveData__IsSortieSequence (const MethodInfo* method);
+bool App_GameSaveData__IsMapSequence (const MethodInfo* method);
+bool App_GameSaveData__IsHubSequence (const MethodInfo* method);
+bool App_GameSaveData__IsGmapSequence (const MethodInfo* method);
+System_String_o* App_GameSaveData__NormalizePath (System_String_o* path, const MethodInfo* method);
+System_String_o* App_GameSaveData__JoinPath (System_String_o* path1, System_String_o* path2, const MethodInfo* method);
+void App_GameSaveData___cctor (const MethodInfo* method);

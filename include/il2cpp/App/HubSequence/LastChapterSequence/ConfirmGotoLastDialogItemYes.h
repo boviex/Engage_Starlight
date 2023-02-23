@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_HubSequence_LastChapterSequence_ConfirmGotoLastDialogItemYes___ctor (App_HubSequence_LastChapterSequence_ConfirmGotoLastDialogItemYes_o* __this, const MethodInfo* method);
+int32_t App_HubSequence_LastChapterSequence_ConfirmGotoLastDialogItemYes__ACall (App_HubSequence_LastChapterSequence_ConfirmGotoLastDialogItemYes_o* __this, const MethodInfo* method);
+int32_t App_HubSequence_LastChapterSequence_ConfirmGotoLastDialogItemYes__BCall (App_HubSequence_LastChapterSequence_ConfirmGotoLastDialogItemYes_o* __this, const MethodInfo* method);

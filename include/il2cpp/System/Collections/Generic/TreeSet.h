@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_Generic_TreeSet_object____ctor (System_Collections_Generic_TreeSet_T__o* __this, const MethodInfo_35868A0* method);
+void System_Collections_Generic_TreeSet_object____ctor (System_Collections_Generic_TreeSet_T__o* __this, System_Collections_Generic_IComparer_T__o* comparer, const MethodInfo_35868C0* method);
+void System_Collections_Generic_TreeSet_object____ctor (System_Collections_Generic_TreeSet_T__o* __this, System_Runtime_Serialization_SerializationInfo_o* siInfo, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo_35868E0* method);
+bool System_Collections_Generic_TreeSet_object___AddIfNotPresent (System_Collections_Generic_TreeSet_T__o* __this, Il2CppObject* item, const MethodInfo_3586900* method);

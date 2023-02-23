@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_ContourVertex__ToString (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_ContourVertex_o __this, const MethodInfo* method);

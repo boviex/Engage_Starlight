@@ -1,0 +1,58 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_XmlValidatingReaderImpl___ctor (System_Xml_XmlValidatingReaderImpl_o* __this, System_Xml_XmlReader_o* reader, System_Xml_Schema_ValidationEventHandler_o* settingsEventHandler, bool processIdentityConstraints, const MethodInfo* method);
+System_Xml_XmlReaderSettings_o* System_Xml_XmlValidatingReaderImpl__get_Settings (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+int32_t System_Xml_XmlValidatingReaderImpl__get_NodeType (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__get_Name (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__get_LocalName (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__get_NamespaceURI (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__get_Prefix (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__get_Value (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+int32_t System_Xml_XmlValidatingReaderImpl__get_Depth (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__get_BaseURI (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__get_IsEmptyElement (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__get_IsDefault (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+int32_t System_Xml_XmlValidatingReaderImpl__get_ReadState (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__get_EOF (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_Xml_XmlNameTable_o* System_Xml_XmlValidatingReaderImpl__get_NameTable (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+int32_t System_Xml_XmlValidatingReaderImpl__get_AttributeCount (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__GetAttribute (System_Xml_XmlValidatingReaderImpl_o* __this, System_String_o* name, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__GetAttribute (System_Xml_XmlValidatingReaderImpl_o* __this, int32_t i, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__MoveToAttribute (System_Xml_XmlValidatingReaderImpl_o* __this, System_String_o* name, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__MoveToAttribute (System_Xml_XmlValidatingReaderImpl_o* __this, int32_t i, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__MoveToFirstAttribute (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__MoveToNextAttribute (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__MoveToElement (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__Read (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__Close (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__LookupNamespace (System_Xml_XmlValidatingReaderImpl_o* __this, System_String_o* prefix, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__ReadAttributeValue (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__get_CanResolveEntity (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__ResolveEntity (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+int32_t System_Xml_XmlValidatingReaderImpl__get_LineNumber (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+int32_t System_Xml_XmlValidatingReaderImpl__get_LinePosition (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_Collections_Generic_IDictionary_string__string__o* System_Xml_XmlValidatingReaderImpl__System_Xml_IXmlNamespaceResolver_GetNamespacesInScope (System_Xml_XmlValidatingReaderImpl_o* __this, int32_t scope, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__System_Xml_IXmlNamespaceResolver_LookupNamespace (System_Xml_XmlValidatingReaderImpl_o* __this, System_String_o* prefix, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__System_Xml_IXmlNamespaceResolver_LookupPrefix (System_Xml_XmlValidatingReaderImpl_o* __this, System_String_o* namespaceName, const MethodInfo* method);
+System_Collections_Generic_IDictionary_string__string__o* System_Xml_XmlValidatingReaderImpl__GetNamespacesInScope (System_Xml_XmlValidatingReaderImpl_o* __this, int32_t scope, const MethodInfo* method);
+System_String_o* System_Xml_XmlValidatingReaderImpl__LookupPrefix (System_Xml_XmlValidatingReaderImpl_o* __this, System_String_o* namespaceName, const MethodInfo* method);
+int32_t System_Xml_XmlValidatingReaderImpl__get_ValidationType (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaCollection_o* System_Xml_XmlValidatingReaderImpl__get_Schemas (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__ParseDtdFromParserContext (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__ValidateDtd (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__ResolveEntityInternally (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__SetupValidation (System_Xml_XmlValidatingReaderImpl_o* __this, int32_t valType, const MethodInfo* method);
+System_Xml_XmlResolver_o* System_Xml_XmlValidatingReaderImpl__GetResolver (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__ProcessCoreReaderEvent (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+System_Xml_Schema_BaseValidator_o* System_Xml_XmlValidatingReaderImpl__get_Validator (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__set_Validator (System_Xml_XmlValidatingReaderImpl_o* __this, System_Xml_Schema_BaseValidator_o* value, const MethodInfo* method);
+System_Xml_XmlNamespaceManager_o* System_Xml_XmlValidatingReaderImpl__get_NamespaceManager (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__get_StandAlone (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__set_SchemaTypeObject (System_Xml_XmlValidatingReaderImpl_o* __this, Il2CppObject* value, const MethodInfo* method);
+Il2CppObject* System_Xml_XmlValidatingReaderImpl__get_TypedValueObject (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__set_TypedValueObject (System_Xml_XmlValidatingReaderImpl_o* __this, Il2CppObject* value, const MethodInfo* method);
+bool System_Xml_XmlValidatingReaderImpl__AddDefaultAttribute (System_Xml_XmlValidatingReaderImpl_o* __this, System_Xml_Schema_SchemaAttDef_o* attdef, const MethodInfo* method);
+System_Xml_IDtdInfo_o* System_Xml_XmlValidatingReaderImpl__get_DtdInfo (System_Xml_XmlValidatingReaderImpl_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl__ValidateDefaultAttributeOnUse (System_Xml_XmlValidatingReaderImpl_o* __this, System_Xml_IDtdDefaultAttributeInfo_o* defaultAttribute, System_Xml_XmlTextReaderImpl_o* coreReader, const MethodInfo* method);

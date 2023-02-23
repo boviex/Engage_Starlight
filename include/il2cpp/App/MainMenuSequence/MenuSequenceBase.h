@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MainMenuSequence_MenuSequenceBase__GetLayoutPrefabPath (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+bool App_MainMenuSequence_MenuSequenceBase__IsTitleBarEnable (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_MenuSequenceBase__GetTitleBarName (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_MenuSequenceBase__GetTitleBarHelp (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_MenuSequenceBase__GetTitleBarKeyHelpId (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase__LoadLayoutPrefabAsync (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase__UnloadLayoutPrefab (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+bool App_MainMenuSequence_MenuSequenceBase__IsLoadingLayoutPrefab (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase__CreateLayoutPrefab (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase__DestroyLayoutPrefab (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase__SetTitleBarValue (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase__OpenTitleBar (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase__CreateMenuBind (App_MainMenuSequence_MenuSequenceBase_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+App_ProcDesc_array* App_MainMenuSequence_MenuSequenceBase__GetProcDesc (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_MenuSequenceBase___ctor (App_MainMenuSequence_MenuSequenceBase_o* __this, const MethodInfo* method);

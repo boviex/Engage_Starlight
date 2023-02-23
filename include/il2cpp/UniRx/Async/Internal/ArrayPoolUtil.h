@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacity_UniTask_object__ (UniRx_Async_UniTask_object__array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273EFC0* method);
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacity_CancellationTokenRegistration_ (System_Threading_CancellationTokenRegistration_array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273EFF0* method);
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacity_object_ (System_Object_array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273F020* method);
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacity_UniTask_ (UniRx_Async_UniTask_array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273F050* method);
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacityCore_UniTask_object__ (UniRx_Async_UniTask_object__array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273F080* method);
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacityCore_CancellationTokenRegistration_ (System_Threading_CancellationTokenRegistration_array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273F160* method);
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacityCore_object_ (System_Object_array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273F240* method);
+void UniRx_Async_Internal_ArrayPoolUtil__EnsureCapacityCore_UniTask_ (UniRx_Async_UniTask_array** array, int32_t index, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_273F320* method);
+UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o UniRx_Async_Internal_ArrayPoolUtil__Materialize_UniTask_object__ (System_Collections_Generic_IEnumerable_T__o* source, const MethodInfo_273F400* method);
+UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o UniRx_Async_Internal_ArrayPoolUtil__Materialize_object_ (System_Collections_Generic_IEnumerable_T__o* source, const MethodInfo_273FB40* method);
+UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o UniRx_Async_Internal_ArrayPoolUtil__Materialize_UniTask_ (System_Collections_Generic_IEnumerable_T__o* source, const MethodInfo_2740270* method);

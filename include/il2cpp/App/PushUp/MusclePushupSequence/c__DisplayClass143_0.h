@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_PushUp_MusclePushupSequence___c__DisplayClass143_0___ctor (App_PushUp_MusclePushupSequence___c__DisplayClass143_0_o* __this, const MethodInfo* method);
+void App_PushUp_MusclePushupSequence___c__DisplayClass143_0___Init_b__0 (App_PushUp_MusclePushupSequence___c__DisplayClass143_0_o* __this, const MethodInfo* method);
+void App_PushUp_MusclePushupSequence___c__DisplayClass143_0___Init_b__2 (App_PushUp_MusclePushupSequence___c__DisplayClass143_0_o* __this, const MethodInfo* method);

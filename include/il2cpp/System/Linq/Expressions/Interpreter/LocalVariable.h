@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool System_Linq_Expressions_Interpreter_LocalVariable__get_IsBoxed (System_Linq_Expressions_Interpreter_LocalVariable_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LocalVariable__set_IsBoxed (System_Linq_Expressions_Interpreter_LocalVariable_o* __this, bool value, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_LocalVariable__get_InClosure (System_Linq_Expressions_Interpreter_LocalVariable_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LocalVariable___ctor (System_Linq_Expressions_Interpreter_LocalVariable_o* __this, int32_t index, bool closure, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_LocalVariable__ToString (System_Linq_Expressions_Interpreter_LocalVariable_o* __this, const MethodInfo* method);

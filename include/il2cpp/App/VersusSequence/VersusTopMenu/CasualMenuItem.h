@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusTopMenu_CasualMenuItem___ctor (App_VersusSequence_VersusTopMenu_CasualMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusTopMenu_CasualMenuItem__ACall (App_VersusSequence_VersusTopMenu_CasualMenuItem_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusTopMenu_CasualMenuItem__OnSelect (App_VersusSequence_VersusTopMenu_CasualMenuItem_o* __this, const MethodInfo* method);

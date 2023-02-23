@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableBeginDragTrigger__UnityEngine_EventSystems_IBeginDragHandler_OnBeginDrag (UniRx_Triggers_ObservableBeginDragTrigger_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+System_IObservable_PointerEventData__o* UniRx_Triggers_ObservableBeginDragTrigger__OnBeginDragAsObservable (UniRx_Triggers_ObservableBeginDragTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableBeginDragTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableBeginDragTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableBeginDragTrigger___ctor (UniRx_Triggers_ObservableBeginDragTrigger_o* __this, const MethodInfo* method);

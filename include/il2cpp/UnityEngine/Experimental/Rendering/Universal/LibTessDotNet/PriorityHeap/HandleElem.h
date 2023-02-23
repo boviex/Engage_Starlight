@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_PriorityHeap_HandleElem_object____ctor (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_PriorityHeap_HandleElem_TValue__o* __this, const MethodInfo_3EC8E00* method);

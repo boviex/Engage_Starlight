@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_GmapMenuSequence_GmapMenu_EnterChapterItem__get_Type (const MethodInfo* method);
+void App_GmapMenuSequence_GmapMenu_EnterChapterItem__set_Type (int32_t value, const MethodInfo* method);
+void App_GmapMenuSequence_GmapMenu_EnterChapterItem___ctor (App_GmapMenuSequence_GmapMenu_EnterChapterItem_o* __this, int32_t type, const MethodInfo* method);
+System_String_o* App_GmapMenuSequence_GmapMenu_EnterChapterItem__GetName (App_GmapMenuSequence_GmapMenu_EnterChapterItem_o* __this, const MethodInfo* method);
+System_String_o* App_GmapMenuSequence_GmapMenu_EnterChapterItem__GetHelpText (App_GmapMenuSequence_GmapMenu_EnterChapterItem_o* __this, const MethodInfo* method);
+void App_GmapMenuSequence_GmapMenu_EnterChapterItem__OnBuild (App_GmapMenuSequence_GmapMenu_EnterChapterItem_o* __this, const MethodInfo* method);
+int32_t App_GmapMenuSequence_GmapMenu_EnterChapterItem__BuildAttribute (App_GmapMenuSequence_GmapMenu_EnterChapterItem_o* __this, const MethodInfo* method);
+int32_t App_GmapMenuSequence_GmapMenu_EnterChapterItem__ACall (App_GmapMenuSequence_GmapMenu_EnterChapterItem_o* __this, const MethodInfo* method);

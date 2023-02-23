@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ItemUseSequence__HealHp_d__12___ctor (App_ItemUseSequence__HealHp_d__12_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_ItemUseSequence__HealHp_d__12__System_IDisposable_Dispose (App_ItemUseSequence__HealHp_d__12_o* __this, const MethodInfo* method);
+bool App_ItemUseSequence__HealHp_d__12__MoveNext (App_ItemUseSequence__HealHp_d__12_o* __this, const MethodInfo* method);
+Il2CppObject* App_ItemUseSequence__HealHp_d__12__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_ItemUseSequence__HealHp_d__12_o* __this, const MethodInfo* method);
+void App_ItemUseSequence__HealHp_d__12__System_Collections_IEnumerator_Reset (App_ItemUseSequence__HealHp_d__12_o* __this, const MethodInfo* method);
+Il2CppObject* App_ItemUseSequence__HealHp_d__12__System_Collections_IEnumerator_get_Current (App_ItemUseSequence__HealHp_d__12_o* __this, const MethodInfo* method);

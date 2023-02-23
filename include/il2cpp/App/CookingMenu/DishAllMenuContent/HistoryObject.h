@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishAllMenuContent_HistoryObject___ctor (App_CookingMenu_DishAllMenuContent_HistoryObject_o* __this, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_HistoryObject__Show (App_CookingMenu_DishAllMenuContent_HistoryObject_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_HistoryObject__Hide (App_CookingMenu_DishAllMenuContent_HistoryObject_o* __this, const MethodInfo* method);
+UnityEngine_GameObject_o* App_CookingMenu_DishAllMenuContent_HistoryObject__get_gameObject (App_CookingMenu_DishAllMenuContent_HistoryObject_o* __this, const MethodInfo* method);

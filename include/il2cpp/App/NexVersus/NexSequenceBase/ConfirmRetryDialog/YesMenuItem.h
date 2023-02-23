@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_NexVersus_NexSequenceBase_ConfirmRetryDialog_YesMenuItem___ctor (App_NexVersus_NexSequenceBase_ConfirmRetryDialog_YesMenuItem_o* __this, int32_t label, const MethodInfo* method);
+int32_t App_NexVersus_NexSequenceBase_ConfirmRetryDialog_YesMenuItem__ACall (App_NexVersus_NexSequenceBase_ConfirmRetryDialog_YesMenuItem_o* __this, const MethodInfo* method);
+App_ProcInst_o* App_NexVersus_NexSequenceBase_ConfirmRetryDialog_YesMenuItem__GetSequence (App_NexVersus_NexSequenceBase_ConfirmRetryDialog_YesMenuItem_o* __this, const MethodInfo* method);

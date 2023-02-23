@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_RenderGraphModule_RenderGraph_CompiledResourceInfo__Reset (UnityEngine_Experimental_Rendering_RenderGraphModule_RenderGraph_CompiledResourceInfo_o __this, const MethodInfo* method);

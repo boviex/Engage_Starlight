@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UniRx_AsyncReactiveCommand_o* UniRx_AsyncReactiveCommandExtensions__ToAsyncReactiveCommand (UniRx_IReactiveProperty_bool__o* sharedCanExecuteSource, const MethodInfo* method);
+UniRx_AsyncReactiveCommand_T__o* UniRx_AsyncReactiveCommandExtensions__ToAsyncReactiveCommand_object_ (UniRx_IReactiveProperty_bool__o* sharedCanExecuteSource, const MethodInfo_2741F30* method);
+UniRx_Async_UniTask_Awaiter_T__o UniRx_AsyncReactiveCommandExtensions__GetAwaiter_object_ (UniRx_IAsyncReactiveCommand_T__o* command, const MethodInfo_2741E20* method);
+System_IDisposable_o* UniRx_AsyncReactiveCommandExtensions__BindTo (UniRx_IAsyncReactiveCommand_Unit__o* command, UnityEngine_UI_Button_o* button, const MethodInfo* method);
+System_IDisposable_o* UniRx_AsyncReactiveCommandExtensions__BindToOnClick (UniRx_IAsyncReactiveCommand_Unit__o* command, UnityEngine_UI_Button_o* button, System_Func_Unit__IObservable_Unit___o* asyncOnClick, const MethodInfo* method);
+System_IDisposable_o* UniRx_AsyncReactiveCommandExtensions__BindToOnClick (UnityEngine_UI_Button_o* button, System_Func_Unit__IObservable_Unit___o* asyncOnClick, const MethodInfo* method);
+System_IDisposable_o* UniRx_AsyncReactiveCommandExtensions__BindToOnClick (UnityEngine_UI_Button_o* button, UniRx_IReactiveProperty_bool__o* sharedCanExecuteSource, System_Func_Unit__IObservable_Unit___o* asyncOnClick, const MethodInfo* method);

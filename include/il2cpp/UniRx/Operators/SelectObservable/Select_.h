@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_SelectObservable_Select__bool__bool____ctor (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, UniRx_Operators_SelectObservable_T__TR__o* parent, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_34457B0* method);
+void UniRx_Operators_SelectObservable_Select__object__bool____ctor (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, UniRx_Operators_SelectObservable_T__TR__o* parent, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_3445CF0* method);
+void UniRx_Operators_SelectObservable_Select__object__object____ctor (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, UniRx_Operators_SelectObservable_T__TR__o* parent, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_3446230* method);
+void UniRx_Operators_SelectObservable_Select__bool__bool___OnNext (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, bool value, const MethodInfo_3445810* method);
+void UniRx_Operators_SelectObservable_Select__object__bool___OnNext (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, Il2CppObject* value, const MethodInfo_3445D50* method);
+void UniRx_Operators_SelectObservable_Select__object__object___OnNext (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, Il2CppObject* value, const MethodInfo_3446290* method);
+void UniRx_Operators_SelectObservable_Select__bool__bool___OnError (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, System_Exception_o* error, const MethodInfo_3445A80* method);
+void UniRx_Operators_SelectObservable_Select__object__bool___OnError (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, System_Exception_o* error, const MethodInfo_3445FC0* method);
+void UniRx_Operators_SelectObservable_Select__object__object___OnError (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, System_Exception_o* error, const MethodInfo_3446500* method);
+void UniRx_Operators_SelectObservable_Select__bool__bool___OnCompleted (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, const MethodInfo_3445BC0* method);
+void UniRx_Operators_SelectObservable_Select__object__bool___OnCompleted (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, const MethodInfo_3446100* method);
+void UniRx_Operators_SelectObservable_Select__object__object___OnCompleted (UniRx_Operators_SelectObservable_Select__T__TR__o* __this, const MethodInfo_3446640* method);

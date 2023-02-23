@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass16_0___ctor (UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass16_0_o* __this, const MethodInfo* method);
+bool UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass16_0___FindComponent_b__2 (UTJ_StringQueueExtensions_ObjectBuilder___c__DisplayClass16_0_o* __this, UnityEngine_Component_o* child, const MethodInfo* method);

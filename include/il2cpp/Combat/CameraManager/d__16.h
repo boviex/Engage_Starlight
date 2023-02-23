@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_CameraManager__ReverseCamera_d__16___ctor (Combat_CameraManager__ReverseCamera_d__16_o* __this, int32_t __1__state, const MethodInfo* method);
+void Combat_CameraManager__ReverseCamera_d__16__System_IDisposable_Dispose (Combat_CameraManager__ReverseCamera_d__16_o* __this, const MethodInfo* method);
+bool Combat_CameraManager__ReverseCamera_d__16__MoveNext (Combat_CameraManager__ReverseCamera_d__16_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_CameraManager__ReverseCamera_d__16__System_Collections_Generic_IEnumerator_System_Object__get_Current (Combat_CameraManager__ReverseCamera_d__16_o* __this, const MethodInfo* method);
+void Combat_CameraManager__ReverseCamera_d__16__System_Collections_IEnumerator_Reset (Combat_CameraManager__ReverseCamera_d__16_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_CameraManager__ReverseCamera_d__16__System_Collections_IEnumerator_get_Current (Combat_CameraManager__ReverseCamera_d__16_o* __this, const MethodInfo* method);

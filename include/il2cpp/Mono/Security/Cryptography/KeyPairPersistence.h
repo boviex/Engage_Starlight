@@ -1,0 +1,32 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Security_Cryptography_KeyPairPersistence___ctor (Mono_Security_Cryptography_KeyPairPersistence_o* __this, System_Security_Cryptography_CspParameters_o* parameters, const MethodInfo* method);
+void Mono_Security_Cryptography_KeyPairPersistence___ctor (Mono_Security_Cryptography_KeyPairPersistence_o* __this, System_Security_Cryptography_CspParameters_o* parameters, System_String_o* keyPair, const MethodInfo* method);
+System_String_o* Mono_Security_Cryptography_KeyPairPersistence__get_Filename (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_Cryptography_KeyPairPersistence__get_KeyValue (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_KeyPairPersistence__set_KeyValue (Mono_Security_Cryptography_KeyPairPersistence_o* __this, System_String_o* value, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__Load (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_KeyPairPersistence__Save (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_KeyPairPersistence__Remove (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_Cryptography_KeyPairPersistence__get_UserPath (const MethodInfo* method);
+System_String_o* Mono_Security_Cryptography_KeyPairPersistence__get_MachinePath (const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence___CanSecure (System_String_o* root, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence___ProtectUser (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence___ProtectMachine (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence___IsUserProtected (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence___IsMachineProtected (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__CanSecure (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__ProtectUser (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__ProtectMachine (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__IsUserProtected (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__IsMachineProtected (System_String_o* path, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__get_CanChange (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__get_UseDefaultKeyContainer (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+bool Mono_Security_Cryptography_KeyPairPersistence__get_UseMachineKeyStore (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_Cryptography_KeyPairPersistence__get_ContainerName (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+System_Security_Cryptography_CspParameters_o* Mono_Security_Cryptography_KeyPairPersistence__Copy (Mono_Security_Cryptography_KeyPairPersistence_o* __this, System_Security_Cryptography_CspParameters_o* p, const MethodInfo* method);
+void Mono_Security_Cryptography_KeyPairPersistence__FromXml (Mono_Security_Cryptography_KeyPairPersistence_o* __this, System_String_o* xml, const MethodInfo* method);
+System_String_o* Mono_Security_Cryptography_KeyPairPersistence__ToXml (Mono_Security_Cryptography_KeyPairPersistence_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_KeyPairPersistence___cctor (const MethodInfo* method);

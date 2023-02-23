@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Net_CookieCollection_CookieCollectionEnumerator___ctor (System_Net_CookieCollection_CookieCollectionEnumerator_o* __this, System_Net_CookieCollection_o* cookies, const MethodInfo* method);
+Il2CppObject* System_Net_CookieCollection_CookieCollectionEnumerator__System_Collections_IEnumerator_get_Current (System_Net_CookieCollection_CookieCollectionEnumerator_o* __this, const MethodInfo* method);
+bool System_Net_CookieCollection_CookieCollectionEnumerator__System_Collections_IEnumerator_MoveNext (System_Net_CookieCollection_CookieCollectionEnumerator_o* __this, const MethodInfo* method);
+void System_Net_CookieCollection_CookieCollectionEnumerator__System_Collections_IEnumerator_Reset (System_Net_CookieCollection_CookieCollectionEnumerator_o* __this, const MethodInfo* method);

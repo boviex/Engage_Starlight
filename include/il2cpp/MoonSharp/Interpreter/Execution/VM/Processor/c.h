@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Execution_VM_Processor___c___cctor (const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_VM_Processor___c___ctor (MoonSharp_Interpreter_Execution_VM_Processor___c_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_Debugging_WatchItem_o* MoonSharp_Interpreter_Execution_VM_Processor___c___Debugger_RefreshThreads_b__46_0 (MoonSharp_Interpreter_Execution_VM_Processor___c_o* __this, MoonSharp_Interpreter_Execution_VM_Processor_o* c, const MethodInfo* method);

@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ProfileCardFavoriteCharacterData_o* App_ProfileCardFavoriteCharacterMenuItem__get_m_CharacterData (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__set_m_CharacterData (App_ProfileCardFavoriteCharacterMenuItem_o* __this, App_ProfileCardFavoriteCharacterData_o* value, const MethodInfo* method);
+bool App_ProfileCardFavoriteCharacterMenuItem__get_m_Decided (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__set_m_Decided (App_ProfileCardFavoriteCharacterMenuItem_o* __this, bool value, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem___ctor (App_ProfileCardFavoriteCharacterMenuItem_o* __this, App_ProfileCardFavoriteCharacterData_o* characterData, bool initialSelect, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__OnBuild (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__OnBuildMenuItemContent (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__SetInitialColor (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__UpdateFixedCursor (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__UpdateNewIcon (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__SetDecided (App_ProfileCardFavoriteCharacterMenuItem_o* __this, bool decided, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__OnSelect (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__OnCursorMoveEnd (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteCharacterMenuItem__OnDeselect (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);
+int32_t App_ProfileCardFavoriteCharacterMenuItem__ACall (App_ProfileCardFavoriteCharacterMenuItem_o* __this, const MethodInfo* method);

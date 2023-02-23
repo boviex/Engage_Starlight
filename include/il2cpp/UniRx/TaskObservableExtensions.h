@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_IObservable_Unit__o* UniRx_TaskObservableExtensions__ToObservable (System_Threading_Tasks_Task_o* task, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_TaskObservableExtensions__ToObservable (System_Threading_Tasks_Task_o* task, UniRx_IScheduler_o* scheduler, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_TaskObservableExtensions__ToObservableImpl (System_Threading_Tasks_Task_o* task, UniRx_IScheduler_o* scheduler, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_TaskObservableExtensions__ToObservableSlow (System_Threading_Tasks_Task_o* task, UniRx_IScheduler_o* scheduler, const MethodInfo* method);
+void UniRx_TaskObservableExtensions__ToObservableDone (System_Threading_Tasks_Task_o* task, System_IObserver_Unit__o* subject, const MethodInfo* method);
+System_IObservable_TResult__o* UniRx_TaskObservableExtensions__ToObservable_object_ (System_Threading_Tasks_Task_TResult__o* task, const MethodInfo_2067A20* method);
+System_IObservable_TResult__o* UniRx_TaskObservableExtensions__ToObservable_object_ (System_Threading_Tasks_Task_TResult__o* task, UniRx_IScheduler_o* scheduler, const MethodInfo_2067AA0* method);
+System_IObservable_TResult__o* UniRx_TaskObservableExtensions__ToObservableImpl_object_ (System_Threading_Tasks_Task_TResult__o* task, UniRx_IScheduler_o* scheduler, const MethodInfo_2067DC0* method);
+System_IObservable_TResult__o* UniRx_TaskObservableExtensions__ToObservableSlow_object_ (System_Threading_Tasks_Task_TResult__o* task, UniRx_IScheduler_o* scheduler, const MethodInfo_2068110* method);
+void UniRx_TaskObservableExtensions__ToObservableDone_object_ (System_Threading_Tasks_Task_TResult__o* task, System_IObserver_TResult__o* subject, const MethodInfo_2067B40* method);
+int32_t UniRx_TaskObservableExtensions__GetTaskContinuationOptions (UniRx_IScheduler_o* scheduler, const MethodInfo* method);
+System_IObservable_TResult__o* UniRx_TaskObservableExtensions__ToObservableResult_object_ (UniRx_AsyncSubject_TResult__o* subject, UniRx_IScheduler_o* scheduler, const MethodInfo_2067F90* method);
+System_IObservable_TResult__o* UniRx_TaskObservableExtensions__ToObservableResult_Unit_ (UniRx_AsyncSubject_TResult__o* subject, UniRx_IScheduler_o* scheduler, const MethodInfo_2068050* method);
+System_Threading_Tasks_Task_TResult__o* UniRx_TaskObservableExtensions__ToTask_object_ (System_IObservable_TResult__o* observable, const MethodInfo_2068250* method);
+System_Threading_Tasks_Task_TResult__o* UniRx_TaskObservableExtensions__ToTask_object_ (System_IObservable_TResult__o* observable, Il2CppObject* state, const MethodInfo_20682D0* method);
+System_Threading_Tasks_Task_TResult__o* UniRx_TaskObservableExtensions__ToTask_object_ (System_IObservable_TResult__o* observable, System_Threading_CancellationToken_o cancellationToken, const MethodInfo_2068350* method);
+System_Threading_Tasks_Task_TResult__o* UniRx_TaskObservableExtensions__ToTask_object_ (System_IObservable_TResult__o* observable, System_Threading_CancellationToken_o cancellationToken, Il2CppObject* state, const MethodInfo_20683D0* method);

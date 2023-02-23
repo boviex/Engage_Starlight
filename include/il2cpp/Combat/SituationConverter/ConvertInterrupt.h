@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_SituationConverter_ConvertInterrupt___ctor (Combat_SituationConverter_ConvertInterrupt_o* __this, Combat_SituationConverter_CameraDataSet_o* data, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConvertInterrupt__get_MainCamera (Combat_SituationConverter_ConvertInterrupt_o* __this, const MethodInfo* method);
+void Combat_SituationConverter_ConvertInterrupt__set_MainCamera (Combat_SituationConverter_ConvertInterrupt_o* __this, int32_t value, const MethodInfo* method);
+System_ValueTuple_bool__bool__o Combat_SituationConverter_ConvertInterrupt__get_MainInverse (Combat_SituationConverter_ConvertInterrupt_o* __this, const MethodInfo* method);
+void Combat_SituationConverter_ConvertInterrupt__set_MainInverse (Combat_SituationConverter_ConvertInterrupt_o* __this, System_ValueTuple_bool__bool__o value, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConvertInterrupt__get_InterruptCamera (Combat_SituationConverter_ConvertInterrupt_o* __this, const MethodInfo* method);
+void Combat_SituationConverter_ConvertInterrupt__set_InterruptCamera (Combat_SituationConverter_ConvertInterrupt_o* __this, int32_t value, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConvertInterrupt__Convert (Combat_SituationConverter_ConvertInterrupt_o* __this, int32_t situation, System_String_o* arg, const MethodInfo* method);

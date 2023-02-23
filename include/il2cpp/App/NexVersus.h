@@ -1,0 +1,57 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_NexVersus__OnCreate (App_NexVersus_o* __this, const MethodInfo* method);
+void App_NexVersus__OnDispose (App_NexVersus_o* __this, const MethodInfo* method);
+int32_t App_NexVersus__get_LastResult (App_NexVersus_o* __this, const MethodInfo* method);
+System_String_o* App_NexVersus__get_LastResultMessage (App_NexVersus_o* __this, const MethodInfo* method);
+uint64_t App_NexVersus__get_LastUploadedDataId (App_NexVersus_o* __this, const MethodInfo* method);
+System_Collections_Generic_List_NexVersus_RatingData__o* App_NexVersus__get_LastPersistenceRatingList (App_NexVersus_o* __this, const MethodInfo* method);
+uint16_t App_NexVersus__get_LastPersistenceDataType (App_NexVersus_o* __this, const MethodInfo* method);
+App_VersusServerReplayMetaData_o* App_NexVersus__get_LastPersistenceReplayMetaData (App_NexVersus_o* __this, const MethodInfo* method);
+App_VersusServerCasualMetaData_o* App_NexVersus__get_LastPersistenceCasualMetaData (App_NexVersus_o* __this, const MethodInfo* method);
+App_VersusServerRankedMetaData_o* App_NexVersus__get_LastPersistenceRankedMetaData (App_NexVersus_o* __this, const MethodInfo* method);
+App_VersusServerReportMetaData_o* App_NexVersus__get_LastPersistenceReportMetaData (App_NexVersus_o* __this, const MethodInfo* method);
+int32_t App_NexVersus__get_LastPersistenceStatus (App_NexVersus_o* __this, const MethodInfo* method);
+void App_NexVersus__ClearResult (App_NexVersus_o* __this, const MethodInfo* method);
+bool App_NexVersus__IsLastSuccess (App_NexVersus_o* __this, bool isDebugLog, System_String_o* title, const MethodInfo* method);
+bool App_NexVersus__IsLastFailed (App_NexVersus_o* __this, bool isDebugLog, System_String_o* title, const MethodInfo* method);
+bool App_NexVersus__IsLastCancelled (App_NexVersus_o* __this, bool isDebugLog, System_String_o* title, const MethodInfo* method);
+void App_NexVersus__Upload (App_NexVersus_o* __this, App_ProcInst_o* super, System_String_o* playerName, App_VersusServerRankedMetaData_o* metaData, App_VersusServerRankedData_o* data, uint16_t dataType, System_Byte_array* pngBytes, const MethodInfo* method);
+void App_NexVersus__UploadReplay (App_NexVersus_o* __this, App_ProcInst_o* super, App_VersusServerReplayMetaData_o* metaData, App_VersusServerReplayData_o* data, uint16_t slot, const MethodInfo* method);
+void App_NexVersus__Upload (App_NexVersus_o* __this, App_ProcInst_o* super, App_VersusServerCasualMetaData_o* metaData, App_VersusServerCasualData_o* data, const MethodInfo* method);
+void App_NexVersus__Search (App_NexVersus_o* __this, App_ProcInst_o* super, System_Collections_Generic_List_VersusServerRankedMetaData__o* results, uint16_t dataType, const MethodInfo* method);
+void App_NexVersus__Search (App_NexVersus_o* __this, App_ProcInst_o* super, System_Collections_Generic_List_VersusServerCasualMetaData__o* results, const MethodInfo* method);
+void App_NexVersus__ChangeMetaDataType (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t targetPrincipalId, uint16_t targetSlotId, uint16_t dataType, const MethodInfo* method);
+void App_NexVersus__ChangeMetaDataType (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t targetDataId, uint16_t dataType, const MethodInfo* method);
+void App_NexVersus__Download (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerRankedData_o* result, const MethodInfo* method);
+void App_NexVersus__Download (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerCasualData_o* result, const MethodInfo* method);
+void App_NexVersus__DownloadCasualMeta (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, const MethodInfo* method);
+void App_NexVersus__DownloadRankedMeta (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, const MethodInfo* method);
+void App_NexVersus__Download (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerReplayData_o* result, const MethodInfo* method);
+void App_NexVersus__AddRatingValue (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, int32_t mapResult, const MethodInfo* method);
+void App_NexVersus__GetCasualMetaDataFromPersistenceSlot (App_NexVersus_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_NexVersus__GetRankedMetaDataFromPersistenceSlot (App_NexVersus_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_NexVersus__GetReplayMetaDataFromPersistenceSlot (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t principalId, uint16_t slotId, App_NexVersus_ReplaySlotMetaResultData_o* result, const MethodInfo* method);
+void App_NexVersus__GetAllReplayMetaDataFromPersistenceSlot (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t principalId, App_NexVersus_ReplaySlotMetaResultData_o* result, const MethodInfo* method);
+void App_NexVersus__GetCasualMetaDataListFromPersistenceSlot (App_NexVersus_o* __this, App_ProcInst_o* super, System_Collections_Generic_List_ulong__o* principalIdList, System_Collections_Generic_List_VersusServerCasualMetaData__o* resultDataList, const MethodInfo* method);
+void App_NexVersus__GetRankedMetaDataListFromPersistenceSlot (App_NexVersus_o* __this, App_ProcInst_o* super, System_Collections_Generic_List_ulong__o* principalIdList, System_Collections_Generic_List_VersusServerRankedMetaData__o* resultDataList, System_Collections_Generic_List_List_NexVersus_RatingData___o* resultRatingList, const MethodInfo* method);
+void App_NexVersus__Change (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerCasualData_o* data, const MethodInfo* method);
+void App_NexVersus__Change (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerRankedData_o* data, const MethodInfo* method);
+void App_NexVersus__ChangeMeta (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerRankedMetaData_o* metaData, System_String_o* playerName, const MethodInfo* method);
+void App_NexVersus__ChangeMeta (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerRankedMetaData_o* metaData, const MethodInfo* method);
+void App_NexVersus__ChangeReplayMeta (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, App_VersusServerReplayMetaData_o* metaData, bool isSetMetaPatam, bool isShowDialog, const MethodInfo* method);
+void App_NexVersus__ChangeReplayMeta (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t principalId, uint16_t slotId, App_VersusServerReplayMetaData_o* metaData, bool isSetMetaParam, bool isShowDialog, const MethodInfo* method);
+void App_NexVersus__ChangeReplay (App_NexVersus_o* __this, App_ProcInst_o* super, App_VersusServerReplayMetaData_o* metaData, App_VersusServerReplayData_o* data, const MethodInfo* method);
+void App_NexVersus__ReportOpponent (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t dataId, uint64_t screenshotId, int32_t category, System_String_o* reason, System_String_o* language, bool isNotSendSucceed, const MethodInfo* method);
+bool App_NexVersus__TryGetPrincipalId (App_NexVersus_o* __this, uint64_t* principalId, const MethodInfo* method);
+System_String_o* App_NexVersus__DataId2DataCode (App_NexVersus_o* __this, uint64_t dataId, const MethodInfo* method);
+uint64_t App_NexVersus__DataCode2DataId (App_NexVersus_o* __this, System_String_o* dataCode, const MethodInfo* method);
+System_String_o* App_NexVersus__GetDataTypeName (uint16_t dataType, const MethodInfo* method);
+void App_NexVersus__UploadReport (App_NexVersus_o* __this, App_ProcInst_o* super, App_VersusServerReportMetaData_o* metaData, int32_t type, const MethodInfo* method);
+void App_NexVersus__CheckAccessibleCasualSlot (App_NexVersus_o* __this, App_ProcInst_o* super, App_NexVersus_TargetSlotList_o* targetInfoList, App_NexVersus_EndCallback_o* endCallback, const MethodInfo* method);
+void App_NexVersus__CheckAccessibleRankedSlot (App_NexVersus_o* __this, App_ProcInst_o* super, App_NexVersus_TargetSlotList_o* targetInfoList, App_NexVersus_EndCallback_o* endCallback, const MethodInfo* method);
+void App_NexVersus__DownloadCasualMetaPrincipalID (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t principalID, App_NexVersus_CasualMetaDataEndCallback_o* endCallback, const MethodInfo* method);
+void App_NexVersus__DownloadRankedMetaPrincipalID (App_NexVersus_o* __this, App_ProcInst_o* super, uint64_t principalID, App_NexVersus_RankedMetaDataEndCallback_o* endCallback, const MethodInfo* method);
+void App_NexVersus___ctor (App_NexVersus_o* __this, const MethodInfo* method);

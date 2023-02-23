@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_ArrayList_o* System_Collections_ReadOnlyCollectionBase__get_InnerList (System_Collections_ReadOnlyCollectionBase_o* __this, const MethodInfo* method);
+int32_t System_Collections_ReadOnlyCollectionBase__get_Count (System_Collections_ReadOnlyCollectionBase_o* __this, const MethodInfo* method);
+bool System_Collections_ReadOnlyCollectionBase__System_Collections_ICollection_get_IsSynchronized (System_Collections_ReadOnlyCollectionBase_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_ReadOnlyCollectionBase__System_Collections_ICollection_get_SyncRoot (System_Collections_ReadOnlyCollectionBase_o* __this, const MethodInfo* method);
+void System_Collections_ReadOnlyCollectionBase__System_Collections_ICollection_CopyTo (System_Collections_ReadOnlyCollectionBase_o* __this, System_Array_o* array, int32_t index, const MethodInfo* method);
+System_Collections_IEnumerator_o* System_Collections_ReadOnlyCollectionBase__GetEnumerator (System_Collections_ReadOnlyCollectionBase_o* __this, const MethodInfo* method);
+void System_Collections_ReadOnlyCollectionBase___ctor (System_Collections_ReadOnlyCollectionBase_o* __this, const MethodInfo* method);

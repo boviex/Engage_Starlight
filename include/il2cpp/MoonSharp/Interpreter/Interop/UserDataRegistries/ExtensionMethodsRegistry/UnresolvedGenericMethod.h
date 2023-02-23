@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_UserDataRegistries_ExtensionMethodsRegistry_UnresolvedGenericMethod___ctor (MoonSharp_Interpreter_Interop_UserDataRegistries_ExtensionMethodsRegistry_UnresolvedGenericMethod_o* __this, System_Reflection_MethodInfo_o* mi, int32_t mode, const MethodInfo* method);

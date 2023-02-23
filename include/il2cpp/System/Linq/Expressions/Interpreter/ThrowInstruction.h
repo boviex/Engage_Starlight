@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_ThrowInstruction___ctor (System_Linq_Expressions_Interpreter_ThrowInstruction_o* __this, bool hasResult, bool isRethrow, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_ThrowInstruction__get_InstructionName (System_Linq_Expressions_Interpreter_ThrowInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_ThrowInstruction__get_ProducedStack (System_Linq_Expressions_Interpreter_ThrowInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_ThrowInstruction__get_ConsumedStack (System_Linq_Expressions_Interpreter_ThrowInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_ThrowInstruction__Run (System_Linq_Expressions_Interpreter_ThrowInstruction_o* __this, System_Linq_Expressions_Interpreter_InterpretedFrame_o* frame, const MethodInfo* method);
+System_Exception_o* System_Linq_Expressions_Interpreter_ThrowInstruction__WrapThrownObject (Il2CppObject* thrown, const MethodInfo* method);
+System_Runtime_CompilerServices_RuntimeWrappedException_o* System_Linq_Expressions_Interpreter_ThrowInstruction__RuntimeWrap (Il2CppObject* thrown, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_ThrowInstruction___cctor (const MethodInfo* method);

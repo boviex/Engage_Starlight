@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_Converters_ClrToScriptConversions__TryObjectToTrivialDynValue (MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_Converters_ClrToScriptConversions__TryObjectToSimpleDynValue (MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_Converters_ClrToScriptConversions__ObjectToDynValue (MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_Converters_ClrToScriptConversions__EnumerationToDynValue (MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, const MethodInfo* method);

@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool Combat_SituationConverter_ConverterWithUt__get_IsOnAttack (const MethodInfo* method);
+bool Combat_SituationConverter_ConverterWithUt__get_IsOnDamage (const MethodInfo* method);
+void Combat_SituationConverter_ConverterWithUt__set_IsOnDamage (bool value, const MethodInfo* method);
+bool Combat_SituationConverter_ConverterWithUt__get_IsPlayerDragon (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+bool Combat_SituationConverter_ConverterWithUt__get_IsEnemyDragon (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__get_FullFigureCamera (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+bool Combat_SituationConverter_ConverterWithUt__get_IsFullFigure (const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__get_CurrentPosition (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+void Combat_SituationConverter_ConverterWithUt___ctor (Combat_SituationConverter_ConverterWithUt_o* __this, Combat_SituationConverter_CameraDataSet_o* data, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__Convert (Combat_SituationConverter_ConverterWithUt_o* __this, int32_t situation, System_String_o* arg, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__OnBegin (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__OnApproach (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__OnAttack (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__OnDamage (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__OnUnusable (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);
+int32_t Combat_SituationConverter_ConverterWithUt__OnEnd (Combat_SituationConverter_ConverterWithUt_o* __this, const MethodInfo* method);

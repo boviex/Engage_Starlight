@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_MapEnum_MoveEnumerator_o App_MapEnum_MoveEnumerator__Setup (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+void App_MapEnum_MoveEnumerator__Dispose (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+App_MapRange_o App_MapEnum_MoveEnumerator__get_Current (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+Il2CppObject* App_MapEnum_MoveEnumerator__System_Collections_IEnumerator_get_Current (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+bool App_MapEnum_MoveEnumerator__MoveNext (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+void App_MapEnum_MoveEnumerator__Reset (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerator_MapRange__o* App_MapEnum_MoveEnumerator__System_Collections_Generic_IEnumerable_App_MapRange__GetEnumerator (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_MapEnum_MoveEnumerator__System_Collections_IEnumerable_GetEnumerator (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);
+App_MapEnum_MoveEnumerator_o App_MapEnum_MoveEnumerator__GetEnumerator (App_MapEnum_MoveEnumerator_o __this, const MethodInfo* method);

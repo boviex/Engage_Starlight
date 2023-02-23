@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_TypedStringToValueMap___c__DisplayClass13_0___ctor (UTJ_TypedStringToValueMap___c__DisplayClass13_0_o* __this, const MethodInfo* method);
+bool UTJ_TypedStringToValueMap___c__DisplayClass13_0___GetKey_b__0 (UTJ_TypedStringToValueMap___c__DisplayClass13_0_o* __this, System_Collections_Generic_KeyValuePair_string__object__o item, const MethodInfo* method);

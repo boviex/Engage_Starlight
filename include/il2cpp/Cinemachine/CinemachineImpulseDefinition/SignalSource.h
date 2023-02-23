@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineImpulseDefinition_SignalSource___ctor (Cinemachine_CinemachineImpulseDefinition_SignalSource_o* __this, Cinemachine_CinemachineImpulseDefinition_o* def, UnityEngine_Vector3_o velocity, const MethodInfo* method);
+float Cinemachine_CinemachineImpulseDefinition_SignalSource__get_SignalDuration (Cinemachine_CinemachineImpulseDefinition_SignalSource_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseDefinition_SignalSource__GetSignal (Cinemachine_CinemachineImpulseDefinition_SignalSource_o* __this, float timeSinceSignalStart, UnityEngine_Vector3_o* pos, UnityEngine_Quaternion_o* rot, const MethodInfo* method);

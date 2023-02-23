@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ParticleSystem_EmissionModule___ctor (UnityEngine_ParticleSystem_EmissionModule_o __this, UnityEngine_ParticleSystem_o* particleSystem, const MethodInfo* method);
+bool UnityEngine_ParticleSystem_EmissionModule__get_enabled (UnityEngine_ParticleSystem_EmissionModule_o __this, const MethodInfo* method);
+void UnityEngine_ParticleSystem_EmissionModule__set_enabled (UnityEngine_ParticleSystem_EmissionModule_o __this, bool value, const MethodInfo* method);
+void UnityEngine_ParticleSystem_EmissionModule__set_rateOverTime (UnityEngine_ParticleSystem_EmissionModule_o __this, UnityEngine_ParticleSystem_MinMaxCurve_o value, const MethodInfo* method);
+float UnityEngine_ParticleSystem_EmissionModule__get_rateOverTimeMultiplier (UnityEngine_ParticleSystem_EmissionModule_o __this, const MethodInfo* method);
+bool UnityEngine_ParticleSystem_EmissionModule__get_enabled_Injected (UnityEngine_ParticleSystem_EmissionModule_o* _unity_self, const MethodInfo* method);
+void UnityEngine_ParticleSystem_EmissionModule__set_enabled_Injected (UnityEngine_ParticleSystem_EmissionModule_o* _unity_self, bool value, const MethodInfo* method);
+void UnityEngine_ParticleSystem_EmissionModule__set_rateOverTime_Injected (UnityEngine_ParticleSystem_EmissionModule_o* _unity_self, UnityEngine_ParticleSystem_MinMaxCurve_o* value, const MethodInfo* method);
+float UnityEngine_ParticleSystem_EmissionModule__get_rateOverTimeMultiplier_Injected (UnityEngine_ParticleSystem_EmissionModule_o* _unity_self, const MethodInfo* method);

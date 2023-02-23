@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_VsCodeDebugger_SDK_Breakpoint_array* MoonSharp_VsCodeDebugger_SDK_SetBreakpointsResponseBody__get_breakpoints (MoonSharp_VsCodeDebugger_SDK_SetBreakpointsResponseBody_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_SetBreakpointsResponseBody__set_breakpoints (MoonSharp_VsCodeDebugger_SDK_SetBreakpointsResponseBody_o* __this, MoonSharp_VsCodeDebugger_SDK_Breakpoint_array* value, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_SetBreakpointsResponseBody___ctor (MoonSharp_VsCodeDebugger_SDK_SetBreakpointsResponseBody_o* __this, System_Collections_Generic_List_Breakpoint__o* bpts, const MethodInfo* method);

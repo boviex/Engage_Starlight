@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_WhereSelectObservable_bool__bool____ctor (UniRx_Operators_WhereSelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__bool__o* predicate, System_Func_T__TR__o* selector, const MethodInfo_39F2090* method);
+void UniRx_Operators_WhereSelectObservable_object__bool____ctor (UniRx_Operators_WhereSelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__bool__o* predicate, System_Func_T__TR__o* selector, const MethodInfo_39F2230* method);
+void UniRx_Operators_WhereSelectObservable_object__object____ctor (UniRx_Operators_WhereSelectObservable_T__TR__o* __this, System_IObservable_T__o* source, System_Func_T__bool__o* predicate, System_Func_T__TR__o* selector, const MethodInfo_39F23D0* method);
+System_IDisposable_o* UniRx_Operators_WhereSelectObservable_bool__bool___SubscribeCore (UniRx_Operators_WhereSelectObservable_T__TR__o* __this, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_39F2130* method);
+System_IDisposable_o* UniRx_Operators_WhereSelectObservable_object__bool___SubscribeCore (UniRx_Operators_WhereSelectObservable_T__TR__o* __this, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_39F22D0* method);
+System_IDisposable_o* UniRx_Operators_WhereSelectObservable_object__object___SubscribeCore (UniRx_Operators_WhereSelectObservable_T__TR__o* __this, System_IObserver_TR__o* observer, System_IDisposable_o* cancel, const MethodInfo_39F2470* method);

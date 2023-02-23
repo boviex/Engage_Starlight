@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Vertex__Reset (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Vertex_o* __this, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Vertex___ctor (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Vertex_o* __this, const MethodInfo* method);

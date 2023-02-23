@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem___ctor (App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem_o* __this, int32_t cost, App_InvestmentMenu_InvestmentMenuItem_o* parent, const MethodInfo* method);
+void App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem__SetTextColor (App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem_o* __this, UnityEngine_Color_o color, bool bInactive, const MethodInfo* method);
+void App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem__OnSelect (App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem_o* __this, const MethodInfo* method);
+int32_t App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem__BuildAttribute (App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem_o* __this, const MethodInfo* method);
+int32_t App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem__ACall (App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem_o* __this, const MethodInfo* method);

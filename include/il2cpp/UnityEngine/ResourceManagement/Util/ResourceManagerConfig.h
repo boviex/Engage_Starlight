@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_ResourceManagement_Util_ResourceManagerConfig__ExtractKeyAndSubKey (Il2CppObject* keyObj, System_String_o** mainKey, System_String_o** subKey, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_ResourceManagerConfig__IsPathRemote (System_String_o* path, const MethodInfo* method);
+System_String_o* UnityEngine_ResourceManagement_Util_ResourceManagerConfig__StripQueryParameters (System_String_o* path, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_ResourceManagerConfig__ShouldPathUseWebRequest (System_String_o* path, const MethodInfo* method);
+System_Array_o* UnityEngine_ResourceManagement_Util_ResourceManagerConfig__CreateArrayResult (System_Type_o* type, UnityEngine_Object_array* allAssets, const MethodInfo* method);
+Il2CppObject* UnityEngine_ResourceManagement_Util_ResourceManagerConfig__CreateArrayResult_object_ (UnityEngine_Object_array* allAssets, const MethodInfo_205BC80* method);
+System_Collections_IList_o* UnityEngine_ResourceManagement_Util_ResourceManagerConfig__CreateListResult (System_Type_o* type, UnityEngine_Object_array* allAssets, const MethodInfo* method);
+Il2CppObject* UnityEngine_ResourceManagement_Util_ResourceManagerConfig__CreateListResult_object_ (UnityEngine_Object_array* allAssets, const MethodInfo_205BD80* method);
+bool UnityEngine_ResourceManagement_Util_ResourceManagerConfig__IsInstance_object__object_ (const MethodInfo_205BE60* method);

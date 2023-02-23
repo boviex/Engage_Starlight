@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Loaders_InvalidScriptLoader___ctor (MoonSharp_Interpreter_Loaders_InvalidScriptLoader_o* __this, System_String_o* frameworkname, const MethodInfo* method);
+Il2CppObject* MoonSharp_Interpreter_Loaders_InvalidScriptLoader__LoadFile (MoonSharp_Interpreter_Loaders_InvalidScriptLoader_o* __this, System_String_o* file, MoonSharp_Interpreter_Table_o* globalContext, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Loaders_InvalidScriptLoader__ResolveFileName (MoonSharp_Interpreter_Loaders_InvalidScriptLoader_o* __this, System_String_o* filename, MoonSharp_Interpreter_Table_o* globalContext, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Loaders_InvalidScriptLoader__ResolveModuleName (MoonSharp_Interpreter_Loaders_InvalidScriptLoader_o* __this, System_String_o* modname, MoonSharp_Interpreter_Table_o* globalContext, const MethodInfo* method);

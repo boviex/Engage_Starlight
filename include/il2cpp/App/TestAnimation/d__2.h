@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_TestAnimation__Coroutine_d__2___ctor (App_TestAnimation__Coroutine_d__2_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_TestAnimation__Coroutine_d__2__System_IDisposable_Dispose (App_TestAnimation__Coroutine_d__2_o* __this, const MethodInfo* method);
+bool App_TestAnimation__Coroutine_d__2__MoveNext (App_TestAnimation__Coroutine_d__2_o* __this, const MethodInfo* method);
+Il2CppObject* App_TestAnimation__Coroutine_d__2__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_TestAnimation__Coroutine_d__2_o* __this, const MethodInfo* method);
+void App_TestAnimation__Coroutine_d__2__System_Collections_IEnumerator_Reset (App_TestAnimation__Coroutine_d__2_o* __this, const MethodInfo* method);
+Il2CppObject* App_TestAnimation__Coroutine_d__2__System_Collections_IEnumerator_get_Current (App_TestAnimation__Coroutine_d__2_o* __this, const MethodInfo* method);

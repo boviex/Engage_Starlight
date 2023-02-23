@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_Interpreter_Loaders_ScriptLoaderBase__ResolveModuleName (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, System_String_o* modname, System_String_array* paths, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Loaders_ScriptLoaderBase__ResolveModuleName (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, System_String_o* modname, MoonSharp_Interpreter_Table_o* globalContext, const MethodInfo* method);
+System_String_array* MoonSharp_Interpreter_Loaders_ScriptLoaderBase__get_ModulePaths (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Loaders_ScriptLoaderBase__set_ModulePaths (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, System_String_array* value, const MethodInfo* method);
+System_String_array* MoonSharp_Interpreter_Loaders_ScriptLoaderBase__UnpackStringPaths (System_String_o* str, const MethodInfo* method);
+System_String_array* MoonSharp_Interpreter_Loaders_ScriptLoaderBase__GetDefaultEnvironmentPaths (const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Loaders_ScriptLoaderBase__ResolveFileName (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, System_String_o* filename, MoonSharp_Interpreter_Table_o* globalContext, const MethodInfo* method);
+bool MoonSharp_Interpreter_Loaders_ScriptLoaderBase__get_IgnoreLuaPathGlobal (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Loaders_ScriptLoaderBase__set_IgnoreLuaPathGlobal (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, bool value, const MethodInfo* method);
+void MoonSharp_Interpreter_Loaders_ScriptLoaderBase___ctor (MoonSharp_Interpreter_Loaders_ScriptLoaderBase_o* __this, const MethodInfo* method);

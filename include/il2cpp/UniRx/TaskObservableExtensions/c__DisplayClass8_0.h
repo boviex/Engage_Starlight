@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_TaskObservableExtensions___c__DisplayClass8_0_object____ctor (UniRx_TaskObservableExtensions___c__DisplayClass8_0_TResult__o* __this, const MethodInfo_2B86EA0* method);
+void UniRx_TaskObservableExtensions___c__DisplayClass8_0_object____ToObservableSlow_b__0 (UniRx_TaskObservableExtensions___c__DisplayClass8_0_TResult__o* __this, System_Threading_Tasks_Task_TResult__o* t, const MethodInfo_2B86EB0* method);

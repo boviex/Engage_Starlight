@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_InteractionObject_AnimatorEvent__Activate (RootMotion_FinalIK_InteractionObject_AnimatorEvent_o* __this, bool pickUp, const MethodInfo* method);
+void RootMotion_FinalIK_InteractionObject_AnimatorEvent__Activate (RootMotion_FinalIK_InteractionObject_AnimatorEvent_o* __this, UnityEngine_Animator_o* animator, const MethodInfo* method);
+void RootMotion_FinalIK_InteractionObject_AnimatorEvent__Activate (RootMotion_FinalIK_InteractionObject_AnimatorEvent_o* __this, UnityEngine_Animation_o* animation, const MethodInfo* method);
+void RootMotion_FinalIK_InteractionObject_AnimatorEvent___ctor (RootMotion_FinalIK_InteractionObject_AnimatorEvent_o* __this, const MethodInfo* method);

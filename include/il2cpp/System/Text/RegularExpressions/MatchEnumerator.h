@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Text_RegularExpressions_MatchEnumerator___ctor (System_Text_RegularExpressions_MatchEnumerator_o* __this, System_Text_RegularExpressions_MatchCollection_o* matchcoll, const MethodInfo* method);
+bool System_Text_RegularExpressions_MatchEnumerator__MoveNext (System_Text_RegularExpressions_MatchEnumerator_o* __this, const MethodInfo* method);
+Il2CppObject* System_Text_RegularExpressions_MatchEnumerator__get_Current (System_Text_RegularExpressions_MatchEnumerator_o* __this, const MethodInfo* method);
+void System_Text_RegularExpressions_MatchEnumerator__Reset (System_Text_RegularExpressions_MatchEnumerator_o* __this, const MethodInfo* method);

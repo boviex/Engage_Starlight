@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_RotationLimitHinge__OpenUserManual (RootMotion_FinalIK_RotationLimitHinge_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitHinge__OpenScriptReference (RootMotion_FinalIK_RotationLimitHinge_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitHinge__SupportGroup (RootMotion_FinalIK_RotationLimitHinge_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitHinge__ASThread (RootMotion_FinalIK_RotationLimitHinge_o* __this, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_RotationLimitHinge__LimitRotation (RootMotion_FinalIK_RotationLimitHinge_o* __this, UnityEngine_Quaternion_o rotation, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_RotationLimitHinge__LimitHinge (RootMotion_FinalIK_RotationLimitHinge_o* __this, UnityEngine_Quaternion_o rotation, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitHinge___ctor (RootMotion_FinalIK_RotationLimitHinge_o* __this, const MethodInfo* method);

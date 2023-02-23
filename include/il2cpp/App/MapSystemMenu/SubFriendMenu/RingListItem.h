@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MapSystemMenu_SubFriendMenu_RingListItem__get_FlagID (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubFriendMenu_RingListItem__GetName (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubFriendMenu_RingListItem__GetHelpText (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_RingListItem__GetMapAttribute (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_RingListItem__BuildAttribute (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_RingListItem__ACall (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubFriendMenu_RingListItem__BCall (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);
+void App_MapSystemMenu_SubFriendMenu_RingListItem___ctor (App_MapSystemMenu_SubFriendMenu_RingListItem_o* __this, const MethodInfo* method);

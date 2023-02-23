@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_Universal_Internal_SortPrePunctualLight__Compare (UnityEngine_Rendering_Universal_Internal_SortPrePunctualLight_o* __this, UnityEngine_Rendering_Universal_Internal_DeferredTiler_PrePunctualLight_o a, UnityEngine_Rendering_Universal_Internal_DeferredTiler_PrePunctualLight_o b, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_SortPrePunctualLight___ctor (UnityEngine_Rendering_Universal_Internal_SortPrePunctualLight_o* __this, const MethodInfo* method);

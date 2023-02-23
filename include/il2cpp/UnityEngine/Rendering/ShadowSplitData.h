@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_ShadowSplitData__get_cullingPlaneCount (UnityEngine_Rendering_ShadowSplitData_o __this, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_ShadowSplitData__get_cullingSphere (UnityEngine_Rendering_ShadowSplitData_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_ShadowSplitData__set_cullingSphere (UnityEngine_Rendering_ShadowSplitData_o __this, UnityEngine_Vector4_o value, const MethodInfo* method);
+void UnityEngine_Rendering_ShadowSplitData__set_shadowCascadeBlendCullingFactor (UnityEngine_Rendering_ShadowSplitData_o __this, float value, const MethodInfo* method);
+UnityEngine_Plane_o UnityEngine_Rendering_ShadowSplitData__GetCullingPlane (UnityEngine_Rendering_ShadowSplitData_o __this, int32_t index, const MethodInfo* method);
+bool UnityEngine_Rendering_ShadowSplitData__Equals (UnityEngine_Rendering_ShadowSplitData_o __this, UnityEngine_Rendering_ShadowSplitData_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_ShadowSplitData__Equals (UnityEngine_Rendering_ShadowSplitData_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_ShadowSplitData__GetHashCode (UnityEngine_Rendering_ShadowSplitData_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_ShadowSplitData___cctor (const MethodInfo* method);

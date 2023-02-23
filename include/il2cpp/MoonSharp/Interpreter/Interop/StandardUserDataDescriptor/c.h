@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_StandardUserDataDescriptor___c___cctor (const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_StandardUserDataDescriptor___c___ctor (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor___c_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_StandardUserDataDescriptor___c___FillMemberList_b__5_0 (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor___c_o* __this, MoonSharp_Interpreter_MoonSharpHideMemberAttribute_o* a, const MethodInfo* method);

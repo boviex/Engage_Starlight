@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RingGachaSequence__Start_d__36___ctor (App_RingGachaSequence__Start_d__36_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_RingGachaSequence__Start_d__36__System_IDisposable_Dispose (App_RingGachaSequence__Start_d__36_o* __this, const MethodInfo* method);
+bool App_RingGachaSequence__Start_d__36__MoveNext (App_RingGachaSequence__Start_d__36_o* __this, const MethodInfo* method);
+Il2CppObject* App_RingGachaSequence__Start_d__36__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_RingGachaSequence__Start_d__36_o* __this, const MethodInfo* method);
+void App_RingGachaSequence__Start_d__36__System_Collections_IEnumerator_Reset (App_RingGachaSequence__Start_d__36_o* __this, const MethodInfo* method);
+Il2CppObject* App_RingGachaSequence__Start_d__36__System_Collections_IEnumerator_get_Current (App_RingGachaSequence__Start_d__36_o* __this, const MethodInfo* method);

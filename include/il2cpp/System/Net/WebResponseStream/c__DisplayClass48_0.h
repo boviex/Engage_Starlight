@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Net_WebResponseStream___c__DisplayClass48_0___ctor (System_Net_WebResponseStream___c__DisplayClass48_0_o* __this, const MethodInfo* method);
+System_Threading_Tasks_Task_ValueTuple_int__int___o* System_Net_WebResponseStream___c__DisplayClass48_0___ReadAsync_b__0 (System_Net_WebResponseStream___c__DisplayClass48_0_o* __this, System_Threading_CancellationToken_o ct, const MethodInfo* method);
+void System_Net_WebResponseStream___c__DisplayClass48_0___ReadAsync_b__1 (System_Net_WebResponseStream___c__DisplayClass48_0_o* __this, const MethodInfo* method);

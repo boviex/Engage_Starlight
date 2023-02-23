@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishAllMenuContent_DishHistory___ctor (App_CookingMenu_DishAllMenuContent_DishHistory_o* __this, UnityEngine_GameObject_o* gameObject, TMPro_TextMeshProUGUI_o* foodName, UnityEngine_GameObject_o* difficultyIcon, TMPro_TextMeshProUGUI_o* foodDifficulty, System_Collections_Generic_List_DishAllMenuContent_EnhanceObject__o* enhanceObjectList, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_DishHistory__Show (App_CookingMenu_DishAllMenuContent_DishHistory_o* __this, App_FoodData_o* food, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_DishHistory__Hide (App_CookingMenu_DishAllMenuContent_DishHistory_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishAllMenuContent_DishHistory__SetFoodInfo (App_CookingMenu_DishAllMenuContent_DishHistory_o* __this, App_FoodData_o* food, const MethodInfo* method);
+int32_t App_CookingMenu_DishAllMenuContent_DishHistory__GetEnhanceType (App_CookingMenu_DishAllMenuContent_DishHistory_o* __this, int32_t index, const MethodInfo* method);

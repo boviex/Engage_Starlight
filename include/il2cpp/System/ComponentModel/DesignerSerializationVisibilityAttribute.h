@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_ComponentModel_DesignerSerializationVisibilityAttribute___ctor (System_ComponentModel_DesignerSerializationVisibilityAttribute_o* __this, int32_t visibility, const MethodInfo* method);
+int32_t System_ComponentModel_DesignerSerializationVisibilityAttribute__get_Visibility (System_ComponentModel_DesignerSerializationVisibilityAttribute_o* __this, const MethodInfo* method);
+bool System_ComponentModel_DesignerSerializationVisibilityAttribute__Equals (System_ComponentModel_DesignerSerializationVisibilityAttribute_o* __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t System_ComponentModel_DesignerSerializationVisibilityAttribute__GetHashCode (System_ComponentModel_DesignerSerializationVisibilityAttribute_o* __this, const MethodInfo* method);
+void System_ComponentModel_DesignerSerializationVisibilityAttribute___cctor (const MethodInfo* method);

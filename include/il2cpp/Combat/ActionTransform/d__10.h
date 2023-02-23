@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_ActionTransform__Transform_d__10___ctor (Combat_ActionTransform__Transform_d__10_o* __this, int32_t __1__state, const MethodInfo* method);
+void Combat_ActionTransform__Transform_d__10__System_IDisposable_Dispose (Combat_ActionTransform__Transform_d__10_o* __this, const MethodInfo* method);
+bool Combat_ActionTransform__Transform_d__10__MoveNext (Combat_ActionTransform__Transform_d__10_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_ActionTransform__Transform_d__10__System_Collections_Generic_IEnumerator_System_Object__get_Current (Combat_ActionTransform__Transform_d__10_o* __this, const MethodInfo* method);
+void Combat_ActionTransform__Transform_d__10__System_Collections_IEnumerator_Reset (Combat_ActionTransform__Transform_d__10_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_ActionTransform__Transform_d__10__System_Collections_IEnumerator_get_Current (Combat_ActionTransform__Transform_d__10_o* __this, const MethodInfo* method);

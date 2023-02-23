@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RankingSequence_UploadPairsMenu_UploadGodMenuItem___ctor (App_RankingSequence_UploadPairsMenu_UploadGodMenuItem_o* __this, const MethodInfo* method);
+bool App_RankingSequence_UploadPairsMenu_UploadGodMenuItem__IsEnable (App_RankingSequence_UploadPairsMenu_UploadGodMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_RankingSequence_UploadPairsMenu_UploadGodMenuItem__GetName (App_RankingSequence_UploadPairsMenu_UploadGodMenuItem_o* __this, const MethodInfo* method);
+void App_RankingSequence_UploadPairsMenu_UploadGodMenuItem__OnLeftRight (App_RankingSequence_UploadPairsMenu_UploadGodMenuItem_o* __this, int32_t step, bool isTrigger, const MethodInfo* method);
+System_String_o* App_RankingSequence_UploadPairsMenu_UploadGodMenuItem__GetHelp (App_RankingSequence_UploadPairsMenu_UploadGodMenuItem_o* __this, const MethodInfo* method);

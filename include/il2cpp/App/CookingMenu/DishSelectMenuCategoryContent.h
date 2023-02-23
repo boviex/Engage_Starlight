@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishSelectMenuCategoryContent__Awake (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenuCategoryContent__Initialize (const MethodInfo* method);
+bool App_CookingMenu_DishSelectMenuCategoryContent__Next (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, bool isTrigger, const MethodInfo* method);
+bool App_CookingMenu_DishSelectMenuCategoryContent__Prev (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, bool isTrigger, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenuCategoryContent__InitObject (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, const MethodInfo* method);
+bool App_CookingMenu_DishSelectMenuCategoryContent__CheckEnable (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, App_CookingMenu_DishSelectMenuCategoryContent_CategoryObject_o* category, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenuCategoryContent__SetActive (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, UnityEngine_GameObject_o* gameObject, bool value, const MethodInfo* method);
+int32_t App_CookingMenu_DishSelectMenuCategoryContent__GetCountry (int32_t category, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenuCategoryContent__UpdateIndex (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, const MethodInfo* method);
+bool App_CookingMenu_DishSelectMenuCategoryContent__IsSetup (const MethodInfo* method);
+bool App_CookingMenu_DishSelectMenuCategoryContent__IsRecommended (const MethodInfo* method);
+bool App_CookingMenu_DishSelectMenuCategoryContent__IsInitRecommended (const MethodInfo* method);
+int32_t App_CookingMenu_DishSelectMenuCategoryContent__GetCountry (const MethodInfo* method);
+int32_t App_CookingMenu_DishSelectMenuCategoryContent__GetIndex (const MethodInfo* method);
+int32_t App_CookingMenu_DishSelectMenuCategoryContent__GetOldIndex (const MethodInfo* method);
+void App_CookingMenu_DishSelectMenuCategoryContent___ctor (App_CookingMenu_DishSelectMenuCategoryContent_o* __this, const MethodInfo* method);

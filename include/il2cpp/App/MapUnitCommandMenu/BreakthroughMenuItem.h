@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapUnitCommandMenu_BreakthroughMenuItem__OnBuild (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_BreakthroughMenuItem__OnBuildMenuItemContent (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_BreakthroughMenuItem__get_FlagID (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_BreakthroughMenuItem__GetName (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_BreakthroughMenuItem__GetCommandHelp (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_BreakthroughMenuItem__GetMapAttribute (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_BreakthroughMenuItem__ACall (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_BreakthroughMenuItem___ctor (App_MapUnitCommandMenu_BreakthroughMenuItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferDesc___ctor (UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferDesc_o __this, int32_t count, int32_t stride, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferDesc___ctor (UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferDesc_o __this, int32_t count, int32_t stride, int32_t type, const MethodInfo* method);
+int32_t UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferDesc__GetHashCode (UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferDesc_o __this, const MethodInfo* method);

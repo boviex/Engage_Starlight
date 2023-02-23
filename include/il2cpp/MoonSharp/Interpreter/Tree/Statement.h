@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Tree_Statement___ctor (MoonSharp_Interpreter_Tree_Statement_o* __this, MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, const MethodInfo* method);
+MoonSharp_Interpreter_Tree_Statement_o* MoonSharp_Interpreter_Tree_Statement__CreateStatement (MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, bool* forceLast, const MethodInfo* method);
+MoonSharp_Interpreter_Tree_Statement_o* MoonSharp_Interpreter_Tree_Statement__DispatchForLoopStatement (MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, const MethodInfo* method);

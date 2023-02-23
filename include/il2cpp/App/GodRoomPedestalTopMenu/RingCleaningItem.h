@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GodRoomPedestalTopMenu_RingCleaningItem___ctor (App_GodRoomPedestalTopMenu_RingCleaningItem_o* __this, App_GodRoomPedestalTopMenu_DecideEventHandler_o* eventHandler, const MethodInfo* method);
+System_String_o* App_GodRoomPedestalTopMenu_RingCleaningItem__GetName (App_GodRoomPedestalTopMenu_RingCleaningItem_o* __this, const MethodInfo* method);
+int32_t App_GodRoomPedestalTopMenu_RingCleaningItem__BuildAttribute (App_GodRoomPedestalTopMenu_RingCleaningItem_o* __this, const MethodInfo* method);
+int32_t App_GodRoomPedestalTopMenu_RingCleaningItem__ACall (App_GodRoomPedestalTopMenu_RingCleaningItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IEnumerable_ICancelablePromise__o* UniRx_Async_Triggers_AsyncPointerUpTrigger__GetPromises (UniRx_Async_Triggers_AsyncPointerUpTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncPointerUpTrigger__OnPointerUp (UniRx_Async_Triggers_AsyncPointerUpTrigger_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncPointerUpTrigger__OnPointerUpAsync (UniRx_Async_Triggers_AsyncPointerUpTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncPointerUpTrigger___ctor (UniRx_Async_Triggers_AsyncPointerUpTrigger_o* __this, const MethodInfo* method);

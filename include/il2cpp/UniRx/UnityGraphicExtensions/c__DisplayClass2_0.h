@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_UnityGraphicExtensions___c__DisplayClass2_0___ctor (UniRx_UnityGraphicExtensions___c__DisplayClass2_0_o* __this, const MethodInfo* method);
+System_IDisposable_o* UniRx_UnityGraphicExtensions___c__DisplayClass2_0___DirtyVerticesCallbackAsObservable_b__0 (UniRx_UnityGraphicExtensions___c__DisplayClass2_0_o* __this, System_IObserver_Unit__o* observer, const MethodInfo* method);

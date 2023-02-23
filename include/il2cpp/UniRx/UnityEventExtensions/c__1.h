@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_UnityEventExtensions___c__1_bool____cctor (const MethodInfo_2B79F00* method);
+void UniRx_UnityEventExtensions___c__1_int____cctor (const MethodInfo_2B7A060* method);
+void UniRx_UnityEventExtensions___c__1_object____cctor (const MethodInfo_2B7A2D0* method);
+void UniRx_UnityEventExtensions___c__1_float____cctor (const MethodInfo_2B7A560* method);
+void UniRx_UnityEventExtensions___c__1_Vector2____cctor (const MethodInfo_2B7A6C0* method);
+void UniRx_UnityEventExtensions___c__1_bool____ctor (UniRx_UnityEventExtensions___c__1_T__o* __this, const MethodInfo_2B79FE0* method);
+void UniRx_UnityEventExtensions___c__1_int____ctor (UniRx_UnityEventExtensions___c__1_T__o* __this, const MethodInfo_2B7A140* method);
+void UniRx_UnityEventExtensions___c__1_object____ctor (UniRx_UnityEventExtensions___c__1_T__o* __this, const MethodInfo_2B7A3B0* method);
+void UniRx_UnityEventExtensions___c__1_float____ctor (UniRx_UnityEventExtensions___c__1_T__o* __this, const MethodInfo_2B7A640* method);
+void UniRx_UnityEventExtensions___c__1_Vector2____ctor (UniRx_UnityEventExtensions___c__1_T__o* __this, const MethodInfo_2B7A7A0* method);
+UnityEngine_Events_UnityAction_T__o* UniRx_UnityEventExtensions___c__1_bool____AsObservable_b__1_0 (UniRx_UnityEventExtensions___c__1_T__o* __this, System_Action_T__o* h, const MethodInfo_2B79FF0* method);
+UnityEngine_Events_UnityAction_T__o* UniRx_UnityEventExtensions___c__1_int____AsObservable_b__1_0 (UniRx_UnityEventExtensions___c__1_T__o* __this, System_Action_T__o* h, const MethodInfo_2B7A150* method);
+UnityEngine_Events_UnityAction_T__o* UniRx_UnityEventExtensions___c__1_object____AsObservable_b__1_0 (UniRx_UnityEventExtensions___c__1_T__o* __this, System_Action_T__o* h, const MethodInfo_2B7A3C0* method);
+UnityEngine_Events_UnityAction_T__o* UniRx_UnityEventExtensions___c__1_float____AsObservable_b__1_0 (UniRx_UnityEventExtensions___c__1_T__o* __this, System_Action_T__o* h, const MethodInfo_2B7A650* method);
+UnityEngine_Events_UnityAction_T__o* UniRx_UnityEventExtensions___c__1_Vector2____AsObservable_b__1_0 (UniRx_UnityEventExtensions___c__1_T__o* __this, System_Action_T__o* h, const MethodInfo_2B7A7B0* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_SpringColliderSerialization___c__DisplayClass28_0___ctor (UTJ_SpringColliderSerialization___c__DisplayClass28_0_o* __this, const MethodInfo* method);
+bool UTJ_SpringColliderSerialization___c__DisplayClass28_0___VerifyColliderRecords_b__0 (UTJ_SpringColliderSerialization___c__DisplayClass28_0_o* __this, UTJ_SpringColliderSerialization_IColliderSerializer_o* item, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+float RootMotion_FinalIK_FBIKChain_ChildConstraint__get_nominalDistance (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_FBIKChain_ChildConstraint__set_nominalDistance (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, float value, const MethodInfo* method);
+bool RootMotion_FinalIK_FBIKChain_ChildConstraint__get_isRigid (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_FBIKChain_ChildConstraint__set_isRigid (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, bool value, const MethodInfo* method);
+void RootMotion_FinalIK_FBIKChain_ChildConstraint___ctor (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, UnityEngine_Transform_o* bone1, UnityEngine_Transform_o* bone2, float pushElasticity, float pullElasticity, const MethodInfo* method);
+void RootMotion_FinalIK_FBIKChain_ChildConstraint__Initiate (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, const MethodInfo* method);
+void RootMotion_FinalIK_FBIKChain_ChildConstraint__OnPreSolve (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, const MethodInfo* method);
+void RootMotion_FinalIK_FBIKChain_ChildConstraint__Solve (RootMotion_FinalIK_FBIKChain_ChildConstraint_o* __this, RootMotion_FinalIK_IKSolverFullBody_o* solver, const MethodInfo* method);

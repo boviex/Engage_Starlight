@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem___ctor (App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem_o* __this, int32_t index, App_Unit_o* unit, App_GodRoomUnitSelectMenu_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+System_String_o* App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem__GetName (App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem_o* __this, const MethodInfo* method);
+int32_t App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem__BuildAttribute (App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem_o* __this, const MethodInfo* method);
+void App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem__OnSelect (App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem_o* __this, const MethodInfo* method);
+int32_t App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem__ACall (App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem_o* __this, const MethodInfo* method);
+int32_t App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem__BCall (App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem_o* __this, const MethodInfo* method);
+App_Unit_o* App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem__GetUnit (App_GodRoomUnitSelectMenu_GodRoomUnitSelectMenuItem_o* __this, const MethodInfo* method);

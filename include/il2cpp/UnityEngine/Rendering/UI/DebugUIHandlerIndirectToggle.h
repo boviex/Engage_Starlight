@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle__Init (UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle__OnSelection (UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle_o* __this, bool fromNext, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* previous, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle__OnDeselection (UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle__OnAction (UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle__UpdateValueLabel (UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle___ctor (UnityEngine_Rendering_UI_DebugUIHandlerIndirectToggle_o* __this, const MethodInfo* method);

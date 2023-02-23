@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MoonSharp_Interpreter_Debugging_DebuggerAction__get_Action (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_DebuggerAction__set_Action (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, int32_t value, const MethodInfo* method);
+System_DateTime_o MoonSharp_Interpreter_Debugging_DebuggerAction__get_TimeStampUTC (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_DebuggerAction__set_TimeStampUTC (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, System_DateTime_o value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Debugging_DebuggerAction__get_SourceID (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_DebuggerAction__set_SourceID (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, int32_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Debugging_DebuggerAction__get_SourceLine (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_DebuggerAction__set_SourceLine (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, int32_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Debugging_DebuggerAction__get_SourceCol (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_DebuggerAction__set_SourceCol (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, int32_t value, const MethodInfo* method);
+System_Int32_array* MoonSharp_Interpreter_Debugging_DebuggerAction__get_Lines (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_DebuggerAction__set_Lines (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, System_Int32_array* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_DebuggerAction___ctor (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+System_TimeSpan_o MoonSharp_Interpreter_Debugging_DebuggerAction__get_Age (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Debugging_DebuggerAction__ToString (MoonSharp_Interpreter_Debugging_DebuggerAction_o* __this, const MethodInfo* method);

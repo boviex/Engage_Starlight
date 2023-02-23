@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_GameModeSelectMenuSequence_Menu_ClassicMenuItem___ctor (App_MainMenuSequence_GameModeSelectMenuSequence_Menu_ClassicMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_GameModeSelectMenuSequence_Menu_ClassicMenuItem__GetName (App_MainMenuSequence_GameModeSelectMenuSequence_Menu_ClassicMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_GameModeSelectMenuSequence_Menu_ClassicMenuItem__GetHelp (App_MainMenuSequence_GameModeSelectMenuSequence_Menu_ClassicMenuItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t System_Linq_Expressions_Interpreter_DebugInfo_DebugInfoComparer__System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare (System_Linq_Expressions_Interpreter_DebugInfo_DebugInfoComparer_o* __this, System_Linq_Expressions_Interpreter_DebugInfo_o* d1, System_Linq_Expressions_Interpreter_DebugInfo_o* d2, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_DebugInfo_DebugInfoComparer___ctor (System_Linq_Expressions_Interpreter_DebugInfo_DebugInfoComparer_o* __this, const MethodInfo* method);

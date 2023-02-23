@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_UnitItem_o* App_RefineShopRefineTargetRefineMenuItem__get_m_TargetUnitItem (App_RefineShopRefineTargetRefineMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetRefineMenuItem__set_m_TargetUnitItem (App_RefineShopRefineTargetRefineMenuItem_o* __this, App_UnitItem_o* value, const MethodInfo* method);
+void App_RefineShopRefineTargetRefineMenuItem___ctor (App_RefineShopRefineTargetRefineMenuItem_o* __this, App_UnitItem_o* unitItem, int32_t refineLevel, App_ItemRefineData_o* refineData, App_RefineShopRefineTargetMenu_SelectEventHandler_o* selectEventHandler, App_RefineShopRefineTargetMenu_DecideToRefineEventHandler_o* decideEventHandler, const MethodInfo* method);
+void App_RefineShopRefineTargetRefineMenuItem__OnSelect (App_RefineShopRefineTargetRefineMenuItem_o* __this, const MethodInfo* method);
+int32_t App_RefineShopRefineTargetRefineMenuItem__ACall (App_RefineShopRefineTargetRefineMenuItem_o* __this, const MethodInfo* method);

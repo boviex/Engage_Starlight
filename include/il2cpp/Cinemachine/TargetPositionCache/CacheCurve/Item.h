@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Cinemachine_TargetPositionCache_CacheCurve_Item_o Cinemachine_TargetPositionCache_CacheCurve_Item__Lerp (Cinemachine_TargetPositionCache_CacheCurve_Item_o a, Cinemachine_TargetPositionCache_CacheCurve_Item_o b, float t, const MethodInfo* method);
+Cinemachine_TargetPositionCache_CacheCurve_Item_o Cinemachine_TargetPositionCache_CacheCurve_Item__get_Empty (const MethodInfo* method);

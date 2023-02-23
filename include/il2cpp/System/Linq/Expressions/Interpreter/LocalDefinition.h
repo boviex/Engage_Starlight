@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LocalDefinition___ctor (System_Linq_Expressions_Interpreter_LocalDefinition_o __this, int32_t localIndex, System_Linq_Expressions_ParameterExpression_o* parameter, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_LocalDefinition__get_Index (System_Linq_Expressions_Interpreter_LocalDefinition_o __this, const MethodInfo* method);
+System_Linq_Expressions_ParameterExpression_o* System_Linq_Expressions_Interpreter_LocalDefinition__get_Parameter (System_Linq_Expressions_Interpreter_LocalDefinition_o __this, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_LocalDefinition__Equals (System_Linq_Expressions_Interpreter_LocalDefinition_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_LocalDefinition__GetHashCode (System_Linq_Expressions_Interpreter_LocalDefinition_o __this, const MethodInfo* method);

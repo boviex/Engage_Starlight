@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Net_Security_Private_CallbackHelpers___c__DisplayClass8_0___ctor (Mono_Net_Security_Private_CallbackHelpers___c__DisplayClass8_0_o* __this, const MethodInfo* method);
+System_Security_Cryptography_X509Certificates_X509Certificate_o* Mono_Net_Security_Private_CallbackHelpers___c__DisplayClass8_0___MonoToInternal_b__0 (Mono_Net_Security_Private_CallbackHelpers___c__DisplayClass8_0_o* __this, System_String_o* t, System_Security_Cryptography_X509Certificates_X509CertificateCollection_o* lc, System_Security_Cryptography_X509Certificates_X509Certificate_o* rc, System_String_array* ai, const MethodInfo* method);

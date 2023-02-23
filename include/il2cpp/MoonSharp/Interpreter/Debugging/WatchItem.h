@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MoonSharp_Interpreter_Debugging_WatchItem__get_Address (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_Address (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, int32_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Debugging_WatchItem__get_BasePtr (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_BasePtr (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, int32_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Debugging_WatchItem__get_RetAddress (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_RetAddress (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, int32_t value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Debugging_WatchItem__get_Name (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_Name (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, System_String_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Debugging_WatchItem__get_Value (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_Value (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_SymbolRef_o* MoonSharp_Interpreter_Debugging_WatchItem__get_LValue (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_LValue (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, MoonSharp_Interpreter_SymbolRef_o* value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Debugging_WatchItem__get_IsError (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_IsError (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, bool value, const MethodInfo* method);
+MoonSharp_Interpreter_Debugging_SourceRef_o* MoonSharp_Interpreter_Debugging_WatchItem__get_Location (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem__set_Location (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, MoonSharp_Interpreter_Debugging_SourceRef_o* value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Debugging_WatchItem__ToString (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_WatchItem___ctor (MoonSharp_Interpreter_Debugging_WatchItem_o* __this, const MethodInfo* method);

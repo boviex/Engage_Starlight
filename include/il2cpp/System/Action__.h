@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Action_AsyncOperationHandle_IList_AsyncOperationHandle______ctor (System_Action_AsyncOperationHandle_IList_AsyncOperationHandle____o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_2005EB0* method);
+void System_Action_AsyncOperationHandle_IList_IAssetBundleResource______ctor (System_Action_AsyncOperationHandle_IList_IAssetBundleResource____o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_2005EB0* method);
+void System_Action_KeyValuePair_object__ValueTuple_int__DateTime__object______ctor (System_Action_T__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_2007060* method);
+void System_Action_ValueTuple_object__ValueTuple_object__int______ctor (System_Action_T__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_2008780* method);
+void System_Action_KeyValuePair_object__ValueTuple_int__DateTime__object_____Invoke (System_Action_T__o* __this, System_Collections_Generic_KeyValuePair_object__ValueTuple_int__DateTime__object___o obj, const MethodInfo_2007080* method);
+void System_Action_ValueTuple_object__ValueTuple_object__int_____Invoke (System_Action_T__o* __this, System_ValueTuple_object__ValueTuple_object__int___o obj, const MethodInfo_20087A0* method);
+System_IAsyncResult_o* System_Action_KeyValuePair_object__ValueTuple_int__DateTime__object_____BeginInvoke (System_Action_T__o* __this, System_Collections_Generic_KeyValuePair_object__ValueTuple_int__DateTime__object___o obj, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_2007390* method);
+System_IAsyncResult_o* System_Action_ValueTuple_object__ValueTuple_object__int_____BeginInvoke (System_Action_T__o* __this, System_ValueTuple_object__ValueTuple_object__int___o obj, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_2008AB0* method);
+void System_Action_KeyValuePair_object__ValueTuple_int__DateTime__object_____EndInvoke (System_Action_T__o* __this, System_IAsyncResult_o* result, const MethodInfo_2007420* method);
+void System_Action_ValueTuple_object__ValueTuple_object__int_____EndInvoke (System_Action_T__o* __this, System_IAsyncResult_o* result, const MethodInfo_2008B40* method);

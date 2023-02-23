@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LightLambda___c__DisplayClass74_0___ctor (System_Linq_Expressions_Interpreter_LightLambda___c__DisplayClass74_0_o* __this, const MethodInfo* method);
+System_Delegate_o* System_Linq_Expressions_Interpreter_LightLambda___c__DisplayClass74_0___MakeRunDelegateCtor_b__0 (System_Linq_Expressions_Interpreter_LightLambda___c__DisplayClass74_0_o* __this, System_Linq_Expressions_Interpreter_LightLambda_o* lambda, const MethodInfo* method);

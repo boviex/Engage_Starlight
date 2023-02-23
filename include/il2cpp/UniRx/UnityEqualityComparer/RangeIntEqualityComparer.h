@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_UnityEqualityComparer_RangeIntEqualityComparer__Equals (UniRx_UnityEqualityComparer_RangeIntEqualityComparer_o* __this, UnityEngine_RangeInt_o self, UnityEngine_RangeInt_o vector, const MethodInfo* method);
+int32_t UniRx_UnityEqualityComparer_RangeIntEqualityComparer__GetHashCode (UniRx_UnityEqualityComparer_RangeIntEqualityComparer_o* __this, UnityEngine_RangeInt_o obj, const MethodInfo* method);
+void UniRx_UnityEqualityComparer_RangeIntEqualityComparer___ctor (UniRx_UnityEqualityComparer_RangeIntEqualityComparer_o* __this, const MethodInfo* method);

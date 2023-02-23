@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservablePointerClickTrigger__UnityEngine_EventSystems_IPointerClickHandler_OnPointerClick (UniRx_Triggers_ObservablePointerClickTrigger_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+System_IObservable_PointerEventData__o* UniRx_Triggers_ObservablePointerClickTrigger__OnPointerClickAsObservable (UniRx_Triggers_ObservablePointerClickTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservablePointerClickTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservablePointerClickTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservablePointerClickTrigger___ctor (UniRx_Triggers_ObservablePointerClickTrigger_o* __this, const MethodInfo* method);

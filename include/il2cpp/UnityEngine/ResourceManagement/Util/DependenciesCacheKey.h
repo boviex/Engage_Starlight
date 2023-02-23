@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ResourceManagement_Util_DependenciesCacheKey___ctor (UnityEngine_ResourceManagement_Util_DependenciesCacheKey_o* __this, System_Collections_Generic_IList_IResourceLocation__o* dependencies, int32_t dependenciesHash, const MethodInfo* method);
+int32_t UnityEngine_ResourceManagement_Util_DependenciesCacheKey__GetHashCode (UnityEngine_ResourceManagement_Util_DependenciesCacheKey_o* __this, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_DependenciesCacheKey__Equals (UnityEngine_ResourceManagement_Util_DependenciesCacheKey_o* __this, Il2CppObject* obj, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_DependenciesCacheKey__Equals (UnityEngine_ResourceManagement_Util_DependenciesCacheKey_o* __this, UnityEngine_ResourceManagement_Util_IOperationCacheKey_o* other, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_DependenciesCacheKey__Equals (UnityEngine_ResourceManagement_Util_DependenciesCacheKey_o* __this, UnityEngine_ResourceManagement_Util_DependenciesCacheKey_o* other, const MethodInfo* method);

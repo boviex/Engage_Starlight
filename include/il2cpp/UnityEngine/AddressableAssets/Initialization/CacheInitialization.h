@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_AddressableAssets_Initialization_CacheInitialization__Initialize (UnityEngine_AddressableAssets_Initialization_CacheInitialization_o* __this, System_String_o* id, System_String_o* dataStr, const MethodInfo* method);
+UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_bool__o UnityEngine_AddressableAssets_Initialization_CacheInitialization__InitializeAsync (UnityEngine_AddressableAssets_Initialization_CacheInitialization_o* __this, UnityEngine_ResourceManagement_ResourceManager_o* rm, System_String_o* id, System_String_o* data, const MethodInfo* method);
+void UnityEngine_AddressableAssets_Initialization_CacheInitialization___ctor (UnityEngine_AddressableAssets_Initialization_CacheInitialization_o* __this, const MethodInfo* method);

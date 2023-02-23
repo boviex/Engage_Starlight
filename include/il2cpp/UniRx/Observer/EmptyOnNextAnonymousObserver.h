@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observer_EmptyOnNextAnonymousObserver_object____ctor (UniRx_Observer_EmptyOnNextAnonymousObserver_T__o* __this, System_Action_Exception__o* onError, System_Action_o* onCompleted, const MethodInfo_1D2A7E0* method);
+void UniRx_Observer_EmptyOnNextAnonymousObserver_object___OnNext (UniRx_Observer_EmptyOnNextAnonymousObserver_T__o* __this, Il2CppObject* value, const MethodInfo_1D2A830* method);
+void UniRx_Observer_EmptyOnNextAnonymousObserver_object___OnError (UniRx_Observer_EmptyOnNextAnonymousObserver_T__o* __this, System_Exception_o* error, const MethodInfo_1D2A840* method);
+void UniRx_Observer_EmptyOnNextAnonymousObserver_object___OnCompleted (UniRx_Observer_EmptyOnNextAnonymousObserver_T__o* __this, const MethodInfo_1D2A8C0* method);

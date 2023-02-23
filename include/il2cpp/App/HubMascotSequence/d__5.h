@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_HubMascotSequence__FirstDemoBefore_d__5___ctor (App_HubMascotSequence__FirstDemoBefore_d__5_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_HubMascotSequence__FirstDemoBefore_d__5__System_IDisposable_Dispose (App_HubMascotSequence__FirstDemoBefore_d__5_o* __this, const MethodInfo* method);
+bool App_HubMascotSequence__FirstDemoBefore_d__5__MoveNext (App_HubMascotSequence__FirstDemoBefore_d__5_o* __this, const MethodInfo* method);
+Il2CppObject* App_HubMascotSequence__FirstDemoBefore_d__5__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_HubMascotSequence__FirstDemoBefore_d__5_o* __this, const MethodInfo* method);
+void App_HubMascotSequence__FirstDemoBefore_d__5__System_Collections_IEnumerator_Reset (App_HubMascotSequence__FirstDemoBefore_d__5_o* __this, const MethodInfo* method);
+Il2CppObject* App_HubMascotSequence__FirstDemoBefore_d__5__System_Collections_IEnumerator_get_Current (App_HubMascotSequence__FirstDemoBefore_d__5_o* __this, const MethodInfo* method);

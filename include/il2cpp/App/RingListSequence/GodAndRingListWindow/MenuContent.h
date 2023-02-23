@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_RingListSequence_GodAndRingListWindow_MenuContent__GetMenuItemContentMax (App_RingListSequence_GodAndRingListWindow_MenuContent_o* __this, const MethodInfo* method);
+App_RingListSequence_GodAndRingListWindow_MenuContent_o* App_RingListSequence_GodAndRingListWindow_MenuContent__CreateContent (const MethodInfo* method);
+void App_RingListSequence_GodAndRingListWindow_MenuContent___ctor (App_RingListSequence_GodAndRingListWindow_MenuContent_o* __this, const MethodInfo* method);

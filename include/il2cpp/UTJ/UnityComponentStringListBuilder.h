@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_UnityComponentStringListBuilder__BuildBuilderStringList (Il2CppObject* sourceObject, System_Collections_Generic_List_string__o* outputStrings, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_string__o* UTJ_UnityComponentStringListBuilder__BuildBuilderStringList (Il2CppObject* sourceObject, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_string__o* UTJ_UnityComponentStringListBuilder__BuildBuilderStringList (Il2CppObject* sourceObject, UTJ_TypedStringToValueMap_o* valueMap, const MethodInfo* method);
+void UTJ_UnityComponentStringListBuilder__ConvertFieldsToStrings (Il2CppObject* sourceObject, System_Type_o* type, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, System_Collections_Generic_List_string__o* outputStrings, const MethodInfo* method);
+void UTJ_UnityComponentStringListBuilder__ConvertObjectToStrings (Il2CppObject* sourceObject, System_Type_o* type, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, System_Collections_Generic_List_string__o* outputStrings, const MethodInfo* method);

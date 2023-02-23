@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_EdgePair_o UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_EdgePair__Create (const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_EdgePair__Reset (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_EdgePair_o __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_XR_XRDisplaySubsystem_XRRenderPass__GetRenderParameter (UnityEngine_XR_XRDisplaySubsystem_XRRenderPass_o __this, UnityEngine_Camera_o* camera, int32_t renderParameterIndex, UnityEngine_XR_XRDisplaySubsystem_XRRenderParameter_o* renderParameter, const MethodInfo* method);
+int32_t UnityEngine_XR_XRDisplaySubsystem_XRRenderPass__GetRenderParameterCount (UnityEngine_XR_XRDisplaySubsystem_XRRenderPass_o __this, const MethodInfo* method);
+void UnityEngine_XR_XRDisplaySubsystem_XRRenderPass__GetRenderParameter_Injected (UnityEngine_XR_XRDisplaySubsystem_XRRenderPass_o* _unity_self, UnityEngine_Camera_o* camera, int32_t renderParameterIndex, UnityEngine_XR_XRDisplaySubsystem_XRRenderParameter_o* renderParameter, const MethodInfo* method);
+int32_t UnityEngine_XR_XRDisplaySubsystem_XRRenderPass__GetRenderParameterCount_Injected (UnityEngine_XR_XRDisplaySubsystem_XRRenderPass_o* _unity_self, const MethodInfo* method);

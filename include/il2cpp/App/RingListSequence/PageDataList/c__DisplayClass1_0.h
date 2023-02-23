@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RingListSequence_PageDataList___c__DisplayClass1_0___ctor (App_RingListSequence_PageDataList___c__DisplayClass1_0_o* __this, const MethodInfo* method);
+void App_RingListSequence_PageDataList___c__DisplayClass1_0___Build_b__0 (App_RingListSequence_PageDataList___c__DisplayClass1_0_o* __this, App_GodData_o* godData, const MethodInfo* method);
+void App_RingListSequence_PageDataList___c__DisplayClass1_0___Build_b__1 (App_RingListSequence_PageDataList___c__DisplayClass1_0_o* __this, App_RingData_o* ringData, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_BipedLimbOrientations___ctor (RootMotion_BipedLimbOrientations_o* __this, RootMotion_BipedLimbOrientations_LimbOrientation_o* leftArm, RootMotion_BipedLimbOrientations_LimbOrientation_o* rightArm, RootMotion_BipedLimbOrientations_LimbOrientation_o* leftLeg, RootMotion_BipedLimbOrientations_LimbOrientation_o* rightLeg, const MethodInfo* method);
+RootMotion_BipedLimbOrientations_o* RootMotion_BipedLimbOrientations__get_UMA (const MethodInfo* method);
+RootMotion_BipedLimbOrientations_o* RootMotion_BipedLimbOrientations__get_MaxBiped (const MethodInfo* method);

@@ -1,0 +1,44 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Security_X509_X509Certificate__Parse (Mono_Security_X509_X509Certificate_o* __this, System_Byte_array* data, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate___ctor (Mono_Security_X509_X509Certificate_o* __this, System_Byte_array* data, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__GetUnsignedBigInteger (Mono_Security_X509_X509Certificate_o* __this, System_Byte_array* integer, const MethodInfo* method);
+System_Security_Cryptography_DSA_o* Mono_Security_X509_X509Certificate__get_DSA (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_X509_X509Certificate__get_IssuerName (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__get_KeyAlgorithmParameters (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_Security_Cryptography_RSA_o* Mono_Security_X509_X509Certificate__get_RSA (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__get_RawData (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__get_SerialNumber (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_X509_X509Certificate__get_SubjectName (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_DateTime_o Mono_Security_X509_X509Certificate__get_ValidFrom (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+System_DateTime_o Mono_Security_X509_X509Certificate__get_ValidUntil (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+Mono_Security_ASN1_o* Mono_Security_X509_X509Certificate__GetIssuerName (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+Mono_Security_ASN1_o* Mono_Security_X509_X509Certificate__GetSubjectName (Mono_Security_X509_X509Certificate_o* __this, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate__GetObjectData (Mono_Security_X509_X509Certificate_o* __this, System_Runtime_Serialization_SerializationInfo_o* info, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__PEM (System_String_o* type, System_Byte_array* data, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate___cctor (const MethodInfo* method);
+void Mono_Security_X509_X509Certificate__Parse (Mono_Security_X509_X509Certificate_1_o* __this, System_Byte_array* data, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate___ctor (Mono_Security_X509_X509Certificate_1_o* __this, System_Byte_array* data, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__GetUnsignedBigInteger (Mono_Security_X509_X509Certificate_1_o* __this, System_Byte_array* integer, const MethodInfo* method);
+System_Security_Cryptography_DSA_o* Mono_Security_X509_X509Certificate__get_DSA (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate__set_DSA (Mono_Security_X509_X509Certificate_1_o* __this, System_Security_Cryptography_DSA_o* value, const MethodInfo* method);
+System_String_o* Mono_Security_X509_X509Certificate__get_IssuerName (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_X509_X509Certificate__get_KeyAlgorithm (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__get_KeyAlgorithmParameters (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__get_PublicKey (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_Security_Cryptography_RSA_o* Mono_Security_X509_X509Certificate__get_RSA (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate__set_RSA (Mono_Security_X509_X509Certificate_1_o* __this, System_Security_Cryptography_RSA_o* value, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__get_RawData (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__get_SerialNumber (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_X509_X509Certificate__get_SignatureAlgorithm (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_String_o* Mono_Security_X509_X509Certificate__get_SubjectName (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_DateTime_o Mono_Security_X509_X509Certificate__get_ValidFrom (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+System_DateTime_o Mono_Security_X509_X509Certificate__get_ValidUntil (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+int32_t Mono_Security_X509_X509Certificate__get_Version (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+Mono_Security_ASN1_1_o* Mono_Security_X509_X509Certificate__GetIssuerName (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+Mono_Security_ASN1_1_o* Mono_Security_X509_X509Certificate__GetSubjectName (Mono_Security_X509_X509Certificate_1_o* __this, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate__GetObjectData (Mono_Security_X509_X509Certificate_1_o* __this, System_Runtime_Serialization_SerializationInfo_o* info, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+System_Byte_array* Mono_Security_X509_X509Certificate__PEM (System_String_o* type, System_Byte_array* data, const MethodInfo* method);
+void Mono_Security_X509_X509Certificate___cctor (const MethodInfo* method);

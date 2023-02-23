@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Unity_Jobs_JobHandle_o Unity_Jobs_IJobExtensions__Schedule_DeferredLights_CullLightsJob_ (UnityEngine_Rendering_Universal_Internal_DeferredLights_CullLightsJob_o jobData, Unity_Jobs_JobHandle_o dependsOn, const MethodInfo_2998F30* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_ByRefMethodInfoCallInstruction___ctor (System_Linq_Expressions_Interpreter_ByRefMethodInfoCallInstruction_o* __this, System_Reflection_MethodInfo_o* target, int32_t argumentCount, System_Linq_Expressions_Interpreter_ByRefUpdater_array* byrefArgs, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_ByRefMethodInfoCallInstruction__get_ProducedStack (System_Linq_Expressions_Interpreter_ByRefMethodInfoCallInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_ByRefMethodInfoCallInstruction__Run (System_Linq_Expressions_Interpreter_ByRefMethodInfoCallInstruction_o* __this, System_Linq_Expressions_Interpreter_InterpretedFrame_o* frame, const MethodInfo* method);

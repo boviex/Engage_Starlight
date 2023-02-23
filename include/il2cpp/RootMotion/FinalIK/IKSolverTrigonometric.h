@@ -1,0 +1,27 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_IKSolverTrigonometric__SetBendGoalPosition (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, UnityEngine_Vector3_o goalPosition, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__SetBendPlaneToCurrent (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__SetIKRotation (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, UnityEngine_Quaternion_o rotation, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__SetIKRotationWeight (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, float weight, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_IKSolverTrigonometric__GetIKRotation (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+float RootMotion_FinalIK_IKSolverTrigonometric__GetIKRotationWeight (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+RootMotion_FinalIK_IKSolver_Point_array* RootMotion_FinalIK_IKSolverTrigonometric__GetPoints (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+RootMotion_FinalIK_IKSolver_Point_o* RootMotion_FinalIK_IKSolverTrigonometric__GetPoint (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, UnityEngine_Transform_o* transform, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__StoreDefaultLocalState (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__FixTransforms (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_IKSolverTrigonometric__IsValid (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, System_String_o** message, const MethodInfo* method);
+bool RootMotion_FinalIK_IKSolverTrigonometric__SetChain (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, UnityEngine_Transform_o* bone1, UnityEngine_Transform_o* bone2, UnityEngine_Transform_o* bone3, UnityEngine_Transform_o* root, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__Solve (UnityEngine_Transform_o* bone1, UnityEngine_Transform_o* bone2, UnityEngine_Transform_o* bone3, UnityEngine_Vector3_o targetPosition, UnityEngine_Vector3_o bendNormal, float weight, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_IKSolverTrigonometric__GetDirectionToBendPoint (UnityEngine_Vector3_o direction, float directionMag, UnityEngine_Vector3_o bendDirection, float sqrMag1, float sqrMag2, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__OnInitiate (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_IKSolverTrigonometric__IsDirectHierarchy (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__InitiateBones (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__OnUpdate (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__OnInitiateVirtual (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__OnUpdateVirtual (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric__OnPostSolveVirtual (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_IKSolverTrigonometric__GetBendDirection (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, UnityEngine_Vector3_o IKPosition, UnityEngine_Vector3_o bendNormal, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric___ctor (RootMotion_FinalIK_IKSolverTrigonometric_o* __this, const MethodInfo* method);

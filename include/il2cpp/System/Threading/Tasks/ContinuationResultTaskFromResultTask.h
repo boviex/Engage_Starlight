@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Threading_Tasks_ContinuationResultTaskFromResultTask_object__object____ctor (System_Threading_Tasks_ContinuationResultTaskFromResultTask_TAntecedentResult__TResult__o* __this, System_Threading_Tasks_Task_TAntecedentResult__o* antecedent, System_Delegate_o* function, Il2CppObject* state, int32_t creationOptions, int32_t internalOptions, int32_t* stackMark, const MethodInfo_24FA840* method);
+void System_Threading_Tasks_ContinuationResultTaskFromResultTask_object__object___InnerInvoke (System_Threading_Tasks_ContinuationResultTaskFromResultTask_TAntecedentResult__TResult__o* __this, const MethodInfo_24FA9B0* method);

@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ProfileCardFavoriteRelayMapMenu_o* App_ProfileCardFavoriteRelayMapMenu__CreateBind (App_ProcInst_o* super, App_ProfileCardTextListMenuContent_o* menuContent, App_ProfileCardRoot_o* profileCardRoot, App_ProfileCard_o* myProfileCardTemp, App_ProfileCardFavoriteRelayMapMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_ProfileCardFavoriteRelayMapMenu__CreateMenuItem (App_ProfileCardFavoriteMapData_o* initialFavoriteMapData, bool sorting, int32_t* initialDecidedIndex, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenu___ctor (App_ProfileCardFavoriteRelayMapMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicMenuContent_o* menuContent, App_ProfileCardRoot_o* profileCardRoot, App_ProfileCard_o* myProfileCardTemp, int32_t initialDecidedIndex, App_ProfileCardFavoriteRelayMapMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenu__OnBuild (App_ProfileCardFavoriteRelayMapMenu_o* __this, bool isFirstBuild, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenu__RebuildMenu (App_ProfileCardFavoriteRelayMapMenu_o* __this, const MethodInfo* method);
+System_String_o* App_ProfileCardFavoriteRelayMapMenu__GetName (App_ProfileCardFavoriteRelayMapMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenu__UpdateCardRoot (App_ProfileCardFavoriteRelayMapMenu_o* __this, App_ProfileCardFavoriteMapData_o* favoriteMapData, const MethodInfo* method);
+bool App_ProfileCardFavoriteRelayMapMenu__UpdateDecided (App_ProfileCardFavoriteRelayMapMenu_o* __this, int32_t menuItemIndex, const MethodInfo* method);
+int32_t App_ProfileCardFavoriteRelayMapMenu__BCall (App_ProfileCardFavoriteRelayMapMenu_o* __this, const MethodInfo* method);
+int32_t App_ProfileCardFavoriteRelayMapMenu__CustomCall (App_ProfileCardFavoriteRelayMapMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenu__OnDispose (App_ProfileCardFavoriteRelayMapMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenu___cctor (const MethodInfo* method);

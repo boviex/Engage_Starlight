@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineOrbitalTransposer__OnValidate (Cinemachine_CinemachineOrbitalTransposer_o* __this, const MethodInfo* method);
+float Cinemachine_CinemachineOrbitalTransposer__UpdateHeading (Cinemachine_CinemachineOrbitalTransposer_o* __this, float deltaTime, UnityEngine_Vector3_o up, Cinemachine_AxisState_o* axis, const MethodInfo* method);
+float Cinemachine_CinemachineOrbitalTransposer__UpdateHeading (Cinemachine_CinemachineOrbitalTransposer_o* __this, float deltaTime, UnityEngine_Vector3_o up, Cinemachine_AxisState_o* axis, Cinemachine_AxisState_Recentering_o* recentering, bool isLive, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer__OnEnable (Cinemachine_CinemachineOrbitalTransposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer__UpdateInputAxisProvider (Cinemachine_CinemachineOrbitalTransposer_o* __this, const MethodInfo* method);
+UnityEngine_Transform_o* Cinemachine_CinemachineOrbitalTransposer__get_PreviousTarget (Cinemachine_CinemachineOrbitalTransposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer__set_PreviousTarget (Cinemachine_CinemachineOrbitalTransposer_o* __this, UnityEngine_Transform_o* value, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer__OnTargetObjectWarped (Cinemachine_CinemachineOrbitalTransposer_o* __this, UnityEngine_Transform_o* target, UnityEngine_Vector3_o positionDelta, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer__ForceCameraPosition (Cinemachine_CinemachineOrbitalTransposer_o* __this, UnityEngine_Vector3_o pos, UnityEngine_Quaternion_o rot, const MethodInfo* method);
+bool Cinemachine_CinemachineOrbitalTransposer__OnTransitionFromCamera (Cinemachine_CinemachineOrbitalTransposer_o* __this, Cinemachine_ICinemachineCamera_o* fromCam, UnityEngine_Vector3_o worldUp, float deltaTime, Cinemachine_CinemachineVirtualCameraBase_TransitionParams_o* transitionParams, const MethodInfo* method);
+float Cinemachine_CinemachineOrbitalTransposer__GetAxisClosestValue (Cinemachine_CinemachineOrbitalTransposer_o* __this, UnityEngine_Vector3_o cameraPos, UnityEngine_Vector3_o up, const MethodInfo* method);
+float Cinemachine_CinemachineOrbitalTransposer__get_LastHeading (Cinemachine_CinemachineOrbitalTransposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer__set_LastHeading (Cinemachine_CinemachineOrbitalTransposer_o* __this, float value, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer__MutateCameraState (Cinemachine_CinemachineOrbitalTransposer_o* __this, Cinemachine_CameraState_o* curState, float deltaTime, const MethodInfo* method);
+UnityEngine_Vector3_o Cinemachine_CinemachineOrbitalTransposer__GetTargetCameraPosition (Cinemachine_CinemachineOrbitalTransposer_o* __this, UnityEngine_Vector3_o worldUp, const MethodInfo* method);
+float Cinemachine_CinemachineOrbitalTransposer__GetTargetHeading (Cinemachine_CinemachineOrbitalTransposer_o* __this, float currentHeading, UnityEngine_Quaternion_o targetOrientation, const MethodInfo* method);
+void Cinemachine_CinemachineOrbitalTransposer___ctor (Cinemachine_CinemachineOrbitalTransposer_o* __this, const MethodInfo* method);

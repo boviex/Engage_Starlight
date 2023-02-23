@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusSequenceBase___c_object____cctor (const MethodInfo_2B78D80* method);
+void App_VersusSequence_VersusSequenceBase___c_object____ctor (App_VersusSequence_VersusSequenceBase___c_T__o* __this, const MethodInfo_2B78E60* method);
+void App_VersusSequence_VersusSequenceBase___c_object____OpenReplayDialog_b__99_0 (App_VersusSequence_VersusSequenceBase___c_T__o* __this, int32_t r, const MethodInfo_2B78E70* method);
+int32_t App_VersusSequence_VersusSequenceBase___c_object____GetFriendList_b__147_0 (App_VersusSequence_VersusSequenceBase___c_T__o* __this, nn_friends_Friend_o x, nn_friends_Friend_o y, const MethodInfo_2B78EA0* method);
+bool App_VersusSequence_VersusSequenceBase___c_object____CreateBind_b__152_0 (App_VersusSequence_VersusSequenceBase___c_T__o* __this, const MethodInfo_2B78FC0* method);
+bool App_VersusSequence_VersusSequenceBase___c_object____CreateBind_b__152_1 (App_VersusSequence_VersusSequenceBase___c_T__o* __this, const MethodInfo_2B79030* method);
+bool App_VersusSequence_VersusSequenceBase___c_object____CreateBind_b__152_2 (App_VersusSequence_VersusSequenceBase___c_T__o* __this, const MethodInfo_2B790A0* method);
+bool App_VersusSequence_VersusSequenceBase___c_object____CreateBind_b__152_3 (App_VersusSequence_VersusSequenceBase___c_T__o* __this, const MethodInfo_2B79110* method);

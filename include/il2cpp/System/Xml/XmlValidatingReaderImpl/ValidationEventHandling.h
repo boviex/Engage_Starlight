@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_XmlValidatingReaderImpl_ValidationEventHandling___ctor (System_Xml_XmlValidatingReaderImpl_ValidationEventHandling_o* __this, System_Xml_XmlValidatingReaderImpl_o* reader, const MethodInfo* method);
+Il2CppObject* System_Xml_XmlValidatingReaderImpl_ValidationEventHandling__System_Xml_IValidationEventHandling_get_EventHandler (System_Xml_XmlValidatingReaderImpl_ValidationEventHandling_o* __this, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl_ValidationEventHandling__System_Xml_IValidationEventHandling_SendEvent (System_Xml_XmlValidatingReaderImpl_ValidationEventHandling_o* __this, System_Exception_o* exception, int32_t severity, const MethodInfo* method);
+void System_Xml_XmlValidatingReaderImpl_ValidationEventHandling__AddHandler (System_Xml_XmlValidatingReaderImpl_ValidationEventHandling_o* __this, System_Xml_Schema_ValidationEventHandler_o* handler, const MethodInfo* method);

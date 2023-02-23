@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_FromCoroutineObservable_long____ctor (UniRx_Operators_FromCoroutineObservable_T__o* __this, System_Func_IObserver_T___CancellationToken__IEnumerator__o* coroutine, const MethodInfo_33F6280* method);
+void UniRx_Operators_FromCoroutineObservable_object____ctor (UniRx_Operators_FromCoroutineObservable_T__o* __this, System_Func_IObserver_T___CancellationToken__IEnumerator__o* coroutine, const MethodInfo_33F6400* method);
+void UniRx_Operators_FromCoroutineObservable_Unit____ctor (UniRx_Operators_FromCoroutineObservable_T__o* __this, System_Func_IObserver_T___CancellationToken__IEnumerator__o* coroutine, const MethodInfo_33F6580* method);
+System_IDisposable_o* UniRx_Operators_FromCoroutineObservable_long___SubscribeCore (UniRx_Operators_FromCoroutineObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F62D0* method);
+System_IDisposable_o* UniRx_Operators_FromCoroutineObservable_object___SubscribeCore (UniRx_Operators_FromCoroutineObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F6450* method);
+System_IDisposable_o* UniRx_Operators_FromCoroutineObservable_Unit___SubscribeCore (UniRx_Operators_FromCoroutineObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F65D0* method);

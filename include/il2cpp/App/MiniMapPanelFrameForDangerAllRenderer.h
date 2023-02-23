@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Material_array* App_MiniMapPanelFrameForDangerAllRenderer__GetSourceMaterials (App_MiniMapPanelFrameForDangerAllRenderer_o* __this, const MethodInfo* method);
+UnityEngine_Material_array* App_MiniMapPanelFrameForDangerAllRenderer__GetMapPanelMaterials (App_MiniMapPanelFrameForDangerAllRenderer_o* __this, const MethodInfo* method);
+void App_MiniMapPanelFrameForDangerAllRenderer__CreatePanelMesh (App_MiniMapPanelFrameForDangerAllRenderer_o* __this, const MethodInfo* method);
+void App_MiniMapPanelFrameForDangerAllRenderer__CreatePanelDangerAllMesh (App_MiniMapPanelFrameForDangerAllRenderer_o* __this, const MethodInfo* method);
+void App_MiniMapPanelFrameForDangerAllRenderer___ctor (App_MiniMapPanelFrameForDangerAllRenderer_o* __this, const MethodInfo* method);

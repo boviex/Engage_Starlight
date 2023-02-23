@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_Internal_PostProcessPass_MaterialLibrary___ctor (UnityEngine_Rendering_Universal_Internal_PostProcessPass_MaterialLibrary_o* __this, UnityEngine_Rendering_Universal_PostProcessData_o* data, const MethodInfo* method);
+UnityEngine_Material_o* UnityEngine_Rendering_Universal_Internal_PostProcessPass_MaterialLibrary__Load (UnityEngine_Rendering_Universal_Internal_PostProcessPass_MaterialLibrary_o* __this, UnityEngine_Shader_o* shader, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_PostProcessPass_MaterialLibrary__Cleanup (UnityEngine_Rendering_Universal_Internal_PostProcessPass_MaterialLibrary_o* __this, const MethodInfo* method);

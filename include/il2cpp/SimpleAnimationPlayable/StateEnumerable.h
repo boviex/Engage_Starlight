@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void SimpleAnimationPlayable_StateEnumerable___ctor (SimpleAnimationPlayable_StateEnumerable_o* __this, SimpleAnimationPlayable_o* owner, const MethodInfo* method);
+System_Collections_Generic_IEnumerator_SimpleAnimationPlayable_IState__o* SimpleAnimationPlayable_StateEnumerable__GetEnumerator (SimpleAnimationPlayable_StateEnumerable_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* SimpleAnimationPlayable_StateEnumerable__System_Collections_IEnumerable_GetEnumerator (SimpleAnimationPlayable_StateEnumerable_o* __this, const MethodInfo* method);

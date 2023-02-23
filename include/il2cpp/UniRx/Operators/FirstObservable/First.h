@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_FirstObservable_First_long____ctor (UniRx_Operators_FirstObservable_First_T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33ECCA0* method);
+void UniRx_Operators_FirstObservable_First_object____ctor (UniRx_Operators_FirstObservable_First_T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33ED420* method);
+void UniRx_Operators_FirstObservable_First_Unit____ctor (UniRx_Operators_FirstObservable_First_T__o* __this, UniRx_Operators_FirstObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33EDBA0* method);
+void UniRx_Operators_FirstObservable_First_long___OnNext (UniRx_Operators_FirstObservable_First_T__o* __this, int64_t value, const MethodInfo_33ECD00* method);
+void UniRx_Operators_FirstObservable_First_object___OnNext (UniRx_Operators_FirstObservable_First_T__o* __this, Il2CppObject* value, const MethodInfo_33ED480* method);
+void UniRx_Operators_FirstObservable_First_Unit___OnNext (UniRx_Operators_FirstObservable_First_T__o* __this, UniRx_Unit_o value, const MethodInfo_33EDC00* method);
+void UniRx_Operators_FirstObservable_First_long___OnError (UniRx_Operators_FirstObservable_First_T__o* __this, System_Exception_o* error, const MethodInfo_33ECEC0* method);
+void UniRx_Operators_FirstObservable_First_object___OnError (UniRx_Operators_FirstObservable_First_T__o* __this, System_Exception_o* error, const MethodInfo_33ED640* method);
+void UniRx_Operators_FirstObservable_First_Unit___OnError (UniRx_Operators_FirstObservable_First_T__o* __this, System_Exception_o* error, const MethodInfo_33EDDC0* method);
+void UniRx_Operators_FirstObservable_First_long___OnCompleted (UniRx_Operators_FirstObservable_First_T__o* __this, const MethodInfo_33ED000* method);
+void UniRx_Operators_FirstObservable_First_object___OnCompleted (UniRx_Operators_FirstObservable_First_T__o* __this, const MethodInfo_33ED780* method);
+void UniRx_Operators_FirstObservable_First_Unit___OnCompleted (UniRx_Operators_FirstObservable_First_T__o* __this, const MethodInfo_33EDF00* method);

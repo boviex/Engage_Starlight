@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_ResourceManagement_Util_LocationUtils__LocationEquals (UnityEngine_ResourceManagement_ResourceLocations_IResourceLocation_o* loc1, UnityEngine_ResourceManagement_ResourceLocations_IResourceLocation_o* loc2, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_Util_LocationUtils__DependenciesEqual (System_Collections_Generic_IList_IResourceLocation__o* deps1, System_Collections_Generic_IList_IResourceLocation__o* deps2, const MethodInfo* method);

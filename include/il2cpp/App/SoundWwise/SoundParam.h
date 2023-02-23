@@ -1,0 +1,51 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_SoundWwise_SoundParam___ctor (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, float min, float max, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, float vol, float min, float max, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__ResetVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, int32_t fadeMsec, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetMasterVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetMasterVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__ResetMasterVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, int32_t fadeMsec, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetConfigVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetConfigVolumeCommon (App_SoundWwise_SoundParam_o* __this, System_String_o* paramName, float vol, int32_t fadeMsec, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetMasterBgmVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetMasterSeVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetMasterEnvVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetMasterVoiceVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetMasterBgmVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetMasterSeVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetMasterEnvVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetMasterVoiceVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__ResetMasterBgmVolume (App_SoundWwise_SoundParam_o* __this, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__ResetMasterSeVolume (App_SoundWwise_SoundParam_o* __this, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__ResetMasterEnvVolume (App_SoundWwise_SoundParam_o* __this, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__ResetMasterVoiceVolume (App_SoundWwise_SoundParam_o* __this, int32_t fadeMsec, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetConfigBgmVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetConfigSeVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetConfigEnvVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+float App_SoundWwise_SoundParam__GetConfigVoiceVolume (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetConfigBgmVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetConfigSeVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetConfigEnvVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetConfigVoiceVolume (App_SoundWwise_SoundParam_o* __this, float vol, int32_t fadeMsec, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetVolume (App_SoundWwise_SoundParam_o* __this, float vol, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__GetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, bool isGlobal, uint32_t* value, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__GetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, UnityEngine_GameObject_o* gameObject, bool isGlobal, uint32_t* value, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__GetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, float* value, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__GetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, UnityEngine_GameObject_o* gameObject, float* value, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__SetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, bool isGlobal, System_String_o* value, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__SetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, bool isGlobal, uint32_t value, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__SetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, bool isGlobal, System_String_o* value, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__SetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, bool isGlobal, uint32_t value, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__SetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, float value, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__SetValue (App_SoundWwise_SoundParam_o* __this, System_String_o* valueName, float value, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+bool App_SoundWwise_SoundParam__SetPosition (App_SoundWwise_SoundParam_o* __this, UnityEngine_Vector3_o pos, UnityEngine_Vector3_o foward, UnityEngine_Vector3_o up, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+UnityEngine_GameObject_o* App_SoundWwise_SoundParam__GetAudioListenerObject (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o App_SoundWwise_SoundParam__GetAudioListenerPosistion (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+UnityEngine_Quaternion_o App_SoundWwise_SoundParam__GetAudioListenerRotation (App_SoundWwise_SoundParam_o* __this, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetAudioListenerPosition (App_SoundWwise_SoundParam_o* __this, UnityEngine_Vector3_o listenerPos, const MethodInfo* method);
+void App_SoundWwise_SoundParam__SetAudioListenerRotation (App_SoundWwise_SoundParam_o* __this, UnityEngine_Quaternion_o listenerRot, const MethodInfo* method);
+void App_SoundWwise_SoundParam___cctor (const MethodInfo* method);

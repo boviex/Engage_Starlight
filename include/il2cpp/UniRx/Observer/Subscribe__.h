@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observer_Subscribe__Pair_int_____ctor (UniRx_Observer_Subscribe__T__o* __this, System_Action_Exception__o* onError, System_Action_o* onCompleted, const MethodInfo_36F9360* method);
+void UniRx_Observer_Subscribe__ValueTuple_object__object_____ctor (UniRx_Observer_Subscribe__T__o* __this, System_Action_Exception__o* onError, System_Action_o* onCompleted, const MethodInfo_36F9490* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__int_____ctor (UniRx_Observer_Subscribe__T__o* __this, System_Action_Exception__o* onError, System_Action_o* onCompleted, const MethodInfo_36F95C0* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__Int32Enum_____ctor (UniRx_Observer_Subscribe__T__o* __this, System_Action_Exception__o* onError, System_Action_o* onCompleted, const MethodInfo_36F96F0* method);
+void UniRx_Observer_Subscribe__Pair_int____OnNext (UniRx_Observer_Subscribe__T__o* __this, UniRx_Pair_int__o value, const MethodInfo_36F93B0* method);
+void UniRx_Observer_Subscribe__ValueTuple_object__object____OnNext (UniRx_Observer_Subscribe__T__o* __this, System_ValueTuple_object__object__o value, const MethodInfo_36F94E0* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__int____OnNext (UniRx_Observer_Subscribe__T__o* __this, System_ValueTuple_float__int__o value, const MethodInfo_36F9610* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__Int32Enum____OnNext (UniRx_Observer_Subscribe__T__o* __this, System_ValueTuple_float__Int32Enum__o value, const MethodInfo_36F9740* method);
+void UniRx_Observer_Subscribe__Pair_int____OnError (UniRx_Observer_Subscribe__T__o* __this, System_Exception_o* error, const MethodInfo_36F93C0* method);
+void UniRx_Observer_Subscribe__ValueTuple_object__object____OnError (UniRx_Observer_Subscribe__T__o* __this, System_Exception_o* error, const MethodInfo_36F94F0* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__int____OnError (UniRx_Observer_Subscribe__T__o* __this, System_Exception_o* error, const MethodInfo_36F9620* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__Int32Enum____OnError (UniRx_Observer_Subscribe__T__o* __this, System_Exception_o* error, const MethodInfo_36F9750* method);
+void UniRx_Observer_Subscribe__Pair_int____OnCompleted (UniRx_Observer_Subscribe__T__o* __this, const MethodInfo_36F9440* method);
+void UniRx_Observer_Subscribe__ValueTuple_object__object____OnCompleted (UniRx_Observer_Subscribe__T__o* __this, const MethodInfo_36F9570* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__int____OnCompleted (UniRx_Observer_Subscribe__T__o* __this, const MethodInfo_36F96A0* method);
+void UniRx_Observer_Subscribe__ValueTuple_float__Int32Enum____OnCompleted (UniRx_Observer_Subscribe__T__o* __this, const MethodInfo_36F97D0* method);

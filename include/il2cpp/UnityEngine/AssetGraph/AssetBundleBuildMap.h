@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_AssetGraph_AssetBundleBuildMap_o* UnityEngine_AssetGraph_AssetBundleBuildMap__GetBuildMap (const MethodInfo* method);
+bool UnityEngine_AssetGraph_AssetBundleBuildMap__Load (const MethodInfo* method);
+void UnityEngine_AssetGraph_AssetBundleBuildMap__SetMapDirty (const MethodInfo* method);
+System_String_o* UnityEngine_AssetGraph_AssetBundleBuildMap__MakeFullName (System_String_o* assetBundleName, System_String_o* variantName, const MethodInfo* method);
+System_String_array* UnityEngine_AssetGraph_AssetBundleBuildMap__FullNameToNameAndVariant (System_String_o* assetBundleFullName, const MethodInfo* method);
+UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry_o* UnityEngine_AssetGraph_AssetBundleBuildMap__GetAssetBundle (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, System_String_o* registererId, System_String_o* assetBundleFullName, const MethodInfo* method);
+void UnityEngine_AssetGraph_AssetBundleBuildMap__Clear (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, const MethodInfo* method);
+void UnityEngine_AssetGraph_AssetBundleBuildMap__ClearFromId (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, System_String_o* id, const MethodInfo* method);
+UnityEngine_AssetGraph_AssetBundleBuildMap_AssetBundleEntry_o* UnityEngine_AssetGraph_AssetBundleBuildMap__GetAssetBundleWithNameAndVariant (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, System_String_o* registererId, System_String_o* assetBundleName, System_String_o* variantName, const MethodInfo* method);
+System_String_array* UnityEngine_AssetGraph_AssetBundleBuildMap__GetAssetPathsFromAssetBundleAndAssetName (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, System_String_o* assetbundleName, System_String_o* assetName, const MethodInfo* method);
+System_String_array* UnityEngine_AssetGraph_AssetBundleBuildMap__GetAssetPathsFromAssetBundle (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, System_String_o* assetBundleName, const MethodInfo* method);
+System_String_o* UnityEngine_AssetGraph_AssetBundleBuildMap__GetAssetBundleName (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, System_String_o* assetPath, const MethodInfo* method);
+System_String_o* UnityEngine_AssetGraph_AssetBundleBuildMap__GetImplicitAssetBundleName (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, System_String_o* assetPath, const MethodInfo* method);
+System_String_array* UnityEngine_AssetGraph_AssetBundleBuildMap__GetAllAssetBundleNames (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, const MethodInfo* method);
+void UnityEngine_AssetGraph_AssetBundleBuildMap___ctor (UnityEngine_AssetGraph_AssetBundleBuildMap_o* __this, const MethodInfo* method);

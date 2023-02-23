@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ResourceManagement_WebRequestQueue__SetMaxConcurrentRequests (int32_t maxRequests, const MethodInfo* method);
+UnityEngine_ResourceManagement_WebRequestQueueOperation_o* UnityEngine_ResourceManagement_WebRequestQueue__QueueRequest (UnityEngine_Networking_UnityWebRequest_o* request, const MethodInfo* method);
+void UnityEngine_ResourceManagement_WebRequestQueue__OnWebAsyncOpComplete (UnityEngine_AsyncOperation_o* operation, const MethodInfo* method);
+void UnityEngine_ResourceManagement_WebRequestQueue___cctor (const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_UniTaskExtensions__ContinueWith_d__28_object__object___MoveNext (UniRx_Async_UniTaskExtensions__ContinueWith_d__28_object__object__o __this, const MethodInfo_2B8E880* method);
+void UniRx_Async_UniTaskExtensions__ContinueWith_d__28_object__object___SetStateMachine (UniRx_Async_UniTaskExtensions__ContinueWith_d__28_object__object__o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo_2B8EC10* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishSelectMenuCategoryContent___c__DisplayClass11_0___ctor (App_CookingMenu_DishSelectMenuCategoryContent___c__DisplayClass11_0_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenuCategoryContent___c__DisplayClass11_0___CheckEnable_b__0 (App_CookingMenu_DishSelectMenuCategoryContent___c__DisplayClass11_0_o* __this, App_Unit_o* unit, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observable___c__DisplayClass168_0_object__object____ctor (UniRx_Observable___c__DisplayClass168_0_T1__T2__o* __this, const MethodInfo_2B7EF60* method);
+UniRx_Unit_o UniRx_Observable___c__DisplayClass168_0_object__object____FromAsyncPattern_b__0 (UniRx_Observable___c__DisplayClass168_0_T1__T2__o* __this, System_IAsyncResult_o* iar, const MethodInfo_2B7EF70* method);

@@ -1,0 +1,53 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_BasicMenuItem___ctor (App_BasicMenuItem_o* __this, const MethodInfo* method);
+App_BasicMenu_o* App_BasicMenuItem__GetMenu (App_BasicMenuItem_o* __this, const MethodInfo* method);
+App_BasicMenuItemContent_o* App_BasicMenuItem__GetMenuItemContent (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__GetIndex (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__GetFullIndex (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__GetAttribute (App_BasicMenuItem_o* __this, const MethodInfo* method);
+bool App_BasicMenuItem__IsSelect (App_BasicMenuItem_o* __this, const MethodInfo* method);
+bool App_BasicMenuItem__IsAttributeEnable (App_BasicMenuItem_o* __this, const MethodInfo* method);
+bool App_BasicMenuItem__IsAttributeDisable (App_BasicMenuItem_o* __this, const MethodInfo* method);
+bool App_BasicMenuItem__IsAttributeHide (App_BasicMenuItem_o* __this, const MethodInfo* method);
+bool App_BasicMenuItem__IsAttributeBlank (App_BasicMenuItem_o* __this, const MethodInfo* method);
+bool App_BasicMenuItem__IsAttributeSelect (App_BasicMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_BasicMenuItem__GetName (App_BasicMenuItem_o* __this, const MethodInfo* method);
+float App_BasicMenuItem__GetWidth (App_BasicMenuItem_o* __this, const MethodInfo* method);
+float App_BasicMenuItem__GetHeight (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__SetCursorColor (App_BasicMenuItem_o* __this, UnityEngine_Color_o color, const MethodInfo* method);
+void App_BasicMenuItem__SetTextColor (App_BasicMenuItem_o* __this, UnityEngine_Color_o color, bool bInactive, const MethodInfo* method);
+void App_BasicMenuItem__SetTextColor (App_BasicMenuItem_o* __this, UnityEngine_Color_o activeColor, UnityEngine_Color_o inactiveColor, const MethodInfo* method);
+void App_BasicMenuItem__SetCommandColor (App_BasicMenuItem_o* __this, UnityEngine_Color_o color, bool bInactive, const MethodInfo* method);
+UnityEngine_Color_o App_BasicMenuItem__GetCursorColor (App_BasicMenuItem_o* __this, const MethodInfo* method);
+UnityEngine_Color_o App_BasicMenuItem__GetActiveTextColor (App_BasicMenuItem_o* __this, const MethodInfo* method);
+UnityEngine_Color_o App_BasicMenuItem__GetInactiveTextColor (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__UpdateCommandColorAsActive (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__ForceRebuildLayout (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__SetMenu (App_BasicMenuItem_o* __this, App_BasicMenu_o* menu, const MethodInfo* method);
+void App_BasicMenuItem__SetMenuItemContent (App_BasicMenuItem_o* __this, App_BasicMenuItemContent_o* menuItemContent, const MethodInfo* method);
+void App_BasicMenuItem__SetName (App_BasicMenuItem_o* __this, System_String_o* name, const MethodInfo* method);
+void App_BasicMenuItem__SetItemIndex (App_BasicMenuItem_o* __this, int32_t itemIndex, const MethodInfo* method);
+void App_BasicMenuItem__SetFullIndex (App_BasicMenuItem_o* __this, int32_t itemIndex, const MethodInfo* method);
+void App_BasicMenuItem__SetAttribute (App_BasicMenuItem_o* __this, int32_t attribute, const MethodInfo* method);
+int32_t App_BasicMenuItem__BuildAttribute (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__Tick (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__OnBuild (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__OnBuildMenuItemContent (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__OnSelect (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__OnDeselect (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__OnCursorMoveEnd (App_BasicMenuItem_o* __this, const MethodInfo* method);
+void App_BasicMenuItem__OnClose (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__SystemCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__KeyCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__ACall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__BCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__XCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__YCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__LCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__RCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__PlusCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__MinusCall (App_BasicMenuItem_o* __this, const MethodInfo* method);
+int32_t App_BasicMenuItem__CustomCall (App_BasicMenuItem_o* __this, const MethodInfo* method);

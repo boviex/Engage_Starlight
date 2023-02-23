@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_List_RuntimeAnimatorController__o* App_PhotographHaveAnimatorController__get_AnimatorController (App_PhotographHaveAnimatorController_o* __this, const MethodInfo* method);
+float App_PhotographHaveAnimatorController__get_AnimeTime (App_PhotographHaveAnimatorController_o* __this, const MethodInfo* method);
+void App_PhotographHaveAnimatorController__SetUpdate (App_PhotographHaveAnimatorController_o* __this, App_PhotographHaveAnimatorController_UpdateAnime_o* update, App_PhotographHaveAnimatorController_UpdateFaceAnime_o* faceAnime, const MethodInfo* method);
+void App_PhotographHaveAnimatorController__Update (App_PhotographHaveAnimatorController_o* __this, const MethodInfo* method);
+UnityEngine_Sprite_o* App_PhotographHaveAnimatorController__GetSprite (App_PhotographHaveAnimatorController_o* __this, const MethodInfo* method);
+void App_PhotographHaveAnimatorController___ctor (App_PhotographHaveAnimatorController_o* __this, const MethodInfo* method);

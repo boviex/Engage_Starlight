@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerPersistentCanvas__Toggle (UnityEngine_Rendering_UI_DebugUIHandlerPersistentCanvas_o* __this, UnityEngine_Rendering_DebugUI_Value_o* widget, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerPersistentCanvas__Clear (UnityEngine_Rendering_UI_DebugUIHandlerPersistentCanvas_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerPersistentCanvas___ctor (UnityEngine_Rendering_UI_DebugUIHandlerPersistentCanvas_o* __this, const MethodInfo* method);

@@ -1,0 +1,56 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_TitleBar_o* App_TitleBar__get_Instance (const MethodInfo* method);
+void App_TitleBar__set_Instance (App_TitleBar_o* value, const MethodInfo* method);
+void App_TitleBar__CreateAsync (App_ProcInst_o* super, const MethodInfo* method);
+void App_TitleBar__LoadPrefabAsync (const MethodInfo* method);
+bool App_TitleBar__IsLoadingPrefab (const MethodInfo* method);
+void App_TitleBar__CreateInstance (const MethodInfo* method);
+App_TitleBar_o* App_TitleBar__Create (const MethodInfo* method);
+void App_TitleBar__Update (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__HideHeader (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__HideHeaderKeyHelp (App_TitleBar_o* __this, System_String_o* keyHelp, const MethodInfo* method);
+void App_TitleBar__HideFooter (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__ShowHeader (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__ShowHeaderKeyHelp (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__ShowFooter (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsOpenHeader (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsOpenFooter (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__OpenHeader (App_TitleBar_o* __this, System_String_o* title, System_String_o* titleHelp, System_String_o* keyHelpId, const MethodInfo* method);
+void App_TitleBar__OpenHeaderSortie (App_TitleBar_o* __this, System_String_o* title, System_String_o* titleHelp, System_String_o* keyHelpId, int32_t unitNum, int32_t unitMaxNum, const MethodInfo* method);
+void App_TitleBar__OpenFooter (App_TitleBar_o* __this, int32_t type, const MethodInfo* method);
+void App_TitleBar__CloseHeader (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__CloseFooter (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__UpdateFooterValues (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__SetUnitNum (App_TitleBar_o* __this, int32_t num, int32_t maxNum, const MethodInfo* method);
+void App_TitleBar__TransitHeader (App_TitleBar_o* __this, System_String_o* title, System_String_o* titleHelp, System_String_o* keyHelpId, const MethodInfo* method);
+int32_t App_TitleBar__GetAnimType (App_TitleBar_o* __this, UnityEngine_Animator_o* animator, const MethodInfo* method);
+void App_TitleBar__ClearHeaderAnim (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__ClearFooterAnim (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsHeaderSortie (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__SetTitle (App_TitleBar_o* __this, System_String_o* title, System_String_o* titleHelp, System_String_o* keyHelpId, const MethodInfo* method);
+bool App_TitleBar__IsFooterTypeGold (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsFooterTypePieceOfBond (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsFooterTypeRefine (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsFooterTypeRefineGod (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsFooterTypeProof (App_TitleBar_o* __this, const MethodInfo* method);
+bool App_TitleBar__IsFooterTypeRelayTicket (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__InitFooterValue (App_TitleBar_o* __this, App_TitleBar_Values_o* values, const MethodInfo* method);
+void App_TitleBar__SetFooterValue (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__SetFooterCountValue (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__SetMaterialActive (App_TitleBar_o* __this, App_TitleBar_Values_o* values, int32_t index, UnityEngine_Sprite_o* iconSprite, System_String_o* name, const MethodInfo* method);
+void App_TitleBar__SetMaterialValue (App_TitleBar_o* __this, App_TitleBar_Values_o* values, int32_t index, int32_t value, const MethodInfo* method);
+void App_TitleBar__UpdateValueMoney (App_TitleBar_o* __this, App_TitleBar_Values_o* values, const MethodInfo* method);
+void App_TitleBar__UpdateValuePieceOfBond (App_TitleBar_o* __this, App_TitleBar_Values_o* values, const MethodInfo* method);
+void App_TitleBar__UpdateValueRefine (App_TitleBar_o* __this, App_TitleBar_Values_o* values, const MethodInfo* method);
+void App_TitleBar__UpdateValueRefineGod (App_TitleBar_o* __this, App_TitleBar_Values_o* values, const MethodInfo* method);
+void App_TitleBar__UpdateValueProof (App_TitleBar_o* __this, App_TitleBar_Values_o* values, const MethodInfo* method);
+void App_TitleBar__UpdateValueRelayTicket (App_TitleBar_o* __this, App_TitleBar_Values_o* values, const MethodInfo* method);
+void App_TitleBar__TransitTitleAnim (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar__TransitValuesAnim (App_TitleBar_o* __this, const MethodInfo* method);
+App_TitleBar_Title_o* App_TitleBar__GetHiddenTitle (App_TitleBar_o* __this, const MethodInfo* method);
+App_TitleBar_Values_o* App_TitleBar__GetHiddenValues (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar___ctor (App_TitleBar_o* __this, const MethodInfo* method);
+void App_TitleBar___cctor (const MethodInfo* method);

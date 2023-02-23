@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Vector3_o RootMotion_FinalIK_RotationLimitPolygonal_ReachCone__get_o (RootMotion_FinalIK_RotationLimitPolygonal_ReachCone_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_RotationLimitPolygonal_ReachCone__get_a (RootMotion_FinalIK_RotationLimitPolygonal_ReachCone_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_RotationLimitPolygonal_ReachCone__get_b (RootMotion_FinalIK_RotationLimitPolygonal_ReachCone_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_RotationLimitPolygonal_ReachCone__get_c (RootMotion_FinalIK_RotationLimitPolygonal_ReachCone_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal_ReachCone___ctor (RootMotion_FinalIK_RotationLimitPolygonal_ReachCone_o* __this, UnityEngine_Vector3_o _o, UnityEngine_Vector3_o _a, UnityEngine_Vector3_o _b, UnityEngine_Vector3_o _c, const MethodInfo* method);
+bool RootMotion_FinalIK_RotationLimitPolygonal_ReachCone__get_isValid (RootMotion_FinalIK_RotationLimitPolygonal_ReachCone_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal_ReachCone__Calculate (RootMotion_FinalIK_RotationLimitPolygonal_ReachCone_o* __this, const MethodInfo* method);

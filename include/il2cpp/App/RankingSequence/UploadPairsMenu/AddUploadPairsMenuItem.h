@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_RankingSequence_UploadPairsMenu_AddUploadPairsMenuItem__get_Label (App_RankingSequence_UploadPairsMenu_AddUploadPairsMenuItem_o* __this, const MethodInfo* method);
+void App_RankingSequence_UploadPairsMenu_AddUploadPairsMenuItem___ctor (App_RankingSequence_UploadPairsMenu_AddUploadPairsMenuItem_o* __this, App_RankingSequence_UploadPairsMenu_UploadPersonMenuItem_o* personItem, App_RankingSequence_UploadPairsMenu_UploadGodMenuItem_o* godItem, const MethodInfo* method);
+bool App_RankingSequence_UploadPairsMenu_AddUploadPairsMenuItem__IsEnable (App_RankingSequence_UploadPairsMenu_AddUploadPairsMenuItem_o* __this, const MethodInfo* method);

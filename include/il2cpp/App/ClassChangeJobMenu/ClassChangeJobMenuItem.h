@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ClassChange_ChangeJobData_o* App_ClassChangeJobMenu_ClassChangeJobMenuItem__GetJobData (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, const MethodInfo* method);
+void App_ClassChangeJobMenu_ClassChangeJobMenuItem__SetAttribute (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, const MethodInfo* method);
+bool App_ClassChangeJobMenu_ClassChangeJobMenuItem__IsCanChange (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, const MethodInfo* method);
+void App_ClassChangeJobMenu_ClassChangeJobMenuItem___ctor (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, App_ClassChange_ChangeJobData_o* jobData, const MethodInfo* method);
+int32_t App_ClassChangeJobMenu_ClassChangeJobMenuItem__BuildAttribute (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, const MethodInfo* method);
+int32_t App_ClassChangeJobMenu_ClassChangeJobMenuItem__ACall (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, const MethodInfo* method);
+int32_t App_ClassChangeJobMenu_ClassChangeJobMenuItem__BCall (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, const MethodInfo* method);
+void App_ClassChangeJobMenu_ClassChangeJobMenuItem__OnSelect (App_ClassChangeJobMenu_ClassChangeJobMenuItem_o* __this, const MethodInfo* method);

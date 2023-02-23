@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapSequenceBattle__BattleSkillAfter_d__48___ctor (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_MapSequenceBattle__BattleSkillAfter_d__48__System_IDisposable_Dispose (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+bool App_MapSequenceBattle__BattleSkillAfter_d__48__MoveNext (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+void App_MapSequenceBattle__BattleSkillAfter_d__48____m__Finally1 (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+void App_MapSequenceBattle__BattleSkillAfter_d__48____m__Finally2 (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+void App_MapSequenceBattle__BattleSkillAfter_d__48____m__Finally3 (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+void App_MapSequenceBattle__BattleSkillAfter_d__48____m__Finally4 (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapSequenceBattle__BattleSkillAfter_d__48__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+void App_MapSequenceBattle__BattleSkillAfter_d__48__System_Collections_IEnumerator_Reset (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapSequenceBattle__BattleSkillAfter_d__48__System_Collections_IEnumerator_get_Current (App_MapSequenceBattle__BattleSkillAfter_d__48_o* __this, const MethodInfo* method);

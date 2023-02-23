@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_ObjectPool_object___get_countAll (UnityEngine_Rendering_ObjectPool_T__o* __this, const MethodInfo_3721F60* method);
+void UnityEngine_Rendering_ObjectPool_object___set_countAll (UnityEngine_Rendering_ObjectPool_T__o* __this, int32_t value, const MethodInfo_3721F70* method);
+int32_t UnityEngine_Rendering_ObjectPool_object___get_countActive (UnityEngine_Rendering_ObjectPool_T__o* __this, const MethodInfo_3721F80* method);
+int32_t UnityEngine_Rendering_ObjectPool_object___get_countInactive (UnityEngine_Rendering_ObjectPool_T__o* __this, const MethodInfo_3721FE0* method);
+void UnityEngine_Rendering_ObjectPool_CommandBuffer____ctor (UnityEngine_Rendering_ObjectPool_CommandBuffer__o* __this, UnityEngine_Events_UnityAction_T__o* actionOnGet, UnityEngine_Events_UnityAction_T__o* actionOnRelease, bool collectionCheck, const MethodInfo_3722000* method);
+void UnityEngine_Rendering_ObjectPool_object____ctor (UnityEngine_Rendering_ObjectPool_T__o* __this, UnityEngine_Events_UnityAction_T__o* actionOnGet, UnityEngine_Events_UnityAction_T__o* actionOnRelease, bool collectionCheck, const MethodInfo_3722000* method);
+UnityEngine_Rendering_CommandBuffer_o* UnityEngine_Rendering_ObjectPool_CommandBuffer___Get (UnityEngine_Rendering_ObjectPool_CommandBuffer__o* __this, const MethodInfo_37220D0* method);
+Il2CppObject* UnityEngine_Rendering_ObjectPool_object___Get (UnityEngine_Rendering_ObjectPool_T__o* __this, const MethodInfo_37220D0* method);
+UnityEngine_Rendering_ObjectPool_PooledObject_T__o UnityEngine_Rendering_ObjectPool_object___Get (UnityEngine_Rendering_ObjectPool_T__o* __this, Il2CppObject** v, const MethodInfo_37221B0* method);
+void UnityEngine_Rendering_ObjectPool_CommandBuffer___Release (UnityEngine_Rendering_ObjectPool_CommandBuffer__o* __this, UnityEngine_Rendering_CommandBuffer_o* element, const MethodInfo_3722230* method);
+void UnityEngine_Rendering_ObjectPool_object___Release (UnityEngine_Rendering_ObjectPool_T__o* __this, Il2CppObject* element, const MethodInfo_3722230* method);

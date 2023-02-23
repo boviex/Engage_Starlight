@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_Script_o* MoonSharp_Interpreter_Tree_NodeBase__get_Script (MoonSharp_Interpreter_Tree_NodeBase_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Tree_NodeBase__set_Script (MoonSharp_Interpreter_Tree_NodeBase_o* __this, MoonSharp_Interpreter_Script_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* MoonSharp_Interpreter_Tree_NodeBase__get_LoadingContext (MoonSharp_Interpreter_Tree_NodeBase_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Tree_NodeBase__set_LoadingContext (MoonSharp_Interpreter_Tree_NodeBase_o* __this, MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Tree_NodeBase___ctor (MoonSharp_Interpreter_Tree_NodeBase_o* __this, MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, const MethodInfo* method);
+MoonSharp_Interpreter_Tree_Token_o* MoonSharp_Interpreter_Tree_NodeBase__UnexpectedTokenType (MoonSharp_Interpreter_Tree_Token_o* t, const MethodInfo* method);
+MoonSharp_Interpreter_Tree_Token_o* MoonSharp_Interpreter_Tree_NodeBase__CheckTokenType (MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, int32_t tokenType, const MethodInfo* method);
+MoonSharp_Interpreter_Tree_Token_o* MoonSharp_Interpreter_Tree_NodeBase__CheckTokenType (MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, int32_t tokenType1, int32_t tokenType2, const MethodInfo* method);
+MoonSharp_Interpreter_Tree_Token_o* MoonSharp_Interpreter_Tree_NodeBase__CheckTokenType (MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, int32_t tokenType1, int32_t tokenType2, int32_t tokenType3, const MethodInfo* method);
+void MoonSharp_Interpreter_Tree_NodeBase__CheckTokenTypeNotNext (MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, int32_t tokenType, const MethodInfo* method);
+MoonSharp_Interpreter_Tree_Token_o* MoonSharp_Interpreter_Tree_NodeBase__CheckMatch (MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, MoonSharp_Interpreter_Tree_Token_o* originalToken, int32_t expectedTokenType, System_String_o* expectedTokenText, const MethodInfo* method);

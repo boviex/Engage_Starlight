@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLink__Apply (RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLink_o* __this, RootMotion_FinalIK_VRIK_o* ik, UnityEngine_Quaternion_o offset, float crossFader, const MethodInfo* method);
+void RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLink__CrossFadeStart (RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLink_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLink___ctor (RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLink_o* __this, const MethodInfo* method);

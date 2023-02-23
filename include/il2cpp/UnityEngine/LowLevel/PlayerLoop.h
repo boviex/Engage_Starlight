@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_LowLevel_PlayerLoopSystem_o UnityEngine_LowLevel_PlayerLoop__GetDefaultPlayerLoop (const MethodInfo* method);
+void UnityEngine_LowLevel_PlayerLoop__SetPlayerLoop (UnityEngine_LowLevel_PlayerLoopSystem_o loop, const MethodInfo* method);
+int32_t UnityEngine_LowLevel_PlayerLoop__PlayerLoopSystemToInternal (UnityEngine_LowLevel_PlayerLoopSystem_o sys, System_Collections_Generic_List_PlayerLoopSystemInternal__o** internalSys, const MethodInfo* method);
+UnityEngine_LowLevel_PlayerLoopSystem_o UnityEngine_LowLevel_PlayerLoop__InternalToPlayerLoopSystem (UnityEngine_LowLevel_PlayerLoopSystemInternal_array* internalSys, int32_t* offset, const MethodInfo* method);
+UnityEngine_LowLevel_PlayerLoopSystemInternal_array* UnityEngine_LowLevel_PlayerLoop__GetDefaultPlayerLoopInternal (const MethodInfo* method);
+void UnityEngine_LowLevel_PlayerLoop__SetPlayerLoopInternal (UnityEngine_LowLevel_PlayerLoopSystemInternal_array* loop, const MethodInfo* method);

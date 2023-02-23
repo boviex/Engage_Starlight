@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_Specialized_NameValueCollection___ctor (System_Collections_Specialized_NameValueCollection_o* __this, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection___ctor (System_Collections_Specialized_NameValueCollection_o* __this, int32_t capacity, System_Collections_IEqualityComparer_o* equalityComparer, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection___ctor (System_Collections_Specialized_NameValueCollection_o* __this, System_DBNull_o* dummy, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection___ctor (System_Collections_Specialized_NameValueCollection_o* __this, System_Runtime_Serialization_SerializationInfo_o* info, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection__InvalidateCachedArrays (System_Collections_Specialized_NameValueCollection_o* __this, const MethodInfo* method);
+System_String_o* System_Collections_Specialized_NameValueCollection__GetAsOneString (System_Collections_ArrayList_o* list, const MethodInfo* method);
+System_String_array* System_Collections_Specialized_NameValueCollection__GetAsStringArray (System_Collections_ArrayList_o* list, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection__Add (System_Collections_Specialized_NameValueCollection_o* __this, System_String_o* name, System_String_o* value, const MethodInfo* method);
+System_String_o* System_Collections_Specialized_NameValueCollection__Get (System_Collections_Specialized_NameValueCollection_o* __this, System_String_o* name, const MethodInfo* method);
+System_String_array* System_Collections_Specialized_NameValueCollection__GetValues (System_Collections_Specialized_NameValueCollection_o* __this, System_String_o* name, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection__Set (System_Collections_Specialized_NameValueCollection_o* __this, System_String_o* name, System_String_o* value, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection__Remove (System_Collections_Specialized_NameValueCollection_o* __this, System_String_o* name, const MethodInfo* method);
+System_String_o* System_Collections_Specialized_NameValueCollection__get_Item (System_Collections_Specialized_NameValueCollection_o* __this, System_String_o* name, const MethodInfo* method);
+void System_Collections_Specialized_NameValueCollection__set_Item (System_Collections_Specialized_NameValueCollection_o* __this, System_String_o* name, System_String_o* value, const MethodInfo* method);
+System_String_o* System_Collections_Specialized_NameValueCollection__Get (System_Collections_Specialized_NameValueCollection_o* __this, int32_t index, const MethodInfo* method);
+System_String_o* System_Collections_Specialized_NameValueCollection__GetKey (System_Collections_Specialized_NameValueCollection_o* __this, int32_t index, const MethodInfo* method);

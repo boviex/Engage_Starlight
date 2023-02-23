@@ -1,0 +1,54 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Animator_o* SimpleAnimation__get_animator (SimpleAnimation_o* __this, const MethodInfo* method);
+bool SimpleAnimation__get_animatePhysics (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__set_animatePhysics (SimpleAnimation_o* __this, bool value, const MethodInfo* method);
+int32_t SimpleAnimation__get_cullingMode (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__set_cullingMode (SimpleAnimation_o* __this, int32_t value, const MethodInfo* method);
+bool SimpleAnimation__get_isPlaying (SimpleAnimation_o* __this, const MethodInfo* method);
+bool SimpleAnimation__get_playAutomatically (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__set_playAutomatically (SimpleAnimation_o* __this, bool value, const MethodInfo* method);
+UnityEngine_AnimationClip_o* SimpleAnimation__get_clip (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__set_clip (SimpleAnimation_o* __this, UnityEngine_AnimationClip_o* value, const MethodInfo* method);
+int32_t SimpleAnimation__get_wrapMode (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__set_wrapMode (SimpleAnimation_o* __this, int32_t value, const MethodInfo* method);
+void SimpleAnimation__AddClip (SimpleAnimation_o* __this, UnityEngine_AnimationClip_o* clip, System_String_o* newName, const MethodInfo* method);
+void SimpleAnimation__Blend (SimpleAnimation_o* __this, System_String_o* stateName, float targetWeight, float fadeLength, const MethodInfo* method);
+void SimpleAnimation__CrossFade (SimpleAnimation_o* __this, System_String_o* stateName, float fadeLength, const MethodInfo* method);
+void SimpleAnimation__CrossFadeQueued (SimpleAnimation_o* __this, System_String_o* stateName, float fadeLength, int32_t queueMode, const MethodInfo* method);
+int32_t SimpleAnimation__GetClipCount (SimpleAnimation_o* __this, const MethodInfo* method);
+bool SimpleAnimation__IsPlaying (SimpleAnimation_o* __this, System_String_o* stateName, const MethodInfo* method);
+void SimpleAnimation__Stop (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__Stop (SimpleAnimation_o* __this, System_String_o* stateName, const MethodInfo* method);
+void SimpleAnimation__Sample (SimpleAnimation_o* __this, const MethodInfo* method);
+bool SimpleAnimation__Play (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__AddState (SimpleAnimation_o* __this, UnityEngine_AnimationClip_o* clip, System_String_o* name, const MethodInfo* method);
+void SimpleAnimation__RemoveState (SimpleAnimation_o* __this, System_String_o* name, const MethodInfo* method);
+bool SimpleAnimation__Play (SimpleAnimation_o* __this, System_String_o* stateName, const MethodInfo* method);
+void SimpleAnimation__PlayQueued (SimpleAnimation_o* __this, System_String_o* stateName, int32_t queueMode, const MethodInfo* method);
+void SimpleAnimation__RemoveClip (SimpleAnimation_o* __this, UnityEngine_AnimationClip_o* clip, const MethodInfo* method);
+void SimpleAnimation__Rewind (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__Rewind (SimpleAnimation_o* __this, System_String_o* stateName, const MethodInfo* method);
+SimpleAnimation_State_o* SimpleAnimation__GetState (SimpleAnimation_o* __this, System_String_o* stateName, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_SimpleAnimation_State__o* SimpleAnimation__GetStates (SimpleAnimation_o* __this, const MethodInfo* method);
+SimpleAnimation_State_o* SimpleAnimation__get_Item (SimpleAnimation_o* __this, System_String_o* name, const MethodInfo* method);
+bool SimpleAnimation__IsFinished (SimpleAnimation_o* __this, float restTime, const MethodInfo* method);
+void SimpleAnimation__SetSpeed (SimpleAnimation_o* __this, float speed, const MethodInfo* method);
+void SimpleAnimation__Kick (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__OnEnable (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__OnDisable (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__Reset (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__Initialize (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__EnsureDefaultStateExists (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__Awake (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__OnDestroy (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__OnPlayableDone (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__RebuildStates (SimpleAnimation_o* __this, const MethodInfo* method);
+SimpleAnimation_EditorState_o* SimpleAnimation__CreateDefaultEditorState (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__LegacyClipCheck (UnityEngine_AnimationClip_o* clip, const MethodInfo* method);
+void SimpleAnimation__InvalidLegacyClipError (SimpleAnimation_o* __this, System_String_o* clipName, System_String_o* stateName, const MethodInfo* method);
+void SimpleAnimation__OnValidate (SimpleAnimation_o* __this, const MethodInfo* method);
+void SimpleAnimation__GetAnimationClips (SimpleAnimation_o* __this, System_Collections_Generic_List_AnimationClip__o* results, const MethodInfo* method);
+void SimpleAnimation___ctor (SimpleAnimation_o* __this, const MethodInfo* method);

@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Il2CppObject* __f__AnonymousType8_object__object___get_t (__f__AnonymousType8__t_j__TPar___attributes_j__TPar__o* __this, const MethodInfo_2B89760* method);
+System_Type_o* __f__AnonymousType8_Type__Attribute_____get_t (__f__AnonymousType8_Type__Attribute____o* __this, const MethodInfo_2B89760* method);
+Il2CppObject* __f__AnonymousType8_object__object___get_attributes (__f__AnonymousType8__t_j__TPar___attributes_j__TPar__o* __this, const MethodInfo_2B89770* method);
+System_Attribute_array* __f__AnonymousType8_Type__Attribute_____get_attributes (__f__AnonymousType8_Type__Attribute____o* __this, const MethodInfo_2B89770* method);
+void __f__AnonymousType8_object__object____ctor (__f__AnonymousType8__t_j__TPar___attributes_j__TPar__o* __this, Il2CppObject* t, Il2CppObject* attributes, const MethodInfo_2B89780* method);
+void __f__AnonymousType8_Type__Attribute______ctor (__f__AnonymousType8_Type__Attribute____o* __this, System_Type_o* t, System_Attribute_array* attributes, const MethodInfo_2B89780* method);
+bool __f__AnonymousType8_object__object___Equals (__f__AnonymousType8__t_j__TPar___attributes_j__TPar__o* __this, Il2CppObject* value, const MethodInfo_2B897D0* method);
+int32_t __f__AnonymousType8_object__object___GetHashCode (__f__AnonymousType8__t_j__TPar___attributes_j__TPar__o* __this, const MethodInfo_2B89890* method);
+System_String_o* __f__AnonymousType8_object__object___ToString (__f__AnonymousType8__t_j__TPar___attributes_j__TPar__o* __this, const MethodInfo_2B89920* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_MapUnitCommandMenu_EngageCommandMenuItem__get_ActiveMind (App_MapUnitCommandMenu_EngageCommandMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageCommandMenuItem__get_DeployMode (App_MapUnitCommandMenu_EngageCommandMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageCommandMenuItem__OnBuild (App_MapUnitCommandMenu_EngageCommandMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageCommandMenuItem__OnBuildMenuItemContent (App_MapUnitCommandMenu_EngageCommandMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageCommandMenuItem__ACall (App_MapUnitCommandMenu_EngageCommandMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageCommandMenuItem___ctor (App_MapUnitCommandMenu_EngageCommandMenuItem_o* __this, const MethodInfo* method);

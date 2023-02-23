@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_TypedStringToValueMap___c__2_object____cctor (const MethodInfo_2B7AC60* method);
+void UTJ_TypedStringToValueMap___c__2_object____ctor (UTJ_TypedStringToValueMap___c__2_T__o* __this, const MethodInfo_2B7AD40* method);
+System_String_o* UTJ_TypedStringToValueMap___c__2_object____Create_b__2_0 (UTJ_TypedStringToValueMap___c__2_T__o* __this, System_Collections_Generic_KeyValuePair_string__T__o item, const MethodInfo_2B7AD50* method);
+Il2CppObject* UTJ_TypedStringToValueMap___c__2_object____Create_b__2_1 (UTJ_TypedStringToValueMap___c__2_T__o* __this, System_Collections_Generic_KeyValuePair_string__T__o item, const MethodInfo_2B7AD60* method);

@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MS_Internal_Xml_Cache_XPathNode__get_NodeType (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathNode__get_Prefix (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathNode__get_LocalName (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathNode__get_NamespaceUri (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+System_Xml_XPath_XPathDocument_o* MS_Internal_Xml_Cache_XPathNode__get_Document (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathNode__get_LineNumber (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathNode__get_LinePosition (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathNode__get_CollapsedLinePosition (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+MS_Internal_Xml_Cache_XPathNodePageInfo_o* MS_Internal_Xml_Cache_XPathNode__get_PageInfo (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathNode__GetParent (MS_Internal_Xml_Cache_XPathNode_o __this, MS_Internal_Xml_Cache_XPathNode_array** pageNode, const MethodInfo* method);
+int32_t MS_Internal_Xml_Cache_XPathNode__GetSibling (MS_Internal_Xml_Cache_XPathNode_o __this, MS_Internal_Xml_Cache_XPathNode_array** pageNode, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathNode__get_IsXmlNamespaceNode (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathNode__get_HasSibling (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathNode__get_HasCollapsedText (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathNode__get_IsText (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+bool MS_Internal_Xml_Cache_XPathNode__get_HasNamespaceDecls (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);
+System_String_o* MS_Internal_Xml_Cache_XPathNode__get_Value (MS_Internal_Xml_Cache_XPathNode_o __this, const MethodInfo* method);

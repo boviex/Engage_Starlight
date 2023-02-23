@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_UnitEnum_TargetEnumerator_o App_UnitEnum_TargetEnumerator__Setup (App_UnitEnum_TargetEnumerator_o __this, App_Unit_o* unit, int32_t x, int32_t z, int32_t _near_, int32_t _far_, const MethodInfo* method);
+void App_UnitEnum_TargetEnumerator__Dispose (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);
+App_Unit_o* App_UnitEnum_TargetEnumerator__get_Current (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);
+Il2CppObject* App_UnitEnum_TargetEnumerator__System_Collections_IEnumerator_get_Current (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);
+bool App_UnitEnum_TargetEnumerator__MoveNext (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);
+void App_UnitEnum_TargetEnumerator__Reset (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerator_Unit__o* App_UnitEnum_TargetEnumerator__System_Collections_Generic_IEnumerable_App_Unit__GetEnumerator (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_UnitEnum_TargetEnumerator__System_Collections_IEnumerable_GetEnumerator (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);
+App_UnitEnum_TargetEnumerator_o App_UnitEnum_TargetEnumerator__GetEnumerator (App_UnitEnum_TargetEnumerator_o __this, const MethodInfo* method);

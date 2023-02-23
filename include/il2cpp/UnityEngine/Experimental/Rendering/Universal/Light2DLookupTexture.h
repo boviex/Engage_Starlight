@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Texture_o* UnityEngine_Experimental_Rendering_Universal_Light2DLookupTexture__GetLightLookupTexture (const MethodInfo* method);
+UnityEngine_Texture_o* UnityEngine_Experimental_Rendering_Universal_Light2DLookupTexture__GetFalloffLookupTexture (const MethodInfo* method);
+UnityEngine_Texture2D_o* UnityEngine_Experimental_Rendering_Universal_Light2DLookupTexture__CreatePointLightLookupTexture (const MethodInfo* method);
+UnityEngine_Texture2D_o* UnityEngine_Experimental_Rendering_Universal_Light2DLookupTexture__CreateFalloffLookupTexture (const MethodInfo* method);

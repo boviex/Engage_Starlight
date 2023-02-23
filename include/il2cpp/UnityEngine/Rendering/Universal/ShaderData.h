@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_ShaderData___ctor (UnityEngine_Rendering_Universal_ShaderData_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_Universal_ShaderData_o* UnityEngine_Rendering_Universal_ShaderData__get_instance (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ShaderData__Dispose (UnityEngine_Rendering_Universal_ShaderData_o* __this, const MethodInfo* method);
+UnityEngine_ComputeBuffer_o* UnityEngine_Rendering_Universal_ShaderData__GetLightDataBuffer (UnityEngine_Rendering_Universal_ShaderData_o* __this, int32_t size, const MethodInfo* method);
+UnityEngine_ComputeBuffer_o* UnityEngine_Rendering_Universal_ShaderData__GetLightIndicesBuffer (UnityEngine_Rendering_Universal_ShaderData_o* __this, int32_t size, const MethodInfo* method);
+UnityEngine_ComputeBuffer_o* UnityEngine_Rendering_Universal_ShaderData__GetShadowDataBuffer (UnityEngine_Rendering_Universal_ShaderData_o* __this, int32_t size, const MethodInfo* method);
+UnityEngine_ComputeBuffer_o* UnityEngine_Rendering_Universal_ShaderData__GetShadowIndicesBuffer (UnityEngine_Rendering_Universal_ShaderData_o* __this, int32_t size, const MethodInfo* method);
+UnityEngine_ComputeBuffer_o* UnityEngine_Rendering_Universal_ShaderData__GetOrUpdateBuffer_int_ (UnityEngine_Rendering_Universal_ShaderData_o* __this, UnityEngine_ComputeBuffer_o** buffer, int32_t size, const MethodInfo_205EB30* method);
+UnityEngine_ComputeBuffer_o* UnityEngine_Rendering_Universal_ShaderData__GetOrUpdateBuffer_ShaderInput_LightData_ (UnityEngine_Rendering_Universal_ShaderData_o* __this, UnityEngine_ComputeBuffer_o** buffer, int32_t size, const MethodInfo_205EC20* method);
+UnityEngine_ComputeBuffer_o* UnityEngine_Rendering_Universal_ShaderData__GetOrUpdateBuffer_ShaderInput_ShadowData_ (UnityEngine_Rendering_Universal_ShaderData_o* __this, UnityEngine_ComputeBuffer_o** buffer, int32_t size, const MethodInfo_205ED10* method);
+void UnityEngine_Rendering_Universal_ShaderData__DisposeBuffer (UnityEngine_Rendering_Universal_ShaderData_o* __this, UnityEngine_ComputeBuffer_o** buffer, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ShaderData___cctor (const MethodInfo* method);

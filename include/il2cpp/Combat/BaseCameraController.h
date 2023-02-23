@@ -1,0 +1,54 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Cinemachine_CinemachineVirtualCamera_o* Combat_BaseCameraController__get_VCam (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_VCam (Combat_BaseCameraController_o* __this, Cinemachine_CinemachineVirtualCamera_o* value, const MethodInfo* method);
+UnityEngine_Transform_o* Combat_BaseCameraController__get_Follow (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_Follow (Combat_BaseCameraController_o* __this, UnityEngine_Transform_o* value, const MethodInfo* method);
+UnityEngine_Transform_o* Combat_BaseCameraController__get_LookAt (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_LookAt (Combat_BaseCameraController_o* __this, UnityEngine_Transform_o* value, const MethodInfo* method);
+UnityEngine_Vector3_o Combat_BaseCameraController__get_BaseFollow (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_BaseFollow (Combat_BaseCameraController_o* __this, UnityEngine_Vector3_o value, const MethodInfo* method);
+UnityEngine_Vector3_o Combat_BaseCameraController__get_BaseLookAt (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_BaseLookAt (Combat_BaseCameraController_o* __this, UnityEngine_Vector3_o value, const MethodInfo* method);
+bool Combat_BaseCameraController__get_IsUsable (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_IsUsable (Combat_BaseCameraController_o* __this, bool value, const MethodInfo* method);
+System_Collections_Generic_List_CameraPosition__o* Combat_BaseCameraController__get_Positions (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_Positions (Combat_BaseCameraController_o* __this, System_Collections_Generic_List_CameraPosition__o* value, const MethodInfo* method);
+float Combat_BaseCameraController__get_SSS (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_SSS (Combat_BaseCameraController_o* __this, float value, const MethodInfo* method);
+bool Combat_BaseCameraController__get_MoveQuick (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_MoveQuick (Combat_BaseCameraController_o* __this, bool value, const MethodInfo* method);
+Combat_CameraPositionData_o* Combat_BaseCameraController__get_PosData (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_PosData (Combat_BaseCameraController_o* __this, Combat_CameraPositionData_o* value, const MethodInfo* method);
+bool Combat_BaseCameraController__get_IsUpdated (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_IsUpdated (Combat_BaseCameraController_o* __this, bool value, const MethodInfo* method);
+float Combat_BaseCameraController__get_RotateByTransition (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_RotateByTransition (Combat_BaseCameraController_o* __this, float value, const MethodInfo* method);
+System_ValueTuple_bool__bool__o Combat_BaseCameraController__GetInverse (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__SetInverse (Combat_BaseCameraController_o* __this, bool invSide, bool invCamera, const MethodInfo* method);
+Combat_CameraSwitch_o* Combat_BaseCameraController__get_Switch (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_Switch (Combat_BaseCameraController_o* __this, Combat_CameraSwitch_o* value, const MethodInfo* method);
+Cinemachine_CinemachineBrain_o* Combat_BaseCameraController__get_VCamBrain (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_VCamBrain (Combat_BaseCameraController_o* __this, Cinemachine_CinemachineBrain_o* value, const MethodInfo* method);
+Cinemachine_CinemachineCollider_o* Combat_BaseCameraController__get_Collider (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__set_Collider (Combat_BaseCameraController_o* __this, Cinemachine_CinemachineCollider_o* value, const MethodInfo* method);
+bool Combat_BaseCameraController__get_IsActiveVCam (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__Awake (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__Setup (Combat_BaseCameraController_o* __this, Combat_CameraSwitch_o* swt, Cinemachine_CinemachineBrain_o* brain, const MethodInfo* method);
+void Combat_BaseCameraController__LateUpdate (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__UpdatePosition (Combat_BaseCameraController_o* __this, bool force, const MethodInfo* method);
+void Combat_BaseCameraController__Stabilize (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__CheckUsable (Combat_BaseCameraController_o* __this, bool isRoutine, const MethodInfo* method);
+void Combat_BaseCameraController__Activate (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__Deactivate (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+void Combat_BaseCameraController__SetFollowLookupPos (Combat_BaseCameraController_o* __this, UnityEngine_Vector3_o followPos, UnityEngine_Vector3_o lookatPos, const MethodInfo* method);
+float Combat_BaseCameraController__FixHeight (Combat_BaseCameraController_o* __this, UnityEngine_Vector3_o current, UnityEngine_Vector3_o nextPos, float delta, const MethodInfo* method);
+bool Combat_BaseCameraController__CheckCollision (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+bool Combat_BaseCameraController__CheckObstacle (Combat_BaseCameraController_o* __this, int32_t side, bool checkEnemy, float noCheckRange, bool isDebug, const MethodInfo* method);
+bool Combat_BaseCameraController__CheckObstacleImpl (Combat_BaseCameraController_o* __this, int32_t side, float noCheckRange, bool isDebug, const MethodInfo* method);
+float Combat_BaseCameraController__DistanceToCamera (Combat_BaseCameraController_o* __this, UnityEngine_Vector3_o pos, const MethodInfo* method);
+float Combat_BaseCameraController__GetCameraSpeed (Combat_BaseCameraController_o* __this, UnityEngine_AnimationCurve_o* curve, UnityEngine_Vector3_o currentPos, UnityEngine_Vector3_o bestPos, const MethodInfo* method);
+void Combat_BaseCameraController___ctor (Combat_BaseCameraController_o* __this, const MethodInfo* method);
+bool Combat_BaseCameraController___CheckObstacleImpl_g__LineCast_85_0 (UnityEngine_Vector3_o pos1, UnityEngine_Vector3_o pos2, float noCheckRange, const MethodInfo* method);

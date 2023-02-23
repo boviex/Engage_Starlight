@@ -1,0 +1,28 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_SortedList_SyncSortedList___ctor (System_Collections_SortedList_SyncSortedList_o* __this, System_Collections_SortedList_o* list, const MethodInfo* method);
+int32_t System_Collections_SortedList_SyncSortedList__get_Count (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_SortedList_SyncSortedList__get_SyncRoot (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+bool System_Collections_SortedList_SyncSortedList__get_IsReadOnly (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+bool System_Collections_SortedList_SyncSortedList__get_IsFixedSize (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+bool System_Collections_SortedList_SyncSortedList__get_IsSynchronized (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_SortedList_SyncSortedList__get_Item (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, const MethodInfo* method);
+void System_Collections_SortedList_SyncSortedList__set_Item (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo* method);
+void System_Collections_SortedList_SyncSortedList__Add (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo* method);
+int32_t System_Collections_SortedList_SyncSortedList__get_Capacity (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_SortedList_SyncSortedList__Clone (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+bool System_Collections_SortedList_SyncSortedList__Contains (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, const MethodInfo* method);
+bool System_Collections_SortedList_SyncSortedList__ContainsKey (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, const MethodInfo* method);
+bool System_Collections_SortedList_SyncSortedList__ContainsValue (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, const MethodInfo* method);
+void System_Collections_SortedList_SyncSortedList__CopyTo (System_Collections_SortedList_SyncSortedList_o* __this, System_Array_o* array, int32_t index, const MethodInfo* method);
+Il2CppObject* System_Collections_SortedList_SyncSortedList__GetByIndex (System_Collections_SortedList_SyncSortedList_o* __this, int32_t index, const MethodInfo* method);
+System_Collections_IDictionaryEnumerator_o* System_Collections_SortedList_SyncSortedList__GetEnumerator (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_SortedList_SyncSortedList__GetKey (System_Collections_SortedList_SyncSortedList_o* __this, int32_t index, const MethodInfo* method);
+System_Collections_IList_o* System_Collections_SortedList_SyncSortedList__GetKeyList (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+System_Collections_IList_o* System_Collections_SortedList_SyncSortedList__GetValueList (System_Collections_SortedList_SyncSortedList_o* __this, const MethodInfo* method);
+int32_t System_Collections_SortedList_SyncSortedList__IndexOfKey (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, const MethodInfo* method);
+int32_t System_Collections_SortedList_SyncSortedList__IndexOfValue (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* value, const MethodInfo* method);
+void System_Collections_SortedList_SyncSortedList__RemoveAt (System_Collections_SortedList_SyncSortedList_o* __this, int32_t index, const MethodInfo* method);
+void System_Collections_SortedList_SyncSortedList__Remove (System_Collections_SortedList_SyncSortedList_o* __this, Il2CppObject* key, const MethodInfo* method);

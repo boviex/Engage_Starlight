@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MapSystemMenu_SubSystemMenu_SurrenderItem__get_FlagID (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubSystemMenu_SurrenderItem__GetName (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapSystemMenu_SubSystemMenu_SurrenderItem__GetHelpText (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_SurrenderItem__GetMapAttribute (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_SurrenderItem__BuildAttribute (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_SurrenderItem__ACall (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);
+int32_t App_MapSystemMenu_SubSystemMenu_SurrenderItem__BCall (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);
+void App_MapSystemMenu_SubSystemMenu_SurrenderItem___ctor (App_MapSystemMenu_SubSystemMenu_SurrenderItem_o* __this, const MethodInfo* method);

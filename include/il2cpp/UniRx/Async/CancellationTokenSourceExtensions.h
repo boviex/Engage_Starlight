@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_CancellationTokenSourceExtensions__CancelAfterSlim (System_Threading_CancellationTokenSource_o* cts, int32_t millisecondsDelay, bool ignoreTimeScale, int32_t delayTiming, const MethodInfo* method);
+void UniRx_Async_CancellationTokenSourceExtensions__CancelAfterSlim (System_Threading_CancellationTokenSource_o* cts, System_TimeSpan_o delayTimeSpan, bool ignoreTimeScale, int32_t delayTiming, const MethodInfo* method);
+UniRx_Async_UniTaskVoid_o UniRx_Async_CancellationTokenSourceExtensions__CancelAfterCore (System_Threading_CancellationTokenSource_o* cts, UniRx_Async_UniTask_o delayTask, const MethodInfo* method);
+void UniRx_Async_CancellationTokenSourceExtensions__RegisterRaiseCancelOnDestroy (System_Threading_CancellationTokenSource_o* cts, UnityEngine_Component_o* component, const MethodInfo* method);
+void UniRx_Async_CancellationTokenSourceExtensions__RegisterRaiseCancelOnDestroy (System_Threading_CancellationTokenSource_o* cts, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);

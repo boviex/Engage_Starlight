@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_Custom_Internal_CustomTransparentsLayerPass___ctor (UnityEngine_Rendering_Universal_Custom_Internal_CustomTransparentsLayerPass_o* __this, System_String_o* profilerTag, System_String_o* shaderTag, int32_t evt, UnityEngine_Rendering_RenderQueueRange_o renderQueueRange, UnityEngine_LayerMask_o layerMask, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_Internal_CustomTransparentsLayerPass__Execute (UnityEngine_Rendering_Universal_Custom_Internal_CustomTransparentsLayerPass_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_Internal_CustomTransparentsLayerPass___cctor (const MethodInfo* method);

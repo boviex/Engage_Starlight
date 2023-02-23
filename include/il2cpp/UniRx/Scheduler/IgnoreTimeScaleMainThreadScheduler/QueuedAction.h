@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Scheduler_IgnoreTimeScaleMainThreadScheduler_QueuedAction_object___Invoke (Il2CppObject* state, const MethodInfo_2A79D80* method);
+void UniRx_Scheduler_IgnoreTimeScaleMainThreadScheduler_QueuedAction_Unit___Invoke (Il2CppObject* state, const MethodInfo_2A7A440* method);
+void UniRx_Scheduler_IgnoreTimeScaleMainThreadScheduler_QueuedAction_object____cctor (const MethodInfo_2A7A010* method);
+void UniRx_Scheduler_IgnoreTimeScaleMainThreadScheduler_QueuedAction_Unit____cctor (const MethodInfo_2A7A6D0* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableCollision2DTrigger__OnCollisionEnter2D (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, UnityEngine_Collision2D_o* coll, const MethodInfo* method);
+System_IObservable_Collision2D__o* UniRx_Triggers_ObservableCollision2DTrigger__OnCollisionEnter2DAsObservable (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableCollision2DTrigger__OnCollisionExit2D (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, UnityEngine_Collision2D_o* coll, const MethodInfo* method);
+System_IObservable_Collision2D__o* UniRx_Triggers_ObservableCollision2DTrigger__OnCollisionExit2DAsObservable (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableCollision2DTrigger__OnCollisionStay2D (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, UnityEngine_Collision2D_o* coll, const MethodInfo* method);
+System_IObservable_Collision2D__o* UniRx_Triggers_ObservableCollision2DTrigger__OnCollisionStay2DAsObservable (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableCollision2DTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableCollision2DTrigger___ctor (UniRx_Triggers_ObservableCollision2DTrigger_o* __this, const MethodInfo* method);

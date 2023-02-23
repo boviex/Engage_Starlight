@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+uint32_t UnityEngine_Rendering_BitArray8__get_capacity (UnityEngine_Rendering_BitArray8_o __this, const MethodInfo* method);
+bool UnityEngine_Rendering_BitArray8__get_allFalse (UnityEngine_Rendering_BitArray8_o __this, const MethodInfo* method);
+bool UnityEngine_Rendering_BitArray8__get_allTrue (UnityEngine_Rendering_BitArray8_o __this, const MethodInfo* method);
+System_String_o* UnityEngine_Rendering_BitArray8__get_humanizedData (UnityEngine_Rendering_BitArray8_o __this, const MethodInfo* method);
+bool UnityEngine_Rendering_BitArray8__get_Item (UnityEngine_Rendering_BitArray8_o __this, uint32_t index, const MethodInfo* method);
+void UnityEngine_Rendering_BitArray8__set_Item (UnityEngine_Rendering_BitArray8_o __this, uint32_t index, bool value, const MethodInfo* method);
+void UnityEngine_Rendering_BitArray8___ctor (UnityEngine_Rendering_BitArray8_o __this, uint8_t initValue, const MethodInfo* method);
+void UnityEngine_Rendering_BitArray8___ctor (UnityEngine_Rendering_BitArray8_o __this, System_Collections_Generic_IEnumerable_uint__o* bitIndexTrue, const MethodInfo* method);
+UnityEngine_Rendering_BitArray8_o UnityEngine_Rendering_BitArray8__op_OnesComplement (UnityEngine_Rendering_BitArray8_o a, const MethodInfo* method);
+UnityEngine_Rendering_BitArray8_o UnityEngine_Rendering_BitArray8__op_BitwiseOr (UnityEngine_Rendering_BitArray8_o a, UnityEngine_Rendering_BitArray8_o b, const MethodInfo* method);
+UnityEngine_Rendering_BitArray8_o UnityEngine_Rendering_BitArray8__op_BitwiseAnd (UnityEngine_Rendering_BitArray8_o a, UnityEngine_Rendering_BitArray8_o b, const MethodInfo* method);
+UnityEngine_Rendering_IBitArray_o* UnityEngine_Rendering_BitArray8__BitAnd (UnityEngine_Rendering_BitArray8_o __this, UnityEngine_Rendering_IBitArray_o* other, const MethodInfo* method);
+UnityEngine_Rendering_IBitArray_o* UnityEngine_Rendering_BitArray8__BitOr (UnityEngine_Rendering_BitArray8_o __this, UnityEngine_Rendering_IBitArray_o* other, const MethodInfo* method);
+UnityEngine_Rendering_IBitArray_o* UnityEngine_Rendering_BitArray8__BitNot (UnityEngine_Rendering_BitArray8_o __this, const MethodInfo* method);
+bool UnityEngine_Rendering_BitArray8__op_Equality (UnityEngine_Rendering_BitArray8_o a, UnityEngine_Rendering_BitArray8_o b, const MethodInfo* method);
+bool UnityEngine_Rendering_BitArray8__op_Inequality (UnityEngine_Rendering_BitArray8_o a, UnityEngine_Rendering_BitArray8_o b, const MethodInfo* method);
+bool UnityEngine_Rendering_BitArray8__Equals (UnityEngine_Rendering_BitArray8_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_BitArray8__GetHashCode (UnityEngine_Rendering_BitArray8_o __this, const MethodInfo* method);

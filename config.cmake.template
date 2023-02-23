@@ -8,6 +8,6 @@ set(LOGGER_PORT 5123)
 set(SWITCH_TARGET fee_120)
 
 add_compile_definitions(
-        AFFECTION_ENABLED=true
-        EXP_SHARE_ENABLED=true
+        # AFFECTION_ENABLED=true #for toggles
+        # EXP_SHARE_ENABLED=true 
 )

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_UnityEventExtensions___c__2_object__object____cctor (const MethodInfo_2B7AEB0* method);
+void UniRx_UnityEventExtensions___c__2_object__object____ctor (UniRx_UnityEventExtensions___c__2_T0__T1__o* __this, const MethodInfo_2B7AF90* method);
+UnityEngine_Events_UnityAction_T0__T1__o* UniRx_UnityEventExtensions___c__2_object__object____AsObservable_b__2_0 (UniRx_UnityEventExtensions___c__2_T0__T1__o* __this, System_Action_Tuple_T0__T1___o* h, const MethodInfo_2B7AFA0* method);

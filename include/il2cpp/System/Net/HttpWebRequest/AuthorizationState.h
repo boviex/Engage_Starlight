@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool System_Net_HttpWebRequest_AuthorizationState__get_IsCompleted (System_Net_HttpWebRequest_AuthorizationState_o __this, const MethodInfo* method);
+int32_t System_Net_HttpWebRequest_AuthorizationState__get_NtlmAuthState (System_Net_HttpWebRequest_AuthorizationState_o __this, const MethodInfo* method);
+bool System_Net_HttpWebRequest_AuthorizationState__get_IsNtlmAuthenticated (System_Net_HttpWebRequest_AuthorizationState_o __this, const MethodInfo* method);
+void System_Net_HttpWebRequest_AuthorizationState___ctor (System_Net_HttpWebRequest_AuthorizationState_o __this, System_Net_HttpWebRequest_o* request, bool isProxy, const MethodInfo* method);
+bool System_Net_HttpWebRequest_AuthorizationState__CheckAuthorization (System_Net_HttpWebRequest_AuthorizationState_o __this, System_Net_WebResponse_o* response, int32_t code, const MethodInfo* method);
+void System_Net_HttpWebRequest_AuthorizationState__Reset (System_Net_HttpWebRequest_AuthorizationState_o __this, const MethodInfo* method);
+System_String_o* System_Net_HttpWebRequest_AuthorizationState__ToString (System_Net_HttpWebRequest_AuthorizationState_o __this, const MethodInfo* method);

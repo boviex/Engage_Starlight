@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem___ctor (App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem_o* __this, System_String_o* path, App_VersusServerReplayMetaData_o* metaData, uint16_t slotId, bool isUpload, bool isPlay, App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem_ACallback_o* callback, const MethodInfo* method);
+System_String_o* App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem__GetName (App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem_o* __this, const MethodInfo* method);
+bool App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem__IsEnable (App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem__ACall (App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem__BCall (App_VersusSequence_VersusSequenceLocal_SelectReplayMetaMenuItem_o* __this, const MethodInfo* method);

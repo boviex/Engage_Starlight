@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusViolationTypeMenu_VersusViolationTypeMenuItem___ctor (App_VersusViolationTypeMenu_VersusViolationTypeMenuItem_o* __this, int32_t category, const MethodInfo* method);
+System_String_o* App_VersusViolationTypeMenu_VersusViolationTypeMenuItem__GetName (App_VersusViolationTypeMenu_VersusViolationTypeMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusViolationTypeMenu_VersusViolationTypeMenuItem__GetCategory (App_VersusViolationTypeMenu_VersusViolationTypeMenuItem_o* __this, const MethodInfo* method);

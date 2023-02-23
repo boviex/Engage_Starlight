@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_UniversalRenderPipeline___c___cctor (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_UniversalRenderPipeline___c___ctor (UnityEngine_Rendering_Universal_UniversalRenderPipeline___c_o* __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_Universal_UniversalRenderPipeline___c____ctor_b__25_0 (UnityEngine_Rendering_Universal_UniversalRenderPipeline___c_o* __this, UnityEngine_Camera_o* camera1, UnityEngine_Camera_o* camera2, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_UniversalRenderPipeline___c____cctor_b__73_0 (UnityEngine_Rendering_Universal_UniversalRenderPipeline___c_o* __this, UnityEngine_Light_array* requests, Unity_Collections_NativeArray_LightDataGI__o lightsOutput, const MethodInfo* method);

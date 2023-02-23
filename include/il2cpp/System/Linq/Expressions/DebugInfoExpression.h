@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t System_Linq_Expressions_DebugInfoExpression__get_StartLine (System_Linq_Expressions_DebugInfoExpression_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_DebugInfoExpression__get_EndLine (System_Linq_Expressions_DebugInfoExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_SymbolDocumentInfo_o* System_Linq_Expressions_DebugInfoExpression__get_Document (System_Linq_Expressions_DebugInfoExpression_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_DebugInfoExpression__get_IsClear (System_Linq_Expressions_DebugInfoExpression_o* __this, const MethodInfo* method);

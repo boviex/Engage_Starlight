@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Combat_Decorators_o* Combat_DecoratorFactory__CreateDecorators (Combat_DecoratorArgs_o* arg, const MethodInfo* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDeco_0_0_Deco_RodBlock_ (Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C5790* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDeco_0_0_Deco_RodCollapse_ (Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C5790* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDeco_0_0_Deco_RodHeal_ (Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C5790* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDeco_0_0_Deco_RodWarp_ (Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C5790* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDeco_0_0_Deco_RodWeak_ (Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C5790* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDeco_0_0_Deco____ (Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C5790* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDeco_0_0_object_ (Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C5790* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDecoSkill_0_1_Deco_Skill_ (Combat_SkillStack_Packet_o* pair, Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C56C0* method);
+void Combat_DecoratorFactory___CreateDecorators_g__AddDecoSkill_0_1_object_ (Combat_SkillStack_Packet_o* pair, Combat_DecoratorFactory___c__DisplayClass0_0_o* , const MethodInfo_22C56C0* method);

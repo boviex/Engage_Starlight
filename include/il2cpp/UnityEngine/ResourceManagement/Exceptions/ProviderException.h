@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ResourceManagement_Exceptions_ProviderException___ctor (UnityEngine_ResourceManagement_Exceptions_ProviderException_o* __this, System_String_o* message, UnityEngine_ResourceManagement_ResourceLocations_IResourceLocation_o* location, System_Exception_o* innerException, const MethodInfo* method);
+UnityEngine_ResourceManagement_ResourceLocations_IResourceLocation_o* UnityEngine_ResourceManagement_Exceptions_ProviderException__get_Location (UnityEngine_ResourceManagement_Exceptions_ProviderException_o* __this, const MethodInfo* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_object____ctor (UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_T__o* __this, UniRx_Operators_TimeoutFrameObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_39B33F0* method);
+System_IDisposable_o* UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_object___Run (UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_T__o* __this, const MethodInfo_39B34B0* method);
+System_IDisposable_o* UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_object___RunTimer (UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_T__o* __this, uint64_t timerId, const MethodInfo_39B3640* method);
+void UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_object___OnNext (UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_T__o* __this, Il2CppObject* value, const MethodInfo_39B3780* method);
+void UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_object___OnError (UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_T__o* __this, System_Exception_o* error, const MethodInfo_39B39A0* method);
+void UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_object___OnCompleted (UniRx_Operators_TimeoutFrameObservable_TimeoutFrame_T__o* __this, const MethodInfo_39B3BD0* method);

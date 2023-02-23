@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_BattleRecordSequence__FadeOut_d__11___ctor (App_BattleRecordSequence__FadeOut_d__11_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_BattleRecordSequence__FadeOut_d__11__System_IDisposable_Dispose (App_BattleRecordSequence__FadeOut_d__11_o* __this, const MethodInfo* method);
+bool App_BattleRecordSequence__FadeOut_d__11__MoveNext (App_BattleRecordSequence__FadeOut_d__11_o* __this, const MethodInfo* method);
+Il2CppObject* App_BattleRecordSequence__FadeOut_d__11__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_BattleRecordSequence__FadeOut_d__11_o* __this, const MethodInfo* method);
+void App_BattleRecordSequence__FadeOut_d__11__System_Collections_IEnumerator_Reset (App_BattleRecordSequence__FadeOut_d__11_o* __this, const MethodInfo* method);
+Il2CppObject* App_BattleRecordSequence__FadeOut_d__11__System_Collections_IEnumerator_get_Current (App_BattleRecordSequence__FadeOut_d__11_o* __this, const MethodInfo* method);

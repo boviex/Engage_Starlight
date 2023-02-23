@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MoonSharp_Interpreter_Interop_StandardUserDataDescriptor__get_AccessMode (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_StandardUserDataDescriptor__set_AccessMode (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor_o* __this, int32_t value, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_StandardUserDataDescriptor___ctor (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor_o* __this, System_Type_o* type, int32_t accessMode, System_String_o* friendlyName, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_StandardUserDataDescriptor__FillMemberList (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_StandardUserDataDescriptor__PrepareForWiring (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor_o* __this, MoonSharp_Interpreter_Table_o* t, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_StandardUserDataDescriptor__Serialize (MoonSharp_Interpreter_Interop_StandardUserDataDescriptor_o* __this, MoonSharp_Interpreter_Table_o* t, System_Collections_Generic_IEnumerable_KeyValuePair_string__IMemberDescriptor___o* members, const MethodInfo* method);

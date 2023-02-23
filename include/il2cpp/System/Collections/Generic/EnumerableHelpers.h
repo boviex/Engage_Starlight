@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UniRx_TimeInterval_object__array* System_Collections_Generic_EnumerableHelpers__ToArray_TimeInterval_object__ (System_Collections_Generic_IEnumerable_T__o* source, int32_t* length, const MethodInfo_22D65F0* method);
+UniRx_Timestamped_object__array* System_Collections_Generic_EnumerableHelpers__ToArray_Timestamped_object__ (System_Collections_Generic_IEnumerable_T__o* source, int32_t* length, const MethodInfo_22D6C00* method);
+System_ValueTuple_object__float__array* System_Collections_Generic_EnumerableHelpers__ToArray_ValueTuple_object__float__ (System_Collections_Generic_IEnumerable_T__o* source, int32_t* length, const MethodInfo_22D7250* method);
+UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_array* System_Collections_Generic_EnumerableHelpers__ToArray_AsyncOperationHandle_ (System_Collections_Generic_IEnumerable_T__o* source, int32_t* length, const MethodInfo_22D7860* method);
+System_Int32_array* System_Collections_Generic_EnumerableHelpers__ToArray_int_ (System_Collections_Generic_IEnumerable_T__o* source, int32_t* length, const MethodInfo_22D7EB0* method);
+System_Object_array* System_Collections_Generic_EnumerableHelpers__ToArray_object_ (System_Collections_Generic_IEnumerable_T__o* source, int32_t* length, const MethodInfo_22D84B0* method);
+System_Object_array* System_Collections_Generic_EnumerableHelpers__ToArray_object_ (System_Collections_Generic_IEnumerable_T__o* source, const MethodInfo_22D8AB0* method);

@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Nullable_bool__o MoonSharp_Interpreter_Interop_DescriptorHelpers__GetVisibilityFromAttributes (System_Reflection_MemberInfo_o* mi, const MethodInfo* method);
+bool MoonSharp_Interpreter_Interop_DescriptorHelpers__IsDelegateType (System_Type_o* t, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__GetClrVisibility (System_Type_o* type, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__GetClrVisibility (System_Reflection_FieldInfo_o* info, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__GetClrVisibility (System_Reflection_PropertyInfo_o* info, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__GetClrVisibility (System_Reflection_MethodBase_o* info, const MethodInfo* method);
+bool MoonSharp_Interpreter_Interop_DescriptorHelpers__IsPropertyInfoPublic (System_Reflection_PropertyInfo_o* pi, const MethodInfo* method);
+System_Collections_Generic_List_string__o* MoonSharp_Interpreter_Interop_DescriptorHelpers__GetMetaNamesFromAttributes (System_Reflection_MethodInfo_o* mi, const MethodInfo* method);
+System_Type_array* MoonSharp_Interpreter_Interop_DescriptorHelpers__SafeGetTypes (System_Reflection_Assembly_o* _asm, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__GetConversionMethodName (System_Type_o* type, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_Type__o* MoonSharp_Interpreter_Interop_DescriptorHelpers__GetAllImplementedTypes (System_Type_o* t, const MethodInfo* method);
+bool MoonSharp_Interpreter_Interop_DescriptorHelpers__IsValidSimpleIdentifier (System_String_o* str, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__ToValidSimpleIdentifier (System_String_o* str, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__Camelify (System_String_o* name, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_DescriptorHelpers__UpperFirstLetter (System_String_o* name, const MethodInfo* method);

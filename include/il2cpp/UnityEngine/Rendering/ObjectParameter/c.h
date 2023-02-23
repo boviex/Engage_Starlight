@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_ObjectParameter___c_object____cctor (const MethodInfo_2B77E90* method);
+void UnityEngine_Rendering_ObjectParameter___c_object____ctor (UnityEngine_Rendering_ObjectParameter___c_T__o* __this, const MethodInfo_2B77F70* method);
+bool UnityEngine_Rendering_ObjectParameter___c_object____set_value_b__9_0 (UnityEngine_Rendering_ObjectParameter___c_T__o* __this, System_Reflection_FieldInfo_o* t, const MethodInfo_2B77F80* method);
+int32_t UnityEngine_Rendering_ObjectParameter___c_object____set_value_b__9_1 (UnityEngine_Rendering_ObjectParameter___c_T__o* __this, System_Reflection_FieldInfo_o* t, const MethodInfo_2B78040* method);

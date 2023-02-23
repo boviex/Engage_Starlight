@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_ProfileDownloadSequence___c__DisplayClass7_0___ctor (App_VersusSequence_ProfileDownloadSequence___c__DisplayClass7_0_o* __this, const MethodInfo* method);
+void App_VersusSequence_ProfileDownloadSequence___c__DisplayClass7_0___Sanitize_b__0 (App_VersusSequence_ProfileDownloadSequence___c__DisplayClass7_0_o* __this, bool isOk, const MethodInfo* method);

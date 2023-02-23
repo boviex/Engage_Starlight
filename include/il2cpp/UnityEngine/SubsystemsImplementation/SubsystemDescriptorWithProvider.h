@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UnityEngine_SubsystemsImplementation_SubsystemDescriptorWithProvider__get_id (UnityEngine_SubsystemsImplementation_SubsystemDescriptorWithProvider_o* __this, const MethodInfo* method);
+void UnityEngine_SubsystemsImplementation_SubsystemDescriptorWithProvider___ctor (UnityEngine_SubsystemsImplementation_SubsystemDescriptorWithProvider_o* __this, const MethodInfo* method);

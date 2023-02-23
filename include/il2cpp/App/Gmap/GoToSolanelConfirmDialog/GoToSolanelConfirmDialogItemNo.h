@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Gmap_GoToSolanelConfirmDialog_GoToSolanelConfirmDialogItemNo___ctor (App_Gmap_GoToSolanelConfirmDialog_GoToSolanelConfirmDialogItemNo_o* __this, System_Action_o* callback, System_String_o* text, const MethodInfo* method);
+int32_t App_Gmap_GoToSolanelConfirmDialog_GoToSolanelConfirmDialogItemNo__ACall (App_Gmap_GoToSolanelConfirmDialog_GoToSolanelConfirmDialogItemNo_o* __this, const MethodInfo* method);
+int32_t App_Gmap_GoToSolanelConfirmDialog_GoToSolanelConfirmDialogItemNo__BCall (App_Gmap_GoToSolanelConfirmDialog_GoToSolanelConfirmDialogItemNo_o* __this, const MethodInfo* method);

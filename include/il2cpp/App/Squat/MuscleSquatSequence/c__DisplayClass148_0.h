@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Squat_MuscleSquatSequence___c__DisplayClass148_0___ctor (App_Squat_MuscleSquatSequence___c__DisplayClass148_0_o* __this, const MethodInfo* method);
+void App_Squat_MuscleSquatSequence___c__DisplayClass148_0___Init_b__0 (App_Squat_MuscleSquatSequence___c__DisplayClass148_0_o* __this, const MethodInfo* method);
+void App_Squat_MuscleSquatSequence___c__DisplayClass148_0___Init_b__2 (App_Squat_MuscleSquatSequence___c__DisplayClass148_0_o* __this, const MethodInfo* method);

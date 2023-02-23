@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_CoreLib_TableModule___c__DisplayClass2_0___ctor (MoonSharp_Interpreter_CoreLib_TableModule___c__DisplayClass2_0_o* __this, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_CoreLib_TableModule___c__DisplayClass2_0___sort_b__0 (MoonSharp_Interpreter_CoreLib_TableModule___c__DisplayClass2_0_o* __this, MoonSharp_Interpreter_DynValue_o* a, MoonSharp_Interpreter_DynValue_o* b, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_VsCodeDebugger_SDK_Utilities___c__DisplayClass1_0___ctor (MoonSharp_VsCodeDebugger_SDK_Utilities___c__DisplayClass1_0_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_VsCodeDebugger_SDK_Utilities___c__DisplayClass1_0___ExpandVariables_b__0 (MoonSharp_VsCodeDebugger_SDK_Utilities___c__DisplayClass1_0_o* __this, System_Text_RegularExpressions_Match_o* match, const MethodInfo* method);

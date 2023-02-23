@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_BufferedRTHandleSystem__get_maxWidth (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_BufferedRTHandleSystem__get_maxHeight (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_RTHandleProperties_o UnityEngine_Rendering_BufferedRTHandleSystem__get_rtHandleProperties (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_RTHandle_o* UnityEngine_Rendering_BufferedRTHandleSystem__GetFrameRT (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, int32_t bufferId, int32_t frameIndex, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__AllocBuffer (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, int32_t bufferId, System_Func_RTHandleSystem__int__RTHandle__o* allocator, int32_t bufferCount, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__ReleaseBuffer (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, int32_t bufferId, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__SwapAndSetReferenceSize (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, int32_t width, int32_t height, int32_t msaaSamples, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__ResetReferenceSize (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, int32_t width, int32_t height, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__Swap (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__Dispose (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, bool disposing, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__Dispose (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem__ReleaseAll (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_BufferedRTHandleSystem___ctor (UnityEngine_Rendering_BufferedRTHandleSystem_o* __this, const MethodInfo* method);

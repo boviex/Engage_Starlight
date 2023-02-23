@@ -1,0 +1,55 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_GameVariable_o* App_HubVariable__get_Variable (const MethodInfo* method);
+System_String_o* App_HubVariable__get_RandomKeyName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_RandomItemKeyName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_TimezoneKeyName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_SceneKey (const MethodInfo* method);
+System_String_o* App_HubVariable__get_StartKey (const MethodInfo* method);
+System_String_o* App_HubVariable__get_EnterCountKeyName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_EnterHubKeyName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotPointName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotLimitPointName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotEquipHeadAcc (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotEquipTailAcc (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotColor (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotFirstFlagName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotDoneStrok (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotDoneEatFood (const MethodInfo* method);
+System_String_o* App_HubVariable__get_MascotDoneChangeEquip (const MethodInfo* method);
+System_String_o* App_HubVariable__get_DragonKingClassChanged (const MethodInfo* method);
+System_String_o* App_HubVariable__get_PlacedRareAnimalFlagName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_StatueConditionFlagName (const MethodInfo* method);
+System_String_o* App_HubVariable__get_PromiseRingFlagName (const MethodInfo* method);
+bool App_HubVariable__get_HasPromiseRing (const MethodInfo* method);
+void App_HubVariable__set_HasPromiseRing (bool value, const MethodInfo* method);
+int32_t App_HubVariable__get_EnterCount (const MethodInfo* method);
+void App_HubVariable__set_EnterCount (int32_t value, const MethodInfo* method);
+bool App_HubVariable__get_EnterHub (const MethodInfo* method);
+void App_HubVariable__set_EnterHub (bool value, const MethodInfo* method);
+System_String_o* App_HubVariable__GetAnimalFlagName (int32_t index, const MethodInfo* method);
+System_String_o* App_HubVariable__GetAnimalItemFlagName (int32_t index, const MethodInfo* method);
+void App_HubVariable__CreateGlobalFlags (const MethodInfo* method);
+void App_HubVariable__CompletedChapter (const MethodInfo* method);
+void App_HubVariable__SetupScene (const MethodInfo* method);
+void App_HubVariable__SetTimezone (int32_t timezoneType, const MethodInfo* method);
+void App_HubVariable__SetCurrentScene (System_String_o* sceneName, System_String_o* start, const MethodInfo* method);
+void App_HubVariable__SetCurrentStartName (System_String_o* start, const MethodInfo* method);
+void App_HubVariable__ClearCurrentStartName (const MethodInfo* method);
+void App_HubVariable__SetRandomSeed (int32_t seed, const MethodInfo* method);
+int32_t App_HubVariable__GetRandomSeed (const MethodInfo* method);
+int32_t App_HubVariable__get_StatueCondition (const MethodInfo* method);
+void App_HubVariable__set_StatueCondition (int32_t value, const MethodInfo* method);
+int32_t App_HubVariable__GetTimezoneType (const MethodInfo* method);
+System_String_o* App_HubVariable__GetCurrentSceneName (const MethodInfo* method);
+System_String_o* App_HubVariable__GetCurrentStartName (const MethodInfo* method);
+System_String_o* App_HubVariable__GetHubSolanelBgm (const MethodInfo* method);
+void App_HubVariable__SetHubSolanelBgm (System_String_o* eventName, const MethodInfo* method);
+bool App_HubVariable__IsAppearedRareAnimal (System_String_o* prefixlessCid, const MethodInfo* method);
+void App_HubVariable__SetChapterForDebug (const MethodInfo* method);
+void App_HubVariable__SetupDebug_Option (bool isDoneFirstEvent, const MethodInfo* method);
+void App_HubVariable__SetupDebug_MiniGame (const MethodInfo* method);
+void App_HubVariable___ctor (App_HubVariable_o* __this, const MethodInfo* method);
+void App_HubVariable___cctor (const MethodInfo* method);

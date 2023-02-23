@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Linq_Expressions_LambdaExpression_o* System_Func_Expression__string__bool__ReadOnlyCollection_ParameterExpression___LambdaExpression___Invoke (System_Func_Expression__string__bool__ReadOnlyCollection_ParameterExpression___LambdaExpression__o* __this, System_Linq_Expressions_Expression_o* arg1, System_String_o* arg2, bool arg3, System_Collections_ObjectModel_ReadOnlyCollection_ParameterExpression__o* arg4, const MethodInfo_1F42000* method);

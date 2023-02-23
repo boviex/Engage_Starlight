@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerVBox__SetWidget (UnityEngine_Rendering_UI_DebugUIHandlerVBox_o* __this, UnityEngine_Rendering_DebugUI_Widget_o* widget, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerVBox__OnSelection (UnityEngine_Rendering_UI_DebugUIHandlerVBox_o* __this, bool fromNext, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* previous, const MethodInfo* method);
+UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* UnityEngine_Rendering_UI_DebugUIHandlerVBox__Next (UnityEngine_Rendering_UI_DebugUIHandlerVBox_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVBox___ctor (UnityEngine_Rendering_UI_DebugUIHandlerVBox_o* __this, const MethodInfo* method);

@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool App_RefineShopExchangeSourceMenuItem__get_m_EnoughSourceCount (App_RefineShopExchangeSourceMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenuItem__set_m_EnoughSourceCount (App_RefineShopExchangeSourceMenuItem_o* __this, bool value, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenuItem___ctor (App_RefineShopExchangeSourceMenuItem_o* __this, App_ItemRefineExchangeData_o* itemRefineExchangeData, App_ItemRefineExchangeData_o* targetMaterialData, App_MaterialMenuItem_SelectEventHandler_o* selectEventHandler, App_MaterialMenuItem_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+int32_t App_RefineShopExchangeSourceMenuItem__BuildAttribute (App_RefineShopExchangeSourceMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenuItem__OnSelect (App_RefineShopExchangeSourceMenuItem_o* __this, const MethodInfo* method);

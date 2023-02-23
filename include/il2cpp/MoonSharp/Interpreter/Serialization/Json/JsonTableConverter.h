@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__TableToJson (MoonSharp_Interpreter_Table_o* table, const MethodInfo* method);
+void MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__TableToJson (System_Text_StringBuilder_o* sb, MoonSharp_Interpreter_Table_o* table, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__ObjectToJson (Il2CppObject* obj, const MethodInfo* method);
+void MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__ValueToJson (System_Text_StringBuilder_o* sb, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__EscapeString (System_String_o* s, const MethodInfo* method);
+bool MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__IsValueJsonCompatible (MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_Table_o* MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__JsonToTable (System_String_o* json, MoonSharp_Interpreter_Script_o* script, const MethodInfo* method);
+void MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__AssertToken (MoonSharp_Interpreter_Tree_Lexer_o* L, int32_t type, const MethodInfo* method);
+MoonSharp_Interpreter_Table_o* MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__ParseJsonArray (MoonSharp_Interpreter_Tree_Lexer_o* L, MoonSharp_Interpreter_Script_o* script, const MethodInfo* method);
+MoonSharp_Interpreter_Table_o* MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__ParseJsonObject (MoonSharp_Interpreter_Tree_Lexer_o* L, MoonSharp_Interpreter_Script_o* script, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Serialization_Json_JsonTableConverter__ParseJsonValue (MoonSharp_Interpreter_Tree_Lexer_o* L, MoonSharp_Interpreter_Script_o* script, const MethodInfo* method);

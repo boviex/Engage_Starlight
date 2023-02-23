@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_LinkedListNode_T__o* UnityEngine_ResourceManagement_Util_GlobalLinkedListNodeCache_object___Acquire (Il2CppObject* val, const MethodInfo_3A27580* method);
+void UnityEngine_ResourceManagement_Util_GlobalLinkedListNodeCache_object___Release (System_Collections_Generic_LinkedListNode_T__o* node, const MethodInfo_3A27770* method);

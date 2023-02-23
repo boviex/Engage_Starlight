@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_AddressableAssets_UpdateCatalogsOperation___c___cctor (const MethodInfo* method);
+void UnityEngine_AddressableAssets_UpdateCatalogsOperation___c___ctor (UnityEngine_AddressableAssets_UpdateCatalogsOperation___c_o* __this, const MethodInfo* method);
+bool UnityEngine_AddressableAssets_UpdateCatalogsOperation___c___Start_b__4_0 (UnityEngine_AddressableAssets_UpdateCatalogsOperation___c_o* __this, UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_o* rp, const MethodInfo* method);

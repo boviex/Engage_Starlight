@@ -1,0 +1,18 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_Interpreter_CallbackFunction__get_Name (MoonSharp_Interpreter_CallbackFunction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_CallbackFunction__set_Name (MoonSharp_Interpreter_CallbackFunction_o* __this, System_String_o* value, const MethodInfo* method);
+System_Func_ScriptExecutionContext__CallbackArguments__DynValue__o* MoonSharp_Interpreter_CallbackFunction__get_ClrCallback (MoonSharp_Interpreter_CallbackFunction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_CallbackFunction__set_ClrCallback (MoonSharp_Interpreter_CallbackFunction_o* __this, System_Func_ScriptExecutionContext__CallbackArguments__DynValue__o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_CallbackFunction___ctor (MoonSharp_Interpreter_CallbackFunction_o* __this, System_Func_ScriptExecutionContext__CallbackArguments__DynValue__o* callBack, System_String_o* name, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CallbackFunction__Invoke (MoonSharp_Interpreter_CallbackFunction_o* __this, MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, System_Collections_Generic_IList_DynValue__o* args, bool isMethodCall, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_CallbackFunction__get_DefaultAccessMode (const MethodInfo* method);
+void MoonSharp_Interpreter_CallbackFunction__set_DefaultAccessMode (int32_t value, const MethodInfo* method);
+MoonSharp_Interpreter_CallbackFunction_o* MoonSharp_Interpreter_CallbackFunction__FromDelegate (MoonSharp_Interpreter_Script_o* script, System_Delegate_o* del, int32_t accessMode, const MethodInfo* method);
+MoonSharp_Interpreter_CallbackFunction_o* MoonSharp_Interpreter_CallbackFunction__FromMethodInfo (MoonSharp_Interpreter_Script_o* script, System_Reflection_MethodInfo_o* mi, Il2CppObject* obj, int32_t accessMode, const MethodInfo* method);
+Il2CppObject* MoonSharp_Interpreter_CallbackFunction__get_AdditionalData (MoonSharp_Interpreter_CallbackFunction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_CallbackFunction__set_AdditionalData (MoonSharp_Interpreter_CallbackFunction_o* __this, Il2CppObject* value, const MethodInfo* method);
+bool MoonSharp_Interpreter_CallbackFunction__CheckCallbackSignature (System_Reflection_MethodInfo_o* mi, bool requirePublicVisibility, const MethodInfo* method);
+void MoonSharp_Interpreter_CallbackFunction___cctor (const MethodInfo* method);

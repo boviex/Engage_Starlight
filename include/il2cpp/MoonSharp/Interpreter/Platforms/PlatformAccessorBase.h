@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_Interpreter_Platforms_PlatformAccessorBase__GetPlatformName (MoonSharp_Interpreter_Platforms_PlatformAccessorBase_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Platforms_PlatformAccessorBase__GetUnityRuntimeName (MoonSharp_Interpreter_Platforms_PlatformAccessorBase_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Platforms_PlatformAccessorBase__GetUnityPlatformName (MoonSharp_Interpreter_Platforms_PlatformAccessorBase_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Platforms_PlatformAccessorBase__DefaultInput (MoonSharp_Interpreter_Platforms_PlatformAccessorBase_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Platforms_PlatformAccessorBase__DefaultInput (MoonSharp_Interpreter_Platforms_PlatformAccessorBase_o* __this, System_String_o* prompt, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAccessorBase__IsRunningOnAOT (MoonSharp_Interpreter_Platforms_PlatformAccessorBase_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAccessorBase___ctor (MoonSharp_Interpreter_Platforms_PlatformAccessorBase_o* __this, const MethodInfo* method);

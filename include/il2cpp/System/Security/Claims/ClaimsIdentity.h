@@ -1,0 +1,26 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Claims_ClaimsIdentity___ctor (System_Security_Claims_ClaimsIdentity_o* __this, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity___ctor (System_Security_Claims_ClaimsIdentity_o* __this, System_Collections_Generic_IEnumerable_Claim__o* claims, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity___ctor (System_Security_Claims_ClaimsIdentity_o* __this, System_Security_Principal_IIdentity_o* identity, System_Collections_Generic_IEnumerable_Claim__o* claims, System_String_o* authenticationType, System_String_o* nameType, System_String_o* roleType, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity___ctor (System_Security_Claims_ClaimsIdentity_o* __this, System_Security_Principal_IIdentity_o* identity, System_Collections_Generic_IEnumerable_Claim__o* claims, System_String_o* authenticationType, System_String_o* nameType, System_String_o* roleType, bool checkAuthType, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity___ctor (System_Security_Claims_ClaimsIdentity_o* __this, System_Runtime_Serialization_SerializationInfo_o* info, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+System_String_o* System_Security_Claims_ClaimsIdentity__get_AuthenticationType (System_Security_Claims_ClaimsIdentity_o* __this, const MethodInfo* method);
+System_Security_Claims_ClaimsIdentity_o* System_Security_Claims_ClaimsIdentity__get_Actor (System_Security_Claims_ClaimsIdentity_o* __this, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__set_Actor (System_Security_Claims_ClaimsIdentity_o* __this, System_Security_Claims_ClaimsIdentity_o* value, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_Claim__o* System_Security_Claims_ClaimsIdentity__get_Claims (System_Security_Claims_ClaimsIdentity_o* __this, const MethodInfo* method);
+System_String_o* System_Security_Claims_ClaimsIdentity__get_Name (System_Security_Claims_ClaimsIdentity_o* __this, const MethodInfo* method);
+System_Security_Claims_ClaimsIdentity_o* System_Security_Claims_ClaimsIdentity__Clone (System_Security_Claims_ClaimsIdentity_o* __this, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__SafeAddClaims (System_Security_Claims_ClaimsIdentity_o* __this, System_Collections_Generic_IEnumerable_Claim__o* claims, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__SafeAddClaim (System_Security_Claims_ClaimsIdentity_o* __this, System_Security_Claims_Claim_o* claim, const MethodInfo* method);
+System_Security_Claims_Claim_o* System_Security_Claims_ClaimsIdentity__FindFirst (System_Security_Claims_ClaimsIdentity_o* __this, System_String_o* type, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__OnSerializingMethod (System_Security_Claims_ClaimsIdentity_o* __this, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__OnDeserializedMethod (System_Security_Claims_ClaimsIdentity_o* __this, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__OnDeserializingMethod (System_Security_Claims_ClaimsIdentity_o* __this, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__GetObjectData (System_Security_Claims_ClaimsIdentity_o* __this, System_Runtime_Serialization_SerializationInfo_o* info, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__DeserializeClaims (System_Security_Claims_ClaimsIdentity_o* __this, System_String_o* serializedClaims, const MethodInfo* method);
+System_String_o* System_Security_Claims_ClaimsIdentity__SerializeClaims (System_Security_Claims_ClaimsIdentity_o* __this, const MethodInfo* method);
+bool System_Security_Claims_ClaimsIdentity__IsCircular (System_Security_Claims_ClaimsIdentity_o* __this, System_Security_Claims_ClaimsIdentity_o* subject, const MethodInfo* method);
+void System_Security_Claims_ClaimsIdentity__Deserialize (System_Security_Claims_ClaimsIdentity_o* __this, System_Runtime_Serialization_SerializationInfo_o* info, System_Runtime_Serialization_StreamingContext_o context, bool useContext, const MethodInfo* method);

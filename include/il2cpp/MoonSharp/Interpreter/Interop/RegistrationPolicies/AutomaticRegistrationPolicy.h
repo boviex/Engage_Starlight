@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool MoonSharp_Interpreter_Interop_RegistrationPolicies_AutomaticRegistrationPolicy__AllowTypeAutoRegistration (MoonSharp_Interpreter_Interop_RegistrationPolicies_AutomaticRegistrationPolicy_o* __this, System_Type_o* type, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_RegistrationPolicies_AutomaticRegistrationPolicy___ctor (MoonSharp_Interpreter_Interop_RegistrationPolicies_AutomaticRegistrationPolicy_o* __this, const MethodInfo* method);

@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* UnityEngine_Rendering_UI_DebugUIHandlerContainer__GetFirstItem (UnityEngine_Rendering_UI_DebugUIHandlerContainer_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* UnityEngine_Rendering_UI_DebugUIHandlerContainer__GetLastItem (UnityEngine_Rendering_UI_DebugUIHandlerContainer_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerContainer__IsDirectChild (UnityEngine_Rendering_UI_DebugUIHandlerContainer_o* __this, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* widget, const MethodInfo* method);
+System_Collections_Generic_List_DebugUIHandlerWidget__o* UnityEngine_Rendering_UI_DebugUIHandlerContainer__GetActiveChildren (UnityEngine_Rendering_UI_DebugUIHandlerContainer_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerContainer___ctor (UnityEngine_Rendering_UI_DebugUIHandlerContainer_o* __this, const MethodInfo* method);

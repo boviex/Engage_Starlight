@@ -1,0 +1,54 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_InfoUtil__TrySetText (TMPro_TextMeshProUGUI_o* tmp, System_String_o* str, const MethodInfo* method);
+void App_InfoUtil__TrySetText (TMPro_TextMeshProUGUI_o* tmp, int32_t value, const MethodInfo* method);
+void App_InfoUtil__TrySetText (UnityEngine_GameObject_o* gameObject, System_String_o* str, const MethodInfo* method);
+void App_InfoUtil__TrySetColor (TMPro_TextMeshProUGUI_o* tmp, UnityEngine_Color_o color, const MethodInfo* method);
+void App_InfoUtil__TrySetColor (UnityEngine_GameObject_o* gameObject, UnityEngine_Color_o color, const MethodInfo* method);
+void App_InfoUtil__TrySetColor (UnityEngine_UI_Image_o* image, UnityEngine_Color_o color, const MethodInfo* method);
+void App_InfoUtil__TrySetSprite (UnityEngine_GameObject_o* gameObject, UnityEngine_Sprite_o* spr, const MethodInfo* method);
+void App_InfoUtil__TrySetSprite (UnityEngine_UI_Image_o* image, UnityEngine_Sprite_o* spr, const MethodInfo* method);
+void App_InfoUtil__TrySetActive (UnityEngine_GameObject_o* obj, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TrySetActive (UnityEngine_Component_o* c, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TrySetParentActive (UnityEngine_GameObject_o* obj, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TrySetParentActive (UnityEngine_Component_o* c, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TrySetActive (UnityEngine_Component_o* c, System_String_o* name, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TrySetParentActive (UnityEngine_Component_o* c, System_String_o* name, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TrySetGrandParentActive (UnityEngine_GameObject_o* obj, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TrySetGrandParentActive (UnityEngine_Component_o* c, bool isActive, const MethodInfo* method);
+void App_InfoUtil__TryResetTextAnime (TMPro_TextMeshProUGUI_o* tmp, const MethodInfo* method);
+void App_InfoUtil__TrySetParamTitle (TMPro_TextMeshProUGUI_o* tmp, System_String_o* title, const MethodInfo* method);
+void App_InfoUtil__TrySetParamTitle (TMPro_TextMeshProUGUI_o* tmp, System_String_o* title, UnityEngine_Color_o color, const MethodInfo* method);
+void App_InfoUtil__TryUpdateChildGauge (UnityEngine_GameObject_o* gaugeObj, int32_t value, int32_t max, bool isHideWhen0, const MethodInfo* method);
+void App_InfoUtil__TryUpdateGauge (UnityEngine_GameObject_o* gaugeObj, int32_t value, int32_t max, const MethodInfo* method);
+void App_InfoUtil__TrySetMaterial (UnityEngine_UI_Image_o* img, UnityEngine_Material_o* mat, const MethodInfo* method);
+int32_t App_InfoUtil__AddSkill (App_InfoUtil_StatusSkill_array* list, App_SkillArray_o* skillArray, int32_t slotIndex, int32_t slotNum, bool isPackSlot, bool forceDisp, App_Unit_o* unit, bool isViewRestriction, const MethodInfo* method);
+App_InfoUtil_StatusSkill_array* App_InfoUtil__GetSkillListForUnitInfo (App_Unit_o* unit, bool isSkillEquip, bool isPack, int32_t size, const MethodInfo* method);
+void App_InfoUtil__AddSkillArray (App_Unit_o* unit, App_SkillArray_o* skillArray, App_InfoUtil_StatusSkill_array** list, int32_t* index, int32_t slotNum, const MethodInfo* method);
+bool App_InfoUtil__IsEngageItemAppear (App_Unit_o* unit, App_ItemData_o* item, const MethodInfo* method);
+int32_t App_InfoUtil__GetShowItemIconNum (App_Unit_o* unit, const MethodInfo* method);
+App_UnitItem_o* App_InfoUtil__GetUnitItem (App_Unit_o* unit, int32_t frameIndex, const MethodInfo* method);
+App_ItemData_o* App_InfoUtil__GetEngageItemData (App_Unit_o* unit, App_GodUnit_o* tempGod, int32_t frameIndex, const MethodInfo* method);
+void App_InfoUtil__TrySetItemIconList (UnityEngine_GameObject_array* iconList, App_Unit_o* unit, const MethodInfo* method);
+void App_InfoUtil__TrySetItemIcon (UnityEngine_GameObject_o* itemRoot, App_UnitItem_o* ui, bool isEquip, const MethodInfo* method);
+void App_InfoUtil__TrySetColorToItemIcons (UnityEngine_GameObject_o* itemRoot, bool isValid, UnityEngine_Color_o blendColor, const MethodInfo* method);
+void App_InfoUtil__TrySetColorToItemIcon (UnityEngine_UI_Image_o* itemIconImage, bool isValid, const MethodInfo* method);
+UnityEngine_Color_o App_InfoUtil__GetItemIconColor (bool isValid, const MethodInfo* method);
+bool App_InfoUtil__IsBattleSequence (const MethodInfo* method);
+void App_InfoUtil__TrySetEngageItemIcon (UnityEngine_GameObject_o* itemRoot, App_ItemData_o* item, const MethodInfo* method);
+void App_InfoUtil__TrySetItemIconBase (UnityEngine_GameObject_o* itemRoot, App_ItemData_o* item, bool isValid, bool isEquip, bool isDrop, bool isEnchant, const MethodInfo* method);
+System_String_o* App_InfoUtil__AddDamageString (System_String_o* baseStr, int32_t damage, int32_t count, const MethodInfo* method);
+int32_t App_InfoUtil__GetBattleAtkParam (int32_t sideType, App_BattleSceneList_o* sceneList, int32_t* totalDamage, System_Collections_Generic_List_string__o** damageList, const MethodInfo* method);
+int32_t App_InfoUtil__GetBattleAtkCount (int32_t sideType, App_BattleSceneList_o* sceneList, const MethodInfo* method);
+void App_InfoUtil__SetUnitName (App_Unit_o* unit, TMPro_TextMeshProUGUI_o* text, const MethodInfo* method);
+void App_InfoUtil__SetGodName (App_Unit_o* unit, App_GodUnit_o* god, UnityEngine_GameObject_o* root, TMPro_TextMeshProUGUI_o* text, const MethodInfo* method);
+void App_InfoUtil__SetHpStock (App_Unit_o* unit, UnityEngine_GameObject_o* root, UnityEngine_UI_Image_array* stocks, UnityEngine_Sprite_array* sprites, int32_t force, const MethodInfo* method);
+bool App_InfoUtil__GetChainAtkParam (int32_t sideType, App_BattleInfo_o* info, System_String_o** damageStr, int32_t* hit, int32_t* crit, const MethodInfo* method);
+void App_InfoUtil__SetBattleAtkTitle (bool isHeal, TMPro_TextMeshProUGUI_o* text, App_HelpItemFixedText_o* help, const MethodInfo* method);
+bool App_InfoUtil__SetupEngageWeaponText (TMPro_TextMeshProUGUI_o* contentsText, App_UnitItem_o* item, const MethodInfo* method);
+void App_InfoUtil__SetEnchantText (TMPro_TextMeshProUGUI_o* enchantText, App_UnitItem_o* item, const MethodInfo* method);
+void App_InfoUtil___ctor (App_InfoUtil_o* __this, const MethodInfo* method);
+void App_InfoUtil___cctor (const MethodInfo* method);
+void App_InfoUtil___SetupEngageWeaponText_g__addRefine_49_0 (int32_t kind, App_InfoUtil___c__DisplayClass49_0_o* , App_InfoUtil___c__DisplayClass49_1_o* , const MethodInfo* method);

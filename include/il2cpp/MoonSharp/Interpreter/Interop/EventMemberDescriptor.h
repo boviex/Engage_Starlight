@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor__TryCreateIfVisible (System_Reflection_EventInfo_o* ei, int32_t accessMode, const MethodInfo* method);
+bool MoonSharp_Interpreter_Interop_EventMemberDescriptor__CheckEventIsCompatible (System_Reflection_EventInfo_o* ei, bool throwException, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor___ctor (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, System_Reflection_EventInfo_o* ei, int32_t accessMode, const MethodInfo* method);
+System_Reflection_EventInfo_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor__get_EventInfo (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor__set_EventInfo (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, System_Reflection_EventInfo_o* value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Interop_EventMemberDescriptor__get_IsStatic (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor__set_IsStatic (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, bool value, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor__GetValue (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor__AddCallback (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, Il2CppObject* o, MoonSharp_Interpreter_ScriptExecutionContext_o* context, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor__RemoveCallback (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, Il2CppObject* o, MoonSharp_Interpreter_ScriptExecutionContext_o* context, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor__RegisterCallback (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, Il2CppObject* o, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor__UnregisterCallback (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, Il2CppObject* o, const MethodInfo* method);
+System_Delegate_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor__CreateDelegate (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, Il2CppObject* sender, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor__DispatchEvent (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, Il2CppObject* sender, Il2CppObject* o01, Il2CppObject* o02, Il2CppObject* o03, Il2CppObject* o04, Il2CppObject* o05, Il2CppObject* o06, Il2CppObject* o07, Il2CppObject* o08, Il2CppObject* o09, Il2CppObject* o10, Il2CppObject* o11, Il2CppObject* o12, Il2CppObject* o13, Il2CppObject* o14, Il2CppObject* o15, Il2CppObject* o16, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor__get_Name (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Interop_EventMemberDescriptor__get_MemberAccess (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor__SetValue (MoonSharp_Interpreter_Interop_EventMemberDescriptor_o* __this, MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, MoonSharp_Interpreter_DynValue_o* v, const MethodInfo* method);

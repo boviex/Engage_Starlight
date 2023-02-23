@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_SpringColliderSerialization___c__DisplayClass16_0___ctor (UTJ_SpringColliderSerialization___c__DisplayClass16_0_o* __this, const MethodInfo* method);
+UnityEngine_Transform_o* UTJ_SpringColliderSerialization___c__DisplayClass16_0___GetChildByName_b__0 (UTJ_SpringColliderSerialization___c__DisplayClass16_0_o* __this, int32_t index, const MethodInfo* method);
+bool UTJ_SpringColliderSerialization___c__DisplayClass16_0___GetChildByName_b__1 (UTJ_SpringColliderSerialization___c__DisplayClass16_0_o* __this, UnityEngine_Transform_o* child, const MethodInfo* method);

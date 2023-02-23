@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MapUnitCommandMenu_EngageStartMenuItem__get_FlagID (App_MapUnitCommandMenu_EngageStartMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageStartMenuItem__get_Label (App_MapUnitCommandMenu_EngageStartMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageStartMenuItem__get_Mind (App_MapUnitCommandMenu_EngageStartMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_EngageStartMenuItem__GetName (App_MapUnitCommandMenu_EngageStartMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_EngageStartMenuItem__GetCommandHelp (App_MapUnitCommandMenu_EngageStartMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageStartMenuItem__GetMapAttribute (App_MapUnitCommandMenu_EngageStartMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageStartMenuItem___ctor (App_MapUnitCommandMenu_EngageStartMenuItem_o* __this, const MethodInfo* method);

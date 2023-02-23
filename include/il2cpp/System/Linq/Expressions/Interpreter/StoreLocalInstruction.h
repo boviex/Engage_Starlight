@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_StoreLocalInstruction___ctor (System_Linq_Expressions_Interpreter_StoreLocalInstruction_o* __this, int32_t index, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_StoreLocalInstruction__get_ConsumedStack (System_Linq_Expressions_Interpreter_StoreLocalInstruction_o* __this, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_StoreLocalInstruction__get_InstructionName (System_Linq_Expressions_Interpreter_StoreLocalInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_StoreLocalInstruction__Run (System_Linq_Expressions_Interpreter_StoreLocalInstruction_o* __this, System_Linq_Expressions_Interpreter_InterpretedFrame_o* frame, const MethodInfo* method);
+System_Linq_Expressions_Interpreter_Instruction_o* System_Linq_Expressions_Interpreter_StoreLocalInstruction__BoxIfIndexMatches (System_Linq_Expressions_Interpreter_StoreLocalInstruction_o* __this, int32_t index, const MethodInfo* method);

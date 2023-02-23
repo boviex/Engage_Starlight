@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_Internal_RuntimeHelpersAbstraction_WellKnownNoReferenceContainsType_CancellationTokenRegistration____cctor (const MethodInfo_2FF11A0* method);
+void UniRx_Async_Internal_RuntimeHelpersAbstraction_WellKnownNoReferenceContainsType_object____cctor (const MethodInfo_2FF1270* method);
+void UniRx_Async_Internal_RuntimeHelpersAbstraction_WellKnownNoReferenceContainsType_UniTask____cctor (const MethodInfo_2FF1340* method);

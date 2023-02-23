@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase___c__DisplayClass10_0___ctor (UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase___c__DisplayClass10_0_o* __this, const MethodInfo* method);
+bool UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase___c__DisplayClass10_0___InitializeAsync_b__0 (UnityEngine_ResourceManagement_ResourceProviders_ResourceProviderBase___c__DisplayClass10_0_o* __this, const MethodInfo* method);

@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Func_bool__array* UnityEngine_Rendering_DebugUI_HistoryBoolField__get_historyGetter (UnityEngine_Rendering_DebugUI_HistoryBoolField_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_HistoryBoolField__set_historyGetter (UnityEngine_Rendering_DebugUI_HistoryBoolField_o* __this, System_Func_bool__array* value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_DebugUI_HistoryBoolField__get_historyDepth (UnityEngine_Rendering_DebugUI_HistoryBoolField_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_DebugUI_HistoryBoolField__GetHistoryValue (UnityEngine_Rendering_DebugUI_HistoryBoolField_o* __this, int32_t historyIndex, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_HistoryBoolField___ctor (UnityEngine_Rendering_DebugUI_HistoryBoolField_o* __this, const MethodInfo* method);

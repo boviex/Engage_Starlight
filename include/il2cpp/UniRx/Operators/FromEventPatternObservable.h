@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_FromEventPatternObservable_object__object____ctor (UniRx_Operators_FromEventPatternObservable_TDelegate__TEventArgs__o* __this, System_Func_EventHandler_TEventArgs___TDelegate__o* conversion, System_Action_TDelegate__o* addHandler, System_Action_TDelegate__o* removeHandler, const MethodInfo_33F8A10* method);
+System_IDisposable_o* UniRx_Operators_FromEventPatternObservable_object__object___SubscribeCore (UniRx_Operators_FromEventPatternObservable_TDelegate__TEventArgs__o* __this, System_IObserver_EventPattern_TEventArgs___o* observer, System_IDisposable_o* cancel, const MethodInfo_33F8A90* method);

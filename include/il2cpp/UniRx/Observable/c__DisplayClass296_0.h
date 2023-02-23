@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observable___c__DisplayClass296_0_object____ctor (UniRx_Observable___c__DisplayClass296_0_T__o* __this, const MethodInfo_2B7FE00* method);
+System_Collections_IEnumerator_o* UniRx_Observable___c__DisplayClass296_0_object____FromMicroCoroutine_b__0 (UniRx_Observable___c__DisplayClass296_0_T__o* __this, System_IObserver_T__o* observer, System_Threading_CancellationToken_o cancellationToken, const MethodInfo_2B7FE10* method);

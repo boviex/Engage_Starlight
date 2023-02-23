@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool Cinemachine_CinemachineImpulseManager_ImpulseEvent__get_Expired (Cinemachine_CinemachineImpulseManager_ImpulseEvent_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseManager_ImpulseEvent__Cancel (Cinemachine_CinemachineImpulseManager_ImpulseEvent_o* __this, float time, bool forceNoDecay, const MethodInfo* method);
+float Cinemachine_CinemachineImpulseManager_ImpulseEvent__DistanceDecay (Cinemachine_CinemachineImpulseManager_ImpulseEvent_o* __this, float distance, const MethodInfo* method);
+bool Cinemachine_CinemachineImpulseManager_ImpulseEvent__GetDecayedSignal (Cinemachine_CinemachineImpulseManager_ImpulseEvent_o* __this, UnityEngine_Vector3_o listenerPosition, bool use2D, UnityEngine_Vector3_o* pos, UnityEngine_Quaternion_o* rot, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseManager_ImpulseEvent__Clear (Cinemachine_CinemachineImpulseManager_ImpulseEvent_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseManager_ImpulseEvent___ctor (Cinemachine_CinemachineImpulseManager_ImpulseEvent_o* __this, const MethodInfo* method);

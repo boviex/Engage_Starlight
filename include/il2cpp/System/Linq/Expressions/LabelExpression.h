@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_LabelExpression___ctor (System_Linq_Expressions_LabelExpression_o* __this, System_Linq_Expressions_LabelTarget_o* label, System_Linq_Expressions_Expression_o* defaultValue, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_LabelExpression__get_Type (System_Linq_Expressions_LabelExpression_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_LabelExpression__get_NodeType (System_Linq_Expressions_LabelExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_LabelTarget_o* System_Linq_Expressions_LabelExpression__get_Target (System_Linq_Expressions_LabelExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_LabelExpression__get_DefaultValue (System_Linq_Expressions_LabelExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_LabelExpression__Accept (System_Linq_Expressions_LabelExpression_o* __this, System_Linq_Expressions_ExpressionVisitor_o* visitor, const MethodInfo* method);
+System_Linq_Expressions_LabelExpression_o* System_Linq_Expressions_LabelExpression__Update (System_Linq_Expressions_LabelExpression_o* __this, System_Linq_Expressions_LabelTarget_o* target, System_Linq_Expressions_Expression_o* defaultValue, const MethodInfo* method);

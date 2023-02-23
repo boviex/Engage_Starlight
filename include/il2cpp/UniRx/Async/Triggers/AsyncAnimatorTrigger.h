@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IEnumerable_ICancelablePromise__o* UniRx_Async_Triggers_AsyncAnimatorTrigger__GetPromises (UniRx_Async_Triggers_AsyncAnimatorTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncAnimatorTrigger__OnAnimatorIK (UniRx_Async_Triggers_AsyncAnimatorTrigger_o* __this, int32_t layerIndex, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncAnimatorTrigger__OnAnimatorIKAsync (UniRx_Async_Triggers_AsyncAnimatorTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncAnimatorTrigger__OnAnimatorMove (UniRx_Async_Triggers_AsyncAnimatorTrigger_o* __this, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncAnimatorTrigger__OnAnimatorMoveAsync (UniRx_Async_Triggers_AsyncAnimatorTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncAnimatorTrigger___ctor (UniRx_Async_Triggers_AsyncAnimatorTrigger_o* __this, const MethodInfo* method);

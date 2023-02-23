@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone__Initiate (RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone_o* __this, UnityEngine_Vector3_o childPosition, UnityEngine_Vector3_o bendNormal, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone__GetRotation (RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone_o* __this, UnityEngine_Vector3_o direction, UnityEngine_Vector3_o bendNormal, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone__GetBendNormalFromCurrentRotation (RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone___ctor (RootMotion_FinalIK_IKSolverTrigonometric_TrigonometricBone_o* __this, const MethodInfo* method);

@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_U2D_SpriteDataAccessExtensions__CheckAttributeTypeMatchesAndThrow_object_ (int32_t channel, const MethodInfo_2060500* method);
+void UnityEngine_U2D_SpriteDataAccessExtensions__CheckAttributeTypeMatchesAndThrow_Vector2_ (int32_t channel, const MethodInfo_2060800* method);
+void UnityEngine_U2D_SpriteDataAccessExtensions__CheckAttributeTypeMatchesAndThrow_Vector3_ (int32_t channel, const MethodInfo_2060B00* method);
+Unity_Collections_NativeSlice_T__o UnityEngine_U2D_SpriteDataAccessExtensions__GetVertexAttribute_Vector2_ (UnityEngine_Sprite_o* sprite, int32_t channel, const MethodInfo_2060E00* method);
+Unity_Collections_NativeSlice_T__o UnityEngine_U2D_SpriteDataAccessExtensions__GetVertexAttribute_Vector3_ (UnityEngine_Sprite_o* sprite, int32_t channel, const MethodInfo_2060ED0* method);
+Unity_Collections_NativeArray_ushort__o UnityEngine_U2D_SpriteDataAccessExtensions__GetIndices (UnityEngine_Sprite_o* sprite, const MethodInfo* method);
+UnityEngine_U2D_SpriteChannelInfo_o UnityEngine_U2D_SpriteDataAccessExtensions__GetIndicesInfo (UnityEngine_Sprite_o* sprite, const MethodInfo* method);
+UnityEngine_U2D_SpriteChannelInfo_o UnityEngine_U2D_SpriteDataAccessExtensions__GetChannelInfo (UnityEngine_Sprite_o* sprite, int32_t channel, const MethodInfo* method);
+void UnityEngine_U2D_SpriteDataAccessExtensions__GetIndicesInfo_Injected (UnityEngine_Sprite_o* sprite, UnityEngine_U2D_SpriteChannelInfo_o* ret, const MethodInfo* method);
+void UnityEngine_U2D_SpriteDataAccessExtensions__GetChannelInfo_Injected (UnityEngine_Sprite_o* sprite, int32_t channel, UnityEngine_U2D_SpriteChannelInfo_o* ret, const MethodInfo* method);

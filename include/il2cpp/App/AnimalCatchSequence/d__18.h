@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_AnimalCatchSequence__MainCapture_d__18___ctor (App_AnimalCatchSequence__MainCapture_d__18_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_AnimalCatchSequence__MainCapture_d__18__System_IDisposable_Dispose (App_AnimalCatchSequence__MainCapture_d__18_o* __this, const MethodInfo* method);
+bool App_AnimalCatchSequence__MainCapture_d__18__MoveNext (App_AnimalCatchSequence__MainCapture_d__18_o* __this, const MethodInfo* method);
+Il2CppObject* App_AnimalCatchSequence__MainCapture_d__18__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_AnimalCatchSequence__MainCapture_d__18_o* __this, const MethodInfo* method);
+void App_AnimalCatchSequence__MainCapture_d__18__System_Collections_IEnumerator_Reset (App_AnimalCatchSequence__MainCapture_d__18_o* __this, const MethodInfo* method);
+Il2CppObject* App_AnimalCatchSequence__MainCapture_d__18__System_Collections_IEnumerator_get_Current (App_AnimalCatchSequence__MainCapture_d__18_o* __this, const MethodInfo* method);

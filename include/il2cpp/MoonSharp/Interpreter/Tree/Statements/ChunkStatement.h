@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Tree_Statements_ChunkStatement___ctor (MoonSharp_Interpreter_Tree_Statements_ChunkStatement_o* __this, MoonSharp_Interpreter_Execution_ScriptLoadingContext_o* lcontext, const MethodInfo* method);
+void MoonSharp_Interpreter_Tree_Statements_ChunkStatement__Compile (MoonSharp_Interpreter_Tree_Statements_ChunkStatement_o* __this, MoonSharp_Interpreter_Execution_VM_ByteCode_o* bc, const MethodInfo* method);
+MoonSharp_Interpreter_SymbolRef_o* MoonSharp_Interpreter_Tree_Statements_ChunkStatement__CreateUpvalue (MoonSharp_Interpreter_Tree_Statements_ChunkStatement_o* __this, MoonSharp_Interpreter_Execution_BuildTimeScope_o* scope, MoonSharp_Interpreter_SymbolRef_o* symbol, const MethodInfo* method);

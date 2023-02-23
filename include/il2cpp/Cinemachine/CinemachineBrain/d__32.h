@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineBrain__AfterPhysics_d__32___ctor (Cinemachine_CinemachineBrain__AfterPhysics_d__32_o* __this, int32_t __1__state, const MethodInfo* method);
+void Cinemachine_CinemachineBrain__AfterPhysics_d__32__System_IDisposable_Dispose (Cinemachine_CinemachineBrain__AfterPhysics_d__32_o* __this, const MethodInfo* method);
+bool Cinemachine_CinemachineBrain__AfterPhysics_d__32__MoveNext (Cinemachine_CinemachineBrain__AfterPhysics_d__32_o* __this, const MethodInfo* method);
+Il2CppObject* Cinemachine_CinemachineBrain__AfterPhysics_d__32__System_Collections_Generic_IEnumerator_System_Object__get_Current (Cinemachine_CinemachineBrain__AfterPhysics_d__32_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineBrain__AfterPhysics_d__32__System_Collections_IEnumerator_Reset (Cinemachine_CinemachineBrain__AfterPhysics_d__32_o* __this, const MethodInfo* method);
+Il2CppObject* Cinemachine_CinemachineBrain__AfterPhysics_d__32__System_Collections_IEnumerator_get_Current (Cinemachine_CinemachineBrain__AfterPhysics_d__32_o* __this, const MethodInfo* method);

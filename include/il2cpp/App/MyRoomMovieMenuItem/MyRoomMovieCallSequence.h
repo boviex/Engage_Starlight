@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MyRoomMovieMenuItem_MyRoomMovieCallSequence__get_MovieFileName (App_MyRoomMovieMenuItem_MyRoomMovieCallSequence_o* __this, const MethodInfo* method);
+void App_MyRoomMovieMenuItem_MyRoomMovieCallSequence__set_MovieFileName (App_MyRoomMovieMenuItem_MyRoomMovieCallSequence_o* __this, System_String_o* value, const MethodInfo* method);
+void App_MyRoomMovieMenuItem_MyRoomMovieCallSequence__CreateBind (App_ProcInst_o* super, System_String_o* moveiFileName, const MethodInfo* method);
+App_ProcDesc_array* App_MyRoomMovieMenuItem_MyRoomMovieCallSequence__CreateDesc (App_MyRoomMovieMenuItem_MyRoomMovieCallSequence_o* __this, const MethodInfo* method);
+void App_MyRoomMovieMenuItem_MyRoomMovieCallSequence__Entry (App_MyRoomMovieMenuItem_MyRoomMovieCallSequence_o* __this, const MethodInfo* method);
+void App_MyRoomMovieMenuItem_MyRoomMovieCallSequence__Main (App_MyRoomMovieMenuItem_MyRoomMovieCallSequence_o* __this, const MethodInfo* method);
+void App_MyRoomMovieMenuItem_MyRoomMovieCallSequence__Exit (App_MyRoomMovieMenuItem_MyRoomMovieCallSequence_o* __this, const MethodInfo* method);
+void App_MyRoomMovieMenuItem_MyRoomMovieCallSequence___ctor (App_MyRoomMovieMenuItem_MyRoomMovieCallSequence_o* __this, const MethodInfo* method);

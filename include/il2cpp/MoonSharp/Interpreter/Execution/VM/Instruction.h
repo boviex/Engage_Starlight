@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Execution_VM_Instruction___ctor (MoonSharp_Interpreter_Execution_VM_Instruction_o* __this, MoonSharp_Interpreter_Debugging_SourceRef_o* sourceref, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Execution_VM_Instruction__ToString (MoonSharp_Interpreter_Execution_VM_Instruction_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Execution_VM_Instruction__PurifyFromNewLines (MoonSharp_Interpreter_Execution_VM_Instruction_o* __this, MoonSharp_Interpreter_DynValue_o* Value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Execution_VM_Instruction__GenSpaces (MoonSharp_Interpreter_Execution_VM_Instruction_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_VM_Instruction__WriteBinary (MoonSharp_Interpreter_Execution_VM_Instruction_o* __this, System_IO_BinaryWriter_o* wr, int32_t baseAddress, System_Collections_Generic_Dictionary_SymbolRef__int__o* symbolMap, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_VM_Instruction__WriteSymbol (System_IO_BinaryWriter_o* wr, MoonSharp_Interpreter_SymbolRef_o* symbolRef, System_Collections_Generic_Dictionary_SymbolRef__int__o* symbolMap, const MethodInfo* method);
+MoonSharp_Interpreter_SymbolRef_o* MoonSharp_Interpreter_Execution_VM_Instruction__ReadSymbol (System_IO_BinaryReader_o* rd, MoonSharp_Interpreter_SymbolRef_array* deserializedSymbols, const MethodInfo* method);
+MoonSharp_Interpreter_Execution_VM_Instruction_o* MoonSharp_Interpreter_Execution_VM_Instruction__ReadBinary (MoonSharp_Interpreter_Debugging_SourceRef_o* chunkRef, System_IO_BinaryReader_o* rd, int32_t baseAddress, MoonSharp_Interpreter_Table_o* envTable, MoonSharp_Interpreter_SymbolRef_array* deserializedSymbols, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Execution_VM_Instruction__ReadValue (System_IO_BinaryReader_o* rd, MoonSharp_Interpreter_Table_o* envTable, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_VM_Instruction__DumpValue (MoonSharp_Interpreter_Execution_VM_Instruction_o* __this, System_IO_BinaryWriter_o* wr, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_VM_Instruction__GetSymbolReferences (MoonSharp_Interpreter_Execution_VM_Instruction_o* __this, MoonSharp_Interpreter_SymbolRef_array** symbolList, MoonSharp_Interpreter_SymbolRef_o** symbol, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_FinalConfirmDialog_NoDialogItem___ctor (App_MainMenuSequence_FinalConfirmDialog_NoDialogItem_o* __this, const MethodInfo* method);
+int32_t App_MainMenuSequence_FinalConfirmDialog_NoDialogItem__ACall (App_MainMenuSequence_FinalConfirmDialog_NoDialogItem_o* __this, const MethodInfo* method);
+int32_t App_MainMenuSequence_FinalConfirmDialog_NoDialogItem__BCall (App_MainMenuSequence_FinalConfirmDialog_NoDialogItem_o* __this, const MethodInfo* method);

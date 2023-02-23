@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Action_object__object____o* System_Linq_Expressions_Expression_Action_object__object______Compile (System_Linq_Expressions_Expression_TDelegate__o* __this, const MethodInfo_33E4D00* method);
+System_Action_object__object__o* System_Linq_Expressions_Expression_Action_object__object____Compile (System_Linq_Expressions_Expression_TDelegate__o* __this, const MethodInfo_33E4D00* method);
+System_Func_object__object__o* System_Linq_Expressions_Expression_Func_object__object____Compile (System_Linq_Expressions_Expression_TDelegate__o* __this, const MethodInfo_33E4D00* method);
+System_Func_object__object____object__o* System_Linq_Expressions_Expression_Func_object__object____object____Compile (System_Linq_Expressions_Expression_TDelegate__o* __this, const MethodInfo_33E4D00* method);

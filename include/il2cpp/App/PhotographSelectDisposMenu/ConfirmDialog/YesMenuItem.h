@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_PhotographSelectDisposMenu_ConfirmDialog_YesMenuItem___ctor (App_PhotographSelectDisposMenu_ConfirmDialog_YesMenuItem_o* __this, App_PhotographSelectDisposMenu_ConfirmDialog_YesHandler_o* yesHandler, App_PhotographSelectDisposMenu_ConfirmDialog_NoHandler_o* noHandler, const MethodInfo* method);
+int32_t App_PhotographSelectDisposMenu_ConfirmDialog_YesMenuItem__ACall (App_PhotographSelectDisposMenu_ConfirmDialog_YesMenuItem_o* __this, const MethodInfo* method);
+int32_t App_PhotographSelectDisposMenu_ConfirmDialog_YesMenuItem__BCall (App_PhotographSelectDisposMenu_ConfirmDialog_YesMenuItem_o* __this, const MethodInfo* method);

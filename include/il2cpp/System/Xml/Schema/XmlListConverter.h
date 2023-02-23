@@ -1,0 +1,38 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlListConverter___ctor (System_Xml_Schema_XmlListConverter_o* __this, System_Xml_Schema_XmlBaseConverter_o* atomicConverter, const MethodInfo* method);
+void System_Xml_Schema_XmlListConverter___ctor (System_Xml_Schema_XmlListConverter_o* __this, System_Xml_Schema_XmlBaseConverter_o* atomicConverter, System_Type_o* clrTypeDefault, const MethodInfo* method);
+void System_Xml_Schema_XmlListConverter___ctor (System_Xml_Schema_XmlListConverter_o* __this, System_Xml_Schema_XmlSchemaType_o* schemaType, const MethodInfo* method);
+System_Xml_Schema_XmlValueConverter_o* System_Xml_Schema_XmlListConverter__Create (System_Xml_Schema_XmlValueConverter_o* atomicConverter, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_XmlListConverter__ChangeType (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* value, System_Type_o* destinationType, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_XmlListConverter__ChangeListType (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* value, System_Type_o* destinationType, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo* method);
+bool System_Xml_Schema_XmlListConverter__IsListType (System_Xml_Schema_XmlListConverter_o* __this, System_Type_o* type, const MethodInfo* method);
+System_Byte_array_array* System_Xml_Schema_XmlListConverter__ToArray_byte___ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_Boolean_array* System_Xml_Schema_XmlListConverter__ToArray_bool_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386D0E0* method);
+System_Byte_array* System_Xml_Schema_XmlListConverter__ToArray_byte_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386D720* method);
+System_DateTime_array* System_Xml_Schema_XmlListConverter__ToArray_DateTime_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386DD60* method);
+System_DateTimeOffset_array* System_Xml_Schema_XmlListConverter__ToArray_DateTimeOffset_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386E3A0* method);
+System_Decimal_array* System_Xml_Schema_XmlListConverter__ToArray_Decimal_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386E9E0* method);
+System_Double_array* System_Xml_Schema_XmlListConverter__ToArray_double_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386F020* method);
+System_Int16_array* System_Xml_Schema_XmlListConverter__ToArray_short_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386F660* method);
+System_Int32_array* System_Xml_Schema_XmlListConverter__ToArray_int_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_386FCA0* method);
+System_Int64_array* System_Xml_Schema_XmlListConverter__ToArray_long_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_38702E0* method);
+System_Object_array* System_Xml_Schema_XmlListConverter__ToArray_object_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_SByte_array* System_Xml_Schema_XmlListConverter__ToArray_sbyte_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870F60* method);
+System_Single_array* System_Xml_Schema_XmlListConverter__ToArray_float_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_38715A0* method);
+System_String_array* System_Xml_Schema_XmlListConverter__ToArray_string_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_TimeSpan_array* System_Xml_Schema_XmlListConverter__ToArray_TimeSpan_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3871BE0* method);
+System_UInt16_array* System_Xml_Schema_XmlListConverter__ToArray_ushort_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3872220* method);
+System_UInt32_array* System_Xml_Schema_XmlListConverter__ToArray_uint_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3872860* method);
+System_UInt64_array* System_Xml_Schema_XmlListConverter__ToArray_ulong_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3872EA0* method);
+System_Uri_array* System_Xml_Schema_XmlListConverter__ToArray_Uri_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_Xml_XPath_XPathItem_array* System_Xml_Schema_XmlListConverter__ToArray_XPathItem_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_Xml_XPath_XPathNavigator_array* System_Xml_Schema_XmlListConverter__ToArray_XPathNavigator_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_Xml_Schema_XmlAtomicValue_array* System_Xml_Schema_XmlListConverter__ToArray_XmlAtomicValue_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_Xml_XmlQualifiedName_array* System_Xml_Schema_XmlListConverter__ToArray_XmlQualifiedName_ (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo_3870920* method);
+System_Collections_IList_o* System_Xml_Schema_XmlListConverter__ToList (System_Xml_Schema_XmlListConverter_o* __this, Il2CppObject* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo* method);
+System_Collections_Generic_List_string__o* System_Xml_Schema_XmlListConverter__StringAsList (System_Xml_Schema_XmlListConverter_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* System_Xml_Schema_XmlListConverter__ListAsString (System_Xml_Schema_XmlListConverter_o* __this, System_Collections_IEnumerable_o* list, System_Xml_IXmlNamespaceResolver_o* nsResolver, const MethodInfo* method);
+System_Exception_o* System_Xml_Schema_XmlListConverter__CreateInvalidClrMappingException (System_Xml_Schema_XmlListConverter_o* __this, System_Type_o* sourceType, System_Type_o* destinationType, const MethodInfo* method);

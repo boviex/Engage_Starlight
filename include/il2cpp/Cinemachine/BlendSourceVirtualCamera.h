@@ -1,0 +1,26 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_BlendSourceVirtualCamera___ctor (Cinemachine_BlendSourceVirtualCamera_o* __this, Cinemachine_CinemachineBlend_o* blend, const MethodInfo* method);
+Cinemachine_CinemachineBlend_o* Cinemachine_BlendSourceVirtualCamera__get_Blend (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__set_Blend (Cinemachine_BlendSourceVirtualCamera_o* __this, Cinemachine_CinemachineBlend_o* value, const MethodInfo* method);
+System_String_o* Cinemachine_BlendSourceVirtualCamera__get_Name (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+System_String_o* Cinemachine_BlendSourceVirtualCamera__get_Description (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+int32_t Cinemachine_BlendSourceVirtualCamera__get_Priority (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__set_Priority (Cinemachine_BlendSourceVirtualCamera_o* __this, int32_t value, const MethodInfo* method);
+UnityEngine_Transform_o* Cinemachine_BlendSourceVirtualCamera__get_LookAt (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__set_LookAt (Cinemachine_BlendSourceVirtualCamera_o* __this, UnityEngine_Transform_o* value, const MethodInfo* method);
+UnityEngine_Transform_o* Cinemachine_BlendSourceVirtualCamera__get_Follow (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__set_Follow (Cinemachine_BlendSourceVirtualCamera_o* __this, UnityEngine_Transform_o* value, const MethodInfo* method);
+Cinemachine_CameraState_o Cinemachine_BlendSourceVirtualCamera__get_State (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__set_State (Cinemachine_BlendSourceVirtualCamera_o* __this, Cinemachine_CameraState_o value, const MethodInfo* method);
+UnityEngine_GameObject_o* Cinemachine_BlendSourceVirtualCamera__get_VirtualCameraGameObject (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+bool Cinemachine_BlendSourceVirtualCamera__get_IsValid (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+Cinemachine_ICinemachineCamera_o* Cinemachine_BlendSourceVirtualCamera__get_ParentCamera (Cinemachine_BlendSourceVirtualCamera_o* __this, const MethodInfo* method);
+bool Cinemachine_BlendSourceVirtualCamera__IsLiveChild (Cinemachine_BlendSourceVirtualCamera_o* __this, Cinemachine_ICinemachineCamera_o* vcam, bool dominantChildOnly, const MethodInfo* method);
+Cinemachine_CameraState_o Cinemachine_BlendSourceVirtualCamera__CalculateNewState (Cinemachine_BlendSourceVirtualCamera_o* __this, float deltaTime, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__UpdateCameraState (Cinemachine_BlendSourceVirtualCamera_o* __this, UnityEngine_Vector3_o worldUp, float deltaTime, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__InternalUpdateCameraState (Cinemachine_BlendSourceVirtualCamera_o* __this, UnityEngine_Vector3_o worldUp, float deltaTime, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__OnTransitionFromCamera (Cinemachine_BlendSourceVirtualCamera_o* __this, Cinemachine_ICinemachineCamera_o* fromCam, UnityEngine_Vector3_o worldUp, float deltaTime, const MethodInfo* method);
+void Cinemachine_BlendSourceVirtualCamera__OnTargetObjectWarped (Cinemachine_BlendSourceVirtualCamera_o* __this, UnityEngine_Transform_o* target, UnityEngine_Vector3_o positionDelta, const MethodInfo* method);

@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_SampleObservable_Sample_object____ctor (UniRx_Operators_SampleObservable_Sample_T__o* __this, UniRx_Operators_SampleObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_3011620* method);
+System_IDisposable_o* UniRx_Operators_SampleObservable_Sample_object___Run (UniRx_Operators_SampleObservable_Sample_T__o* __this, const MethodInfo_30116E0* method);
+void UniRx_Operators_SampleObservable_Sample_object___OnNextTick (UniRx_Operators_SampleObservable_Sample_T__o* __this, const MethodInfo_3011970* method);
+void UniRx_Operators_SampleObservable_Sample_object___OnNextRecursive (UniRx_Operators_SampleObservable_Sample_T__o* __this, System_Action_TimeSpan__o* self, const MethodInfo_3011C40* method);
+void UniRx_Operators_SampleObservable_Sample_object___OnNext (UniRx_Operators_SampleObservable_Sample_T__o* __this, Il2CppObject* value, const MethodInfo_3011F60* method);
+void UniRx_Operators_SampleObservable_Sample_object___OnError (UniRx_Operators_SampleObservable_Sample_T__o* __this, System_Exception_o* error, const MethodInfo_3012040* method);
+void UniRx_Operators_SampleObservable_Sample_object___OnCompleted (UniRx_Operators_SampleObservable_Sample_T__o* __this, const MethodInfo_3012220* method);
+void UniRx_Operators_SampleObservable_Sample_object__object____ctor (UniRx_Operators_SampleObservable_Sample_T__T2__o* __this, UniRx_Operators_SampleObservable_T__T2__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_3012300* method);
+System_IDisposable_o* UniRx_Operators_SampleObservable_Sample_object__object___Run (UniRx_Operators_SampleObservable_Sample_T__T2__o* __this, const MethodInfo_30123C0* method);
+void UniRx_Operators_SampleObservable_Sample_object__object___OnNext (UniRx_Operators_SampleObservable_Sample_T__T2__o* __this, Il2CppObject* value, const MethodInfo_30125A0* method);
+void UniRx_Operators_SampleObservable_Sample_object__object___OnError (UniRx_Operators_SampleObservable_Sample_T__T2__o* __this, System_Exception_o* error, const MethodInfo_3012680* method);
+void UniRx_Operators_SampleObservable_Sample_object__object___OnCompleted (UniRx_Operators_SampleObservable_Sample_T__T2__o* __this, const MethodInfo_3012860* method);

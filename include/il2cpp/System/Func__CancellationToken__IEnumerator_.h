@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Func_IObserver_byte_____CancellationToken__IEnumerator____ctor (System_Func_IObserver_byte_____CancellationToken__IEnumerator__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F3CD00* method);
+void System_Func_IObserver_AssetBundle___CancellationToken__IEnumerator____ctor (System_Func_IObserver_AssetBundle___CancellationToken__IEnumerator__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F3CD00* method);
+void System_Func_IObserver_AsyncOperation___CancellationToken__IEnumerator____ctor (System_Func_IObserver_AsyncOperation___CancellationToken__IEnumerator__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F3CD00* method);
+void System_Func_IObserver_long___CancellationToken__IEnumerator____ctor (System_Func_IObserver_long___CancellationToken__IEnumerator__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F3CD00* method);
+void System_Func_IObserver_string___CancellationToken__IEnumerator____ctor (System_Func_IObserver_string___CancellationToken__IEnumerator__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F3CD00* method);
+void System_Func_IObserver_Unit___CancellationToken__IEnumerator____ctor (System_Func_IObserver_Unit___CancellationToken__IEnumerator__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F3CD00* method);
+void System_Func_IObserver_WWW___CancellationToken__IEnumerator____ctor (System_Func_IObserver_WWW___CancellationToken__IEnumerator__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F3CD00* method);

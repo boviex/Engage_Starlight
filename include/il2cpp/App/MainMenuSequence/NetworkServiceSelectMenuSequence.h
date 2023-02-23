@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MainMenuSequence_NetworkServiceSelectMenuSequence__GetLayoutPrefabPath (App_MainMenuSequence_NetworkServiceSelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_NetworkServiceSelectMenuSequence__GetTitleBarName (App_MainMenuSequence_NetworkServiceSelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_NetworkServiceSelectMenuSequence__GetTitleBarHelp (App_MainMenuSequence_NetworkServiceSelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_NetworkServiceSelectMenuSequence__GetTitleBarKeyHelpId (App_MainMenuSequence_NetworkServiceSelectMenuSequence_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_NetworkServiceSelectMenuSequence__CreateMenuBind (App_MainMenuSequence_NetworkServiceSelectMenuSequence_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_NetworkServiceSelectMenuSequence__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_NetworkServiceSelectMenuSequence___ctor (App_MainMenuSequence_NetworkServiceSelectMenuSequence_o* __this, const MethodInfo* method);

@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_WhenAllObservable_WhenAll__object____ctor (UniRx_Operators_WhenAllObservable_WhenAll__T__o* __this, System_Collections_Generic_IList_IObservable_T___o* sources, System_IObserver_T____o* observer, System_IDisposable_o* cancel, const MethodInfo_2FF6CD0* method);
+System_IDisposable_o* UniRx_Operators_WhenAllObservable_WhenAll__object___Run (UniRx_Operators_WhenAllObservable_WhenAll__T__o* __this, const MethodInfo_2FF6D90* method);
+void UniRx_Operators_WhenAllObservable_WhenAll__object___OnNext (UniRx_Operators_WhenAllObservable_WhenAll__T__o* __this, System_Object_array* value, const MethodInfo_2FF71F0* method);
+void UniRx_Operators_WhenAllObservable_WhenAll__object___OnError (UniRx_Operators_WhenAllObservable_WhenAll__T__o* __this, System_Exception_o* error, const MethodInfo_2FF72A0* method);
+void UniRx_Operators_WhenAllObservable_WhenAll__object___OnCompleted (UniRx_Operators_WhenAllObservable_WhenAll__T__o* __this, const MethodInfo_2FF73E0* method);
+void UniRx_Operators_WhenAllObservable_WhenAll____ctor (UniRx_Operators_WhenAllObservable_WhenAll__o* __this, System_Collections_Generic_IList_IObservable_Unit___o* sources, System_IObserver_Unit__o* observer, System_IDisposable_o* cancel, const MethodInfo* method);
+System_IDisposable_o* UniRx_Operators_WhenAllObservable_WhenAll___Run (UniRx_Operators_WhenAllObservable_WhenAll__o* __this, const MethodInfo* method);
+void UniRx_Operators_WhenAllObservable_WhenAll___OnNext (UniRx_Operators_WhenAllObservable_WhenAll__o* __this, UniRx_Unit_o value, const MethodInfo* method);
+void UniRx_Operators_WhenAllObservable_WhenAll___OnError (UniRx_Operators_WhenAllObservable_WhenAll__o* __this, System_Exception_o* error, const MethodInfo* method);
+void UniRx_Operators_WhenAllObservable_WhenAll___OnCompleted (UniRx_Operators_WhenAllObservable_WhenAll__o* __this, const MethodInfo* method);

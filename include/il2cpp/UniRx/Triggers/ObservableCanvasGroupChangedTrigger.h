@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableCanvasGroupChangedTrigger__OnCanvasGroupChanged (UniRx_Triggers_ObservableCanvasGroupChangedTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableCanvasGroupChangedTrigger__OnCanvasGroupChangedAsObservable (UniRx_Triggers_ObservableCanvasGroupChangedTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableCanvasGroupChangedTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableCanvasGroupChangedTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableCanvasGroupChangedTrigger___ctor (UniRx_Triggers_ObservableCanvasGroupChangedTrigger_o* __this, const MethodInfo* method);

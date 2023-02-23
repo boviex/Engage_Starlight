@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerPanel__OnEnable (UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerPanel__SetPanel (UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* __this, UnityEngine_Rendering_DebugUI_Panel_o* panel, const MethodInfo* method);
+UnityEngine_Rendering_DebugUI_Panel_o* UnityEngine_Rendering_UI_DebugUIHandlerPanel__GetPanel (UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerPanel__ScrollTo (UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* __this, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* target, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerPanel__GetYPosInScroll (UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* __this, UnityEngine_RectTransform_o* target, const MethodInfo* method);
+UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* UnityEngine_Rendering_UI_DebugUIHandlerPanel__GetFirstItem (UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerPanel___ctor (UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* __this, const MethodInfo* method);

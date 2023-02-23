@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Bounds_o UnityEngine_Rendering_SubMeshDescriptor__get_bounds (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_SubMeshDescriptor__get_topology (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_SubMeshDescriptor__get_indexStart (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_SubMeshDescriptor__get_indexCount (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_SubMeshDescriptor__get_baseVertex (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_SubMeshDescriptor__get_firstVertex (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_SubMeshDescriptor__get_vertexCount (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);
+System_String_o* UnityEngine_Rendering_SubMeshDescriptor__ToString (UnityEngine_Rendering_SubMeshDescriptor_o __this, const MethodInfo* method);

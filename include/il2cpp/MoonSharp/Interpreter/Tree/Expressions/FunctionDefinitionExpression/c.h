@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Tree_Expressions_FunctionDefinitionExpression___c___cctor (const MethodInfo* method);
+void MoonSharp_Interpreter_Tree_Expressions_FunctionDefinitionExpression___c___ctor (MoonSharp_Interpreter_Tree_Expressions_FunctionDefinitionExpression___c_o* __this, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Tree_Expressions_FunctionDefinitionExpression___c___Compile_b__21_0 (MoonSharp_Interpreter_Tree_Expressions_FunctionDefinitionExpression___c_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem___c__DisplayClass6_0___ctor (App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem___c__DisplayClass6_0_o* __this, const MethodInfo* method);
+void App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem___c__DisplayClass6_0___ACall_b__0 (App_InvestmentMenu_InvestmentMenuItem_InvestmentSubMenuItem___c__DisplayClass6_0_o* __this, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);

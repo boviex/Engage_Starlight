@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+float RootMotion_FinalIK_HitReactionVRIK_PositionOffset__GetLength (RootMotion_FinalIK_HitReactionVRIK_PositionOffset_o* __this, UnityEngine_AnimationCurve_array* curves, const MethodInfo* method);
+void RootMotion_FinalIK_HitReactionVRIK_PositionOffset__CrossFadeStart (RootMotion_FinalIK_HitReactionVRIK_PositionOffset_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_HitReactionVRIK_PositionOffset__OnApply (RootMotion_FinalIK_HitReactionVRIK_PositionOffset_o* __this, RootMotion_FinalIK_VRIK_o* ik, UnityEngine_AnimationCurve_array* curves, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_HitReactionVRIK_PositionOffset___ctor (RootMotion_FinalIK_HitReactionVRIK_PositionOffset_o* __this, const MethodInfo* method);

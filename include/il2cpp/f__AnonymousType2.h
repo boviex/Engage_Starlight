@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Il2CppObject* __f__AnonymousType2_object__int___get_reason (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B88710* method);
+Il2CppObject* __f__AnonymousType2_object__object___get_reason (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B88A20* method);
+int32_t __f__AnonymousType2_object__int___get_threadId (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B88720* method);
+Il2CppObject* __f__AnonymousType2_object__object___get_threadId (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B88A30* method);
+void __f__AnonymousType2_object__int____ctor (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, Il2CppObject* reason, int32_t threadId, const MethodInfo_2B88730* method);
+void __f__AnonymousType2_object__object____ctor (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, Il2CppObject* reason, Il2CppObject* threadId, const MethodInfo_2B88A40* method);
+void __f__AnonymousType2_string__int____ctor (__f__AnonymousType2_string__int__o* __this, System_String_o* reason, int32_t threadId, const MethodInfo_2B88730* method);
+bool __f__AnonymousType2_object__int___Equals (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, Il2CppObject* value, const MethodInfo_2B88780* method);
+bool __f__AnonymousType2_object__object___Equals (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, Il2CppObject* value, const MethodInfo_2B88A90* method);
+int32_t __f__AnonymousType2_object__int___GetHashCode (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B88840* method);
+int32_t __f__AnonymousType2_object__object___GetHashCode (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B88B50* method);
+System_String_o* __f__AnonymousType2_object__int___ToString (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B888D0* method);
+System_String_o* __f__AnonymousType2_object__object___ToString (__f__AnonymousType2__reason_j__TPar___threadId_j__TPar__o* __this, const MethodInfo_2B88BE0* method);

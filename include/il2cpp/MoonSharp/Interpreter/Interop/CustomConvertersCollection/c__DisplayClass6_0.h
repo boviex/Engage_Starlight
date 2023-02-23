@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_CustomConvertersCollection___c__DisplayClass6_0_object____ctor (MoonSharp_Interpreter_Interop_CustomConvertersCollection___c__DisplayClass6_0_T__o* __this, const MethodInfo_2B84240* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Interop_CustomConvertersCollection___c__DisplayClass6_0_object____SetClrToScriptCustomConversion_b__0 (MoonSharp_Interpreter_Interop_CustomConvertersCollection___c__DisplayClass6_0_T__o* __this, MoonSharp_Interpreter_Script_o* s, Il2CppObject* o, const MethodInfo_2B84250* method);

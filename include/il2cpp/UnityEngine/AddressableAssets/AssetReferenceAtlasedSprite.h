@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_AddressableAssets_AssetReferenceAtlasedSprite___ctor (UnityEngine_AddressableAssets_AssetReferenceAtlasedSprite_o* __this, System_String_o* guid, const MethodInfo* method);
+bool UnityEngine_AddressableAssets_AssetReferenceAtlasedSprite__ValidateAsset (UnityEngine_AddressableAssets_AssetReferenceAtlasedSprite_o* __this, UnityEngine_Object_o* obj, const MethodInfo* method);
+bool UnityEngine_AddressableAssets_AssetReferenceAtlasedSprite__ValidateAsset (UnityEngine_AddressableAssets_AssetReferenceAtlasedSprite_o* __this, System_String_o* path, const MethodInfo* method);

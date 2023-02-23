@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_Internal_DeferredPass___ctor (UnityEngine_Rendering_Universal_Internal_DeferredPass_o* __this, int32_t evt, UnityEngine_Rendering_Universal_Internal_DeferredLights_o* deferredLights, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_DeferredPass__Configure (UnityEngine_Rendering_Universal_Internal_DeferredPass_o* __this, UnityEngine_Rendering_CommandBuffer_o* cmd, UnityEngine_RenderTextureDescriptor_o cameraTextureDescripor, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_DeferredPass__Execute (UnityEngine_Rendering_Universal_Internal_DeferredPass_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_DeferredPass__OnCameraCleanup (UnityEngine_Rendering_Universal_Internal_DeferredPass_o* __this, UnityEngine_Rendering_CommandBuffer_o* cmd, const MethodInfo* method);

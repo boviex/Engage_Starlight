@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_RuntimeVariables___ctor (System_Linq_Expressions_Interpreter_RuntimeVariables_o* __this, System_Runtime_CompilerServices_IStrongBox_array* boxes, const MethodInfo* method);
+System_Runtime_CompilerServices_IRuntimeVariables_o* System_Linq_Expressions_Interpreter_RuntimeVariables__Create (System_Runtime_CompilerServices_IStrongBox_array* boxes, const MethodInfo* method);

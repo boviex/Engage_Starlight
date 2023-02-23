@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Quaternion_o Cinemachine_Utility_UnityQuaternionExtensions__SlerpWithReferenceUp (UnityEngine_Quaternion_o qA, UnityEngine_Quaternion_o qB, float t, UnityEngine_Vector3_o up, const MethodInfo* method);
+UnityEngine_Quaternion_o Cinemachine_Utility_UnityQuaternionExtensions__Normalized (UnityEngine_Quaternion_o q, const MethodInfo* method);
+UnityEngine_Vector2_o Cinemachine_Utility_UnityQuaternionExtensions__GetCameraRotationToTarget (UnityEngine_Quaternion_o orient, UnityEngine_Vector3_o lookAtDir, UnityEngine_Vector3_o worldUp, const MethodInfo* method);
+UnityEngine_Quaternion_o Cinemachine_Utility_UnityQuaternionExtensions__ApplyCameraRotation (UnityEngine_Quaternion_o orient, UnityEngine_Vector2_o rot, UnityEngine_Vector3_o worldUp, const MethodInfo* method);

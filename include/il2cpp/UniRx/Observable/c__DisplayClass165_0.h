@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observable___c__DisplayClass165_0_object__object__object____ctor (UniRx_Observable___c__DisplayClass165_0_T1__T2__TResult__o* __this, const MethodInfo_2B7E6F0* method);
+void UniRx_Observable___c__DisplayClass165_0_object__object__Unit____ctor (UniRx_Observable___c__DisplayClass165_0_T1__T2__TResult__o* __this, const MethodInfo_2B7E980* method);
+System_IObservable_TResult__o* UniRx_Observable___c__DisplayClass165_0_object__object__object____FromAsyncPattern_b__0 (UniRx_Observable___c__DisplayClass165_0_T1__T2__TResult__o* __this, Il2CppObject* x, Il2CppObject* y, const MethodInfo_2B7E700* method);
+System_IObservable_TResult__o* UniRx_Observable___c__DisplayClass165_0_object__object__Unit____FromAsyncPattern_b__0 (UniRx_Observable___c__DisplayClass165_0_T1__T2__TResult__o* __this, Il2CppObject* x, Il2CppObject* y, const MethodInfo_2B7E990* method);

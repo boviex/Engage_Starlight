@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableAnimatorTrigger__OnAnimatorIK (UniRx_Triggers_ObservableAnimatorTrigger_o* __this, int32_t layerIndex, const MethodInfo* method);
+System_IObservable_int__o* UniRx_Triggers_ObservableAnimatorTrigger__OnAnimatorIKAsObservable (UniRx_Triggers_ObservableAnimatorTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableAnimatorTrigger__OnAnimatorMove (UniRx_Triggers_ObservableAnimatorTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableAnimatorTrigger__OnAnimatorMoveAsObservable (UniRx_Triggers_ObservableAnimatorTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableAnimatorTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableAnimatorTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableAnimatorTrigger___ctor (UniRx_Triggers_ObservableAnimatorTrigger_o* __this, const MethodInfo* method);

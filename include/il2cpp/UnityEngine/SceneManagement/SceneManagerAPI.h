@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_SceneManagement_SceneManagerAPI_o* UnityEngine_SceneManagement_SceneManagerAPI__get_ActiveAPI (const MethodInfo* method);
+UnityEngine_SceneManagement_SceneManagerAPI_o* UnityEngine_SceneManagement_SceneManagerAPI__get_overrideAPI (const MethodInfo* method);
+void UnityEngine_SceneManagement_SceneManagerAPI___ctor (UnityEngine_SceneManagement_SceneManagerAPI_o* __this, const MethodInfo* method);
+UnityEngine_AsyncOperation_o* UnityEngine_SceneManagement_SceneManagerAPI__LoadSceneAsyncByNameOrIndex (UnityEngine_SceneManagement_SceneManagerAPI_o* __this, System_String_o* sceneName, int32_t sceneBuildIndex, UnityEngine_SceneManagement_LoadSceneParameters_o parameters, bool mustCompleteNextFrame, const MethodInfo* method);
+UnityEngine_AsyncOperation_o* UnityEngine_SceneManagement_SceneManagerAPI__LoadFirstScene (UnityEngine_SceneManagement_SceneManagerAPI_o* __this, bool mustLoadAsync, const MethodInfo* method);
+void UnityEngine_SceneManagement_SceneManagerAPI___cctor (const MethodInfo* method);

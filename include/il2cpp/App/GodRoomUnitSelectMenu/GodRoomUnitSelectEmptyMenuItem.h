@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem___ctor (App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem__GetName (App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem_o* __this, const MethodInfo* method);
+int32_t App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem__BuildAttribute (App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem_o* __this, const MethodInfo* method);
+void App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem__OnSelect (App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem_o* __this, const MethodInfo* method);
+int32_t App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem__ACall (App_GodRoomUnitSelectMenu_GodRoomUnitSelectEmptyMenuItem_o* __this, const MethodInfo* method);

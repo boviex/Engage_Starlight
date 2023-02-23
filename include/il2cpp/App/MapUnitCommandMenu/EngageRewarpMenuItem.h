@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_MapUnitCommandMenu_EngageRewarpMenuItem__get_Mind (App_MapUnitCommandMenu_EngageRewarpMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageRewarpMenuItem__get_Label (App_MapUnitCommandMenu_EngageRewarpMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageRewarpMenuItem__get_ActiveMind (App_MapUnitCommandMenu_EngageRewarpMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageRewarpMenuItem__get_DeployMode (App_MapUnitCommandMenu_EngageRewarpMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageRewarpMenuItem__GetMapAttribute (App_MapUnitCommandMenu_EngageRewarpMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageRewarpMenuItem__ACall (App_MapUnitCommandMenu_EngageRewarpMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageRewarpMenuItem___ctor (App_MapUnitCommandMenu_EngageRewarpMenuItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_OffsetModifier__Initiate_d__8___ctor (RootMotion_FinalIK_OffsetModifier__Initiate_d__8_o* __this, int32_t __1__state, const MethodInfo* method);
+void RootMotion_FinalIK_OffsetModifier__Initiate_d__8__System_IDisposable_Dispose (RootMotion_FinalIK_OffsetModifier__Initiate_d__8_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_OffsetModifier__Initiate_d__8__MoveNext (RootMotion_FinalIK_OffsetModifier__Initiate_d__8_o* __this, const MethodInfo* method);
+Il2CppObject* RootMotion_FinalIK_OffsetModifier__Initiate_d__8__System_Collections_Generic_IEnumerator_System_Object__get_Current (RootMotion_FinalIK_OffsetModifier__Initiate_d__8_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_OffsetModifier__Initiate_d__8__System_Collections_IEnumerator_Reset (RootMotion_FinalIK_OffsetModifier__Initiate_d__8_o* __this, const MethodInfo* method);
+Il2CppObject* RootMotion_FinalIK_OffsetModifier__Initiate_d__8__System_Collections_IEnumerator_get_Current (RootMotion_FinalIK_OffsetModifier__Initiate_d__8_o* __this, const MethodInfo* method);

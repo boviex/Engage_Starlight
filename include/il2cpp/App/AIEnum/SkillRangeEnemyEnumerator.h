@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_AIEnum_SkillRangeEnemyEnumerator_o App_AIEnum_SkillRangeEnemyEnumerator__Setup (App_AIEnum_SkillRangeEnemyEnumerator_o __this, App_Unit_o* unit, App_SkillData_o* skill, int32_t x, int32_t z, int32_t targetX, int32_t targetZ, const MethodInfo* method);
+void App_AIEnum_SkillRangeEnemyEnumerator__Dispose (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);
+App_AIEnum_SkillRangeEnemyData_o App_AIEnum_SkillRangeEnemyEnumerator__get_Current (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);
+Il2CppObject* App_AIEnum_SkillRangeEnemyEnumerator__System_Collections_IEnumerator_get_Current (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);
+bool App_AIEnum_SkillRangeEnemyEnumerator__MoveNext (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);
+void App_AIEnum_SkillRangeEnemyEnumerator__Reset (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerator_AIEnum_SkillRangeEnemyData__o* App_AIEnum_SkillRangeEnemyEnumerator__System_Collections_Generic_IEnumerable_App_AIEnum_SkillRangeEnemyData__GetEnumerator (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_AIEnum_SkillRangeEnemyEnumerator__System_Collections_IEnumerable_GetEnumerator (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);
+App_AIEnum_SkillRangeEnemyEnumerator_o App_AIEnum_SkillRangeEnemyEnumerator__GetEnumerator (App_AIEnum_SkillRangeEnemyEnumerator_o __this, const MethodInfo* method);

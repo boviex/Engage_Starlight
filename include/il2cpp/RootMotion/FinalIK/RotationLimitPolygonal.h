@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_RotationLimitPolygonal__OpenUserManual (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal__OpenScriptReference (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal__SupportGroup (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal__ASThread (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal__SetLimitPoints (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, RootMotion_FinalIK_RotationLimitPolygonal_LimitPoint_array* points, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_RotationLimitPolygonal__LimitRotation (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, UnityEngine_Quaternion_o rotation, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal__Start (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal__ResetToDefault (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal__BuildReachCones (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_array* RootMotion_FinalIK_RotationLimitPolygonal__SmoothPoints (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);
+float RootMotion_FinalIK_RotationLimitPolygonal__GetScalar (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, int32_t k, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_RotationLimitPolygonal__PointToTangentPlane (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, UnityEngine_Vector3_o p, float r, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_RotationLimitPolygonal__TangentPointToSphere (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, UnityEngine_Vector3_o q, float r, const MethodInfo* method);
+UnityEngine_Quaternion_o RootMotion_FinalIK_RotationLimitPolygonal__LimitSwing (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, UnityEngine_Quaternion_o rotation, const MethodInfo* method);
+int32_t RootMotion_FinalIK_RotationLimitPolygonal__GetReachCone (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, UnityEngine_Vector3_o L, const MethodInfo* method);
+void RootMotion_FinalIK_RotationLimitPolygonal___ctor (RootMotion_FinalIK_RotationLimitPolygonal_o* __this, const MethodInfo* method);

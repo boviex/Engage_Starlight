@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem__GetName (App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem_o* __this, const MethodInfo* method);
+System_String_o* App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem__GetHelpText (App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem_o* __this, const MethodInfo* method);
+int32_t App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem__BuildAttribute (App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem_o* __this, const MethodInfo* method);
+int32_t App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem__ACall (App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem_o* __this, const MethodInfo* method);
+int32_t App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem__BCall (App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem_o* __this, const MethodInfo* method);
+void App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem___ctor (App_GmapMenuSequence_GmapMenu_SubFriendMenu_RelianceItem_o* __this, const MethodInfo* method);

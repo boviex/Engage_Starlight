@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineIndependentImpulseListener__Reset (Cinemachine_CinemachineIndependentImpulseListener_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineIndependentImpulseListener__OnEnable (Cinemachine_CinemachineIndependentImpulseListener_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineIndependentImpulseListener__Update (Cinemachine_CinemachineIndependentImpulseListener_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineIndependentImpulseListener__LateUpdate (Cinemachine_CinemachineIndependentImpulseListener_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineIndependentImpulseListener___ctor (Cinemachine_CinemachineIndependentImpulseListener_o* __this, const MethodInfo* method);

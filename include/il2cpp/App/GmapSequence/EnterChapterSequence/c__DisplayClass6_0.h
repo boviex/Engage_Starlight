@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0___ctor (App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0_o* __this, const MethodInfo* method);
+void App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0____ctor_b__0 (App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0_o* __this, const MethodInfo* method);
+void App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0____ctor_b__1 (App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0_o* __this, const MethodInfo* method);
+void App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0____ctor_b__2 (App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0_o* __this, const MethodInfo* method);
+void App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0____ctor_b__3 (App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0_o* __this, const MethodInfo* method);
+void App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0____ctor_b__4 (App_GmapSequence_EnterChapterSequence___c__DisplayClass6_0_o* __this, const MethodInfo* method);

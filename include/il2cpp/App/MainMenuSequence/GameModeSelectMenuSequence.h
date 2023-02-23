@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MainMenuSequence_GameModeSelectMenuSequence__GetLayoutPrefabPath (App_MainMenuSequence_GameModeSelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_GameModeSelectMenuSequence__GetTitleBarName (App_MainMenuSequence_GameModeSelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_GameModeSelectMenuSequence__GetTitleBarHelp (App_MainMenuSequence_GameModeSelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_GameModeSelectMenuSequence__GetTitleBarKeyHelpId (App_MainMenuSequence_GameModeSelectMenuSequence_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_GameModeSelectMenuSequence__CreateMenuBind (App_MainMenuSequence_GameModeSelectMenuSequence_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_GameModeSelectMenuSequence__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_GameModeSelectMenuSequence___ctor (App_MainMenuSequence_GameModeSelectMenuSequence_o* __this, const MethodInfo* method);

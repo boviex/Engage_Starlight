@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* System_Linq_Expressions_Interpreter_CallInstruction__get_InstructionName (System_Linq_Expressions_Interpreter_CallInstruction_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Interpreter_CallInstruction_o* System_Linq_Expressions_Interpreter_CallInstruction__Create (System_Reflection_MethodInfo_o* info, const MethodInfo* method);
+System_Linq_Expressions_Interpreter_CallInstruction_o* System_Linq_Expressions_Interpreter_CallInstruction__Create (System_Reflection_MethodInfo_o* info, System_Reflection_ParameterInfo_array* parameters, const MethodInfo* method);
+System_Linq_Expressions_Interpreter_CallInstruction_o* System_Linq_Expressions_Interpreter_CallInstruction__GetArrayAccessor (System_Reflection_MethodInfo_o* info, int32_t argumentCount, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_CallInstruction__ArrayItemSetter1 (System_Array_o* array, int32_t index0, Il2CppObject* value, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_CallInstruction__ArrayItemSetter2 (System_Array_o* array, int32_t index0, int32_t index1, Il2CppObject* value, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_CallInstruction__ArrayItemSetter3 (System_Array_o* array, int32_t index0, int32_t index1, int32_t index2, Il2CppObject* value, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_CallInstruction__get_ConsumedStack (System_Linq_Expressions_Interpreter_CallInstruction_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_Interpreter_CallInstruction__TryGetLightLambdaTarget (Il2CppObject* instance, System_Linq_Expressions_Interpreter_LightLambda_o** lightLambda, const MethodInfo* method);
+Il2CppObject* System_Linq_Expressions_Interpreter_CallInstruction__InterpretLambdaInvoke (System_Linq_Expressions_Interpreter_CallInstruction_o* __this, System_Linq_Expressions_Interpreter_LightLambda_o* targetLambda, System_Object_array* args, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_CallInstruction___ctor (System_Linq_Expressions_Interpreter_CallInstruction_o* __this, const MethodInfo* method);

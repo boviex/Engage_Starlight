@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_UnityGraphicExtensions___c__DisplayClass1_1___ctor (UniRx_UnityGraphicExtensions___c__DisplayClass1_1_o* __this, const MethodInfo* method);
+void UniRx_UnityGraphicExtensions___c__DisplayClass1_1___DirtyMaterialCallbackAsObservable_b__1 (UniRx_UnityGraphicExtensions___c__DisplayClass1_1_o* __this, const MethodInfo* method);
+void UniRx_UnityGraphicExtensions___c__DisplayClass1_1___DirtyMaterialCallbackAsObservable_b__2 (UniRx_UnityGraphicExtensions___c__DisplayClass1_1_o* __this, const MethodInfo* method);

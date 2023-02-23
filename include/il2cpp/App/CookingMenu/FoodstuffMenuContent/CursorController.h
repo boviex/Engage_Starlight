@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_FoodstuffMenuContent_CursorController__Setup (App_CookingMenu_FoodstuffMenuContent_CursorController_o* __this, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenuContent_CursorController__SetVisibleWithoutCursorImages (App_CookingMenu_FoodstuffMenuContent_CursorController_o* __this, bool isVisible, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenuContent_CursorController__SetVisibleCursorImage (App_CookingMenu_FoodstuffMenuContent_CursorController_o* __this, bool isVisible, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenuContent_CursorController__SetSiblingIndex (App_CookingMenu_FoodstuffMenuContent_CursorController_o* __this, int32_t index, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenuContent_CursorController__SetBackCursorImageEnabled (App_CookingMenu_FoodstuffMenuContent_CursorController_o* __this, bool value, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenuContent_CursorController__SetColor (App_CookingMenu_FoodstuffMenuContent_CursorController_o* __this, bool isEnable, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenuContent_CursorController___ctor (App_CookingMenu_FoodstuffMenuContent_CursorController_o* __this, const MethodInfo* method);

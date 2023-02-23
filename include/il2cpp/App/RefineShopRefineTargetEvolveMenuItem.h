@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_UnitItem_o* App_RefineShopRefineTargetEvolveMenuItem__get_m_TargetUnitItem (App_RefineShopRefineTargetEvolveMenuItem_o* __this, const MethodInfo* method);
+void App_RefineShopRefineTargetEvolveMenuItem__set_m_TargetUnitItem (App_RefineShopRefineTargetEvolveMenuItem_o* __this, App_UnitItem_o* value, const MethodInfo* method);
+void App_RefineShopRefineTargetEvolveMenuItem___ctor (App_RefineShopRefineTargetEvolveMenuItem_o* __this, App_UnitItem_o* unitItem, int32_t evolveIndex, App_ItemEvolveData_o* evolveData, App_RefineShopRefineTargetMenu_SelectEventHandler_o* selectEventHandler, App_RefineShopRefineTargetMenu_DecideToEvolveEventHandler_o* decideEventHandler, const MethodInfo* method);
+void App_RefineShopRefineTargetEvolveMenuItem__OnSelect (App_RefineShopRefineTargetEvolveMenuItem_o* __this, const MethodInfo* method);
+int32_t App_RefineShopRefineTargetEvolveMenuItem__ACall (App_RefineShopRefineTargetEvolveMenuItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_AutoDescribingUserDataDescriptor___ctor (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, System_Type_o* type, System_String_o* friendlyName, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_AutoDescribingUserDataDescriptor__get_Name (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, const MethodInfo* method);
+System_Type_o* MoonSharp_Interpreter_AutoDescribingUserDataDescriptor__get_Type (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_AutoDescribingUserDataDescriptor__Index (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, MoonSharp_Interpreter_DynValue_o* index, bool isDirectIndexing, const MethodInfo* method);
+bool MoonSharp_Interpreter_AutoDescribingUserDataDescriptor__SetIndex (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, MoonSharp_Interpreter_DynValue_o* index, MoonSharp_Interpreter_DynValue_o* value, bool isDirectIndexing, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_AutoDescribingUserDataDescriptor__AsString (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, Il2CppObject* obj, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_AutoDescribingUserDataDescriptor__MetaIndex (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, MoonSharp_Interpreter_Script_o* script, Il2CppObject* obj, System_String_o* metaname, const MethodInfo* method);
+bool MoonSharp_Interpreter_AutoDescribingUserDataDescriptor__IsTypeCompatible (MoonSharp_Interpreter_AutoDescribingUserDataDescriptor_o* __this, System_Type_o* type, Il2CppObject* obj, const MethodInfo* method);

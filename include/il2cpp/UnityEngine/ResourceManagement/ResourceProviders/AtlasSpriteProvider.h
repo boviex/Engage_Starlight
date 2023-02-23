@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ResourceManagement_ResourceProviders_AtlasSpriteProvider__Provide (UnityEngine_ResourceManagement_ResourceProviders_AtlasSpriteProvider_o* __this, UnityEngine_ResourceManagement_ResourceProviders_ProvideHandle_o providerInterface, const MethodInfo* method);
+void UnityEngine_ResourceManagement_ResourceProviders_AtlasSpriteProvider___ctor (UnityEngine_ResourceManagement_ResourceProviders_AtlasSpriteProvider_o* __this, const MethodInfo* method);

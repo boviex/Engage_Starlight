@@ -1,0 +1,52 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_RingCleaningSequence__get_SceneName (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+System_String_o* App_RingCleaningSequence__get_ReturnSceneName (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+System_String_o* App_RingCleaningSequence__get_EngageZonePrefab (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__set_EngageZonePrefab (App_RingCleaningSequence_o* __this, System_String_o* value, const MethodInfo* method);
+bool App_RingCleaningSequence__get_IsPlayableTelop (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__set_IsPlayableTelop (App_RingCleaningSequence_o* __this, bool value, const MethodInfo* method);
+App_GodUnit_o* App_RingCleaningSequence__get_SelectedGodUnit (const MethodInfo* method);
+void App_RingCleaningSequence__set_SelectedGodUnit (App_GodUnit_o* value, const MethodInfo* method);
+int32_t App_RingCleaningSequence__get_SelectedGodType (const MethodInfo* method);
+void App_RingCleaningSequence__set_SelectedGodType (int32_t value, const MethodInfo* method);
+App_Unit_o* App_RingCleaningSequence__get_SelectedUnit (const MethodInfo* method);
+void App_RingCleaningSequence__set_SelectedUnit (App_Unit_o* value, const MethodInfo* method);
+void App_RingCleaningSequence___ctor (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__Init (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__LoadScene (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__LoadPrefabs (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+bool App_RingCleaningSequence__IsLoadingPrefabs (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__CreateObjectFromPrefab (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__InitAfterLoadedScene (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__InstantiateEngageZone (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+bool App_RingCleaningSequence__IsLoadingKeyHelp (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+bool App_RingCleaningSequence__IsCreatingCharacter (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__AdjustFaceCamera (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__PersistentTick (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__StartTick (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__Tick (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__CleanRing (App_RingCleaningSequence_o* __this, int32_t strength, int32_t hitResult, const MethodInfo* method);
+void App_RingCleaningSequence__CleanRingWeak (App_RingCleaningSequence_o* __this, int32_t hitResult, const MethodInfo* method);
+void App_RingCleaningSequence__CleanRingStrong (App_RingCleaningSequence_o* __this, int32_t hitResult, const MethodInfo* method);
+void App_RingCleaningSequence__CompleteCleaning (App_RingCleaningSequence_o* __this, int32_t strength, const MethodInfo* method);
+System_String_o* App_RingCleaningSequence__GetSelectedGodUnitGid (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__CleaningAction (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__StrongCleaningAction (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+int32_t App_RingCleaningSequence__DecreaseDirty (App_RingCleaningSequence_o* __this, int32_t decrease, const MethodInfo* method);
+void App_RingCleaningSequence__AddBondExp (App_RingCleaningSequence_o* __this, bool isFinish, int32_t strength, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_RingCleaningSequence__ResetRotation (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_RingCleaningSequence__PlayTelop (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__End (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__UnloadScene (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__Final (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__BackgroundUnbind (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__BackgroundBind (App_RingCleaningSequence_o* __this, const MethodInfo* method);
+void App_RingCleaningSequence__PlayGlitterEffect (App_RingCleaningSequence_o* __this, int32_t strength, int32_t hitResult, const MethodInfo* method);
+int32_t App_RingCleaningSequence__GetCleaningValue (App_RingCleaningSequence_o* __this, int32_t strength, bool isHit, const MethodInfo* method);
+int32_t App_RingCleaningSequence__GetMultiChangeIndex (int32_t type, const MethodInfo* method);
+void App_RingCleaningSequence__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+void App_RingCleaningSequence__ForEachCanCleanGodUnit (System_Action_GodUnit__o* func, const MethodInfo* method);
+void App_RingCleaningSequence___Tick_b__57_0 (App_RingCleaningSequence_o* __this, const MethodInfo* method);

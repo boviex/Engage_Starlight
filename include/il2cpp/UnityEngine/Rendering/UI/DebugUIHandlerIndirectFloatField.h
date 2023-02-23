@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField__Init (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField__OnSelection (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, bool fromNext, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* previous, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField__OnDeselection (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField__OnIncrement (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, bool fast, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField__OnDecrement (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, bool fast, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField__ChangeValue (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, bool fast, float multiplier, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField__UpdateValueLabel (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField___ctor (UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* __this, const MethodInfo* method);

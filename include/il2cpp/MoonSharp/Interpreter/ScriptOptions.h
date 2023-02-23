@@ -1,0 +1,26 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_ScriptOptions___ctor (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions___ctor (MoonSharp_Interpreter_ScriptOptions_o* __this, MoonSharp_Interpreter_ScriptOptions_o* defaults, const MethodInfo* method);
+MoonSharp_Interpreter_Loaders_IScriptLoader_o* MoonSharp_Interpreter_ScriptOptions__get_ScriptLoader (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_ScriptLoader (MoonSharp_Interpreter_ScriptOptions_o* __this, MoonSharp_Interpreter_Loaders_IScriptLoader_o* value, const MethodInfo* method);
+System_Action_string__o* MoonSharp_Interpreter_ScriptOptions__get_DebugPrint (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_DebugPrint (MoonSharp_Interpreter_ScriptOptions_o* __this, System_Action_string__o* value, const MethodInfo* method);
+System_Func_string__string__o* MoonSharp_Interpreter_ScriptOptions__get_DebugInput (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_DebugInput (MoonSharp_Interpreter_ScriptOptions_o* __this, System_Func_string__string__o* value, const MethodInfo* method);
+bool MoonSharp_Interpreter_ScriptOptions__get_UseLuaErrorLocations (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_UseLuaErrorLocations (MoonSharp_Interpreter_ScriptOptions_o* __this, bool value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_ScriptOptions__get_ColonOperatorClrCallbackBehaviour (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_ColonOperatorClrCallbackBehaviour (MoonSharp_Interpreter_ScriptOptions_o* __this, int32_t value, const MethodInfo* method);
+System_IO_Stream_o* MoonSharp_Interpreter_ScriptOptions__get_Stdin (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_Stdin (MoonSharp_Interpreter_ScriptOptions_o* __this, System_IO_Stream_o* value, const MethodInfo* method);
+System_IO_Stream_o* MoonSharp_Interpreter_ScriptOptions__get_Stdout (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_Stdout (MoonSharp_Interpreter_ScriptOptions_o* __this, System_IO_Stream_o* value, const MethodInfo* method);
+System_IO_Stream_o* MoonSharp_Interpreter_ScriptOptions__get_Stderr (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_Stderr (MoonSharp_Interpreter_ScriptOptions_o* __this, System_IO_Stream_o* value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_ScriptOptions__get_TailCallOptimizationThreshold (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_TailCallOptimizationThreshold (MoonSharp_Interpreter_ScriptOptions_o* __this, int32_t value, const MethodInfo* method);
+bool MoonSharp_Interpreter_ScriptOptions__get_CheckThreadAccess (MoonSharp_Interpreter_ScriptOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptOptions__set_CheckThreadAccess (MoonSharp_Interpreter_ScriptOptions_o* __this, bool value, const MethodInfo* method);

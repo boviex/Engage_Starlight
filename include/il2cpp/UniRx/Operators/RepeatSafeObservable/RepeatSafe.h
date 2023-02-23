@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_RepeatSafeObservable_RepeatSafe_object____ctor (UniRx_Operators_RepeatSafeObservable_RepeatSafe_T__o* __this, UniRx_Operators_RepeatSafeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_3009460* method);
+System_IDisposable_o* UniRx_Operators_RepeatSafeObservable_RepeatSafe_object___Run (UniRx_Operators_RepeatSafeObservable_RepeatSafe_T__o* __this, const MethodInfo_3009520* method);
+void UniRx_Operators_RepeatSafeObservable_RepeatSafe_object___RecursiveRun (UniRx_Operators_RepeatSafeObservable_RepeatSafe_T__o* __this, System_Action_o* self, const MethodInfo_3009760* method);
+void UniRx_Operators_RepeatSafeObservable_RepeatSafe_object___OnNext (UniRx_Operators_RepeatSafeObservable_RepeatSafe_T__o* __this, Il2CppObject* value, const MethodInfo_3009F20* method);
+void UniRx_Operators_RepeatSafeObservable_RepeatSafe_object___OnError (UniRx_Operators_RepeatSafeObservable_RepeatSafe_T__o* __this, System_Exception_o* error, const MethodInfo_3009FD0* method);
+void UniRx_Operators_RepeatSafeObservable_RepeatSafe_object___OnCompleted (UniRx_Operators_RepeatSafeObservable_RepeatSafe_T__o* __this, const MethodInfo_300A110* method);
+void UniRx_Operators_RepeatSafeObservable_RepeatSafe_object____Run_b__8_0 (UniRx_Operators_RepeatSafeObservable_RepeatSafe_T__o* __this, const MethodInfo_300A2F0* method);

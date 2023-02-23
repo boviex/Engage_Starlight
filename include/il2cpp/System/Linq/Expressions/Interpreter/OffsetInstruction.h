@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Linq_Expressions_Interpreter_Instruction_o* System_Linq_Expressions_Interpreter_OffsetInstruction__Fixup (System_Linq_Expressions_Interpreter_OffsetInstruction_o* __this, int32_t offset, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_OffsetInstruction__ToString (System_Linq_Expressions_Interpreter_OffsetInstruction_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_OffsetInstruction___ctor (System_Linq_Expressions_Interpreter_OffsetInstruction_o* __this, const MethodInfo* method);

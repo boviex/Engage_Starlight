@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MapUnitCommandMenu_EngageActionBaseMenuItem__get_FlagID (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageActionBaseMenuItem__get_Label (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageActionBaseMenuItem__get_Mind (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageActionBaseMenuItem__OnBuild (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageActionBaseMenuItem__OnBuildMenuItemContent (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EngageActionBaseMenuItem___ctor (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_EngageActionBaseMenuItem__GetEngageMind (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, App_Unit_o* unit, const MethodInfo* method);
+bool App_MapUnitCommandMenu_EngageActionBaseMenuItem__CheckBuildableWithUnit (App_MapUnitCommandMenu_EngageActionBaseMenuItem_o* __this, App_Unit_o* unit, const MethodInfo* method);

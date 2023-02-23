@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t System_Linq_Expressions_Interpreter_TypeEqualsInstruction__get_ConsumedStack (System_Linq_Expressions_Interpreter_TypeEqualsInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_TypeEqualsInstruction__get_ProducedStack (System_Linq_Expressions_Interpreter_TypeEqualsInstruction_o* __this, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_TypeEqualsInstruction__get_InstructionName (System_Linq_Expressions_Interpreter_TypeEqualsInstruction_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_TypeEqualsInstruction___ctor (System_Linq_Expressions_Interpreter_TypeEqualsInstruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_TypeEqualsInstruction__Run (System_Linq_Expressions_Interpreter_TypeEqualsInstruction_o* __this, System_Linq_Expressions_Interpreter_InterpretedFrame_o* frame, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_TypeEqualsInstruction___cctor (const MethodInfo* method);

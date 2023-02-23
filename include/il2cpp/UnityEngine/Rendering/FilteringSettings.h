@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_FilteringSettings___ctor (UnityEngine_Rendering_FilteringSettings_o __this, System_Nullable_RenderQueueRange__o renderQueueRange, int32_t layerMask, uint32_t renderingLayerMask, int32_t excludeMotionVectorObjects, const MethodInfo* method);
+void UnityEngine_Rendering_FilteringSettings__set_renderQueueRange (UnityEngine_Rendering_FilteringSettings_o __this, UnityEngine_Rendering_RenderQueueRange_o value, const MethodInfo* method);
+void UnityEngine_Rendering_FilteringSettings__set_layerMask (UnityEngine_Rendering_FilteringSettings_o __this, int32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_FilteringSettings__set_renderingLayerMask (UnityEngine_Rendering_FilteringSettings_o __this, uint32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_FilteringSettings__set_excludeMotionVectorObjects (UnityEngine_Rendering_FilteringSettings_o __this, bool value, const MethodInfo* method);
+void UnityEngine_Rendering_FilteringSettings__set_sortingLayerRange (UnityEngine_Rendering_FilteringSettings_o __this, UnityEngine_Rendering_SortingLayerRange_o value, const MethodInfo* method);
+bool UnityEngine_Rendering_FilteringSettings__Equals (UnityEngine_Rendering_FilteringSettings_o __this, UnityEngine_Rendering_FilteringSettings_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_FilteringSettings__Equals (UnityEngine_Rendering_FilteringSettings_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_FilteringSettings__GetHashCode (UnityEngine_Rendering_FilteringSettings_o __this, const MethodInfo* method);

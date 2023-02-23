@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool MoonSharp_Interpreter_DataStructs_ReferenceEqualityComparer__System_Collections_Generic_IEqualityComparer_System_Object__Equals (MoonSharp_Interpreter_DataStructs_ReferenceEqualityComparer_o* __this, Il2CppObject* x, Il2CppObject* y, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_DataStructs_ReferenceEqualityComparer__System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode (MoonSharp_Interpreter_DataStructs_ReferenceEqualityComparer_o* __this, Il2CppObject* obj, const MethodInfo* method);
+void MoonSharp_Interpreter_DataStructs_ReferenceEqualityComparer___ctor (MoonSharp_Interpreter_DataStructs_ReferenceEqualityComparer_o* __this, const MethodInfo* method);

@@ -1,0 +1,25 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_DebugUI_Panel__get_flags (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__set_flags (UnityEngine_Rendering_DebugUI_Panel_o* __this, int32_t value, const MethodInfo* method);
+System_String_o* UnityEngine_Rendering_DebugUI_Panel__get_displayName (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__set_displayName (UnityEngine_Rendering_DebugUI_Panel_o* __this, System_String_o* value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_DebugUI_Panel__get_groupIndex (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__set_groupIndex (UnityEngine_Rendering_DebugUI_Panel_o* __this, int32_t value, const MethodInfo* method);
+System_String_o* UnityEngine_Rendering_DebugUI_Panel__get_queryPath (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_DebugUI_Panel__get_isEditorOnly (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_DebugUI_Panel__get_isRuntimeOnly (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_DebugUI_Panel__get_isInactiveInEditor (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_DebugUI_Panel__get_editorForceUpdate (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* UnityEngine_Rendering_DebugUI_Panel__get_children (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__set_children (UnityEngine_Rendering_DebugUI_Panel_o* __this, UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* value, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__add_onSetDirty (UnityEngine_Rendering_DebugUI_Panel_o* __this, System_Action_DebugUI_Panel__o* value, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__remove_onSetDirty (UnityEngine_Rendering_DebugUI_Panel_o* __this, System_Action_DebugUI_Panel__o* value, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel___ctor (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__OnItemAdded (UnityEngine_Rendering_DebugUI_Panel_o* __this, UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* sender, UnityEngine_Rendering_ListChangedEventArgs_DebugUI_Widget__o* e, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__OnItemRemoved (UnityEngine_Rendering_DebugUI_Panel_o* __this, UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* sender, UnityEngine_Rendering_ListChangedEventArgs_DebugUI_Widget__o* e, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Panel__SetDirty (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_DebugUI_Panel__GetHashCode (UnityEngine_Rendering_DebugUI_Panel_o* __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_DebugUI_Panel__System_IComparable_UnityEngine_Rendering_DebugUI_Panel__CompareTo (UnityEngine_Rendering_DebugUI_Panel_o* __this, UnityEngine_Rendering_DebugUI_Panel_o* other, const MethodInfo* method);

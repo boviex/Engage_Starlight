@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_CatchBlock___ctor (System_Linq_Expressions_CatchBlock_o* __this, System_Type_o* test, System_Linq_Expressions_ParameterExpression_o* variable, System_Linq_Expressions_Expression_o* body, System_Linq_Expressions_Expression_o* filter, const MethodInfo* method);
+System_Linq_Expressions_ParameterExpression_o* System_Linq_Expressions_CatchBlock__get_Variable (System_Linq_Expressions_CatchBlock_o* __this, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_CatchBlock__get_Test (System_Linq_Expressions_CatchBlock_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_CatchBlock__get_Body (System_Linq_Expressions_CatchBlock_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_CatchBlock__get_Filter (System_Linq_Expressions_CatchBlock_o* __this, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_CatchBlock__ToString (System_Linq_Expressions_CatchBlock_o* __this, const MethodInfo* method);
+System_Linq_Expressions_CatchBlock_o* System_Linq_Expressions_CatchBlock__Update (System_Linq_Expressions_CatchBlock_o* __this, System_Linq_Expressions_ParameterExpression_o* variable, System_Linq_Expressions_Expression_o* filter, System_Linq_Expressions_Expression_o* body, const MethodInfo* method);

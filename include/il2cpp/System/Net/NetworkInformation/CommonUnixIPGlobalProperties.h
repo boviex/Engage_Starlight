@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t System_Net_NetworkInformation_CommonUnixIPGlobalProperties__getdomainname (System_Byte_array* name, int32_t len, const MethodInfo* method);
+System_String_o* System_Net_NetworkInformation_CommonUnixIPGlobalProperties__get_DomainName (System_Net_NetworkInformation_CommonUnixIPGlobalProperties_o* __this, const MethodInfo* method);
+void System_Net_NetworkInformation_CommonUnixIPGlobalProperties___ctor (System_Net_NetworkInformation_CommonUnixIPGlobalProperties_o* __this, const MethodInfo* method);

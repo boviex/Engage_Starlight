@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Unity_Collections_NativeSlice_T__o Unity_Collections_LowLevel_Unsafe_NativeSliceUnsafeUtility__ConvertExistingDataToNativeSlice_Vector2_ (void* dataPointer, int32_t stride, int32_t length, const MethodInfo_29A6D90* method);
+Unity_Collections_NativeSlice_T__o Unity_Collections_LowLevel_Unsafe_NativeSliceUnsafeUtility__ConvertExistingDataToNativeSlice_Vector3_ (void* dataPointer, int32_t stride, int32_t length, const MethodInfo_29A6EA0* method);
+void* Unity_Collections_LowLevel_Unsafe_NativeSliceUnsafeUtility__GetUnsafePtr_Vector3_ (Unity_Collections_NativeSlice_T__o nativeSlice, const MethodInfo_29A6FB0* method);
+void* Unity_Collections_LowLevel_Unsafe_NativeSliceUnsafeUtility__GetUnsafeReadOnlyPtr_Vector3_ (Unity_Collections_NativeSlice_T__o nativeSlice, const MethodInfo_29A6FC0* method);

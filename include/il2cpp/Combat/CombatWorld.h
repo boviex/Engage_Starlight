@@ -1,0 +1,58 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Combat_CombatWorld_o* Combat_CombatWorld__get_Instance (const MethodInfo* method);
+void Combat_CombatWorld__Awake (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__OnDestroy (Combat_CombatWorld_o* __this, const MethodInfo* method);
+bool Combat_CombatWorld__get_IsRunning (const MethodInfo* method);
+Combat_Character_array* Combat_CombatWorld__get_Characters (Combat_CombatWorld_o* __this, const MethodInfo* method);
+Combat_Character_array* Combat_CombatWorld__get_ChainAttackers (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__set_ChainAttackers (Combat_CombatWorld_o* __this, Combat_Character_array* value, const MethodInfo* method);
+Combat_Character_array* Combat_CombatWorld__get_CharaDragonic (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__set_CharaDragonic (Combat_CombatWorld_o* __this, Combat_Character_array* value, const MethodInfo* method);
+Combat_CombatRecord_o* Combat_CombatWorld__get_Record (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__set_Record (Combat_CombatWorld_o* __this, Combat_CombatRecord_o* value, const MethodInfo* method);
+Combat_EffectCatalog_o* Combat_CombatWorld__get_EffectCatalog (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__set_EffectCatalog (Combat_CombatWorld_o* __this, Combat_EffectCatalog_o* value, const MethodInfo* method);
+Combat_FSMBuilder_o* Combat_CombatWorld__get_FSMBuilder (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__set_FSMBuilder (Combat_CombatWorld_o* __this, Combat_FSMBuilder_o* value, const MethodInfo* method);
+bool Combat_CombatWorld__IsFromGame (const MethodInfo* method);
+float Combat_CombatWorld__get_CombatTime (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__set_CombatTime (Combat_CombatWorld_o* __this, float value, const MethodInfo* method);
+Combat_CombatTimespace_o* Combat_CombatWorld__get_Timespace (Combat_CombatWorld_o* __this, const MethodInfo* method);
+Combat_CombatStaging_o* Combat_CombatWorld__get_Staging (Combat_CombatWorld_o* __this, const MethodInfo* method);
+Combat_CombatObservable_o* Combat_CombatWorld__get_Observable (Combat_CombatWorld_o* __this, const MethodInfo* method);
+Combat_CombatConfig_o* Combat_CombatWorld__get_Config (Combat_CombatWorld_o* __this, const MethodInfo* method);
+Combat_CombatSkip_o* Combat_CombatWorld__get_Skip (Combat_CombatWorld_o* __this, const MethodInfo* method);
+Combat_CombatInput_o* Combat_CombatWorld__get_Input (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__Run (Combat_CombatWorld_o* __this, Combat_CombatRecord_o* record, const MethodInfo* method);
+System_Collections_IEnumerator_o* Combat_CombatWorld__InitializeAfterCreateChara (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__RegisterHitObserver (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__SyncParams (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__CreateCharacters (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__CreateCharactersImpl (Combat_CombatWorld_o* __this, int32_t side, Combat_CharacterGameStatus_o* gs, int32_t chainId, const MethodInfo* method);
+bool Combat_CombatWorld__IsCharacterCreated (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__SetupCharacters (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__LoadAnimset (Combat_CombatWorld_o* __this, const MethodInfo* method);
+bool Combat_CombatWorld__IsAnimSetLoading (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__FadeInHUD (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__FadeOutHUD (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__InstantOutHUD (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__ForceEnd (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__Update (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__FinalizeWhenTransCamera (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld__CreateInstance (int32_t style, const MethodInfo* method);
+void Combat_CombatWorld__DeleteInstance (int32_t style, const MethodInfo* method);
+void Combat_CombatWorld__CreateCombatEffectInstance_ (const MethodInfo* method);
+void Combat_CombatWorld__DeleteCombatEffectInstance_ (const MethodInfo* method);
+void Combat_CombatWorld__createInstance (System_String_o* name, const MethodInfo* method);
+void Combat_CombatWorld__deleteInstance_CameraManager_ (const MethodInfo_22C1B60* method);
+void Combat_CombatWorld__deleteInstance_CombatWorld_ (const MethodInfo_22C1B60* method);
+void Combat_CombatWorld__deleteInstance_EffectCatalog_ (const MethodInfo_22C1B60* method);
+void Combat_CombatWorld__deleteInstance_object_ (const MethodInfo_22C1B60* method);
+System_ValueTuple_Character__Phase__o Combat_CombatWorld__GetChrAndPhase (const MethodInfo* method);
+void Combat_CombatWorld___ctor (Combat_CombatWorld_o* __this, const MethodInfo* method);
+void Combat_CombatWorld___RegisterHitObserver_b__57_0 (Combat_CombatWorld_o* __this, UnityEngine_AnimationEvent_o* ev, const MethodInfo* method);
+void Combat_CombatWorld___SyncParams_g__sync_58_0 (Combat_CombatWorld_o* __this, int32_t side, const MethodInfo* method);
+bool Combat_CombatWorld___Update_g__IsIdle_69_0 (Combat_Character_o* chara, const MethodInfo* method);

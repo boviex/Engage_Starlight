@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableEndDragTrigger__UnityEngine_EventSystems_IEndDragHandler_OnEndDrag (UniRx_Triggers_ObservableEndDragTrigger_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+System_IObservable_PointerEventData__o* UniRx_Triggers_ObservableEndDragTrigger__OnEndDragAsObservable (UniRx_Triggers_ObservableEndDragTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableEndDragTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableEndDragTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableEndDragTrigger___ctor (UniRx_Triggers_ObservableEndDragTrigger_o* __this, const MethodInfo* method);

@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_RefineShopEngraveItemSelectMenu_o* App_RefineShopEngraveItemSelectMenu__CreateBind (App_ProcInst_o* super, UnityEngine_GameObject_o* menuObject, App_Unit_o* defaultUnit, int32_t defaultItemIndex, int32_t defaultItemKind, App_RefineShopRefineBaseMenu_SelectEventHandler_o* selectEventHandler, App_RefineShopRefineBaseMenu_DecideEventHandler_o* decideEventHandler, App_RefineShopRefineBaseMenu_RequestCloseEventHandler_o* requestCloseEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_RefineShopEngraveItemSelectMenu__CreateMenuItemList (int32_t showRowNum, int32_t kind, App_RefineShopRefineBaseMenu_SelectEventHandler_o* selectEventHandler, App_RefineShopRefineBaseMenu_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+bool App_RefineShopEngraveItemSelectMenu__IsValidUnitItemToMenuItem (App_UnitItem_o* unitItem, int32_t kind, const MethodInfo* method);
+void App_RefineShopEngraveItemSelectMenu___ctor (App_RefineShopEngraveItemSelectMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_RefineShopRefineBaseMenuContent_o* menuContent, App_Unit_o* defaultUnit, int32_t defaultItemIndex, int32_t kind, App_RefineShopRefineBaseMenu_SelectEventHandler_o* selectEventHandler, App_RefineShopRefineBaseMenu_DecideEventHandler_o* decideEventHandler, App_RefineShopRefineBaseMenu_RequestCloseEventHandler_o* requestCloseEventHandler, const MethodInfo* method);
+void App_RefineShopEngraveItemSelectMenu__RebuildMenuItem (App_RefineShopEngraveItemSelectMenu_o* __this, const MethodInfo* method);

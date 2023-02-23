@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_ObjectModel_ReadOnlyCollection_ParameterExpression__o* System_Linq_Expressions_RuntimeVariablesExpression__get_Variables (System_Linq_Expressions_RuntimeVariablesExpression_o* __this, const MethodInfo* method);

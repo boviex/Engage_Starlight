@@ -1,0 +1,50 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MapUIGauge__Start (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge__Update (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge__OnEnable (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge__OnDisable (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge__RegisterSprites (MapUIGauge_o* __this, UnityEngine_U2D_SpriteAtlas_o* spriteAtlas, const MethodInfo* method);
+UnityEngine_Sprite_o* MapUIGauge__GetSprite (MapUIGauge_o* __this, int32_t index, const MethodInfo* method);
+UnityEngine_Sprite_o* MapUIGauge__GetSprite (MapUIGauge_o* __this, System_String_o* name, const MethodInfo* method);
+int32_t MapUIGauge__GetIconIndex (MapUIGauge_o* __this, System_String_o* name, const MethodInfo* method);
+void MapUIGauge__UpdateVisible (MapUIGauge_o* __this, const MethodInfo* method);
+bool MapUIGauge__IsEnableSuppressFlag (MapUIGauge_o* __this, int32_t suppressFlag, const MethodInfo* method);
+void MapUIGauge__InitHpForecast (MapUIGauge_o* __this, bool isAll, const MethodInfo* method);
+void MapUIGauge__SetHpForecast (MapUIGauge_o* __this, App_Unit_o* unit, bool needsForecastOneself, bool isPriorWeaponRange, const MethodInfo* method);
+void MapUIGauge__UpdateHpForecast (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge__PrepareHpForecastTarget (MapUIGauge_o* __this, const MethodInfo* method);
+bool MapUIGauge__CanUseItemForHealForecast (MapUIGauge_o* __this, App_ItemData_o* itemData, const MethodInfo* method);
+void MapUIGauge__GetImage (MapUIGauge_o* __this, App_Unit_o* performer, const MethodInfo* method);
+bool MapUIGauge__IsUnitTargetForDamageForecast (MapUIGauge_o* __this, App_Unit_o* target, const MethodInfo* method);
+bool MapUIGauge__CanAttack (MapUIGauge_o* __this, App_Unit_o* attacker, App_Unit_o* target, const MethodInfo* method);
+bool MapUIGauge__IsUnitTargetForHealForecast (MapUIGauge_o* __this, App_Unit_o* target, const MethodInfo* method);
+bool MapUIGauge__IsUnitInfluencerForDamageForecast (MapUIGauge_o* __this, App_Unit_o* unit, const MethodInfo* method);
+bool MapUIGauge__IsUnitInfluencerForHealForecast (MapUIGauge_o* __this, App_Unit_o* unit, const MethodInfo* method);
+System_Collections_IEnumerator_o* MapUIGauge__CalcHpForecast (MapUIGauge_o* __this, const MethodInfo* method);
+App_SkillData_o* MapUIGauge__GetBreathSkill (MapUIGauge_o* __this, App_Unit_o* target, App_UnitItem_o* unitItem, const MethodInfo* method);
+void MapUIGauge__CalcBattleInfoForBreath (MapUIGauge_o* __this, App_Unit_o* target, App_UnitItem_o* unitItem, App_SkillData_o* breathSkill, const MethodInfo* method);
+void MapUIGauge__CalcBattleInfoForEngageWait (MapUIGauge_o* __this, App_Unit_o* target, const MethodInfo* method);
+void MapUIGauge__CalcBattleInfoForHealItem (MapUIGauge_o* __this, App_Unit_o* target, App_UnitItem_o* unitItem, const MethodInfo* method);
+void MapUIGauge__CalcBattleInfoForNormal (MapUIGauge_o* __this, App_Unit_o* target, App_UnitItem_o* unitItem, const MethodInfo* method);
+bool MapUIGauge__IsHealItemUsed (MapUIGauge_o* __this, App_Unit_o* unit, App_UnitItem_o* unitItem, const MethodInfo* method);
+void MapUIGauge__CalcHpHealItem (MapUIGauge_o* __this, App_Unit_o* unit, App_UnitItem_o* unitItem, int32_t* beforeHp, int32_t* afterHp, const MethodInfo* method);
+int32_t MapUIGauge__GetBattleInfoFlag (MapUIGauge_o* __this, App_Unit_o* performer, App_Unit_o* target, const MethodInfo* method);
+void MapUIGauge__StackHpDiff (MapUIGauge_o* __this, int32_t hpBeforeBattle, int32_t hpAfterBattle, const MethodInfo* method);
+App_UnitItem_o* MapUIGauge__GetItem (MapUIGauge_o* __this, App_Unit_o* target, const MethodInfo* method);
+UnityEngine_Sprite_array* MapUIGauge__get_Sprites (MapUIGauge_o* __this, const MethodInfo* method);
+float MapUIGauge__get_Time (MapUIGauge_o* __this, const MethodInfo* method);
+float MapUIGauge__get_WaitFrame (MapUIGauge_o* __this, const MethodInfo* method);
+float MapUIGauge__get_WaitFrameForAfterEvent (MapUIGauge_o* __this, const MethodInfo* method);
+bool MapUIGauge__get_IsVisible (MapUIGauge_o* __this, const MethodInfo* method);
+int32_t MapUIGauge__get_SuppressFlag (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge__set_SuppressFlag (MapUIGauge_o* __this, int32_t value, const MethodInfo* method);
+UnityEngine_AnimationCurve_o* MapUIGauge__get_AlphaCurve (MapUIGauge_o* __this, const MethodInfo* method);
+UnityEngine_AnimationCurve_o* MapUIGauge__get_ShineCurve (MapUIGauge_o* __this, const MethodInfo* method);
+UnityEngine_AnimationCurve_o* MapUIGauge__get_CanBreakCurve (MapUIGauge_o* __this, const MethodInfo* method);
+UnityEngine_AnimationCurve_o* MapUIGauge__get_CountMaxScaleCurve (MapUIGauge_o* __this, const MethodInfo* method);
+UnityEngine_AnimationCurve_o* MapUIGauge__get_CountMaxAlphaCurve (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge___ctor (MapUIGauge_o* __this, const MethodInfo* method);
+void MapUIGauge___cctor (const MethodInfo* method);

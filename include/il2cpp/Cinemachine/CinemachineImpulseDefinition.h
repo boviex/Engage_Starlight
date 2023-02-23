@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineImpulseDefinition__OnValidate (Cinemachine_CinemachineImpulseDefinition_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseDefinition__CreateEvent (Cinemachine_CinemachineImpulseDefinition_o* __this, UnityEngine_Vector3_o position, UnityEngine_Vector3_o velocity, const MethodInfo* method);
+Cinemachine_CinemachineImpulseManager_ImpulseEvent_o* Cinemachine_CinemachineImpulseDefinition__CreateAndReturnEvent (Cinemachine_CinemachineImpulseDefinition_o* __this, UnityEngine_Vector3_o position, UnityEngine_Vector3_o velocity, const MethodInfo* method);
+void Cinemachine_CinemachineImpulseDefinition___ctor (Cinemachine_CinemachineImpulseDefinition_o* __this, const MethodInfo* method);

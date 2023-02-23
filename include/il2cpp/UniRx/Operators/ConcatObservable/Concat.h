@@ -1,0 +1,18 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ConcatObservable_Concat_object____ctor (UniRx_Operators_ConcatObservable_Concat_T__o* __this, UniRx_Operators_ConcatObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_24F1280* method);
+void UniRx_Operators_ConcatObservable_Concat_Unit____ctor (UniRx_Operators_ConcatObservable_Concat_T__o* __this, UniRx_Operators_ConcatObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_24F2030* method);
+System_IDisposable_o* UniRx_Operators_ConcatObservable_Concat_object___Run (UniRx_Operators_ConcatObservable_Concat_T__o* __this, const MethodInfo_24F1340* method);
+System_IDisposable_o* UniRx_Operators_ConcatObservable_Concat_Unit___Run (UniRx_Operators_ConcatObservable_Concat_T__o* __this, const MethodInfo_24F20F0* method);
+void UniRx_Operators_ConcatObservable_Concat_object___RecursiveRun (UniRx_Operators_ConcatObservable_Concat_T__o* __this, System_Action_o* self, const MethodInfo_24F1580* method);
+void UniRx_Operators_ConcatObservable_Concat_Unit___RecursiveRun (UniRx_Operators_ConcatObservable_Concat_T__o* __this, System_Action_o* self, const MethodInfo_24F2330* method);
+void UniRx_Operators_ConcatObservable_Concat_object___OnNext (UniRx_Operators_ConcatObservable_Concat_T__o* __this, Il2CppObject* value, const MethodInfo_24F1CD0* method);
+void UniRx_Operators_ConcatObservable_Concat_Unit___OnNext (UniRx_Operators_ConcatObservable_Concat_T__o* __this, UniRx_Unit_o value, const MethodInfo_24F2A80* method);
+void UniRx_Operators_ConcatObservable_Concat_object___OnError (UniRx_Operators_ConcatObservable_Concat_T__o* __this, System_Exception_o* error, const MethodInfo_24F1D80* method);
+void UniRx_Operators_ConcatObservable_Concat_Unit___OnError (UniRx_Operators_ConcatObservable_Concat_T__o* __this, System_Exception_o* error, const MethodInfo_24F2B30* method);
+void UniRx_Operators_ConcatObservable_Concat_object___OnCompleted (UniRx_Operators_ConcatObservable_Concat_T__o* __this, const MethodInfo_24F1EC0* method);
+void UniRx_Operators_ConcatObservable_Concat_Unit___OnCompleted (UniRx_Operators_ConcatObservable_Concat_T__o* __this, const MethodInfo_24F2C70* method);
+void UniRx_Operators_ConcatObservable_Concat_object____Run_b__7_0 (UniRx_Operators_ConcatObservable_Concat_T__o* __this, const MethodInfo_24F1ED0* method);
+void UniRx_Operators_ConcatObservable_Concat_Unit____Run_b__7_0 (UniRx_Operators_ConcatObservable_Concat_T__o* __this, const MethodInfo_24F2C80* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_DebugUnitItemMenu_RefineMenu_RefineMenuItem___ctor (App_DebugUnitItemMenu_RefineMenu_RefineMenuItem_o* __this, App_Unit_o* unit, int32_t unitItemIndex, int32_t refineLevel, App_ItemRefineData_o* refineData, const MethodInfo* method);
+System_String_o* App_DebugUnitItemMenu_RefineMenu_RefineMenuItem__GetColumnName0 (App_DebugUnitItemMenu_RefineMenu_RefineMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugUnitItemMenu_RefineMenu_RefineMenuItem__GetColumnName1 (App_DebugUnitItemMenu_RefineMenu_RefineMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugUnitItemMenu_RefineMenu_RefineMenuItem__GetColumnName2 (App_DebugUnitItemMenu_RefineMenu_RefineMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugUnitItemMenu_RefineMenu_RefineMenuItem__ACall (App_DebugUnitItemMenu_RefineMenu_RefineMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugUnitItemMenu_RefineMenu_RefineMenuItem__GetParameterText (App_DebugUnitItemMenu_RefineMenu_RefineMenuItem_o* __this, int32_t value, const MethodInfo* method);

@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+uint64_t App_NexVersus_GetMetaDataFromPersistenceSlotSequence_object___GetPrincipalId (App_NexVersus_GetMetaDataFromPersistenceSlotSequence_T__o* __this, const MethodInfo_3A24FD0* method);
+void App_NexVersus_GetMetaDataFromPersistenceSlotSequence_object____ctor (App_NexVersus_GetMetaDataFromPersistenceSlotSequence_T__o* __this, uint16_t slotId, uint64_t principalId, const MethodInfo_3A24FE0* method);
+void App_NexVersus_GetMetaDataFromPersistenceSlotSequence_object___Postlogin (App_NexVersus_GetMetaDataFromPersistenceSlotSequence_T__o* __this, const MethodInfo_3A25020* method);
+void App_NexVersus_GetMetaDataFromPersistenceSlotSequence_object___GetPersistenceMetaData (App_NexVersus_GetMetaDataFromPersistenceSlotSequence_T__o* __this, const MethodInfo_3A25030* method);
+void App_NexVersus_GetMetaDataFromPersistenceSlotSequence_object___GetMetaCallback (App_NexVersus_GetMetaDataFromPersistenceSlotSequence_T__o* __this, NexPlugin_AsyncResult_o* asyncResult, NexPlugin_DataStoreMetaInfo_o* info, const MethodInfo_3A251D0* method);
+void App_NexVersus_GetMetaDataFromPersistenceSlotSequence_object___CreateBind (App_ProcInst_o* super, uint16_t slotId, uint64_t principalId, const MethodInfo_3A25610* method);
+void App_NexVersus_GetMetaDataFromPersistenceSlotSequence_VersusServerCasualMetaData___CreateBind (App_ProcInst_o* super, uint16_t slotId, uint64_t principalId, const MethodInfo_3A25610* method);

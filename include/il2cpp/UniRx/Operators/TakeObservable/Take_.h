@@ -1,0 +1,26 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TakeObservable_Take_ValueTuple_object__object_____ctor (UniRx_Operators_TakeObservable_Take_T__o* __this, UniRx_Operators_TakeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34CD530* method);
+void UniRx_Operators_TakeObservable_Take_ValueTuple_object__object____OnNext (UniRx_Operators_TakeObservable_Take_T__o* __this, System_ValueTuple_object__object__o value, const MethodInfo_34CD580* method);
+void UniRx_Operators_TakeObservable_Take_ValueTuple_object__object____OnError (UniRx_Operators_TakeObservable_Take_T__o* __this, System_Exception_o* error, const MethodInfo_34CD760* method);
+void UniRx_Operators_TakeObservable_Take_ValueTuple_object__object____OnCompleted (UniRx_Operators_TakeObservable_Take_T__o* __this, const MethodInfo_34CD8A0* method);
+void UniRx_Operators_TakeObservable_Take__long____ctor (UniRx_Operators_TakeObservable_Take__T__o* __this, UniRx_Operators_TakeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D65D0* method);
+void UniRx_Operators_TakeObservable_Take__object____ctor (UniRx_Operators_TakeObservable_Take__T__o* __this, UniRx_Operators_TakeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D6F00* method);
+void UniRx_Operators_TakeObservable_Take__Unit____ctor (UniRx_Operators_TakeObservable_Take__T__o* __this, UniRx_Operators_TakeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D7830* method);
+System_IDisposable_o* UniRx_Operators_TakeObservable_Take__long___Run (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D6690* method);
+System_IDisposable_o* UniRx_Operators_TakeObservable_Take__object___Run (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D6FC0* method);
+System_IDisposable_o* UniRx_Operators_TakeObservable_Take__Unit___Run (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D78F0* method);
+void UniRx_Operators_TakeObservable_Take__long___Tick (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D6820* method);
+void UniRx_Operators_TakeObservable_Take__object___Tick (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D7150* method);
+void UniRx_Operators_TakeObservable_Take__Unit___Tick (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D7A80* method);
+void UniRx_Operators_TakeObservable_Take__long___OnNext (UniRx_Operators_TakeObservable_Take__T__o* __this, int64_t value, const MethodInfo_34D69F0* method);
+void UniRx_Operators_TakeObservable_Take__object___OnNext (UniRx_Operators_TakeObservable_Take__T__o* __this, Il2CppObject* value, const MethodInfo_34D7320* method);
+void UniRx_Operators_TakeObservable_Take__Unit___OnNext (UniRx_Operators_TakeObservable_Take__T__o* __this, UniRx_Unit_o value, const MethodInfo_34D7C50* method);
+void UniRx_Operators_TakeObservable_Take__long___OnError (UniRx_Operators_TakeObservable_Take__T__o* __this, System_Exception_o* error, const MethodInfo_34D6B50* method);
+void UniRx_Operators_TakeObservable_Take__object___OnError (UniRx_Operators_TakeObservable_Take__T__o* __this, System_Exception_o* error, const MethodInfo_34D7480* method);
+void UniRx_Operators_TakeObservable_Take__Unit___OnError (UniRx_Operators_TakeObservable_Take__T__o* __this, System_Exception_o* error, const MethodInfo_34D7DB0* method);
+void UniRx_Operators_TakeObservable_Take__long___OnCompleted (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D6D30* method);
+void UniRx_Operators_TakeObservable_Take__object___OnCompleted (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D7660* method);
+void UniRx_Operators_TakeObservable_Take__Unit___OnCompleted (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D7F90* method);

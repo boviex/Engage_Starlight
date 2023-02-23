@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem___ctor (App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem_o* __this, App_Unit_o* unit, int32_t unitItemIndex, int32_t dataIndex, App_ItemEvolveData_o* evolveData, const MethodInfo* method);
+System_String_o* App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem__GetColumnName0 (App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem__GetColumnName1 (App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem__GetColumnName2 (App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem__ACall (App_DebugUnitItemMenu_RefineMenu_EvolveMenuItem_o* __this, const MethodInfo* method);

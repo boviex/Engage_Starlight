@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MainMenuSequence_DifficultySelectMenuSequence__GetLayoutPrefabPath (App_MainMenuSequence_DifficultySelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_DifficultySelectMenuSequence__GetTitleBarName (App_MainMenuSequence_DifficultySelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_DifficultySelectMenuSequence__GetTitleBarHelp (App_MainMenuSequence_DifficultySelectMenuSequence_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_DifficultySelectMenuSequence__GetTitleBarKeyHelpId (App_MainMenuSequence_DifficultySelectMenuSequence_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_DifficultySelectMenuSequence__CreateMenuBind (App_MainMenuSequence_DifficultySelectMenuSequence_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_DifficultySelectMenuSequence__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+void App_MainMenuSequence_DifficultySelectMenuSequence___ctor (App_MainMenuSequence_DifficultySelectMenuSequence_o* __this, const MethodInfo* method);

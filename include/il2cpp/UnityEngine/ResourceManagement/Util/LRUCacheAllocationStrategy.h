@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy___ctor (UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy_o* __this, int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity, const MethodInfo* method);
+System_Collections_Generic_List_object__o* UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy__GetPool (UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy_o* __this, const MethodInfo* method);
+void UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy__ReleasePool (UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy_o* __this, System_Collections_Generic_List_object__o* pool, const MethodInfo* method);
+Il2CppObject* UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy__New (UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy_o* __this, System_Type_o* type, int32_t typeHash, const MethodInfo* method);
+void UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy__Release (UnityEngine_ResourceManagement_Util_LRUCacheAllocationStrategy_o* __this, int32_t typeHash, Il2CppObject* obj, const MethodInfo* method);

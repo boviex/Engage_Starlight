@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ProfileCardCommentMenu___c__DisplayClass12_0___ctor (App_ProfileCardCommentMenu___c__DisplayClass12_0_o* __this, const MethodInfo* method);
+void App_ProfileCardCommentMenu___c__DisplayClass12_0____ctor_b__0 (App_ProfileCardCommentMenu___c__DisplayClass12_0_o* __this, int32_t result, int32_t messageIndex, const MethodInfo* method);
+void App_ProfileCardCommentMenu___c__DisplayClass12_0____ctor_b__1 (App_ProfileCardCommentMenu___c__DisplayClass12_0_o* __this, App_ProfileCardCommentData_o* commentData, const MethodInfo* method);
+void App_ProfileCardCommentMenu___c__DisplayClass12_0____ctor_b__2 (App_ProfileCardCommentMenu___c__DisplayClass12_0_o* __this, App_ProfileCardCommentData_o* commentData, const MethodInfo* method);
+void App_ProfileCardCommentMenu___c__DisplayClass12_0____ctor_b__3 (App_ProfileCardCommentMenu___c__DisplayClass12_0_o* __this, const MethodInfo* method);
+void App_ProfileCardCommentMenu___c__DisplayClass12_0____ctor_b__4 (App_ProfileCardCommentMenu___c__DisplayClass12_0_o* __this, const MethodInfo* method);

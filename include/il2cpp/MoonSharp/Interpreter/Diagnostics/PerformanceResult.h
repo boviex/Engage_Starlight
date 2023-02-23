@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_Interpreter_Diagnostics_PerformanceResult__get_Name (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceResult__set_Name (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, System_String_o* value, const MethodInfo* method);
+int64_t MoonSharp_Interpreter_Diagnostics_PerformanceResult__get_Counter (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceResult__set_Counter (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, int64_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Diagnostics_PerformanceResult__get_Instances (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceResult__set_Instances (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, int32_t value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Diagnostics_PerformanceResult__get_Global (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceResult__set_Global (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, bool value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Diagnostics_PerformanceResult__get_Type (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceResult__set_Type (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, int32_t value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Diagnostics_PerformanceResult__ToString (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Diagnostics_PerformanceResult__PerformanceCounterTypeToString (int32_t Type, const MethodInfo* method);
+void MoonSharp_Interpreter_Diagnostics_PerformanceResult___ctor (MoonSharp_Interpreter_Diagnostics_PerformanceResult_o* __this, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_DictionaryPool___c_object__object____cctor (const MethodInfo_2B79AC0* method);
+void UnityEngine_Rendering_DictionaryPool___c_object__object____ctor (UnityEngine_Rendering_DictionaryPool___c_TKey__TValue__o* __this, const MethodInfo_2B79BA0* method);
+void UnityEngine_Rendering_DictionaryPool___c_object__object_____cctor_b__4_0 (UnityEngine_Rendering_DictionaryPool___c_TKey__TValue__o* __this, System_Collections_Generic_Dictionary_TKey__TValue__o* l, const MethodInfo_2B79BB0* method);

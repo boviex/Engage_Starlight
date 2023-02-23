@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ThrowObservable___c__DisplayClass3_0_object____ctor (UniRx_Operators_ThrowObservable___c__DisplayClass3_0_T__o* __this, const MethodInfo_2B82480* method);
+void UniRx_Operators_ThrowObservable___c__DisplayClass3_0_Unit____ctor (UniRx_Operators_ThrowObservable___c__DisplayClass3_0_T__o* __this, const MethodInfo_2B827A0* method);
+void UniRx_Operators_ThrowObservable___c__DisplayClass3_0_object____SubscribeCore_b__0 (UniRx_Operators_ThrowObservable___c__DisplayClass3_0_T__o* __this, const MethodInfo_2B82490* method);
+void UniRx_Operators_ThrowObservable___c__DisplayClass3_0_Unit____SubscribeCore_b__0 (UniRx_Operators_ThrowObservable___c__DisplayClass3_0_T__o* __this, const MethodInfo_2B827B0* method);

@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector__get_IsRunningOnMono (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector__set_IsRunningOnMono (bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector__get_IsRunningOnClr4 (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector__set_IsRunningOnClr4 (bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector__get_IsRunningOnUnity (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector__set_IsRunningOnUnity (bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector__get_IsPortableFramework (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector__set_IsPortableFramework (bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector__get_IsUnityNative (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector__set_IsUnityNative (bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector__get_IsUnityIL2CPP (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector__set_IsUnityIL2CPP (bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_Platforms_PlatformAutoDetector__get_IsRunningOnAOT (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector__AutoDetectPlatformFlags (const MethodInfo* method);
+MoonSharp_Interpreter_Platforms_IPlatformAccessor_o* MoonSharp_Interpreter_Platforms_PlatformAutoDetector__GetDefaultPlatform (const MethodInfo* method);
+MoonSharp_Interpreter_Loaders_IScriptLoader_o* MoonSharp_Interpreter_Platforms_PlatformAutoDetector__GetDefaultScriptLoader (const MethodInfo* method);
+void MoonSharp_Interpreter_Platforms_PlatformAutoDetector___cctor (const MethodInfo* method);

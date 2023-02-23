@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_Custom_CustomForwardRenderer___c___cctor (const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Custom_CustomForwardRenderer___c___ctor (UnityEngine_Rendering_Universal_Custom_CustomForwardRenderer___c_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_Custom_CustomForwardRenderer___c___Setup_b__66_0 (UnityEngine_Rendering_Universal_Custom_CustomForwardRenderer___c_o* __this, UnityEngine_Rendering_Universal_ScriptableRenderPass_o* x, const MethodInfo* method);

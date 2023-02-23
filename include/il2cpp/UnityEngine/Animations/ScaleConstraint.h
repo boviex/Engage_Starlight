@@ -1,0 +1,38 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Animations_ScaleConstraint___ctor (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__Internal_Create (UnityEngine_Animations_ScaleConstraint_o* self, const MethodInfo* method);
+float UnityEngine_Animations_ScaleConstraint__get_weight (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_weight (UnityEngine_Animations_ScaleConstraint_o* __this, float value, const MethodInfo* method);
+UnityEngine_Vector3_o UnityEngine_Animations_ScaleConstraint__get_scaleAtRest (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_scaleAtRest (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Vector3_o value, const MethodInfo* method);
+UnityEngine_Vector3_o UnityEngine_Animations_ScaleConstraint__get_scaleOffset (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_scaleOffset (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Vector3_o value, const MethodInfo* method);
+int32_t UnityEngine_Animations_ScaleConstraint__get_scalingAxis (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_scalingAxis (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t value, const MethodInfo* method);
+bool UnityEngine_Animations_ScaleConstraint__get_constraintActive (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_constraintActive (UnityEngine_Animations_ScaleConstraint_o* __this, bool value, const MethodInfo* method);
+bool UnityEngine_Animations_ScaleConstraint__get_locked (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_locked (UnityEngine_Animations_ScaleConstraint_o* __this, bool value, const MethodInfo* method);
+int32_t UnityEngine_Animations_ScaleConstraint__get_sourceCount (UnityEngine_Animations_ScaleConstraint_o* __this, const MethodInfo* method);
+int32_t UnityEngine_Animations_ScaleConstraint__GetSourceCountInternal (UnityEngine_Animations_ScaleConstraint_o* self, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__GetSources (UnityEngine_Animations_ScaleConstraint_o* __this, System_Collections_Generic_List_ConstraintSource__o* sources, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__SetSources (UnityEngine_Animations_ScaleConstraint_o* __this, System_Collections_Generic_List_ConstraintSource__o* sources, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__SetSourcesInternal (UnityEngine_Animations_ScaleConstraint_o* self, System_Collections_Generic_List_ConstraintSource__o* sources, const MethodInfo* method);
+int32_t UnityEngine_Animations_ScaleConstraint__AddSource (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Animations_ConstraintSource_o source, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__RemoveSource (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__RemoveSourceInternal (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, const MethodInfo* method);
+UnityEngine_Animations_ConstraintSource_o UnityEngine_Animations_ScaleConstraint__GetSource (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, const MethodInfo* method);
+UnityEngine_Animations_ConstraintSource_o UnityEngine_Animations_ScaleConstraint__GetSourceInternal (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__SetSource (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, UnityEngine_Animations_ConstraintSource_o source, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__SetSourceInternal (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, UnityEngine_Animations_ConstraintSource_o source, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__ValidateSourceIndex (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__get_scaleAtRest_Injected (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Vector3_o* ret, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_scaleAtRest_Injected (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Vector3_o* value, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__get_scaleOffset_Injected (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Vector3_o* ret, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__set_scaleOffset_Injected (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Vector3_o* value, const MethodInfo* method);
+int32_t UnityEngine_Animations_ScaleConstraint__AddSource_Injected (UnityEngine_Animations_ScaleConstraint_o* __this, UnityEngine_Animations_ConstraintSource_o* source, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__GetSourceInternal_Injected (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, UnityEngine_Animations_ConstraintSource_o* ret, const MethodInfo* method);
+void UnityEngine_Animations_ScaleConstraint__SetSourceInternal_Injected (UnityEngine_Animations_ScaleConstraint_o* __this, int32_t index, UnityEngine_Animations_ConstraintSource_o* source, const MethodInfo* method);

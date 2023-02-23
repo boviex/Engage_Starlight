@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_RenderGraphModule_RenderGraphResourceRegistry_RendererListResource___ctor (UnityEngine_Experimental_Rendering_RenderGraphModule_RenderGraphResourceRegistry_RendererListResource_o __this, UnityEngine_Experimental_Rendering_RendererListDesc_o* desc, const MethodInfo* method);

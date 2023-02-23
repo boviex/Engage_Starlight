@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory__SetWidget (UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory_o* __this, UnityEngine_Rendering_DebugUI_Widget_o* widget, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory__UpdateValueLabel (UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory__RefreshAfterSanitization (UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory___ctor (UnityEngine_Rendering_UI_DebugUIHandlerEnumHistory_o* __this, const MethodInfo* method);

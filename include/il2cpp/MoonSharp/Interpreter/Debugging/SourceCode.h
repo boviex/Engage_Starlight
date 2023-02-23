@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_Interpreter_Debugging_SourceCode__get_Name (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_SourceCode__set_Name (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Debugging_SourceCode__get_Code (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_SourceCode__set_Code (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_array* MoonSharp_Interpreter_Debugging_SourceCode__get_Lines (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_SourceCode__set_Lines (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, System_String_array* value, const MethodInfo* method);
+MoonSharp_Interpreter_Script_o* MoonSharp_Interpreter_Debugging_SourceCode__get_OwnerScript (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_SourceCode__set_OwnerScript (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, MoonSharp_Interpreter_Script_o* value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Debugging_SourceCode__get_SourceID (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_SourceCode__set_SourceID (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, int32_t value, const MethodInfo* method);
+System_Collections_Generic_List_SourceRef__o* MoonSharp_Interpreter_Debugging_SourceCode__get_Refs (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_SourceCode__set_Refs (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, System_Collections_Generic_List_SourceRef__o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Debugging_SourceCode___ctor (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, System_String_o* name, System_String_o* code, int32_t sourceID, MoonSharp_Interpreter_Script_o* ownerScript, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Debugging_SourceCode__GetCodeSnippet (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, MoonSharp_Interpreter_Debugging_SourceRef_o* sourceCodeRef, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Debugging_SourceCode__AdjustStrIndex (MoonSharp_Interpreter_Debugging_SourceCode_o* __this, System_String_o* str, int32_t loc, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Authentication_AuthenticationException___ctor (System_Security_Authentication_AuthenticationException_o* __this, const MethodInfo* method);
+void System_Security_Authentication_AuthenticationException___ctor (System_Security_Authentication_AuthenticationException_o* __this, System_String_o* message, System_Exception_o* innerException, const MethodInfo* method);
+void System_Security_Authentication_AuthenticationException___ctor (System_Security_Authentication_AuthenticationException_o* __this, System_Runtime_Serialization_SerializationInfo_o* serializationInfo, System_Runtime_Serialization_StreamingContext_o streamingContext, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observable___c__DisplayClass149_0_object__object____ctor (UniRx_Observable___c__DisplayClass149_0_TSource__TException__o* __this, const MethodInfo_2B7D180* method);
+System_IObservable_TSource__o* UniRx_Observable___c__DisplayClass149_0_object__object____CatchIgnore_b__0 (UniRx_Observable___c__DisplayClass149_0_TSource__TException__o* __this, Il2CppObject* ex, const MethodInfo_2B7D190* method);

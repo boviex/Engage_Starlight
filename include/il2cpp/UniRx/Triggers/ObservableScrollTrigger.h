@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableScrollTrigger__UnityEngine_EventSystems_IScrollHandler_OnScroll (UniRx_Triggers_ObservableScrollTrigger_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+System_IObservable_PointerEventData__o* UniRx_Triggers_ObservableScrollTrigger__OnScrollAsObservable (UniRx_Triggers_ObservableScrollTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableScrollTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableScrollTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableScrollTrigger___ctor (UniRx_Triggers_ObservableScrollTrigger_o* __this, const MethodInfo* method);

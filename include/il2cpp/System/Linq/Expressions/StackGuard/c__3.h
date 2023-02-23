@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_StackGuard___c__3_object__object____cctor (const MethodInfo_2B7B520* method);
+void System_Linq_Expressions_StackGuard___c__3_object__object____ctor (System_Linq_Expressions_StackGuard___c__3_T1__T2__o* __this, const MethodInfo_2B7B600* method);
+Il2CppObject* System_Linq_Expressions_StackGuard___c__3_object__object____RunOnEmptyStack_b__3_0 (System_Linq_Expressions_StackGuard___c__3_T1__T2__o* __this, Il2CppObject* s, const MethodInfo_2B7B610* method);

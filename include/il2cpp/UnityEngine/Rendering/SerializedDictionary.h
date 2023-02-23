@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_SerializedDictionary_object__object___OnBeforeSerialize (UnityEngine_Rendering_SerializedDictionary_K__V__o* __this, const MethodInfo_3446770* method);
+void UnityEngine_Rendering_SerializedDictionary_object__object___OnAfterDeserialize (UnityEngine_Rendering_SerializedDictionary_K__V__o* __this, const MethodInfo_34469B0* method);
+void UnityEngine_Rendering_SerializedDictionary_object__object____ctor (UnityEngine_Rendering_SerializedDictionary_K__V__o* __this, const MethodInfo_3446AC0* method);

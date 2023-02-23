@@ -1,0 +1,54 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Table___ctor (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_Script_o* owner, const MethodInfo* method);
+void MoonSharp_Interpreter_Table___ctor (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_Script_o* owner, MoonSharp_Interpreter_DynValue_array* arrayValues, const MethodInfo* method);
+MoonSharp_Interpreter_Script_o* MoonSharp_Interpreter_Table__get_OwnerScript (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__Clear (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Table__GetIntegralKey (MoonSharp_Interpreter_Table_o* __this, double d, const MethodInfo* method);
+Il2CppObject* MoonSharp_Interpreter_Table__get_Item (MoonSharp_Interpreter_Table_o* __this, System_Object_array* keys, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__set_Item (MoonSharp_Interpreter_Table_o* __this, System_Object_array* keys, Il2CppObject* value, const MethodInfo* method);
+Il2CppObject* MoonSharp_Interpreter_Table__get_Item (MoonSharp_Interpreter_Table_o* __this, Il2CppObject* key, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__set_Item (MoonSharp_Interpreter_Table_o* __this, Il2CppObject* key, Il2CppObject* value, const MethodInfo* method);
+MoonSharp_Interpreter_Table_o* MoonSharp_Interpreter_Table__ResolveMultipleKeys (MoonSharp_Interpreter_Table_o* __this, System_Object_array* keys, Il2CppObject** key, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__Append (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__PerformTableSet_DynValue_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, MoonSharp_Interpreter_DynValue_o* key, MoonSharp_Interpreter_DynValue_o* keyDynValue, MoonSharp_Interpreter_DynValue_o* value, bool isNumber, int32_t appendKey, const MethodInfo_2066320* method);
+void MoonSharp_Interpreter_Table__PerformTableSet_int_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, int32_t key, MoonSharp_Interpreter_DynValue_o* keyDynValue, MoonSharp_Interpreter_DynValue_o* value, bool isNumber, int32_t appendKey, const MethodInfo_20661A0* method);
+void MoonSharp_Interpreter_Table__PerformTableSet_object_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, Il2CppObject* key, MoonSharp_Interpreter_DynValue_o* keyDynValue, MoonSharp_Interpreter_DynValue_o* value, bool isNumber, int32_t appendKey, const MethodInfo_2066320* method);
+void MoonSharp_Interpreter_Table__PerformTableSet_string_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, System_String_o* key, MoonSharp_Interpreter_DynValue_o* keyDynValue, MoonSharp_Interpreter_DynValue_o* value, bool isNumber, int32_t appendKey, const MethodInfo_2066320* method);
+void MoonSharp_Interpreter_Table__Set (MoonSharp_Interpreter_Table_o* __this, System_String_o* key, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__Set (MoonSharp_Interpreter_Table_o* __this, int32_t key, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__Set (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DynValue_o* key, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__Set (MoonSharp_Interpreter_Table_o* __this, Il2CppObject* key, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__Set (MoonSharp_Interpreter_Table_o* __this, System_Object_array* keys, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__Get (MoonSharp_Interpreter_Table_o* __this, System_String_o* key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__Get (MoonSharp_Interpreter_Table_o* __this, int32_t key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__Get (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DynValue_o* key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__Get (MoonSharp_Interpreter_Table_o* __this, Il2CppObject* key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__Get (MoonSharp_Interpreter_Table_o* __this, System_Object_array* keys, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__RawGetValue (System_Collections_Generic_LinkedListNode_TablePair__o* linkedListNode, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__RawGet (MoonSharp_Interpreter_Table_o* __this, System_String_o* key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__RawGet (MoonSharp_Interpreter_Table_o* __this, int32_t key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__RawGet (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DynValue_o* key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__RawGet (MoonSharp_Interpreter_Table_o* __this, Il2CppObject* key, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_Table__RawGet (MoonSharp_Interpreter_Table_o* __this, System_Object_array* keys, const MethodInfo* method);
+bool MoonSharp_Interpreter_Table__PerformTableRemove_DynValue_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, MoonSharp_Interpreter_DynValue_o* key, bool isNumber, const MethodInfo_2066150* method);
+bool MoonSharp_Interpreter_Table__PerformTableRemove_int_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, int32_t key, bool isNumber, const MethodInfo_2066100* method);
+bool MoonSharp_Interpreter_Table__PerformTableRemove_object_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, Il2CppObject* key, bool isNumber, const MethodInfo_2066150* method);
+bool MoonSharp_Interpreter_Table__PerformTableRemove_string_ (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DataStructs_LinkedListIndex_T__TablePair__o* listIndex, System_String_o* key, bool isNumber, const MethodInfo_2066150* method);
+bool MoonSharp_Interpreter_Table__Remove (MoonSharp_Interpreter_Table_o* __this, System_String_o* key, const MethodInfo* method);
+bool MoonSharp_Interpreter_Table__Remove (MoonSharp_Interpreter_Table_o* __this, int32_t key, const MethodInfo* method);
+bool MoonSharp_Interpreter_Table__Remove (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DynValue_o* key, const MethodInfo* method);
+bool MoonSharp_Interpreter_Table__Remove (MoonSharp_Interpreter_Table_o* __this, Il2CppObject* key, const MethodInfo* method);
+bool MoonSharp_Interpreter_Table__Remove (MoonSharp_Interpreter_Table_o* __this, System_Object_array* keys, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__CollectDeadKeys (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);
+System_Nullable_TablePair__o MoonSharp_Interpreter_Table__NextKey (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DynValue_o* v, const MethodInfo* method);
+System_Nullable_TablePair__o MoonSharp_Interpreter_Table__GetNextOf (MoonSharp_Interpreter_Table_o* __this, System_Collections_Generic_LinkedListNode_TablePair__o* linkedListNode, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_Table__get_Length (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__InitNextArrayKeys (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_DynValue_o* val, bool lastpos, const MethodInfo* method);
+MoonSharp_Interpreter_Table_o* MoonSharp_Interpreter_Table__get_MetaTable (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Table__set_MetaTable (MoonSharp_Interpreter_Table_o* __this, MoonSharp_Interpreter_Table_o* value, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_TablePair__o* MoonSharp_Interpreter_Table__get_Pairs (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_DynValue__o* MoonSharp_Interpreter_Table__get_Keys (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_DynValue__o* MoonSharp_Interpreter_Table__get_Values (MoonSharp_Interpreter_Table_o* __this, const MethodInfo* method);

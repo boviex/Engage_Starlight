@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_VsCodeDebugger_MoonSharpVsCodeDebugServer___c__DisplayClass23_0___ctor (MoonSharp_VsCodeDebugger_MoonSharpVsCodeDebugServer___c__DisplayClass23_0_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_MoonSharpVsCodeDebugServer___c__DisplayClass23_0___Start_b__0 (MoonSharp_VsCodeDebugger_MoonSharpVsCodeDebugServer___c__DisplayClass23_0_o* __this, const MethodInfo* method);

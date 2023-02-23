@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_VertexAttributeDescriptor__get_attribute (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_VertexAttributeDescriptor__set_attribute (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_VertexAttributeDescriptor__get_format (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_VertexAttributeDescriptor__set_format (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_VertexAttributeDescriptor__get_dimension (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_VertexAttributeDescriptor__set_dimension (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, int32_t value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_VertexAttributeDescriptor__get_stream (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_VertexAttributeDescriptor__set_stream (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, int32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_VertexAttributeDescriptor___ctor (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, int32_t attribute, int32_t format, int32_t dimension, int32_t stream, const MethodInfo* method);
+System_String_o* UnityEngine_Rendering_VertexAttributeDescriptor__ToString (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_VertexAttributeDescriptor__GetHashCode (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, const MethodInfo* method);
+bool UnityEngine_Rendering_VertexAttributeDescriptor__Equals (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, Il2CppObject* other, const MethodInfo* method);
+bool UnityEngine_Rendering_VertexAttributeDescriptor__Equals (UnityEngine_Rendering_VertexAttributeDescriptor_o __this, UnityEngine_Rendering_VertexAttributeDescriptor_o other, const MethodInfo* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UnityEngine_AddressableAssets_DynamicResourceLocator__get_LocatorId (UnityEngine_AddressableAssets_DynamicResourceLocator_o* __this, const MethodInfo* method);
+System_Collections_Generic_IEnumerable_object__o* UnityEngine_AddressableAssets_DynamicResourceLocator__get_Keys (UnityEngine_AddressableAssets_DynamicResourceLocator_o* __this, const MethodInfo* method);
+System_String_o* UnityEngine_AddressableAssets_DynamicResourceLocator__get_AtlasSpriteProviderId (UnityEngine_AddressableAssets_DynamicResourceLocator_o* __this, const MethodInfo* method);
+void UnityEngine_AddressableAssets_DynamicResourceLocator___ctor (UnityEngine_AddressableAssets_DynamicResourceLocator_o* __this, UnityEngine_AddressableAssets_AddressablesImpl_o* addr, const MethodInfo* method);
+bool UnityEngine_AddressableAssets_DynamicResourceLocator__Locate (UnityEngine_AddressableAssets_DynamicResourceLocator_o* __this, Il2CppObject* key, System_Type_o* type, System_Collections_Generic_IList_IResourceLocation__o** locations, const MethodInfo* method);
+void UnityEngine_AddressableAssets_DynamicResourceLocator__CreateDynamicLocations (UnityEngine_AddressableAssets_DynamicResourceLocator_o* __this, System_Type_o* type, System_Collections_Generic_IList_IResourceLocation__o* locations, System_String_o* locName, System_String_o* subKey, UnityEngine_ResourceManagement_ResourceLocations_IResourceLocation_o* mainLoc, const MethodInfo* method);

@@ -1,0 +1,36 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_SchemaInfo___ctor (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Xml_XmlQualifiedName_o* System_Xml_Schema_SchemaInfo__get_DocTypeName (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaInfo__set_DocTypeName (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_XmlQualifiedName_o* value, const MethodInfo* method);
+void System_Xml_Schema_SchemaInfo__set_InternalDtdSubset (System_Xml_Schema_SchemaInfo_o* __this, System_String_o* value, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__SchemaElementDecl__o* System_Xml_Schema_SchemaInfo__get_ElementDecls (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__SchemaElementDecl__o* System_Xml_Schema_SchemaInfo__get_UndeclaredElementDecls (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__SchemaEntity__o* System_Xml_Schema_SchemaInfo__get_GeneralEntities (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__SchemaEntity__o* System_Xml_Schema_SchemaInfo__get_ParameterEntities (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaInfo__get_SchemaType (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaInfo__set_SchemaType (System_Xml_Schema_SchemaInfo_o* __this, int32_t value, const MethodInfo* method);
+System_Collections_Generic_Dictionary_string__bool__o* System_Xml_Schema_SchemaInfo__get_TargetNamespaces (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__SchemaElementDecl__o* System_Xml_Schema_SchemaInfo__get_ElementDeclsByType (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_XmlQualifiedName__SchemaAttDef__o* System_Xml_Schema_SchemaInfo__get_AttributeDecls (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Collections_Generic_Dictionary_string__SchemaNotation__o* System_Xml_Schema_SchemaInfo__get_Notations (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaInfo__get_ErrorCount (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaInfo__set_ErrorCount (System_Xml_Schema_SchemaInfo_o* __this, int32_t value, const MethodInfo* method);
+System_Xml_Schema_SchemaElementDecl_o* System_Xml_Schema_SchemaInfo__GetElementDecl (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_XmlQualifiedName_o* qname, const MethodInfo* method);
+System_Xml_Schema_SchemaElementDecl_o* System_Xml_Schema_SchemaInfo__GetTypeDecl (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_XmlQualifiedName_o* qname, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaElement_o* System_Xml_Schema_SchemaInfo__GetElement (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_XmlQualifiedName_o* qname, const MethodInfo* method);
+bool System_Xml_Schema_SchemaInfo__HasSchema (System_Xml_Schema_SchemaInfo_o* __this, System_String_o* ns, const MethodInfo* method);
+bool System_Xml_Schema_SchemaInfo__Contains (System_Xml_Schema_SchemaInfo_o* __this, System_String_o* ns, const MethodInfo* method);
+System_Xml_Schema_SchemaAttDef_o* System_Xml_Schema_SchemaInfo__GetAttributeXdr (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_Schema_SchemaElementDecl_o* ed, System_Xml_XmlQualifiedName_o* qname, const MethodInfo* method);
+System_Xml_Schema_SchemaAttDef_o* System_Xml_Schema_SchemaInfo__GetAttributeXsd (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_Schema_SchemaElementDecl_o* ed, System_Xml_XmlQualifiedName_o* qname, System_Xml_Schema_XmlSchemaObject_o* partialValidationType, int32_t* attributeMatchState, const MethodInfo* method);
+System_Xml_Schema_SchemaAttDef_o* System_Xml_Schema_SchemaInfo__GetAttributeXsd (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_Schema_SchemaElementDecl_o* ed, System_Xml_XmlQualifiedName_o* qname, bool* skip, const MethodInfo* method);
+void System_Xml_Schema_SchemaInfo__Add (System_Xml_Schema_SchemaInfo_o* __this, System_Xml_Schema_SchemaInfo_o* sinfo, System_Xml_Schema_ValidationEventHandler_o* eventhandler, const MethodInfo* method);
+void System_Xml_Schema_SchemaInfo__Finish (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaInfo__System_Xml_IDtdInfo_get_HasDefaultAttributes (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaInfo__System_Xml_IDtdInfo_get_HasNonCDataAttributes (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_Xml_IDtdAttributeListInfo_o* System_Xml_Schema_SchemaInfo__System_Xml_IDtdInfo_LookupAttributeList (System_Xml_Schema_SchemaInfo_o* __this, System_String_o* prefix, System_String_o* localName, const MethodInfo* method);
+System_Xml_IDtdEntityInfo_o* System_Xml_Schema_SchemaInfo__System_Xml_IDtdInfo_LookupEntity (System_Xml_Schema_SchemaInfo_o* __this, System_String_o* name, const MethodInfo* method);
+System_Xml_XmlQualifiedName_o* System_Xml_Schema_SchemaInfo__System_Xml_IDtdInfo_get_Name (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_Schema_SchemaInfo__System_Xml_IDtdInfo_get_InternalDtdSubset (System_Xml_Schema_SchemaInfo_o* __this, const MethodInfo* method);

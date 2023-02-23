@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Il2CppObject* UnityEngine_AddressableAssets_InvalidKeyException__get_Key (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException__set_Key (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, Il2CppObject* value, const MethodInfo* method);
+System_Type_o* UnityEngine_AddressableAssets_InvalidKeyException__get_Type (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException__set_Type (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, System_Type_o* value, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException___ctor (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, Il2CppObject* key, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException___ctor (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, Il2CppObject* key, System_Type_o* type, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException___ctor (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException___ctor (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, System_String_o* message, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException___ctor (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, System_String_o* message, System_Exception_o* innerException, const MethodInfo* method);
+void UnityEngine_AddressableAssets_InvalidKeyException___ctor (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, System_Runtime_Serialization_SerializationInfo_o* message, System_Runtime_Serialization_StreamingContext_o context, const MethodInfo* method);
+System_String_o* UnityEngine_AddressableAssets_InvalidKeyException__get_Message (UnityEngine_AddressableAssets_InvalidKeyException_o* __this, const MethodInfo* method);

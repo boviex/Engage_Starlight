@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Notification___c__DisplayClass21_0_object____ctor (UniRx_Notification___c__DisplayClass21_0_T__o* __this, const MethodInfo_2B7F650* method);
+void UniRx_Notification___c__DisplayClass21_0_Unit____ctor (UniRx_Notification___c__DisplayClass21_0_T__o* __this, const MethodInfo_2B7F7B0* method);
+System_IDisposable_o* UniRx_Notification___c__DisplayClass21_0_object____ToObservable_b__0 (UniRx_Notification___c__DisplayClass21_0_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_2B7F660* method);
+System_IDisposable_o* UniRx_Notification___c__DisplayClass21_0_Unit____ToObservable_b__0 (UniRx_Notification___c__DisplayClass21_0_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_2B7F7C0* method);

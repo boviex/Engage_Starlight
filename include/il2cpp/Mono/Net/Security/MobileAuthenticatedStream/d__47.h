@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Net_Security_MobileAuthenticatedStream__ProcessAuthentication_d__47__MoveNext (Mono_Net_Security_MobileAuthenticatedStream__ProcessAuthentication_d__47_o __this, const MethodInfo* method);
+void Mono_Net_Security_MobileAuthenticatedStream__ProcessAuthentication_d__47__SetStateMachine (Mono_Net_Security_MobileAuthenticatedStream__ProcessAuthentication_d__47_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

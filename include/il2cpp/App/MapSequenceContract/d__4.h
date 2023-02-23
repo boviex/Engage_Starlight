@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapSequenceContract__SimpleDance_d__4___ctor (App_MapSequenceContract__SimpleDance_d__4_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_MapSequenceContract__SimpleDance_d__4__System_IDisposable_Dispose (App_MapSequenceContract__SimpleDance_d__4_o* __this, const MethodInfo* method);
+bool App_MapSequenceContract__SimpleDance_d__4__MoveNext (App_MapSequenceContract__SimpleDance_d__4_o* __this, const MethodInfo* method);
+void App_MapSequenceContract__SimpleDance_d__4____m__Finally1 (App_MapSequenceContract__SimpleDance_d__4_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapSequenceContract__SimpleDance_d__4__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_MapSequenceContract__SimpleDance_d__4_o* __this, const MethodInfo* method);
+void App_MapSequenceContract__SimpleDance_d__4__System_Collections_IEnumerator_Reset (App_MapSequenceContract__SimpleDance_d__4_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapSequenceContract__SimpleDance_d__4__System_Collections_IEnumerator_get_Current (App_MapSequenceContract__SimpleDance_d__4_o* __this, const MethodInfo* method);

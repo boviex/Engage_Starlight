@@ -1,0 +1,26 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Notification_OnNextNotification_object____ctor (UniRx_Notification_OnNextNotification_T__o* __this, Il2CppObject* value, const MethodInfo_372A9B0* method);
+void UniRx_Notification_OnNextNotification_Unit____ctor (UniRx_Notification_OnNextNotification_T__o* __this, UniRx_Unit_o value, const MethodInfo_372ADF0* method);
+Il2CppObject* UniRx_Notification_OnNextNotification_object___get_Value (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372A9F0* method);
+UniRx_Unit_o UniRx_Notification_OnNextNotification_Unit___get_Value (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AE30* method);
+System_Exception_o* UniRx_Notification_OnNextNotification_object___get_Exception (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AA00* method);
+System_Exception_o* UniRx_Notification_OnNextNotification_Unit___get_Exception (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AE40* method);
+bool UniRx_Notification_OnNextNotification_object___get_HasValue (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AA10* method);
+bool UniRx_Notification_OnNextNotification_Unit___get_HasValue (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AE50* method);
+int32_t UniRx_Notification_OnNextNotification_object___get_Kind (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AA20* method);
+int32_t UniRx_Notification_OnNextNotification_Unit___get_Kind (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AE60* method);
+int32_t UniRx_Notification_OnNextNotification_object___GetHashCode (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AA30* method);
+int32_t UniRx_Notification_OnNextNotification_Unit___GetHashCode (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AE70* method);
+bool UniRx_Notification_OnNextNotification_object___Equals (UniRx_Notification_OnNextNotification_T__o* __this, UniRx_Notification_T__o* other, const MethodInfo_372AA90* method);
+bool UniRx_Notification_OnNextNotification_Unit___Equals (UniRx_Notification_OnNextNotification_T__o* __this, UniRx_Notification_T__o* other, const MethodInfo_372AED0* method);
+System_String_o* UniRx_Notification_OnNextNotification_object___ToString (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AB60* method);
+System_String_o* UniRx_Notification_OnNextNotification_Unit___ToString (UniRx_Notification_OnNextNotification_T__o* __this, const MethodInfo_372AFA0* method);
+void UniRx_Notification_OnNextNotification_object___Accept (UniRx_Notification_OnNextNotification_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_372AC10* method);
+void UniRx_Notification_OnNextNotification_Unit___Accept (UniRx_Notification_OnNextNotification_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_372B080* method);
+Il2CppObject* UniRx_Notification_OnNextNotification_object___Accept_object_ (UniRx_Notification_OnNextNotification_T__o* __this, UniRx_IObserver_T__TResult__o* observer, const MethodInfo_2525560* method);
+void UniRx_Notification_OnNextNotification_object___Accept (UniRx_Notification_OnNextNotification_T__o* __this, System_Action_T__o* onNext, System_Action_Exception__o* onError, System_Action_o* onCompleted, const MethodInfo_372AD10* method);
+void UniRx_Notification_OnNextNotification_Unit___Accept (UniRx_Notification_OnNextNotification_T__o* __this, System_Action_T__o* onNext, System_Action_Exception__o* onError, System_Action_o* onCompleted, const MethodInfo_372B180* method);
+Il2CppObject* UniRx_Notification_OnNextNotification_object___Accept_object_ (UniRx_Notification_OnNextNotification_T__o* __this, System_Func_T__TResult__o* onNext, System_Func_Exception__TResult__o* onError, System_Func_TResult__o* onCompleted, const MethodInfo_2525660* method);

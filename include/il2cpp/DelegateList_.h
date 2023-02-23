@@ -1,0 +1,32 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void DelegateList_AsyncOperationHandle_bool_____ctor (DelegateList_T__o* __this, System_Func_Action_T___LinkedListNode_Action_T____o* acquireFunc, System_Action_LinkedListNode_Action_T____o* releaseFunc, const MethodInfo_25031B0* method);
+void DelegateList_AsyncOperationHandle_long_____ctor (DelegateList_T__o* __this, System_Func_Action_T___LinkedListNode_Action_T____o* acquireFunc, System_Action_LinkedListNode_Action_T____o* releaseFunc, const MethodInfo_2503990* method);
+void DelegateList_AsyncOperationHandle_object_____ctor (DelegateList_T__o* __this, System_Func_Action_T___LinkedListNode_Action_T____o* acquireFunc, System_Action_LinkedListNode_Action_T____o* releaseFunc, const MethodInfo_2504170* method);
+void DelegateList_AsyncOperationHandle_SceneInstance_____ctor (DelegateList_T__o* __this, System_Func_Action_T___LinkedListNode_Action_T____o* acquireFunc, System_Action_LinkedListNode_Action_T____o* releaseFunc, const MethodInfo_2504950* method);
+int32_t DelegateList_AsyncOperationHandle_bool____get_Count (DelegateList_T__o* __this, const MethodInfo_2503270* method);
+int32_t DelegateList_AsyncOperationHandle_long____get_Count (DelegateList_T__o* __this, const MethodInfo_2503A50* method);
+int32_t DelegateList_AsyncOperationHandle_object____get_Count (DelegateList_T__o* __this, const MethodInfo_2504230* method);
+int32_t DelegateList_AsyncOperationHandle_SceneInstance____get_Count (DelegateList_T__o* __this, const MethodInfo_2504A10* method);
+void DelegateList_AsyncOperationHandle_bool____Add (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2503290* method);
+void DelegateList_AsyncOperationHandle_long____Add (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2503A70* method);
+void DelegateList_AsyncOperationHandle_object____Add (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2504250* method);
+void DelegateList_AsyncOperationHandle_SceneInstance____Add (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2504A30* method);
+void DelegateList_AsyncOperationHandle_bool____Remove (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2503340* method);
+void DelegateList_AsyncOperationHandle_long____Remove (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2503B20* method);
+void DelegateList_AsyncOperationHandle_object____Remove (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2504300* method);
+void DelegateList_AsyncOperationHandle_SceneInstance____Remove (DelegateList_T__o* __this, System_Action_T__o* action, const MethodInfo_2504AE0* method);
+void DelegateList_AsyncOperationHandle_bool____Invoke (DelegateList_T__o* __this, UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_bool__o res, const MethodInfo_2503440* method);
+void DelegateList_AsyncOperationHandle_long____Invoke (DelegateList_T__o* __this, UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_long__o res, const MethodInfo_2503C20* method);
+void DelegateList_AsyncOperationHandle_object____Invoke (DelegateList_T__o* __this, UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_object__o res, const MethodInfo_2504400* method);
+void DelegateList_AsyncOperationHandle_SceneInstance____Invoke (DelegateList_T__o* __this, UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_SceneInstance__o res, const MethodInfo_2504BE0* method);
+void DelegateList_AsyncOperationHandle_bool____Clear (DelegateList_T__o* __this, const MethodInfo_25036D0* method);
+void DelegateList_AsyncOperationHandle_long____Clear (DelegateList_T__o* __this, const MethodInfo_2503EB0* method);
+void DelegateList_AsyncOperationHandle_object____Clear (DelegateList_T__o* __this, const MethodInfo_2504690* method);
+void DelegateList_AsyncOperationHandle_SceneInstance____Clear (DelegateList_T__o* __this, const MethodInfo_2504E70* method);
+DelegateList_T__o* DelegateList_AsyncOperationHandle_bool____CreateWithGlobalCache (const MethodInfo_2503780* method);
+DelegateList_T__o* DelegateList_AsyncOperationHandle_long____CreateWithGlobalCache (const MethodInfo_2503F60* method);
+DelegateList_T__o* DelegateList_AsyncOperationHandle_object____CreateWithGlobalCache (const MethodInfo_2504740* method);
+DelegateList_T__o* DelegateList_AsyncOperationHandle_SceneInstance____CreateWithGlobalCache (const MethodInfo_2504F20* method);

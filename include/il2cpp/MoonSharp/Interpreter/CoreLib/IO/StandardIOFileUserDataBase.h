@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase__Close (MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase_o* MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase__CreateInputStream (System_IO_Stream_o* stream, const MethodInfo* method);
+MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase_o* MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase__CreateOutputStream (System_IO_Stream_o* stream, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase___ctor (MoonSharp_Interpreter_CoreLib_IO_StandardIOFileUserDataBase_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_BufferObservable_BufferT_Buffer_object____ctor (UniRx_Operators_BufferObservable_BufferT_Buffer_T__o* __this, UniRx_Operators_BufferObservable_BufferT_T__o* parent, const MethodInfo_30D1D00* method);
+void UniRx_Operators_BufferObservable_BufferT_Buffer_object___OnNext (UniRx_Operators_BufferObservable_BufferT_Buffer_T__o* __this, int64_t value, const MethodInfo_30D1D40* method);
+void UniRx_Operators_BufferObservable_BufferT_Buffer_object___OnError (UniRx_Operators_BufferObservable_BufferT_Buffer_T__o* __this, System_Exception_o* error, const MethodInfo_30D1FE0* method);
+void UniRx_Operators_BufferObservable_BufferT_Buffer_object___OnCompleted (UniRx_Operators_BufferObservable_BufferT_Buffer_T__o* __this, const MethodInfo_30D1FF0* method);

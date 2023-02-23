@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_DebugTransporterItemMenu_SelectMenuItem___ctor (App_DebugTransporterItemMenu_SelectMenuItem_o* __this, int32_t transporterIndex, int32_t itemIndex, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_SelectMenuItem__GetColumnCount (App_DebugTransporterItemMenu_SelectMenuItem_o* __this, const MethodInfo* method);
+float App_DebugTransporterItemMenu_SelectMenuItem__GetColumnWidth0 (App_DebugTransporterItemMenu_SelectMenuItem_o* __this, const MethodInfo* method);
+float App_DebugTransporterItemMenu_SelectMenuItem__GetColumnWidth1 (App_DebugTransporterItemMenu_SelectMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugTransporterItemMenu_SelectMenuItem__GetColumnName0 (App_DebugTransporterItemMenu_SelectMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugTransporterItemMenu_SelectMenuItem__GetColumnName1 (App_DebugTransporterItemMenu_SelectMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_SelectMenuItem__ACall (App_DebugTransporterItemMenu_SelectMenuItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ProfileCardAlbumListDeleteConfirmDialog_YesMenuItem___ctor (App_ProfileCardAlbumListDeleteConfirmDialog_YesMenuItem_o* __this, System_String_o* message, App_ProfileCardAlbumListDeleteConfirmDialog_YesEventHandler_o* yesEventHandler, const MethodInfo* method);
+int32_t App_ProfileCardAlbumListDeleteConfirmDialog_YesMenuItem__ACall (App_ProfileCardAlbumListDeleteConfirmDialog_YesMenuItem_o* __this, const MethodInfo* method);

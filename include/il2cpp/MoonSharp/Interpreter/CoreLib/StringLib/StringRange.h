@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MoonSharp_Interpreter_CoreLib_StringLib_StringRange__get_Start (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_StringLib_StringRange__set_Start (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, int32_t value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_CoreLib_StringLib_StringRange__get_End (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_StringLib_StringRange__set_End (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, int32_t value, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_StringLib_StringRange___ctor (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_StringLib_StringRange___ctor (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, int32_t start, int32_t end, const MethodInfo* method);
+MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* MoonSharp_Interpreter_CoreLib_StringLib_StringRange__FromLuaRange (MoonSharp_Interpreter_DynValue_o* start, MoonSharp_Interpreter_DynValue_o* end, System_Nullable_int__o defaultEnd, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_CoreLib_StringLib_StringRange__ApplyToString (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, System_String_o* value, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_CoreLib_StringLib_StringRange__Length (MoonSharp_Interpreter_CoreLib_StringLib_StringRange_o* __this, const MethodInfo* method);

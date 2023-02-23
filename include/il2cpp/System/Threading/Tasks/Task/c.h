@@ -1,0 +1,29 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Threading_Tasks_Task___c_bool____cctor (const MethodInfo_2B771B0* method);
+void System_Threading_Tasks_Task___c_int____cctor (const MethodInfo_2B77470* method);
+void System_Threading_Tasks_Task___c_long____cctor (const MethodInfo_2B77730* method);
+void System_Threading_Tasks_Task___c_object____cctor (const MethodInfo_2B78680* method);
+void System_Threading_Tasks_Task___c_SceneInstance____cctor (const MethodInfo_2B79180* method);
+void System_Threading_Tasks_Task___c_VoidTaskResult____cctor (const MethodInfo_2B79920* method);
+void System_Threading_Tasks_Task___c_bool____ctor (System_Threading_Tasks_Task___c_TResult__o* __this, const MethodInfo_2B77290* method);
+void System_Threading_Tasks_Task___c_int____ctor (System_Threading_Tasks_Task___c_TResult__o* __this, const MethodInfo_2B77550* method);
+void System_Threading_Tasks_Task___c_long____ctor (System_Threading_Tasks_Task___c_TResult__o* __this, const MethodInfo_2B77810* method);
+void System_Threading_Tasks_Task___c_object____ctor (System_Threading_Tasks_Task___c_TResult__o* __this, const MethodInfo_2B78760* method);
+void System_Threading_Tasks_Task___c_SceneInstance____ctor (System_Threading_Tasks_Task___c_TResult__o* __this, const MethodInfo_2B79260* method);
+void System_Threading_Tasks_Task___c_VoidTaskResult____ctor (System_Threading_Tasks_Task___c_TResult__o* __this, const MethodInfo_2B79A00* method);
+System_Threading_Tasks_Task_TResult__o* System_Threading_Tasks_Task___c_bool_____cctor_b__64_0 (System_Threading_Tasks_Task___c_TResult__o* __this, System_Threading_Tasks_Task_Task__o* completed, const MethodInfo_2B772A0* method);
+System_Threading_Tasks_Task_TResult__o* System_Threading_Tasks_Task___c_int_____cctor_b__64_0 (System_Threading_Tasks_Task___c_TResult__o* __this, System_Threading_Tasks_Task_Task__o* completed, const MethodInfo_2B77560* method);
+System_Threading_Tasks_Task_TResult__o* System_Threading_Tasks_Task___c_long_____cctor_b__64_0 (System_Threading_Tasks_Task___c_TResult__o* __this, System_Threading_Tasks_Task_Task__o* completed, const MethodInfo_2B77820* method);
+System_Threading_Tasks_Task_TResult__o* System_Threading_Tasks_Task___c_object_____cctor_b__64_0 (System_Threading_Tasks_Task___c_TResult__o* __this, System_Threading_Tasks_Task_Task__o* completed, const MethodInfo_2B78770* method);
+System_Threading_Tasks_Task_TResult__o* System_Threading_Tasks_Task___c_SceneInstance_____cctor_b__64_0 (System_Threading_Tasks_Task___c_TResult__o* __this, System_Threading_Tasks_Task_Task__o* completed, const MethodInfo_2B79270* method);
+System_Threading_Tasks_Task_TResult__o* System_Threading_Tasks_Task___c_VoidTaskResult_____cctor_b__64_0 (System_Threading_Tasks_Task___c_TResult__o* __this, System_Threading_Tasks_Task_Task__o* completed, const MethodInfo_2B79A10* method);
+void System_Threading_Tasks_Task___c___cctor (const MethodInfo* method);
+void System_Threading_Tasks_Task___c___ctor (System_Threading_Tasks_Task___c_o* __this, const MethodInfo* method);
+void System_Threading_Tasks_Task___c___Delay_b__276_0 (System_Threading_Tasks_Task___c_o* __this, Il2CppObject* state, const MethodInfo* method);
+void System_Threading_Tasks_Task___c___Delay_b__276_1 (System_Threading_Tasks_Task___c_o* __this, Il2CppObject* state, const MethodInfo* method);
+System_Threading_Tasks_Task_ContingentProperties_o* System_Threading_Tasks_Task___c____cctor_b__295_0 (System_Threading_Tasks_Task___c_o* __this, const MethodInfo* method);
+bool System_Threading_Tasks_Task___c____cctor_b__295_1 (System_Threading_Tasks_Task___c_o* __this, System_Threading_Tasks_Task_o* t, const MethodInfo* method);
+bool System_Threading_Tasks_Task___c____cctor_b__295_2 (System_Threading_Tasks_Task___c_o* __this, Il2CppObject* tc, const MethodInfo* method);

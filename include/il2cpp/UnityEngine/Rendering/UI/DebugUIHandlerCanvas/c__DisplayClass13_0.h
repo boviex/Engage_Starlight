@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c__DisplayClass13_0___ctor (UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c__DisplayClass13_0_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c__DisplayClass13_0___GetWidgetFromPath_b__0 (UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c__DisplayClass13_0_o* __this, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* w, const MethodInfo* method);

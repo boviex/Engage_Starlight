@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_Tess_ActiveRegion___ctor (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_Tess_ActiveRegion_o* __this, const MethodInfo* method);

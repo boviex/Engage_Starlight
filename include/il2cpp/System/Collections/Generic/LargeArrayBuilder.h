@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_Generic_LargeArrayBuilder_object____ctor (System_Collections_Generic_LargeArrayBuilder_T__o __this, bool initialize, const MethodInfo_28911D0* method);
+void System_Collections_Generic_LargeArrayBuilder_object____ctor (System_Collections_Generic_LargeArrayBuilder_T__o __this, int32_t maxCapacity, const MethodInfo_2891290* method);
+void System_Collections_Generic_LargeArrayBuilder_object___AddRange (System_Collections_Generic_LargeArrayBuilder_T__o __this, System_Collections_Generic_IEnumerable_T__o* items, const MethodInfo_2891340* method);
+void System_Collections_Generic_LargeArrayBuilder_object___CopyTo (System_Collections_Generic_LargeArrayBuilder_T__o __this, System_Object_array* array, int32_t arrayIndex, int32_t count, const MethodInfo_28916D0* method);
+System_Object_array* System_Collections_Generic_LargeArrayBuilder_object___GetBuffer (System_Collections_Generic_LargeArrayBuilder_T__o __this, int32_t index, const MethodInfo_2891850* method);
+System_Object_array* System_Collections_Generic_LargeArrayBuilder_object___ToArray (System_Collections_Generic_LargeArrayBuilder_T__o __this, const MethodInfo_28918F0* method);
+bool System_Collections_Generic_LargeArrayBuilder_object___TryMove (System_Collections_Generic_LargeArrayBuilder_T__o __this, System_Object_array** array, const MethodInfo_28919D0* method);
+void System_Collections_Generic_LargeArrayBuilder_object___AllocateBuffer (System_Collections_Generic_LargeArrayBuilder_T__o __this, const MethodInfo_2891A20* method);

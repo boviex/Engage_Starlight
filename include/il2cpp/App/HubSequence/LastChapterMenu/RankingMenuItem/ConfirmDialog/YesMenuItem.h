@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_HubSequence_LastChapterMenu_RankingMenuItem_ConfirmDialog_YesMenuItem___ctor (App_HubSequence_LastChapterMenu_RankingMenuItem_ConfirmDialog_YesMenuItem_o* __this, App_NetEnableSequence_ResultFunction_o* resultFunc, const MethodInfo* method);
+System_String_o* App_HubSequence_LastChapterMenu_RankingMenuItem_ConfirmDialog_YesMenuItem__GetName (App_HubSequence_LastChapterMenu_RankingMenuItem_ConfirmDialog_YesMenuItem_o* __this, const MethodInfo* method);
+int32_t App_HubSequence_LastChapterMenu_RankingMenuItem_ConfirmDialog_YesMenuItem__ACall (App_HubSequence_LastChapterMenu_RankingMenuItem_ConfirmDialog_YesMenuItem_o* __this, const MethodInfo* method);

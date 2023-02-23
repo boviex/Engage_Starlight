@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_List_GodUnit__o* App_RefineGodWeaponSelectMenu__get_m_GodUnitList (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__set_m_GodUnitList (App_RefineGodWeaponSelectMenu_o* __this, System_Collections_Generic_List_GodUnit__o* value, const MethodInfo* method);
+int32_t App_RefineGodWeaponSelectMenu__get_m_GodUnitIndex (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__set_m_GodUnitIndex (App_RefineGodWeaponSelectMenu_o* __this, int32_t value, const MethodInfo* method);
+App_GodUnit_o* App_RefineGodWeaponSelectMenu__get_m_GodUnit (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__set_m_GodUnit (App_RefineGodWeaponSelectMenu_o* __this, App_GodUnit_o* value, const MethodInfo* method);
+App_RefineGodWeaponSelectMenu_o* App_RefineGodWeaponSelectMenu__CreateBind (App_ProcInst_o* super, App_RefineGodWeaponSelectMenuContent_o* menuContent, App_GodUnit_o* initialGodUnit, App_ItemData_o* initialGodWeapon, int32_t initialScrollIndex, App_RefineGodWeaponSelectMenu_SelectEventHandler_o* selectEventHandler, App_RefineGodWeaponSelectMenu_DecideEventHandler_o* decideEventHandler, App_RefineGodWeaponSelectMenu_RequestCloseEventHandler_o* requestCloseEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_RefineGodWeaponSelectMenu__CreateMenuItem (App_GodUnit_o* godUnit, App_RefineGodWeaponSelectMenu_SelectEventHandler_o* selectEventHandler, App_RefineGodWeaponSelectMenu_DecideEventHandler_o* decideEventHandler, App_RefineGodWeaponSelectMenu_RequestCloseEventHandler_o* requestCloseEventHandler, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu___ctor (App_RefineGodWeaponSelectMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicMenuContent_o* menuContent, System_Collections_Generic_List_GodUnit__o* godUnitList, App_GodUnit_o* initialGodUnit, App_ItemData_o* initialGodWeapon, int32_t initialScrollIndex, App_RefineGodWeaponSelectMenu_SelectEventHandler_o* selectEventHandler, App_RefineGodWeaponSelectMenu_DecideEventHandler_o* decideEventHandler, App_RefineGodWeaponSelectMenu_RequestCloseEventHandler_o* requestCloseEventHandler, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__OnBuild (App_RefineGodWeaponSelectMenu_o* __this, bool isFirstBuild, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__RebuildMenu (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__RebuildMenuItem (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);
+System_String_o* App_RefineGodWeaponSelectMenu__GetName (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);
+App_BasicMenuSelect_o* App_RefineGodWeaponSelectMenu__GetSelect (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__KeyLeft (App_RefineGodWeaponSelectMenu_o* __this, bool isTrigger, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__KeyRight (App_RefineGodWeaponSelectMenu_o* __this, bool isTrigger, const MethodInfo* method);
+void App_RefineGodWeaponSelectMenu__OnDispose (App_RefineGodWeaponSelectMenu_o* __this, const MethodInfo* method);

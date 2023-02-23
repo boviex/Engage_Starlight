@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_WhereObservable___c__DisplayClass5_0_bool____ctor (UniRx_Operators_WhereObservable___c__DisplayClass5_0_T__o* __this, const MethodInfo_2B83A50* method);
+void UniRx_Operators_WhereObservable___c__DisplayClass5_0_object____ctor (UniRx_Operators_WhereObservable___c__DisplayClass5_0_T__o* __this, const MethodInfo_2B83B10* method);
+bool UniRx_Operators_WhereObservable___c__DisplayClass5_0_bool____CombinePredicate_b__0 (UniRx_Operators_WhereObservable___c__DisplayClass5_0_T__o* __this, bool x, const MethodInfo_2B83A60* method);
+bool UniRx_Operators_WhereObservable___c__DisplayClass5_0_object____CombinePredicate_b__0 (UniRx_Operators_WhereObservable___c__DisplayClass5_0_T__o* __this, Il2CppObject* x, const MethodInfo_2B83B20* method);

@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ProfileCardFavoriteMapData_o* App_ProfileCardFavoriteRelayMapMenuItem__get_m_FavoriteMapData (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__set_m_FavoriteMapData (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, App_ProfileCardFavoriteMapData_o* value, const MethodInfo* method);
+bool App_ProfileCardFavoriteRelayMapMenuItem__get_m_Decided (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__set_m_Decided (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, bool value, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem___ctor (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, App_ProfileCardFavoriteMapData_o* favoriteMapData, bool initialSelect, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__OnBuild (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__OnBuildMenuItemContent (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__SetInitialColor (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__UpdateFixedCursor (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__UpdateNewIcon (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__SetDecided (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, bool decided, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__OnSelect (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__OnCursorMoveEnd (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardFavoriteRelayMapMenuItem__OnDeselect (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);
+int32_t App_ProfileCardFavoriteRelayMapMenuItem__ACall (App_ProfileCardFavoriteRelayMapMenuItem_o* __this, const MethodInfo* method);

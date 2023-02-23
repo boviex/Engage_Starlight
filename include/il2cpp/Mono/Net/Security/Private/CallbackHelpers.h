@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Net_Security_RemoteCertificateValidationCallback_o* Mono_Net_Security_Private_CallbackHelpers__MonoToPublic (Mono_Security_Interface_MonoRemoteCertificateValidationCallback_o* callback, const MethodInfo* method);
+System_Net_Security_LocalCertSelectionCallback_o* Mono_Net_Security_Private_CallbackHelpers__MonoToInternal (Mono_Security_Interface_MonoLocalCertificateSelectionCallback_o* callback, const MethodInfo* method);

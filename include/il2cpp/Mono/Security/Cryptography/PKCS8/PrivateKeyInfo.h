@@ -1,0 +1,23 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Security_Cryptography_PKCS8_PrivateKeyInfo___ctor (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_PKCS8_PrivateKeyInfo___ctor (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_o* __this, System_Byte_array* data, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__get_PrivateKey (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__Decode (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_o* __this, System_Byte_array* data, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__RemoveLeadingZero (System_Byte_array* bigInt, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__Normalize (System_Byte_array* bigInt, int32_t length, const MethodInfo* method);
+System_Security_Cryptography_RSA_o* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__DecodeRSA (System_Byte_array* keypair, const MethodInfo* method);
+System_Security_Cryptography_DSA_o* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__DecodeDSA (System_Byte_array* privateKey, System_Security_Cryptography_DSAParameters_o dsaParameters, const MethodInfo* method);
+void Mono_Security_Cryptography_PKCS8_PrivateKeyInfo___ctor (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_1_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_PKCS8_PrivateKeyInfo___ctor (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_1_o* __this, System_Byte_array* data, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__get_PrivateKey (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_1_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__Decode (Mono_Security_Cryptography_PKCS8_PrivateKeyInfo_1_o* __this, System_Byte_array* data, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__RemoveLeadingZero (System_Byte_array* bigInt, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__Normalize (System_Byte_array* bigInt, int32_t length, const MethodInfo* method);
+System_Security_Cryptography_RSA_o* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__DecodeRSA (System_Byte_array* keypair, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__Encode (System_Security_Cryptography_RSA_o* rsa, const MethodInfo* method);
+System_Security_Cryptography_DSA_o* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__DecodeDSA (System_Byte_array* privateKey, System_Security_Cryptography_DSAParameters_o dsaParameters, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__Encode (System_Security_Cryptography_DSA_o* dsa, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_PKCS8_PrivateKeyInfo__Encode (System_Security_Cryptography_AsymmetricAlgorithm_o* aa, const MethodInfo* method);

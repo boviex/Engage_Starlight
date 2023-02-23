@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_ValueTuple_Task_BufferOffsetSize___WebException____ctor (System_ValueTuple_Task_BufferOffsetSize___WebException__o __this, System_Threading_Tasks_Task_BufferOffsetSize__o* item1, System_Net_WebException_o* item2, const MethodInfo_389FB70* method);
+void System_ValueTuple_bool__bool__Task_BufferOffsetSize___WebException____ctor (System_ValueTuple_bool__bool__Task_BufferOffsetSize___WebException__o __this, bool item1, bool item2, System_Threading_Tasks_Task_BufferOffsetSize__o* item3, System_Net_WebException_o* item4, const MethodInfo_38B5C70* method);

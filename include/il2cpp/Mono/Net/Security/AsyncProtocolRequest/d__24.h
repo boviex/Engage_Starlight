@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Net_Security_AsyncProtocolRequest__ProcessOperation_d__24__MoveNext (Mono_Net_Security_AsyncProtocolRequest__ProcessOperation_d__24_o __this, const MethodInfo* method);
+void Mono_Net_Security_AsyncProtocolRequest__ProcessOperation_d__24__SetStateMachine (Mono_Net_Security_AsyncProtocolRequest__ProcessOperation_d__24_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

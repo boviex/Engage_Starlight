@@ -1,0 +1,42 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_ReadOnlyReactiveProperty_bool___get_Value (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFB4F0* method);
+Il2CppObject* UniRx_ReadOnlyReactiveProperty_object___get_Value (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFCCD0* method);
+bool UniRx_ReadOnlyReactiveProperty_bool___get_HasValue (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFB500* method);
+bool UniRx_ReadOnlyReactiveProperty_object___get_HasValue (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFCCE0* method);
+System_Collections_Generic_IEqualityComparer_T__o* UniRx_ReadOnlyReactiveProperty_bool___get_EqualityComparer (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFB510* method);
+System_Collections_Generic_IEqualityComparer_T__o* UniRx_ReadOnlyReactiveProperty_object___get_EqualityComparer (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFCCF0* method);
+void UniRx_ReadOnlyReactiveProperty_bool____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, const MethodInfo_2FFB5C0* method);
+void UniRx_ReadOnlyReactiveProperty_object____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, const MethodInfo_2FFCDA0* method);
+void UniRx_ReadOnlyReactiveProperty_bool____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, bool distinctUntilChanged, const MethodInfo_2FFB680* method);
+void UniRx_ReadOnlyReactiveProperty_object____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, bool distinctUntilChanged, const MethodInfo_2FFCE60* method);
+void UniRx_ReadOnlyReactiveProperty_bool____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, bool initialValue, const MethodInfo_2FFB750* method);
+void UniRx_ReadOnlyReactiveProperty_object____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, Il2CppObject* initialValue, const MethodInfo_2FFCF30* method);
+void UniRx_ReadOnlyReactiveProperty_bool____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, bool initialValue, bool distinctUntilChanged, const MethodInfo_2FFB830* method);
+void UniRx_ReadOnlyReactiveProperty_object____ctor (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObservable_T__o* source, Il2CppObject* initialValue, bool distinctUntilChanged, const MethodInfo_2FFD020* method);
+System_IDisposable_o* UniRx_ReadOnlyReactiveProperty_bool___Subscribe (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_2FFB920* method);
+System_IDisposable_o* UniRx_ReadOnlyReactiveProperty_object___Subscribe (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_2FFD110* method);
+void UniRx_ReadOnlyReactiveProperty_bool___Dispose (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFBD20* method);
+void UniRx_ReadOnlyReactiveProperty_object___Dispose (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFD510* method);
+void UniRx_ReadOnlyReactiveProperty_bool___Dispose (UniRx_ReadOnlyReactiveProperty_T__o* __this, bool disposing, const MethodInfo_2FFBDB0* method);
+void UniRx_ReadOnlyReactiveProperty_object___Dispose (UniRx_ReadOnlyReactiveProperty_T__o* __this, bool disposing, const MethodInfo_2FFD5A0* method);
+void UniRx_ReadOnlyReactiveProperty_bool___UniRx_IObserverLinkedList_T__UnsubscribeNode (UniRx_ReadOnlyReactiveProperty_T__o* __this, UniRx_ObserverNode_T__o* node, const MethodInfo_2FFC0B0* method);
+void UniRx_ReadOnlyReactiveProperty_object___UniRx_IObserverLinkedList_T__UnsubscribeNode (UniRx_ReadOnlyReactiveProperty_T__o* __this, UniRx_ObserverNode_T__o* node, const MethodInfo_2FFD8A0* method);
+void UniRx_ReadOnlyReactiveProperty_bool___System_IObserver_T__OnNext (UniRx_ReadOnlyReactiveProperty_T__o* __this, bool value, const MethodInfo_2FFC240* method);
+void UniRx_ReadOnlyReactiveProperty_object___System_IObserver_T__OnNext (UniRx_ReadOnlyReactiveProperty_T__o* __this, Il2CppObject* value, const MethodInfo_2FFDA30* method);
+void UniRx_ReadOnlyReactiveProperty_bool___System_IObserver_T__OnError (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_Exception_o* error, const MethodInfo_2FFC3E0* method);
+void UniRx_ReadOnlyReactiveProperty_object___System_IObserver_T__OnError (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_Exception_o* error, const MethodInfo_2FFDBE0* method);
+void UniRx_ReadOnlyReactiveProperty_bool___System_IObserver_T__OnCompleted (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFC480* method);
+void UniRx_ReadOnlyReactiveProperty_object___System_IObserver_T__OnCompleted (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFDC80* method);
+System_String_o* UniRx_ReadOnlyReactiveProperty_bool___ToString (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFC4C0* method);
+System_String_o* UniRx_ReadOnlyReactiveProperty_object___ToString (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFDCC0* method);
+bool UniRx_ReadOnlyReactiveProperty_bool___IsRequiredSubscribeOnCurrentThread (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFC510* method);
+bool UniRx_ReadOnlyReactiveProperty_object___IsRequiredSubscribeOnCurrentThread (UniRx_ReadOnlyReactiveProperty_T__o* __this, const MethodInfo_2FFDD30* method);
+UniRx_Async_UniTask_T__o UniRx_ReadOnlyReactiveProperty_bool___WaitUntilValueChangedAsync (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo_2FFC520* method);
+UniRx_Async_UniTask_T__o UniRx_ReadOnlyReactiveProperty_object___WaitUntilValueChangedAsync (UniRx_ReadOnlyReactiveProperty_T__o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo_2FFDD40* method);
+void UniRx_ReadOnlyReactiveProperty_bool___CancelCallback (Il2CppObject* state, const MethodInfo_2FFC8A0* method);
+void UniRx_ReadOnlyReactiveProperty_object___CancelCallback (Il2CppObject* state, const MethodInfo_2FFE0C0* method);
+void UniRx_ReadOnlyReactiveProperty_bool____cctor (const MethodInfo_2FFCB30* method);
+void UniRx_ReadOnlyReactiveProperty_object____cctor (const MethodInfo_2FFE350* method);

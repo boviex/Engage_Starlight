@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ThrottleObservable_Throttle_object____ctor (UniRx_Operators_ThrottleObservable_Throttle_T__o* __this, UniRx_Operators_ThrottleObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_39ADDA0* method);
+System_IDisposable_o* UniRx_Operators_ThrottleObservable_Throttle_object___Run (UniRx_Operators_ThrottleObservable_Throttle_T__o* __this, const MethodInfo_39ADE60* method);
+void UniRx_Operators_ThrottleObservable_Throttle_object___OnNext (UniRx_Operators_ThrottleObservable_Throttle_T__o* __this, uint64_t currentid, const MethodInfo_39ADF70* method);
+void UniRx_Operators_ThrottleObservable_Throttle_object___OnNext (UniRx_Operators_ThrottleObservable_Throttle_T__o* __this, Il2CppObject* value, const MethodInfo_39AE0F0* method);
+void UniRx_Operators_ThrottleObservable_Throttle_object___OnError (UniRx_Operators_ThrottleObservable_Throttle_T__o* __this, System_Exception_o* error, const MethodInfo_39AE360* method);
+void UniRx_Operators_ThrottleObservable_Throttle_object___OnCompleted (UniRx_Operators_ThrottleObservable_Throttle_T__o* __this, const MethodInfo_39AE560* method);

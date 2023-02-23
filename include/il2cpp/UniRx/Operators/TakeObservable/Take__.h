@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TakeObservable_Take__ValueTuple_object__object_____ctor (UniRx_Operators_TakeObservable_Take__T__o* __this, UniRx_Operators_TakeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D5C90* method);
+System_IDisposable_o* UniRx_Operators_TakeObservable_Take__ValueTuple_object__object____Run (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D5D50* method);
+void UniRx_Operators_TakeObservable_Take__ValueTuple_object__object____Tick (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D5EE0* method);
+void UniRx_Operators_TakeObservable_Take__ValueTuple_object__object____OnNext (UniRx_Operators_TakeObservable_Take__T__o* __this, System_ValueTuple_object__object__o value, const MethodInfo_34D60B0* method);
+void UniRx_Operators_TakeObservable_Take__ValueTuple_object__object____OnError (UniRx_Operators_TakeObservable_Take__T__o* __this, System_Exception_o* error, const MethodInfo_34D6220* method);
+void UniRx_Operators_TakeObservable_Take__ValueTuple_object__object____OnCompleted (UniRx_Operators_TakeObservable_Take__T__o* __this, const MethodInfo_34D6400* method);

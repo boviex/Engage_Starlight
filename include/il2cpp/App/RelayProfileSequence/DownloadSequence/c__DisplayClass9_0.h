@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RelayProfileSequence_DownloadSequence___c__DisplayClass9_0___ctor (App_RelayProfileSequence_DownloadSequence___c__DisplayClass9_0_o* __this, const MethodInfo* method);
+void App_RelayProfileSequence_DownloadSequence___c__DisplayClass9_0___Sanitize_b__0 (App_RelayProfileSequence_DownloadSequence___c__DisplayClass9_0_o* __this, System_Boolean_array* isOk, const MethodInfo* method);

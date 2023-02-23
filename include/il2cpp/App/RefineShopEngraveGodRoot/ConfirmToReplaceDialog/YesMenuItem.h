@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RefineShopEngraveGodRoot_ConfirmToReplaceDialog_YesMenuItem___ctor (App_RefineShopEngraveGodRoot_ConfirmToReplaceDialog_YesMenuItem_o* __this, App_RefineShopEngraveGodRoot_ConfirmToReplaceDialog_YesEventHandler_o* yesEventHandler, const MethodInfo* method);
+int32_t App_RefineShopEngraveGodRoot_ConfirmToReplaceDialog_YesMenuItem__ACall (App_RefineShopEngraveGodRoot_ConfirmToReplaceDialog_YesMenuItem_o* __this, const MethodInfo* method);

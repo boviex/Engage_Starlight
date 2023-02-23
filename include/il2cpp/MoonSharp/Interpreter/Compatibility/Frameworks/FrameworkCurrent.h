@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent__IsDbNull (MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent_o* __this, Il2CppObject* o, const MethodInfo* method);
+bool MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent__StringContainsChar (MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent_o* __this, System_String_o* str, uint16_t chr, const MethodInfo* method);
+System_Type_o* MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent__GetInterface (MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent_o* __this, System_Type_o* type, System_String_o* name, const MethodInfo* method);
+void MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent___ctor (MoonSharp_Interpreter_Compatibility_Frameworks_FrameworkCurrent_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void SimpleAnimationPlayable_StateManagement___c__DisplayClass11_0___ctor (SimpleAnimationPlayable_StateManagement___c__DisplayClass11_0_o* __this, const MethodInfo* method);
+bool SimpleAnimationPlayable_StateManagement___c__DisplayClass11_0___FindState_b__0 (SimpleAnimationPlayable_StateManagement___c__DisplayClass11_0_o* __this, SimpleAnimationPlayable_StateInfo_o* s, const MethodInfo* method);

@@ -1,0 +1,23 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3__SetWidget (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, UnityEngine_Rendering_DebugUI_Widget_o* widget, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3__SetValue (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, float v, bool x, bool y, bool z, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3__SetupSettings (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* field, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerVector3__OnSelection (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, bool fromNext, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* previous, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3__OnDeselection (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3__OnIncrement (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, bool fast, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3__OnDecrement (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, bool fast, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3__OnAction (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* UnityEngine_Rendering_UI_DebugUIHandlerVector3__Next (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3___ctor (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetWidget_b__7_0 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetWidget_b__7_1 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, float v, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetWidget_b__7_2 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetWidget_b__7_3 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, float v, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetWidget_b__7_4 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetWidget_b__7_5 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, float v, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetupSettings_b__9_0 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetupSettings_b__9_1 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerVector3___SetupSettings_b__9_2 (UnityEngine_Rendering_UI_DebugUIHandlerVector3_o* __this, const MethodInfo* method);

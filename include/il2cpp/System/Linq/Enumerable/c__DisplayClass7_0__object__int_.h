@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Enumerable___c__DisplayClass7_0_KeyValuePair_object__object___object__int____ctor (System_Linq_Enumerable___c__DisplayClass7_0_TSource__TMiddle__TResult__o* __this, const MethodInfo_2B852B0* method);
+int32_t System_Linq_Enumerable___c__DisplayClass7_0_KeyValuePair_object__object___object__int____CombineSelectors_b__0 (System_Linq_Enumerable___c__DisplayClass7_0_TSource__TMiddle__TResult__o* __this, System_Collections_Generic_KeyValuePair_object__object__o x, const MethodInfo_2B852C0* method);

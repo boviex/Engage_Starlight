@@ -22,7 +22,7 @@ def get_or_create_file(path: str):
 
 
 def main():
-    with open("script.json") as fp:
+    with open("script.json", encoding='utf-8') as fp:
         data = json.load(fp)
 
     for method in data["ScriptMethod"]:
@@ -32,6 +32,7 @@ def main():
         matches = re.findall(r"(?<![<a-zA-Z., ])\s*[a-zA-Z0-9.]+\s*(?![>a-zA-Z., ])", clazz)
         for m in matches:
             clazz = clazz.replace(m, m.replace(".", "/"))
+            clazz = re.sub('<.*?>', '', clazz)
 
         exists, fp = get_or_create_file("include/il2cpp/" + clazz
                                         .replace("<", "_")

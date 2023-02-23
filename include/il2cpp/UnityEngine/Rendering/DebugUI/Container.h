@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* UnityEngine_Rendering_DebugUI_Container__get_children (UnityEngine_Rendering_DebugUI_Container_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Container__set_children (UnityEngine_Rendering_DebugUI_Container_o* __this, UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* value, const MethodInfo* method);
+UnityEngine_Rendering_DebugUI_Panel_o* UnityEngine_Rendering_DebugUI_Container__get_panel (UnityEngine_Rendering_DebugUI_Container_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Container__set_panel (UnityEngine_Rendering_DebugUI_Container_o* __this, UnityEngine_Rendering_DebugUI_Panel_o* value, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Container___ctor (UnityEngine_Rendering_DebugUI_Container_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Container___ctor (UnityEngine_Rendering_DebugUI_Container_o* __this, System_String_o* displayName, UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* children, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Container__GenerateQueryPath (UnityEngine_Rendering_DebugUI_Container_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Container__OnItemAdded (UnityEngine_Rendering_DebugUI_Container_o* __this, UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* sender, UnityEngine_Rendering_ListChangedEventArgs_DebugUI_Widget__o* e, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_Container__OnItemRemoved (UnityEngine_Rendering_DebugUI_Container_o* __this, UnityEngine_Rendering_ObservableList_DebugUI_Widget__o* sender, UnityEngine_Rendering_ListChangedEventArgs_DebugUI_Widget__o* e, const MethodInfo* method);
+int32_t UnityEngine_Rendering_DebugUI_Container__GetHashCode (UnityEngine_Rendering_DebugUI_Container_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Type_o* System_Runtime_CompilerServices_AsyncMethodBuilderAttribute__get_BuilderType (System_Runtime_CompilerServices_AsyncMethodBuilderAttribute_o* __this, const MethodInfo* method);
+void System_Runtime_CompilerServices_AsyncMethodBuilderAttribute___ctor (System_Runtime_CompilerServices_AsyncMethodBuilderAttribute_o* __this, System_Type_o* builderType, const MethodInfo* method);

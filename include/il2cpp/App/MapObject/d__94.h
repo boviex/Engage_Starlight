@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapObject__BreakCoroutine_d__94___ctor (App_MapObject__BreakCoroutine_d__94_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_MapObject__BreakCoroutine_d__94__System_IDisposable_Dispose (App_MapObject__BreakCoroutine_d__94_o* __this, const MethodInfo* method);
+bool App_MapObject__BreakCoroutine_d__94__MoveNext (App_MapObject__BreakCoroutine_d__94_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapObject__BreakCoroutine_d__94__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_MapObject__BreakCoroutine_d__94_o* __this, const MethodInfo* method);
+void App_MapObject__BreakCoroutine_d__94__System_Collections_IEnumerator_Reset (App_MapObject__BreakCoroutine_d__94_o* __this, const MethodInfo* method);
+Il2CppObject* App_MapObject__BreakCoroutine_d__94__System_Collections_IEnumerator_get_Current (App_MapObject__BreakCoroutine_d__94_o* __this, const MethodInfo* method);

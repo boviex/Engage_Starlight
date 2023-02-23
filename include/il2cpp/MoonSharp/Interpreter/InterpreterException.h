@@ -1,0 +1,18 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_InterpreterException___ctor (MoonSharp_Interpreter_InterpreterException_o* __this, System_Exception_o* ex, System_String_o* message, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException___ctor (MoonSharp_Interpreter_InterpreterException_o* __this, System_Exception_o* ex, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException___ctor (MoonSharp_Interpreter_InterpreterException_o* __this, System_String_o* message, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException___ctor (MoonSharp_Interpreter_InterpreterException_o* __this, System_String_o* format, System_Object_array* args, const MethodInfo* method);
+int32_t MoonSharp_Interpreter_InterpreterException__get_InstructionPtr (MoonSharp_Interpreter_InterpreterException_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException__set_InstructionPtr (MoonSharp_Interpreter_InterpreterException_o* __this, int32_t value, const MethodInfo* method);
+System_Collections_Generic_IList_WatchItem__o* MoonSharp_Interpreter_InterpreterException__get_CallStack (MoonSharp_Interpreter_InterpreterException_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException__set_CallStack (MoonSharp_Interpreter_InterpreterException_o* __this, System_Collections_Generic_IList_WatchItem__o* value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_InterpreterException__get_DecoratedMessage (MoonSharp_Interpreter_InterpreterException_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException__set_DecoratedMessage (MoonSharp_Interpreter_InterpreterException_o* __this, System_String_o* value, const MethodInfo* method);
+bool MoonSharp_Interpreter_InterpreterException__get_DoNotDecorateMessage (MoonSharp_Interpreter_InterpreterException_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException__set_DoNotDecorateMessage (MoonSharp_Interpreter_InterpreterException_o* __this, bool value, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException__DecorateMessage (MoonSharp_Interpreter_InterpreterException_o* __this, MoonSharp_Interpreter_Script_o* script, MoonSharp_Interpreter_Debugging_SourceRef_o* sref, int32_t ip, const MethodInfo* method);
+void MoonSharp_Interpreter_InterpreterException__Rethrow (MoonSharp_Interpreter_InterpreterException_o* __this, const MethodInfo* method);

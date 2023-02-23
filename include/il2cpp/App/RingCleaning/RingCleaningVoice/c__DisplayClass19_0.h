@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RingCleaning_RingCleaningVoice___c__DisplayClass19_0___ctor (App_RingCleaning_RingCleaningVoice___c__DisplayClass19_0_o* __this, const MethodInfo* method);
+void App_RingCleaning_RingCleaningVoice___c__DisplayClass19_0___PlayVoice_b__0 (App_RingCleaning_RingCleaningVoice___c__DisplayClass19_0_o* __this, int64_t __, const MethodInfo* method);

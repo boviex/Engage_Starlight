@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+float UnityEngine_Rendering_SphericalHarmonicsL2__get_Item (UnityEngine_Rendering_SphericalHarmonicsL2_o __this, int32_t rgb, int32_t coefficient, const MethodInfo* method);
+int32_t UnityEngine_Rendering_SphericalHarmonicsL2__GetHashCode (UnityEngine_Rendering_SphericalHarmonicsL2_o __this, const MethodInfo* method);
+bool UnityEngine_Rendering_SphericalHarmonicsL2__Equals (UnityEngine_Rendering_SphericalHarmonicsL2_o __this, Il2CppObject* other, const MethodInfo* method);
+bool UnityEngine_Rendering_SphericalHarmonicsL2__Equals (UnityEngine_Rendering_SphericalHarmonicsL2_o __this, UnityEngine_Rendering_SphericalHarmonicsL2_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_SphericalHarmonicsL2__op_Equality (UnityEngine_Rendering_SphericalHarmonicsL2_o lhs, UnityEngine_Rendering_SphericalHarmonicsL2_o rhs, const MethodInfo* method);

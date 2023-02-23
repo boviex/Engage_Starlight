@@ -1,0 +1,25 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_CryptoStream___ctor (System_Security_Cryptography_CryptoStream_o* __this, System_IO_Stream_o* stream, System_Security_Cryptography_ICryptoTransform_o* transform, int32_t mode, const MethodInfo* method);
+bool System_Security_Cryptography_CryptoStream__get_CanRead (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+bool System_Security_Cryptography_CryptoStream__get_CanSeek (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+bool System_Security_Cryptography_CryptoStream__get_CanWrite (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+int64_t System_Security_Cryptography_CryptoStream__get_Length (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+int64_t System_Security_Cryptography_CryptoStream__get_Position (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__set_Position (System_Security_Cryptography_CryptoStream_o* __this, int64_t value, const MethodInfo* method);
+bool System_Security_Cryptography_CryptoStream__get_HasFlushedFinalBlock (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__FlushFinalBlock (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__Flush (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+int64_t System_Security_Cryptography_CryptoStream__Seek (System_Security_Cryptography_CryptoStream_o* __this, int64_t offset, int32_t origin, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__SetLength (System_Security_Cryptography_CryptoStream_o* __this, int64_t value, const MethodInfo* method);
+int32_t System_Security_Cryptography_CryptoStream__Read (System_Security_Cryptography_CryptoStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, const MethodInfo* method);
+System_Threading_Tasks_Task_int__o* System_Security_Cryptography_CryptoStream__ReadAsync (System_Security_Cryptography_CryptoStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+System_Threading_Tasks_Task_int__o* System_Security_Cryptography_CryptoStream__ReadAsyncInternal (System_Security_Cryptography_CryptoStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__Write (System_Security_Cryptography_CryptoStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, const MethodInfo* method);
+System_Threading_Tasks_Task_o* System_Security_Cryptography_CryptoStream__WriteAsync (System_Security_Cryptography_CryptoStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+System_Threading_Tasks_Task_o* System_Security_Cryptography_CryptoStream__WriteAsyncInternal (System_Security_Cryptography_CryptoStream_o* __this, System_Byte_array* buffer, int32_t offset, int32_t count, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__Clear (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__Dispose (System_Security_Cryptography_CryptoStream_o* __this, bool disposing, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__InitializeBuffer (System_Security_Cryptography_CryptoStream_o* __this, const MethodInfo* method);

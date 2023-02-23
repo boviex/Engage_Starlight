@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Quaternion_o RootMotion_FinalIK_InteractionTrigger_CameraPosition__GetRotation (RootMotion_FinalIK_InteractionTrigger_CameraPosition_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_InteractionTrigger_CameraPosition__IsInRange (RootMotion_FinalIK_InteractionTrigger_CameraPosition_o* __this, UnityEngine_Transform_o* raycastFrom, UnityEngine_RaycastHit_o hit, UnityEngine_Transform_o* trigger, float* error, const MethodInfo* method);
+void RootMotion_FinalIK_InteractionTrigger_CameraPosition___ctor (RootMotion_FinalIK_InteractionTrigger_CameraPosition_o* __this, const MethodInfo* method);

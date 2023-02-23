@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Face__get_VertsCount (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Face_o* __this, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Face__Reset (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Face_o* __this, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Face___ctor (UnityEngine_Experimental_Rendering_Universal_LibTessDotNet_MeshUtils_Face_o* __this, const MethodInfo* method);

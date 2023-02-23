@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Dynamic_Utils_CacheDict_Type__Func_LightLambda__Delegate_____ctor (System_Dynamic_Utils_CacheDict_Type__Func_LightLambda__Delegate___o* __this, int32_t size, const MethodInfo_30DAD00* method);
+bool System_Dynamic_Utils_CacheDict_Type__Func_LightLambda__Delegate____TryGetValue (System_Dynamic_Utils_CacheDict_Type__Func_LightLambda__Delegate___o* __this, System_Type_o* key, System_Func_LightLambda__Delegate__o** value, const MethodInfo_30DADB0* method);
+void System_Dynamic_Utils_CacheDict_Type__Func_LightLambda__Delegate____set_Item (System_Dynamic_Utils_CacheDict_Type__Func_LightLambda__Delegate___o* __this, System_Type_o* key, System_Func_LightLambda__Delegate__o* value, const MethodInfo_30DAFC0* method);

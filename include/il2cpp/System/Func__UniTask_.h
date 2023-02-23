@@ -1,0 +1,16 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Func_KeyValuePair_object__object___UniTask_object_____ctor (System_Func_T__TResult__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F29460* method);
+void System_Func_KeyValuePair_object__object___UniTask____ctor (System_Func_T__TResult__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F2A160* method);
+void System_Func_UniTask_object___UniTask_object_____ctor (System_Func_T__TResult__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F2A7D0* method);
+UniRx_Async_UniTask_object__o System_Func_KeyValuePair_object__object___UniTask_object____Invoke (System_Func_T__TResult__o* __this, System_Collections_Generic_KeyValuePair_object__object__o arg, const MethodInfo_1F29480* method);
+UniRx_Async_UniTask_o System_Func_KeyValuePair_object__object___UniTask___Invoke (System_Func_T__TResult__o* __this, System_Collections_Generic_KeyValuePair_object__object__o arg, const MethodInfo_1F2A180* method);
+UniRx_Async_UniTask_object__o System_Func_UniTask_object___UniTask_object____Invoke (System_Func_T__TResult__o* __this, UniRx_Async_UniTask_object__o arg, const MethodInfo_1F2A7F0* method);
+System_IAsyncResult_o* System_Func_KeyValuePair_object__object___UniTask_object____BeginInvoke (System_Func_T__TResult__o* __this, System_Collections_Generic_KeyValuePair_object__object__o arg, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_1F296F0* method);
+System_IAsyncResult_o* System_Func_KeyValuePair_object__object___UniTask___BeginInvoke (System_Func_T__TResult__o* __this, System_Collections_Generic_KeyValuePair_object__object__o arg, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_1F2A3E0* method);
+System_IAsyncResult_o* System_Func_UniTask_object___UniTask_object____BeginInvoke (System_Func_T__TResult__o* __this, UniRx_Async_UniTask_object__o arg, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_1F2AA60* method);
+UniRx_Async_UniTask_object__o System_Func_KeyValuePair_object__object___UniTask_object____EndInvoke (System_Func_T__TResult__o* __this, System_IAsyncResult_o* result, const MethodInfo_1F29780* method);
+UniRx_Async_UniTask_o System_Func_KeyValuePair_object__object___UniTask___EndInvoke (System_Func_T__TResult__o* __this, System_IAsyncResult_o* result, const MethodInfo_1F2A470* method);
+UniRx_Async_UniTask_object__o System_Func_UniTask_object___UniTask_object____EndInvoke (System_Func_T__TResult__o* __this, System_IAsyncResult_o* result, const MethodInfo_1F2AAF0* method);

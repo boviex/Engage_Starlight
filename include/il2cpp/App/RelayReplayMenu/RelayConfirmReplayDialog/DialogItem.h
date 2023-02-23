@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RelayReplayMenu_RelayConfirmReplayDialog_DialogItem___ctor (App_RelayReplayMenu_RelayConfirmReplayDialog_DialogItem_o* __this, System_String_o* text, App_RelayReplayMenu_RelayConfirmReplayDialog_DialogItem_DialogDecideEventHandler_o* decide, const MethodInfo* method);
+int32_t App_RelayReplayMenu_RelayConfirmReplayDialog_DialogItem__ACall (App_RelayReplayMenu_RelayConfirmReplayDialog_DialogItem_o* __this, const MethodInfo* method);

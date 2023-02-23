@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableSelectTrigger__UnityEngine_EventSystems_ISelectHandler_OnSelect (UniRx_Triggers_ObservableSelectTrigger_o* __this, UnityEngine_EventSystems_BaseEventData_o* eventData, const MethodInfo* method);
+System_IObservable_BaseEventData__o* UniRx_Triggers_ObservableSelectTrigger__OnSelectAsObservable (UniRx_Triggers_ObservableSelectTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableSelectTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableSelectTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableSelectTrigger___ctor (UniRx_Triggers_ObservableSelectTrigger_o* __this, const MethodInfo* method);

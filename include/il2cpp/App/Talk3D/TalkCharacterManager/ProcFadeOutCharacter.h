@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter___ctor (App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter_o* __this, App_Talk3D_TalkCharacterController_o* talkCharacterController, float fadeTime, const MethodInfo* method);
+void App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter__OnDispose (App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter_o* __this, const MethodInfo* method);
+void App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter__StartFadeOutCharacter (App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter_o* __this, const MethodInfo* method);
+bool App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter__IsFadingCharacter (App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter_o* __this, const MethodInfo* method);
+void App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter__DeleteCharacter (App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter_o* __this, const MethodInfo* method);
+void App_Talk3D_TalkCharacterManager_ProcFadeOutCharacter__Create (App_ProcInst_o* super, App_Talk3D_TalkCharacterController_o* talkCharacterController, float fadeTime, const MethodInfo* method);

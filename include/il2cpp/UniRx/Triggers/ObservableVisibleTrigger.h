@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableVisibleTrigger__OnBecameInvisible (UniRx_Triggers_ObservableVisibleTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableVisibleTrigger__OnBecameInvisibleAsObservable (UniRx_Triggers_ObservableVisibleTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableVisibleTrigger__OnBecameVisible (UniRx_Triggers_ObservableVisibleTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableVisibleTrigger__OnBecameVisibleAsObservable (UniRx_Triggers_ObservableVisibleTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableVisibleTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableVisibleTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableVisibleTrigger___ctor (UniRx_Triggers_ObservableVisibleTrigger_o* __this, const MethodInfo* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_PhotographSelectScarfColorMenuItemContent__BuildObject (App_PhotographSelectScarfColorMenuItemContent_o* __this, const MethodInfo* method);
+void App_PhotographSelectScarfColorMenuItemContent__Build (App_PhotographSelectScarfColorMenuItemContent_o* __this, App_BasicMenuItem_o* menuItem, const MethodInfo* method);
+void App_PhotographSelectScarfColorMenuItemContent__BuildText (App_PhotographSelectScarfColorMenuItemContent_o* __this, const MethodInfo* method);
+void App_PhotographSelectScarfColorMenuItemContent__BuildTextColor (App_PhotographSelectScarfColorMenuItemContent_o* __this, const MethodInfo* method);
+void App_PhotographSelectScarfColorMenuItemContent__UpdateTextColor (App_PhotographSelectScarfColorMenuItemContent_o* __this, const MethodInfo* method);
+void App_PhotographSelectScarfColorMenuItemContent___ctor (App_PhotographSelectScarfColorMenuItemContent_o* __this, const MethodInfo* method);

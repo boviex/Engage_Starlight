@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Toolkit_ObjectPool___c__DisplayClass15_0_object____ctor (UniRx_Toolkit_ObjectPool___c__DisplayClass15_0_T__o* __this, const MethodInfo_2B7D690* method);
+System_Collections_IEnumerator_o* UniRx_Toolkit_ObjectPool___c__DisplayClass15_0_object____PreloadAsync_b__0 (UniRx_Toolkit_ObjectPool___c__DisplayClass15_0_T__o* __this, System_IObserver_Unit__o* observer, System_Threading_CancellationToken_o cancel, const MethodInfo_2B7D6A0* method);

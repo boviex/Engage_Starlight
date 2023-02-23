@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_DishSelectMenu_DishSelectMenuItem___ctor (App_CookingMenu_DishSelectMenu_DishSelectMenuItem_o* __this, App_FoodData_o* foodData, App_CookingMenu_DishSelectMenu_DecideEventHandler_o* decideEventHandler, App_CookingMenu_DishSelectMenu_SelectEventHandler_o* selectEventHandler, const MethodInfo* method);
+int32_t App_CookingMenu_DishSelectMenu_DishSelectMenuItem__ACall (App_CookingMenu_DishSelectMenu_DishSelectMenuItem_o* __this, const MethodInfo* method);
+int32_t App_CookingMenu_DishSelectMenu_DishSelectMenuItem__BuildAttribute (App_CookingMenu_DishSelectMenu_DishSelectMenuItem_o* __this, const MethodInfo* method);
+void App_CookingMenu_DishSelectMenu_DishSelectMenuItem__OnSelect (App_CookingMenu_DishSelectMenu_DishSelectMenuItem_o* __this, const MethodInfo* method);
+App_FoodData_o* App_CookingMenu_DishSelectMenu_DishSelectMenuItem__GetFood (App_CookingMenu_DishSelectMenu_DishSelectMenuItem_o* __this, const MethodInfo* method);

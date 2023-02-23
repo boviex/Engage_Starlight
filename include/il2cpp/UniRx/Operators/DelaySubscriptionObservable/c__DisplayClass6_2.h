@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_DelaySubscriptionObservable___c__DisplayClass6_2_object____ctor (UniRx_Operators_DelaySubscriptionObservable___c__DisplayClass6_2_T__o* __this, const MethodInfo_2B84C30* method);
+void UniRx_Operators_DelaySubscriptionObservable___c__DisplayClass6_2_object____SubscribeCore_b__1 (UniRx_Operators_DelaySubscriptionObservable___c__DisplayClass6_2_T__o* __this, const MethodInfo_2B84C40* method);

@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+uint32_t App_AIInterruptAttack_AttackScoreResult__get_Score (App_AIInterruptAttack_AttackScoreResult_o __this, const MethodInfo* method);
+void App_AIInterruptAttack_AttackScoreResult__set_Score (App_AIInterruptAttack_AttackScoreResult_o __this, uint32_t value, const MethodInfo* method);
+int32_t App_AIInterruptAttack_AttackScoreResult__get_MoveX (App_AIInterruptAttack_AttackScoreResult_o __this, const MethodInfo* method);
+void App_AIInterruptAttack_AttackScoreResult__set_MoveX (App_AIInterruptAttack_AttackScoreResult_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIInterruptAttack_AttackScoreResult__get_MoveZ (App_AIInterruptAttack_AttackScoreResult_o __this, const MethodInfo* method);
+void App_AIInterruptAttack_AttackScoreResult__set_MoveZ (App_AIInterruptAttack_AttackScoreResult_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIInterruptAttack_AttackScoreResult__get_AttackX (App_AIInterruptAttack_AttackScoreResult_o __this, const MethodInfo* method);
+void App_AIInterruptAttack_AttackScoreResult__set_AttackX (App_AIInterruptAttack_AttackScoreResult_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIInterruptAttack_AttackScoreResult__get_AttackZ (App_AIInterruptAttack_AttackScoreResult_o __this, const MethodInfo* method);
+void App_AIInterruptAttack_AttackScoreResult__set_AttackZ (App_AIInterruptAttack_AttackScoreResult_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIInterruptAttack_AttackScoreResult__get_ItemIndex (App_AIInterruptAttack_AttackScoreResult_o __this, const MethodInfo* method);
+void App_AIInterruptAttack_AttackScoreResult__set_ItemIndex (App_AIInterruptAttack_AttackScoreResult_o __this, int32_t value, const MethodInfo* method);
+void App_AIInterruptAttack_AttackScoreResult__Clear (App_AIInterruptAttack_AttackScoreResult_o __this, const MethodInfo* method);

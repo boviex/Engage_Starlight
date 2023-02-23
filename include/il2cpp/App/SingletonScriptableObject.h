@@ -1,0 +1,26 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_CasualMap_o* App_SingletonScriptableObject_CasualMap___get_Instance (const MethodInfo_34555B0* method);
+App_DebugInfo_o* App_SingletonScriptableObject_DebugInfo___get_Instance (const MethodInfo_34555B0* method);
+App_FontList_o* App_SingletonScriptableObject_FontList___get_Instance (const MethodInfo_34555B0* method);
+App_GameColor_o* App_SingletonScriptableObject_GameColor___get_Instance (const MethodInfo_34555B0* method);
+App_GodColorRefineEmblem_o* App_SingletonScriptableObject_GodColorRefineEmblem___get_Instance (const MethodInfo_34555B0* method);
+Il2CppObject* App_SingletonScriptableObject_object___get_Instance (const MethodInfo_34555B0* method);
+App_ProfileCardColor_o* App_SingletonScriptableObject_ProfileCardColor___get_Instance (const MethodInfo_34555B0* method);
+App_UiColor_o* App_SingletonScriptableObject_UiColor___get_Instance (const MethodInfo_34555B0* method);
+App_UnitSequence_o* App_SingletonScriptableObject_UnitSequence___get_Instance (const MethodInfo_34555B0* method);
+void App_SingletonScriptableObject_object___OnEnable (App_SingletonScriptableObject_T__o* __this, const MethodInfo_34556E0* method);
+void App_SingletonScriptableObject_object___OnDisable (App_SingletonScriptableObject_T__o* __this, const MethodInfo_3455900* method);
+void App_SingletonScriptableObject_CasualMap____ctor (App_SingletonScriptableObject_CasualMap__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_DebugInfo____ctor (App_SingletonScriptableObject_DebugInfo__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_FontList____ctor (App_SingletonScriptableObject_FontList__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_GameColor____ctor (App_SingletonScriptableObject_GameColor__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_GodColor____ctor (App_SingletonScriptableObject_GodColor__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_GodColorRefineEmblem____ctor (App_SingletonScriptableObject_GodColorRefineEmblem__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_object____ctor (App_SingletonScriptableObject_T__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_ProfileCardColor____ctor (App_SingletonScriptableObject_ProfileCardColor__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_UiColor____ctor (App_SingletonScriptableObject_UiColor__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_UnitSequence____ctor (App_SingletonScriptableObject_UnitSequence__o* __this, const MethodInfo_3455AA0* method);
+void App_SingletonScriptableObject_object____cctor (const MethodInfo_3455AB0* method);

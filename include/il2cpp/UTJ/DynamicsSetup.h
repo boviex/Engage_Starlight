@@ -1,0 +1,17 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UTJ_DynamicsSetup__BuildFromRecordText (UnityEngine_GameObject_o* springBoneRoot, UnityEngine_GameObject_o* colliderRoot, System_String_o* recordText, UTJ_DynamicsSetup_ImportSettings_o* importSettings, System_Collections_Generic_IEnumerable_string__o* requiredBones, const MethodInfo* method);
+UTJ_DynamicsSetup_ParseResults_o* UTJ_DynamicsSetup__ParseFromRecordText (UnityEngine_GameObject_o* springBoneRoot, UnityEngine_GameObject_o* colliderRoot, System_String_o* recordText, UTJ_DynamicsSetup_ImportSettings_o* importSettings, const MethodInfo* method);
+void UTJ_DynamicsSetup__Build (UTJ_DynamicsSetup_o* __this, System_Collections_Generic_IEnumerable_string__o* requiredBones, const MethodInfo* method);
+int32_t UTJ_DynamicsSetup__GetVersionFromSetupRecords (System_Collections_Generic_List_TextRecordParsing_Record__o* sourceRecords, UTJ_TextRecordParsing_Record_o** versionRecord, const MethodInfo* method);
+Il2CppObject* UTJ_DynamicsSetup__SerializeObjectFromStrings (System_Type_o* type, System_Collections_Generic_IEnumerable_string__o* sourceItems, System_String_o* firstOptionalField, UTJ_DynamicsSetup_ParseMessage_o** error, const MethodInfo* method);
+Il2CppObject* UTJ_DynamicsSetup__SerializeObjectFromStrings_object_ (System_Collections_Generic_IEnumerable_string__o* sourceItems, System_String_o* firstOptionalField, UTJ_DynamicsSetup_ParseMessage_o** error, const MethodInfo_22C87E0* method);
+UTJ_SpringBoneSerialization_PivotSerializer_o* UTJ_DynamicsSetup__SerializeObjectFromStrings_SpringBoneSerialization_PivotSerializer_ (System_Collections_Generic_IEnumerable_string__o* sourceItems, System_String_o* firstOptionalField, UTJ_DynamicsSetup_ParseMessage_o** error, const MethodInfo_22C87E0* method);
+UTJ_SpringColliderSerialization_ColliderSerializerBaseInfo_o* UTJ_DynamicsSetup__SerializeObjectFromStrings_SpringColliderSerialization_ColliderSerializerBaseInfo_ (System_Collections_Generic_IEnumerable_string__o* sourceItems, System_String_o* firstOptionalField, UTJ_DynamicsSetup_ParseMessage_o** error, const MethodInfo_22C87E0* method);
+UTJ_SpringColliderSerialization_TransformSerializer_o* UTJ_DynamicsSetup__SerializeObjectFromStrings_SpringColliderSerialization_TransformSerializer_ (System_Collections_Generic_IEnumerable_string__o* sourceItems, System_String_o* firstOptionalField, UTJ_DynamicsSetup_ParseMessage_o** error, const MethodInfo_22C87E0* method);
+int32_t UTJ_DynamicsSetup__GetVersionFromSetupRecords (System_Collections_Generic_List_TextRecordParsing_Record__o* sourceRecords, const MethodInfo* method);
+bool UTJ_DynamicsSetup__VerifyVersionAndDetectContents (System_String_o* recordText, UTJ_DynamicsSetup_ImportSettings_o* importSettings, System_String_o** errorMessage, const MethodInfo* method);
+UTJ_DynamicsSetup_ParseResults_o* UTJ_DynamicsSetup__InternalParseFromRecordText (UnityEngine_GameObject_o* springBoneRoot, UnityEngine_GameObject_o* colliderRoot, System_String_o* recordText, UTJ_DynamicsSetup_ImportSettings_o* importSettings, const MethodInfo* method);
+void UTJ_DynamicsSetup___ctor (UTJ_DynamicsSetup_o* __this, const MethodInfo* method);

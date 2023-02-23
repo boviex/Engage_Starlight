@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_EmptyObservable_Empty_int____ctor (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_2604DD0* method);
+void UniRx_Operators_EmptyObservable_Empty_long____ctor (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_26051C0* method);
+void UniRx_Operators_EmptyObservable_Empty_object____ctor (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_26055B0* method);
+void UniRx_Operators_EmptyObservable_Empty_Unit____ctor (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_26059A0* method);
+void UniRx_Operators_EmptyObservable_Empty_int___OnNext (UniRx_Operators_EmptyObservable_Empty_T__o* __this, int32_t value, const MethodInfo_2604DF0* method);
+void UniRx_Operators_EmptyObservable_Empty_long___OnNext (UniRx_Operators_EmptyObservable_Empty_T__o* __this, int64_t value, const MethodInfo_26051E0* method);
+void UniRx_Operators_EmptyObservable_Empty_object___OnNext (UniRx_Operators_EmptyObservable_Empty_T__o* __this, Il2CppObject* value, const MethodInfo_26055D0* method);
+void UniRx_Operators_EmptyObservable_Empty_Unit___OnNext (UniRx_Operators_EmptyObservable_Empty_T__o* __this, UniRx_Unit_o value, const MethodInfo_26059C0* method);
+void UniRx_Operators_EmptyObservable_Empty_int___OnError (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_Exception_o* error, const MethodInfo_2604F50* method);
+void UniRx_Operators_EmptyObservable_Empty_long___OnError (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_Exception_o* error, const MethodInfo_2605340* method);
+void UniRx_Operators_EmptyObservable_Empty_object___OnError (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_Exception_o* error, const MethodInfo_2605730* method);
+void UniRx_Operators_EmptyObservable_Empty_Unit___OnError (UniRx_Operators_EmptyObservable_Empty_T__o* __this, System_Exception_o* error, const MethodInfo_2605B20* method);
+void UniRx_Operators_EmptyObservable_Empty_int___OnCompleted (UniRx_Operators_EmptyObservable_Empty_T__o* __this, const MethodInfo_2605090* method);
+void UniRx_Operators_EmptyObservable_Empty_long___OnCompleted (UniRx_Operators_EmptyObservable_Empty_T__o* __this, const MethodInfo_2605480* method);
+void UniRx_Operators_EmptyObservable_Empty_object___OnCompleted (UniRx_Operators_EmptyObservable_Empty_T__o* __this, const MethodInfo_2605870* method);
+void UniRx_Operators_EmptyObservable_Empty_Unit___OnCompleted (UniRx_Operators_EmptyObservable_Empty_T__o* __this, const MethodInfo_2605C60* method);

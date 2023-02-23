@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Talk3D_CharacterFactoryAsync___c__DisplayClass11_0___ctor (App_Talk3D_CharacterFactoryAsync___c__DisplayClass11_0_o* __this, const MethodInfo* method);
+void App_Talk3D_CharacterFactoryAsync___c__DisplayClass11_0___CreateCommon_b__0 (App_Talk3D_CharacterFactoryAsync___c__DisplayClass11_0_o* __this, const MethodInfo* method);

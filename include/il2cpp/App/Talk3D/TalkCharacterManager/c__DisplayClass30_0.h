@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Talk3D_TalkCharacterManager___c__DisplayClass30_0___ctor (App_Talk3D_TalkCharacterManager___c__DisplayClass30_0_o* __this, const MethodInfo* method);
+void App_Talk3D_TalkCharacterManager___c__DisplayClass30_0___CreateCharacterImpl_b__0 (App_Talk3D_TalkCharacterManager___c__DisplayClass30_0_o* __this, const MethodInfo* method);

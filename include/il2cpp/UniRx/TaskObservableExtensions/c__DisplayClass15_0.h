@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_TaskObservableExtensions___c__DisplayClass15_0_object____ctor (UniRx_TaskObservableExtensions___c__DisplayClass15_0_TResult__o* __this, const MethodInfo_2B7D6D0* method);
+void UniRx_TaskObservableExtensions___c__DisplayClass15_0_object____ToTask_b__0 (UniRx_TaskObservableExtensions___c__DisplayClass15_0_TResult__o* __this, const MethodInfo_2B7D6E0* method);
+void UniRx_TaskObservableExtensions___c__DisplayClass15_0_object____ToTask_b__1 (UniRx_TaskObservableExtensions___c__DisplayClass15_0_TResult__o* __this, Il2CppObject* value, const MethodInfo_2B7D720* method);
+void UniRx_TaskObservableExtensions___c__DisplayClass15_0_object____ToTask_b__2 (UniRx_TaskObservableExtensions___c__DisplayClass15_0_TResult__o* __this, System_Exception_o* ex, const MethodInfo_2B7D730* method);
+void UniRx_TaskObservableExtensions___c__DisplayClass15_0_object____ToTask_b__3 (UniRx_TaskObservableExtensions___c__DisplayClass15_0_TResult__o* __this, const MethodInfo_2B7D780* method);

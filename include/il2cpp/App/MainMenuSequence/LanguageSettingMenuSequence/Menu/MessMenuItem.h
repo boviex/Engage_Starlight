@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem__GetName (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem__GetParamName (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem__KeyCall (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem___ctor (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MessMenuItem_o* __this, const MethodInfo* method);

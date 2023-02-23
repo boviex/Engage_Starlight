@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_RenderObjects_RenderObjectsSettings___ctor (UnityEngine_Experimental_Rendering_Universal_RenderObjects_RenderObjectsSettings_o* __this, const MethodInfo* method);

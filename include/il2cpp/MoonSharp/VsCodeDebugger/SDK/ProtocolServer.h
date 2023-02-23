@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer___ctor (MoonSharp_VsCodeDebugger_SDK_ProtocolServer_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer__ProcessLoop (MoonSharp_VsCodeDebugger_SDK_ProtocolServer_o* __this, System_IO_Stream_o* inputStream, System_IO_Stream_o* outputStream, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer__Stop (MoonSharp_VsCodeDebugger_SDK_ProtocolServer_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer__SendEvent (MoonSharp_VsCodeDebugger_SDK_ProtocolServer_o* __this, MoonSharp_VsCodeDebugger_SDK_Event_o* e, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer__ProcessData (MoonSharp_VsCodeDebugger_SDK_ProtocolServer_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer__Dispatch (MoonSharp_VsCodeDebugger_SDK_ProtocolServer_o* __this, System_String_o* req, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer__SendMessage (MoonSharp_VsCodeDebugger_SDK_ProtocolServer_o* __this, MoonSharp_VsCodeDebugger_SDK_ProtocolMessage_o* message, const MethodInfo* method);
+System_Byte_array* MoonSharp_VsCodeDebugger_SDK_ProtocolServer__ConvertToBytes (MoonSharp_VsCodeDebugger_SDK_ProtocolMessage_o* request, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_ProtocolServer___cctor (const MethodInfo* method);

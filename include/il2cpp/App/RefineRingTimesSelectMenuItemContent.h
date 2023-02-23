@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Color_o App_RefineRingTimesSelectMenuItemContent__get_m_ColorOfNotEnoughValue (App_RefineRingTimesSelectMenuItemContent_o* __this, const MethodInfo* method);
+void App_RefineRingTimesSelectMenuItemContent__set_m_ColorOfNotEnoughValue (App_RefineRingTimesSelectMenuItemContent_o* __this, UnityEngine_Color_o value, const MethodInfo* method);
+void App_RefineRingTimesSelectMenuItemContent___ctor (App_RefineRingTimesSelectMenuItemContent_o* __this, const MethodInfo* method);
+void App_RefineRingTimesSelectMenuItemContent__BuildText (App_RefineRingTimesSelectMenuItemContent_o* __this, const MethodInfo* method);
+void App_RefineRingTimesSelectMenuItemContent__UpdateTextColor (App_RefineRingTimesSelectMenuItemContent_o* __this, const MethodInfo* method);

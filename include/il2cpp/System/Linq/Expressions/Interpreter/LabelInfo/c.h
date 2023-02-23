@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LabelInfo___c___cctor (const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LabelInfo___c___ctor (System_Linq_Expressions_Interpreter_LabelInfo___c_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Interpreter_LabelScopeInfo_o* System_Linq_Expressions_Interpreter_LabelInfo___c___ValidateJump_b__9_0 (System_Linq_Expressions_Interpreter_LabelInfo___c_o* __this, System_Linq_Expressions_Interpreter_LabelScopeInfo_o* b, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineCore_GetBlendOverrideDelegate___ctor (Cinemachine_CinemachineCore_GetBlendOverrideDelegate_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+Cinemachine_CinemachineBlendDefinition_o Cinemachine_CinemachineCore_GetBlendOverrideDelegate__Invoke (Cinemachine_CinemachineCore_GetBlendOverrideDelegate_o* __this, Cinemachine_ICinemachineCamera_o* fromVcam, Cinemachine_ICinemachineCamera_o* toVcam, Cinemachine_CinemachineBlendDefinition_o defaultBlend, UnityEngine_MonoBehaviour_o* owner, const MethodInfo* method);
+System_IAsyncResult_o* Cinemachine_CinemachineCore_GetBlendOverrideDelegate__BeginInvoke (Cinemachine_CinemachineCore_GetBlendOverrideDelegate_o* __this, Cinemachine_ICinemachineCamera_o* fromVcam, Cinemachine_ICinemachineCamera_o* toVcam, Cinemachine_CinemachineBlendDefinition_o defaultBlend, UnityEngine_MonoBehaviour_o* owner, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
+Cinemachine_CinemachineBlendDefinition_o Cinemachine_CinemachineCore_GetBlendOverrideDelegate__EndInvoke (Cinemachine_CinemachineCore_GetBlendOverrideDelegate_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

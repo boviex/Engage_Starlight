@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_FSMBuilderJobIntro___c__DisplayClass0_0___ctor (Combat_FSMBuilderJobIntro___c__DisplayClass0_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderJobIntro___c__DisplayClass0_0___Build_b__1 (Combat_FSMBuilderJobIntro___c__DisplayClass0_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderJobIntro___c__DisplayClass0_0___Build_b__4 (Combat_FSMBuilderJobIntro___c__DisplayClass0_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderJobIntro___c__DisplayClass0_0___Build_b__2 (Combat_FSMBuilderJobIntro___c__DisplayClass0_0_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderJobIntro___c__DisplayClass0_0___Build_b__3 (Combat_FSMBuilderJobIntro___c__DisplayClass0_0_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_SkipUntilObservable_object__object____ctor (UniRx_Operators_SkipUntilObservable_T__TOther__o* __this, System_IObservable_T__o* source, System_IObservable_TOther__o* other, const MethodInfo_3456EB0* method);
+void UniRx_Operators_SkipUntilObservable_Unit__object____ctor (UniRx_Operators_SkipUntilObservable_T__TOther__o* __this, System_IObservable_T__o* source, System_IObservable_TOther__o* other, const MethodInfo_3457000* method);
+System_IDisposable_o* UniRx_Operators_SkipUntilObservable_object__object___SubscribeCore (UniRx_Operators_SkipUntilObservable_T__TOther__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_3456F60* method);
+System_IDisposable_o* UniRx_Operators_SkipUntilObservable_Unit__object___SubscribeCore (UniRx_Operators_SkipUntilObservable_T__TOther__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34570B0* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_AddressableAssets_PlatformMappingService__GetAddressablesPlatformInternal (int32_t platform, const MethodInfo* method);
+System_String_o* UnityEngine_AddressableAssets_PlatformMappingService__GetAddressablesPlatformPathInternal (int32_t platform, const MethodInfo* method);
+int32_t UnityEngine_AddressableAssets_PlatformMappingService__GetPlatform (const MethodInfo* method);
+System_String_o* UnityEngine_AddressableAssets_PlatformMappingService__GetPlatformPathSubFolder (const MethodInfo* method);
+void UnityEngine_AddressableAssets_PlatformMappingService___ctor (UnityEngine_AddressableAssets_PlatformMappingService_o* __this, const MethodInfo* method);
+void UnityEngine_AddressableAssets_PlatformMappingService___cctor (const MethodInfo* method);

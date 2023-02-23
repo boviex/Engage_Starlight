@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_UnityEqualityComparer_RectIntEqualityComparer__Equals (UniRx_UnityEqualityComparer_RectIntEqualityComparer_o* __this, UnityEngine_RectInt_o self, UnityEngine_RectInt_o other, const MethodInfo* method);
+int32_t UniRx_UnityEqualityComparer_RectIntEqualityComparer__GetHashCode (UniRx_UnityEqualityComparer_RectIntEqualityComparer_o* __this, UnityEngine_RectInt_o obj, const MethodInfo* method);
+void UniRx_UnityEqualityComparer_RectIntEqualityComparer___ctor (UniRx_UnityEqualityComparer_RectIntEqualityComparer_o* __this, const MethodInfo* method);

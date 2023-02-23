@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_LoopExpression__get_Body (System_Linq_Expressions_LoopExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_LabelTarget_o* System_Linq_Expressions_LoopExpression__get_BreakLabel (System_Linq_Expressions_LoopExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_LabelTarget_o* System_Linq_Expressions_LoopExpression__get_ContinueLabel (System_Linq_Expressions_LoopExpression_o* __this, const MethodInfo* method);

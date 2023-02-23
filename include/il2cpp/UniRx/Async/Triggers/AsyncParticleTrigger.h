@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IEnumerable_ICancelablePromise__o* UniRx_Async_Triggers_AsyncParticleTrigger__GetPromises (UniRx_Async_Triggers_AsyncParticleTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncParticleTrigger__OnParticleCollision (UniRx_Async_Triggers_AsyncParticleTrigger_o* __this, UnityEngine_GameObject_o* other, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncParticleTrigger__OnParticleCollisionAsync (UniRx_Async_Triggers_AsyncParticleTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncParticleTrigger___ctor (UniRx_Async_Triggers_AsyncParticleTrigger_o* __this, const MethodInfo* method);

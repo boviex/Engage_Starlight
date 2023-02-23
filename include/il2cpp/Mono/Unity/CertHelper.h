@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Unity_CertHelper__AddCertificatesToNativeChain (Mono_Unity_UnityTls_unitytls_x509list_o* nativeCertificateChain, System_Security_Cryptography_X509Certificates_X509CertificateCollection_o* certificates, Mono_Unity_UnityTls_unitytls_errorstate_o* errorState, const MethodInfo* method);
+void Mono_Unity_CertHelper__AddCertificateToNativeChain (Mono_Unity_UnityTls_unitytls_x509list_o* nativeCertificateChain, System_Security_Cryptography_X509Certificates_X509Certificate_o* certificate, Mono_Unity_UnityTls_unitytls_errorstate_o* errorState, const MethodInfo* method);

@@ -1,0 +1,23 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_InternalUtil_PriorityQueue_object____ctor (UniRx_InternalUtil_PriorityQueue_T__o* __this, const MethodInfo_2A71770* method);
+void UniRx_InternalUtil_PriorityQueue_object____ctor (UniRx_InternalUtil_PriorityQueue_T__o* __this, int32_t capacity, const MethodInfo_2A71790* method);
+void UniRx_InternalUtil_PriorityQueue_ScheduledItem____ctor (UniRx_InternalUtil_PriorityQueue_ScheduledItem__o* __this, int32_t capacity, const MethodInfo_2A71790* method);
+bool UniRx_InternalUtil_PriorityQueue_object___IsHigherPriority (UniRx_InternalUtil_PriorityQueue_T__o* __this, int32_t left, int32_t right, const MethodInfo_2A71800* method);
+void UniRx_InternalUtil_PriorityQueue_object___Percolate (UniRx_InternalUtil_PriorityQueue_T__o* __this, int32_t index, const MethodInfo_2A71860* method);
+void UniRx_InternalUtil_PriorityQueue_object___Heapify (UniRx_InternalUtil_PriorityQueue_T__o* __this, const MethodInfo_2A71990* method);
+void UniRx_InternalUtil_PriorityQueue_object___Heapify (UniRx_InternalUtil_PriorityQueue_T__o* __this, int32_t index, const MethodInfo_2A719B0* method);
+int32_t UniRx_InternalUtil_PriorityQueue_object___get_Count (UniRx_InternalUtil_PriorityQueue_T__o* __this, const MethodInfo_2A71B30* method);
+int32_t UniRx_InternalUtil_PriorityQueue_ScheduledItem___get_Count (UniRx_InternalUtil_PriorityQueue_ScheduledItem__o* __this, const MethodInfo_2A71B30* method);
+Il2CppObject* UniRx_InternalUtil_PriorityQueue_object___Peek (UniRx_InternalUtil_PriorityQueue_T__o* __this, const MethodInfo_2A71B40* method);
+UniRx_InternalUtil_ScheduledItem_o* UniRx_InternalUtil_PriorityQueue_ScheduledItem___Peek (UniRx_InternalUtil_PriorityQueue_ScheduledItem__o* __this, const MethodInfo_2A71B40* method);
+void UniRx_InternalUtil_PriorityQueue_object___RemoveAt (UniRx_InternalUtil_PriorityQueue_T__o* __this, int32_t index, const MethodInfo_2A71BD0* method);
+Il2CppObject* UniRx_InternalUtil_PriorityQueue_object___Dequeue (UniRx_InternalUtil_PriorityQueue_T__o* __this, const MethodInfo_2A71D10* method);
+UniRx_InternalUtil_ScheduledItem_o* UniRx_InternalUtil_PriorityQueue_ScheduledItem___Dequeue (UniRx_InternalUtil_PriorityQueue_ScheduledItem__o* __this, const MethodInfo_2A71D10* method);
+void UniRx_InternalUtil_PriorityQueue_object___Enqueue (UniRx_InternalUtil_PriorityQueue_T__o* __this, Il2CppObject* item, const MethodInfo_2A71D70* method);
+void UniRx_InternalUtil_PriorityQueue_ScheduledItem___Enqueue (UniRx_InternalUtil_PriorityQueue_ScheduledItem__o* __this, UniRx_InternalUtil_ScheduledItem_o* item, const MethodInfo_2A71D70* method);
+bool UniRx_InternalUtil_PriorityQueue_object___Remove (UniRx_InternalUtil_PriorityQueue_T__o* __this, Il2CppObject* item, const MethodInfo_2A71F30* method);
+bool UniRx_InternalUtil_PriorityQueue_ScheduledItem___Remove (UniRx_InternalUtil_PriorityQueue_ScheduledItem__o* __this, UniRx_InternalUtil_ScheduledItem_o* item, const MethodInfo_2A71F30* method);
+void UniRx_InternalUtil_PriorityQueue_object____cctor (const MethodInfo_2A72000* method);

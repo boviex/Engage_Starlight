@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem___ctor (App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem_o* __this, App_VersusServerCasualMetaData_o* metaData, int32_t num, const MethodInfo* method);
+int32_t App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem__ACall (App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem__OnBuildMenuItemContent (App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem__StartBattleDialog (App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem___StartBattleDialog_b__6_0 (App_VersusSequence_VersusFriendMenu_FriendCasualMenuItem_o* __this, const MethodInfo* method);

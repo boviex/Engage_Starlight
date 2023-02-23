@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_MorphCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__set_MorphCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_PhysicalAttackCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__set_PhysicalAttackCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_MagicAttackCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__set_MagicAttackCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_AttackCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_ChainAttackCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__set_ChainAttackCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_BreakCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__set_BreakCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_SilenceCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__set_SilenceCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__get_FreezeCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__set_FreezeCount (App_AIThink_EnchantThink_SurroundingInfo_o __this, int32_t value, const MethodInfo* method);
+int32_t App_AIThink_EnchantThink_SurroundingInfo__Get (App_AIThink_EnchantThink_SurroundingInfo_o __this, uint32_t mask, int32_t shift, const MethodInfo* method);
+void App_AIThink_EnchantThink_SurroundingInfo__Set (App_AIThink_EnchantThink_SurroundingInfo_o __this, uint32_t mask, int32_t shift, int32_t v, const MethodInfo* method);

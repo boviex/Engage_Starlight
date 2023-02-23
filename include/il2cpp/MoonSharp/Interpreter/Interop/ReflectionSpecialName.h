@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t MoonSharp_Interpreter_Interop_ReflectionSpecialName__get_Type (MoonSharp_Interpreter_Interop_ReflectionSpecialName_o __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_ReflectionSpecialName__set_Type (MoonSharp_Interpreter_Interop_ReflectionSpecialName_o __this, int32_t value, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_ReflectionSpecialName__get_Argument (MoonSharp_Interpreter_Interop_ReflectionSpecialName_o __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_ReflectionSpecialName__set_Argument (MoonSharp_Interpreter_Interop_ReflectionSpecialName_o __this, System_String_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_ReflectionSpecialName___ctor (MoonSharp_Interpreter_Interop_ReflectionSpecialName_o __this, int32_t type, System_String_o* argument, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_ReflectionSpecialName___ctor (MoonSharp_Interpreter_Interop_ReflectionSpecialName_o __this, System_String_o* name, const MethodInfo* method);

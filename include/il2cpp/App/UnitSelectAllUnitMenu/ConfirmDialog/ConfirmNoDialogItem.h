@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_UnitSelectAllUnitMenu_ConfirmDialog_ConfirmNoDialogItem___ctor (App_UnitSelectAllUnitMenu_ConfirmDialog_ConfirmNoDialogItem_o* __this, System_String_o* text, const MethodInfo* method);
+int32_t App_UnitSelectAllUnitMenu_ConfirmDialog_ConfirmNoDialogItem__BuildAttribute (App_UnitSelectAllUnitMenu_ConfirmDialog_ConfirmNoDialogItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ItemRefineExchangeData_o* App_RefineShopExchangeSourceMenu__get_m_TargetMaterialData (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__set_m_TargetMaterialData (App_RefineShopExchangeSourceMenu_o* __this, App_ItemRefineExchangeData_o* value, const MethodInfo* method);
+App_ItemRefineExchangeData_o* App_RefineShopExchangeSourceMenu__get_m_SourceMaterialData (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__set_m_SourceMaterialData (App_RefineShopExchangeSourceMenu_o* __this, App_ItemRefineExchangeData_o* value, const MethodInfo* method);
+int32_t App_RefineShopExchangeSourceMenu__get_m_TargetMaterialRate (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__set_m_TargetMaterialRate (App_RefineShopExchangeSourceMenu_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_RefineShopExchangeSourceMenu__get_m_SourceMaterialRate (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__set_m_SourceMaterialRate (App_RefineShopExchangeSourceMenu_o* __this, int32_t value, const MethodInfo* method);
+bool App_RefineShopExchangeSourceMenu__get_m_EnoughSourceCount (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__set_m_EnoughSourceCount (App_RefineShopExchangeSourceMenu_o* __this, bool value, const MethodInfo* method);
+App_RefineShopExchangeSourceMenu_o* App_RefineShopExchangeSourceMenu__CreateBind (App_ProcInst_o* super, App_RefineShopExchangeSourceMenuContent_o* menuContent, System_String_o* targetMaterialId, System_String_o* initialSourceMaterialId, App_MaterialMenuItem_SelectEventHandler_o* selectEventHandler, App_MaterialMenuItem_DecideEventHandler_o* decideEventHandler, App_RefineShopExchangeSourceMenu_CloseEventHandler_o* closeEventHandler, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu___ctor (App_RefineShopExchangeSourceMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_RefineShopExchangeSourceMenuContent_o* menuContent, System_String_o* targetMaterialId, int32_t initialSelectIndex, App_MaterialMenuItem_SelectEventHandler_o* selectEventHandler, App_RefineShopExchangeSourceMenu_CloseEventHandler_o* closeEventHandler, const MethodInfo* method);
+System_String_o* App_RefineShopExchangeSourceMenu__GetName (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__OnSelectMenuItem (App_RefineShopExchangeSourceMenu_o* __this, System_String_o* materialId, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__OnClose (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__OnDispose (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);
+void App_RefineShopExchangeSourceMenu__CalcRate (App_RefineShopExchangeSourceMenu_o* __this, const MethodInfo* method);

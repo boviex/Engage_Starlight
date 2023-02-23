@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Security_Interface_CertificateValidationHelper___cctor (const MethodInfo* method);
+Mono_Security_Interface_ICertificateValidator2_o* Mono_Security_Interface_CertificateValidationHelper__GetInternalValidator (Mono_Security_Interface_MonoTlsSettings_o* settings, Mono_Security_Interface_MonoTlsProvider_o* provider, const MethodInfo* method);

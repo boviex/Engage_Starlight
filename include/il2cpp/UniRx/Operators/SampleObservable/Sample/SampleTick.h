@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_SampleObservable_Sample_SampleTick_object__object____ctor (UniRx_Operators_SampleObservable_Sample_SampleTick_T__T2__o* __this, UniRx_Operators_SampleObservable_Sample_T__T2__o* parent, const MethodInfo_3013970* method);
+void UniRx_Operators_SampleObservable_Sample_SampleTick_object__object___OnCompleted (UniRx_Operators_SampleObservable_Sample_SampleTick_T__T2__o* __this, const MethodInfo_30139B0* method);
+void UniRx_Operators_SampleObservable_Sample_SampleTick_object__object___OnError (UniRx_Operators_SampleObservable_Sample_SampleTick_T__T2__o* __this, System_Exception_o* error, const MethodInfo_3013C60* method);
+void UniRx_Operators_SampleObservable_Sample_SampleTick_object__object___OnNext (UniRx_Operators_SampleObservable_Sample_SampleTick_T__T2__o* __this, Il2CppObject* __, const MethodInfo_3013C70* method);

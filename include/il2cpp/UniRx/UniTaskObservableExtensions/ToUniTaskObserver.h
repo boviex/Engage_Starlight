@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_UniTaskObservableExtensions_ToUniTaskObserver_object____ctor (UniRx_UniTaskObservableExtensions_ToUniTaskObserver_T__o* __this, UniRx_Async_UniTaskCompletionSource_T__o* promise, UniRx_SingleAssignmentDisposable_o* disposable, System_Threading_CancellationToken_o cancellationToken, const MethodInfo_3584A60* method);
+void UniRx_UniTaskObservableExtensions_ToUniTaskObserver_object___OnCanceled (Il2CppObject* state, const MethodInfo_3584C10* method);
+void UniRx_UniTaskObservableExtensions_ToUniTaskObserver_object___OnNext (UniRx_UniTaskObservableExtensions_ToUniTaskObserver_T__o* __this, Il2CppObject* value, const MethodInfo_3584D10* method);
+void UniRx_UniTaskObservableExtensions_ToUniTaskObserver_object___OnError (UniRx_UniTaskObservableExtensions_ToUniTaskObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3584D20* method);
+void UniRx_UniTaskObservableExtensions_ToUniTaskObserver_object___OnCompleted (UniRx_UniTaskObservableExtensions_ToUniTaskObserver_T__o* __this, const MethodInfo_3584E00* method);
+void UniRx_UniTaskObservableExtensions_ToUniTaskObserver_object____cctor (const MethodInfo_3584F70* method);

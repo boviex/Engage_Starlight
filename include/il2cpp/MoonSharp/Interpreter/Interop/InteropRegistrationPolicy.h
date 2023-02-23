@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_Interpreter_Interop_RegistrationPolicies_IRegistrationPolicy_o* MoonSharp_Interpreter_Interop_InteropRegistrationPolicy__get_Default (const MethodInfo* method);
+MoonSharp_Interpreter_Interop_RegistrationPolicies_IRegistrationPolicy_o* MoonSharp_Interpreter_Interop_InteropRegistrationPolicy__get_Explicit (const MethodInfo* method);
+MoonSharp_Interpreter_Interop_RegistrationPolicies_IRegistrationPolicy_o* MoonSharp_Interpreter_Interop_InteropRegistrationPolicy__get_Automatic (const MethodInfo* method);

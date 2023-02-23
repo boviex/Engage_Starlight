@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_PostFX_CinemachineVolumeSettings_VcamExtraState__CreateProfileCopy (Cinemachine_PostFX_CinemachineVolumeSettings_VcamExtraState_o* __this, UnityEngine_Rendering_VolumeProfile_o* source, const MethodInfo* method);
+void Cinemachine_PostFX_CinemachineVolumeSettings_VcamExtraState__DestroyProfileCopy (Cinemachine_PostFX_CinemachineVolumeSettings_VcamExtraState_o* __this, const MethodInfo* method);
+void Cinemachine_PostFX_CinemachineVolumeSettings_VcamExtraState___ctor (Cinemachine_PostFX_CinemachineVolumeSettings_VcamExtraState_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Gmap_EnterChapterYesNoDialog_EnterChapterDialogMainItemYes___ctor (App_Gmap_EnterChapterYesNoDialog_EnterChapterDialogMainItemYes_o* __this, System_Action_o* callback, const MethodInfo* method);
+int32_t App_Gmap_EnterChapterYesNoDialog_EnterChapterDialogMainItemYes__ACall (App_Gmap_EnterChapterYesNoDialog_EnterChapterDialogMainItemYes_o* __this, const MethodInfo* method);

@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_Timeline_IntervalTree_object___get_dirty (UnityEngine_Timeline_IntervalTree_T__o* __this, const MethodInfo_2D91EC0* method);
+void UnityEngine_Timeline_IntervalTree_object___set_dirty (UnityEngine_Timeline_IntervalTree_T__o* __this, bool value, const MethodInfo_2D91ED0* method);
+void UnityEngine_Timeline_IntervalTree_object___Add (UnityEngine_Timeline_IntervalTree_T__o* __this, Il2CppObject* item, const MethodInfo_2D91EE0* method);
+void UnityEngine_Timeline_IntervalTree_RuntimeElement___Add (UnityEngine_Timeline_IntervalTree_RuntimeElement__o* __this, UnityEngine_Timeline_RuntimeElement_o* item, const MethodInfo_2D91EE0* method);
+void UnityEngine_Timeline_IntervalTree_object___IntersectsWith (UnityEngine_Timeline_IntervalTree_T__o* __this, int64_t value, System_Collections_Generic_List_T__o* results, const MethodInfo_2D92080* method);
+void UnityEngine_Timeline_IntervalTree_RuntimeElement___IntersectsWith (UnityEngine_Timeline_IntervalTree_RuntimeElement__o* __this, int64_t value, System_Collections_Generic_List_T__o* results, const MethodInfo_2D92080* method);
+void UnityEngine_Timeline_IntervalTree_object___Query (UnityEngine_Timeline_IntervalTree_T__o* __this, UnityEngine_Timeline_IntervalTreeNode_o intervalTreeNode, int64_t value, System_Collections_Generic_List_T__o* results, const MethodInfo_2D921B0* method);
+void UnityEngine_Timeline_IntervalTree_object___Rebuild (UnityEngine_Timeline_IntervalTree_T__o* __this, const MethodInfo_2D923A0* method);
+int32_t UnityEngine_Timeline_IntervalTree_object___Rebuild (UnityEngine_Timeline_IntervalTree_T__o* __this, int32_t start, int32_t end, const MethodInfo_2D92480* method);
+void UnityEngine_Timeline_IntervalTree_object____ctor (UnityEngine_Timeline_IntervalTree_T__o* __this, const MethodInfo_2D92990* method);
+void UnityEngine_Timeline_IntervalTree_RuntimeElement____ctor (UnityEngine_Timeline_IntervalTree_RuntimeElement__o* __this, const MethodInfo_2D92990* method);

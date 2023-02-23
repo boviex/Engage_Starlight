@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_CoreLib_DynamicModule__MoonSharpInit (MoonSharp_Interpreter_Table_o* globalTable, MoonSharp_Interpreter_Table_o* stringTable, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_DynamicModule__eval (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_CoreLib_DynamicModule__prepare (MoonSharp_Interpreter_ScriptExecutionContext_o* executionContext, MoonSharp_Interpreter_CallbackArguments_o* args, const MethodInfo* method);
+void MoonSharp_Interpreter_CoreLib_DynamicModule___ctor (MoonSharp_Interpreter_CoreLib_DynamicModule_o* __this, const MethodInfo* method);

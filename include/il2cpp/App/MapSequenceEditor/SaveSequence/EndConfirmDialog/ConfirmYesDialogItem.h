@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapSequenceEditor_SaveSequence_EndConfirmDialog_ConfirmYesDialogItem___ctor (App_MapSequenceEditor_SaveSequence_EndConfirmDialog_ConfirmYesDialogItem_o* __this, System_String_o* text, System_Action_o* decideCallback, const MethodInfo* method);
+int32_t App_MapSequenceEditor_SaveSequence_EndConfirmDialog_ConfirmYesDialogItem__ACall (App_MapSequenceEditor_SaveSequence_EndConfirmDialog_ConfirmYesDialogItem_o* __this, const MethodInfo* method);

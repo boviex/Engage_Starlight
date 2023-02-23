@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_array* MoonSharp_Interpreter_Execution_ClosureContext__get_Symbols (MoonSharp_Interpreter_Execution_ClosureContext_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_ClosureContext__set_Symbols (MoonSharp_Interpreter_Execution_ClosureContext_o* __this, System_String_array* value, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_ClosureContext___ctor (MoonSharp_Interpreter_Execution_ClosureContext_o* __this, MoonSharp_Interpreter_SymbolRef_array* symbols, System_Collections_Generic_IEnumerable_DynValue__o* values, const MethodInfo* method);
+void MoonSharp_Interpreter_Execution_ClosureContext___ctor (MoonSharp_Interpreter_Execution_ClosureContext_o* __this, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Rendering_MousePositionDebug_o* UnityEngine_Rendering_MousePositionDebug__get_instance (const MethodInfo* method);
+void UnityEngine_Rendering_MousePositionDebug__Build (UnityEngine_Rendering_MousePositionDebug_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_MousePositionDebug__Cleanup (UnityEngine_Rendering_MousePositionDebug_o* __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_Rendering_MousePositionDebug__GetMousePosition (UnityEngine_Rendering_MousePositionDebug_o* __this, float ScreenHeight, bool sceneView, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_Rendering_MousePositionDebug__GetInputMousePosition (UnityEngine_Rendering_MousePositionDebug_o* __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_Rendering_MousePositionDebug__GetMouseClickPosition (UnityEngine_Rendering_MousePositionDebug_o* __this, float ScreenHeight, const MethodInfo* method);
+void UnityEngine_Rendering_MousePositionDebug___ctor (UnityEngine_Rendering_MousePositionDebug_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_MousePositionDebug___cctor (const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_X509Certificates_X509ChainElement___ctor (System_Security_Cryptography_X509Certificates_X509ChainElement_o* __this, System_Security_Cryptography_X509Certificates_X509Certificate2_o* certificate, const MethodInfo* method);
+System_Security_Cryptography_X509Certificates_X509Certificate2_o* System_Security_Cryptography_X509Certificates_X509ChainElement__get_Certificate (System_Security_Cryptography_X509Certificates_X509ChainElement_o* __this, const MethodInfo* method);

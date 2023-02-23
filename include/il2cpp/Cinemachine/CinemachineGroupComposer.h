@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineGroupComposer__OnValidate (Cinemachine_CinemachineGroupComposer_o* __this, const MethodInfo* method);
+UnityEngine_Bounds_o Cinemachine_CinemachineGroupComposer__get_LastBounds (Cinemachine_CinemachineGroupComposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineGroupComposer__set_LastBounds (Cinemachine_CinemachineGroupComposer_o* __this, UnityEngine_Bounds_o value, const MethodInfo* method);
+UnityEngine_Matrix4x4_o Cinemachine_CinemachineGroupComposer__get_LastBoundsMatrix (Cinemachine_CinemachineGroupComposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineGroupComposer__set_LastBoundsMatrix (Cinemachine_CinemachineGroupComposer_o* __this, UnityEngine_Matrix4x4_o value, const MethodInfo* method);
+float Cinemachine_CinemachineGroupComposer__GetMaxDampTime (Cinemachine_CinemachineGroupComposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineGroupComposer__MutateCameraState (Cinemachine_CinemachineGroupComposer_o* __this, Cinemachine_CameraState_o* curState, float deltaTime, const MethodInfo* method);
+float Cinemachine_CinemachineGroupComposer__GetTargetHeight (Cinemachine_CinemachineGroupComposer_o* __this, UnityEngine_Vector2_o boundsSize, const MethodInfo* method);
+UnityEngine_Bounds_o Cinemachine_CinemachineGroupComposer__GetScreenSpaceGroupBoundingBox (Cinemachine_ICinemachineTargetGroup_o* group, UnityEngine_Matrix4x4_o observer, UnityEngine_Vector3_o* newFwd, const MethodInfo* method);
+void Cinemachine_CinemachineGroupComposer___ctor (Cinemachine_CinemachineGroupComposer_o* __this, const MethodInfo* method);

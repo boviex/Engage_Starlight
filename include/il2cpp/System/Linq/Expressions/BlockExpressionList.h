@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_BlockExpressionList___ctor (System_Linq_Expressions_BlockExpressionList_o* __this, System_Linq_Expressions_BlockExpression_o* provider, System_Linq_Expressions_Expression_o* arg0, const MethodInfo* method);
+int32_t System_Linq_Expressions_BlockExpressionList__IndexOf (System_Linq_Expressions_BlockExpressionList_o* __this, System_Linq_Expressions_Expression_o* item, const MethodInfo* method);
+void System_Linq_Expressions_BlockExpressionList__Insert (System_Linq_Expressions_BlockExpressionList_o* __this, int32_t index, System_Linq_Expressions_Expression_o* item, const MethodInfo* method);
+void System_Linq_Expressions_BlockExpressionList__RemoveAt (System_Linq_Expressions_BlockExpressionList_o* __this, int32_t index, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_BlockExpressionList__get_Item (System_Linq_Expressions_BlockExpressionList_o* __this, int32_t index, const MethodInfo* method);
+void System_Linq_Expressions_BlockExpressionList__set_Item (System_Linq_Expressions_BlockExpressionList_o* __this, int32_t index, System_Linq_Expressions_Expression_o* value, const MethodInfo* method);
+void System_Linq_Expressions_BlockExpressionList__Add (System_Linq_Expressions_BlockExpressionList_o* __this, System_Linq_Expressions_Expression_o* item, const MethodInfo* method);
+void System_Linq_Expressions_BlockExpressionList__Clear (System_Linq_Expressions_BlockExpressionList_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_BlockExpressionList__Contains (System_Linq_Expressions_BlockExpressionList_o* __this, System_Linq_Expressions_Expression_o* item, const MethodInfo* method);
+void System_Linq_Expressions_BlockExpressionList__CopyTo (System_Linq_Expressions_BlockExpressionList_o* __this, System_Linq_Expressions_Expression_array* array, int32_t index, const MethodInfo* method);
+int32_t System_Linq_Expressions_BlockExpressionList__get_Count (System_Linq_Expressions_BlockExpressionList_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_BlockExpressionList__get_IsReadOnly (System_Linq_Expressions_BlockExpressionList_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_BlockExpressionList__Remove (System_Linq_Expressions_BlockExpressionList_o* __this, System_Linq_Expressions_Expression_o* item, const MethodInfo* method);
+System_Collections_Generic_IEnumerator_Expression__o* System_Linq_Expressions_BlockExpressionList__GetEnumerator (System_Linq_Expressions_BlockExpressionList_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* System_Linq_Expressions_BlockExpressionList__System_Collections_IEnumerable_GetEnumerator (System_Linq_Expressions_BlockExpressionList_o* __this, const MethodInfo* method);

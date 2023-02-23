@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LightLambda__RunVoid0 (System_Linq_Expressions_Interpreter_LightLambda_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LightLambda___ctor (System_Linq_Expressions_Interpreter_LightLambda_o* __this, System_Linq_Expressions_Interpreter_LightDelegateCreator_o* delegateCreator, System_Runtime_CompilerServices_IStrongBox_array* closure, const MethodInfo* method);
+System_Func_LightLambda__Delegate__o* System_Linq_Expressions_Interpreter_LightLambda__GetRunDelegateCtor (System_Type_o* delegateType, const MethodInfo* method);
+System_Func_LightLambda__Delegate__o* System_Linq_Expressions_Interpreter_LightLambda__MakeRunDelegateCtor (System_Type_o* delegateType, const MethodInfo* method);
+System_Delegate_o* System_Linq_Expressions_Interpreter_LightLambda__CreateCustomDelegate (System_Linq_Expressions_Interpreter_LightLambda_o* __this, System_Type_o* delegateType, const MethodInfo* method);
+System_Delegate_o* System_Linq_Expressions_Interpreter_LightLambda__MakeDelegate (System_Linq_Expressions_Interpreter_LightLambda_o* __this, System_Type_o* delegateType, const MethodInfo* method);
+System_Linq_Expressions_Interpreter_InterpretedFrame_o* System_Linq_Expressions_Interpreter_LightLambda__MakeFrame (System_Linq_Expressions_Interpreter_LightLambda_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LightLambda__RunVoidRef2_object__object_ (System_Linq_Expressions_Interpreter_LightLambda_o* __this, Il2CppObject** arg0, Il2CppObject** arg1, const MethodInfo_299B3F0* method);
+Il2CppObject* System_Linq_Expressions_Interpreter_LightLambda__Run (System_Linq_Expressions_Interpreter_LightLambda_o* __this, System_Object_array* arguments, const MethodInfo* method);
+Il2CppObject* System_Linq_Expressions_Interpreter_LightLambda__RunVoid (System_Linq_Expressions_Interpreter_LightLambda_o* __this, System_Object_array* arguments, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_LightLambda___cctor (const MethodInfo* method);

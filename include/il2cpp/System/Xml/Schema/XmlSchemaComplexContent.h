@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool System_Xml_Schema_XmlSchemaComplexContent__get_IsMixed (System_Xml_Schema_XmlSchemaComplexContent_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaComplexContent__set_IsMixed (System_Xml_Schema_XmlSchemaComplexContent_o* __this, bool value, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaContent_o* System_Xml_Schema_XmlSchemaComplexContent__get_Content (System_Xml_Schema_XmlSchemaComplexContent_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaComplexContent__set_Content (System_Xml_Schema_XmlSchemaComplexContent_o* __this, System_Xml_Schema_XmlSchemaContent_o* value, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaComplexContent__get_HasMixedAttribute (System_Xml_Schema_XmlSchemaComplexContent_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaComplexContent___ctor (System_Xml_Schema_XmlSchemaComplexContent_o* __this, const MethodInfo* method);

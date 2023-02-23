@@ -2,11 +2,14 @@
 
 #include "il2cpp.h"
 
-void UnityEngine_ScriptableObject___ctor (UnityEngine_ScriptableObject_o* __this, const MethodInfo* method_info);
-UnityEngine_ScriptableObject_o* UnityEngine_ScriptableObject__CreateInstance (System_Type_o* type, const MethodInfo* method_info);
-TMPro_TMP_FontAsset_o* UnityEngine_ScriptableObject__CreateInstance_TMP_FontAsset_ (const MethodInfo* method_info);
-UnityEngine_Timeline_MarkerTrack_o* UnityEngine_ScriptableObject__CreateInstance_MarkerTrack_ (const MethodInfo* method_info);
-Il2CppObject* UnityEngine_ScriptableObject__CreateInstance_object_ (const MethodInfo* method_info);
-UnityEngine_Networking_PlayerConnection_PlayerConnection_o* UnityEngine_ScriptableObject__CreateInstance_PlayerConnection_ (const MethodInfo* method_info);
-void UnityEngine_ScriptableObject__CreateScriptableObject (UnityEngine_ScriptableObject_o* self, const MethodInfo* method_info);
-UnityEngine_ScriptableObject_o* UnityEngine_ScriptableObject__CreateScriptableObjectInstanceFromType (System_Type_o* type, bool applyDefaultsAndReset, const MethodInfo* method_info);
+void UnityEngine_ScriptableObject___ctor (UnityEngine_ScriptableObject_o* __this, const MethodInfo* method);
+UnityEngine_ScriptableObject_o* UnityEngine_ScriptableObject__CreateInstance (System_Type_o* type, const MethodInfo* method);
+AkWwiseInitializationSettings_o* UnityEngine_ScriptableObject__CreateInstance_AkWwiseInitializationSettings_ (const MethodInfo_205E100* method);
+UnityEngine_AssetGraph_AssetBundleBuildMap_o* UnityEngine_ScriptableObject__CreateInstance_AssetBundleBuildMap_ (const MethodInfo_205E100* method);
+UnityEngine_Timeline_MarkerTrack_o* UnityEngine_ScriptableObject__CreateInstance_MarkerTrack_ (const MethodInfo_205E100* method);
+Il2CppObject* UnityEngine_ScriptableObject__CreateInstance_object_ (const MethodInfo_205E100* method);
+UnityEngine_Networking_PlayerConnection_PlayerConnection_o* UnityEngine_ScriptableObject__CreateInstance_PlayerConnection_ (const MethodInfo_205E100* method);
+TMPro_TMP_FontAsset_o* UnityEngine_ScriptableObject__CreateInstance_TMP_FontAsset_ (const MethodInfo_205E100* method);
+UnityEngine_Rendering_VolumeProfile_o* UnityEngine_ScriptableObject__CreateInstance_VolumeProfile_ (const MethodInfo_205E100* method);
+void UnityEngine_ScriptableObject__CreateScriptableObject (UnityEngine_ScriptableObject_o* self, const MethodInfo* method);
+UnityEngine_ScriptableObject_o* UnityEngine_ScriptableObject__CreateScriptableObjectInstanceFromType (System_Type_o* type, bool applyDefaultsAndReset, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_DistinctObservable_object____ctor (UniRx_Operators_DistinctObservable_T__o* __this, System_IObservable_T__o* source, System_Collections_Generic_IEqualityComparer_T__o* comparer, const MethodInfo_25F9A10* method);
+System_IDisposable_o* UniRx_Operators_DistinctObservable_object___SubscribeCore (UniRx_Operators_DistinctObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_25F9A90* method);
+void UniRx_Operators_DistinctObservable_object__object____ctor (UniRx_Operators_DistinctObservable_T__TKey__o* __this, System_IObservable_T__o* source, System_Func_T__TKey__o* keySelector, System_Collections_Generic_IEqualityComparer_TKey__o* comparer, const MethodInfo_25F9B90* method);
+System_IDisposable_o* UniRx_Operators_DistinctObservable_object__object___SubscribeCore (UniRx_Operators_DistinctObservable_T__TKey__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_25F9C30* method);

@@ -2,8 +2,15 @@
 
 #include "il2cpp.h"
 
-void UnityEngine_Rendering_RenderPipeline__InternalRender (UnityEngine_Rendering_RenderPipeline_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_array* cameras, const MethodInfo* method_info);
-bool UnityEngine_Rendering_RenderPipeline__get_disposed (UnityEngine_Rendering_RenderPipeline_o* __this, const MethodInfo* method_info);
-void UnityEngine_Rendering_RenderPipeline__set_disposed (UnityEngine_Rendering_RenderPipeline_o* __this, bool value, const MethodInfo* method_info);
-void UnityEngine_Rendering_RenderPipeline__Dispose (UnityEngine_Rendering_RenderPipeline_o* __this, const MethodInfo* method_info);
-void UnityEngine_Rendering_RenderPipeline__Dispose (UnityEngine_Rendering_RenderPipeline_o* __this, bool disposing, const MethodInfo* method_info);
+void UnityEngine_Rendering_RenderPipeline__ProcessRenderRequests (UnityEngine_Rendering_RenderPipeline_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_o* camera, System_Collections_Generic_List_Camera_RenderRequest__o* renderRequests, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__BeginFrameRendering (UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_array* cameras, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__BeginCameraRendering (UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_o* camera, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__EndFrameRendering (UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_array* cameras, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__EndCameraRendering (UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_o* camera, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__InternalRender (UnityEngine_Rendering_RenderPipeline_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_array* cameras, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__InternalRenderWithRequests (UnityEngine_Rendering_RenderPipeline_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Camera_array* cameras, System_Collections_Generic_List_Camera_RenderRequest__o* renderRequests, const MethodInfo* method);
+bool UnityEngine_Rendering_RenderPipeline__get_disposed (UnityEngine_Rendering_RenderPipeline_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__set_disposed (UnityEngine_Rendering_RenderPipeline_o* __this, bool value, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__Dispose (UnityEngine_Rendering_RenderPipeline_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline__Dispose (UnityEngine_Rendering_RenderPipeline_o* __this, bool disposing, const MethodInfo* method);
+void UnityEngine_Rendering_RenderPipeline___ctor (UnityEngine_Rendering_RenderPipeline_o* __this, const MethodInfo* method);

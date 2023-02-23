@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ResourceHandle___c__DisplayClass7_0_object____ctor (App_ResourceHandle___c__DisplayClass7_0_T__o* __this, const MethodInfo_2B84E80* method);
+void App_ResourceHandle___c__DisplayClass7_0_object____LoadAsync_b__0 (App_ResourceHandle___c__DisplayClass7_0_T__o* __this, UnityEngine_ResourceManagement_AsyncOperations_AsyncOperationHandle_o op, const MethodInfo_2B84E90* method);

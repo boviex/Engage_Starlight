@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_StandardDescriptors_HardwiredDescriptors_DefaultValue___ctor (MoonSharp_Interpreter_Interop_StandardDescriptors_HardwiredDescriptors_DefaultValue_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_StandardDescriptors_HardwiredDescriptors_DefaultValue___cctor (const MethodInfo* method);

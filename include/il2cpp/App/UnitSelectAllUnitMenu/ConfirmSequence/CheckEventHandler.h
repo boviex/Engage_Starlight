@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler___ctor (App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+bool App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler__Invoke (App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler_o* __this, const MethodInfo* method);
+System_IAsyncResult_o* App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler__BeginInvoke (App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler_o* __this, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
+bool App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler__EndInvoke (App_UnitSelectAllUnitMenu_ConfirmSequence_CheckEventHandler_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

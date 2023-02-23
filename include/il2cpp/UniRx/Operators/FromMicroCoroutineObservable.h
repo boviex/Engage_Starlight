@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_FromMicroCoroutineObservable_long____ctor (UniRx_Operators_FromMicroCoroutineObservable_T__o* __this, System_Func_IObserver_T___CancellationToken__IEnumerator__o* coroutine, int32_t frameCountType, const MethodInfo_33F9740* method);
+void UniRx_Operators_FromMicroCoroutineObservable_object____ctor (UniRx_Operators_FromMicroCoroutineObservable_T__o* __this, System_Func_IObserver_T___CancellationToken__IEnumerator__o* coroutine, int32_t frameCountType, const MethodInfo_33F9A10* method);
+void UniRx_Operators_FromMicroCoroutineObservable_Unit____ctor (UniRx_Operators_FromMicroCoroutineObservable_T__o* __this, System_Func_IObserver_T___CancellationToken__IEnumerator__o* coroutine, int32_t frameCountType, const MethodInfo_1F029A0* method);
+System_IDisposable_o* UniRx_Operators_FromMicroCoroutineObservable_long___SubscribeCore (UniRx_Operators_FromMicroCoroutineObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F97A0* method);
+System_IDisposable_o* UniRx_Operators_FromMicroCoroutineObservable_object___SubscribeCore (UniRx_Operators_FromMicroCoroutineObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F9A70* method);
+System_IDisposable_o* UniRx_Operators_FromMicroCoroutineObservable_Unit___SubscribeCore (UniRx_Operators_FromMicroCoroutineObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_1F02A00* method);

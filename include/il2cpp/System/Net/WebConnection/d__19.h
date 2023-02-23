@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Net_WebConnection__InitConnection_d__19__MoveNext (System_Net_WebConnection__InitConnection_d__19_o __this, const MethodInfo* method);
+void System_Net_WebConnection__InitConnection_d__19__SetStateMachine (System_Net_WebConnection__InitConnection_d__19_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

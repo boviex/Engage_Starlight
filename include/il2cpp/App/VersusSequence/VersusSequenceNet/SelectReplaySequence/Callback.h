@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback___ctor (App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback__Invoke (App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback_o* __this, int32_t result, App_VersusServerReplayMetaData_o* metaData, const MethodInfo* method);
+System_IAsyncResult_o* App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback__BeginInvoke (App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback_o* __this, int32_t result, App_VersusServerReplayMetaData_o* metaData, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
+void App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback__EndInvoke (App_VersusSequence_VersusSequenceNet_SelectReplaySequence_Callback_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

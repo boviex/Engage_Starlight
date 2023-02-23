@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_AllElementsContentValidator___ctor (System_Xml_Schema_AllElementsContentValidator_o* __this, int32_t contentType, int32_t size, bool isEmptiable, const MethodInfo* method);
+bool System_Xml_Schema_AllElementsContentValidator__AddElement (System_Xml_Schema_AllElementsContentValidator_o* __this, System_Xml_XmlQualifiedName_o* name, Il2CppObject* particle, bool isEmptiable, const MethodInfo* method);
+bool System_Xml_Schema_AllElementsContentValidator__get_IsEmptiable (System_Xml_Schema_AllElementsContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_AllElementsContentValidator__InitValidation (System_Xml_Schema_AllElementsContentValidator_o* __this, System_Xml_Schema_ValidationState_o* context, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_AllElementsContentValidator__ValidateElement (System_Xml_Schema_AllElementsContentValidator_o* __this, System_Xml_XmlQualifiedName_o* name, System_Xml_Schema_ValidationState_o* context, int32_t* errorCode, const MethodInfo* method);
+bool System_Xml_Schema_AllElementsContentValidator__CompleteValidation (System_Xml_Schema_AllElementsContentValidator_o* __this, System_Xml_Schema_ValidationState_o* context, const MethodInfo* method);
+System_Collections_ArrayList_o* System_Xml_Schema_AllElementsContentValidator__ExpectedElements (System_Xml_Schema_AllElementsContentValidator_o* __this, System_Xml_Schema_ValidationState_o* context, bool isRequiredOnly, const MethodInfo* method);
+System_Collections_ArrayList_o* System_Xml_Schema_AllElementsContentValidator__ExpectedParticles (System_Xml_Schema_AllElementsContentValidator_o* __this, System_Xml_Schema_ValidationState_o* context, bool isRequiredOnly, System_Xml_Schema_XmlSchemaSet_o* schemaSet, const MethodInfo* method);

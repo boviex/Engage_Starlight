@@ -1,0 +1,19 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_DebugTransporterItemMenu_EditMenuItem___ctor (App_DebugTransporterItemMenu_EditMenuItem_o* __this, int32_t index, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_EditMenuItem__GetColumnCount (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+float App_DebugTransporterItemMenu_EditMenuItem__GetColumnWidth0 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+float App_DebugTransporterItemMenu_EditMenuItem__GetColumnWidth1 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+float App_DebugTransporterItemMenu_EditMenuItem__GetColumnWidth2 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugTransporterItemMenu_EditMenuItem__GetColumnName0 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+App_UnitItem_o* App_DebugTransporterItemMenu_EditMenuItem__GetUnitItem (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugTransporterItemMenu_EditMenuItem__GetColumnName1 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugTransporterItemMenu_EditMenuItem__GetColumnName2 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_EditMenuItem__GetColumnAlign0 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_EditMenuItem__GetColumnAlign1 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_EditMenuItem__GetColumnAlign2 (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_EditMenuItem__ACall (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+int32_t App_DebugTransporterItemMenu_EditMenuItem__XCall (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_DebugTransporterItemMenu_EditMenuItem__GetHelp (App_DebugTransporterItemMenu_EditMenuItem_o* __this, const MethodInfo* method);

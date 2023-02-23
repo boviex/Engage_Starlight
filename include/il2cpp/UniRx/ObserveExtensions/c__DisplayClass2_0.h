@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_ObserveExtensions___c__DisplayClass2_0_object__object____ctor (UniRx_ObserveExtensions___c__DisplayClass2_0_TSource__TProperty__o* __this, const MethodInfo_2B80660* method);
+System_Collections_IEnumerator_o* UniRx_ObserveExtensions___c__DisplayClass2_0_object__object____ObserveEveryValueChanged_b__0 (UniRx_ObserveExtensions___c__DisplayClass2_0_TSource__TProperty__o* __this, System_IObserver_TProperty__o* observer, System_Threading_CancellationToken_o cancellationToken, const MethodInfo_2B80670* method);

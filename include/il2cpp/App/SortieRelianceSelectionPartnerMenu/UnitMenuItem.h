@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_SortieRelianceSelectionPartnerMenu_UnitMenuItem___ctor (App_SortieRelianceSelectionPartnerMenu_UnitMenuItem_o* __this, App_Unit_o* unit, const MethodInfo* method);
+int32_t App_SortieRelianceSelectionPartnerMenu_UnitMenuItem__BuildAttribute (App_SortieRelianceSelectionPartnerMenu_UnitMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_SortieRelianceSelectionPartnerMenu_UnitMenuItem__GetName (App_SortieRelianceSelectionPartnerMenu_UnitMenuItem_o* __this, const MethodInfo* method);
+int32_t App_SortieRelianceSelectionPartnerMenu_UnitMenuItem__ACall (App_SortieRelianceSelectionPartnerMenu_UnitMenuItem_o* __this, const MethodInfo* method);
+int32_t App_SortieRelianceSelectionPartnerMenu_UnitMenuItem__BCall (App_SortieRelianceSelectionPartnerMenu_UnitMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_SortieRelianceSelectionPartnerMenu_UnitMenuItem__GetLevelText (App_SortieRelianceSelectionPartnerMenu_UnitMenuItem_o* __this, int32_t level, const MethodInfo* method);

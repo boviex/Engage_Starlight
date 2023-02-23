@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusCasualMenu_SelectMapMenuItem___ctor (App_VersusSequence_VersusCasualMenu_SelectMapMenuItem_o* __this, int32_t mapNumber, const MethodInfo* method);
+int32_t App_VersusSequence_VersusCasualMenu_SelectMapMenuItem__ACall (App_VersusSequence_VersusCasualMenu_SelectMapMenuItem_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusCasualMenu_SelectMapMenuItem__OnSelect (App_VersusSequence_VersusCasualMenu_SelectMapMenuItem_o* __this, const MethodInfo* method);

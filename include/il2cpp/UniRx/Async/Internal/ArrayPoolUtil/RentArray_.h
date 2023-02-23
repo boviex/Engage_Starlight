@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_UniTask_object_____ctor (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, UniRx_Async_UniTask_object__array* array, int32_t length, UniRx_Async_Internal_ArrayPool_T__o* pool, const MethodInfo_3008620* method);
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_UniTask_object____Dispose (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, const MethodInfo_3008670* method);
+void UniRx_Async_Internal_ArrayPoolUtil_RentArray_UniTask_object____DisposeManually (UniRx_Async_Internal_ArrayPoolUtil_RentArray_T__o __this, bool clearArray, const MethodInfo_3008710* method);

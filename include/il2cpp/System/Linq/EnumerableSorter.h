@@ -1,0 +1,28 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Int32_array* System_Linq_EnumerableSorter_DiagnosticEvent___Sort (System_Linq_EnumerableSorter_TElement__o* __this, UnityEngine_ResourceManagement_Diagnostics_DiagnosticEvent_array* elements, int32_t count, const MethodInfo_1D2B620* method);
+System_Int32_array* System_Linq_EnumerableSorter_int___Sort (System_Linq_EnumerableSorter_TElement__o* __this, System_Int32_array* elements, int32_t count, const MethodInfo_1D2B910* method);
+System_Int32_array* System_Linq_EnumerableSorter_object___Sort (System_Linq_EnumerableSorter_TElement__o* __this, System_Object_array* elements, int32_t count, const MethodInfo_1D2BC00* method);
+void System_Linq_EnumerableSorter_DiagnosticEvent___QuickSort (System_Linq_EnumerableSorter_TElement__o* __this, System_Int32_array* map, int32_t left, int32_t right, const MethodInfo_1D2B710* method);
+void System_Linq_EnumerableSorter_int___QuickSort (System_Linq_EnumerableSorter_TElement__o* __this, System_Int32_array* map, int32_t left, int32_t right, const MethodInfo_1D2BA00* method);
+void System_Linq_EnumerableSorter_object___QuickSort (System_Linq_EnumerableSorter_TElement__o* __this, System_Int32_array* map, int32_t left, int32_t right, const MethodInfo_1D2BCF0* method);
+void System_Linq_EnumerableSorter_DiagnosticEvent____ctor (System_Linq_EnumerableSorter_TElement__o* __this, const MethodInfo_1D2B900* method);
+void System_Linq_EnumerableSorter_int____ctor (System_Linq_EnumerableSorter_TElement__o* __this, const MethodInfo_1D2BBF0* method);
+void System_Linq_EnumerableSorter_object____ctor (System_Linq_EnumerableSorter_TElement__o* __this, const MethodInfo_1D2BEE0* method);
+void System_Linq_EnumerableSorter_DiagnosticEvent__int____ctor (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Func_TElement__TKey__o* keySelector, System_Collections_Generic_IComparer_TKey__o* comparer, bool descending, System_Linq_EnumerableSorter_TElement__o* next, const MethodInfo_1D2C1F0* method);
+void System_Linq_EnumerableSorter_int__int____ctor (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Func_TElement__TKey__o* keySelector, System_Collections_Generic_IComparer_TKey__o* comparer, bool descending, System_Linq_EnumerableSorter_TElement__o* next, const MethodInfo_1D2C500* method);
+void System_Linq_EnumerableSorter_object__int____ctor (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Func_TElement__TKey__o* keySelector, System_Collections_Generic_IComparer_TKey__o* comparer, bool descending, System_Linq_EnumerableSorter_TElement__o* next, const MethodInfo_1D2C800* method);
+void System_Linq_EnumerableSorter_object__object____ctor (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Func_TElement__TKey__o* keySelector, System_Collections_Generic_IComparer_TKey__o* comparer, bool descending, System_Linq_EnumerableSorter_TElement__o* next, const MethodInfo_1D2CB00* method);
+void System_Linq_EnumerableSorter_object__uint____ctor (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Func_TElement__TKey__o* keySelector, System_Collections_Generic_IComparer_TKey__o* comparer, bool descending, System_Linq_EnumerableSorter_TElement__o* next, const MethodInfo_1D2CE00* method);
+void System_Linq_EnumerableSorter_DiagnosticEvent__int___ComputeKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, UnityEngine_ResourceManagement_Diagnostics_DiagnosticEvent_array* elements, int32_t count, const MethodInfo_1D2C280* method);
+void System_Linq_EnumerableSorter_int__int___ComputeKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Int32_array* elements, int32_t count, const MethodInfo_1D2C590* method);
+void System_Linq_EnumerableSorter_object__int___ComputeKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Object_array* elements, int32_t count, const MethodInfo_1D2C890* method);
+void System_Linq_EnumerableSorter_object__object___ComputeKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Object_array* elements, int32_t count, const MethodInfo_1D2CB90* method);
+void System_Linq_EnumerableSorter_object__uint___ComputeKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, System_Object_array* elements, int32_t count, const MethodInfo_1D2CE90* method);
+int32_t System_Linq_EnumerableSorter_DiagnosticEvent__int___CompareKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, int32_t index1, int32_t index2, const MethodInfo_1D2C3C0* method);
+int32_t System_Linq_EnumerableSorter_int__int___CompareKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, int32_t index1, int32_t index2, const MethodInfo_1D2C6C0* method);
+int32_t System_Linq_EnumerableSorter_object__int___CompareKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, int32_t index1, int32_t index2, const MethodInfo_1D2C9C0* method);
+int32_t System_Linq_EnumerableSorter_object__object___CompareKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, int32_t index1, int32_t index2, const MethodInfo_1D2CCC0* method);
+int32_t System_Linq_EnumerableSorter_object__uint___CompareKeys (System_Linq_EnumerableSorter_TElement__TKey__o* __this, int32_t index1, int32_t index2, const MethodInfo_1D2CFC0* method);

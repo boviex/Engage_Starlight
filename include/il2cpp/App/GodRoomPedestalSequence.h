@@ -1,0 +1,52 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GodRoomPedestalSequence__CreateBind (App_ProcInst_o* super, const MethodInfo* method);
+void App_GodRoomPedestalSequence___ctor (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+App_ProcDesc_array* App_GodRoomPedestalSequence__CreateDesc (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__LoadResources (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence__IsLoadingResources (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__StartSequence (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateTopMenu (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateSkillInheritance (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__DestroySkillInheritance (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__LoadResourcesForRefineRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence__IsLoadingResourcesForRefineRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateGodSelectMenuForRefineRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__DestroyGodSelectMenuForRefineRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateRingGachaTimesSelectMenu (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__DestroyRingGachaTimesSelectMenu (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__ExecuteRingGacha (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateRingGachaDemoSequence (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__AddAchieveOfRefineRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__UnloadResourcesForRefineRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__LoadResourcesForSynthesisRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence__IsLoadingResourcesForSynthesisRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateSynthesisRingMenuTop (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__DestroySynthesisRingMenuTop (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__ExecuteRingMerge (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateRingMergeDemoSequence (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__UnloadResourcesForSynthesisRing (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateRingCleaningMenu (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__DestroyRingCleaningMenu (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__CreateRefineGodWeapon (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__DestroyRefineGodWeapon (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__EndSequence (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence__TransitTopTitle (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_0 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_1 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_2 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_3 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_4 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_5 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_6 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_7 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_8 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_9 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_10 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+bool App_GodRoomPedestalSequence___CreateDesc_b__14_11 (App_GodRoomPedestalSequence_o* __this, const MethodInfo* method);
+void App_GodRoomPedestalSequence___CreateTopMenu_b__18_0 (App_GodRoomPedestalSequence_o* __this, int32_t r, const MethodInfo* method);
+void App_GodRoomPedestalSequence___CreateGodSelectMenuForRefineRing_b__23_0 (App_GodRoomPedestalSequence_o* __this, int32_t result, App_GodUnit_o* god, int32_t __, const MethodInfo* method);
+void App_GodRoomPedestalSequence___CreateRingGachaTimesSelectMenu_b__25_0 (App_GodRoomPedestalSequence_o* __this, int32_t result, int32_t times, const MethodInfo* method);
+void App_GodRoomPedestalSequence___CreateSynthesisRingMenuTop_b__33_0 (App_GodRoomPedestalSequence_o* __this, App_SynthesisRingMenuTop_Result_o* result, const MethodInfo* method);

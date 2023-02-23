@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Unity_Collections_LowLevel_Unsafe_NativeDisableContainerSafetyRestrictionAttribute___ctor (Unity_Collections_LowLevel_Unsafe_NativeDisableContainerSafetyRestrictionAttribute_o* __this, const MethodInfo* method);

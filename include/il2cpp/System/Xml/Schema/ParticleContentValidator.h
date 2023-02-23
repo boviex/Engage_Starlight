@@ -1,0 +1,30 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_ParticleContentValidator___ctor (System_Xml_Schema_ParticleContentValidator_o* __this, int32_t contentType, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator___ctor (System_Xml_Schema_ParticleContentValidator_o* __this, int32_t contentType, bool enableUpaCheck, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__InitValidation (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_ValidationState_o* context, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_ParticleContentValidator__ValidateElement (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_XmlQualifiedName_o* name, System_Xml_Schema_ValidationState_o* context, int32_t* errorCode, const MethodInfo* method);
+bool System_Xml_Schema_ParticleContentValidator__CompleteValidation (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_ValidationState_o* context, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__Start (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__OpenGroup (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__CloseGroup (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_ParticleContentValidator__Exists (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_XmlQualifiedName_o* name, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddName (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_XmlQualifiedName_o* name, Il2CppObject* particle, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddNamespaceList (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_NamespaceList_o* namespaceList, Il2CppObject* particle, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddLeafNode (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_SyntaxTreeNode_o* node, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddChoice (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddSequence (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddStar (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddPlus (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddQMark (System_Xml_Schema_ParticleContentValidator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__AddLeafRange (System_Xml_Schema_ParticleContentValidator_o* __this, System_Decimal_o min, System_Decimal_o max, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__Closure (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_InteriorNode_o* node, const MethodInfo* method);
+System_Xml_Schema_ContentValidator_o* System_Xml_Schema_ParticleContentValidator__Finish (System_Xml_Schema_ParticleContentValidator_o* __this, bool useDFA, const MethodInfo* method);
+System_Xml_Schema_BitSet_array* System_Xml_Schema_ParticleContentValidator__CalculateTotalFollowposForRangeNodes (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_BitSet_o* firstpos, System_Xml_Schema_BitSet_array* followpos, System_Xml_Schema_BitSet_o** posWithRangeTerminals, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__CheckCMUPAWithLeafRangeNodes (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_BitSet_o* curpos, const MethodInfo* method);
+System_Xml_Schema_BitSet_o* System_Xml_Schema_ParticleContentValidator__GetApplicableMinMaxFollowPos (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_BitSet_o* curpos, System_Xml_Schema_BitSet_o* posWithRangeTerminals, System_Xml_Schema_BitSet_array* minmaxFollowPos, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__CheckUniqueParticleAttribution (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_BitSet_o* firstpos, System_Xml_Schema_BitSet_array* followpos, const MethodInfo* method);
+void System_Xml_Schema_ParticleContentValidator__CheckUniqueParticleAttribution (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_BitSet_o* curpos, const MethodInfo* method);
+System_Int32_array_array* System_Xml_Schema_ParticleContentValidator__BuildTransitionTable (System_Xml_Schema_ParticleContentValidator_o* __this, System_Xml_Schema_BitSet_o* firstpos, System_Xml_Schema_BitSet_array* followpos, int32_t endMarkerPos, const MethodInfo* method);

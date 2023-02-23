@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UniRx_CollectionReplaceEvent_object___get_Index (UniRx_CollectionReplaceEvent_object__o __this, const MethodInfo_30EEBD0* method);
+void UniRx_CollectionReplaceEvent_object___set_Index (UniRx_CollectionReplaceEvent_object__o __this, int32_t value, const MethodInfo_30EEBE0* method);
+Il2CppObject* UniRx_CollectionReplaceEvent_object___get_OldValue (UniRx_CollectionReplaceEvent_object__o __this, const MethodInfo_30EEBF0* method);
+void UniRx_CollectionReplaceEvent_object___set_OldValue (UniRx_CollectionReplaceEvent_object__o __this, Il2CppObject* value, const MethodInfo_30EEC00* method);
+Il2CppObject* UniRx_CollectionReplaceEvent_object___get_NewValue (UniRx_CollectionReplaceEvent_object__o __this, const MethodInfo_30EEC10* method);
+void UniRx_CollectionReplaceEvent_object___set_NewValue (UniRx_CollectionReplaceEvent_object__o __this, Il2CppObject* value, const MethodInfo_30EEC20* method);
+void UniRx_CollectionReplaceEvent_object____ctor (UniRx_CollectionReplaceEvent_object__o __this, int32_t index, Il2CppObject* oldValue, Il2CppObject* newValue, const MethodInfo_30EEC30* method);
+System_String_o* UniRx_CollectionReplaceEvent_object___ToString (UniRx_CollectionReplaceEvent_object__o __this, const MethodInfo_30EECD0* method);
+int32_t UniRx_CollectionReplaceEvent_object___GetHashCode (UniRx_CollectionReplaceEvent_object__o __this, const MethodInfo_30EEDA0* method);
+bool UniRx_CollectionReplaceEvent_object___Equals (UniRx_CollectionReplaceEvent_object__o __this, UniRx_CollectionReplaceEvent_T__o other, const MethodInfo_30EEEF0* method);

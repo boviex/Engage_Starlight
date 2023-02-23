@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+float RootMotion_FinalIK_HitReaction_HitPointEffector__GetLength (RootMotion_FinalIK_HitReaction_HitPointEffector_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_HitReaction_HitPointEffector__CrossFadeStart (RootMotion_FinalIK_HitReaction_HitPointEffector_o* __this, const MethodInfo* method);
+void RootMotion_FinalIK_HitReaction_HitPointEffector__OnApply (RootMotion_FinalIK_HitReaction_HitPointEffector_o* __this, RootMotion_FinalIK_IKSolverFullBodyBiped_o* solver, float weight, const MethodInfo* method);
+void RootMotion_FinalIK_HitReaction_HitPointEffector___ctor (RootMotion_FinalIK_HitReaction_HitPointEffector_o* __this, const MethodInfo* method);

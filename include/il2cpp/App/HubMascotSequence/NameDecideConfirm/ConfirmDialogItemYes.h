@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_HubMascotSequence_NameDecideConfirm_ConfirmDialogItemYes___ctor (App_HubMascotSequence_NameDecideConfirm_ConfirmDialogItemYes_o* __this, const MethodInfo* method);
+int32_t App_HubMascotSequence_NameDecideConfirm_ConfirmDialogItemYes__BCall (App_HubMascotSequence_NameDecideConfirm_ConfirmDialogItemYes_o* __this, const MethodInfo* method);
+int32_t App_HubMascotSequence_NameDecideConfirm_ConfirmDialogItemYes__ACall (App_HubMascotSequence_NameDecideConfirm_ConfirmDialogItemYes_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_AnimalCatchSequence_CatchConfirm_ConfirmDialogItemYes___ctor (App_AnimalCatchSequence_CatchConfirm_ConfirmDialogItemYes_o* __this, const MethodInfo* method);
+int32_t App_AnimalCatchSequence_CatchConfirm_ConfirmDialogItemYes__ACall (App_AnimalCatchSequence_CatchConfirm_ConfirmDialogItemYes_o* __this, const MethodInfo* method);

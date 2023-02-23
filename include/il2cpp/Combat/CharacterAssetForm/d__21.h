@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_CharacterAssetForm__BuildCoroutine_d__21___ctor (Combat_CharacterAssetForm__BuildCoroutine_d__21_o* __this, int32_t __1__state, const MethodInfo* method);
+void Combat_CharacterAssetForm__BuildCoroutine_d__21__System_IDisposable_Dispose (Combat_CharacterAssetForm__BuildCoroutine_d__21_o* __this, const MethodInfo* method);
+bool Combat_CharacterAssetForm__BuildCoroutine_d__21__MoveNext (Combat_CharacterAssetForm__BuildCoroutine_d__21_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_CharacterAssetForm__BuildCoroutine_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current (Combat_CharacterAssetForm__BuildCoroutine_d__21_o* __this, const MethodInfo* method);
+void Combat_CharacterAssetForm__BuildCoroutine_d__21__System_Collections_IEnumerator_Reset (Combat_CharacterAssetForm__BuildCoroutine_d__21_o* __this, const MethodInfo* method);
+Il2CppObject* Combat_CharacterAssetForm__BuildCoroutine_d__21__System_Collections_IEnumerator_get_Current (Combat_CharacterAssetForm__BuildCoroutine_d__21_o* __this, const MethodInfo* method);

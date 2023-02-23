@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_TransparentSettingsPass___ctor (UnityEngine_Rendering_Universal_TransparentSettingsPass_o* __this, int32_t evt, bool shadowReceiveSupported, const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_TransparentSettingsPass__Setup (UnityEngine_Rendering_Universal_TransparentSettingsPass_o* __this, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_TransparentSettingsPass__Execute (UnityEngine_Rendering_Universal_TransparentSettingsPass_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_TransparentSettingsPass___cctor (const MethodInfo* method);

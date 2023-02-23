@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RingCleaning_FaceImagesController___c__DisplayClass16_1___ctor (App_RingCleaning_FaceImagesController___c__DisplayClass16_1_o* __this, const MethodInfo* method);
+void App_RingCleaning_FaceImagesController___c__DisplayClass16_1___Start_b__1 (App_RingCleaning_FaceImagesController___c__DisplayClass16_1_o* __this, const MethodInfo* method);

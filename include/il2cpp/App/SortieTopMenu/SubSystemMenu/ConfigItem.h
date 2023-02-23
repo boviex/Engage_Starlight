@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_SortieTopMenu_SubSystemMenu_ConfigItem__get_FlagID (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);
+System_String_o* App_SortieTopMenu_SubSystemMenu_ConfigItem__GetName (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);
+System_String_o* App_SortieTopMenu_SubSystemMenu_ConfigItem__GetHelpText (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);
+int32_t App_SortieTopMenu_SubSystemMenu_ConfigItem__GetMapAttribute (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);
+int32_t App_SortieTopMenu_SubSystemMenu_ConfigItem__BuildAttribute (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);
+int32_t App_SortieTopMenu_SubSystemMenu_ConfigItem__ACall (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);
+int32_t App_SortieTopMenu_SubSystemMenu_ConfigItem__BCall (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);
+void App_SortieTopMenu_SubSystemMenu_ConfigItem___ctor (App_SortieTopMenu_SubSystemMenu_ConfigItem_o* __this, const MethodInfo* method);

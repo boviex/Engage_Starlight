@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_ValueTuple_UniTask__CancellationTokenRegistration__o UniRx_Async_CancellationTokenExtensions__ToUniTask (System_Threading_CancellationToken_o cts, const MethodInfo* method);
+void UniRx_Async_CancellationTokenExtensions__Callback (Il2CppObject* state, const MethodInfo* method);
+System_Threading_CancellationTokenRegistration_o UniRx_Async_CancellationTokenExtensions__RegisterWithoutCaptureExecutionContext (System_Threading_CancellationToken_o cancellationToken, System_Action_o* callback, const MethodInfo* method);
+System_Threading_CancellationTokenRegistration_o UniRx_Async_CancellationTokenExtensions__RegisterWithoutCaptureExecutionContext (System_Threading_CancellationToken_o cancellationToken, System_Action_object__o* callback, Il2CppObject* state, const MethodInfo* method);
+void UniRx_Async_CancellationTokenExtensions___cctor (const MethodInfo* method);

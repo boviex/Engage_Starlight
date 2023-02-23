@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* System_Net_NetworkInformation_UnixNoLibCIPGlobalProperties__get_DomainName (System_Net_NetworkInformation_UnixNoLibCIPGlobalProperties_o* __this, const MethodInfo* method);
+void System_Net_NetworkInformation_UnixNoLibCIPGlobalProperties___ctor (System_Net_NetworkInformation_UnixNoLibCIPGlobalProperties_o* __this, const MethodInfo* method);

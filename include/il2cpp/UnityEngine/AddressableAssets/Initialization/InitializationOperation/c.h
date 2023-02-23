@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_AddressableAssets_Initialization_InitializationOperation___c___cctor (const MethodInfo* method);
+void UnityEngine_AddressableAssets_Initialization_InitializationOperation___c___ctor (UnityEngine_AddressableAssets_Initialization_InitializationOperation___c_o* __this, const MethodInfo* method);
+bool UnityEngine_AddressableAssets_Initialization_InitializationOperation___c___Execute_b__13_0 (UnityEngine_AddressableAssets_Initialization_InitializationOperation___c_o* __this, UnityEngine_ResourceManagement_ResourceProviders_IResourceProvider_o* rp, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Cinemachine_CinemachineVirtualCameraBase_o* UnityEngine_ExposedReference_CinemachineVirtualCameraBase___Resolve (UnityEngine_ExposedReference_CinemachineVirtualCameraBase__o __this, UnityEngine_IExposedPropertyTable_o* resolver, const MethodInfo_33E3A30* method);
+UnityEngine_GameObject_o* UnityEngine_ExposedReference_GameObject___Resolve (UnityEngine_ExposedReference_GameObject__o __this, UnityEngine_IExposedPropertyTable_o* resolver, const MethodInfo_33E3A30* method);
+Il2CppObject* UnityEngine_ExposedReference_object___Resolve (UnityEngine_ExposedReference_T__o __this, UnityEngine_IExposedPropertyTable_o* resolver, const MethodInfo_33E3A30* method);
+UnityEngine_Rendering_Volume_o* UnityEngine_ExposedReference_Volume___Resolve (UnityEngine_ExposedReference_Volume__o __this, UnityEngine_IExposedPropertyTable_o* resolver, const MethodInfo_33E3A30* method);

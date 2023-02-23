@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Vector3_o RootMotion_FinalIK_InteractionTrigger_CharacterPosition__get_offset3D (RootMotion_FinalIK_InteractionTrigger_CharacterPosition_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_InteractionTrigger_CharacterPosition__get_direction3D (RootMotion_FinalIK_InteractionTrigger_CharacterPosition_o* __this, const MethodInfo* method);
+bool RootMotion_FinalIK_InteractionTrigger_CharacterPosition__IsInRange (RootMotion_FinalIK_InteractionTrigger_CharacterPosition_o* __this, UnityEngine_Transform_o* character, UnityEngine_Transform_o* trigger, float* error, const MethodInfo* method);
+void RootMotion_FinalIK_InteractionTrigger_CharacterPosition___ctor (RootMotion_FinalIK_InteractionTrigger_CharacterPosition_o* __this, const MethodInfo* method);

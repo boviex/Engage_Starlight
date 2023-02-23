@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableFixedUpdateTrigger__FixedUpdate (UniRx_Triggers_ObservableFixedUpdateTrigger_o* __this, const MethodInfo* method);
+System_IObservable_Unit__o* UniRx_Triggers_ObservableFixedUpdateTrigger__FixedUpdateAsObservable (UniRx_Triggers_ObservableFixedUpdateTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableFixedUpdateTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableFixedUpdateTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableFixedUpdateTrigger___ctor (UniRx_Triggers_ObservableFixedUpdateTrigger_o* __this, const MethodInfo* method);

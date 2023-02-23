@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Net_ProtocolViolationException___ctor (System_Net_ProtocolViolationException_o* __this, const MethodInfo* method);
+void System_Net_ProtocolViolationException___ctor (System_Net_ProtocolViolationException_o* __this, System_String_o* message, const MethodInfo* method);
+void System_Net_ProtocolViolationException___ctor (System_Net_ProtocolViolationException_o* __this, System_Runtime_Serialization_SerializationInfo_o* serializationInfo, System_Runtime_Serialization_StreamingContext_o streamingContext, const MethodInfo* method);
+void System_Net_ProtocolViolationException__System_Runtime_Serialization_ISerializable_GetObjectData (System_Net_ProtocolViolationException_o* __this, System_Runtime_Serialization_SerializationInfo_o* serializationInfo, System_Runtime_Serialization_StreamingContext_o streamingContext, const MethodInfo* method);
+void System_Net_ProtocolViolationException__GetObjectData (System_Net_ProtocolViolationException_o* __this, System_Runtime_Serialization_SerializationInfo_o* serializationInfo, System_Runtime_Serialization_StreamingContext_o streamingContext, const MethodInfo* method);

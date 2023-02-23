@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_BitArray_BitArrayEnumeratorSimple___ctor (System_Collections_BitArray_BitArrayEnumeratorSimple_o* __this, System_Collections_BitArray_o* bitarray, const MethodInfo* method);
+Il2CppObject* System_Collections_BitArray_BitArrayEnumeratorSimple__Clone (System_Collections_BitArray_BitArrayEnumeratorSimple_o* __this, const MethodInfo* method);
+bool System_Collections_BitArray_BitArrayEnumeratorSimple__MoveNext (System_Collections_BitArray_BitArrayEnumeratorSimple_o* __this, const MethodInfo* method);
+Il2CppObject* System_Collections_BitArray_BitArrayEnumeratorSimple__get_Current (System_Collections_BitArray_BitArrayEnumeratorSimple_o* __this, const MethodInfo* method);
+void System_Collections_BitArray_BitArrayEnumeratorSimple__Reset (System_Collections_BitArray_BitArrayEnumeratorSimple_o* __this, const MethodInfo* method);

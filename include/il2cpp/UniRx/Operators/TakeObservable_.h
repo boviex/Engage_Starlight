@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TakeObservable_ValueTuple_object__object_____ctor (UniRx_Operators_TakeObservable_T__o* __this, System_IObservable_T__o* source, int32_t count, const MethodInfo_34CFA60* method);
+void UniRx_Operators_TakeObservable_ValueTuple_object__object_____ctor (UniRx_Operators_TakeObservable_T__o* __this, System_IObservable_T__o* source, System_TimeSpan_o duration, UniRx_IScheduler_o* scheduler, const MethodInfo_34CFAE0* method);
+System_IObservable_T__o* UniRx_Operators_TakeObservable_ValueTuple_object__object____Combine (UniRx_Operators_TakeObservable_T__o* __this, int32_t count, const MethodInfo_34CFBF0* method);
+System_IObservable_T__o* UniRx_Operators_TakeObservable_ValueTuple_object__object____Combine (UniRx_Operators_TakeObservable_T__o* __this, System_TimeSpan_o duration, const MethodInfo_34CFC80* method);
+System_IDisposable_o* UniRx_Operators_TakeObservable_ValueTuple_object__object____SubscribeCore (UniRx_Operators_TakeObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34CFD60* method);

@@ -1,0 +1,50 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool App_HubCamera__get_IsStop (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__set_IsStop (App_HubCamera_o* __this, bool value, const MethodInfo* method);
+float App_HubCamera__get_AngleY (App_HubCamera_o* __this, const MethodInfo* method);
+bool App_HubCamera__get_IsAdjustPosition (App_HubCamera_o* __this, const MethodInfo* method);
+bool App_HubCamera__get_IsAdjustPositionSub (App_HubCamera_o* __this, const MethodInfo* method);
+bool App_HubCamera__get_IsAdjustHeight (App_HubCamera_o* __this, const MethodInfo* method);
+bool App_HubCamera__get_IsPredictionHeight (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_PredictionHeightTime (App_HubCamera_o* __this, const MethodInfo* method);
+bool App_HubCamera__get_IsMaximumZoom (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_ZoomSpeed (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_ZoomInterpolateTime (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_ZoomDistanceTime (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_CameraSpeed (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_CameraRadius (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_CameraPositionTime (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_PitchParam (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_PitchBlankParam (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_PitchHeightParam (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__get_ZoomParam (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__set_ZoomParam (App_HubCamera_o* __this, float value, const MethodInfo* method);
+System_String_o* App_HubCamera__get_CameraRoateteParamName (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__Reset (App_HubCamera_o* __this, int32_t zoomStep, const MethodInfo* method);
+void App_HubCamera__Start (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__Update (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__UpdateKey (App_HubCamera_o* __this, const MethodInfo* method);
+int32_t App_HubCamera__CompareNear (UnityEngine_RaycastHit_o a, UnityEngine_RaycastHit_o b, const MethodInfo* method);
+UnityEngine_Vector3_o App_HubCamera__GetHitOffsetPos (UnityEngine_Vector3_o pos, UnityEngine_Vector3_o target, UnityEngine_Vector3_o dir, UnityEngine_Vector3_o offset, UnityEngine_Vector3_o hit, const MethodInfo* method);
+void App_HubCamera__Commit (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__Reset (App_HubCamera_o* __this, float y, const MethodInfo* method);
+void App_HubCamera__SetAngleY (App_HubCamera_o* __this, float y, const MethodInfo* method);
+void App_HubCamera__SetAngleX (App_HubCamera_o* __this, float x, const MethodInfo* method);
+void App_HubCamera__Instant (App_HubCamera_o* __this, const MethodInfo* method);
+float App_HubCamera__GetParamTime (System_String_o* name, const MethodInfo* method);
+float App_HubCamera__GetZoomRatio (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__SetZoom (App_HubCamera_o* __this, float zoom, const MethodInfo* method);
+bool App_HubCamera__CheckScroll (App_HubCamera_o* __this, const MethodInfo* method);
+bool App_HubCamera__CheckScrollStrictly (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__StartManualCamera_NormalTalk (App_HubCamera_o* __this, UnityEngine_Vector3_o player, UnityEngine_Vector3_o target, const MethodInfo* method);
+void App_HubCamera__StartManualCamera_FaceMainTalk (App_HubCamera_o* __this, UnityEngine_Vector3_o player, UnityEngine_Vector3_o target, UnityEngine_Vector3_o forward, const MethodInfo* method);
+void App_HubCamera__StartManualCamera_ShopTalk (App_HubCamera_o* __this, UnityEngine_Vector3_o player, UnityEngine_Vector3_o target, const MethodInfo* method);
+void App_HubCamera__StartManualCamera (App_HubCamera_o* __this, UnityEngine_Vector3_o source, UnityEngine_Vector3_o target, float ratio, float angleX, float angleY, float zoom, float separateDistance, float offsetY, float moveTime, const MethodInfo* method);
+bool App_HubCamera__Intersect (App_HubCamera_o* __this, UnityEngine_Vector3_o source, UnityEngine_Vector3_o target, float ratio, float angleX, float angleY, float zoom, float separateDistance, float offsetY, const MethodInfo* method);
+void App_HubCamera__ReturnManualCamera (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera__ReturnManualCamera (App_HubCamera_o* __this, float returnTime, const MethodInfo* method);
+void App_HubCamera___ctor (App_HubCamera_o* __this, const MethodInfo* method);
+void App_HubCamera___cctor (const MethodInfo* method);

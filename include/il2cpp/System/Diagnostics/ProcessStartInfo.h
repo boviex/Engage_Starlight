@@ -1,0 +1,23 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Diagnostics_ProcessStartInfo___ctor (System_Diagnostics_ProcessStartInfo_o* __this, System_Diagnostics_Process_o* parent, const MethodInfo* method);
+void System_Diagnostics_ProcessStartInfo___ctor (System_Diagnostics_ProcessStartInfo_o* __this, System_String_o* fileName, System_String_o* arguments, const MethodInfo* method);
+System_String_o* System_Diagnostics_ProcessStartInfo__get_Arguments (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_Collections_Specialized_StringDictionary_o* System_Diagnostics_ProcessStartInfo__get_EnvironmentVariables (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+bool System_Diagnostics_ProcessStartInfo__get_RedirectStandardInput (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+bool System_Diagnostics_ProcessStartInfo__get_RedirectStandardOutput (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+bool System_Diagnostics_ProcessStartInfo__get_RedirectStandardError (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_Text_Encoding_o* System_Diagnostics_ProcessStartInfo__get_StandardErrorEncoding (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_Text_Encoding_o* System_Diagnostics_ProcessStartInfo__get_StandardOutputEncoding (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+bool System_Diagnostics_ProcessStartInfo__get_UseShellExecute (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_String_o* System_Diagnostics_ProcessStartInfo__get_UserName (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_Security_SecureString_o* System_Diagnostics_ProcessStartInfo__get_Password (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_String_o* System_Diagnostics_ProcessStartInfo__get_Domain (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+bool System_Diagnostics_ProcessStartInfo__get_LoadUserProfile (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_String_o* System_Diagnostics_ProcessStartInfo__get_FileName (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+System_String_o* System_Diagnostics_ProcessStartInfo__get_WorkingDirectory (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+void System_Diagnostics_ProcessStartInfo__set_ErrorDialog (System_Diagnostics_ProcessStartInfo_o* __this, bool value, const MethodInfo* method);
+bool System_Diagnostics_ProcessStartInfo__get_HaveEnvVars (System_Diagnostics_ProcessStartInfo_o* __this, const MethodInfo* method);
+void System_Diagnostics_ProcessStartInfo___cctor (const MethodInfo* method);

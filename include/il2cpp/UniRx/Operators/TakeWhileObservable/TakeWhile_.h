@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TakeWhileObservable_TakeWhile__long____ctor (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, UniRx_Operators_TakeWhileObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D4F10* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile__object____ctor (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, UniRx_Operators_TakeWhileObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D55D0* method);
+System_IDisposable_o* UniRx_Operators_TakeWhileObservable_TakeWhile__long___Run (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, const MethodInfo_34D4F60* method);
+System_IDisposable_o* UniRx_Operators_TakeWhileObservable_TakeWhile__object___Run (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, const MethodInfo_34D5620* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile__long___OnNext (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, int64_t value, const MethodInfo_34D5000* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile__object___OnNext (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, Il2CppObject* value, const MethodInfo_34D56C0* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile__long___OnError (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, System_Exception_o* error, const MethodInfo_34D5360* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile__object___OnError (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, System_Exception_o* error, const MethodInfo_34D5A20* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile__long___OnCompleted (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, const MethodInfo_34D54A0* method);
+void UniRx_Operators_TakeWhileObservable_TakeWhile__object___OnCompleted (UniRx_Operators_TakeWhileObservable_TakeWhile__T__o* __this, const MethodInfo_34D5B60* method);

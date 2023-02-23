@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ClassChangeJobMenu_ConfirmDialog___c__DisplayClass1_0___ctor (App_ClassChangeJobMenu_ConfirmDialog___c__DisplayClass1_0_o* __this, const MethodInfo* method);
+void App_ClassChangeJobMenu_ConfirmDialog___c__DisplayClass1_0___CreateBind_b__0 (App_ClassChangeJobMenu_ConfirmDialog___c__DisplayClass1_0_o* __this, const MethodInfo* method);

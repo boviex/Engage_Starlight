@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_ExpressionN_object____ctor (System_Linq_Expressions_ExpressionN_TDelegate__o* __this, System_Linq_Expressions_Expression_o* body, System_Collections_Generic_IReadOnlyList_ParameterExpression__o* parameters, const MethodInfo_33E4970* method);
+int32_t System_Linq_Expressions_ExpressionN_object___get_ParameterCount (System_Linq_Expressions_ExpressionN_TDelegate__o* __this, const MethodInfo_33E49B0* method);
+System_Linq_Expressions_ParameterExpression_o* System_Linq_Expressions_ExpressionN_object___GetParameter (System_Linq_Expressions_ExpressionN_TDelegate__o* __this, int32_t index, const MethodInfo_33E4A60* method);
+System_Linq_Expressions_Expression_TDelegate__o* System_Linq_Expressions_ExpressionN_object___Rewrite (System_Linq_Expressions_ExpressionN_TDelegate__o* __this, System_Linq_Expressions_Expression_o* body, System_Linq_Expressions_ParameterExpression_array* parameters, const MethodInfo_33E4B10* method);

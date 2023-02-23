@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+MoonSharp_VsCodeDebugger_SDK_Variable_array* MoonSharp_VsCodeDebugger_SDK_VariablesResponseBody__get_variables (MoonSharp_VsCodeDebugger_SDK_VariablesResponseBody_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_VariablesResponseBody__set_variables (MoonSharp_VsCodeDebugger_SDK_VariablesResponseBody_o* __this, MoonSharp_VsCodeDebugger_SDK_Variable_array* value, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_VariablesResponseBody___ctor (MoonSharp_VsCodeDebugger_SDK_VariablesResponseBody_o* __this, System_Collections_Generic_List_Variable__o* vars, const MethodInfo* method);

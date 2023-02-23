@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_CreateSafeObservable_CreateSafe_object____ctor (UniRx_Operators_CreateSafeObservable_CreateSafe_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_24FF0C0* method);
+void UniRx_Operators_CreateSafeObservable_CreateSafe_object___OnNext (UniRx_Operators_CreateSafeObservable_CreateSafe_T__o* __this, Il2CppObject* value, const MethodInfo_24FF0E0* method);
+void UniRx_Operators_CreateSafeObservable_CreateSafe_object___OnError (UniRx_Operators_CreateSafeObservable_CreateSafe_T__o* __this, System_Exception_o* error, const MethodInfo_24FF240* method);
+void UniRx_Operators_CreateSafeObservable_CreateSafe_object___OnCompleted (UniRx_Operators_CreateSafeObservable_CreateSafe_T__o* __this, const MethodInfo_24FF380* method);

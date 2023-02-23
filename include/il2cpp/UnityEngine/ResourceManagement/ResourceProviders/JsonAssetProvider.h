@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Il2CppObject* UnityEngine_ResourceManagement_ResourceProviders_JsonAssetProvider__Convert (UnityEngine_ResourceManagement_ResourceProviders_JsonAssetProvider_o* __this, System_Type_o* type, System_String_o* text, const MethodInfo* method);
+void UnityEngine_ResourceManagement_ResourceProviders_JsonAssetProvider___ctor (UnityEngine_ResourceManagement_ResourceProviders_JsonAssetProvider_o* __this, const MethodInfo* method);

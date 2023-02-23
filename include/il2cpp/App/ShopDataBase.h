@@ -1,0 +1,49 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ShopDataBase_object___Load (const MethodInfo_34481A0* method);
+System_String_o* App_ShopDataBase_object___get_Iid (App_ShopDataBase_T__o* __this, const MethodInfo_34481B0* method);
+void App_ShopDataBase_object___set_Iid (App_ShopDataBase_T__o* __this, System_String_o* value, const MethodInfo_34481C0* method);
+int32_t App_ShopDataBase_object___get_Stock (App_ShopDataBase_T__o* __this, const MethodInfo_34481D0* method);
+void App_ShopDataBase_object___set_Stock (App_ShopDataBase_T__o* __this, int32_t value, const MethodInfo_34481E0* method);
+int32_t App_ShopDataBase_object___get_Attribute (App_ShopDataBase_T__o* __this, const MethodInfo_34481F0* method);
+void App_ShopDataBase_object___set_Attribute (App_ShopDataBase_T__o* __this, int32_t value, const MethodInfo_3448200* method);
+System_String_o* App_ShopDataBase_FleaMarketData___GetWithoutPrefix (System_String_o* Iid, const MethodInfo_3448210* method);
+System_String_o* App_ShopDataBase_ItemShopData___GetWithoutPrefix (System_String_o* Iid, const MethodInfo_3448210* method);
+System_String_o* App_ShopDataBase_object___GetWithoutPrefix (System_String_o* Iid, const MethodInfo_3448210* method);
+System_String_o* App_ShopDataBase_WeaponShopData___GetWithoutPrefix (System_String_o* Iid, const MethodInfo_3448210* method);
+void App_ShopDataBase_object___OnBuild (App_ShopDataBase_T__o* __this, const MethodInfo_3448220* method);
+void App_ShopDataBase_FleaMarketData___RegistImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448230* method);
+void App_ShopDataBase_ItemShopData___RegistImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448230* method);
+void App_ShopDataBase_object___RegistImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448230* method);
+void App_ShopDataBase_WeaponShopData___RegistImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448230* method);
+App_ShopContent_array* App_ShopDataBase_FleaMarketData___SetupContentListImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448B80* method);
+App_ShopContent_array* App_ShopDataBase_ItemShopData___SetupContentListImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448B80* method);
+App_ShopContent_array* App_ShopDataBase_object___SetupContentListImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448B80* method);
+App_ShopContent_array* App_ShopDataBase_WeaponShopData___SetupContentListImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_3448B80* method);
+bool App_ShopDataBase_FleaMarketData___IsExistAdditionalStockImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A110* method);
+bool App_ShopDataBase_ItemShopData___IsExistAdditionalStockImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A110* method);
+bool App_ShopDataBase_object___IsExistAdditionalStockImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A110* method);
+bool App_ShopDataBase_WeaponShopData___IsExistAdditionalStockImpl (App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A110* method);
+void App_ShopDataBase_FleaMarketData___PurchaseImpl (System_String_o* Iid, int32_t value, App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A600* method);
+void App_ShopDataBase_ItemShopData___PurchaseImpl (System_String_o* Iid, int32_t value, App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A600* method);
+void App_ShopDataBase_object___PurchaseImpl (System_String_o* Iid, int32_t value, App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A600* method);
+void App_ShopDataBase_WeaponShopData___PurchaseImpl (System_String_o* Iid, int32_t value, App_ShopDataBase_GetStockAddedKeyFunc_T__o* GetStockAddedKey, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A600* method);
+int32_t App_ShopDataBase_FleaMarketData___GetStockNumImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A8B0* method);
+int32_t App_ShopDataBase_ItemShopData___GetStockNumImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A8B0* method);
+int32_t App_ShopDataBase_object___GetStockNumImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A8B0* method);
+int32_t App_ShopDataBase_WeaponShopData___GetStockNumImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A8B0* method);
+bool App_ShopDataBase_FleaMarketData___IsInfinityImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A9F0* method);
+bool App_ShopDataBase_ItemShopData___IsInfinityImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A9F0* method);
+bool App_ShopDataBase_object___IsInfinityImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A9F0* method);
+bool App_ShopDataBase_WeaponShopData___IsInfinityImpl (System_String_o* Iid, App_ShopDataBase_GetStockKeyFunc_T__o* GetStockKey, const MethodInfo_344A9F0* method);
+void App_ShopDataBase_FleaMarketData___SetRandomGift (System_Collections_Generic_List_string__o* IidList, const MethodInfo_344AB30* method);
+void App_ShopDataBase_object___SetRandomGift (System_Collections_Generic_List_string__o* IidList, const MethodInfo_344AB30* method);
+System_Collections_Generic_List_ItemData__o* App_ShopDataBase_FleaMarketData___GenerateRandomGift (int32_t count, const MethodInfo_344AF10* method);
+System_Collections_Generic_List_ItemData__o* App_ShopDataBase_object___GenerateRandomGift (int32_t count, const MethodInfo_344AF10* method);
+void App_ShopDataBase_FleaMarketData____ctor (App_ShopDataBase_FleaMarketData__o* __this, const MethodInfo_344B4D0* method);
+void App_ShopDataBase_ItemShopData____ctor (App_ShopDataBase_ItemShopData__o* __this, const MethodInfo_344B4D0* method);
+void App_ShopDataBase_object____ctor (App_ShopDataBase_T__o* __this, const MethodInfo_344B4D0* method);
+void App_ShopDataBase_WeaponShopData____ctor (App_ShopDataBase_WeaponShopData__o* __this, const MethodInfo_344B4D0* method);
+void App_ShopDataBase_object____cctor (const MethodInfo_344B580* method);

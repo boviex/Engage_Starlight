@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_FixedMenuItem___ctor (App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_FixedMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_FixedMenuItem__GetName (App_MainMenuSequence_GrowModeSelectMenuSequence_Menu_FixedMenuItem_o* __this, const MethodInfo* method);

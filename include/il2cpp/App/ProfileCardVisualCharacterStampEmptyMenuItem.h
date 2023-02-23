@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ProfileCardVisualCharacterStampEmptyMenuItem___ctor (App_ProfileCardVisualCharacterStampEmptyMenuItem_o* __this, bool initialSelect, const MethodInfo* method);
+void App_ProfileCardVisualCharacterStampEmptyMenuItem__OnBuildMenuItemContent (App_ProfileCardVisualCharacterStampEmptyMenuItem_o* __this, const MethodInfo* method);
+bool App_ProfileCardVisualCharacterStampEmptyMenuItem__IsNewArrival (App_ProfileCardVisualCharacterStampEmptyMenuItem_o* __this, const MethodInfo* method);
+void App_ProfileCardVisualCharacterStampEmptyMenuItem__SetAlreadyRead (App_ProfileCardVisualCharacterStampEmptyMenuItem_o* __this, const MethodInfo* method);

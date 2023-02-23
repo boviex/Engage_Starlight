@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Type_o* App_BitFieldTemplate64_MapDeployTemplate_Flag_MapDeploy____get_ValueType (App_BitFieldTemplate64_MapDeployTemplate_Flag_MapDeploy___o* __this, const MethodInfo_30D1210* method);
+void App_BitFieldTemplate64_MapDeployTemplate_Flag_MapDeploy_____ctor (App_BitFieldTemplate64_MapDeployTemplate_Flag_MapDeploy___o* __this, const MethodInfo_30D1290* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Chara_CharacterLoader__Load_d__15___ctor (Chara_CharacterLoader__Load_d__15_o* __this, int32_t __1__state, const MethodInfo* method);
+void Chara_CharacterLoader__Load_d__15__System_IDisposable_Dispose (Chara_CharacterLoader__Load_d__15_o* __this, const MethodInfo* method);
+bool Chara_CharacterLoader__Load_d__15__MoveNext (Chara_CharacterLoader__Load_d__15_o* __this, const MethodInfo* method);
+Il2CppObject* Chara_CharacterLoader__Load_d__15__System_Collections_Generic_IEnumerator_System_Object__get_Current (Chara_CharacterLoader__Load_d__15_o* __this, const MethodInfo* method);
+void Chara_CharacterLoader__Load_d__15__System_Collections_IEnumerator_Reset (Chara_CharacterLoader__Load_d__15_o* __this, const MethodInfo* method);
+Il2CppObject* Chara_CharacterLoader__Load_d__15__System_Collections_IEnumerator_get_Current (Chara_CharacterLoader__Load_d__15_o* __this, const MethodInfo* method);

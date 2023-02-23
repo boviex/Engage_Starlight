@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_ScriptPrivateResource_Extension__CheckScriptOwnership (MoonSharp_Interpreter_IScriptPrivateResource_o* containingResource, MoonSharp_Interpreter_DynValue_array* values, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptPrivateResource_Extension__CheckScriptOwnership (MoonSharp_Interpreter_IScriptPrivateResource_o* containingResource, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptPrivateResource_Extension__CheckScriptOwnership (MoonSharp_Interpreter_IScriptPrivateResource_o* resource, MoonSharp_Interpreter_Script_o* script, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptPrivateResource_Extension__CheckScriptOwnership (MoonSharp_Interpreter_IScriptPrivateResource_o* containingResource, MoonSharp_Interpreter_IScriptPrivateResource_o* itemResource, const MethodInfo* method);

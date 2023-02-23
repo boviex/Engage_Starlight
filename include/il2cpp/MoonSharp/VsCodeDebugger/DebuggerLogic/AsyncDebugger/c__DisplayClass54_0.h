@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_VsCodeDebugger_DebuggerLogic_AsyncDebugger___c__DisplayClass54_0___ctor (MoonSharp_VsCodeDebugger_DebuggerLogic_AsyncDebugger___c__DisplayClass54_0_o* __this, const MethodInfo* method);
+bool MoonSharp_VsCodeDebugger_DebuggerLogic_AsyncDebugger___c__DisplayClass54_0___FindSourceByName_b__0 (MoonSharp_VsCodeDebugger_DebuggerLogic_AsyncDebugger___c__DisplayClass54_0_o* __this, MoonSharp_Interpreter_Debugging_SourceCode_o* s, const MethodInfo* method);

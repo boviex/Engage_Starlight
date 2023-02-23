@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_ScriptGlobalOptions___ctor (MoonSharp_Interpreter_ScriptGlobalOptions_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_Interop_CustomConvertersCollection_o* MoonSharp_Interpreter_ScriptGlobalOptions__get_CustomConverters (MoonSharp_Interpreter_ScriptGlobalOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptGlobalOptions__set_CustomConverters (MoonSharp_Interpreter_ScriptGlobalOptions_o* __this, MoonSharp_Interpreter_Interop_CustomConvertersCollection_o* value, const MethodInfo* method);
+MoonSharp_Interpreter_Platforms_IPlatformAccessor_o* MoonSharp_Interpreter_ScriptGlobalOptions__get_Platform (MoonSharp_Interpreter_ScriptGlobalOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptGlobalOptions__set_Platform (MoonSharp_Interpreter_ScriptGlobalOptions_o* __this, MoonSharp_Interpreter_Platforms_IPlatformAccessor_o* value, const MethodInfo* method);
+bool MoonSharp_Interpreter_ScriptGlobalOptions__get_RethrowExceptionNested (MoonSharp_Interpreter_ScriptGlobalOptions_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_ScriptGlobalOptions__set_RethrowExceptionNested (MoonSharp_Interpreter_ScriptGlobalOptions_o* __this, bool value, const MethodInfo* method);

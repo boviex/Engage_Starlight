@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02___ctor (MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02__Invoke (MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02_o* __this, Il2CppObject* o1, Il2CppObject* o2, const MethodInfo* method);
+System_IAsyncResult_o* MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02__BeginInvoke (MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02_o* __this, Il2CppObject* o1, Il2CppObject* o2, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02__EndInvoke (MoonSharp_Interpreter_Interop_EventMemberDescriptor_EventWrapper02_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_ObjectModel_Collection_IEnumerable_Claim_____ctor (System_Collections_ObjectModel_Collection_IEnumerable_Claim___o* __this, const MethodInfo_30EF080* method);
+int32_t System_Collections_ObjectModel_Collection_IEnumerable_Claim____get_Count (System_Collections_ObjectModel_Collection_IEnumerable_Claim___o* __this, const MethodInfo_30EF150* method);
+System_Collections_Generic_IEnumerable_Claim__o* System_Collections_ObjectModel_Collection_IEnumerable_Claim____get_Item (System_Collections_ObjectModel_Collection_IEnumerable_Claim___o* __this, int32_t index, const MethodInfo_30EF1E0* method);

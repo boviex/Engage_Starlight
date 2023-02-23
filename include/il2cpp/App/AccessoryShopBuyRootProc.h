@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_AccessoryShopBuyRootProc___ctor (App_AccessoryShopBuyRootProc_o* __this, App_ProcInst_o* super, UnityEngine_GameObject_o* keyHelpAllObject, UnityEngine_Animator_o* keyHelpAllAnimator, App_AccessoryShopBuyRootProc_ChangeUnitToPrevEventHandler_o* changeUnitToPrevEventHandler, App_AccessoryShopBuyRootProc_ChangeUnitToNextEventHandler_o* changeUnitToNextEventHandler, App_AccessoryShopBuyRootProc_StartWatchingEventHandler_o* startWatchingEventHandler, App_AccessoryShopBuyRootProc_EndWatchingEventHandler_o* endWatchingEventHandler, App_AccessoryShopBuyRootProc_ShowUIEventHandler_o* showUIEventHandler, App_AccessoryShopBuyRootProc_HideUIEventHandler_o* hideUIEventHandler, const MethodInfo* method);
+void App_AccessoryShopBuyRootProc__OnTick (App_AccessoryShopBuyRootProc_o* __this, const MethodInfo* method);
+void App_AccessoryShopBuyRootProc__KeyHelpAllOpen (App_AccessoryShopBuyRootProc_o* __this, const MethodInfo* method);
+void App_AccessoryShopBuyRootProc__KeyHelpAllClose (App_AccessoryShopBuyRootProc_o* __this, const MethodInfo* method);

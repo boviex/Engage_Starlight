@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+uint16_t Mono_Security_Interface_MonoTlsConnectionInfo__get_CipherSuiteCode (Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, const MethodInfo* method);
+void Mono_Security_Interface_MonoTlsConnectionInfo__set_CipherSuiteCode (Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, uint16_t value, const MethodInfo* method);
+int32_t Mono_Security_Interface_MonoTlsConnectionInfo__get_ProtocolVersion (Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, const MethodInfo* method);
+void Mono_Security_Interface_MonoTlsConnectionInfo__set_ProtocolVersion (Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, int32_t value, const MethodInfo* method);
+void Mono_Security_Interface_MonoTlsConnectionInfo__set_PeerDomainName (Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* Mono_Security_Interface_MonoTlsConnectionInfo__ToString (Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, const MethodInfo* method);
+void Mono_Security_Interface_MonoTlsConnectionInfo___ctor (Mono_Security_Interface_MonoTlsConnectionInfo_o* __this, const MethodInfo* method);

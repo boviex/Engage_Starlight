@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+Il2CppObject* __f__AnonymousType6_object__object___get__request (__f__AnonymousType6___request_j__TPar____exception_j__TPar__o* __this, const MethodInfo_2B89460* method);
+Il2CppObject* __f__AnonymousType6_object__object___get__exception (__f__AnonymousType6___request_j__TPar____exception_j__TPar__o* __this, const MethodInfo_2B89470* method);
+void __f__AnonymousType6_object__object____ctor (__f__AnonymousType6___request_j__TPar____exception_j__TPar__o* __this, Il2CppObject* _request, Il2CppObject* _exception, const MethodInfo_2B89480* method);
+void __f__AnonymousType6_string__string____ctor (__f__AnonymousType6_string__string__o* __this, System_String_o* _request, System_String_o* _exception, const MethodInfo_2B89480* method);
+bool __f__AnonymousType6_object__object___Equals (__f__AnonymousType6___request_j__TPar____exception_j__TPar__o* __this, Il2CppObject* value, const MethodInfo_2B894D0* method);
+int32_t __f__AnonymousType6_object__object___GetHashCode (__f__AnonymousType6___request_j__TPar____exception_j__TPar__o* __this, const MethodInfo_2B89590* method);
+System_String_o* __f__AnonymousType6_object__object___ToString (__f__AnonymousType6___request_j__TPar____exception_j__TPar__o* __this, const MethodInfo_2B89620* method);

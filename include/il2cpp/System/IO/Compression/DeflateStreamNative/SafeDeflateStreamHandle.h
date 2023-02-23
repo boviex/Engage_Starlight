@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool System_IO_Compression_DeflateStreamNative_SafeDeflateStreamHandle__get_IsInvalid (System_IO_Compression_DeflateStreamNative_SafeDeflateStreamHandle_o* __this, const MethodInfo* method);
+void System_IO_Compression_DeflateStreamNative_SafeDeflateStreamHandle___ctor (System_IO_Compression_DeflateStreamNative_SafeDeflateStreamHandle_o* __this, const MethodInfo* method);
+bool System_IO_Compression_DeflateStreamNative_SafeDeflateStreamHandle__ReleaseHandle (System_IO_Compression_DeflateStreamNative_SafeDeflateStreamHandle_o* __this, const MethodInfo* method);

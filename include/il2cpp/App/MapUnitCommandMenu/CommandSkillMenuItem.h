@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapUnitCommandMenu_CommandSkillMenuItem___ctor (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, App_SkillData_o* commandSkill, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_CommandSkillMenuItem__get_FlagID (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_CommandSkillMenuItem__get_Mind (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_CommandSkillMenuItem__get_ActiveMind (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_CommandSkillMenuItem__get_DeployMode (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+App_SkillData_o* App_MapUnitCommandMenu_CommandSkillMenuItem__get_CommandSkill (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_CommandSkillMenuItem__GetName (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_CommandSkillMenuItem__GetCommandHelp (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_CommandSkillMenuItem__GetMapAttribute (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MapUnitCommandMenu_CommandSkillMenuItem__ACall (App_MapUnitCommandMenu_CommandSkillMenuItem_o* __this, const MethodInfo* method);

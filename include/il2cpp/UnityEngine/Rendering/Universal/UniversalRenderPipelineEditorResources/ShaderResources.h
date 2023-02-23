@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_UniversalRenderPipelineEditorResources_ShaderResources___ctor (UnityEngine_Rendering_Universal_UniversalRenderPipelineEditorResources_ShaderResources_o* __this, const MethodInfo* method);

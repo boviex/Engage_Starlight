@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c___cctor (const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c___ctor (UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c_o* __this, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c___Rebuild_b__11_0 (UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c_o* __this, UnityEngine_Rendering_DebugUI_Widget_o* x, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c___ActivatePanel_b__14_0 (UnityEngine_Rendering_UI_DebugUIHandlerCanvas___c_o* __this, UnityEngine_Rendering_UI_DebugUIHandlerPanel_o* p, const MethodInfo* method);

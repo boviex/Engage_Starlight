@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue__get_Count (UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue_o __this, const MethodInfo* method);
+void UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue__set_Count (UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue_o __this, int32_t value, const MethodInfo* method);
+void UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue___ctor (UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue_o __this, uint8_t* ptr, int32_t length, const MethodInfo* method);
+bool UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue__TryPush (UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue_o __this, System_String_o* v, const MethodInfo* method);
+bool UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue__TryPop (UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue_o __this, System_String_o** v, const MethodInfo* method);
+void UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue__Clear (UnityEngine_Rendering_CoreUnsafeUtils_FixedBufferStringQueue_o __this, const MethodInfo* method);

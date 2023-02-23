@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_DematerializeObservable_Dematerialize_object____ctor (UniRx_Operators_DematerializeObservable_Dematerialize_T__o* __this, UniRx_Operators_DematerializeObservable_T__o* parent, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_25072A0* method);
+System_IDisposable_o* UniRx_Operators_DematerializeObservable_Dematerialize_object___Run (UniRx_Operators_DematerializeObservable_Dematerialize_T__o* __this, const MethodInfo_25072F0* method);
+void UniRx_Operators_DematerializeObservable_Dematerialize_object___OnNext (UniRx_Operators_DematerializeObservable_Dematerialize_T__o* __this, UniRx_Notification_T__o* value, const MethodInfo_2507390* method);
+void UniRx_Operators_DematerializeObservable_Dematerialize_object___OnError (UniRx_Operators_DematerializeObservable_Dematerialize_T__o* __this, System_Exception_o* error, const MethodInfo_25076A0* method);
+void UniRx_Operators_DematerializeObservable_Dematerialize_object___OnCompleted (UniRx_Operators_DematerializeObservable_Dematerialize_T__o* __this, const MethodInfo_25077E0* method);

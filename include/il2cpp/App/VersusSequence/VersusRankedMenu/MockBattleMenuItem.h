@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusRankedMenu_MockBattleMenuItem___ctor (App_VersusSequence_VersusRankedMenu_MockBattleMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusRankedMenu_MockBattleMenuItem__ACall (App_VersusSequence_VersusRankedMenu_MockBattleMenuItem_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusRankedMenu_MockBattleMenuItem__OnSelect (App_VersusSequence_VersusRankedMenu_MockBattleMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusRankedMenu_MockBattleMenuItem__BuildAttribute (App_VersusSequence_VersusRankedMenu_MockBattleMenuItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t System_Linq_Expressions_Interpreter_Instruction__get_ConsumedStack (System_Linq_Expressions_Interpreter_Instruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_Instruction__get_ProducedStack (System_Linq_Expressions_Interpreter_Instruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_Instruction__get_ConsumedContinuations (System_Linq_Expressions_Interpreter_Instruction_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_Interpreter_Instruction__get_ProducedContinuations (System_Linq_Expressions_Interpreter_Instruction_o* __this, const MethodInfo* method);
+System_String_o* System_Linq_Expressions_Interpreter_Instruction__ToString (System_Linq_Expressions_Interpreter_Instruction_o* __this, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_Instruction__NullCheck (Il2CppObject* o, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_Instruction___ctor (System_Linq_Expressions_Interpreter_Instruction_o* __this, const MethodInfo* method);

@@ -1,0 +1,55 @@
+#pragma once
+
+#include "il2cpp.h"
+
+float App_HubPlayerController__get_Dir (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__set_Dir (App_HubPlayerController_o* __this, float value, const MethodInfo* method);
+float App_HubPlayerController__get_PrevDir (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__set_PrevDir (App_HubPlayerController_o* __this, float value, const MethodInfo* method);
+float App_HubPlayerController__get_ZRotate (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__set_ZRotate (App_HubPlayerController_o* __this, float value, const MethodInfo* method);
+bool App_HubPlayerController__get_IsStop (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__set_IsStop (App_HubPlayerController_o* __this, bool value, const MethodInfo* method);
+float App_HubPlayerController__get_Speed (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__set_Speed (App_HubPlayerController_o* __this, float value, const MethodInfo* method);
+Combat_Character_o* App_HubPlayerController__get_Character (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__set_Character (App_HubPlayerController_o* __this, Combat_Character_o* value, const MethodInfo* method);
+App_HubUnitController_o* App_HubPlayerController__get_UnitController (App_HubPlayerController_o* __this, const MethodInfo* method);
+App_HubCullingPlayerCollider_o* App_HubPlayerController__get_CullingCollider (App_HubPlayerController_o* __this, const MethodInfo* method);
+int32_t App_HubPlayerController__get_ControlType (App_HubPlayerController_o* __this, const MethodInfo* method);
+float App_HubPlayerController__get_RotateAngle (App_HubPlayerController_o* __this, const MethodInfo* method);
+float App_HubPlayerController__get_DefaultRadius (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__Setup (App_HubPlayerController_o* __this, UnityEngine_GameObject_o* playerRoot, UnityEngine_GameObject_o* groupRoot, UnityEngine_GameObject_o* buttonNavi, const MethodInfo* method);
+void App_HubPlayerController__SetCollider (App_HubPlayerController_o* __this, App_HubPlayerCollider_o* collider, const MethodInfo* method);
+void App_HubPlayerController__SetCullingCollider (App_HubPlayerController_o* __this, App_HubCullingPlayerCollider_o* collider, const MethodInfo* method);
+void App_HubPlayerController__Hide (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__Show (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__Start (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__LoadCharacter (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__SaveAccessory (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__RestoreAccessory (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__Reload (App_HubPlayerController_o* __this, const MethodInfo* method);
+bool App_HubPlayerController__get_IsCharacterLoading (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__set_IsCharacterLoading (App_HubPlayerController_o* __this, bool value, const MethodInfo* method);
+void App_HubPlayerController__InitLookAtTarget (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__UpdateCharacterLookAt (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__Tick (App_HubPlayerController_o* __this, float lx, float ly, const MethodInfo* method);
+void App_HubPlayerController__StartProcIdle (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__StopProcIdle (App_HubPlayerController_o* __this, bool soon, const MethodInfo* method);
+void App_HubPlayerController__Persistent (App_HubPlayerController_o* __this, const MethodInfo* method);
+System_Collections_IEnumerator_o* App_HubPlayerController__ProcIdle (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__LatePersistent (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__UpdateAccess (App_HubPlayerController_o* __this, bool force, const MethodInfo* method);
+void App_HubPlayerController__UpdateLookAt (App_HubPlayerController_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o App_HubPlayerController__FindNearestLookAtPoint (App_HubPlayerController_o* __this, const MethodInfo* method);
+UnityEngine_Transform_o* App_HubPlayerController__GetTransform (App_HubPlayerController_o* __this, const MethodInfo* method);
+bool App_HubPlayerController__get_CanAccess (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__BeginAccess (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__EndAccess (App_HubPlayerController_o* __this, bool withResetAnim, float delay, const MethodInfo* method);
+void App_HubPlayerController__ResetLook (App_HubPlayerController_o* __this, const MethodInfo* method);
+App_HubAccess_o* App_HubPlayerController__TryGetLastAccess (App_HubPlayerController_o* __this, const MethodInfo* method);
+App_HubAccess_o* App_HubPlayerController__TryGetNowAccess (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController__AddCollider (App_HubPlayerController_o* __this, UnityEngine_Collider_o* c, const MethodInfo* method);
+void App_HubPlayerController__RemoveCollider (App_HubPlayerController_o* __this, UnityEngine_Collider_o* c, const MethodInfo* method);
+bool App_HubPlayerController__IsMoving (App_HubPlayerController_o* __this, const MethodInfo* method);
+void App_HubPlayerController___ctor (App_HubPlayerController_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ToArrayObservable_ToArray_object____ctor (UniRx_Operators_ToArrayObservable_ToArray_TSource__o* __this, System_IObserver_TSource____o* observer, System_IDisposable_o* cancel, const MethodInfo_3582CB0* method);
+void UniRx_Operators_ToArrayObservable_ToArray_object___OnNext (UniRx_Operators_ToArrayObservable_ToArray_TSource__o* __this, Il2CppObject* value, const MethodInfo_3582D50* method);
+void UniRx_Operators_ToArrayObservable_ToArray_object___OnError (UniRx_Operators_ToArrayObservable_ToArray_TSource__o* __this, System_Exception_o* error, const MethodInfo_3582F20* method);
+void UniRx_Operators_ToArrayObservable_ToArray_object___OnCompleted (UniRx_Operators_ToArrayObservable_ToArray_TSource__o* __this, const MethodInfo_3583060* method);

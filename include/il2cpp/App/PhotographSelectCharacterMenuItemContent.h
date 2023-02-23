@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+TMPro_TextMeshProUGUI_o* App_PhotographSelectCharacterMenuItemContent__GetTextMeshProComponent (App_PhotographSelectCharacterMenuItemContent_o* __this, const MethodInfo* method);
+void App_PhotographSelectCharacterMenuItemContent__Build (App_PhotographSelectCharacterMenuItemContent_o* __this, App_BasicMenuItem_o* menuItem, const MethodInfo* method);
+void App_PhotographSelectCharacterMenuItemContent__SetupObject (App_PhotographSelectCharacterMenuItemContent_o* __this, App_PhotographSelectCharacterMenuItem_o* menuItem, const MethodInfo* method);
+void App_PhotographSelectCharacterMenuItemContent__UpdateTextColor (App_PhotographSelectCharacterMenuItemContent_o* __this, const MethodInfo* method);
+void App_PhotographSelectCharacterMenuItemContent___ctor (App_PhotographSelectCharacterMenuItemContent_o* __this, const MethodInfo* method);

@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Func_AsyncOperationHandle_List_string____AsyncOperationHandle_List_IResourceLocator______ctor (System_Func_AsyncOperationHandle_List_string____AsyncOperationHandle_List_IResourceLocator____o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_1F27B90* method);

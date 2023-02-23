@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_Async_Internal_RuntimeHelpersAbstraction__IsWellKnownNoReferenceContainsType_UniTask_object__ (const MethodInfo_205D480* method);
+bool UniRx_Async_Internal_RuntimeHelpersAbstraction__IsWellKnownNoReferenceContainsType_CancellationTokenRegistration_ (const MethodInfo_205D530* method);
+bool UniRx_Async_Internal_RuntimeHelpersAbstraction__IsWellKnownNoReferenceContainsType_object_ (const MethodInfo_205D5E0* method);
+bool UniRx_Async_Internal_RuntimeHelpersAbstraction__IsWellKnownNoReferenceContainsType_UniTask_ (const MethodInfo_205D690* method);
+bool UniRx_Async_Internal_RuntimeHelpersAbstraction__WellKnownNoReferenceContainsTypeInitialize (System_Type_o* t, const MethodInfo* method);

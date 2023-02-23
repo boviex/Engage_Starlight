@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MenuContent__GetMenuItemContentMax (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MenuContent_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MenuContent__SetCursorColor (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MenuContent_o* __this, UnityEngine_Color_o c, const MethodInfo* method);
+void App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MenuContent___ctor (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_MenuContent_o* __this, const MethodInfo* method);

@@ -1,0 +1,38 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_SchemaAttDef___ctor (System_Xml_Schema_SchemaAttDef_o* __this, System_Xml_XmlQualifiedName_o* name, System_String_o* prefix, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef___ctor (System_Xml_Schema_SchemaAttDef_o* __this, System_Xml_XmlQualifiedName_o* name, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef___ctor (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_Schema_SchemaAttDef__System_Xml_IDtdAttributeInfo_get_Prefix (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_Schema_SchemaAttDef__System_Xml_IDtdAttributeInfo_get_LocalName (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__System_Xml_IDtdAttributeInfo_get_LineNumber (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__System_Xml_IDtdAttributeInfo_get_LinePosition (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaAttDef__System_Xml_IDtdAttributeInfo_get_IsNonCDataType (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaAttDef__System_Xml_IDtdAttributeInfo_get_IsDeclaredInExternal (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_SchemaAttDef__System_Xml_IDtdAttributeInfo_get_IsXmlAttribute (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_Schema_SchemaAttDef__System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueExpanded (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_SchemaAttDef__System_Xml_IDtdDefaultAttributeInfo_get_DefaultValueTyped (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__System_Xml_IDtdDefaultAttributeInfo_get_ValueLineNumber (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__System_Xml_IDtdDefaultAttributeInfo_get_ValueLinePosition (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__get_LinePosition (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_LinePosition (System_Xml_Schema_SchemaAttDef_o* __this, int32_t value, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__get_LineNumber (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_LineNumber (System_Xml_Schema_SchemaAttDef_o* __this, int32_t value, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__get_ValueLinePosition (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_ValueLinePosition (System_Xml_Schema_SchemaAttDef_o* __this, int32_t value, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__get_ValueLineNumber (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_ValueLineNumber (System_Xml_Schema_SchemaAttDef_o* __this, int32_t value, const MethodInfo* method);
+System_String_o* System_Xml_Schema_SchemaAttDef__get_DefaultValueExpanded (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_DefaultValueExpanded (System_Xml_Schema_SchemaAttDef_o* __this, System_String_o* value, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__get_TokenizedType (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_TokenizedType (System_Xml_Schema_SchemaAttDef_o* __this, int32_t value, const MethodInfo* method);
+int32_t System_Xml_Schema_SchemaAttDef__get_Reserved (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_Reserved (System_Xml_Schema_SchemaAttDef_o* __this, int32_t value, const MethodInfo* method);
+bool System_Xml_Schema_SchemaAttDef__get_DefaultValueChecked (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaAttribute_o* System_Xml_Schema_SchemaAttDef__get_SchemaAttribute (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__set_SchemaAttribute (System_Xml_Schema_SchemaAttDef_o* __this, System_Xml_Schema_XmlSchemaAttribute_o* value, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef__CheckXmlSpace (System_Xml_Schema_SchemaAttDef_o* __this, System_Xml_IValidationEventHandling_o* validationEventHandling, const MethodInfo* method);
+System_Xml_Schema_SchemaAttDef_o* System_Xml_Schema_SchemaAttDef__Clone (System_Xml_Schema_SchemaAttDef_o* __this, const MethodInfo* method);
+void System_Xml_Schema_SchemaAttDef___cctor (const MethodInfo* method);

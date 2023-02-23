@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UniRx_ReactiveDictionary_TKey__TValue__o* UniRx_ReactiveDictionaryExtensions__ToReactiveDictionary_object__object_ (System_Collections_Generic_Dictionary_TKey__TValue__o* dictionary, const MethodInfo_2057630* method);

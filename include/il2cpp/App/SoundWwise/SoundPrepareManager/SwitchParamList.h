@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_SoundWwise_SoundPrepareManager_SwitchParamList___ctor (App_SoundWwise_SoundPrepareManager_SwitchParamList_o* __this, System_String_o* switchGroupName, const MethodInfo* method);
+bool App_SoundWwise_SoundPrepareManager_SwitchParamList__IncRef (App_SoundWwise_SoundPrepareManager_SwitchParamList_o* __this, System_String_o* switchName, const MethodInfo* method);
+bool App_SoundWwise_SoundPrepareManager_SwitchParamList__DecRef (App_SoundWwise_SoundPrepareManager_SwitchParamList_o* __this, System_String_o* switchName, const MethodInfo* method);
+bool App_SoundWwise_SoundPrepareManager_SwitchParamList__IsEmpty (App_SoundWwise_SoundPrepareManager_SwitchParamList_o* __this, const MethodInfo* method);
+void App_SoundWwise_SoundPrepareManager_SwitchParamList__Clear (App_SoundWwise_SoundPrepareManager_SwitchParamList_o* __this, const MethodInfo* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RingSynthesisSequence__WaitTick_d__34___ctor (App_RingSynthesisSequence__WaitTick_d__34_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_RingSynthesisSequence__WaitTick_d__34__System_IDisposable_Dispose (App_RingSynthesisSequence__WaitTick_d__34_o* __this, const MethodInfo* method);
+bool App_RingSynthesisSequence__WaitTick_d__34__MoveNext (App_RingSynthesisSequence__WaitTick_d__34_o* __this, const MethodInfo* method);
+Il2CppObject* App_RingSynthesisSequence__WaitTick_d__34__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_RingSynthesisSequence__WaitTick_d__34_o* __this, const MethodInfo* method);
+void App_RingSynthesisSequence__WaitTick_d__34__System_Collections_IEnumerator_Reset (App_RingSynthesisSequence__WaitTick_d__34_o* __this, const MethodInfo* method);
+Il2CppObject* App_RingSynthesisSequence__WaitTick_d__34__System_Collections_IEnumerator_get_Current (App_RingSynthesisSequence__WaitTick_d__34_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Reflection_MethodInfo_o* System_Linq_Expressions_CachedReflectionInfo__get_String_op_Equality_String_String (const MethodInfo* method);
+System_Reflection_MethodInfo_o* System_Linq_Expressions_CachedReflectionInfo__get_Math_Pow_Double_Double (const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_FullExpression_object____ctor (System_Linq_Expressions_FullExpression_TDelegate__o* __this, System_Linq_Expressions_Expression_o* body, System_String_o* name, bool tailCall, System_Collections_Generic_IReadOnlyList_ParameterExpression__o* parameters, const MethodInfo_1F02C70* method);
+System_String_o* System_Linq_Expressions_FullExpression_object___get_NameCore (System_Linq_Expressions_FullExpression_TDelegate__o* __this, const MethodInfo_1F02CD0* method);
+bool System_Linq_Expressions_FullExpression_object___get_TailCallCore (System_Linq_Expressions_FullExpression_TDelegate__o* __this, const MethodInfo_1F02CE0* method);

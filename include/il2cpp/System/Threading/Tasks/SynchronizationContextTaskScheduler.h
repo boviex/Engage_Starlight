@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Threading_Tasks_SynchronizationContextTaskScheduler___ctor (System_Threading_Tasks_SynchronizationContextTaskScheduler_o* __this, const MethodInfo* method);
+void System_Threading_Tasks_SynchronizationContextTaskScheduler__QueueTask (System_Threading_Tasks_SynchronizationContextTaskScheduler_o* __this, System_Threading_Tasks_Task_o* task, const MethodInfo* method);
+bool System_Threading_Tasks_SynchronizationContextTaskScheduler__TryExecuteTaskInline (System_Threading_Tasks_SynchronizationContextTaskScheduler_o* __this, System_Threading_Tasks_Task_o* task, bool taskWasPreviouslyQueued, const MethodInfo* method);
+void System_Threading_Tasks_SynchronizationContextTaskScheduler__PostCallback (Il2CppObject* obj, const MethodInfo* method);
+void System_Threading_Tasks_SynchronizationContextTaskScheduler___cctor (const MethodInfo* method);

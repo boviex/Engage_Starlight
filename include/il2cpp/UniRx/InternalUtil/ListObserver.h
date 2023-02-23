@@ -1,0 +1,46 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_InternalUtil_ListObserver_bool____ctor (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_InternalUtil_ImmutableList_IObserver_T___o* observers, const MethodInfo_3B196D0* method);
+void UniRx_InternalUtil_ListObserver_int____ctor (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_InternalUtil_ImmutableList_IObserver_T___o* observers, const MethodInfo_3B19C00* method);
+void UniRx_InternalUtil_ListObserver_Int32Enum____ctor (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_InternalUtil_ImmutableList_IObserver_T___o* observers, const MethodInfo_3B1A130* method);
+void UniRx_InternalUtil_ListObserver_LogEntry____ctor (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_InternalUtil_ImmutableList_IObserver_T___o* observers, const MethodInfo_3B1A660* method);
+void UniRx_InternalUtil_ListObserver_object____ctor (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_InternalUtil_ImmutableList_IObserver_T___o* observers, const MethodInfo_3B1AC00* method);
+void UniRx_InternalUtil_ListObserver_float____ctor (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_InternalUtil_ImmutableList_IObserver_T___o* observers, const MethodInfo_3B1B130* method);
+void UniRx_InternalUtil_ListObserver_Unit____ctor (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_InternalUtil_ImmutableList_IObserver_T___o* observers, const MethodInfo_3B1B670* method);
+void UniRx_InternalUtil_ListObserver_bool___OnCompleted (UniRx_InternalUtil_ListObserver_T__o* __this, const MethodInfo_3B19710* method);
+void UniRx_InternalUtil_ListObserver_int___OnCompleted (UniRx_InternalUtil_ListObserver_T__o* __this, const MethodInfo_3B19C40* method);
+void UniRx_InternalUtil_ListObserver_Int32Enum___OnCompleted (UniRx_InternalUtil_ListObserver_T__o* __this, const MethodInfo_3B1A170* method);
+void UniRx_InternalUtil_ListObserver_LogEntry___OnCompleted (UniRx_InternalUtil_ListObserver_T__o* __this, const MethodInfo_3B1A6A0* method);
+void UniRx_InternalUtil_ListObserver_object___OnCompleted (UniRx_InternalUtil_ListObserver_T__o* __this, const MethodInfo_3B1AC40* method);
+void UniRx_InternalUtil_ListObserver_float___OnCompleted (UniRx_InternalUtil_ListObserver_T__o* __this, const MethodInfo_3B1B170* method);
+void UniRx_InternalUtil_ListObserver_Unit___OnCompleted (UniRx_InternalUtil_ListObserver_T__o* __this, const MethodInfo_3B1B6B0* method);
+void UniRx_InternalUtil_ListObserver_bool___OnError (UniRx_InternalUtil_ListObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3B19820* method);
+void UniRx_InternalUtil_ListObserver_int___OnError (UniRx_InternalUtil_ListObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3B19D50* method);
+void UniRx_InternalUtil_ListObserver_Int32Enum___OnError (UniRx_InternalUtil_ListObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3B1A280* method);
+void UniRx_InternalUtil_ListObserver_LogEntry___OnError (UniRx_InternalUtil_ListObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3B1A7B0* method);
+void UniRx_InternalUtil_ListObserver_object___OnError (UniRx_InternalUtil_ListObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3B1AD50* method);
+void UniRx_InternalUtil_ListObserver_float___OnError (UniRx_InternalUtil_ListObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3B1B280* method);
+void UniRx_InternalUtil_ListObserver_Unit___OnError (UniRx_InternalUtil_ListObserver_T__o* __this, System_Exception_o* error, const MethodInfo_3B1B7C0* method);
+void UniRx_InternalUtil_ListObserver_bool___OnNext (UniRx_InternalUtil_ListObserver_T__o* __this, bool value, const MethodInfo_3B19930* method);
+void UniRx_InternalUtil_ListObserver_int___OnNext (UniRx_InternalUtil_ListObserver_T__o* __this, int32_t value, const MethodInfo_3B19E60* method);
+void UniRx_InternalUtil_ListObserver_Int32Enum___OnNext (UniRx_InternalUtil_ListObserver_T__o* __this, int32_t value, const MethodInfo_3B1A390* method);
+void UniRx_InternalUtil_ListObserver_LogEntry___OnNext (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_Diagnostics_LogEntry_o value, const MethodInfo_3B1A8C0* method);
+void UniRx_InternalUtil_ListObserver_object___OnNext (UniRx_InternalUtil_ListObserver_T__o* __this, Il2CppObject* value, const MethodInfo_3B1AE60* method);
+void UniRx_InternalUtil_ListObserver_float___OnNext (UniRx_InternalUtil_ListObserver_T__o* __this, float value, const MethodInfo_3B1B390* method);
+void UniRx_InternalUtil_ListObserver_Unit___OnNext (UniRx_InternalUtil_ListObserver_T__o* __this, UniRx_Unit_o value, const MethodInfo_3B1B8D0* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_bool___Add (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B19A40* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_int___Add (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B19F70* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_Int32Enum___Add (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1A4A0* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_LogEntry___Add (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1AA40* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_object___Add (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1AF70* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_float___Add (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1B4B0* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_Unit___Add (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1B9E0* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_bool___Remove (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B19AD0* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_int___Remove (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1A000* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_Int32Enum___Remove (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1A530* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_LogEntry___Remove (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1AAD0* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_object___Remove (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1B000* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_float___Remove (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1B540* method);
+System_IObserver_T__o* UniRx_InternalUtil_ListObserver_Unit___Remove (UniRx_InternalUtil_ListObserver_T__o* __this, System_IObserver_T__o* observer, const MethodInfo_3B1BA70* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ProfileCardStampVisibilitySettingDialog___c___cctor (const MethodInfo* method);
+void App_ProfileCardStampVisibilitySettingDialog___c___ctor (App_ProfileCardStampVisibilitySettingDialog___c_o* __this, const MethodInfo* method);
+void App_ProfileCardStampVisibilitySettingDialog___c___CreateBind_b__1_0 (App_ProfileCardStampVisibilitySettingDialog___c_o* __this, const MethodInfo* method);
+void App_ProfileCardStampVisibilitySettingDialog___c___CreateBind_b__1_1 (App_ProfileCardStampVisibilitySettingDialog___c_o* __this, const MethodInfo* method);

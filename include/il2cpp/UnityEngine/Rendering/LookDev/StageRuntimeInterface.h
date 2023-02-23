@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_LookDev_StageRuntimeInterface___ctor (UnityEngine_Rendering_LookDev_StageRuntimeInterface_o* __this, System_Func_bool__GameObject__o* AddGameObject, System_Func_Camera__o* GetCamera, System_Func_Light__o* GetSunLight, const MethodInfo* method);
+UnityEngine_GameObject_o* UnityEngine_Rendering_LookDev_StageRuntimeInterface__AddGameObject (UnityEngine_Rendering_LookDev_StageRuntimeInterface_o* __this, bool persistent, const MethodInfo* method);
+UnityEngine_Camera_o* UnityEngine_Rendering_LookDev_StageRuntimeInterface__get_camera (UnityEngine_Rendering_LookDev_StageRuntimeInterface_o* __this, const MethodInfo* method);
+UnityEngine_Light_o* UnityEngine_Rendering_LookDev_StageRuntimeInterface__get_sunLight (UnityEngine_Rendering_LookDev_StageRuntimeInterface_o* __this, const MethodInfo* method);

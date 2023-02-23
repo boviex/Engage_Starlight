@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_LocalVariables_VariableScope___ctor (System_Linq_Expressions_Interpreter_LocalVariables_VariableScope_o* __this, System_Linq_Expressions_Interpreter_LocalVariable_o* variable, int32_t start, System_Linq_Expressions_Interpreter_LocalVariables_VariableScope_o* parent, const MethodInfo* method);

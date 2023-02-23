@@ -1,0 +1,52 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MapInspector___ctor (App_MapInspector_o* __this, int32_t kind, const MethodInfo* method);
+int32_t App_MapInspector__GetKind (App_MapInspector_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* App_MapInspector__GetFunction (App_MapInspector_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_array* App_MapInspector__GetArgs (App_MapInspector_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* App_MapInspector__GetCondition (App_MapInspector_o* __this, const MethodInfo* method);
+bool App_MapInspector__IsCondition (App_MapInspector_o* __this, const MethodInfo* method);
+bool App_MapInspector__IsInside (App_MapInspector_o* __this, int32_t x, int32_t z, const MethodInfo* method);
+void App_MapInspector__Completed (App_MapInspector_o* __this, const MethodInfo* method);
+bool App_MapInspector__IsValue (App_MapInspector_o* __this, int32_t self, int32_t other, const MethodInfo* method);
+bool App_MapInspector__IsEanble (App_MapInspector_o* __this, const MethodInfo* method);
+bool App_MapInspector__IsEanble (App_MapInspector_o* __this, int32_t arg, const MethodInfo* method);
+bool App_MapInspector__IsEanble (App_MapInspector_o* __this, int32_t arg1, int32_t arg2, const MethodInfo* method);
+bool App_MapInspector__IsEanble (App_MapInspector_o* __this, int32_t arg1, int32_t arg2, int32_t arg3, const MethodInfo* method);
+bool App_MapInspector__IsEanble (App_MapInspector_o* __this, int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4, const MethodInfo* method);
+bool App_MapInspector__IsTerminated (App_MapInspector_o* __this, int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4, const MethodInfo* method);
+UnityEngine_Color_o App_MapInspector__get_Color (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_X (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_Z (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_X1 (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_Z1 (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_X2 (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_Z2 (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_W (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_H (App_MapInspector_o* __this, const MethodInfo* method);
+int32_t App_MapInspector__get_Hp (App_MapInspector_o* __this, const MethodInfo* method);
+void App_MapInspector__set_Hp (App_MapInspector_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapInspector__get_MaxHp (App_MapInspector_o* __this, const MethodInfo* method);
+void App_MapInspector__set_MaxHp (App_MapInspector_o* __this, int32_t value, const MethodInfo* method);
+int32_t App_MapInspector__GetCompleted (App_MapInspector_o* __this, const MethodInfo* method);
+bool App_MapInspector__CanBreakable (App_MapInspector_o* __this, const MethodInfo* method);
+bool App_MapInspector__CanBreakable (App_MapInspector_o* __this, App_Unit_o* unit, const MethodInfo* method);
+bool App_MapInspector__CanBreakable (App_MapInspector_o* __this, int32_t force, const MethodInfo* method);
+bool App_MapInspector__CanUseCannon (App_MapInspector_o* __this, const MethodInfo* method);
+bool App_MapInspector__CanShowBreakIcon (App_MapInspector_o* __this, const MethodInfo* method);
+void App_MapInspector__PreCall (App_MapInspector_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+void App_MapInspector__PostCall (App_MapInspector_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+App_ProcInst_o* App_MapInspector__Resume (App_MapInspector_o* __this, App_ProcInst_o* super, const MethodInfo* method);
+App_MapInspector_o* App_MapInspector__SetFunction (App_MapInspector_o* __this, MoonSharp_Interpreter_DynValue_o* value, const MethodInfo* method);
+App_MapInspector_o* App_MapInspector__SetArgs (App_MapInspector_o* __this, MoonSharp_Interpreter_DynValue_array* args, const MethodInfo* method);
+App_MapInspector_o* App_MapInspector__SetCondition (App_MapInspector_o* __this, MoonSharp_Interpreter_DynValue_o* condition, const MethodInfo* method);
+App_MapInspector_o* App_MapInspector__ResetCondition (App_MapInspector_o* __this, const MethodInfo* method);
+System_String_o* App_MapInspector__GetGlobalKey (App_MapInspector_o* __this, const MethodInfo* method);
+void App_MapInspector__SetGlobalKey (App_MapInspector_o* __this, const MethodInfo* method);
+void App_MapInspector__Serialize (App_MapInspector_o* __this, App_Stream_o* stream, const MethodInfo* method);
+void App_MapInspector__Deserialize (App_MapInspector_o* __this, App_Stream_o* stream, const MethodInfo* method);
+bool App_MapInspector__op_Implicit (App_MapInspector_o* exists, const MethodInfo* method);
+bool App_MapInspector__CanEnter (int32_t x, int32_t z, const MethodInfo* method);
+bool App_MapInspector__CanEnterAround (App_MapInspector_o* __this, const MethodInfo* method);

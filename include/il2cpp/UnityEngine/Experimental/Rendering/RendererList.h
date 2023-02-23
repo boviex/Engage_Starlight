@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_Experimental_Rendering_RendererList__get_isValid (UnityEngine_Experimental_Rendering_RendererList_o __this, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_RendererList__set_isValid (UnityEngine_Experimental_Rendering_RendererList_o __this, bool value, const MethodInfo* method);
+UnityEngine_Experimental_Rendering_RendererList_o UnityEngine_Experimental_Rendering_RendererList__Create (UnityEngine_Experimental_Rendering_RendererListDesc_o* desc, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_RendererList___cctor (const MethodInfo* method);

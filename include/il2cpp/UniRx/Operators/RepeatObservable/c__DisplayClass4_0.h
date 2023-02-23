@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_RepeatObservable___c__DisplayClass4_0_object____ctor (UniRx_Operators_RepeatObservable___c__DisplayClass4_0_T__o* __this, const MethodInfo_2B829F0* method);
+void UniRx_Operators_RepeatObservable___c__DisplayClass4_0_object____SubscribeCore_b__0 (UniRx_Operators_RepeatObservable___c__DisplayClass4_0_T__o* __this, System_Action_o* self, const MethodInfo_2B82A00* method);

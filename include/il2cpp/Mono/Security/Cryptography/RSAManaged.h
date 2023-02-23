@@ -1,0 +1,21 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Security_Cryptography_RSAManaged___ctor (Mono_Security_Cryptography_RSAManaged_o* __this, int32_t keySize, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__Finalize (Mono_Security_Cryptography_RSAManaged_o* __this, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__GenerateKeyPair (Mono_Security_Cryptography_RSAManaged_o* __this, const MethodInfo* method);
+int32_t Mono_Security_Cryptography_RSAManaged__get_KeySize (Mono_Security_Cryptography_RSAManaged_o* __this, const MethodInfo* method);
+bool Mono_Security_Cryptography_RSAManaged__get_PublicOnly (Mono_Security_Cryptography_RSAManaged_o* __this, const MethodInfo* method);
+System_Security_Cryptography_RSAParameters_o Mono_Security_Cryptography_RSAManaged__ExportParameters (Mono_Security_Cryptography_RSAManaged_o* __this, bool includePrivateParameters, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__ImportParameters (Mono_Security_Cryptography_RSAManaged_o* __this, System_Security_Cryptography_RSAParameters_o parameters, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__Dispose (Mono_Security_Cryptography_RSAManaged_o* __this, bool disposing, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__add_KeyGenerated (Mono_Security_Cryptography_RSAManaged_o* __this, Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_o* value, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__remove_KeyGenerated (Mono_Security_Cryptography_RSAManaged_o* __this, Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_o* value, const MethodInfo* method);
+System_String_o* Mono_Security_Cryptography_RSAManaged__ToXmlString (Mono_Security_Cryptography_RSAManaged_o* __this, bool includePrivateParameters, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_RSAManaged__GetPaddedValue (Mono_Security_Cryptography_RSAManaged_o* __this, Mono_Math_BigInteger_o* value, int32_t length, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__GenerateKeyPair (Mono_Security_Cryptography_RSAManaged_1_o* __this, const MethodInfo* method);
+bool Mono_Security_Cryptography_RSAManaged__get_PublicOnly (Mono_Security_Cryptography_RSAManaged_1_o* __this, const MethodInfo* method);
+System_Security_Cryptography_RSAParameters_o Mono_Security_Cryptography_RSAManaged__ExportParameters (Mono_Security_Cryptography_RSAManaged_1_o* __this, bool includePrivateParameters, const MethodInfo* method);
+void Mono_Security_Cryptography_RSAManaged__ImportParameters (Mono_Security_Cryptography_RSAManaged_1_o* __this, System_Security_Cryptography_RSAParameters_o parameters, const MethodInfo* method);
+System_Byte_array* Mono_Security_Cryptography_RSAManaged__GetPaddedValue (Mono_Security_Cryptography_RSAManaged_1_o* __this, Mono_Math_BigInteger_1_o* value, int32_t length, const MethodInfo* method);

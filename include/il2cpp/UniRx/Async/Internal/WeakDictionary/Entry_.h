@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UniRx_Async_Internal_WeakDictionary_Entry_object__ValueTuple_int__DateTime__object____ToString (UniRx_Async_Internal_WeakDictionary_Entry_TKey__TValue__o* __this, const MethodInfo_1D2ADB0* method);
+int32_t UniRx_Async_Internal_WeakDictionary_Entry_object__ValueTuple_int__DateTime__object____Count (UniRx_Async_Internal_WeakDictionary_Entry_TKey__TValue__o* __this, const MethodInfo_1D2AEC0* method);
+void UniRx_Async_Internal_WeakDictionary_Entry_object__ValueTuple_int__DateTime__object_____ctor (UniRx_Async_Internal_WeakDictionary_Entry_TKey__TValue__o* __this, const MethodInfo_1D2AEE0* method);

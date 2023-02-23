@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* App_MainMenuSequence_NetworkServiceSelectMenuSequence_Menu_YesMenuItem__GetName (App_MainMenuSequence_NetworkServiceSelectMenuSequence_Menu_YesMenuItem_o* __this, const MethodInfo* method);
+int32_t App_MainMenuSequence_NetworkServiceSelectMenuSequence_Menu_YesMenuItem__ACall (App_MainMenuSequence_NetworkServiceSelectMenuSequence_Menu_YesMenuItem_o* __this, const MethodInfo* method);
+void App_MainMenuSequence_NetworkServiceSelectMenuSequence_Menu_YesMenuItem___ctor (App_MainMenuSequence_NetworkServiceSelectMenuSequence_Menu_YesMenuItem_o* __this, const MethodInfo* method);

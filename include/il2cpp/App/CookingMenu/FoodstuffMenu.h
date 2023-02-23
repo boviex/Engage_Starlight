@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_CookingMenu_FoodstuffMenu___ctor (App_CookingMenu_FoodstuffMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_CookingMenu_FoodstuffMenuContent_o* menuContent, App_CookingMenu_FoodstuffMenu_DecideEventHandler_o* decideEventHandler, App_CookingMenu_FoodstuffMenu_CancelEventHandler_o* cancelEventHandler, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenu__CreateBind (App_ProcInst_o* super, App_CookingMenu_DishAllMenuContent_o* allContent, App_FoodData_o* food, System_Collections_Generic_List_FoodstuffData__o* selectedFoodstuffs, App_CookingMenu_FoodstuffMenu_DecideEventHandler_o* decideEventHandler, App_CookingMenu_FoodstuffMenu_CancelEventHandler_o* cancelEventHandler, const MethodInfo* method);
+int32_t App_CookingMenu_FoodstuffMenu__ACall (App_CookingMenu_FoodstuffMenu_o* __this, const MethodInfo* method);
+int32_t App_CookingMenu_FoodstuffMenu__BCall (App_CookingMenu_FoodstuffMenu_o* __this, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenu__AfterBuild (App_CookingMenu_FoodstuffMenu_o* __this, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenu__OnCursorMoveEnd (App_CookingMenu_FoodstuffMenu_o* __this, const MethodInfo* method);
+App_CookingMenu_FoodstuffMenu_FoodstuffMenuItem_o* App_CookingMenu_FoodstuffMenu__GetFoodstuffMenuItemCurrent (App_CookingMenu_FoodstuffMenu_o* __this, const MethodInfo* method);
+App_CookingMenu_FoodstuffMenu_FoodstuffMenuItem_o* App_CookingMenu_FoodstuffMenu__GetFoodstuffMenuItem (App_CookingMenu_FoodstuffMenu_o* __this, int32_t index, const MethodInfo* method);
+System_Collections_Generic_List_FoodstuffData__o* App_CookingMenu_FoodstuffMenu__GetSelectedFoodstuffs (App_CookingMenu_FoodstuffMenu_o* __this, const MethodInfo* method);
+void App_CookingMenu_FoodstuffMenu__OnDispose (App_CookingMenu_FoodstuffMenu_o* __this, const MethodInfo* method);

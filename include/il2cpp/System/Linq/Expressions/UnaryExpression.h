@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_UnaryExpression___ctor (System_Linq_Expressions_UnaryExpression_o* __this, int32_t nodeType, System_Linq_Expressions_Expression_o* expression, System_Type_o* type, System_Reflection_MethodInfo_o* method, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_UnaryExpression__get_Type (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_UnaryExpression__get_NodeType (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_UnaryExpression__get_Operand (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Reflection_MethodInfo_o* System_Linq_Expressions_UnaryExpression__get_Method (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_UnaryExpression__get_IsLifted (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_UnaryExpression__get_IsLiftedToNull (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_UnaryExpression__Accept (System_Linq_Expressions_UnaryExpression_o* __this, System_Linq_Expressions_ExpressionVisitor_o* visitor, const MethodInfo* method);
+bool System_Linq_Expressions_UnaryExpression__get_CanReduce (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_UnaryExpression__Reduce (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+bool System_Linq_Expressions_UnaryExpression__get_IsPrefix (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_UnaryExpression_o* System_Linq_Expressions_UnaryExpression__FunctionalOp (System_Linq_Expressions_UnaryExpression_o* __this, System_Linq_Expressions_Expression_o* operand, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_UnaryExpression__ReduceVariable (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_UnaryExpression__ReduceMember (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_UnaryExpression__ReduceIndex (System_Linq_Expressions_UnaryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_UnaryExpression_o* System_Linq_Expressions_UnaryExpression__Update (System_Linq_Expressions_UnaryExpression_o* __this, System_Linq_Expressions_Expression_o* operand, const MethodInfo* method);

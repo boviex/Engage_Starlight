@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_List_Light2D__o* UnityEngine_Experimental_Rendering_Universal_Light2DManager__get_lights (const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_Light2DManager__RegisterLight (UnityEngine_Experimental_Rendering_Universal_Light2D_o* light, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_Light2DManager__DeregisterLight (UnityEngine_Experimental_Rendering_Universal_Light2D_o* light, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_Light2DManager__ErrorIfDuplicateGlobalLight (UnityEngine_Experimental_Rendering_Universal_Light2D_o* light, const MethodInfo* method);
+bool UnityEngine_Experimental_Rendering_Universal_Light2DManager__GetGlobalColor (int32_t sortingLayerIndex, int32_t blendStyleIndex, UnityEngine_Color_o* color, const MethodInfo* method);
+bool UnityEngine_Experimental_Rendering_Universal_Light2DManager__ContainsDuplicateGlobalLight (int32_t sortingLayerIndex, int32_t blendStyleIndex, const MethodInfo* method);
+UnityEngine_SortingLayer_array* UnityEngine_Experimental_Rendering_Universal_Light2DManager__GetCachedSortingLayer (const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_Light2DManager___cctor (const MethodInfo* method);

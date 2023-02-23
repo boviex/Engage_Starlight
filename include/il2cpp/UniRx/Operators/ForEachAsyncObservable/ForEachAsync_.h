@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ForEachAsyncObservable_ForEachAsync__object____ctor (UniRx_Operators_ForEachAsyncObservable_ForEachAsync__T__o* __this, UniRx_Operators_ForEachAsyncObservable_T__o* parent, System_IObserver_Unit__o* observer, System_IDisposable_o* cancel, const MethodInfo_33F2F90* method);
+void UniRx_Operators_ForEachAsyncObservable_ForEachAsync__object___OnNext (UniRx_Operators_ForEachAsyncObservable_ForEachAsync__T__o* __this, Il2CppObject* value, const MethodInfo_33F2FE0* method);
+void UniRx_Operators_ForEachAsyncObservable_ForEachAsync__object___OnError (UniRx_Operators_ForEachAsyncObservable_ForEachAsync__T__o* __this, System_Exception_o* error, const MethodInfo_33F31B0* method);
+void UniRx_Operators_ForEachAsyncObservable_ForEachAsync__object___OnCompleted (UniRx_Operators_ForEachAsyncObservable_ForEachAsync__T__o* __this, const MethodInfo_33F3300* method);

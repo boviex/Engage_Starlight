@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Xml_Schema_XmlSchemaChoice_o* System_Xml_Schema_XmlSchemaSubstitutionGroupV1Compat__get_Choice (System_Xml_Schema_XmlSchemaSubstitutionGroupV1Compat_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaSubstitutionGroupV1Compat___ctor (System_Xml_Schema_XmlSchemaSubstitutionGroupV1Compat_o* __this, const MethodInfo* method);

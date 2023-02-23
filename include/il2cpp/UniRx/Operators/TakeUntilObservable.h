@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_TakeUntilObservable_object__object____ctor (UniRx_Operators_TakeUntilObservable_T__TOther__o* __this, System_IObservable_T__o* source, System_IObservable_TOther__o* other, const MethodInfo_34D2300* method);
+void UniRx_Operators_TakeUntilObservable_object__Unit____ctor (UniRx_Operators_TakeUntilObservable_T__TOther__o* __this, System_IObservable_T__o* source, System_IObservable_TOther__o* other, const MethodInfo_34D2450* method);
+void UniRx_Operators_TakeUntilObservable_Unit__object____ctor (UniRx_Operators_TakeUntilObservable_T__TOther__o* __this, System_IObservable_T__o* source, System_IObservable_TOther__o* other, const MethodInfo_34D25A0* method);
+System_IDisposable_o* UniRx_Operators_TakeUntilObservable_object__object___SubscribeCore (UniRx_Operators_TakeUntilObservable_T__TOther__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D23B0* method);
+System_IDisposable_o* UniRx_Operators_TakeUntilObservable_object__Unit___SubscribeCore (UniRx_Operators_TakeUntilObservable_T__TOther__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D2500* method);
+System_IDisposable_o* UniRx_Operators_TakeUntilObservable_Unit__object___SubscribeCore (UniRx_Operators_TakeUntilObservable_T__TOther__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_34D2650* method);

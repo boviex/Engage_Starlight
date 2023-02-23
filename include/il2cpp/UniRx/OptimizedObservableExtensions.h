@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_ValueTuple_object__object__ (System_IObservable_T__o* source, const MethodInfo_29BF8C0* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_ValueTuple_float__int__ (System_IObservable_T__o* source, const MethodInfo_29BF9A0* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_ValueTuple_float__Int32Enum__ (System_IObservable_T__o* source, const MethodInfo_29BFA80* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_bool_ (System_IObservable_T__o* source, const MethodInfo_29BFB60* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_int_ (System_IObservable_T__o* source, const MethodInfo_29BFC40* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_long_ (System_IObservable_T__o* source, const MethodInfo_29BFD20* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_object_ (System_IObservable_T__o* source, const MethodInfo_29BFE00* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_Unit_ (System_IObservable_T__o* source, const MethodInfo_29BFEE0* method);
+bool UniRx_OptimizedObservableExtensions__IsRequiredSubscribeOnCurrentThread_object_ (System_IObservable_T__o* source, UniRx_IScheduler_o* scheduler, const MethodInfo_29BFFC0* method);

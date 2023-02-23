@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_ResourceManagement_Util_UnityWebRequestUtilities__RequestHasErrors (UnityEngine_Networking_UnityWebRequest_o* webReq, UnityEngine_ResourceManagement_Util_UnityWebRequestResult_o** result, const MethodInfo* method);
+void UnityEngine_ResourceManagement_Util_UnityWebRequestUtilities___ctor (UnityEngine_ResourceManagement_Util_UnityWebRequestUtilities_o* __this, const MethodInfo* method);

@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+float UTJ_StringQueueExtensions_ObjectBuilder__DequeueFloat (System_Collections_Generic_Queue_string__o* queue, const MethodInfo* method);
+int32_t UTJ_StringQueueExtensions_ObjectBuilder__DequeueInt (System_Collections_Generic_Queue_string__o* queue, const MethodInfo* method);
+UnityEngine_Vector3_o UTJ_StringQueueExtensions_ObjectBuilder__DequeueVector3 (System_Collections_Generic_Queue_string__o* queue, const MethodInfo* method);
+UnityEngine_Transform_o* UTJ_StringQueueExtensions_ObjectBuilder__DequeueTransform (System_Collections_Generic_Queue_string__o* queue, UnityEngine_GameObject_o* gameObject, const MethodInfo* method);
+UnityEngine_Component_o* UTJ_StringQueueExtensions_ObjectBuilder__DequeueComponent (System_Collections_Generic_Queue_string__o* queue, System_Type_o* type, UnityEngine_GameObject_o* rootObject, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, const MethodInfo* method);
+Il2CppObject* UTJ_StringQueueExtensions_ObjectBuilder__DequeueComponent_object_ (System_Collections_Generic_Queue_string__o* queue, UnityEngine_GameObject_o* rootObject, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, const MethodInfo_29A9580* method);
+Il2CppObject* UTJ_StringQueueExtensions_ObjectBuilder__DequeueComponent_object_ (System_Collections_Generic_Queue_string__o* queue, UnityEngine_GameObject_o* rootObject, UTJ_TypedStringToValueMap_o* valueMap, const MethodInfo_29A9690* method);
+void UTJ_StringQueueExtensions_ObjectBuilder__DequeueFields (System_Collections_Generic_Queue_string__o* queue, System_Type_o* classType, Il2CppObject* item, UnityEngine_GameObject_o* rootObject, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, const MethodInfo* method);
+void UTJ_StringQueueExtensions_ObjectBuilder__DequeueFields_object_ (System_Collections_Generic_Queue_string__o* queue, Il2CppObject* item, System_String_o* firstOptionalField, const MethodInfo_29A9760* method);
+void UTJ_StringQueueExtensions_ObjectBuilder__DequeueFields (System_Collections_Generic_Queue_string__o* queue, System_Type_o* classType, Il2CppObject* item, System_String_o* firstOptionalField, const MethodInfo* method);
+Il2CppObject* UTJ_StringQueueExtensions_ObjectBuilder__DequeueObject_object_ (System_Collections_Generic_Queue_string__o* queue, System_String_o* firstOptionalField, const MethodInfo_29A9800* method);
+UTJ_SpringBoneSerialization_SpringBoneBaseSerializer_o* UTJ_StringQueueExtensions_ObjectBuilder__DequeueObject_SpringBoneSerialization_SpringBoneBaseSerializer_ (System_Collections_Generic_Queue_string__o* queue, System_String_o* firstOptionalField, const MethodInfo_29A9800* method);
+Il2CppObject* UTJ_StringQueueExtensions_ObjectBuilder__DequeueObject (System_Collections_Generic_Queue_string__o* queue, System_Type_o* type, System_String_o* firstOptionalField, const MethodInfo* method);
+Il2CppObject* UTJ_StringQueueExtensions_ObjectBuilder__ParsePrimitiveType (System_Type_o* type, System_String_o* valueSource, const MethodInfo* method);
+Il2CppObject* UTJ_StringQueueExtensions_ObjectBuilder__ParseEnum (System_Type_o* type, System_String_o* valueSource, const MethodInfo* method);
+Il2CppObject* UTJ_StringQueueExtensions_ObjectBuilder__GetValueByType (System_Collections_Generic_Queue_string__o* queue, System_Type_o* type, UnityEngine_GameObject_o* rootObject, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, const MethodInfo* method);
+System_Array_o* UTJ_StringQueueExtensions_ObjectBuilder__BuildArray (System_Collections_Generic_Queue_string__o* queue, System_Type_o* elementType, UnityEngine_GameObject_o* rootObject, System_Collections_Generic_IEnumerable_TypedStringToValueMap__o* valueMaps, const MethodInfo* method);
+UnityEngine_Component_o* UTJ_StringQueueExtensions_ObjectBuilder__FindComponent (System_Type_o* type, UnityEngine_GameObject_o* root, System_String_o* objectName, const MethodInfo* method);

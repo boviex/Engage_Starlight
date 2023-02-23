@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UniRx_InternalUtil_PriorityQueue_IndexedItem_object___CompareTo (UniRx_InternalUtil_PriorityQueue_IndexedItem_object__o __this, UniRx_InternalUtil_PriorityQueue_IndexedItem_T__o other, const MethodInfo_1F68A90* method);

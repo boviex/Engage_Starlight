@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion__Create (UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion__AddRenderPasses (UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion_o* __this, UnityEngine_Rendering_Universal_ScriptableRenderer_o* renderer, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion__Dispose (UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion_o* __this, bool disposing, const MethodInfo* method);
+bool UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion__GetMaterial (UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion___ctor (UnityEngine_Rendering_Universal_ScreenSpaceAmbientOcclusion_o* __this, const MethodInfo* method);

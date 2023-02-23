@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_TryExpression___ctor (System_Linq_Expressions_TryExpression_o* __this, System_Type_o* type, System_Linq_Expressions_Expression_o* body, System_Linq_Expressions_Expression_o* finally, System_Linq_Expressions_Expression_o* fault, System_Collections_ObjectModel_ReadOnlyCollection_CatchBlock__o* handlers, const MethodInfo* method);
+System_Type_o* System_Linq_Expressions_TryExpression__get_Type (System_Linq_Expressions_TryExpression_o* __this, const MethodInfo* method);
+int32_t System_Linq_Expressions_TryExpression__get_NodeType (System_Linq_Expressions_TryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_TryExpression__get_Body (System_Linq_Expressions_TryExpression_o* __this, const MethodInfo* method);
+System_Collections_ObjectModel_ReadOnlyCollection_CatchBlock__o* System_Linq_Expressions_TryExpression__get_Handlers (System_Linq_Expressions_TryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_TryExpression__get_Finally (System_Linq_Expressions_TryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_TryExpression__get_Fault (System_Linq_Expressions_TryExpression_o* __this, const MethodInfo* method);
+System_Linq_Expressions_Expression_o* System_Linq_Expressions_TryExpression__Accept (System_Linq_Expressions_TryExpression_o* __this, System_Linq_Expressions_ExpressionVisitor_o* visitor, const MethodInfo* method);
+System_Linq_Expressions_TryExpression_o* System_Linq_Expressions_TryExpression__Update (System_Linq_Expressions_TryExpression_o* __this, System_Linq_Expressions_Expression_o* body, System_Collections_Generic_IEnumerable_CatchBlock__o* handlers, System_Linq_Expressions_Expression_o* finally, System_Linq_Expressions_Expression_o* fault, const MethodInfo* method);

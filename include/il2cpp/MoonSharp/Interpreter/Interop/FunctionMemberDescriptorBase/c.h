@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_Interop_FunctionMemberDescriptorBase___c___cctor (const MethodInfo* method);
+void MoonSharp_Interpreter_Interop_FunctionMemberDescriptorBase___c___ctor (MoonSharp_Interpreter_Interop_FunctionMemberDescriptorBase___c_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_Interop_FunctionMemberDescriptorBase___c___Initialize_b__28_0 (MoonSharp_Interpreter_Interop_FunctionMemberDescriptorBase___c_o* __this, MoonSharp_Interpreter_Interop_BasicDescriptors_ParameterDescriptor_o* pi, const MethodInfo* method);

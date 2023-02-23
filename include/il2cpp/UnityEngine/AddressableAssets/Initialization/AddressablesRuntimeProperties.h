@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Reflection_Assembly_array* UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties__GetAssemblies (const MethodInfo* method);
+int32_t UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties__GetCachedValueCount (const MethodInfo* method);
+void UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties__SetPropertyValue (System_String_o* name, System_String_o* val, const MethodInfo* method);
+void UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties__ClearCachedPropertyValues (const MethodInfo* method);
+System_String_o* UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties__EvaluateProperty (System_String_o* name, const MethodInfo* method);
+System_String_o* UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties__EvaluateString (System_String_o* input, const MethodInfo* method);
+System_String_o* UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties__EvaluateString (System_String_o* inputString, uint16_t startDelimiter, uint16_t endDelimiter, System_Func_string__string__o* varFunc, const MethodInfo* method);
+void UnityEngine_AddressableAssets_Initialization_AddressablesRuntimeProperties___cctor (const MethodInfo* method);

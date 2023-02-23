@@ -2,4 +2,5 @@
 
 #include "il2cpp.h"
 
-void UnityEngine_ColorUsageAttribute___ctor (UnityEngine_ColorUsageAttribute_o* __this, bool showAlpha, bool hdr, const MethodInfo* method_info);
+void UnityEngine_ColorUsageAttribute___ctor (UnityEngine_ColorUsageAttribute_o* __this, bool showAlpha, const MethodInfo* method);
+void UnityEngine_ColorUsageAttribute___ctor (UnityEngine_ColorUsageAttribute_o* __this, bool showAlpha, bool hdr, const MethodInfo* method);

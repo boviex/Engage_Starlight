@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IEnumerable_ICancelablePromise__o* UniRx_Async_Triggers_AsyncTriggerTrigger__GetPromises (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncTriggerTrigger__OnTriggerEnter (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, UnityEngine_Collider_o* other, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncTriggerTrigger__OnTriggerEnterAsync (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncTriggerTrigger__OnTriggerExit (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, UnityEngine_Collider_o* other, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncTriggerTrigger__OnTriggerExitAsync (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncTriggerTrigger__OnTriggerStay (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, UnityEngine_Collider_o* other, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncTriggerTrigger__OnTriggerStayAsync (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncTriggerTrigger___ctor (UniRx_Async_Triggers_AsyncTriggerTrigger_o* __this, const MethodInfo* method);

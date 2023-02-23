@@ -1,0 +1,26 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__SetWidget (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, UnityEngine_Rendering_DebugUI_Widget_o* widget, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__SetValue (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, float x, bool r, bool g, bool b, bool a, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__SetupSettings (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, UnityEngine_Rendering_UI_DebugUIHandlerIndirectFloatField_o* field, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerColor__OnSelection (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, bool fromNext, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* previous, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__OnDeselection (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__OnIncrement (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, bool fast, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__OnDecrement (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, bool fast, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__OnAction (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor__UpdateColor (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* UnityEngine_Rendering_UI_DebugUIHandlerColor__Next (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor___ctor (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_0 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_1 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, float x, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_2 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_3 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, float x, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_4 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_5 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, float x, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_6 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerColor___SetWidget_b__9_7 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, float x, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerColor___SetupSettings_b__11_0 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerColor___SetupSettings_b__11_1 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);
+float UnityEngine_Rendering_UI_DebugUIHandlerColor___SetupSettings_b__11_2 (UnityEngine_Rendering_UI_DebugUIHandlerColor_o* __this, const MethodInfo* method);

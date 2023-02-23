@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_UI_DebugUIHandlerButton__SetWidget (UnityEngine_Rendering_UI_DebugUIHandlerButton_o* __this, UnityEngine_Rendering_DebugUI_Widget_o* widget, const MethodInfo* method);
+bool UnityEngine_Rendering_UI_DebugUIHandlerButton__OnSelection (UnityEngine_Rendering_UI_DebugUIHandlerButton_o* __this, bool fromNext, UnityEngine_Rendering_UI_DebugUIHandlerWidget_o* previous, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerButton__OnDeselection (UnityEngine_Rendering_UI_DebugUIHandlerButton_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerButton__OnAction (UnityEngine_Rendering_UI_DebugUIHandlerButton_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_UI_DebugUIHandlerButton___ctor (UnityEngine_Rendering_UI_DebugUIHandlerButton_o* __this, const MethodInfo* method);

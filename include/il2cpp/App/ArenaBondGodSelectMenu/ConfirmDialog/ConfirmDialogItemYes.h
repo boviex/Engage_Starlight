@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_ArenaBondGodSelectMenu_ConfirmDialog_ConfirmDialogItemYes___ctor (App_ArenaBondGodSelectMenu_ConfirmDialog_ConfirmDialogItemYes_o* __this, System_Action_o* decideAction, const MethodInfo* method);
+int32_t App_ArenaBondGodSelectMenu_ConfirmDialog_ConfirmDialogItemYes__ACall (App_ArenaBondGodSelectMenu_ConfirmDialog_ConfirmDialogItemYes_o* __this, const MethodInfo* method);

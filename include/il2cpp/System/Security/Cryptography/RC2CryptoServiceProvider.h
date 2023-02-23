@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_RC2CryptoServiceProvider___ctor (System_Security_Cryptography_RC2CryptoServiceProvider_o* __this, const MethodInfo* method);
+int32_t System_Security_Cryptography_RC2CryptoServiceProvider__get_EffectiveKeySize (System_Security_Cryptography_RC2CryptoServiceProvider_o* __this, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_RC2CryptoServiceProvider__CreateEncryptor (System_Security_Cryptography_RC2CryptoServiceProvider_o* __this, System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);
+System_Security_Cryptography_ICryptoTransform_o* System_Security_Cryptography_RC2CryptoServiceProvider__CreateDecryptor (System_Security_Cryptography_RC2CryptoServiceProvider_o* __this, System_Byte_array* rgbKey, System_Byte_array* rgbIV, const MethodInfo* method);
+void System_Security_Cryptography_RC2CryptoServiceProvider__GenerateKey (System_Security_Cryptography_RC2CryptoServiceProvider_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_RC2CryptoServiceProvider__GenerateIV (System_Security_Cryptography_RC2CryptoServiceProvider_o* __this, const MethodInfo* method);
+void System_Security_Cryptography_RC2CryptoServiceProvider___cctor (const MethodInfo* method);

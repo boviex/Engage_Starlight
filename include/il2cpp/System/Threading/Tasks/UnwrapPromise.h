@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Threading_Tasks_UnwrapPromise_object____ctor (System_Threading_Tasks_UnwrapPromise_TResult__o* __this, System_Threading_Tasks_Task_o* outerTask, bool lookForOce, const MethodInfo_2DEDF40* method);
+void System_Threading_Tasks_UnwrapPromise_object___Invoke (System_Threading_Tasks_UnwrapPromise_TResult__o* __this, System_Threading_Tasks_Task_o* completingTask, const MethodInfo_2DEE120* method);
+void System_Threading_Tasks_UnwrapPromise_object___InvokeCore (System_Threading_Tasks_UnwrapPromise_TResult__o* __this, System_Threading_Tasks_Task_o* completingTask, const MethodInfo_2DEE230* method);
+void System_Threading_Tasks_UnwrapPromise_object___InvokeCoreAsync (System_Threading_Tasks_UnwrapPromise_TResult__o* __this, System_Threading_Tasks_Task_o* completingTask, const MethodInfo_2DEE2A0* method);
+void System_Threading_Tasks_UnwrapPromise_object___ProcessCompletedOuterTask (System_Threading_Tasks_UnwrapPromise_TResult__o* __this, System_Threading_Tasks_Task_o* task, const MethodInfo_2DEE4A0* method);
+bool System_Threading_Tasks_UnwrapPromise_object___TrySetFromTask (System_Threading_Tasks_UnwrapPromise_TResult__o* __this, System_Threading_Tasks_Task_o* task, bool lookForOce, const MethodInfo_2DEE600* method);
+void System_Threading_Tasks_UnwrapPromise_object___ProcessInnerTask (System_Threading_Tasks_UnwrapPromise_TResult__o* __this, System_Threading_Tasks_Task_o* task, const MethodInfo_2DEE8D0* method);

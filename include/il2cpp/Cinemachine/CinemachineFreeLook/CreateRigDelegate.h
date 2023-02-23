@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineFreeLook_CreateRigDelegate___ctor (Cinemachine_CinemachineFreeLook_CreateRigDelegate_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
+Cinemachine_CinemachineVirtualCamera_o* Cinemachine_CinemachineFreeLook_CreateRigDelegate__Invoke (Cinemachine_CinemachineFreeLook_CreateRigDelegate_o* __this, Cinemachine_CinemachineFreeLook_o* vcam, System_String_o* name, Cinemachine_CinemachineVirtualCamera_o* copyFrom, const MethodInfo* method);
+System_IAsyncResult_o* Cinemachine_CinemachineFreeLook_CreateRigDelegate__BeginInvoke (Cinemachine_CinemachineFreeLook_CreateRigDelegate_o* __this, Cinemachine_CinemachineFreeLook_o* vcam, System_String_o* name, Cinemachine_CinemachineVirtualCamera_o* copyFrom, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
+Cinemachine_CinemachineVirtualCamera_o* Cinemachine_CinemachineFreeLook_CreateRigDelegate__EndInvoke (Cinemachine_CinemachineFreeLook_CreateRigDelegate_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);

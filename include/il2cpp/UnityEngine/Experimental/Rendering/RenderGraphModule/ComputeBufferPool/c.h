@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferPool___c___cctor (const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferPool___c___ctor (UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferPool___c_o* __this, const MethodInfo* method);
+bool UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferPool___c___PurgeUnusedResources_b__4_0 (UnityEngine_Experimental_Rendering_RenderGraphModule_ComputeBufferPool___c_o* __this, System_ValueTuple_ComputeBuffer__int__o obj, const MethodInfo* method);

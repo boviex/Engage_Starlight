@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_VsCodeDebugger_SDK_DebugSession___ctor (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, bool debuggerLinesStartAt1, bool debuggerPathsAreURI, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_DebugSession__SendResponse (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, MoonSharp_VsCodeDebugger_SDK_Response_o* response, MoonSharp_VsCodeDebugger_SDK_ResponseBody_o* body, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_DebugSession__SendErrorResponse (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, MoonSharp_VsCodeDebugger_SDK_Response_o* response, int32_t id, System_String_o* format, Il2CppObject* arguments, bool user, bool telemetry, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_DebugSession__DispatchRequest (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, System_String_o* command, MoonSharp_Interpreter_Table_o* args, MoonSharp_VsCodeDebugger_SDK_Response_o* response, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_DebugSession__SetFunctionBreakpoints (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, MoonSharp_VsCodeDebugger_SDK_Response_o* response, MoonSharp_Interpreter_Table_o* arguments, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_DebugSession__SetExceptionBreakpoints (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, MoonSharp_VsCodeDebugger_SDK_Response_o* response, MoonSharp_Interpreter_Table_o* arguments, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_DebugSession__Source (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, MoonSharp_VsCodeDebugger_SDK_Response_o* response, MoonSharp_Interpreter_Table_o* arguments, const MethodInfo* method);
+int32_t MoonSharp_VsCodeDebugger_SDK_DebugSession__ConvertDebuggerLineToClient (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, int32_t line, const MethodInfo* method);
+int32_t MoonSharp_VsCodeDebugger_SDK_DebugSession__ConvertClientLineToDebugger (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, int32_t line, const MethodInfo* method);
+System_String_o* MoonSharp_VsCodeDebugger_SDK_DebugSession__ConvertDebuggerPathToClient (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, System_String_o* path, const MethodInfo* method);
+System_String_o* MoonSharp_VsCodeDebugger_SDK_DebugSession__ConvertClientPathToDebugger (MoonSharp_VsCodeDebugger_SDK_DebugSession_o* __this, System_String_o* clientPath, const MethodInfo* method);

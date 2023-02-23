@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GmapMenuSequence_GmapMenu_RankingItem_JumpToRankingSequence___ctor (App_GmapMenuSequence_GmapMenu_RankingItem_JumpToRankingSequence_o* __this, System_Action_o* jumpFunc, const MethodInfo* method);
+void App_GmapMenuSequence_GmapMenu_RankingItem_JumpToRankingSequence__JumpToRanking (App_GmapMenuSequence_GmapMenu_RankingItem_JumpToRankingSequence_o* __this, const MethodInfo* method);
+void App_GmapMenuSequence_GmapMenu_RankingItem_JumpToRankingSequence__CreateBind (App_ProcInst_o* super, System_Action_o* jumpFunc, const MethodInfo* method);

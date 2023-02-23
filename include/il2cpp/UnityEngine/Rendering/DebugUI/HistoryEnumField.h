@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Func_int__array* UnityEngine_Rendering_DebugUI_HistoryEnumField__get_historyIndexGetter (UnityEngine_Rendering_DebugUI_HistoryEnumField_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_HistoryEnumField__set_historyIndexGetter (UnityEngine_Rendering_DebugUI_HistoryEnumField_o* __this, System_Func_int__array* value, const MethodInfo* method);
+int32_t UnityEngine_Rendering_DebugUI_HistoryEnumField__get_historyDepth (UnityEngine_Rendering_DebugUI_HistoryEnumField_o* __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_DebugUI_HistoryEnumField__GetHistoryValue (UnityEngine_Rendering_DebugUI_HistoryEnumField_o* __this, int32_t historyIndex, const MethodInfo* method);
+void UnityEngine_Rendering_DebugUI_HistoryEnumField___ctor (UnityEngine_Rendering_DebugUI_HistoryEnumField_o* __this, const MethodInfo* method);

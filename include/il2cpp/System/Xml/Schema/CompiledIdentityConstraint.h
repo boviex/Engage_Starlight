@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t System_Xml_Schema_CompiledIdentityConstraint__get_Role (System_Xml_Schema_CompiledIdentityConstraint_o* __this, const MethodInfo* method);
+System_Xml_Schema_Asttree_o* System_Xml_Schema_CompiledIdentityConstraint__get_Selector (System_Xml_Schema_CompiledIdentityConstraint_o* __this, const MethodInfo* method);
+System_Xml_Schema_Asttree_array* System_Xml_Schema_CompiledIdentityConstraint__get_Fields (System_Xml_Schema_CompiledIdentityConstraint_o* __this, const MethodInfo* method);
+void System_Xml_Schema_CompiledIdentityConstraint___ctor (System_Xml_Schema_CompiledIdentityConstraint_o* __this, const MethodInfo* method);
+void System_Xml_Schema_CompiledIdentityConstraint___ctor (System_Xml_Schema_CompiledIdentityConstraint_o* __this, System_Xml_Schema_XmlSchemaIdentityConstraint_o* constraint, System_Xml_XmlNamespaceManager_o* nsmgr, const MethodInfo* method);
+void System_Xml_Schema_CompiledIdentityConstraint___cctor (const MethodInfo* method);

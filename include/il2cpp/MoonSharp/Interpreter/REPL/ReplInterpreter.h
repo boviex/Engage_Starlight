@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MoonSharp_Interpreter_REPL_ReplInterpreter___ctor (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, MoonSharp_Interpreter_Script_o* script, const MethodInfo* method);
+bool MoonSharp_Interpreter_REPL_ReplInterpreter__get_HandleDynamicExprs (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_REPL_ReplInterpreter__set_HandleDynamicExprs (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_REPL_ReplInterpreter__get_HandleClassicExprsSyntax (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, const MethodInfo* method);
+void MoonSharp_Interpreter_REPL_ReplInterpreter__set_HandleClassicExprsSyntax (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, bool value, const MethodInfo* method);
+bool MoonSharp_Interpreter_REPL_ReplInterpreter__get_HasPendingCommand (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_REPL_ReplInterpreter__get_CurrentPendingCommand (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, const MethodInfo* method);
+System_String_o* MoonSharp_Interpreter_REPL_ReplInterpreter__get_ClassicPrompt (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, const MethodInfo* method);
+MoonSharp_Interpreter_DynValue_o* MoonSharp_Interpreter_REPL_ReplInterpreter__Evaluate (MoonSharp_Interpreter_REPL_ReplInterpreter_o* __this, System_String_o* input, const MethodInfo* method);

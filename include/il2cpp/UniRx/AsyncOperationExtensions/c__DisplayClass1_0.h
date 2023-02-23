@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_AsyncOperationExtensions___c__DisplayClass1_0_object____ctor (UniRx_AsyncOperationExtensions___c__DisplayClass1_0_T__o* __this, const MethodInfo_2B7F520* method);
+System_Collections_IEnumerator_o* UniRx_AsyncOperationExtensions___c__DisplayClass1_0_object____AsAsyncOperationObservable_b__0 (UniRx_AsyncOperationExtensions___c__DisplayClass1_0_T__o* __this, System_IObserver_T__o* observer, System_Threading_CancellationToken_o cancellation, const MethodInfo_2B7F530* method);

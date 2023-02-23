@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Text_RegularExpressions_MatchCollection___ctor (System_Text_RegularExpressions_MatchCollection_o* __this, System_Text_RegularExpressions_Regex_o* regex, System_String_o* input, int32_t beginning, int32_t length, int32_t startat, const MethodInfo* method);
+System_Text_RegularExpressions_Match_o* System_Text_RegularExpressions_MatchCollection__GetMatch (System_Text_RegularExpressions_MatchCollection_o* __this, int32_t i, const MethodInfo* method);
+int32_t System_Text_RegularExpressions_MatchCollection__get_Count (System_Text_RegularExpressions_MatchCollection_o* __this, const MethodInfo* method);
+Il2CppObject* System_Text_RegularExpressions_MatchCollection__get_SyncRoot (System_Text_RegularExpressions_MatchCollection_o* __this, const MethodInfo* method);
+bool System_Text_RegularExpressions_MatchCollection__get_IsSynchronized (System_Text_RegularExpressions_MatchCollection_o* __this, const MethodInfo* method);
+System_Text_RegularExpressions_Match_o* System_Text_RegularExpressions_MatchCollection__get_Item (System_Text_RegularExpressions_MatchCollection_o* __this, int32_t i, const MethodInfo* method);
+void System_Text_RegularExpressions_MatchCollection__CopyTo (System_Text_RegularExpressions_MatchCollection_o* __this, System_Array_o* array, int32_t arrayIndex, const MethodInfo* method);
+System_Collections_IEnumerator_o* System_Text_RegularExpressions_MatchCollection__GetEnumerator (System_Text_RegularExpressions_MatchCollection_o* __this, const MethodInfo* method);
+void System_Text_RegularExpressions_MatchCollection___cctor (const MethodInfo* method);
+void System_Text_RegularExpressions_MatchCollection___ctor (System_Text_RegularExpressions_MatchCollection_o* __this, const MethodInfo* method);

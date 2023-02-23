@@ -1,0 +1,20 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Buffer_Color____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30D7600* method);
+void System_Linq_Buffer_DiagnosticEvent____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30D7CE0* method);
+void System_Linq_Buffer_int____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30D83F0* method);
+void System_Linq_Buffer_Int32Enum____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30D8AB0* method);
+void System_Linq_Buffer_object____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30D9170* method);
+void System_Linq_Buffer_PlayerLoopSystem____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30D9840* method);
+void System_Linq_Buffer_uint____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30D9F50* method);
+void System_Linq_Buffer_Vector3____ctor (System_Linq_Buffer_TElement__o __this, System_Collections_Generic_IEnumerable_TElement__o* source, const MethodInfo_30DA610* method);
+UnityEngine_Color_array* System_Linq_Buffer_Color___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30D7C00* method);
+UnityEngine_ResourceManagement_Diagnostics_DiagnosticEvent_array* System_Linq_Buffer_DiagnosticEvent___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30D8310* method);
+System_Int32_array* System_Linq_Buffer_int___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30D89D0* method);
+System_Int32Enum_array* System_Linq_Buffer_Int32Enum___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30D9090* method);
+System_Object_array* System_Linq_Buffer_object___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30D9760* method);
+UnityEngine_LowLevel_PlayerLoopSystem_array* System_Linq_Buffer_PlayerLoopSystem___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30D9E70* method);
+System_UInt32_array* System_Linq_Buffer_uint___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30DA530* method);
+UnityEngine_Vector3_array* System_Linq_Buffer_Vector3___ToArray (System_Linq_Buffer_TElement__o __this, const MethodInfo_30DAC20* method);

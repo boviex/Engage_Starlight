@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_UnitInfoWeaponModelPool__WaitLoaded_d__17___ctor (App_UnitInfoWeaponModelPool__WaitLoaded_d__17_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_UnitInfoWeaponModelPool__WaitLoaded_d__17__System_IDisposable_Dispose (App_UnitInfoWeaponModelPool__WaitLoaded_d__17_o* __this, const MethodInfo* method);
+bool App_UnitInfoWeaponModelPool__WaitLoaded_d__17__MoveNext (App_UnitInfoWeaponModelPool__WaitLoaded_d__17_o* __this, const MethodInfo* method);
+Il2CppObject* App_UnitInfoWeaponModelPool__WaitLoaded_d__17__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_UnitInfoWeaponModelPool__WaitLoaded_d__17_o* __this, const MethodInfo* method);
+void App_UnitInfoWeaponModelPool__WaitLoaded_d__17__System_Collections_IEnumerator_Reset (App_UnitInfoWeaponModelPool__WaitLoaded_d__17_o* __this, const MethodInfo* method);
+Il2CppObject* App_UnitInfoWeaponModelPool__WaitLoaded_d__17__System_Collections_IEnumerator_get_Current (App_UnitInfoWeaponModelPool__WaitLoaded_d__17_o* __this, const MethodInfo* method);

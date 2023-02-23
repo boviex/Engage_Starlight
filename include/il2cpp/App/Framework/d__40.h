@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Framework__CollectCoroutine_d__40___ctor (App_Framework__CollectCoroutine_d__40_o* __this, int32_t __1__state, const MethodInfo* method);
+void App_Framework__CollectCoroutine_d__40__System_IDisposable_Dispose (App_Framework__CollectCoroutine_d__40_o* __this, const MethodInfo* method);
+bool App_Framework__CollectCoroutine_d__40__MoveNext (App_Framework__CollectCoroutine_d__40_o* __this, const MethodInfo* method);
+Il2CppObject* App_Framework__CollectCoroutine_d__40__System_Collections_Generic_IEnumerator_System_Object__get_Current (App_Framework__CollectCoroutine_d__40_o* __this, const MethodInfo* method);
+void App_Framework__CollectCoroutine_d__40__System_Collections_IEnumerator_Reset (App_Framework__CollectCoroutine_d__40_o* __this, const MethodInfo* method);
+Il2CppObject* App_Framework__CollectCoroutine_d__40__System_Collections_IEnumerator_get_Current (App_Framework__CollectCoroutine_d__40_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_MainMenuSequence_LanguageSettingMenuSequence_Menu_ConfirmDialog___ctor (App_MainMenuSequence_LanguageSettingMenuSequence_Menu_ConfirmDialog_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicDialogContent_o* dialogContent, const MethodInfo* method);
+void App_MainMenuSequence_LanguageSettingMenuSequence_Menu_ConfirmDialog__CreateBind (App_ProcInst_o* super, const MethodInfo* method);

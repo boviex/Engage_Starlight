@@ -2,5 +2,9 @@
 
 #include "il2cpp.h"
 
-void UnityEngine_IntegratedSubsystemDescriptor__UnityEngine_ISubsystemDescriptorImpl_set_ptr (UnityEngine_IntegratedSubsystemDescriptor_o* __this, intptr_t value, const MethodInfo* method_info);
-void UnityEngine_IntegratedSubsystemDescriptor___ctor (UnityEngine_IntegratedSubsystemDescriptor_o* __this, const MethodInfo* method_info);
+System_String_o* UnityEngine_IntegratedSubsystemDescriptor__get_id (UnityEngine_IntegratedSubsystemDescriptor_o* __this, const MethodInfo* method);
+void UnityEngine_IntegratedSubsystemDescriptor___ctor (UnityEngine_IntegratedSubsystemDescriptor_o* __this, const MethodInfo* method);
+void UnityEngine_IntegratedSubsystemDescriptor_object____ctor (UnityEngine_IntegratedSubsystemDescriptor_TSubsystem__o* __this, const MethodInfo_1F69880* method);
+void UnityEngine_IntegratedSubsystemDescriptor_XRDisplaySubsystem____ctor (UnityEngine_IntegratedSubsystemDescriptor_XRDisplaySubsystem__o* __this, const MethodInfo_1F69880* method);
+void UnityEngine_IntegratedSubsystemDescriptor_XRInputSubsystem____ctor (UnityEngine_IntegratedSubsystemDescriptor_XRInputSubsystem__o* __this, const MethodInfo_1F69880* method);
+void UnityEngine_IntegratedSubsystemDescriptor_XRMeshSubsystem____ctor (UnityEngine_IntegratedSubsystemDescriptor_XRMeshSubsystem__o* __this, const MethodInfo_1F69880* method);

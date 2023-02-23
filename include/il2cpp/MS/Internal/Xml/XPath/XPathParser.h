@@ -1,0 +1,36 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void MS_Internal_Xml_XPath_XPathParser___ctor (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_XPathScanner_o* scanner, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseXPathExpresion (System_String_o* xpathExpresion, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseExpresion (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseOrExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseAndExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseEqualityExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseRelationalExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseAdditiveExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseMultiplicativeExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseUnaryExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseUnionExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+bool MS_Internal_Xml_XPath_XPathParser__IsNodeType (MS_Internal_Xml_XPath_XPathScanner_o* scaner, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParsePathExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseFilterExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParsePredicate (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseLocationPath (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseRelativeLocationPath (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+bool MS_Internal_Xml_XPath_XPathParser__IsStep (int32_t lexKind, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseStep (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseNodeTest (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, int32_t axisType, int32_t nodeType, const MethodInfo* method);
+bool MS_Internal_Xml_XPath_XPathParser__IsPrimaryExpr (MS_Internal_Xml_XPath_XPathScanner_o* scanner, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParsePrimaryExpr (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+MS_Internal_Xml_XPath_AstNode_o* MS_Internal_Xml_XPath_XPathParser__ParseMethod (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_AstNode_o* qyInput, const MethodInfo* method);
+void MS_Internal_Xml_XPath_XPathParser__CheckToken (MS_Internal_Xml_XPath_XPathParser_o* __this, int32_t t, const MethodInfo* method);
+void MS_Internal_Xml_XPath_XPathParser__PassToken (MS_Internal_Xml_XPath_XPathParser_o* __this, int32_t t, const MethodInfo* method);
+void MS_Internal_Xml_XPath_XPathParser__NextLex (MS_Internal_Xml_XPath_XPathParser_o* __this, const MethodInfo* method);
+bool MS_Internal_Xml_XPath_XPathParser__TestOp (MS_Internal_Xml_XPath_XPathParser_o* __this, System_String_o* op, const MethodInfo* method);
+void MS_Internal_Xml_XPath_XPathParser__CheckNodeSet (MS_Internal_Xml_XPath_XPathParser_o* __this, int32_t t, const MethodInfo* method);
+System_Collections_Hashtable_o* MS_Internal_Xml_XPath_XPathParser__CreateFunctionTable (const MethodInfo* method);
+System_Collections_Hashtable_o* MS_Internal_Xml_XPath_XPathParser__CreateAxesTable (const MethodInfo* method);
+int32_t MS_Internal_Xml_XPath_XPathParser__GetAxis (MS_Internal_Xml_XPath_XPathParser_o* __this, MS_Internal_Xml_XPath_XPathScanner_o* scaner, const MethodInfo* method);
+void MS_Internal_Xml_XPath_XPathParser___cctor (const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void RootMotion_FinalIK_PenetrationAvoidance_Avoider__Solve (RootMotion_FinalIK_PenetrationAvoidance_Avoider_o* __this, RootMotion_FinalIK_IKSolverFullBodyBiped_o* solver, float weight, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_PenetrationAvoidance_Avoider__GetOffsetTarget (RootMotion_FinalIK_PenetrationAvoidance_Avoider_o* __this, RootMotion_FinalIK_IKSolverFullBodyBiped_o* solver, const MethodInfo* method);
+UnityEngine_Vector3_o RootMotion_FinalIK_PenetrationAvoidance_Avoider__Raycast (RootMotion_FinalIK_PenetrationAvoidance_Avoider_o* __this, UnityEngine_Vector3_o from, UnityEngine_Vector3_o to, const MethodInfo* method);
+void RootMotion_FinalIK_PenetrationAvoidance_Avoider___ctor (RootMotion_FinalIK_PenetrationAvoidance_Avoider_o* __this, const MethodInfo* method);

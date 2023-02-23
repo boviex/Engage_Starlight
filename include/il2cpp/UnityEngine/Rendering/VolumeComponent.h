@@ -1,0 +1,18 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UnityEngine_Rendering_VolumeComponent__get_displayName (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__set_displayName (UnityEngine_Rendering_VolumeComponent_o* __this, System_String_o* value, const MethodInfo* method);
+System_Collections_ObjectModel_ReadOnlyCollection_VolumeParameter__o* UnityEngine_Rendering_VolumeComponent__get_parameters (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__set_parameters (UnityEngine_Rendering_VolumeComponent_o* __this, System_Collections_ObjectModel_ReadOnlyCollection_VolumeParameter__o* value, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__OnEnable (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__OnDisable (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__Override (UnityEngine_Rendering_VolumeComponent_o* __this, UnityEngine_Rendering_VolumeComponent_o* state, float interpFactor, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__SetAllOverridesTo (UnityEngine_Rendering_VolumeComponent_o* __this, bool state, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__SetAllOverridesTo (UnityEngine_Rendering_VolumeComponent_o* __this, System_Collections_Generic_IEnumerable_VolumeParameter__o* enumerable, bool state, const MethodInfo* method);
+int32_t UnityEngine_Rendering_VolumeComponent__GetHashCode (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__OnDestroy (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent__Release (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+void UnityEngine_Rendering_VolumeComponent___ctor (UnityEngine_Rendering_VolumeComponent_o* __this, const MethodInfo* method);
+UnityEngine_Rendering_VolumeParameter_o* UnityEngine_Rendering_VolumeComponent___OnEnable_b__10_2 (UnityEngine_Rendering_VolumeComponent_o* __this, System_Reflection_FieldInfo_o* t, const MethodInfo* method);

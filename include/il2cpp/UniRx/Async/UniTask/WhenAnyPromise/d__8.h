@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Async_UniTask_WhenAnyPromise__RunTask_d__8_object___MoveNext (UniRx_Async_UniTask_WhenAnyPromise__RunTask_d__8_object__o __this, const MethodInfo_31789A0* method);
+void UniRx_Async_UniTask_WhenAnyPromise__RunTask_d__8_object___SetStateMachine (UniRx_Async_UniTask_WhenAnyPromise__RunTask_d__8_object__o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo_3178D20* method);

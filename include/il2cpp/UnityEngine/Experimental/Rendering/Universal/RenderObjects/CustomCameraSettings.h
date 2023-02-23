@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_RenderObjects_CustomCameraSettings___ctor (UnityEngine_Experimental_Rendering_Universal_RenderObjects_CustomCameraSettings_o* __this, const MethodInfo* method);

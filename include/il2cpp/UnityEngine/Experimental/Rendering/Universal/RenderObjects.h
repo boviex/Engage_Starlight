@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Experimental_Rendering_Universal_RenderObjects__Create (UnityEngine_Experimental_Rendering_Universal_RenderObjects_o* __this, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_RenderObjects__AddRenderPasses (UnityEngine_Experimental_Rendering_Universal_RenderObjects_o* __this, UnityEngine_Rendering_Universal_ScriptableRenderer_o* renderer, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Experimental_Rendering_Universal_RenderObjects___ctor (UnityEngine_Experimental_Rendering_Universal_RenderObjects_o* __this, const MethodInfo* method);

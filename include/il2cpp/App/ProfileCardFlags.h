@@ -1,0 +1,57 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_ProfileCardFlags__get_Version (App_ProfileCardFlags_o* __this, const MethodInfo* method);
+void App_ProfileCardFlags___ctor (App_ProfileCardFlags_o* __this, const MethodInfo* method);
+void App_ProfileCardFlags__Initialize (App_ProfileCardFlags_o* __this, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardBgData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardFrameData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardTextDecoData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardTextColorData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardCharacterStampData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardStampData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardTitleData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteCharacterData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteMapData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardCommentData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, App_ProfileCardThemeOfEditMapData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Entry (App_ProfileCardFlags_o* __this, int32_t hash, bool value, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardBgData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardFrameData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardTextDecoData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardTextColorData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardCharacterStampData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardStampData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardTitleData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteCharacterData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteMapData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardCommentData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, App_ProfileCardThemeOfEditMapData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__IsExist (App_ProfileCardFlags_o* __this, int32_t hash, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardBgData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardFrameData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardTextDecoData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardTextColorData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardCharacterStampData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardStampData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardTitleData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteCharacterData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteMapData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardCommentData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, App_ProfileCardThemeOfEditMapData_o* data, const MethodInfo* method);
+bool App_ProfileCardFlags__Get (App_ProfileCardFlags_o* __this, int32_t hash, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardBgData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardFrameData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardTextDecoData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardTextColorData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardCharacterStampData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardStampData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardTitleData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteCharacterData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardFavoriteMapData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardCommentData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, App_ProfileCardThemeOfEditMapData_o* data, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__Set (App_ProfileCardFlags_o* __this, int32_t hash, bool value, const MethodInfo* method);
+void App_ProfileCardFlags__OnSerialize (App_ProfileCardFlags_o* __this, App_Stream_o* stream, const MethodInfo* method);
+void App_ProfileCardFlags__OnDeserialize (App_ProfileCardFlags_o* __this, App_Stream_o* stream, int32_t version, const MethodInfo* method);

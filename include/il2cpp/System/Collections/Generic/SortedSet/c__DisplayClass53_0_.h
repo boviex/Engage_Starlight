@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Collections_Generic_SortedSet___c__DisplayClass53_0_KeyValuePair_int__bool_____ctor (System_Collections_Generic_SortedSet___c__DisplayClass53_0_T__o* __this, const MethodInfo_2B82FB0* method);
+void System_Collections_Generic_SortedSet___c__DisplayClass53_0_KeyValuePair_int__int_____ctor (System_Collections_Generic_SortedSet___c__DisplayClass53_0_T__o* __this, const MethodInfo_2B82FC0* method);
+void System_Collections_Generic_SortedSet___c__DisplayClass53_0_KeyValuePair_object__object_____ctor (System_Collections_Generic_SortedSet___c__DisplayClass53_0_T__o* __this, const MethodInfo_2B82FD0* method);

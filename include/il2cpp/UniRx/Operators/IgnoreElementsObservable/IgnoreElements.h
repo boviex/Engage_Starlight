@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_IgnoreElementsObservable_IgnoreElements_object____ctor (UniRx_Operators_IgnoreElementsObservable_IgnoreElements_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_1F660B0* method);
+void UniRx_Operators_IgnoreElementsObservable_IgnoreElements_object___OnNext (UniRx_Operators_IgnoreElementsObservable_IgnoreElements_T__o* __this, Il2CppObject* value, const MethodInfo_1F660D0* method);
+void UniRx_Operators_IgnoreElementsObservable_IgnoreElements_object___OnError (UniRx_Operators_IgnoreElementsObservable_IgnoreElements_T__o* __this, System_Exception_o* error, const MethodInfo_1F660E0* method);
+void UniRx_Operators_IgnoreElementsObservable_IgnoreElements_object___OnCompleted (UniRx_Operators_IgnoreElementsObservable_IgnoreElements_T__o* __this, const MethodInfo_1F66220* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservableMoveTrigger__UnityEngine_EventSystems_IMoveHandler_OnMove (UniRx_Triggers_ObservableMoveTrigger_o* __this, UnityEngine_EventSystems_AxisEventData_o* eventData, const MethodInfo* method);
+System_IObservable_AxisEventData__o* UniRx_Triggers_ObservableMoveTrigger__OnMoveAsObservable (UniRx_Triggers_ObservableMoveTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableMoveTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservableMoveTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservableMoveTrigger___ctor (UniRx_Triggers_ObservableMoveTrigger_o* __this, const MethodInfo* method);

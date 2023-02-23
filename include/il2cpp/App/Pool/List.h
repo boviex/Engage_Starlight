@@ -1,0 +1,50 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_Pool_List_BattleScene____ctor (App_Pool_List_BattleScene__o* __this, int32_t max, const MethodInfo_3B1ECD0* method);
+void App_Pool_List_GodBond____ctor (App_Pool_List_GodBond__o* __this, int32_t max, const MethodInfo_3B1ECD0* method);
+void App_Pool_List_object____ctor (App_Pool_List_T__o* __this, int32_t max, const MethodInfo_3B1ECD0* method);
+void App_Pool_List_BattleCalculator_HitSkill____ctor (App_Pool_List_BattleCalculator_HitSkill__o* __this, int32_t max, const MethodInfo_3B1ECD0* method);
+void App_Pool_List_BattleCalculator_Order____ctor (App_Pool_List_BattleCalculator_Order__o* __this, int32_t max, const MethodInfo_3B1ECD0* method);
+void App_Pool_List_MapEffect_LocationNode____ctor (App_Pool_List_MapEffect_LocationNode__o* __this, int32_t max, const MethodInfo_3B1ECD0* method);
+void App_Pool_List_MapHistory_Rewind_OverlapData____ctor (App_Pool_List_MapHistory_Rewind_OverlapData__o* __this, int32_t max, const MethodInfo_3B1ECD0* method);
+int32_t App_Pool_List_BattleScene___get_Count (App_Pool_List_BattleScene__o* __this, const MethodInfo_3B1EDF0* method);
+int32_t App_Pool_List_object___get_Count (App_Pool_List_T__o* __this, const MethodInfo_3B1EDF0* method);
+int32_t App_Pool_List_BattleCalculator_HitSkill___get_Count (App_Pool_List_BattleCalculator_HitSkill__o* __this, const MethodInfo_3B1EDF0* method);
+int32_t App_Pool_List_BattleCalculator_Order___get_Count (App_Pool_List_BattleCalculator_Order__o* __this, const MethodInfo_3B1EDF0* method);
+int32_t App_Pool_List_MapEffect_LocationNode___get_Count (App_Pool_List_MapEffect_LocationNode__o* __this, const MethodInfo_3B1EDF0* method);
+App_BattleScene_o* App_Pool_List_BattleScene___get_Item (App_Pool_List_BattleScene__o* __this, int32_t i, const MethodInfo_3B1EE10* method);
+Il2CppObject* App_Pool_List_object___get_Item (App_Pool_List_T__o* __this, int32_t i, const MethodInfo_3B1EE10* method);
+App_BattleCalculator_HitSkill_o* App_Pool_List_BattleCalculator_HitSkill___get_Item (App_Pool_List_BattleCalculator_HitSkill__o* __this, int32_t i, const MethodInfo_3B1EE10* method);
+App_BattleCalculator_Order_o* App_Pool_List_BattleCalculator_Order___get_Item (App_Pool_List_BattleCalculator_Order__o* __this, int32_t i, const MethodInfo_3B1EE10* method);
+App_MapEffect_LocationNode_o* App_Pool_List_MapEffect_LocationNode___get_Item (App_Pool_List_MapEffect_LocationNode__o* __this, int32_t i, const MethodInfo_3B1EE10* method);
+Il2CppObject* App_Pool_List_object___Get (App_Pool_List_T__o* __this, int32_t i, const MethodInfo_3B1EE30* method);
+void App_Pool_List_object___Swap (App_Pool_List_T__o* __this, int32_t indexA, int32_t indexB, const MethodInfo_3B1EE50* method);
+void App_Pool_List_BattleCalculator_Order___Swap (App_Pool_List_BattleCalculator_Order__o* __this, int32_t indexA, int32_t indexB, const MethodInfo_3B1EE50* method);
+App_BattleScene_o* App_Pool_List_BattleScene___Create (App_Pool_List_BattleScene__o* __this, const MethodInfo_3B1EF60* method);
+Il2CppObject* App_Pool_List_object___Create (App_Pool_List_T__o* __this, const MethodInfo_3B1EF60* method);
+App_BattleCalculator_HitSkill_o* App_Pool_List_BattleCalculator_HitSkill___Create (App_Pool_List_BattleCalculator_HitSkill__o* __this, const MethodInfo_3B1EF60* method);
+App_BattleCalculator_Order_o* App_Pool_List_BattleCalculator_Order___Create (App_Pool_List_BattleCalculator_Order__o* __this, const MethodInfo_3B1EF60* method);
+App_MapEffect_LocationNode_o* App_Pool_List_MapEffect_LocationNode___Create (App_Pool_List_MapEffect_LocationNode__o* __this, const MethodInfo_3B1EF60* method);
+App_MapHistory_Rewind_OverlapData_o* App_Pool_List_MapHistory_Rewind_OverlapData___Create (App_Pool_List_MapHistory_Rewind_OverlapData__o* __this, const MethodInfo_3B1EF60* method);
+void App_Pool_List_BattleScene___Delete (App_Pool_List_BattleScene__o* __this, App_BattleScene_o* p, const MethodInfo_3B1F000* method);
+void App_Pool_List_object___Delete (App_Pool_List_T__o* __this, Il2CppObject* p, const MethodInfo_3B1F000* method);
+void App_Pool_List_BattleCalculator_HitSkill___Delete (App_Pool_List_BattleCalculator_HitSkill__o* __this, App_BattleCalculator_HitSkill_o* p, const MethodInfo_3B1F000* method);
+void App_Pool_List_BattleCalculator_Order___Delete (App_Pool_List_BattleCalculator_Order__o* __this, App_BattleCalculator_Order_o* p, const MethodInfo_3B1F000* method);
+void App_Pool_List_MapEffect_LocationNode___Delete (App_Pool_List_MapEffect_LocationNode__o* __this, App_MapEffect_LocationNode_o* p, const MethodInfo_3B1F000* method);
+void App_Pool_List_MapHistory_Rewind_OverlapData___Delete (App_Pool_List_MapHistory_Rewind_OverlapData__o* __this, App_MapHistory_Rewind_OverlapData_o* p, const MethodInfo_3B1F000* method);
+void App_Pool_List_BattleScene___Clear (App_Pool_List_BattleScene__o* __this, const MethodInfo_3B1F0A0* method);
+void App_Pool_List_object___Clear (App_Pool_List_T__o* __this, const MethodInfo_3B1F0A0* method);
+void App_Pool_List_BattleCalculator_HitSkill___Clear (App_Pool_List_BattleCalculator_HitSkill__o* __this, const MethodInfo_3B1F0A0* method);
+void App_Pool_List_BattleCalculator_Order___Clear (App_Pool_List_BattleCalculator_Order__o* __this, const MethodInfo_3B1F0A0* method);
+void App_Pool_List_MapEffect_LocationNode___Clear (App_Pool_List_MapEffect_LocationNode__o* __this, const MethodInfo_3B1F0A0* method);
+void App_Pool_List_MapHistory_Rewind_OverlapData___Clear (App_Pool_List_MapHistory_Rewind_OverlapData__o* __this, const MethodInfo_3B1F0A0* method);
+void App_Pool_List_BattleScene___Sort (App_Pool_List_BattleScene__o* __this, const MethodInfo_3B1F170* method);
+void App_Pool_List_object___Sort (App_Pool_List_T__o* __this, const MethodInfo_3B1F170* method);
+void App_Pool_List_BattleCalculator_HitSkill___Sort (App_Pool_List_BattleCalculator_HitSkill__o* __this, const MethodInfo_3B1F170* method);
+void App_Pool_List_BattleCalculator_Order___Sort (App_Pool_List_BattleCalculator_Order__o* __this, const MethodInfo_3B1F170* method);
+void App_Pool_List_MapEffect_LocationNode___Sort (App_Pool_List_MapEffect_LocationNode__o* __this, const MethodInfo_3B1F170* method);
+void App_Pool_List_MapHistory_Rewind_OverlapData___Sort (App_Pool_List_MapHistory_Rewind_OverlapData__o* __this, const MethodInfo_3B1F170* method);
+System_Collections_Generic_IEnumerator_T__o* App_Pool_List_BattleScene___GetEnumerator (App_Pool_List_BattleScene__o* __this, const MethodInfo_3B1F350* method);
+System_Collections_Generic_IEnumerator_T__o* App_Pool_List_object___GetEnumerator (App_Pool_List_T__o* __this, const MethodInfo_3B1F350* method);

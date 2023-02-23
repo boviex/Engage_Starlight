@@ -2,5 +2,15 @@
 
 #include "il2cpp.h"
 
-bool UnityEngine_Rendering_GraphicsSettings__get_lightsUseLinearIntensity (const MethodInfo* method_info);
-bool UnityEngine_Rendering_GraphicsSettings__AllowEnlightenSupportForUpgradedProject (const MethodInfo* method_info);
+bool UnityEngine_Rendering_GraphicsSettings__get_lightsUseLinearIntensity (const MethodInfo* method);
+void UnityEngine_Rendering_GraphicsSettings__set_lightsUseLinearIntensity (bool value, const MethodInfo* method);
+void UnityEngine_Rendering_GraphicsSettings__set_useScriptableRenderPipelineBatching (bool value, const MethodInfo* method);
+bool UnityEngine_Rendering_GraphicsSettings__HasShaderDefine (int32_t tier, int32_t defineHash, const MethodInfo* method);
+UnityEngine_ScriptableObject_o* UnityEngine_Rendering_GraphicsSettings__get_INTERNAL_currentRenderPipeline (const MethodInfo* method);
+UnityEngine_Rendering_RenderPipelineAsset_o* UnityEngine_Rendering_GraphicsSettings__get_currentRenderPipeline (const MethodInfo* method);
+UnityEngine_Rendering_RenderPipelineAsset_o* UnityEngine_Rendering_GraphicsSettings__get_renderPipelineAsset (const MethodInfo* method);
+void UnityEngine_Rendering_GraphicsSettings__set_renderPipelineAsset (UnityEngine_Rendering_RenderPipelineAsset_o* value, const MethodInfo* method);
+UnityEngine_ScriptableObject_o* UnityEngine_Rendering_GraphicsSettings__get_INTERNAL_defaultRenderPipeline (const MethodInfo* method);
+void UnityEngine_Rendering_GraphicsSettings__set_INTERNAL_defaultRenderPipeline (UnityEngine_ScriptableObject_o* value, const MethodInfo* method);
+UnityEngine_Rendering_RenderPipelineAsset_o* UnityEngine_Rendering_GraphicsSettings__get_defaultRenderPipeline (const MethodInfo* method);
+void UnityEngine_Rendering_GraphicsSettings__set_defaultRenderPipeline (UnityEngine_Rendering_RenderPipelineAsset_o* value, const MethodInfo* method);

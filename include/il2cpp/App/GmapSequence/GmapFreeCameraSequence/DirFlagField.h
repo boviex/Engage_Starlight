@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_GmapSequence_GmapFreeCameraSequence_DirFlagField___ctor (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, int32_t f, const MethodInfo* method);
+void App_GmapSequence_GmapFreeCameraSequence_DirFlagField___ctor (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, int32_t f, const MethodInfo* method);
+int32_t App_GmapSequence_GmapFreeCameraSequence_DirFlagField__ToInt (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, int32_t value, const MethodInfo* method);
+bool App_GmapSequence_GmapFreeCameraSequence_DirFlagField__TestUp (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, const MethodInfo* method);
+bool App_GmapSequence_GmapFreeCameraSequence_DirFlagField__TestDown (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, const MethodInfo* method);
+bool App_GmapSequence_GmapFreeCameraSequence_DirFlagField__TestLeft (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, const MethodInfo* method);
+bool App_GmapSequence_GmapFreeCameraSequence_DirFlagField__TestRight (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, const MethodInfo* method);
+bool App_GmapSequence_GmapFreeCameraSequence_DirFlagField__Test (App_GmapSequence_GmapFreeCameraSequence_DirFlagField_o* __this, int32_t dir, const MethodInfo* method);

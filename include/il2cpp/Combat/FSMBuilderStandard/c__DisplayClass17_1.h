@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Combat_FSMBuilderStandard___c__DisplayClass17_1___ctor (Combat_FSMBuilderStandard___c__DisplayClass17_1_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderStandard___c__DisplayClass17_1___BuildChainAttackPhase_b__0 (Combat_FSMBuilderStandard___c__DisplayClass17_1_o* __this, const MethodInfo* method);
+bool Combat_FSMBuilderStandard___c__DisplayClass17_1___BuildChainAttackPhase_b__1 (Combat_FSMBuilderStandard___c__DisplayClass17_1_o* __this, Combat_Character_o* __, const MethodInfo* method);
+bool Combat_FSMBuilderStandard___c__DisplayClass17_1___BuildChainAttackPhase_b__2 (Combat_FSMBuilderStandard___c__DisplayClass17_1_o* __this, Combat_Character_o* __, const MethodInfo* method);
+void Combat_FSMBuilderStandard___c__DisplayClass17_1___BuildChainAttackPhase_b__3 (Combat_FSMBuilderStandard___c__DisplayClass17_1_o* __this, const MethodInfo* method);
+void Combat_FSMBuilderStandard___c__DisplayClass17_1___BuildChainAttackPhase_b__4 (Combat_FSMBuilderStandard___c__DisplayClass17_1_o* __this, const MethodInfo* method);

@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_ProfileDownloadSequence_DownloadYesNoDialog_YesItem___ctor (App_VersusSequence_ProfileDownloadSequence_DownloadYesNoDialog_YesItem_o* __this, System_Action_o* decideCallback, const MethodInfo* method);
+int32_t App_VersusSequence_ProfileDownloadSequence_DownloadYesNoDialog_YesItem__ACall (App_VersusSequence_ProfileDownloadSequence_DownloadYesNoDialog_YesItem_o* __this, const MethodInfo* method);

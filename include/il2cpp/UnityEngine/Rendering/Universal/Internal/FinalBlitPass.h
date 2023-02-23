@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_Universal_Internal_FinalBlitPass__SetCustomFinalMonoColorToResult (UnityEngine_Rendering_Universal_Internal_FinalBlitPass_o* __this, UnityEngine_Color_o color, float ratio, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_FinalBlitPass___ctor (UnityEngine_Rendering_Universal_Internal_FinalBlitPass_o* __this, int32_t evt, UnityEngine_Material_o* blitMaterial, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_FinalBlitPass__Setup (UnityEngine_Rendering_Universal_Internal_FinalBlitPass_o* __this, UnityEngine_RenderTextureDescriptor_o baseDescriptor, UnityEngine_Rendering_Universal_RenderTargetHandle_o colorHandle, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_FinalBlitPass__Execute (UnityEngine_Rendering_Universal_Internal_FinalBlitPass_o* __this, UnityEngine_Rendering_ScriptableRenderContext_o context, UnityEngine_Rendering_Universal_RenderingData_o* renderingData, const MethodInfo* method);
+void UnityEngine_Rendering_Universal_Internal_FinalBlitPass___cctor (const MethodInfo* method);

@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t App_MapUnitCommandMenu_EnchantWeaponMenuItem__get_Label (App_MapUnitCommandMenu_EnchantWeaponMenuItem_o* __this, const MethodInfo* method);
+bool App_MapUnitCommandMenu_EnchantWeaponMenuItem__get_IsWeapon (App_MapUnitCommandMenu_EnchantWeaponMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_EnchantWeaponMenuItem__GetName (App_MapUnitCommandMenu_EnchantWeaponMenuItem_o* __this, const MethodInfo* method);
+System_String_o* App_MapUnitCommandMenu_EnchantWeaponMenuItem__GetCommandHelp (App_MapUnitCommandMenu_EnchantWeaponMenuItem_o* __this, const MethodInfo* method);
+void App_MapUnitCommandMenu_EnchantWeaponMenuItem___ctor (App_MapUnitCommandMenu_EnchantWeaponMenuItem_o* __this, const MethodInfo* method);

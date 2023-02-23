@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody__get_result (MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody__set_result (MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody_o* __this, System_String_o* value, const MethodInfo* method);
+System_String_o* MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody__get_type (MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody__set_type (MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody_o* __this, System_String_o* value, const MethodInfo* method);
+int32_t MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody__get_variablesReference (MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody_o* __this, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody__set_variablesReference (MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody_o* __this, int32_t value, const MethodInfo* method);
+void MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody___ctor (MoonSharp_VsCodeDebugger_SDK_EvaluateResponseBody_o* __this, System_String_o* value, int32_t reff, const MethodInfo* method);

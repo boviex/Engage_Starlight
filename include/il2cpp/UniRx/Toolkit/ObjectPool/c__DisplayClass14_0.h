@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Toolkit_ObjectPool___c__DisplayClass14_0_object____ctor (UniRx_Toolkit_ObjectPool___c__DisplayClass14_0_T__o* __this, const MethodInfo_2B7D230* method);
+bool UniRx_Toolkit_ObjectPool___c__DisplayClass14_0_object____StartShrinkTimer_b__0 (UniRx_Toolkit_ObjectPool___c__DisplayClass14_0_T__o* __this, int64_t __, const MethodInfo_2B7D240* method);
+void UniRx_Toolkit_ObjectPool___c__DisplayClass14_0_object____StartShrinkTimer_b__1 (UniRx_Toolkit_ObjectPool___c__DisplayClass14_0_T__o* __this, int64_t __, const MethodInfo_2B7D260* method);

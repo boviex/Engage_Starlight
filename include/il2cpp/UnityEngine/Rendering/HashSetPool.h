@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_HashSet_T__o* UnityEngine_Rendering_HashSetPool_object___Get (const MethodInfo_3EC8E10* method);
+UnityEngine_Rendering_ObjectPool_PooledObject_HashSet_T___o UnityEngine_Rendering_HashSetPool_object___Get (System_Collections_Generic_HashSet_T__o** value, const MethodInfo_3EC8FA0* method);
+void UnityEngine_Rendering_HashSetPool_object___Release (System_Collections_Generic_HashSet_T__o* toRelease, const MethodInfo_3EC9130* method);
+void UnityEngine_Rendering_HashSetPool_object____cctor (const MethodInfo_3EC92C0* method);

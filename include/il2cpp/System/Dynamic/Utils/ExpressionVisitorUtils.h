@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Linq_Expressions_Expression_array* System_Dynamic_Utils_ExpressionVisitorUtils__VisitBlockExpressions (System_Linq_Expressions_ExpressionVisitor_o* visitor, System_Linq_Expressions_BlockExpression_o* block, const MethodInfo* method);
+System_Linq_Expressions_ParameterExpression_array* System_Dynamic_Utils_ExpressionVisitorUtils__VisitParameters (System_Linq_Expressions_ExpressionVisitor_o* visitor, System_Linq_Expressions_IParameterProvider_o* nodes, System_String_o* callerName, const MethodInfo* method);
+System_Linq_Expressions_Expression_array* System_Dynamic_Utils_ExpressionVisitorUtils__VisitArguments (System_Linq_Expressions_ExpressionVisitor_o* visitor, System_Linq_Expressions_IArgumentProvider_o* nodes, const MethodInfo* method);

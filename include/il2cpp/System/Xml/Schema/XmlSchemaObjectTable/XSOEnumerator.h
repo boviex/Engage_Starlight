@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator___ctor (System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator_o* __this, System_Collections_Generic_List_XmlSchemaObjectTable_XmlSchemaObjectEntry__o* entries, int32_t size, int32_t enumType, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator__get_Current (System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator__MoveNext (System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator__Reset (System_Xml_Schema_XmlSchemaObjectTable_XSOEnumerator_o* __this, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IEnumerable_ICancelablePromise__o* UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger__GetPromises (UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger_o* __this, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger__OnCanvasGroupChanged (UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger_o* __this, const MethodInfo* method);
+UniRx_Async_UniTask_o UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger__OnCanvasGroupChangedAsync (UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger_o* __this, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
+void UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger___ctor (UniRx_Async_Triggers_AsyncCanvasGroupChangedTrigger_o* __this, const MethodInfo* method);

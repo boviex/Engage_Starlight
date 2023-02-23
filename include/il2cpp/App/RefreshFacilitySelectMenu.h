@@ -1,0 +1,11 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_RefreshFacilitySelectMenu_o* App_RefreshFacilitySelectMenu__CreateBind (App_ProcInst_o* super, App_RefreshFacilitySelectMenuContent_o* menuContent, App_RefreshFacilitySelectMenu_SelectEventHandler_o* selectEventHandler, App_RefreshFacilitySelectMenu_DecideEventHandler_o* decideEventHandler, App_RefreshFacilitySelectMenu_CloseEventHandler_o* closeEventHandler, App_RefreshFacilitySelectMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_RefreshFacilitySelectMenu__CreateMenuItem (App_RefreshFacilitySelectMenu_SelectEventHandler_o* selectEventHandler, App_RefreshFacilitySelectMenu_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+void App_RefreshFacilitySelectMenu___ctor (App_RefreshFacilitySelectMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_RefreshFacilitySelectMenuContent_o* menuContent, App_RefreshFacilitySelectMenu_DecideEventHandler_o* decideEventHandler, App_RefreshFacilitySelectMenu_CloseEventHandler_o* closeEventHandler, App_RefreshFacilitySelectMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+System_String_o* App_RefreshFacilitySelectMenu__GetName (App_RefreshFacilitySelectMenu_o* __this, const MethodInfo* method);
+int32_t App_RefreshFacilitySelectMenu__BCall (App_RefreshFacilitySelectMenu_o* __this, const MethodInfo* method);
+void App_RefreshFacilitySelectMenu__OnDispose (App_RefreshFacilitySelectMenu_o* __this, const MethodInfo* method);
+void App_RefreshFacilitySelectMenu___cctor (const MethodInfo* method);

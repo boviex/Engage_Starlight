@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Security_Cryptography_CryptoStream__WriteAsyncInternal_d__37__MoveNext (System_Security_Cryptography_CryptoStream__WriteAsyncInternal_d__37_o __this, const MethodInfo* method);
+void System_Security_Cryptography_CryptoStream__WriteAsyncInternal_d__37__SetStateMachine (System_Security_Cryptography_CryptoStream__WriteAsyncInternal_d__37_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

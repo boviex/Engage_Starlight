@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection___ctor (System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection_o* __this, System_Collections_Generic_List_XmlSchemaObjectTable_XmlSchemaObjectEntry__o* entries, int32_t size, const MethodInfo* method);
+int32_t System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection__get_Count (System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection_o* __this, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection__get_SyncRoot (System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection_o* __this, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection__get_IsSynchronized (System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection__CopyTo (System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection_o* __this, System_Array_o* array, int32_t arrayIndex, const MethodInfo* method);
+System_Collections_IEnumerator_o* System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection__GetEnumerator (System_Xml_Schema_XmlSchemaObjectTable_ValuesCollection_o* __this, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+App_ProfileCardCommentIndexMenu_o* App_ProfileCardCommentIndexMenu__CreateBind (App_ProcInst_o* super, App_ProfileCardMessageSelectMenuContent_o* menuContent, App_ProfileCard_o* myProfileCardTemp, int32_t initialIndex, App_ProfileCardCommentIndexMenu_DecideEventHandler_o* decideEventHandler, App_ProfileCardCommentIndexMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+System_Collections_Generic_List_BasicMenuItem__o* App_ProfileCardCommentIndexMenu__CreateMenuItem (App_ProfileCard_o* profileCard, App_ProfileCardCommentIndexMenu_DecideEventHandler_o* decideEventHandler, const MethodInfo* method);
+void App_ProfileCardCommentIndexMenu___ctor (App_ProfileCardCommentIndexMenu_o* __this, System_Collections_Generic_List_BasicMenuItem__o* menuItemList, App_BasicMenuContent_o* menuContent, int32_t initialIndex, App_ProfileCardCommentIndexMenu_DecideEventHandler_o* decideEventHandler, App_ProfileCardCommentIndexMenu_DisposeEventHandler_o* disposeEventHandler, const MethodInfo* method);
+System_String_o* App_ProfileCardCommentIndexMenu__GetName (App_ProfileCardCommentIndexMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardCommentIndexMenu__SetMenuItemMid (App_ProfileCardCommentIndexMenu_o* __this, int32_t menuItemIndex, System_String_o* mid, const MethodInfo* method);
+void App_ProfileCardCommentIndexMenu__UpdateContent (App_ProfileCardCommentIndexMenu_o* __this, const MethodInfo* method);
+int32_t App_ProfileCardCommentIndexMenu__BCall (App_ProfileCardCommentIndexMenu_o* __this, const MethodInfo* method);
+void App_ProfileCardCommentIndexMenu__OnDispose (App_ProfileCardCommentIndexMenu_o* __this, const MethodInfo* method);

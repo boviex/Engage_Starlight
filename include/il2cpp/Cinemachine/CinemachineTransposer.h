@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Cinemachine_CinemachineTransposer__OnValidate (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+bool Cinemachine_CinemachineTransposer__get_HideOffsetInInspector (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineTransposer__set_HideOffsetInInspector (Cinemachine_CinemachineTransposer_o* __this, bool value, const MethodInfo* method);
+UnityEngine_Vector3_o Cinemachine_CinemachineTransposer__get_EffectiveOffset (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+bool Cinemachine_CinemachineTransposer__get_IsValid (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+int32_t Cinemachine_CinemachineTransposer__get_Stage (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+float Cinemachine_CinemachineTransposer__GetMaxDampTime (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+void Cinemachine_CinemachineTransposer__MutateCameraState (Cinemachine_CinemachineTransposer_o* __this, Cinemachine_CameraState_o* curState, float deltaTime, const MethodInfo* method);
+void Cinemachine_CinemachineTransposer__OnTargetObjectWarped (Cinemachine_CinemachineTransposer_o* __this, UnityEngine_Transform_o* target, UnityEngine_Vector3_o positionDelta, const MethodInfo* method);
+void Cinemachine_CinemachineTransposer__ForceCameraPosition (Cinemachine_CinemachineTransposer_o* __this, UnityEngine_Vector3_o pos, UnityEngine_Quaternion_o rot, const MethodInfo* method);
+void Cinemachine_CinemachineTransposer__InitPrevFrameStateInfo (Cinemachine_CinemachineTransposer_o* __this, Cinemachine_CameraState_o* curState, float deltaTime, const MethodInfo* method);
+void Cinemachine_CinemachineTransposer__TrackTarget (Cinemachine_CinemachineTransposer_o* __this, float deltaTime, UnityEngine_Vector3_o up, UnityEngine_Vector3_o desiredCameraOffset, UnityEngine_Vector3_o* outTargetPosition, UnityEngine_Quaternion_o* outTargetOrient, const MethodInfo* method);
+UnityEngine_Vector3_o Cinemachine_CinemachineTransposer__GetOffsetForMinimumTargetDistance (Cinemachine_CinemachineTransposer_o* __this, UnityEngine_Vector3_o dampedTargetPos, UnityEngine_Vector3_o cameraOffset, UnityEngine_Vector3_o cameraFwd, UnityEngine_Vector3_o up, UnityEngine_Vector3_o actualTargetPos, const MethodInfo* method);
+UnityEngine_Vector3_o Cinemachine_CinemachineTransposer__get_Damping (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o Cinemachine_CinemachineTransposer__get_AngularDamping (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);
+UnityEngine_Vector3_o Cinemachine_CinemachineTransposer__GetTargetCameraPosition (Cinemachine_CinemachineTransposer_o* __this, UnityEngine_Vector3_o worldUp, const MethodInfo* method);
+UnityEngine_Quaternion_o Cinemachine_CinemachineTransposer__GetReferenceOrientation (Cinemachine_CinemachineTransposer_o* __this, UnityEngine_Vector3_o worldUp, const MethodInfo* method);
+void Cinemachine_CinemachineTransposer___ctor (Cinemachine_CinemachineTransposer_o* __this, const MethodInfo* method);

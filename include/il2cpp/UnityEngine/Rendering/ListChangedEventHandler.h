@@ -1,0 +1,9 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_ListChangedEventHandler_object____ctor (UnityEngine_Rendering_ListChangedEventHandler_T__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_3B15E40* method);
+void UnityEngine_Rendering_ListChangedEventHandler_DebugUI_Widget____ctor (UnityEngine_Rendering_ListChangedEventHandler_DebugUI_Widget__o* __this, Il2CppObject* object, intptr_t method, const MethodInfo_3B15E40* method);
+void UnityEngine_Rendering_ListChangedEventHandler_object___Invoke (UnityEngine_Rendering_ListChangedEventHandler_T__o* __this, UnityEngine_Rendering_ObservableList_T__o* sender, UnityEngine_Rendering_ListChangedEventArgs_T__o* e, const MethodInfo_3B15E60* method);
+System_IAsyncResult_o* UnityEngine_Rendering_ListChangedEventHandler_object___BeginInvoke (UnityEngine_Rendering_ListChangedEventHandler_T__o* __this, UnityEngine_Rendering_ObservableList_T__o* sender, UnityEngine_Rendering_ListChangedEventArgs_T__o* e, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo_3B161D0* method);
+void UnityEngine_Rendering_ListChangedEventHandler_object___EndInvoke (UnityEngine_Rendering_ListChangedEventHandler_T__o* __this, System_IAsyncResult_o* result, const MethodInfo_3B16200* method);

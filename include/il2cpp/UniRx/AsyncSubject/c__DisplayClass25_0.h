@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_AsyncSubject___c__DisplayClass25_0_object____ctor (UniRx_AsyncSubject___c__DisplayClass25_0_T__o* __this, const MethodInfo_2B7FB30* method);
+void UniRx_AsyncSubject___c__DisplayClass25_0_Unit____ctor (UniRx_AsyncSubject___c__DisplayClass25_0_T__o* __this, const MethodInfo_2B7FB50* method);
+void UniRx_AsyncSubject___c__DisplayClass25_0_object____GetResult_b__0 (UniRx_AsyncSubject___c__DisplayClass25_0_T__o* __this, const MethodInfo_2B7FB40* method);
+void UniRx_AsyncSubject___c__DisplayClass25_0_Unit____GetResult_b__0 (UniRx_AsyncSubject___c__DisplayClass25_0_T__o* __this, const MethodInfo_2B7FB60* method);

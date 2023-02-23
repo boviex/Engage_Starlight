@@ -1,0 +1,56 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool Combat_CharacterAppearance__op_Implicit (Combat_CharacterAppearance_o* a, const MethodInfo* method);
+Combat_CharacterAnimset_o* Combat_CharacterAppearance__get_AnimSet (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__set_AnimSet (Combat_CharacterAppearance_o* __this, Combat_CharacterAnimset_o* value, const MethodInfo* method);
+int32_t Combat_CharacterAppearance__get_WeaponStyle (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__set_WeaponStyle (Combat_CharacterAppearance_o* __this, int32_t value, const MethodInfo* method);
+Combat_CharacterAsset_o* Combat_CharacterAppearance__get_Item (Combat_CharacterAppearance_o* __this, int32_t index, const MethodInfo* method);
+Combat_CharacterAsset_o* Combat_CharacterAppearance__get_Item (Combat_CharacterAppearance_o* __this, int32_t type, const MethodInfo* method);
+System_String_array* Combat_CharacterAppearance__get_AccTargets (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+int32_t Combat_CharacterAppearance__get_Race (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsRide (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsFlying (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsCorruptAnimal (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsBigDragon (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsWyrm (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsBrawl (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_HasRod (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+Combat_CharacterAsset_o* Combat_CharacterAppearance__get_MainHandModel (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsHighClass (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_Is__ (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__get_IsLastBoss (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+float Combat_CharacterAppearance__get_BackwardCancelPosition (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance___ctor (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance___ctor (Combat_CharacterAppearance_o* __this, Combat_CharacterAppearance_o* rhs, int32_t weaponStyle, const MethodInfo* method);
+void Combat_CharacterAppearance__Dispose (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__Finalize (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__SetDefaultName (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+System_String_o* Combat_CharacterAppearance__Dump (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__LoadAsync (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__LoadAnimSetAsync (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+bool Combat_CharacterAppearance__IsLoading (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+System_Text_StringBuilder_o* Combat_CharacterAppearance__GetUnfoundAssetNamesD (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__ReplaceBodyAnimForEditor (Combat_CharacterAppearance_o* __this, Combat_CharacterAsset_o* a, const MethodInfo* method);
+void Combat_CharacterAppearance__CreateAnimSetForViewerPreview (Combat_CharacterAppearance_o* __this, int32_t mapDistance, const MethodInfo* method);
+float Combat_CharacterAppearance__GetTall (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+float Combat_CharacterAppearance__GetBodySize (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__ModifyColors (Combat_CharacterAppearance_o* __this, UnityEngine_GameObject_o* go, const MethodInfo* method);
+bool Combat_CharacterAppearance__HasMaterialToModify (Combat_CharacterAppearance_o* __this, UnityEngine_Material_array* mats, const MethodInfo* method);
+void Combat_CharacterAppearance__DestroyInstancedMaterials (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__Verification (Combat_CharacterAppearance_o* __this, System_String_o* title, const MethodInfo* method);
+System_String_o* Combat_CharacterAppearance__SerializeToString (Combat_CharacterAppearance_o* __this, const MethodInfo* method);
+void Combat_CharacterAppearance__DeserializeFromString (Combat_CharacterAppearance_o* __this, System_String_o* contents, const MethodInfo* method);
+Combat_CharacterAppearance_o* Combat_CharacterAppearance__CreateFromGameStatus (Combat_CharacterGameStatus_o* gameStatus, int32_t mapDistance, System_String_array* conditions, const MethodInfo* method);
+Combat_CharacterAppearance_o* Combat_CharacterAppearance__CreateForSound (App_Unit_o* unit, const MethodInfo* method);
+Combat_CharacterAppearance_o* Combat_CharacterAppearance__CreateFromGodUnit (App_GodUnit_o* gunit, System_String_array* conditions, const MethodInfo* method);
+Combat_CharacterAppearance_o* Combat_CharacterAppearance__CreateFromPreset (System_String_o* name, const MethodInfo* method);
+System_String_array* Combat_CharacterAppearance__GetConstions (System_String_array* conditions, const MethodInfo* method);
+Combat_CharacterAppearance_o* Combat_CharacterAppearance__CreateFromResult (App_AssetTable_Result_o* result, int32_t mapDistance_1or2, const MethodInfo* method);
+int32_t Combat_CharacterAppearance__CalcWeaponStyle (Combat_CharacterAppearance_o* __this, int32_t mapDistance, const MethodInfo* method);
+bool Combat_CharacterAppearance__IsSameCharacter (Combat_CharacterAppearance_o* l, Combat_CharacterAppearance_o* r, const MethodInfo* method);
+void Combat_CharacterAppearance___cctor (const MethodInfo* method);
+System_String_o* Combat_CharacterAppearance___SerializeToString_g__ctos_95_0 (UnityEngine_Color_o c, const MethodInfo* method);
+UnityEngine_Color_o Combat_CharacterAppearance___DeserializeFromString_g__stoc_96_0 (System_String_o* s, const MethodInfo* method);

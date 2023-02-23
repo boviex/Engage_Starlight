@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UTJ_SpringSetupComponentDefiners_ComponentDefiner___ctor (UTJ_SpringSetupComponentDefiners_ComponentDefiner_o* __this, System_Type_o* newType, const MethodInfo* method);
+bool UTJ_SpringSetupComponentDefiners_ComponentDefiner__TryToAppendDefinition (UTJ_SpringSetupComponentDefiners_ComponentDefiner_o* __this, System_Text_StringBuilder_o* builder, UnityEngine_GameObject_o* rootObject, const MethodInfo* method);
+void UTJ_SpringSetupComponentDefiners_ComponentDefiner__AppendDefinition (UTJ_SpringSetupComponentDefiners_ComponentDefiner_o* __this, System_Text_StringBuilder_o* builder, UnityEngine_Component_o* component, const MethodInfo* method);
+UnityEngine_Component_o* UTJ_SpringSetupComponentDefiners_ComponentDefiner__BuildFromDefinition (UTJ_SpringSetupComponentDefiners_ComponentDefiner_o* __this, UnityEngine_GameObject_o* owner, System_Collections_Generic_Queue_string__o* definitionItems, const MethodInfo* method);
+System_String_o* UTJ_SpringSetupComponentDefiners_ComponentDefiner__GetTypeToken (UTJ_SpringSetupComponentDefiners_ComponentDefiner_o* __this, const MethodInfo* method);
+void UTJ_SpringSetupComponentDefiners_ComponentDefiner__AppendProperties (UTJ_SpringSetupComponentDefiners_ComponentDefiner_o* __this, System_Text_StringBuilder_o* builder, UnityEngine_Component_o* component, const MethodInfo* method);
+void UTJ_SpringSetupComponentDefiners_ComponentDefiner__AppendRecordItem_object_ (System_Text_StringBuilder_o* builder, Il2CppObject* item, uint16_t separator, const MethodInfo_38887E0* method);
+void UTJ_SpringSetupComponentDefiners_ComponentDefiner__AppendRecordItem_string_ (System_Text_StringBuilder_o* builder, System_String_o* item, uint16_t separator, const MethodInfo_38887E0* method);
+System_String_o* UTJ_SpringSetupComponentDefiners_ComponentDefiner__GetComponentName (UnityEngine_Component_o* component, const MethodInfo* method);
+UnityEngine_Component_o* UTJ_SpringSetupComponentDefiners_ComponentDefiner__InternalBuildFromDefinition (UTJ_SpringSetupComponentDefiners_ComponentDefiner_o* __this, UnityEngine_GameObject_o* owner, System_Collections_Generic_Queue_string__o* definitionItems, const MethodInfo* method);

@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Collections_Generic_IEnumerable_UniTask__o* UniRx_Async_EnumerableAsyncExtensions__Select_object_ (System_Collections_Generic_IEnumerable_T__o* source, System_Func_T__UniTask__o* selector, const MethodInfo_22D65B0* method);
+System_Collections_Generic_IEnumerable_UniTask_TR___o* UniRx_Async_EnumerableAsyncExtensions__Select_object__object_ (System_Collections_Generic_IEnumerable_T__o* source, System_Func_T__UniTask_TR___o* selector, const MethodInfo_22D65D0* method);
+System_Collections_Generic_IEnumerable_UniTask__o* UniRx_Async_EnumerableAsyncExtensions__Select_object_ (System_Collections_Generic_IEnumerable_T__o* source, System_Func_T__int__UniTask__o* selector, const MethodInfo_22D65C0* method);
+System_Collections_Generic_IEnumerable_UniTask_TR___o* UniRx_Async_EnumerableAsyncExtensions__Select_object__object_ (System_Collections_Generic_IEnumerable_T__o* source, System_Func_T__int__UniTask_TR___o* selector, const MethodInfo_22D65E0* method);

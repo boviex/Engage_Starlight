@@ -1,0 +1,14 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_IObservable_Unit__o* UniRx_UnityEventExtensions__AsObservable (UnityEngine_Events_UnityEvent_o* unityEvent, const MethodInfo* method);
+System_IObservable_T__o* UniRx_UnityEventExtensions__AsObservable_bool_ (UnityEngine_Events_UnityEvent_T__o* unityEvent, const MethodInfo_2070460* method);
+System_IObservable_T__o* UniRx_UnityEventExtensions__AsObservable_int_ (UnityEngine_Events_UnityEvent_T__o* unityEvent, const MethodInfo_2070740* method);
+System_IObservable_T__o* UniRx_UnityEventExtensions__AsObservable_object_ (UnityEngine_Events_UnityEvent_T__o* unityEvent, const MethodInfo_2070A20* method);
+System_IObservable_T__o* UniRx_UnityEventExtensions__AsObservable_float_ (UnityEngine_Events_UnityEvent_T__o* unityEvent, const MethodInfo_2070D00* method);
+System_IObservable_T__o* UniRx_UnityEventExtensions__AsObservable_string_ (UnityEngine_Events_UnityEvent_T__o* unityEvent, const MethodInfo_2070A20* method);
+System_IObservable_T__o* UniRx_UnityEventExtensions__AsObservable_Vector2_ (UnityEngine_Events_UnityEvent_T__o* unityEvent, const MethodInfo_2070FE0* method);
+System_IObservable_Tuple_T0__T1___o* UniRx_UnityEventExtensions__AsObservable_object__object_ (UnityEngine_Events_UnityEvent_T0__T1__o* unityEvent, const MethodInfo_20712C0* method);
+System_IObservable_Tuple_T0__T1__T2___o* UniRx_UnityEventExtensions__AsObservable_object__object__object_ (UnityEngine_Events_UnityEvent_T0__T1__T2__o* unityEvent, const MethodInfo_20715A0* method);
+System_IObservable_Tuple_T0__T1__T2__T3___o* UniRx_UnityEventExtensions__AsObservable_object__object__object__object_ (UnityEngine_Events_UnityEvent_T0__T1__T2__T3__o* unityEvent, const MethodInfo_2071880* method);

@@ -1,0 +1,5 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void NexPlugin_Detail_Screening_ScreeningDataStoreContentParamInt___ctor (NexPlugin_Detail_Screening_ScreeningDataStoreContentParamInt_o __this, System_Collections_Generic_List_IntPtr__o* useptr, NexPlugin_ScreeningDataStoreContentParam_o* param, const MethodInfo* method);

@@ -1,0 +1,22 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_Schema_XmlSchemaCollection___ctor (System_Xml_Schema_XmlSchemaCollection_o* __this, System_Xml_XmlNameTable_o* nametable, const MethodInfo* method);
+int32_t System_Xml_Schema_XmlSchemaCollection__get_Count (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+System_Xml_XmlNameTable_o* System_Xml_Schema_XmlSchemaCollection__get_NameTable (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaCollection__set_XmlResolver (System_Xml_Schema_XmlSchemaCollection_o* __this, System_Xml_XmlResolver_o* value, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaCollection__get_Item (System_Xml_Schema_XmlSchemaCollection_o* __this, System_String_o* ns, const MethodInfo* method);
+System_Collections_IEnumerator_o* System_Xml_Schema_XmlSchemaCollection__System_Collections_IEnumerable_GetEnumerator (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+System_Xml_Schema_XmlSchemaCollectionEnumerator_o* System_Xml_Schema_XmlSchemaCollection__GetEnumerator (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaCollection__System_Collections_ICollection_CopyTo (System_Xml_Schema_XmlSchemaCollection_o* __this, System_Array_o* array, int32_t index, const MethodInfo* method);
+bool System_Xml_Schema_XmlSchemaCollection__System_Collections_ICollection_get_IsSynchronized (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+Il2CppObject* System_Xml_Schema_XmlSchemaCollection__System_Collections_ICollection_get_SyncRoot (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+int32_t System_Xml_Schema_XmlSchemaCollection__System_Collections_ICollection_get_Count (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+System_Xml_Schema_SchemaInfo_o* System_Xml_Schema_XmlSchemaCollection__GetSchemaInfo (System_Xml_Schema_XmlSchemaCollection_o* __this, System_String_o* ns, const MethodInfo* method);
+System_Xml_Schema_SchemaNames_o* System_Xml_Schema_XmlSchemaCollection__GetSchemaNames (System_Xml_Schema_XmlSchemaCollection_o* __this, System_Xml_XmlNameTable_o* nt, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaCollection__Add (System_Xml_Schema_XmlSchemaCollection_o* __this, System_String_o* ns, System_Xml_Schema_SchemaInfo_o* schemaInfo, System_Xml_Schema_XmlSchema_o* schema, bool compile, const MethodInfo* method);
+System_Xml_Schema_XmlSchema_o* System_Xml_Schema_XmlSchemaCollection__Add (System_Xml_Schema_XmlSchemaCollection_o* __this, System_String_o* ns, System_Xml_Schema_SchemaInfo_o* schemaInfo, System_Xml_Schema_XmlSchema_o* schema, bool compile, System_Xml_XmlResolver_o* resolver, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaCollection__Add (System_Xml_Schema_XmlSchemaCollection_o* __this, System_String_o* ns, System_Xml_Schema_XmlSchemaCollectionNode_o* node, const MethodInfo* method);
+System_Xml_Schema_ValidationEventHandler_o* System_Xml_Schema_XmlSchemaCollection__get_EventHandler (System_Xml_Schema_XmlSchemaCollection_o* __this, const MethodInfo* method);
+void System_Xml_Schema_XmlSchemaCollection__set_EventHandler (System_Xml_Schema_XmlSchemaCollection_o* __this, System_Xml_Schema_ValidationEventHandler_o* value, const MethodInfo* method);

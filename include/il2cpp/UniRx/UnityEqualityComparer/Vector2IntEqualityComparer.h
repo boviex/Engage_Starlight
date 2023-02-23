@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UniRx_UnityEqualityComparer_Vector2IntEqualityComparer__Equals (UniRx_UnityEqualityComparer_Vector2IntEqualityComparer_o* __this, UnityEngine_Vector2Int_o self, UnityEngine_Vector2Int_o vector, const MethodInfo* method);
+int32_t UniRx_UnityEqualityComparer_Vector2IntEqualityComparer__GetHashCode (UniRx_UnityEqualityComparer_Vector2IntEqualityComparer_o* __this, UnityEngine_Vector2Int_o obj, const MethodInfo* method);
+void UniRx_UnityEqualityComparer_Vector2IntEqualityComparer___ctor (UniRx_UnityEqualityComparer_Vector2IntEqualityComparer_o* __this, const MethodInfo* method);

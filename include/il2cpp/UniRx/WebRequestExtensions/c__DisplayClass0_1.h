@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_WebRequestExtensions___c__DisplayClass0_1_object____ctor (UniRx_WebRequestExtensions___c__DisplayClass0_1_TResult__o* __this, const MethodInfo_2B7C3A0* method);
+Il2CppObject* UniRx_WebRequestExtensions___c__DisplayClass0_1_object____AbortableDeferredAsyncRequest_b__1 (UniRx_WebRequestExtensions___c__DisplayClass0_1_TResult__o* __this, System_IAsyncResult_o* ar, const MethodInfo_2B7C3B0* method);
+void UniRx_WebRequestExtensions___c__DisplayClass0_1_object____AbortableDeferredAsyncRequest_b__2 (UniRx_WebRequestExtensions___c__DisplayClass0_1_TResult__o* __this, const MethodInfo_2B7C4C0* method);

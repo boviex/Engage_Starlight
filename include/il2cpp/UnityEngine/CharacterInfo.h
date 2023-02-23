@@ -1,0 +1,15 @@
+#pragma once
+
+#include "il2cpp.h"
+
+int32_t UnityEngine_CharacterInfo__get_glyphWidth (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+int32_t UnityEngine_CharacterInfo__get_glyphHeight (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+int32_t UnityEngine_CharacterInfo__get_minY (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvBottomLeftUnFlipped (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvBottomRightUnFlipped (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvTopRightUnFlipped (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvTopLeftUnFlipped (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvBottomLeft (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvBottomRight (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvTopRight (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);
+UnityEngine_Vector2_o UnityEngine_CharacterInfo__get_uvTopLeft (UnityEngine_CharacterInfo_o __this, const MethodInfo* method);

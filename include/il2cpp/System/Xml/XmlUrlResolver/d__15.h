@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_XmlUrlResolver__GetEntityAsync_d__15__MoveNext (System_Xml_XmlUrlResolver__GetEntityAsync_d__15_o __this, const MethodInfo* method);
+void System_Xml_XmlUrlResolver__GetEntityAsync_d__15__SetStateMachine (System_Xml_XmlUrlResolver__GetEntityAsync_d__15_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);

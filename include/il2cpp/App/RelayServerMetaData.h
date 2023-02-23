@@ -1,0 +1,54 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_RelayServerMetaData___ctor (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+App_RelayServerMetaData_o* App_RelayServerMetaData__Clone (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__SetOwner (App_RelayServerMetaData_o* __this, uint64_t principalId, System_String_o* name, const MethodInfo* method);
+void App_RelayServerMetaData__SetCid (App_RelayServerMetaData_o* __this, System_String_o* cid, const MethodInfo* method);
+void App_RelayServerMetaData__SetBinary (App_RelayServerMetaData_o* __this, System_Byte_array* bin, const MethodInfo* method);
+void App_RelayServerMetaData__SetBinary (App_RelayServerMetaData_o* __this, System_Collections_Generic_List_byte__o* bin, const MethodInfo* method);
+void App_RelayServerMetaData__UpdateBufferOnServer (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__Begin (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__Complete (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__GameOver (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__ComplementTime (App_RelayServerMetaData_o* __this, int64_t unixTime, const MethodInfo* method);
+void App_RelayServerMetaData__AddPlayer (App_RelayServerMetaData_o* __this, uint64_t principalId, System_String_o* name, const MethodInfo* method);
+void App_RelayServerMetaData__AddPid (App_RelayServerMetaData_o* __this, System_String_o* pid, const MethodInfo* method);
+System_String_o* App_RelayServerMetaData__GetOwnerName (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_String_o* App_RelayServerMetaData__GetPlayerName (App_RelayServerMetaData_o* __this, int32_t index, const MethodInfo* method);
+App_Random_o* App_RelayServerMetaData__CreateAwardRandom (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__Clear (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__Serialize (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+bool App_RelayServerMetaData__Deserialize (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_Byte_array* App_RelayServerMetaData__get_Buffer (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+int32_t App_RelayServerMetaData__get_Size (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_Byte_array* App_RelayServerMetaData__get_BufferOnServer (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+int32_t App_RelayServerMetaData__get_SizeOnServer (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+uint64_t App_RelayServerMetaData__get_DataId (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__set_DataId (App_RelayServerMetaData_o* __this, uint64_t value, const MethodInfo* method);
+System_String_o* App_RelayServerMetaData__get_DataCode (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__set_DataCode (App_RelayServerMetaData_o* __this, System_String_o* value, const MethodInfo* method);
+int64_t App_RelayServerMetaData__get_UpdatedUnixTimeOnServer (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__set_UpdatedUnixTimeOnServer (App_RelayServerMetaData_o* __this, int64_t value, const MethodInfo* method);
+bool App_RelayServerMetaData__get_IsSecret (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__set_IsSecret (App_RelayServerMetaData_o* __this, bool value, const MethodInfo* method);
+uint64_t App_RelayServerMetaData__get_OwnerId (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_String_o* App_RelayServerMetaData__get_OwnerName (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_String_o* App_RelayServerMetaData__get_Cid (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+int64_t App_RelayServerMetaData__get_BeginUnixTime (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+int64_t App_RelayServerMetaData__get_EndUnixTime (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+int32_t App_RelayServerMetaData__get_Turn (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__set_Turn (App_RelayServerMetaData_o* __this, int32_t value, const MethodInfo* method);
+bool App_RelayServerMetaData__get_IsEnd (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+bool App_RelayServerMetaData__get_IsCompleted (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_Collections_Generic_List_ulong__o* App_RelayServerMetaData__get_PlayerIds (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_Collections_Generic_List_string__o* App_RelayServerMetaData__get_PlayerNames (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+System_Collections_Generic_List_string__o* App_RelayServerMetaData__get_Pids (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+uint32_t App_RelayServerMetaData__get_PlayingCount (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__set_PlayingCount (App_RelayServerMetaData_o* __this, uint32_t value, const MethodInfo* method);
+System_Collections_Generic_Dictionary_string__RelayAwardeeData__o* App_RelayServerMetaData__get_Awardees (App_RelayServerMetaData_o* __this, const MethodInfo* method);
+void App_RelayServerMetaData__set_Awardees (App_RelayServerMetaData_o* __this, System_Collections_Generic_Dictionary_string__RelayAwardeeData__o* value, const MethodInfo* method);
+void App_RelayServerMetaData__TrySetBeginUnixTime (App_RelayServerMetaData_o* __this, int64_t unixTime, const MethodInfo* method);
+void App_RelayServerMetaData__TrySetEndUnixTime (App_RelayServerMetaData_o* __this, int64_t unixTime, const MethodInfo* method);
+void App_RelayServerMetaData__SetAwardRandomSeed (App_RelayServerMetaData_o* __this, const MethodInfo* method);

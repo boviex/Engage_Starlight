@@ -1,0 +1,57 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void CustomRP_Settings__UpdateGpuPerformanceMode (const MethodInfo* method);
+bool CustomRP_Settings__IsGpuPerformanceModeBoost (const MethodInfo* method);
+void CustomRP_Settings__PauseShaderTime (const MethodInfo* method);
+void CustomRP_Settings__ResumeShaderTime (const MethodInfo* method);
+bool CustomRP_Settings__IsSRPBatchingEnabled (const MethodInfo* method);
+void CustomRP_Settings__EnableSRPBatching (const MethodInfo* method);
+void CustomRP_Settings__DisableSRPBatching (const MethodInfo* method);
+bool CustomRP_Settings__IsZPrepassEnabled (const MethodInfo* method);
+int32_t CustomRP_Settings__GetZPrepassFeature (const MethodInfo* method);
+void CustomRP_Settings__SetZPrepassFeature (int32_t feature, const MethodInfo* method);
+void CustomRP_Settings__ChangeShadowPreset (int32_t preset, const MethodInfo* method);
+int32_t CustomRP_Settings__GetCurrentShadowPreset (const MethodInfo* method);
+void CustomRP_Settings__SetShadowDistance (float distance, const MethodInfo* method);
+float CustomRP_Settings__GetShadowDistance (const MethodInfo* method);
+float CustomRP_Settings__GetDebugShadowDistance (const MethodInfo* method);
+void CustomRP_Settings__SetDebugShadowDistance (float distance, const MethodInfo* method);
+float CustomRP_Settings__GetActualShadowDistance (const MethodInfo* method);
+void CustomRP_Settings__SetLutMode (int32_t mode, const MethodInfo* method);
+void CustomRP_Settings__SetSilhouetteVisibility (bool visibility, const MethodInfo* method);
+int32_t CustomRP_Settings__GetSilhouetteColorGroup (int32_t index, const MethodInfo* method);
+void CustomRP_Settings__SetOcclusionCastFlag (bool visibility, const MethodInfo* method);
+void CustomRP_Settings__SetRenderingFlag (bool enabled, const MethodInfo* method);
+bool CustomRP_Settings__IsRenderingFlagEnabled (const MethodInfo* method);
+void CustomRP_Settings__SetRenderScale (float scale, const MethodInfo* method);
+float CustomRP_Settings__GetRenderScale (const MethodInfo* method);
+float CustomRP_Settings__GetCustomAlpha (int32_t type, const MethodInfo* method);
+void CustomRP_Settings__SetCustomAlpha (int32_t type, float alpha, const MethodInfo* method);
+float CustomRP_Settings__GetCustomEV (int32_t type, const MethodInfo* method);
+void CustomRP_Settings__SetCustomEV (int32_t type, float ev, const MethodInfo* method);
+void CustomRP_Settings__SetCustomCaptureEnabled (bool enabled, const MethodInfo* method);
+void CustomRP_Settings__SetCustomBlur (bool enabled, const MethodInfo* method);
+void CustomRP_Settings__SetCustomBlur (bool enabled, int32_t level, const MethodInfo* method);
+void CustomRP_Settings__SetSpecialFilterFlag (bool enabled, const MethodInfo* method);
+void CustomRP_Settings__SetSpecialFilterColor (UnityEngine_Color_o color, const MethodInfo* method);
+void CustomRP_Settings__SetSpecialFilterSaturation (float sat, const MethodInfo* method);
+void CustomRP_Settings__SpecialFilterRate (float rate, const MethodInfo* method);
+void CustomRP_Settings__SpecialFilterWhiteRate (float rate, const MethodInfo* method);
+void CustomRP_Settings__SpecialFilterWhitePoint (float whitePoint, const MethodInfo* method);
+void CustomRP_Settings__SetFinalMonoColor (UnityEngine_Color_o color, const MethodInfo* method);
+void CustomRP_Settings__SetFinalMonoColorRate (float rate, const MethodInfo* method);
+void CustomRP_Settings__SetWaterReflectionBaseY (float baseY, const MethodInfo* method);
+void CustomRP_Settings__SetWaterReflectionBaseY (int32_t type, float baseY, const MethodInfo* method);
+UnityEngine_Rendering_Universal_UniversalRenderPipelineAsset_o* CustomRP_Settings__GetSettings (const MethodInfo* method);
+UnityEngine_Rendering_Universal_Custom_CustomForwardRenderer_o* CustomRP_Settings__GetDefaultRenderer (UnityEngine_Rendering_Universal_UniversalRenderPipelineAsset_o* settings, const MethodInfo* method);
+UnityEngine_Rendering_Universal_Custom_CustomForwardRenderer_o* CustomRP_Settings__GetDefaultRenderer (const MethodInfo* method);
+void CustomRP_Settings__SetSkinQualityLOD1 (float dist, const MethodInfo* method);
+float CustomRP_Settings__GetSkinQualityLOD1 (const MethodInfo* method);
+void CustomRP_Settings__SetSkinQualityLOD2 (float dist, const MethodInfo* method);
+float CustomRP_Settings__GetSkinQualityLOD2 (const MethodInfo* method);
+void CustomRP_Settings__SetSkinQualityLODEnabled (bool enabled, const MethodInfo* method);
+bool CustomRP_Settings__IsSkinQualityLODEnabled (const MethodInfo* method);
+void CustomRP_Settings___ctor (CustomRP_Settings_o* __this, const MethodInfo* method);
+void CustomRP_Settings___cctor (const MethodInfo* method);

@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_String_o* UnityEngine_AddressableAssets_AssetLabelReference__get_labelString (UnityEngine_AddressableAssets_AssetLabelReference_o* __this, const MethodInfo* method);
+void UnityEngine_AddressableAssets_AssetLabelReference__set_labelString (UnityEngine_AddressableAssets_AssetLabelReference_o* __this, System_String_o* value, const MethodInfo* method);
+Il2CppObject* UnityEngine_AddressableAssets_AssetLabelReference__get_RuntimeKey (UnityEngine_AddressableAssets_AssetLabelReference_o* __this, const MethodInfo* method);
+bool UnityEngine_AddressableAssets_AssetLabelReference__RuntimeKeyIsValid (UnityEngine_AddressableAssets_AssetLabelReference_o* __this, const MethodInfo* method);
+int32_t UnityEngine_AddressableAssets_AssetLabelReference__GetHashCode (UnityEngine_AddressableAssets_AssetLabelReference_o* __this, const MethodInfo* method);
+void UnityEngine_AddressableAssets_AssetLabelReference___ctor (UnityEngine_AddressableAssets_AssetLabelReference_o* __this, const MethodInfo* method);

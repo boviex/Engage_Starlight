@@ -1,0 +1,10 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void Mono_Security_X509_X509ExtensionCollection___ctor (Mono_Security_X509_X509ExtensionCollection_o* __this, const MethodInfo* method);
+void Mono_Security_X509_X509ExtensionCollection___ctor (Mono_Security_X509_X509ExtensionCollection_o* __this, Mono_Security_ASN1_o* asn1, const MethodInfo* method);
+System_Collections_IEnumerator_o* Mono_Security_X509_X509ExtensionCollection__System_Collections_IEnumerable_GetEnumerator (Mono_Security_X509_X509ExtensionCollection_o* __this, const MethodInfo* method);
+void Mono_Security_X509_X509ExtensionCollection___ctor (Mono_Security_X509_X509ExtensionCollection_1_o* __this, const MethodInfo* method);
+void Mono_Security_X509_X509ExtensionCollection___ctor (Mono_Security_X509_X509ExtensionCollection_1_o* __this, Mono_Security_ASN1_1_o* asn1, const MethodInfo* method);
+System_Collections_IEnumerator_o* Mono_Security_X509_X509ExtensionCollection__System_Collections_IEnumerable_GetEnumerator (Mono_Security_X509_X509ExtensionCollection_1_o* __this, const MethodInfo* method);

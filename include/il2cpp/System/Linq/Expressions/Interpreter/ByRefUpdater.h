@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_ByRefUpdater___ctor (System_Linq_Expressions_Interpreter_ByRefUpdater_o* __this, int32_t argumentIndex, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_ByRefUpdater__UndefineTemps (System_Linq_Expressions_Interpreter_ByRefUpdater_o* __this, System_Linq_Expressions_Interpreter_InstructionList_o* instructions, System_Linq_Expressions_Interpreter_LocalVariables_o* locals, const MethodInfo* method);

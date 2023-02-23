@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_CreateSafeObservable_object____ctor (UniRx_Operators_CreateSafeObservable_T__o* __this, System_Func_IObserver_T___IDisposable__o* subscribe, const MethodInfo_24FF4B0* method);
+void UniRx_Operators_CreateSafeObservable_object____ctor (UniRx_Operators_CreateSafeObservable_T__o* __this, System_Func_IObserver_T___IDisposable__o* subscribe, bool isRequiredSubscribeOnCurrentThread, const MethodInfo_24FF500* method);
+System_IDisposable_o* UniRx_Operators_CreateSafeObservable_object___SubscribeCore (UniRx_Operators_CreateSafeObservable_T__o* __this, System_IObserver_T__o* observer, System_IDisposable_o* cancel, const MethodInfo_24FF550* method);

@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Xml_XmlTextReaderImpl_NoNamespaceManager___ctor (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, const MethodInfo* method);
+System_String_o* System_Xml_XmlTextReaderImpl_NoNamespaceManager__get_DefaultNamespace (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, const MethodInfo* method);
+void System_Xml_XmlTextReaderImpl_NoNamespaceManager__PushScope (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, const MethodInfo* method);
+bool System_Xml_XmlTextReaderImpl_NoNamespaceManager__PopScope (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, const MethodInfo* method);
+void System_Xml_XmlTextReaderImpl_NoNamespaceManager__AddNamespace (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, System_String_o* prefix, System_String_o* uri, const MethodInfo* method);
+System_Collections_IEnumerator_o* System_Xml_XmlTextReaderImpl_NoNamespaceManager__GetEnumerator (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, const MethodInfo* method);
+System_Collections_Generic_IDictionary_string__string__o* System_Xml_XmlTextReaderImpl_NoNamespaceManager__GetNamespacesInScope (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, int32_t scope, const MethodInfo* method);
+System_String_o* System_Xml_XmlTextReaderImpl_NoNamespaceManager__LookupNamespace (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, System_String_o* prefix, const MethodInfo* method);
+System_String_o* System_Xml_XmlTextReaderImpl_NoNamespaceManager__LookupPrefix (System_Xml_XmlTextReaderImpl_NoNamespaceManager_o* __this, System_String_o* uri, const MethodInfo* method);

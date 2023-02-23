@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void App_VersusSequence_VersusMatchingMenu_ProfileMenuItem___ctor (App_VersusSequence_VersusMatchingMenu_ProfileMenuItem_o* __this, const MethodInfo* method);
+int32_t App_VersusSequence_VersusMatchingMenu_ProfileMenuItem__ACall (App_VersusSequence_VersusMatchingMenu_ProfileMenuItem_o* __this, const MethodInfo* method);
+void App_VersusSequence_VersusMatchingMenu_ProfileMenuItem__OnSelect (App_VersusSequence_VersusMatchingMenu_ProfileMenuItem_o* __this, const MethodInfo* method);

@@ -1,0 +1,12 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UnityEngine_Rendering_HableCurve_Uniforms___ctor (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, UnityEngine_Rendering_HableCurve_o* parent, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_HableCurve_Uniforms__get_curve (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_HableCurve_Uniforms__get_toeSegmentA (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_HableCurve_Uniforms__get_toeSegmentB (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_HableCurve_Uniforms__get_midSegmentA (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_HableCurve_Uniforms__get_midSegmentB (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_HableCurve_Uniforms__get_shoSegmentA (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, const MethodInfo* method);
+UnityEngine_Vector4_o UnityEngine_Rendering_HableCurve_Uniforms__get_shoSegmentB (UnityEngine_Rendering_HableCurve_Uniforms_o* __this, const MethodInfo* method);

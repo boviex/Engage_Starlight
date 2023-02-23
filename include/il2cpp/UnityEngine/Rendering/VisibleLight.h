@@ -1,0 +1,13 @@
+#pragma once
+
+#include "il2cpp.h"
+
+UnityEngine_Light_o* UnityEngine_Rendering_VisibleLight__get_light (UnityEngine_Rendering_VisibleLight_o __this, const MethodInfo* method);
+int32_t UnityEngine_Rendering_VisibleLight__get_lightType (UnityEngine_Rendering_VisibleLight_o __this, const MethodInfo* method);
+UnityEngine_Color_o UnityEngine_Rendering_VisibleLight__get_finalColor (UnityEngine_Rendering_VisibleLight_o __this, const MethodInfo* method);
+UnityEngine_Matrix4x4_o UnityEngine_Rendering_VisibleLight__get_localToWorldMatrix (UnityEngine_Rendering_VisibleLight_o __this, const MethodInfo* method);
+float UnityEngine_Rendering_VisibleLight__get_range (UnityEngine_Rendering_VisibleLight_o __this, const MethodInfo* method);
+float UnityEngine_Rendering_VisibleLight__get_spotAngle (UnityEngine_Rendering_VisibleLight_o __this, const MethodInfo* method);
+bool UnityEngine_Rendering_VisibleLight__Equals (UnityEngine_Rendering_VisibleLight_o __this, UnityEngine_Rendering_VisibleLight_o other, const MethodInfo* method);
+bool UnityEngine_Rendering_VisibleLight__Equals (UnityEngine_Rendering_VisibleLight_o __this, Il2CppObject* obj, const MethodInfo* method);
+int32_t UnityEngine_Rendering_VisibleLight__GetHashCode (UnityEngine_Rendering_VisibleLight_o __this, const MethodInfo* method);

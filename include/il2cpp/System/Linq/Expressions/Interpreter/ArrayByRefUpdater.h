@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void System_Linq_Expressions_Interpreter_ArrayByRefUpdater___ctor (System_Linq_Expressions_Interpreter_ArrayByRefUpdater_o* __this, System_Linq_Expressions_Interpreter_LocalDefinition_o array, System_Linq_Expressions_Interpreter_LocalDefinition_o index, int32_t argumentIndex, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_ArrayByRefUpdater__Update (System_Linq_Expressions_Interpreter_ArrayByRefUpdater_o* __this, System_Linq_Expressions_Interpreter_InterpretedFrame_o* frame, Il2CppObject* value, const MethodInfo* method);
+void System_Linq_Expressions_Interpreter_ArrayByRefUpdater__UndefineTemps (System_Linq_Expressions_Interpreter_ArrayByRefUpdater_o* __this, System_Linq_Expressions_Interpreter_InstructionList_o* instructions, System_Linq_Expressions_Interpreter_LocalVariables_o* locals, const MethodInfo* method);

@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+bool UnityEngine_ResourceManagement_WebRequestQueueOperation__get_IsDone (UnityEngine_ResourceManagement_WebRequestQueueOperation_o* __this, const MethodInfo* method);
+void UnityEngine_ResourceManagement_WebRequestQueueOperation___ctor (UnityEngine_ResourceManagement_WebRequestQueueOperation_o* __this, UnityEngine_Networking_UnityWebRequest_o* request, const MethodInfo* method);
+void UnityEngine_ResourceManagement_WebRequestQueueOperation__Complete (UnityEngine_ResourceManagement_WebRequestQueueOperation_o* __this, UnityEngine_Networking_UnityWebRequestAsyncOperation_o* asyncOp, const MethodInfo* method);

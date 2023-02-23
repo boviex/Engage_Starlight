@@ -1,0 +1,8 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Triggers_ObservablePointerExitTrigger__UnityEngine_EventSystems_IPointerExitHandler_OnPointerExit (UniRx_Triggers_ObservablePointerExitTrigger_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
+System_IObservable_PointerEventData__o* UniRx_Triggers_ObservablePointerExitTrigger__OnPointerExitAsObservable (UniRx_Triggers_ObservablePointerExitTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservablePointerExitTrigger__RaiseOnCompletedOnDestroy (UniRx_Triggers_ObservablePointerExitTrigger_o* __this, const MethodInfo* method);
+void UniRx_Triggers_ObservablePointerExitTrigger___ctor (UniRx_Triggers_ObservablePointerExitTrigger_o* __this, const MethodInfo* method);

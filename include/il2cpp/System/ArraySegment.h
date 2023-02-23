@@ -1,0 +1,44 @@
+#pragma once
+
+#include "il2cpp.h"
+
+System_Byte_array* System_ArraySegment_byte___get_Array (System_ArraySegment_byte__o __this, const MethodInfo_203D500* method);
+System_Object_array* System_ArraySegment_object___get_Array (System_ArraySegment_T__o __this, const MethodInfo_203DFF0* method);
+int32_t System_ArraySegment_byte___get_Offset (System_ArraySegment_byte__o __this, const MethodInfo_203D510* method);
+int32_t System_ArraySegment_object___get_Offset (System_ArraySegment_T__o __this, const MethodInfo_203E000* method);
+int32_t System_ArraySegment_byte___get_Count (System_ArraySegment_byte__o __this, const MethodInfo_203D520* method);
+int32_t System_ArraySegment_object___get_Count (System_ArraySegment_T__o __this, const MethodInfo_203E010* method);
+int32_t System_ArraySegment_byte___GetHashCode (System_ArraySegment_byte__o __this, const MethodInfo_203D530* method);
+int32_t System_ArraySegment_object___GetHashCode (System_ArraySegment_T__o __this, const MethodInfo_203E020* method);
+bool System_ArraySegment_byte___Equals (System_ArraySegment_byte__o __this, Il2CppObject* obj, const MethodInfo_203D570* method);
+bool System_ArraySegment_object___Equals (System_ArraySegment_T__o __this, Il2CppObject* obj, const MethodInfo_203E060* method);
+bool System_ArraySegment_byte___Equals (System_ArraySegment_byte__o __this, System_ArraySegment_T__o obj, const MethodInfo_203D6D0* method);
+bool System_ArraySegment_object___Equals (System_ArraySegment_T__o __this, System_ArraySegment_T__o obj, const MethodInfo_203E1C0* method);
+uint8_t System_ArraySegment_byte___System_Collections_Generic_IList_T__get_Item (System_ArraySegment_byte__o __this, int32_t index, const MethodInfo_203D710* method);
+Il2CppObject* System_ArraySegment_object___System_Collections_Generic_IList_T__get_Item (System_ArraySegment_T__o __this, int32_t index, const MethodInfo_203E200* method);
+void System_ArraySegment_byte___System_Collections_Generic_IList_T__set_Item (System_ArraySegment_byte__o __this, int32_t index, uint8_t value, const MethodInfo_203D800* method);
+void System_ArraySegment_object___System_Collections_Generic_IList_T__set_Item (System_ArraySegment_T__o __this, int32_t index, Il2CppObject* value, const MethodInfo_203E2F0* method);
+int32_t System_ArraySegment_byte___System_Collections_Generic_IList_T__IndexOf (System_ArraySegment_byte__o __this, uint8_t item, const MethodInfo_203D8F0* method);
+int32_t System_ArraySegment_object___System_Collections_Generic_IList_T__IndexOf (System_ArraySegment_T__o __this, Il2CppObject* item, const MethodInfo_203E3F0* method);
+void System_ArraySegment_byte___System_Collections_Generic_IList_T__Insert (System_ArraySegment_byte__o __this, int32_t index, uint8_t item, const MethodInfo_203D9F0* method);
+void System_ArraySegment_object___System_Collections_Generic_IList_T__Insert (System_ArraySegment_T__o __this, int32_t index, Il2CppObject* item, const MethodInfo_203E4F0* method);
+void System_ArraySegment_byte___System_Collections_Generic_IList_T__RemoveAt (System_ArraySegment_byte__o __this, int32_t index, const MethodInfo_203DA30* method);
+void System_ArraySegment_object___System_Collections_Generic_IList_T__RemoveAt (System_ArraySegment_T__o __this, int32_t index, const MethodInfo_203E530* method);
+uint8_t System_ArraySegment_byte___System_Collections_Generic_IReadOnlyList_T__get_Item (System_ArraySegment_byte__o __this, int32_t index, const MethodInfo_203DA70* method);
+Il2CppObject* System_ArraySegment_object___System_Collections_Generic_IReadOnlyList_T__get_Item (System_ArraySegment_T__o __this, int32_t index, const MethodInfo_203E570* method);
+bool System_ArraySegment_byte___System_Collections_Generic_ICollection_T__get_IsReadOnly (System_ArraySegment_byte__o __this, const MethodInfo_203DB60* method);
+bool System_ArraySegment_object___System_Collections_Generic_ICollection_T__get_IsReadOnly (System_ArraySegment_T__o __this, const MethodInfo_203E660* method);
+void System_ArraySegment_byte___System_Collections_Generic_ICollection_T__Add (System_ArraySegment_byte__o __this, uint8_t item, const MethodInfo_203DB70* method);
+void System_ArraySegment_object___System_Collections_Generic_ICollection_T__Add (System_ArraySegment_T__o __this, Il2CppObject* item, const MethodInfo_203E670* method);
+void System_ArraySegment_byte___System_Collections_Generic_ICollection_T__Clear (System_ArraySegment_byte__o __this, const MethodInfo_203DBB0* method);
+void System_ArraySegment_object___System_Collections_Generic_ICollection_T__Clear (System_ArraySegment_T__o __this, const MethodInfo_203E6B0* method);
+bool System_ArraySegment_byte___System_Collections_Generic_ICollection_T__Contains (System_ArraySegment_byte__o __this, uint8_t item, const MethodInfo_203DBF0* method);
+bool System_ArraySegment_object___System_Collections_Generic_ICollection_T__Contains (System_ArraySegment_T__o __this, Il2CppObject* item, const MethodInfo_203E6F0* method);
+void System_ArraySegment_byte___System_Collections_Generic_ICollection_T__CopyTo (System_ArraySegment_byte__o __this, System_Byte_array* array, int32_t arrayIndex, const MethodInfo_203DCE0* method);
+void System_ArraySegment_object___System_Collections_Generic_ICollection_T__CopyTo (System_ArraySegment_T__o __this, System_Object_array* array, int32_t arrayIndex, const MethodInfo_203E7E0* method);
+bool System_ArraySegment_byte___System_Collections_Generic_ICollection_T__Remove (System_ArraySegment_byte__o __this, uint8_t item, const MethodInfo_203DD70* method);
+bool System_ArraySegment_object___System_Collections_Generic_ICollection_T__Remove (System_ArraySegment_T__o __this, Il2CppObject* item, const MethodInfo_203E870* method);
+System_Collections_Generic_IEnumerator_T__o* System_ArraySegment_byte___System_Collections_Generic_IEnumerable_T__GetEnumerator (System_ArraySegment_byte__o __this, const MethodInfo_203DDB0* method);
+System_Collections_Generic_IEnumerator_T__o* System_ArraySegment_object___System_Collections_Generic_IEnumerable_T__GetEnumerator (System_ArraySegment_T__o __this, const MethodInfo_203E8B0* method);
+System_Collections_IEnumerator_o* System_ArraySegment_byte___System_Collections_IEnumerable_GetEnumerator (System_ArraySegment_byte__o __this, const MethodInfo_203DED0* method);
+System_Collections_IEnumerator_o* System_ArraySegment_object___System_Collections_IEnumerable_GetEnumerator (System_ArraySegment_T__o __this, const MethodInfo_203E9D0* method);

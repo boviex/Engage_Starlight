@@ -1,0 +1,6 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Operators_ContinueWithObservable_object__object____ctor (UniRx_Operators_ContinueWithObservable_TSource__TResult__o* __this, System_IObservable_TSource__o* source, System_Func_TSource__IObservable_TResult___o* selector, const MethodInfo_24FC670* method);
+System_IDisposable_o* UniRx_Operators_ContinueWithObservable_object__object___SubscribeCore (UniRx_Operators_ContinueWithObservable_TSource__TResult__o* __this, System_IObserver_TResult__o* observer, System_IDisposable_o* cancel, const MethodInfo_24FC6F0* method);

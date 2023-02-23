@@ -1,0 +1,7 @@
+#pragma once
+
+#include "il2cpp.h"
+
+void UniRx_Observable___c__DisplayClass13_0_object____ctor (UniRx_Observable___c__DisplayClass13_0_T__o* __this, const MethodInfo_2B7CD50* method);
+void UniRx_Observable___c__DisplayClass13_0_object____RegisterCancelation_b__0 (UniRx_Observable___c__DisplayClass13_0_T__o* __this, const MethodInfo_2B7CD60* method);
+void UniRx_Observable___c__DisplayClass13_0_object____RegisterCancelation_b__1 (UniRx_Observable___c__DisplayClass13_0_T__o* __this, System_Exception_o* __, const MethodInfo_2B7CE60* method);
