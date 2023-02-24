@@ -1,3 +1,4 @@
 [target=main, version=fee_120]
-2408F60+14:  // App.UnitItem$$Expend
-    nop
+2408F60:  // App.UnitItem$$Expend
+    b InfItems
+

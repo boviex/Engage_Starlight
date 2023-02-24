@@ -1,5 +1,5 @@
 {
     global:
-        _Z10socket_logPKc; _Z13tryInitSocketv; _Z16socket_read_charPc; _Z21socket_log_initializev; _Z3LOGPKcz;
+        _Z10socket_logPKc; _Z13tryInitSocketv; _Z16socket_read_charPc; _Z21socket_log_initializev; _Z3LOGPKcz; _Z8InfItemsl;
     local: *;
 };

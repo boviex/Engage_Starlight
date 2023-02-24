@@ -72,7 +72,7 @@ void socket_log_initialize() {
     }
 
     nn::socket::InetAton(LOGGER_IP, &hostAddress);
-
+    
     serverAddress.address = hostAddress;
     serverAddress.port = nn::socket::InetHtons(LOGGER_PORT);
     serverAddress.family = 2;

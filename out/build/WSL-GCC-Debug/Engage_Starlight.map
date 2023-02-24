@@ -24,6 +24,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
  .text          0x0000000000000000        0x0 CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
  .data          0x0000000000000000        0x0 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strlen.o)
  .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strlen.o)
  .text          0x0000000000000000        0x0 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strncat.o)
@@ -56,7 +59,7 @@ Linker script and memory map
                 0x0000000000000000                . = __start__
                 0x0000000000000000                __code_start__ = .
 
-.text           0x0000000000000000      0x4f8
+.text           0x0000000000000000      0x538
                 0x0000000000000000                __text_start__ = .
  *(.text.crt0)
  .text.crt0     0x0000000000000000        0x8 CMakeFiles/Engage_Starlight.dir/src/crt0.s.obj
@@ -89,16 +92,19 @@ Linker script and memory map
                 0x0000000000000320       0x14 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
                 0x0000000000000320                tryInitSocket()
  *fill*         0x0000000000000334        0xc 
- .text          0x0000000000000340      0x140 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strlen.o)
-                0x0000000000000340                strlen
- .text.strncat  0x0000000000000480       0x78 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strncat.o)
-                0x0000000000000480                strncat
-                0x00000000000004f8                __text_end__ = .
+ .text._Z8InfItemsl
+                0x0000000000000340       0x40 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
+                0x0000000000000340                InfItems(long)
+ .text          0x0000000000000380      0x140 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strlen.o)
+                0x0000000000000380                strlen
+ .text.strncat  0x00000000000004c0       0x78 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strncat.o)
+                0x00000000000004c0                strncat
+                0x0000000000000538                __text_end__ = .
 
-.plt            0x00000000000004f8      0x120
+.plt            0x0000000000000538      0x120
  *(.plt .plt.*)
- .plt           0x00000000000004f8      0x120 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
-                0x0000000000000618                __code_end__ = .
+ .plt           0x0000000000000538      0x120 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+                0x0000000000000658                __code_end__ = .
                 0x0000000000001000                . = ALIGN (0x1000)
 
 .module_name    0x0000000000001000       0x1c
@@ -128,70 +134,72 @@ Linker script and memory map
  .gnu.version_r
                 0x0000000000001088        0x0 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
 
-.hash           0x0000000000001088       0xa0
+.hash           0x0000000000001088       0xa4
  *(.hash)
- .hash          0x0000000000001088       0xa0 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+ .hash          0x0000000000001088       0xa4 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
 
 .gnu.hash
  *(.gnu.hash)
 
-.dynsym         0x0000000000001128      0x1f8
+.dynsym         0x0000000000001130      0x210
  *(.dynsym .dynsym.*)
- .dynsym        0x0000000000001128      0x1f8 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+ .dynsym        0x0000000000001130      0x210 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
 
-.dynstr         0x0000000000001320      0x1ee
+.dynstr         0x0000000000001340      0x1fb
  *(.dynstr .dynstr.*)
- .dynstr        0x0000000000001320      0x1ee /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
-                0x000000000000150e                __rel_dyn_start__ = .
+ .dynstr        0x0000000000001340      0x1fb /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+                0x000000000000153b                __rel_dyn_start__ = .
 
 .rel.dyn
  *(.rel.dyn)
-                0x000000000000150e                __rel_dyn_end__ = .
-                0x000000000000150e                __rela_dyn_start__ = .
+                0x000000000000153b                __rel_dyn_end__ = .
+                0x000000000000153b                __rela_dyn_start__ = .
 
-.rela.dyn       0x0000000000001510       0x90
+.rela.dyn       0x0000000000001540       0x90
  *(.rela.dyn)
- .rela.got      0x0000000000001510       0x60 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+ .rela.got      0x0000000000001540       0x60 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
  .rela.init_array
-                0x0000000000001570       0x18 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+                0x00000000000015a0       0x18 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
  .rela.fini_array
-                0x0000000000001588       0x18 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
- .rela.ifunc    0x00000000000015a0        0x0 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
-                0x00000000000015a0                __rela_dyn_end__ = .
-                0x00000000000015a0                __rel_plt_start__ = .
+                0x00000000000015b8       0x18 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+ .rela.ifunc    0x00000000000015d0        0x0 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+                0x00000000000015d0                __rela_dyn_end__ = .
+                0x00000000000015d0                __rel_plt_start__ = .
 
 .rel.plt
  *(.rel.plt)
-                0x00000000000015a0                __rel_plt_end__ = .
-                0x00000000000015a0                __rela_plt_start__ = .
+                0x00000000000015d0                __rel_plt_end__ = .
+                0x00000000000015d0                __rela_plt_start__ = .
 
-.rela.plt       0x00000000000015a0      0x180
+.rela.plt       0x00000000000015d0      0x180
  *(.rela.plt)
- .rela.plt      0x00000000000015a0      0x180 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
-                0x0000000000001720                __rela_plt_end__ = .
+ .rela.plt      0x00000000000015d0      0x180 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+                0x0000000000001750                __rela_plt_end__ = .
 
 .gcc_except_table
  *(.gcc_except_table .gcc_except_table.*)
 
-.eh_frame_hdr   0x0000000000001720        0x0
-                0x0000000000001720                __eh_frame_hdr_start__ = .
+.eh_frame_hdr   0x0000000000001750        0x0
+                0x0000000000001750                __eh_frame_hdr_start__ = .
  *(.eh_frame_hdr)
-                0x0000000000001720                __eh_frame_hdr_end__ = .
+                0x0000000000001750                __eh_frame_hdr_end__ = .
 
-.eh_frame       0x0000000000001720      0x130
+.eh_frame       0x0000000000001750      0x148
  *(.eh_frame)
- .eh_frame      0x0000000000001720       0x50 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crtbegin.o
- .eh_frame      0x0000000000001770       0xc8 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
+ .eh_frame      0x0000000000001750       0x50 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crtbegin.o
+ .eh_frame      0x00000000000017a0       0xc8 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
                                          0xd8 (size before relaxing)
- .eh_frame      0x0000000000001838       0x14 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strncat.o)
+ .eh_frame      0x0000000000001868       0x18 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
                                          0x28 (size before relaxing)
- .eh_frame      0x000000000000184c        0x4 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crtend.o
+ .eh_frame      0x0000000000001880       0x14 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strncat.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000000001894        0x4 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crtend.o
 
 .note.gnu.build-id
-                0x0000000000001850       0x24
+                0x0000000000001898       0x24
  *(.note.gnu.build-id)
  .note.gnu.build-id
-                0x0000000000001850       0x24 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
+                0x0000000000001898       0x24 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crti.o
                 0x0000000000002000                . = ALIGN (0x1000)
 
 .data           0x0000000000002000        0x4
@@ -291,6 +299,7 @@ LOAD /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crtbegi
 LOAD CMakeFiles/Engage_Starlight.dir/src/crt0.s.obj
 LOAD CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
 LOAD CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
+LOAD CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
 LOAD /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libstdc++.a
 LOAD /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libm.a
 START GROUP
@@ -308,45 +317,57 @@ OUTPUT(Engage_Starlight.elf elf64-littleaarch64)
                                          0x24 (size before relaxing)
  .comment       0x0000000000000023       0x24 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
  .comment       0x0000000000000023       0x24 CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
+ .comment       0x0000000000000023       0x24 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
  .comment       0x0000000000000023       0x24 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/../../../../aarch64-none-elf/lib/pic/libg.a(lib_a-strncat.o)
  .comment       0x0000000000000023       0x24 /opt/devkitpro/devkitA64/bin/../lib/gcc/aarch64-none-elf/12.1.0/pic/crtend.o
 
-.debug_line     0x0000000000000000      0x7ba
+.debug_line     0x0000000000000000      0x8c6
  .debug_line    0x0000000000000000       0x71 CMakeFiles/Engage_Starlight.dir/src/crt0.s.obj
  .debug_line    0x0000000000000071      0x6e5 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
  .debug_line    0x0000000000000756       0x64 CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
+ .debug_line    0x00000000000007ba      0x10c CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
 
-.debug_info     0x0000000000000000     0x298c
+.debug_info     0x0000000000000000     0x2a83
  .debug_info    0x0000000000000000       0x2e CMakeFiles/Engage_Starlight.dir/src/crt0.s.obj
  .debug_info    0x000000000000002e     0x28ae CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
  .debug_info    0x00000000000028dc       0xb0 CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
+ .debug_info    0x000000000000298c       0xf7 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
 
-.debug_abbrev   0x0000000000000000      0x5ee
+.debug_abbrev   0x0000000000000000      0x671
  .debug_abbrev  0x0000000000000000       0x14 CMakeFiles/Engage_Starlight.dir/src/crt0.s.obj
  .debug_abbrev  0x0000000000000014      0x56b CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
  .debug_abbrev  0x000000000000057f       0x6f CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
+ .debug_abbrev  0x00000000000005ee       0x83 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
 
-.debug_aranges  0x0000000000000000       0xc0
+.debug_aranges  0x0000000000000000       0xf0
  .debug_aranges
                 0x0000000000000000       0x30 CMakeFiles/Engage_Starlight.dir/src/crt0.s.obj
  .debug_aranges
                 0x0000000000000030       0x70 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
  .debug_aranges
                 0x00000000000000a0       0x20 CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
+ .debug_aranges
+                0x00000000000000c0       0x30 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
 
-.debug_str      0x0000000000000000     0x120a
+.debug_str      0x0000000000000000     0x127e
  .debug_str     0x0000000000000000       0x99 CMakeFiles/Engage_Starlight.dir/src/crt0.s.obj
  .debug_str     0x0000000000000099     0x10ee CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
                                        0x144a (size before relaxing)
  .debug_str     0x0000000000001187       0x83 CMakeFiles/Engage_Starlight.dir/src/module.cpp.obj
                                         0x1e8 (size before relaxing)
+ .debug_str     0x000000000000120a       0x74 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
+                                        0x27a (size before relaxing)
 
 .debug_loclists
-                0x0000000000000000      0x101
+                0x0000000000000000      0x134
  .debug_loclists
                 0x0000000000000000      0x101 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
+ .debug_loclists
+                0x0000000000000101       0x33 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
 
 .debug_rnglists
-                0x0000000000000000       0x52
+                0x0000000000000000       0x69
  .debug_rnglists
                 0x0000000000000000       0x52 CMakeFiles/Engage_Starlight.dir/src/logger.cpp.obj
+ .debug_rnglists
+                0x0000000000000052       0x17 CMakeFiles/Engage_Starlight.dir/src/toggles/infitems.cpp.obj
